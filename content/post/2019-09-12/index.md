@@ -1,5 +1,6 @@
 +++
 title =  "gem でインストールした cocoapods をアップデート"
+url = "2019-09-12"
 date = "2019-09-12"
 description = "Guide to emoji usage in Hugo"
 tags = [

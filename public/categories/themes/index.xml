@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>themes on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/themes/</link>
+    <description>Recent content in themes on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/categories/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gem でインストールした cocoapods をアップデート</title>
+      <link>https://swiswiswift.com/gem-%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F-cocoapods-%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/gem-%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F-cocoapods-%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88/</guid>
+      <description>gem でインストールした cocoapods のバージョンをアップデートする方法です。 gem update cocoapods pod --version</description>
+    </item>
+    
+    <item>
+      <title>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました</title>
+      <link>https://swiswiswift.com/iosdc-japan-2019%E3%81%AEday1%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E3%83%AB%E3%83%BC%E3%82%AD%E3%83%BC%E3%82%BAlt%E6%9E%A0%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/iosdc-japan-2019%E3%81%AEday1%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E3%83%AB%E3%83%BC%E3%82%AD%E3%83%BC%E3%82%BAlt%E6%9E%A0%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました。 聞いたセッションについてはまた別ブログで。 まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で発表させていただきました。 「iOSDCでのトークが初めての方のみ応募が可能な枠」で</description>
+    </item>
+    
+    <item>
+      <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
+      <link>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</guid>
+      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://swiswiswift.com/markdown-syntax-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>サイトリニューアルしました</title>
+      <link>https://swiswiswift.com/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>サイトのリニューアルを行いました。</description>
+    </item>
+    
+  </channel>
+</rss>

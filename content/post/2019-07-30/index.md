@@ -19,3 +19,6 @@ TableView のセルの高さを変更する方法です。
 
 サンプルコードはこちら。
 https://github.com/O-Junpei/swiswiswift-ios
+
+
+![alt](1.png)
