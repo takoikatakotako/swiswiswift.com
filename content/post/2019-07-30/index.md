@@ -14,11 +14,11 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-TableView のセルの高さを変更する方法です。
+TableView のセルの高さを変更する方法です。  
 一括で帰るときは .rowHeight を使い、個別に変えたいときは　heightForRowAt　を使うと実現できました。
 
-サンプルコードはこちら。
-https://github.com/O-Junpei/swiswiswift-ios
+サンプルコードはこちら。  
+[https://github.com/O-Junpei/swiswiswift-ios](https://github.com/O-Junpei/swiswiswift-ios)
 
 
 ![alt](1.png)

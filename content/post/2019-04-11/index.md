@@ -15,6 +15,16 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。
+Swift でUITest を行うサンプルコードです。  
+左右のテキストフィールドに数字を入れ、ボタンを押すとその積を計算するアプリを作りました。  
 
-<script src="https://gist.github.com/O-Junpei/0a5bd7d9735617105e941e86a83ef9bd.js"></script>
+そしてそのアプリのUITest を実装しました。  
+
+参考: [【Swift】初めてのUITest導入](https://qiita.com/taji-taji/items/c00e5b94376c37f17443)
+
+![alt](1.gif)
+![alt](2.gif)
+
+<script src="https://gist.github.com/O-Junpei/5aba51305d74c009a2c878897837e006.js"></script>
+
+<script src="https://gist.github.com/O-Junpei/5aba51305d74c009a2c878897837e006.js"></script>

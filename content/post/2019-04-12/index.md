@@ -15,6 +15,11 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。
 
-<script src="https://gist.github.com/O-Junpei/0a5bd7d9735617105e941e86a83ef9bd.js"></script>
+サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。  
+ログイン時に表示したい文字は `$/etc/motd` に記述します。  
+ただのテキストだと気が付きにくいので、figlet コマンドを使ってAAを作成するのがマイブームです。  
+
+
+
+<script src="https://gist.github.com/O-Junpei/418c1903a9f051304f3f5d8712cce81c.js"></script>

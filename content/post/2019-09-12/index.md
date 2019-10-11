@@ -1,8 +1,8 @@
 +++
-title =  "gem でインストールした cocoapods をアップデート"
+title =  "gem でインストールした cocoapods をアップデートする"
 url = "2019-09-12"
 date = "2019-09-12"
-description = "Guide to emoji usage in Hugo"
+description = "gem でインストールした cocoapods をアップデートする"
 tags = [
     "iOS",
 ]
@@ -14,7 +14,7 @@ archives = "2019/09"
 aliases = ["migrate-from-jekyl"]
 +++
 
-
+<br>
 gem でインストールした cocoapods のバージョンをアップデートする方法です。
 
 {{< highlight html >}}

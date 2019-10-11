@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>gem でインストールした cocoapods をアップデート</title>
-      <link>https://swiswiswift.com/gem-%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F-cocoapods-%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88/</link>
+      <title>gem でインストールした cocoapods をアップデートする</title>
+      <link>https://swiswiswift.com/2019-09-12/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/gem-%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F-cocoapods-%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88/</guid>
+      <guid>https://swiswiswift.com/2019-09-12/</guid>
       <description>gem でインストールした cocoapods のバージョンをアップデートする方法です。 gem update cocoapods pod --version</description>
     </item>
     
@@ -39,12 +39,129 @@
     </item>
     
     <item>
+      <title>ビズリーチキャンパスでアカウントがロックされた時の解除方法</title>
+      <link>https://swiswiswift.com/2019-07-29/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-07-29/</guid>
+      <description>パスワードをリセットする事で、アカウントのロックが解除されました。 https://br-campus.jp/password/reset</description>
+    </item>
+    
+    <item>
+      <title>UIButton、ボタンを表示する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-03/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-03/</guid>
+      <description>UIButton を使ってボタンを表示するサンプルコードです。</description>
+    </item>
+    
+    <item>
+      <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-02/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-02/</guid>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
+    </item>
+    
+    <item>
+      <title>UISlider で値を取得する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-01/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-01/</guid>
+      <description>UISlider で値を取得するサンプルコードです。 最小値と最大値を設定することで、その間の任意の値を取ることができます。</description>
+    </item>
+    
+    <item>
+      <title>CallKit を使って着信画面を表示する</title>
+      <link>https://swiswiswift.com/2019-05-12/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-05-12/</guid>
+      <description>CallKit を使うことで着信時のUIを使うことができます。</description>
+    </item>
+    
+    <item>
+      <title>ログイン時にメッセージを表示する（CentOS7）</title>
+      <link>https://swiswiswift.com/2019-04-12/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-04-12/</guid>
+      <description>サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。 ログイン時に表示したい文字は $/etc/motd に記述します。 ただのテキストだと気が付きにくいので、figlet コマンドを使ってAAを作成するのがマイブームです。</description>
+    </item>
+    
+    <item>
+      <title>iOSでUITest（E2Eテスト）を行う(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-04-11/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-04-11/</guid>
+      <description>Swift でUITest を行うサンプルコードです。 左右のテキストフィールドに数字を入れ、ボタンを押すとその積を計算するアプリを作りました。 そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入</description>
+    </item>
+    
+    <item>
+      <title>Java で文字列をシャッフルする</title>
+      <link>https://swiswiswift.com/2019-03-15/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-03-15/</guid>
+      <description>Java での文字列のシャッフル方法です。 結構面倒だったので、記事にしました。</description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax Guide</title>
       <link>https://swiswiswift.com/markdown-syntax-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/markdown-syntax-guide/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RootViewController をアニメーション付きで切り替える(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-02-01/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-02-01/</guid>
+      <description>RootViewController をアニメーション付きで切り替えるサンプルコードです。 チュートリアルの後とかでの使用を想定しています。</description>
+    </item>
+    
+    <item>
+      <title>id_rsa’ are too open.</title>
+      <link>https://swiswiswift.com/2019-01-28/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-28/</guid>
+      <description>以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しました。 WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0777 for &#39;/root/.ssh/id_rsa&#39; are too open. It is recommended that your private key files are NOT accessible by others. This private key will be ignored. bad permissions: ignore key: /root/.ssh/id_rsa $ chmod 600 /root/.ssh/id_rsa 参考 Error permission denied through ssh</description>
+    </item>
+    
+    <item>
+      <title>ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-27/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-27/</guid>
+      <description>ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。 SwiftyJsonなどを使うともっと良い感じにかけますが、今回は使わないで書いてみました。</description>
+    </item>
+    
+    <item>
+      <title>SwiftでUITestを導入(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-26/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-26/</guid>
+      <description>プロジェクトにUITestを追加します。 プロジェクト作成時に作らなかった場合は以下の画像の手順で追加することができます。 @testable import Swiswiswift（Swiswiswiftはプロジェクト名） と書くことで、テストクラスの中から参照できるようになります。 関数名の頭にtestと付けることで、テストとして実行</description>
+    </item>
+    
+    <item>
+      <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-22/</guid>
+      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView</description>
     </item>
     
     <item>

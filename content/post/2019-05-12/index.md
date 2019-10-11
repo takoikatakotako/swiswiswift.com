@@ -15,6 +15,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。
+CallKit を使うことで着信時のUIを使うことができます。
+
+![alt](1.png)
+![alt](2.png)
 
 <script src="https://gist.github.com/O-Junpei/0a5bd7d9735617105e941e86a83ef9bd.js"></script>
