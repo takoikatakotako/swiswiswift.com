@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/</link>
+    <link>http://localhost:8000/tags/</link>
     <description>Recent content in Tags on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8000/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iOS</title>
-      <link>https://swiswiswift.com/tags/ios/</link>
+      <link>http://localhost:8000/tags/ios/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/ios/</guid>
+      <guid>http://localhost:8000/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://swiswiswift.com/tags/css/</link>
+      <link>http://localhost:8000/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/css/</guid>
+      <guid>http://localhost:8000/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://swiswiswift.com/tags/html/</link>
+      <link>http://localhost:8000/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/html/</guid>
+      <guid>http://localhost:8000/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://swiswiswift.com/tags/markdown/</link>
+      <link>http://localhost:8000/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/markdown/</guid>
+      <guid>http://localhost:8000/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://swiswiswift.com/tags/themes/</link>
+      <link>http://localhost:8000/tags/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/themes/</guid>
+      <guid>http://localhost:8000/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://swiswiswift.com/tags/privacy/</link>
+      <link>http://localhost:8000/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/privacy/</guid>
+      <guid>http://localhost:8000/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>https://swiswiswift.com/tags/shortcodes/</link>
+      <link>http://localhost:8000/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/shortcodes/</guid>
+      <guid>http://localhost:8000/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>https://swiswiswift.com/tags/text/</link>
+      <link>http://localhost:8000/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/text/</guid>
+      <guid>http://localhost:8000/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>https://swiswiswift.com/tags/emoji/</link>
+      <link>http://localhost:8000/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/emoji/</guid>
+      <guid>http://localhost:8000/tags/emoji/</guid>
       <description></description>
     </item>
     

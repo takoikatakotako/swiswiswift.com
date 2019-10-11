@@ -1,4 +1,4 @@
-baseURL = "https://swiswiswift.com/"
+baseURL = "http://localhost:8000/"
 languageCode = "ja"
 title = "すいすいSwift"
 theme = "Inkblotty"
@@ -20,6 +20,9 @@ disqusShortname = ""
 googleAnalytics = ""
 
 summaryLength=150
+
+canonifyurls = true
+
 
 [permalinks]
   post = "/:slug/"
