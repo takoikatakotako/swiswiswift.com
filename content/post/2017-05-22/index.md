@@ -1,7 +1,7 @@
 +++
-title = "Xcode10でプロジェクト名を変更する"
-url = "2019-04-11"
-date = "2019-04-11"
+title = "Androidアプリのアクションバーの影を消す"
+url = "2017-05-22"
+date = "2017-05-22"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
@@ -16,14 +16,6 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+Androidアプリのアクションバーの影を消します。
 
-こちらの記事を参考にさせていただきました。
-ありがとうございます！
-参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを
-
-Xcodeでプロジェクト名を変更する方法 (Xcode8.0)
-
-今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。
-
-1. Xcodeからプロジェクト名を変更する
-右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。
+<script src="https://gist.github.com/O-Junpei/92f75bbc6d6a5cb70ce2bfda4dcd6aec.js"></script>

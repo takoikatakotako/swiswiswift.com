@@ -1,7 +1,7 @@
 +++
-title = "Xcode10でプロジェクト名を変更する"
-url = "2019-04-11"
-date = "2019-04-11"
+title = "UIStatusBarを白くする"
+url = "2017-05-16"
+date = "2017-05-16"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
@@ -15,15 +15,15 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+UIStatusBarを白くする方法についてです。
+
+UIStatusBarを白くする方法その1
+
+UIStatusBarを白くする方法その1です。特定のViewControllerを白くする方法です。白くしたいUIViewControllerに書きます。NavigationController以下にあるStatusBarはこの方法では白くはなりませんので注意してください。
+
+<script src="https://gist.github.com/O-Junpei/3f485ae74f1144ec0147dd81c3d677cf.js"></script>
 
 
-こちらの記事を参考にさせていただきました。
-ありがとうございます！
-参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを
+UIStatusBarを白くする方法その2
 
-Xcodeでプロジェクト名を変更する方法 (Xcode8.0)
-
-今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。
-
-1. Xcodeからプロジェクト名を変更する
-右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。
+全てのStatusBarを白くする方法です。プロジェクトのターゲットのinfoに[Status bar style]と[UIStatusBarStyleLightContent]、[View controller-based status bar appearance]と[NO]を追加します。NavigationController以下にあるStatusBarも白くなります。 わかりやすいようにViewの背景色をオレンジにしています。

@@ -1,7 +1,7 @@
 +++
-title = "Xcode10でプロジェクト名を変更する"
-url = "2019-04-11"
-date = "2019-04-11"
+title = "UITextField"
+url = "2017-05-12"
+date = "2017-05-12"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
@@ -16,14 +16,23 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+UITextFieldは文字の入力に使われます。
 
-こちらの記事を参考にさせていただきました。
-ありがとうございます！
-参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを
+UITextFieldのクラス階層
 
-Xcodeでプロジェクト名を変更する方法 (Xcode8.0)
+NSObject
+↑
+UIResponder
+↑
+UIView
+↑
+UIControl
+↑
+UITextField
+AppleDeveloperリファレンスUITextField
 
-今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。
+UITextField例文
 
-1. Xcodeからプロジェクト名を変更する
-右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。
+UITextField、生成し、ボタンが押されるとUITextFieldから文字列を取り出してラベルにコピーします。
+
+<script src="https://gist.github.com/O-Junpei/d3e668838373df7c0698a18efd512edf.js"></script>
