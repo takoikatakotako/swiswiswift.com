@@ -1,5 +1,5 @@
 +++
-title = "Xcode10でプロジェクト名を変更する"
+title = "UITableView"
 url = "2019-04-11"
 date = "2019-04-11"
 description = "Guide to emoji usage in Hugo"
@@ -16,14 +16,30 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。
 
-こちらの記事を参考にさせていただきました。
-ありがとうございます！
-参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを
+UITableViewのクラス階層
 
-Xcodeでプロジェクト名を変更する方法 (Xcode8.0)
+NSObject
+↑
+UIResponder
+↑
+UIView
+↑
+UIScrollView
+↑
+UITableView
 
-今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。
+AppleDeveloperリファレンスUITableView
 
-1. Xcodeからプロジェクト名を変更する
-右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。
+
+
+UITableView
+
+<script src="https://gist.github.com/O-Junpei/03d842a3c371bdf7030ec6a7d0537e47.js"></script>
+
+
+
+二つのグループの場合です。
+
+<script src="https://gist.github.com/O-Junpei/3be7c007819dc477010b443850fa47eb.js"></script>

@@ -1,7 +1,7 @@
 +++
-title = "Xcode10でプロジェクト名を変更する"
-url = "2019-04-11"
-date = "2019-04-11"
+title = "UILabel"
+url = "2017-05-09"
+date = "2017-05-09"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
@@ -16,14 +16,33 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+UILabelクラスは文字表示を管理するクラスです。画面に文字を表示させたい時に使用します。
 
-こちらの記事を参考にさせていただきました。
-ありがとうございます！
-参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを
+UILabelのクラス階層
 
-Xcodeでプロジェクト名を変更する方法 (Xcode8.0)
+NSObject
+↑
+UIResponder
+↑
+UIView
+↑
+UILabel
+AppleDeveloperリファレンスUILabel
 
-今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。
 
-1. Xcodeからプロジェクト名を変更する
-右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。
+
+
+UILabelサンプル
+
+サンプルコード
+
+
+<script src="https://gist.github.com/O-Junpei/6b60db47265f949ded1ee50517b25a5a.js"></script>
+
+
+UILabelのカスタマイズ
+
+UILabelにタッチイベントを実装
+参考:[Swift2.0] UILabelとUIImageViewのタップイベント処理を実装する
+
+<script src="https://gist.github.com/O-Junpei/0fb9d9197ce5817e365b064adbd2b409.js"></script>
