@@ -1,7 +1,8 @@
 ## Install
 
 ### Install Hugo
-```
+
+```
 $ brew install hugo
 ```
 
