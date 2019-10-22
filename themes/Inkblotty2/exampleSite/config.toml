@@ -1,15 +1,10 @@
-baseURL = "http://localhost:8000/"
-languageCode = "ja"
-title = "すいすいSwift"
-theme = "Inkblotty2"
+baseURL = "https://example.com"
+title = "Inkblotty"
+author = "Author"
+theme = "inkblotty"
+paginate = 10
 
-
-# [taxonomies]
-#     tag = "tags"
-#     category = "categories"
-
-
-# languageCode = "en-us"
+languageCode = "en-us"
 DefaultContentLanguage = "en-us"
 hasCJKLanguage = "true"
 
@@ -20,9 +15,6 @@ disqusShortname = ""
 googleAnalytics = ""
 
 summaryLength=150
-
-canonifyurls = true
-
 
 [permalinks]
   post = "/:slug/"
