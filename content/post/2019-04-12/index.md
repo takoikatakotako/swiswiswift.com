@@ -2,13 +2,12 @@
 title = "ログイン時にメッセージを表示する（CentOS7）"
 url = "2019-04-12"
 date = "2019-04-12"
-description = "Guide to emoji usage in Hugo"
+description = "ログイン時にメッセージを表示する（CentOS7）"
 tags = [
-    "iOS",
+    "CentOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+  "CentOS",
 ]
 archives = "2019/09"
 aliases = ["migrate-from-jekyl"]

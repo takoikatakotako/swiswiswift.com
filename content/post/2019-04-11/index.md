@@ -7,7 +7,7 @@ tags = [
     "iOS",
 ]
 categories = [
-    "themes",
+    "iOS",
     "syntax",
 ]
 archives = "2019/09"

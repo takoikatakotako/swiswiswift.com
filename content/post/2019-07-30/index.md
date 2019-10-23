@@ -4,10 +4,11 @@ date = "2019-07-30"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
+    "Swift5",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Swift",
+    "iOS",
 ]
 archives = "2019/09"
 aliases = ["migrate-from-jekyl"]
@@ -22,3 +23,9 @@ TableView のセルの高さを変更する方法です。
 
 
 ![alt](1.png)
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=swiswiswift-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4797398558&linkId=ceb2ab5d87e914e561733d50690e15da&bc1=ffffff&lt1=_top&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"></iframe>
+
+<br>
+
+<script src="https://gist.github.com/O-Junpei/52393a8847f0c50a4ef6a8253aabd61d.js"></script>

@@ -4,11 +4,10 @@ url = "2019-07-29"
 date = "2019-07-29"
 description = "Guide to emoji usage in Hugo"
 tags = [
-    "iOS",
+    "就活",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "就活",
 ]
 archives = "2019/09"
 aliases = ["migrate-from-jekyl"]

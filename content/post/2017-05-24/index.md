@@ -1,7 +1,7 @@
 +++
 title = "Igorでグラフの背景を白にする"
 url = "2017-05-24"
-date = "2019-05-24"
+date = "2017-05-24"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
