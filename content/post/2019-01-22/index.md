@@ -7,10 +7,10 @@ tags = [
     "iOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "iOS",
+    "Swift",
 ]
-archives = "2019/09"
+archives = "2019/02"
 aliases = ["migrate-from-jekyl"]
 +++
 
@@ -29,7 +29,8 @@ UIScrollView
 ↑
 UITableView
 
-AppleDeveloperリファレンスUITableView
+[AppleDeveloperリファレンスUITableView](https://developer.apple.com/documentation/uikit/uitableview)
 
+![alt](1.gif)
 
 <script src="https://gist.github.com/O-Junpei/607e450bfa88b7451e08fe7211a433dd.js"></script>

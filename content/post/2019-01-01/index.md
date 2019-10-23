@@ -1,6 +1,24 @@
-Array(Swift4.2)
-01
-1月2019 カビゴン  コメントはまだありません
-# Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 # Swift3の記事は […]
++++
+title = "Array(Swift4.2)"
+url = "2019-01-01"
+date = "2019-01-01"
+description = "Array(Swift4.2)"
+tags = [
+  "iOS",
+]
+categories = [
+    "iOS",
+]
+archives = "2019/01"
+aliases = ["migrate-from-jekyl"]
++++
 
-READ MORE
+<br>
+
+#Swift4.2  
+Swiftの配列です。配列の作成と呼び出しについて記載します。
+
+#Swift3の記事はこちら  
+Array
+
+<script src="https://gist.github.com/O-Junpei/f4c247c1880ba8be45d2a9d9320558a3.js"></script>

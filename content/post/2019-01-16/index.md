@@ -1,16 +1,15 @@
 +++
 title = "sudo 時に PATH を引き継ぐ"
-url = "2019-01-21"
-date = "2019-01-21"
+url = "2019-01-16"
+date = "2019-01-16"
 description = "Guide to emoji usage in Hugo"
 tags = [
-    "iOS",
+    "Linux",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Linux",
 ]
-archives = "2019/09"
+archives = "2019/01"
 aliases = ["migrate-from-jekyl"]
 +++
 

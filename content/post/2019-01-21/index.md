@@ -1,7 +1,7 @@
 +++
-title = "NavigationControllerのRootを切り替える（Swift4.2）"
-url = "2019-01-20"
-date = "2019-01-20"
+title = "NavigationControllerで画面遷移を行う（Swift4.2）"
+url = "2019-01-21"
+date = "2019-01-21"
 description = "Guide to emoji usage in Hugo"
 tags = [
     "iOS",
@@ -15,8 +15,10 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-`# Swift4.2`  
-`setViewControllers`でNavigationControllerのRootを切り替えています。
+#Swift4.2
+
+NavigationContorollerのサンプルコードです。  
+NavigationContorollerは横にニュッと動いて画面遷移をします。  
 
 ![alt](1.gif)
 
