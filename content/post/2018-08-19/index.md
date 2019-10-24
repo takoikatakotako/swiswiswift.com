@@ -1,0 +1,26 @@
++++
+title = "ReactNativeで画像をボタンにする(TouchableOpacity)"
+url = "2018-08-19"
+date = "2018-08-19"
+description = "ReactNativeで画像をボタンにする(TouchableOpacity)"
+tags = [
+    "iOS",
+]
+categories = [
+    "themes",
+    "syntax",
+]
+archives = "2019/09"
+aliases = ["migrate-from-jekyl"]
++++
+
+<br>
+
+ReactNativeで画像などのViewをボタンにするTouchableOpacityの実装サンプルです。  
+カビゴンの画像をタップするとアラートが表示します。  
+
+react-native: 0.56.0  
+
+![alt](1.gif)
+
+<script src="https://gist.github.com/O-Junpei/0446de50e5c393732da448823cf7ffab.js"></script>
