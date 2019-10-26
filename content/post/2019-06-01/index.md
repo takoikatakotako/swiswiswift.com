@@ -2,14 +2,14 @@
 title = "UISlider で値を取得する(Swift5.0)"
 url = "2019-06-01"
 date = "2019-06-01"
-description = "Guide to emoji usage in Hugo"
+description = "UISlider で値を取得する(Swift5.0)"
 tags = [
     "iOS",
 ]
 categories = [
     "iOS",
 ]
-archives = "2019/09"
+archives = "2019/06"
 aliases = ["migrate-from-jekyl"]
 +++
 

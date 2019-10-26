@@ -4,10 +4,10 @@ url = "2017-07-26"
 date = "2017-07-26"
 description = "curlでpostでJson送るときにレスポンスヘッダーも確認したい"
 tags = [
-    "Terminal",
+    "Linux",
 ]
 categories = [
-    "Terminal",
+    "Linux",
 ]
 archives = "2017/07"
 aliases = ["migrate-from-jekyl"]

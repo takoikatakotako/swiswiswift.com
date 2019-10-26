@@ -2,7 +2,7 @@
 title = "ImagePickerControllerで画像を選択する(Swift4.2)"
 url = "2019-01-11"
 date = "2019-01-11"
-description = "Guide to emoji usage in Hugo"
+description = "ImagePickerControllerで画像を選択する(Swift4.2)"
 tags = [
   "iOS",
 ]

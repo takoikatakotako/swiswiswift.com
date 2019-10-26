@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on すいすいSwift</title>
+    <link>http://localhost:8000/tags/android/</link>
+    <description>Recent content in Android on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ListViewを使ってリスト表示する(Kotlin)</title>
+      <link>http://localhost:8000/2019-01-08/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-08/</guid>
+      <description>ListViewを使ってリストの表示を行います。</description>
+    </item>
+    
+    <item>
+      <title>Android Studio でアイコンを設定する</title>
+      <link>http://localhost:8000/2018-11-29/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-29/</guid>
+      <description>– File -&amp;gt; Image Assets で Configure Image Asset を開く – Pathの…ボタンを押し、アイコンにしたい画像を選択する。 – Resize でサイズの微調節を行う。 – Nextボタンを推し、アイコン画像の名前やサイズを確認し、Finish。</description>
+    </item>
+    
+    <item>
+      <title>BottomNavigationViewで切り替え時に色を変える</title>
+      <link>http://localhost:8000/2018-11-20/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-20/</guid>
+      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。</description>
+    </item>
+    
+    <item>
+      <title>Fragmentsを入れ子にしたBottomNavigationを実装する</title>
+      <link>http://localhost:8000/2018-11-13/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-13/</guid>
+      <description>BottomNavigationはiOSのTabBarControllerによく似たAPIです。 BottomNavigationのタブを選択するとFragmentが切り替わるサンプルコードです。 参考にさせていただいたページ。 BottomNavigationView入門 Bottom Navigation Android Example using Fragments</description>
+    </item>
+    
+    <item>
+      <title>KotlinでListViewを内包したTabを作成する</title>
+      <link>http://localhost:8000/2018-09-25/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-09-25/</guid>
+      <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 すごく良い記事なので、この記事より彼の記事をみてください。 Getting Started with Tabs in Android — Kotlin build.gradle に以下のdependencyを追加します。 implementation &#39;com.android.support:design:26.1.0&#39;</description>
+    </item>
+    
+    <item>
+      <title>現在時刻の取得(kotlin)</title>
+      <link>http://localhost:8000/2017-06-22/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-06-22/</guid>
+      <description>Kotlinで現在時刻の取得を行います。</description>
+    </item>
+    
+    <item>
+      <title>Androidアプリのアクションバーの影を消す</title>
+      <link>http://localhost:8000/2017-05-22/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-05-22/</guid>
+      <description>Androidアプリのアクションバーの影を消します。</description>
+    </item>
+    
+    <item>
+      <title>Androidアプリのステータスバーの変更</title>
+      <link>http://localhost:8000/2017-05-21/</link>
+      <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-05-21/</guid>
+      <description>Androidアプリのステータスバーの変更</description>
+    </item>
+    
+  </channel>
+</rss>

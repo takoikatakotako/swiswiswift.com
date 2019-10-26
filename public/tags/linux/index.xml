@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on すいすいSwift</title>
+    <link>http://localhost:8000/tags/linux/</link>
+    <description>Recent content in Linux on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>id_rsa’ are too open.</title>
+      <link>http://localhost:8000/2019-01-28/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-28/</guid>
+      <description>以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しました。 WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0777 for &#39;/root/.ssh/id_rsa&#39; are too open. It is recommended that your private key files are NOT accessible by others. This private key will be ignored. bad permissions: ignore key: /root/.ssh/id_rsa $ chmod 600 /root/.ssh/id_rsa 参考 Error permission denied through ssh</description>
+    </item>
+    
+    <item>
+      <title>tar (child): gzip: Cannot exec: No such file or directory</title>
+      <link>http://localhost:8000/2019-01-17/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-17/</guid>
+      <description>tar コマンドで解答ができずに困りました。 $ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now 依存パッケージの gzip を入れてあげることで解決しました。 $ yum install gzip</description>
+    </item>
+    
+    <item>
+      <title>sudo 時に PATH を引き継ぐ</title>
+      <link>http://localhost:8000/2019-01-16/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-16/</guid>
+      <description>which java と sudo which java でパスが違ったのでその解決 参考: sudo「コマンドが見つかりません」PATHが初期化されているときの対処法</description>
+    </item>
+    
+    <item>
+      <title>curlでpostでJson送るときにレスポンスヘッダーも確認したい</title>
+      <link>http://localhost:8000/2017-07-26/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-07-26/</guid>
+      <description>最後に --include をつけるとレスポンスヘッダーも表示されます http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;user@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;--include</description>
+    </item>
+    
+    <item>
+      <title>curlでpostでJson送る</title>
+      <link>http://localhost:8000/2017-07-25/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-07-25/</guid>
+      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、apiの確認をしたい時によく使います。 curl http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;kabigon@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;</description>
+    </item>
+    
+    <item>
+      <title>rootのログインを禁止にする</title>
+      <link>http://localhost:8000/2017-06-08/</link>
+      <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-06-08/</guid>
+      <description>VPSを借りて一番最初に行うrootのログインの禁止のメモです。 rootでサーバーにログインしてパスワードを入力します。 $ ssh -l root xxx.xxx.xxx.xxx ユーザーの追加をします。onojunというユーザーを追加します。 $ adduser onojun パスワードを設定します。OSによってはadduserの時に設定するはずです。 $ passwd onojun 一旦ログアウします</description>
+    </item>
+    
+  </channel>
+</rss>

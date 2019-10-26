@@ -2,7 +2,7 @@
 title = "UITableViewでテーブルにアイテムを表示（Swift4.2）"
 url = "2019-01-22"
 date = "2019-01-22"
-description = "Guide to emoji usage in Hugo"
+description = "UITableViewでテーブルにアイテムを表示（Swift4.2）"
 tags = [
     "iOS",
 ]

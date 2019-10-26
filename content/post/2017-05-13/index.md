@@ -2,15 +2,14 @@
 title = "音声認識(SFSpeechRecognizer)"
 url = "2017-05-13"
 date = "2017-05-13"
-description = "Guide to emoji usage in Hugo"
+description = "音声認識(SFSpeechRecognizer)"
 tags = [
     "iOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "iOS",
 ]
-archives = "2019/09"
+archives = "2017/05"
 aliases = ["migrate-from-jekyl"]
 +++
 

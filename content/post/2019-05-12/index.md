@@ -2,14 +2,14 @@
 title = "CallKit を使って着信画面を表示する"
 url = "2019-05-12"
 date = "2019-05-12"
-description = "Guide to emoji usage in Hugo"
+description = "CallKit を使って着信画面を表示する"
 tags = [
     "iOS",
 ]
 categories = [
     "iOS",
 ]
-archives = "2019/09"
+archives = "2019/05"
 aliases = ["migrate-from-jekyl"]
 +++
 

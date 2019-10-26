@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017/08 on すいすいSwift</title>
+    <link>http://localhost:8000/archives/2017/08/</link>
+    <description>Recent content in 2017/08 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 12 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/archives/2017/08/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>輸出コンプライアンスのウィザードをスキップする</title>
+      <link>http://localhost:8000/2017-08-12/</link>
+      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-08-12/</guid>
+      <description>アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。 毎回聞かれるとスキップしたくなります。 Info.plist の ITSAppUsesNonExemptEncryption を NO にするとスキップすることができます。</description>
+    </item>
+    
+  </channel>
+</rss>

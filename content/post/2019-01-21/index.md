@@ -2,7 +2,7 @@
 title = "NavigationControllerで画面遷移を行う（Swift4.2）"
 url = "2019-01-21"
 date = "2019-01-21"
-description = "Guide to emoji usage in Hugo"
+description = "NavigationControllerで画面遷移を行う（Swift4.2）"
 tags = [
     "iOS",
 ]

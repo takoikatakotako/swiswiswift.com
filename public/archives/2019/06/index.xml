@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019/06 on すいすいSwift</title>
+    <link>http://localhost:8000/archives/2019/06/</link>
+    <description>Recent content in 2019/06 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/archives/2019/06/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UIButton、ボタンを表示する(Swift5.0)</title>
+      <link>http://localhost:8000/2019-06-03/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-06-03/</guid>
+      <description>UIButton を使ってボタンを表示するサンプルコードです。</description>
+    </item>
+    
+    <item>
+      <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
+      <link>http://localhost:8000/2019-06-02/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-06-02/</guid>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
+    </item>
+    
+    <item>
+      <title>UISlider で値を取得する(Swift5.0)</title>
+      <link>http://localhost:8000/2019-06-01/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-06-01/</guid>
+      <description>UISlider で値を取得するサンプルコードです。 最小値と最大値を設定することで、その間の任意の値を取ることができます。</description>
+    </item>
+    
+  </channel>
+</rss>

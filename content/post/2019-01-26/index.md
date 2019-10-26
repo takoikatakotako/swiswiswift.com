@@ -2,14 +2,14 @@
 title = "SwiftでUITestを導入(Swift4.2)"
 url = "2019-01-26"
 date = "2019-01-26"
-description = "Guide to emoji usage in Hugo"
+description = "SwiftでUITestを導入(Swift4.2)"
 tags = [
     "iOS",
 ]
 categories = [
     "iOS",
 ]
-archives = "2019/09"
+archives = "2019/01"
 aliases = ["migrate-from-jekyl"]
 +++
 

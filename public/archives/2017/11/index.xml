@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017/11 on すいすいSwift</title>
+    <link>http://localhost:8000/archives/2017/11/</link>
+    <description>Recent content in 2017/11 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 27 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/archives/2017/11/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>カスタムレイアウトを持つコレクションビューをつくる</title>
+      <link>http://localhost:8000/2017-11-27/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-11-27/</guid>
+      <description>今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べました。 主なコードは以下のサイトを参考にさせていただきました。 本当にありがとうございました。 Swift2-&amp;gt;4の変換は大変でした。。。 iOS UICollecionViewFlowLayout でカスタムレイアウトを作ろう ～ Swift版</description>
+    </item>
+    
+    <item>
+      <title>SwiftでUDP通信を行い、文字列を送る</title>
+      <link>http://localhost:8000/2017-11-26/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-11-26/</guid>
+      <description>SwiftでUDP通信するメモです。 SwiftSocket をcocoapodsで入れて、こんな感じで書きました。 woom-02と通信するのに使いました。</description>
+    </item>
+    
+    <item>
+      <title>Swift3からSwift4への移行時に出る@objc inference warningsを消す</title>
+      <link>http://localhost:8000/2017-11-25/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-11-25/</guid>
+      <description>Xcode8からXcode9へ乗り換えてSwift4へ変換すると以下のエラーが出ます。それの消し方です。 The use of Swift 3 @objc inference in Swift 4 mode is deprecated. Please address deprecated @objc inference warnings, test your code with “Use of deprecated Swift 3 @objc inference” logging enabled, and then disable inference by changing the &amp;quot;Swift 3 @objc Inference&amp;quot; build setting to &amp;quot;Default&amp;quot; for the &amp;quot;TargetName&amp;quot; target. 各ターゲットを選択 -&amp;gt; Build Settings -&amp;gt; 検索窓で inference と検索 -&amp;gt; Swift @objc inference を Default に設定する 他にも</description>
+    </item>
+    
+  </channel>
+</rss>

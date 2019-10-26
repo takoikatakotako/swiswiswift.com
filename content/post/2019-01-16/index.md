@@ -2,7 +2,7 @@
 title = "sudo 時に PATH を引き継ぐ"
 url = "2019-01-16"
 date = "2019-01-16"
-description = "Guide to emoji usage in Hugo"
+description = "sudo 時に PATH を引き継"
 tags = [
     "Linux",
 ]

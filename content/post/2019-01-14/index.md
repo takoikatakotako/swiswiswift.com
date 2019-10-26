@@ -2,7 +2,7 @@
 title = "CentOS7にRailsをインストールする"
 url = "2019-01-14"
 date = "2019-01-14"
-description = "Guide to emoji usage in Hugo"
+description = "CentOS7にRailsをインストールする"
 tags = [
   "CentOS",
 ]

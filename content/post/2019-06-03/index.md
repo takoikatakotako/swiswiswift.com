@@ -2,14 +2,14 @@
 title = "UIButton、ボタンを表示する(Swift5.0)"
 url = "2019-06-03"
 date = "2019-06-03"
-description = "Guide to emoji usage in Hugo"
+description = "UIButton、ボタンを表示する(Swift5.0)"
 tags = [
     "iOS",
 ]
 categories = [
     "iOS",
 ]
-archives = "2019/09"
+archives = "2019/06"
 aliases = ["migrate-from-jekyl"]
 +++
 

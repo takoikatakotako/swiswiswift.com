@@ -2,7 +2,7 @@
 title = "ListViewを使ってリスト表示する(Kotlin)"
 url = "2019-01-08"
 date = "2019-01-08"
-description = "Guide to emoji usage in Hugo"
+description = "ListViewを使ってリスト表示する(Kotlin)"
 tags = [
   "Android",
 ]

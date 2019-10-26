@@ -2,7 +2,7 @@
 title = "RootViewController をアニメーション付きで切り替える(Swift4.2)"
 url = "2019-02-01"
 date = "2019-02-01"
-description = "Guide to emoji usage in Hugo"
+description = "RootViewController をアニメーション付きで切り替える(Swift4.2)"
 tags = [
     "iOS",
 ]

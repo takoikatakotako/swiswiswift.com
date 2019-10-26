@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReactNative on すいすいSwift</title>
+    <link>http://localhost:8000/categories/reactnative/</link>
+    <description>Recent content in ReactNative on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/categories/reactnative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build input file cannot be found: Libraries/WebSocket/libfishhook.a’</title>
+      <link>http://localhost:8000/2018-09-27/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-09-27/</guid>
+      <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNativeのコンパイルできなくなった。 RTCWebSocket.xcodeproject -&amp;gt; RCTWebSocket -&amp;gt; Build Phasesを選択 -&amp;gt; Link Binary WithLibraried にlibfishhook.aを追加。 すでに追加されている場合は削除 を行うことで解決した。</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeで画像をボタンにする(TouchableOpacity)</title>
+      <link>http://localhost:8000/2018-08-19/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-19/</guid>
+      <description>ReactNativeで画像などのViewをボタンにするTouchableOpacityの実装サンプルです。 カビゴンの画像をタップするとアラートが表示します。 react-native: 0.56.0</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでテキストを表示</title>
+      <link>http://localhost:8000/2018-08-18/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-18/</guid>
+      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでたまにしか使わないコマンドのメモ</title>
+      <link>http://localhost:8000/2018-08-17/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-17/</guid>
+      <description>ReactNativeでたまにしか使わないけど大事なコメントのメモです。 react-native-cliをnpmでグローバルにインストールする npm install -g react-native-cli react-native -v プロジェクトを作成する ＊Sample(react-native init Sample)などReactNativeとか内部で使っている何かと名前が被るとエラ</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでインディケーターを表示する</title>
+      <link>http://localhost:8000/2018-08-16/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-16/</guid>
+      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeで画像を表示する</title>
+      <link>http://localhost:8000/2018-08-15/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-15/</guid>
+      <description>ReactNativeで画像を表示するサンプルです。 iOSで画像をインターネットから取得する場合はATSを設定する必要があるので気をつけてください。 react-native: 0.56.0</description>
+    </item>
+    
+    <item>
+      <title>FlexBoxでViewの大きさを指定する</title>
+      <link>http://localhost:8000/2018-08-14/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-14/</guid>
+      <description>FlexBoxでViewの大きさを指定するサンプルコードです。 react-native: 0.56.0 紫、黄土色、水色のViewが 1 : 2 : 3 の高さになっています。 横にするには flexDirection: &amp;lsquo;row&amp;rsquo;と設定します。</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでFlatListを表示する</title>
+      <link>http://localhost:8000/2018-08-13/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-13/</guid>
+      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでボタンを表示する</title>
+      <link>http://localhost:8000/2018-08-12/</link>
+      <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-08-12/</guid>
+      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0</description>
+    </item>
+    
+  </channel>
+</rss>

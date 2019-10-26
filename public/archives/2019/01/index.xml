@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019/01 on すいすいSwift</title>
+    <link>http://localhost:8000/archives/2019/01/</link>
+    <description>Recent content in 2019/01 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/archives/2019/01/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>id_rsa’ are too open.</title>
+      <link>http://localhost:8000/2019-01-28/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-28/</guid>
+      <description>以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しました。 WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0777 for &#39;/root/.ssh/id_rsa&#39; are too open. It is recommended that your private key files are NOT accessible by others. This private key will be ignored. bad permissions: ignore key: /root/.ssh/id_rsa $ chmod 600 /root/.ssh/id_rsa 参考 Error permission denied through ssh</description>
+    </item>
+    
+    <item>
+      <title>ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)</title>
+      <link>http://localhost:8000/2019-01-27/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-27/</guid>
+      <description>ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。 SwiftyJsonなどを使うともっと良い感じにかけますが、今回は使わないで書いてみました。</description>
+    </item>
+    
+    <item>
+      <title>SwiftでUITestを導入(Swift4.2)</title>
+      <link>http://localhost:8000/2019-01-26/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-26/</guid>
+      <description>プロジェクトにUITestを追加します。 プロジェクト作成時に作らなかった場合は以下の画像の手順で追加することができます。 @testable import Swiswiswift（Swiswiswiftはプロジェクト名） と書くことで、テストクラスの中から参照できるようになります。 関数名の頭にtestと付けることで、テストとして実行</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
+      <link>http://localhost:8000/2019-01-21/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-21/</guid>
+      <description>#Swift4.2 NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
+      <link>http://localhost:8000/2019-01-20/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-20/</guid>
+      <description># Swift4.2 setViewControllersでNavigationControllerのRootを切り替えています。</description>
+    </item>
+    
+    <item>
+      <title>tar (child): gzip: Cannot exec: No such file or directory</title>
+      <link>http://localhost:8000/2019-01-17/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-17/</guid>
+      <description>tar コマンドで解答ができずに困りました。 $ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now 依存パッケージの gzip を入れてあげることで解決しました。 $ yum install gzip</description>
+    </item>
+    
+    <item>
+      <title>sudo 時に PATH を引き継ぐ</title>
+      <link>http://localhost:8000/2019-01-16/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-16/</guid>
+      <description>which java と sudo which java でパスが違ったのでその解決 参考: sudo「コマンドが見つかりません」PATHが初期化されているときの対処法</description>
+    </item>
+    
+    <item>
+      <title>CentOS7にRailsをインストールする</title>
+      <link>http://localhost:8000/2019-01-14/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-14/</guid>
+      <description>CentOS7にRailsをインストールした時のメモになります。 最終的なNginxの nginx.conf ファイルはこちらになります。</description>
+    </item>
+    
+    <item>
+      <title>ImagePickerControllerで画像を選択する(Swift4.2)</title>
+      <link>http://localhost:8000/2019-01-11/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-11/</guid>
+      <description># Swift 4.2 Swift3の記事はこちら UIImagePickerControllerで画像の選択 iPhoneのフォトライブラリから画像を取得するサンプルプログラムです。 フォトライブラリから画像を選択するために、プロジェクトの info.plistにフォトライブラリを使用する旨を記述します。 これを書いておかな</description>
+    </item>
+    
+    <item>
+      <title>ListViewを使ってリスト表示する(Kotlin)</title>
+      <link>http://localhost:8000/2019-01-08/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-08/</guid>
+      <description>ListViewを使ってリストの表示を行います。</description>
+    </item>
+    
+    <item>
+      <title>Function(Swift4.2)</title>
+      <link>http://localhost:8000/2019-01-02/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-02/</guid>
+      <description>#Swift4.2 Swiftで関数を作る。</description>
+    </item>
+    
+    <item>
+      <title>Array(Swift4.2)</title>
+      <link>http://localhost:8000/2019-01-01/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2019-01-01/</guid>
+      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array</description>
+    </item>
+    
+    <item>
+      <title>Print(Swift4.2)</title>
+      <link>http://localhost:8000/2018-12-31/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-12-31/</guid>
+      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。</description>
+    </item>
+    
+    <item>
+      <title>UITableViewの中身をUISearchBarで検索する(Swift4)</title>
+      <link>http://localhost:8000/2018-12-30/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-12-30/</guid>
+      <description>#Swift4.2 UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。 Swift3 での記事はこちら</description>
+    </item>
+    
+    <item>
+      <title>アプリ使用中に位置情報を取得する</title>
+      <link>http://localhost:8000/2018-12-29/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-12-29/</guid>
+      <description>#Swift 4.2 アプリ使用中に緯度と経度を取得するサンプルコードです。 端末の緯度と経度が変わるとラベル文字列が更新されます。 参考 [iOS] 位置情報の取得 (Swift3編) 【CoreLocation】位置情報を取得する LocationManagerを使用する場合は、「位置情報を利用する目的」をInfo.plistに記載す</description>
+    </item>
+    
+  </channel>
+</rss>

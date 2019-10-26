@@ -2,15 +2,14 @@
 title = "ymf825boardのサンプルコードのピンを変更"
 url = "2017-09-05"
 date = "2017-09-05"
-description = "Guide to emoji usage in Hugo"
+description = "ymf825boardのサンプルコードのピンを変更"
 tags = [
-    "iOS",
+    "電子工作",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "電子工作",
 ]
-archives = "2019/09"
+archives = "2017/09"
 aliases = ["migrate-from-jekyl"]
 +++
 

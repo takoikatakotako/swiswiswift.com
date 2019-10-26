@@ -4,10 +4,10 @@ url = "2017-07-25"
 date = "2017-07-25"
 description = "curlでpostでJson送る"
 tags = [
-    "Terminal",
+    "Linux",
 ]
 categories = [
-    "Terminal",
+    "Linux",
 ]
 archives = "2017/07"
 aliases = ["migrate-from-jekyl"]

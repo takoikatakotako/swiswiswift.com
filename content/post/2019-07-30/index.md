@@ -1,7 +1,7 @@
 +++
 title = "TableViewのセルの高さを変更する（Swift5.0.1）"
 date = "2019-07-30"
-description = "Guide to emoji usage in Hugo"
+description = "TableViewのセルの高さを変更する（Swift5.0.1）"
 tags = [
     "iOS",
     "Swift5",
@@ -10,7 +10,7 @@ categories = [
     "Swift",
     "iOS",
 ]
-archives = "2019/09"
+archives = "2019/07"
 aliases = ["migrate-from-jekyl"]
 +++
 

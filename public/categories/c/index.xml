@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on すいすいSwift</title>
+    <link>http://localhost:8000/categories/c/</link>
+    <description>Recent content in C on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/categories/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FizzBuzz(C)</title>
+      <link>http://localhost:8000/2017-05-20/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2017-05-20/</guid>
+      <description>FizzBuzzをCで解きました。</description>
+    </item>
+    
+  </channel>
+</rss>

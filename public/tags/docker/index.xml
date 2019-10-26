@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on すいすいSwift</title>
+    <link>http://localhost:8000/tags/docker/</link>
+    <description>Recent content in Docker on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
+      <link>http://localhost:8000/2018-12-25/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-12-25/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS6)</title>
+      <link>http://localhost:8000/2018-11-19/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-19/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost</description>
+    </item>
+    
+  </channel>
+</rss>

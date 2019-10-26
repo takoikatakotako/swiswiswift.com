@@ -12,20 +12,200 @@
     
     
     <item>
-      <title>syntax</title>
-      <link>http://localhost:8000/categories/syntax/</link>
+      <title>iOS</title>
+      <link>http://localhost:8000/categories/ios/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/syntax/</guid>
+      <guid>http://localhost:8000/categories/ios/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>http://localhost:8000/categories/themes/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      <title>Swift</title>
+      <link>http://localhost:8000/categories/swift/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/themes/</guid>
+      <guid>http://localhost:8000/categories/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>就活</title>
+      <link>http://localhost:8000/categories/%E5%B0%B1%E6%B4%BB/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/%E5%B0%B1%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CentOS</title>
+      <link>http://localhost:8000/categories/centos/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://localhost:8000/categories/java/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:8000/categories/linux/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rails</title>
+      <link>http://localhost:8000/categories/rails/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:8000/categories/ruby/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:8000/categories/android/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:8000/categories/docker/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>その他</title>
+      <link>http://localhost:8000/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other</title>
+      <link>http://localhost:8000/categories/other/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/other/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReactNative</title>
+      <link>http://localhost:8000/categories/reactnative/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/reactnative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML5</title>
+      <link>http://localhost:8000/categories/html5/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>http://localhost:8000/categories/arduino/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCP</title>
+      <link>http://localhost:8000/categories/gcp/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESP32</title>
+      <link>http://localhost:8000/categories/esp32/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/esp32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>電子工作</title>
+      <link>http://localhost:8000/categories/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tex</title>
+      <link>http://localhost:8000/categories/tex/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/tex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Igor</title>
+      <link>http://localhost:8000/categories/igor/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/igor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:8000/categories/javascript/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>http://localhost:8000/categories/c/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/categories/c/</guid>
       <description></description>
     </item>
     

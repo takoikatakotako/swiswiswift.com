@@ -1,7 +1,7 @@
 +++
 title = "iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました"
 date = "2019-09-11"
-description = "Guide to emoji usage in Hugo"
+description = "iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました"
 tags = [
     "iOS",
     "カンファレンス",

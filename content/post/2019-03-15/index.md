@@ -2,7 +2,7 @@
 title = "Java で文字列をシャッフルする"
 url = "2019-03-15"
 date = "2019-03-15"
-description = "Guide to emoji usage in Hugo"
+description = "Java で文字列をシャッフルする"
 tags = [
     "Java",
 ]

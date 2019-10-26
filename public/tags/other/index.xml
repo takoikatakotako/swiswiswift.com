@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other on すいすいSwift</title>
+    <link>http://localhost:8000/tags/other/</link>
+    <description>Recent content in Other on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>パスワードの入力欄の中身を確認したい</title>
+      <link>http://localhost:8000/2018-11-14/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-14/</guid>
+      <description>ログイン画面のパスワード入力欄で黒丸●●●●●となっている中身を確認する方法です。 要素と検証を開いて、inputタグの type を text に変更します。</description>
+    </item>
+    
+    <item>
+      <title>let’s encryptでさくらサーバーをhttpsにする</title>
+      <link>http://localhost:8000/2018-05-25/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-05-25/</guid>
+      <description>以下のサイトを参考にして証明書の設定をして以下の.htaccessをrootにおけば完成です。 ちょっとだけ詰まりました。 さくらのサポート情報 【無料SSL】サーバコントロールパネルからの導入手順</description>
+    </item>
+    
+    <item>
+      <title>サイトリニューアルしました</title>
+      <link>http://localhost:8000/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>サイトのリニューアルを行いました。</description>
+    </item>
+    
+  </channel>
+</rss>

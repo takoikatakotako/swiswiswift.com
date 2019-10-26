@@ -2,7 +2,7 @@
 title = "tar (child): gzip: Cannot exec: No such file or directory"
 url = "2019-01-17"
 date = "2019-01-17"
-description = "Guide to emoji usage in Hugo"
+description = "tar (child): gzip: Cannot exec: No such file or directory"
 tags = [
   "Linux",
 ]

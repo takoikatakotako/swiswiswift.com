@@ -9,7 +9,7 @@ tags = [
 categories = [
     "JavaScript",
 ]
-archives = "2019/09"
+archives = "2017/05"
 aliases = ["migrate-from-jekyl"]
 +++
 

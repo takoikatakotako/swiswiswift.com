@@ -2,7 +2,7 @@
 title = "NavigationControllerのRootを切り替える（Swift4.2）"
 url = "2019-01-20"
 date = "2019-01-20"
-description = "Guide to emoji usage in Hugo"
+description = "NavigationControllerのRootを切り替える（Swift4.2）"
 tags = [
     "iOS",
 ]

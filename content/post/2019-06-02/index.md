@@ -2,7 +2,7 @@
 title = "一定間隔の値をUISlider で取得する(Swift5.0)"
 url = "2019-06-02"
 date = "2019-06-02"
-description = "Guide to emoji usage in Hugo"
+description = "一定間隔の値をUISlider で取得する(Swift5.0)"
 tags = [
     "iOS",
 ]
@@ -10,7 +10,7 @@ categories = [
     "Swift",
     "iOS",
 ]
-archives = "2019/09"
+archives = "2019/06"
 aliases = ["migrate-from-jekyl"]
 +++
 

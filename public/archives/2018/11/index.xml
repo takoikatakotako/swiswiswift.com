@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018/11 on すいすいSwift</title>
+    <link>http://localhost:8000/archives/2018/11/</link>
+    <description>Recent content in 2018/11 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:8000/archives/2018/11/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Studio でアイコンを設定する</title>
+      <link>http://localhost:8000/2018-11-29/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-29/</guid>
+      <description>– File -&amp;gt; Image Assets で Configure Image Asset を開く – Pathの…ボタンを押し、アイコンにしたい画像を選択する。 – Resize でサイズの微調節を行う。 – Nextボタンを推し、アイコン画像の名前やサイズを確認し、Finish。</description>
+    </item>
+    
+    <item>
+      <title>BottomNavigationViewで切り替え時に色を変える</title>
+      <link>http://localhost:8000/2018-11-20/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-20/</guid>
+      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS6)</title>
+      <link>http://localhost:8000/2018-11-19/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-19/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost</description>
+    </item>
+    
+    <item>
+      <title>パスワードの入力欄の中身を確認したい</title>
+      <link>http://localhost:8000/2018-11-14/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-14/</guid>
+      <description>ログイン画面のパスワード入力欄で黒丸●●●●●となっている中身を確認する方法です。 要素と検証を開いて、inputタグの type を text に変更します。</description>
+    </item>
+    
+    <item>
+      <title>Fragmentsを入れ子にしたBottomNavigationを実装する</title>
+      <link>http://localhost:8000/2018-11-13/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-13/</guid>
+      <description>BottomNavigationはiOSのTabBarControllerによく似たAPIです。 BottomNavigationのタブを選択するとFragmentが切り替わるサンプルコードです。 参考にさせていただいたページ。 BottomNavigationView入門 Bottom Navigation Android Example using Fragments</description>
+    </item>
+    
+    <item>
+      <title>Xcode10でプロジェクト名を変更する</title>
+      <link>http://localhost:8000/2018-11-12/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8000/2018-11-12/</guid>
+      <description>こちらの記事を参考にさせていただきました。 ありがとうございます！ 参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを Xcodeでプロジェクト名を変更する方法 (Xcode8.0) 今回は WebRTCHandsOn というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。 1.Xco</description>
+    </item>
+    
+  </channel>
+</rss>
