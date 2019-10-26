@@ -2,15 +2,14 @@
 title = "UIStatusBarを白くする"
 url = "2017-05-16"
 date = "2017-05-16"
-description = "Guide to emoji usage in Hugo"
+description = "UIStatusBarを白くする"
 tags = [
     "iOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "iOS",
 ]
-archives = "2019/09"
+archives = "2017/05"
 aliases = ["migrate-from-jekyl"]
 +++
 

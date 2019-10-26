@@ -4,13 +4,12 @@ url = "2017-06-07"
 date = "2017-06-07"
 description = "texworksのURL"
 tags = [
-    "iOS",
+    "Tex",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Tex",
 ]
-archives = "2019/09"
+archives = "2017/06"
 aliases = ["migrate-from-jekyl"]
 +++
 

@@ -4,13 +4,12 @@ url = "2018-08-19"
 date = "2018-08-19"
 description = "ReactNativeで画像をボタンにする(TouchableOpacity)"
 tags = [
-    "iOS",
+    "ReactNative",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "ReactNative",
 ]
-archives = "2019/09"
+archives = "2018/08"
 aliases = ["migrate-from-jekyl"]
 +++
 

@@ -2,15 +2,14 @@
 title = "UserNotification(LocalNotification)"
 url = "2017-05-14"
 date = "2017-05-14"
-description = "Guide to emoji usage in Hugo"
+description = "UserNotification(LocalNotification)"
 tags = [
     "iOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "iOS",
 ]
-archives = "2019/09"
+archives = "2017/05"
 aliases = ["migrate-from-jekyl"]
 +++
 

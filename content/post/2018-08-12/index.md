@@ -4,13 +4,12 @@ url = "2018-08-12"
 date = "2018-08-12"
 description = "ReactNativeでボタンを表示する"
 tags = [
-    "iOS",
+    "ReactNative",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "ReactNative",
 ]
-archives = "2019/09"
+archives = "2018/08"
 aliases = ["migrate-from-jekyl"]
 +++
 

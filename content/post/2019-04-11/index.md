@@ -2,13 +2,12 @@
 title = "iOSでUITest（E2Eテスト）を行う(Swift5.0)"
 url = "2019-04-11"
 date = "2019-04-11"
-description = "Guide to emoji usage in Hugo"
+description = "iOSでUITest（E2Eテスト）を行う(Swift5.0)"
 tags = [
     "iOS",
 ]
 categories = [
     "iOS",
-    "syntax",
 ]
 archives = "2019/09"
 aliases = ["migrate-from-jekyl"]

@@ -7,10 +7,9 @@ tags = [
     "iOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "iOS",
 ]
-archives = "2019/09"
+archives = "2018/11"
 aliases = ["migrate-from-jekyl"]
 +++
 

@@ -4,11 +4,11 @@ url = "2018-09-25"
 date = "2018-09-25"
 description = "KotlinでListViewを内包したTabを作成する"
 tags = [
-    "iOS",
+    "Android",
 ]
+
 categories = [
-    "themes",
-    "syntax",
+    "Android",
 ]
 archives = "2019/09"
 aliases = ["migrate-from-jekyl"]

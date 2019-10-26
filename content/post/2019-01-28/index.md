@@ -2,15 +2,14 @@
 title = "id_rsa’ are too open."
 url = "2019-01-28"
 date = "2019-01-28"
-description = "Guide to emoji usage in Hugo"
+description = "id_rsa’ are too open."
 tags = [
-    "iOS",
+    "Linux",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Linux",
 ]
-archives = "2019/09"
+archives = "2019/01"
 aliases = ["migrate-from-jekyl"]
 +++
 

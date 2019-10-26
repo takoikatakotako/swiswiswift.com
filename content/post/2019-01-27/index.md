@@ -2,13 +2,12 @@
 title = "ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)"
 url = "2019-01-27"
 date = "2019-01-27"
-description = "Guide to emoji usage in Hugo"
+description = "ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)"
 tags = [
     "iOS",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "iOS",
 ]
 archives = "2019/01"
 aliases = ["migrate-from-jekyl"]
