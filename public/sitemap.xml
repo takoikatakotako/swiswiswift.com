@@ -153,23 +153,18 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/java/</loc>
+    <loc>http://localhost:8000/tags/java/</loc>
     <lastmod>2019-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/java/</loc>
+    <loc>http://localhost:8000/categories/java/</loc>
     <lastmod>2019-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:8000/2019-03-15/</loc>
     <lastmod>2019-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:8000/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -193,12 +188,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/linux/</loc>
+    <loc>http://localhost:8000/tags/linux/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/linux/</loc>
+    <loc>http://localhost:8000/categories/linux/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -408,12 +403,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/reactnative/</loc>
+    <loc>http://localhost:8000/tags/reactnative/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/reactnative/</loc>
+    <loc>http://localhost:8000/categories/reactnative/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -493,12 +488,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/html5/</loc>
+    <loc>http://localhost:8000/tags/html5/</loc>
     <lastmod>2018-07-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/html5/</loc>
+    <loc>http://localhost:8000/categories/html5/</loc>
     <lastmod>2018-07-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -603,12 +598,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/arduino/</loc>
+    <loc>http://localhost:8000/tags/arduino/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/arduino/</loc>
+    <loc>http://localhost:8000/categories/arduino/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -618,12 +613,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/gcp/</loc>
+    <loc>http://localhost:8000/tags/gcp/</loc>
     <lastmod>2018-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/gcp/</loc>
+    <loc>http://localhost:8000/categories/gcp/</loc>
     <lastmod>2018-03-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -783,12 +778,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</loc>
+    <loc>http://localhost:8000/categories/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2017-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</loc>
+    <loc>http://localhost:8000/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2017-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -853,12 +848,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/tex/</loc>
+    <loc>http://localhost:8000/tags/tex/</loc>
     <lastmod>2017-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/tex/</loc>
+    <loc>http://localhost:8000/categories/tex/</loc>
     <lastmod>2017-06-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -1024,6 +1019,16 @@
   
   <url>
     <loc>http://localhost:8000/archives/2017/04/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/about/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/error/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
   </url>
   
