@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>就活 on すいすいSwift</title>
-    <link>http://localhost:8000/tags/%E5%B0%B1%E6%B4%BB/</link>
+    <link>https://swiswiswift.com/tags/%E5%B0%B1%E6%B4%BB/</link>
     <description>Recent content in 就活 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/tags/%E5%B0%B1%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/tags/%E5%B0%B1%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ビズリーチキャンパスでアカウントがロックされた時の解除方法</title>
-      <link>http://localhost:8000/2019-07-29/</link>
+      <link>https://swiswiswift.com/2019-07-29/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-07-29/</guid>
+      <guid>https://swiswiswift.com/2019-07-29/</guid>
       <description>パスワードをリセットする事で、アカウントのロックが解除されました。 https://br-campus.jp/password/reset</description>
     </item>
     

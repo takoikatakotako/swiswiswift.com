@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019/02 on すいすいSwift</title>
-    <link>http://localhost:8000/archives/2019/02/</link>
+    <link>https://swiswiswift.com/archives/2019/02/</link>
     <description>Recent content in 2019/02 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/archives/2019/02/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/archives/2019/02/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RootViewController をアニメーション付きで切り替える(Swift4.2)</title>
-      <link>http://localhost:8000/2019-02-01/</link>
+      <link>https://swiswiswift.com/2019-02-01/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-02-01/</guid>
+      <guid>https://swiswiswift.com/2019-02-01/</guid>
       <description>RootViewController をアニメーション付きで切り替えるサンプルコードです。 チュートリアルの後とかでの使用を想定しています。</description>
     </item>
     
     <item>
       <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
-      <link>http://localhost:8000/2019-01-22/</link>
+      <link>https://swiswiswift.com/2019-01-22/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-01-22/</guid>
+      <guid>https://swiswiswift.com/2019-01-22/</guid>
       <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView</description>
     </item>
     

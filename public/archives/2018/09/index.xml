@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018/09 on すいすいSwift</title>
-    <link>http://localhost:8000/archives/2018/09/</link>
+    <link>https://swiswiswift.com/archives/2018/09/</link>
     <description>Recent content in 2018/09 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/archives/2018/09/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/archives/2018/09/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build input file cannot be found: Libraries/WebSocket/libfishhook.a’</title>
-      <link>http://localhost:8000/2018-09-27/</link>
+      <link>https://swiswiswift.com/2018-09-27/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-09-27/</guid>
+      <guid>https://swiswiswift.com/2018-09-27/</guid>
       <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNativeのコンパイルできなくなった。 RTCWebSocket.xcodeproject -&amp;gt; RCTWebSocket -&amp;gt; Build Phasesを選択 -&amp;gt; Link Binary WithLibraried にlibfishhook.aを追加。 すでに追加されている場合は削除 を行うことで解決した。</description>
     </item>
     
     <item>
       <title>KotlinでListViewを内包したTabを作成する</title>
-      <link>http://localhost:8000/2018-09-25/</link>
+      <link>https://swiswiswift.com/2018-09-25/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-09-25/</guid>
+      <guid>https://swiswiswift.com/2018-09-25/</guid>
       <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 すごく良い記事なので、この記事より彼の記事をみてください。 Getting Started with Tabs in Android — Kotlin build.gradle に以下のdependencyを追加します。 implementation &#39;com.android.support:design:26.1.0&#39;</description>
     </item>
     
     <item>
       <title>グループスタイルのTableViewを作成する</title>
-      <link>http://localhost:8000/2018-09-20/</link>
+      <link>https://swiswiswift.com/2018-09-20/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-09-20/</guid>
+      <guid>https://swiswiswift.com/2018-09-20/</guid>
       <description>グループスタイルのテーブルビューを表示するサンプルコードです</description>
     </item>
     
     <item>
       <title>SafeAreaを取得する</title>
-      <link>http://localhost:8000/2018-09-19/</link>
+      <link>https://swiswiswift.com/2018-09-19/</link>
       <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-09-19/</guid>
+      <guid>https://swiswiswift.com/2018-09-19/</guid>
       <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。 SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。</description>
     </item>
     

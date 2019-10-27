@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018/07 on すいすいSwift</title>
-    <link>http://localhost:8000/archives/2018/07/</link>
+    <link>https://swiswiswift.com/archives/2018/07/</link>
     <description>Recent content in 2018/07 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/archives/2018/07/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/archives/2018/07/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CollectionViewにSearchBarをつけて検索する</title>
-      <link>http://localhost:8000/2018-07-18/</link>
+      <link>https://swiswiswift.com/2018-07-18/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-07-18/</guid>
+      <guid>https://swiswiswift.com/2018-07-18/</guid>
       <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。</description>
     </item>
     
     <item>
       <title>最小構成のhtml、css、javascriptのテンプレート</title>
-      <link>http://localhost:8000/2018-07-17/</link>
+      <link>https://swiswiswift.com/2018-07-17/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-07-17/</guid>
+      <guid>https://swiswiswift.com/2018-07-17/</guid>
       <description>html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。</description>
     </item>
     

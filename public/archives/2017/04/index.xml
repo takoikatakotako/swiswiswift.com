@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017/04 on すいすいSwift</title>
-    <link>http://localhost:8000/archives/2017/04/</link>
+    <link>https://swiswiswift.com/archives/2017/04/</link>
     <description>Recent content in 2017/04 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 01 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/archives/2017/04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/archives/2017/04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>サイトリニューアルしました</title>
-      <link>http://localhost:8000/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>https://swiswiswift.com/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>https://swiswiswift.com/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>サイトのリニューアルを行いました。</description>
     </item>
     

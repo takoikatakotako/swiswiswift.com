@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tex on すいすいSwift</title>
-    <link>http://localhost:8000/categories/tex/</link>
+    <link>https://swiswiswift.com/categories/tex/</link>
     <description>Recent content in Tex on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 07 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/categories/tex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/categories/tex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>texworksのURL</title>
-      <link>http://localhost:8000/2017-06-07/</link>
+      <link>https://swiswiswift.com/2017-06-07/</link>
       <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2017-06-07/</guid>
+      <guid>https://swiswiswift.com/2017-06-07/</guid>
       <description>Windowsのパソコンを自作し、texworksを入れたのですがショートカットを間違えて消してしまい、困りました。 ` C:\w32tex\share\texworks\texworks.exe ` にありました。 TeXインストーラ 3 簡単LaTeXインストールWindows編（2016年4月版）</description>
     </item>
     

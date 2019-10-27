@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018/04 on すいすいSwift</title>
-    <link>http://localhost:8000/archives/2018/04/</link>
+    <link>https://swiswiswift.com/archives/2018/04/</link>
     <description>Recent content in 2018/04 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/archives/2018/04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/archives/2018/04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TableViewを編集してCellを削除する</title>
-      <link>http://localhost:8000/2018-04-24/</link>
+      <link>https://swiswiswift.com/2018-04-24/</link>
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-04-24/</guid>
+      <guid>https://swiswiswift.com/2018-04-24/</guid>
       <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。 NavigationControllerについてはこの記事を参考にしてください。 NavigationControllerを実装する</description>
     </item>
     
     <item>
       <title>TableViewを編集してCellを削除する(横スライド)</title>
-      <link>http://localhost:8000/2018-04-23/</link>
+      <link>https://swiswiswift.com/2018-04-23/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-04-23/</guid>
+      <guid>https://swiswiswift.com/2018-04-23/</guid>
       <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。 func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)</description>
     </item>
     
     <item>
       <title>数字を三桁ごとにカンマ区切りにする(日本円の表示)</title>
-      <link>http://localhost:8000/2018-04-23/</link>
+      <link>https://swiswiswift.com/2018-04-23/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-04-23/</guid>
+      <guid>https://swiswiswift.com/2018-04-23/</guid>
       <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな感じです。 参考に指せて頂いた記事 [Swift]数字を三桁ごとにカンマ区切りにする</description>
     </item>
     
     <item>
       <title>現在の日付と曜日、現在時間を取得する</title>
-      <link>http://localhost:8000/2018-04-20/</link>
+      <link>https://swiswiswift.com/2018-04-20/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-04-20/</guid>
+      <guid>https://swiswiswift.com/2018-04-20/</guid>
       <description>Swift4.1で現在の日付と曜日、現在時間を取得するサンプルコードです。 以下の形式の文字列で取得してくれます。 2018/04/03 (木) 19:03:34 上のような形式で取得するサンプルコードです。 Calendar.currentで取得すると、設定によっては和暦(平成〇〇年)で取得してしまう可能性があるので(2018/04/03が</description>
     </item>
     
     <item>
       <title>CustumTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ</title>
-      <link>http://localhost:8000/2018-04-05/</link>
+      <link>https://swiswiswift.com/2018-04-05/</link>
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-04-05/</guid>
+      <guid>https://swiswiswift.com/2018-04-05/</guid>
       <description>CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使うことができます。 そしてTableViewCellのアクセサリービューにはUISwitchやチェックマークなどのアクセサリをつけることができます。 今回はその両方を使ったサンプルコードです。 参考にさせて頂い</description>
     </item>
     

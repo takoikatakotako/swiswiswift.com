@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018/12 on すいすいSwift</title>
-    <link>http://localhost:8000/archives/2018/12/</link>
+    <link>https://swiswiswift.com/archives/2018/12/</link>
     <description>Recent content in 2018/12 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/archives/2018/12/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/archives/2018/12/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lifesumアプリのインタラクションが素敵だったので再現してみた</title>
-      <link>http://localhost:8000/2018-12-28/</link>
+      <link>https://swiswiswift.com/2018-12-28/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-12-28/</guid>
+      <guid>https://swiswiswift.com/2018-12-28/</guid>
       <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 インタラクションの凄さと登録導線離脱率の相関が気になりますね。</description>
     </item>
     
     <item>
       <title>押すとクニュっとするボタンを実装する</title>
-      <link>http://localhost:8000/2018-12-27/</link>
+      <link>https://swiswiswift.com/2018-12-27/</link>
       <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-12-27/</guid>
+      <guid>https://swiswiswift.com/2018-12-27/</guid>
       <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕はマイクロインタラクション大好きなんですが、エンジニアやデザイナーの自己満なんでしょうかね？ わからんとです。</description>
     </item>
     
     <item>
       <title>SSH で入ることのできるDockerイメージ(Ubuntu14.04)</title>
-      <link>http://localhost:8000/2018-12-26/</link>
+      <link>https://swiswiswift.com/2018-12-26/</link>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-12-26/</guid>
+      <guid>https://swiswiswift.com/2018-12-26/</guid>
       <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこちら CentOS6はこちら 参考 Docker 初心者 — ssh で接続できるサーバーを立てる $ docker build -t ssh_ubuntu14:latest . --no-cache $ docker run -d -p 2222:22 ssh_ubuntu14:latest $ ssh-keygen -R [localhost]:2222 $ ssh -p 2222 kabigon@localhost</description>
     </item>
     
     <item>
       <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
-      <link>http://localhost:8000/2018-12-25/</link>
+      <link>https://swiswiswift.com/2018-12-25/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-12-25/</guid>
+      <guid>https://swiswiswift.com/2018-12-25/</guid>
       <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost</description>
     </item>
     
     <item>
       <title>食洗機の分岐水栓取り付け工事を自分で行う。</title>
-      <link>http://localhost:8000/2018-12-24/</link>
+      <link>https://swiswiswift.com/2018-12-24/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-12-24/</guid>
+      <guid>https://swiswiswift.com/2018-12-24/</guid>
       <description>例のPayPyaの20%キャッシュバックキャンペーンに釣られてビックカメラで食洗機を買いました。 パナソニック 食器洗い機（ホワイト）【食洗機】 Panasonic プチ食洗 NP-TCB4-W 食洗機の分岐水栓の取り付け工事は1万5千円(工事五千円+分岐水栓1万円)かかると言われたので、自分でやってしまおう！と思い自分でやりました。 分岐水栓</description>
     </item>
     
     <item>
       <title>Alamofireを使ってAPIからJSONを取得する(Swift4.2)</title>
-      <link>http://localhost:8000/2018-12-01/</link>
+      <link>https://swiswiswift.com/2018-12-01/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2018-12-01/</guid>
+      <guid>https://swiswiswift.com/2018-12-01/</guid>
       <description>古い記事(Swift3)は こちら Alamofireを使ってAPIからJSONを取得する #Xcode 10.1 #Swift 4.2 swiftの有名な通信ライブラリであるAlamofireとこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、 お天気APIから情報を取得するサンプルです。 今回のサンプルでは</description>
     </item>
     

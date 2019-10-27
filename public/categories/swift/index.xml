@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on すいすいSwift</title>
-    <link>http://localhost:8000/categories/swift/</link>
+    <link>https://swiswiswift.com/categories/swift/</link>
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 30 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8000/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
-      <link>http://localhost:8000/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</link>
+      <link>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</guid>
+      <guid>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</guid>
       <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
     </item>
     
     <item>
       <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
-      <link>http://localhost:8000/2019-06-02/</link>
+      <link>https://swiswiswift.com/2019-06-02/</link>
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-06-02/</guid>
+      <guid>https://swiswiswift.com/2019-06-02/</guid>
       <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
     </item>
     
     <item>
       <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
-      <link>http://localhost:8000/2019-01-22/</link>
+      <link>https://swiswiswift.com/2019-01-22/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-01-22/</guid>
+      <guid>https://swiswiswift.com/2019-01-22/</guid>
       <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView</description>
     </item>
     
     <item>
       <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
-      <link>http://localhost:8000/2019-01-21/</link>
+      <link>https://swiswiswift.com/2019-01-21/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-01-21/</guid>
+      <guid>https://swiswiswift.com/2019-01-21/</guid>
       <description>#Swift4.2 NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
     </item>
     
     <item>
       <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
-      <link>http://localhost:8000/2019-01-20/</link>
+      <link>https://swiswiswift.com/2019-01-20/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/2019-01-20/</guid>
+      <guid>https://swiswiswift.com/2019-01-20/</guid>
       <description># Swift4.2 setViewControllersでNavigationControllerのRootを切り替えています。</description>
     </item>
     
