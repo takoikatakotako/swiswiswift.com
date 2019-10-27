@@ -9,15 +9,14 @@ theme = "Inkblotty2"
 #     category = "categories"
 
 
-# languageCode = "en-us"
-DefaultContentLanguage = "en-us"
+DefaultContentLanguage = "ja"
 hasCJKLanguage = "true"
 
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-82467612-2"
 
 summaryLength=150
 
