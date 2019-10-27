@@ -22,19 +22,19 @@
     
     <item>
       <title>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました</title>
-      <link>https://swiswiswift.com/iosdc-japan-2019%E3%81%AEday1%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E3%83%AB%E3%83%BC%E3%82%AD%E3%83%BC%E3%82%BAlt%E6%9E%A0%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>https://swiswiswift.com/2019-09-11/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/iosdc-japan-2019%E3%81%AEday1%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E3%83%AB%E3%83%BC%E3%82%AD%E3%83%BC%E3%82%BAlt%E6%9E%A0%E3%81%A7%E7%99%BB%E5%A3%87%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>https://swiswiswift.com/2019-09-11/</guid>
       <description>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました。 聞いたセッションについてはまた別ブログで。 まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で発表させていただきました。 「iOSDCでのトークが初めての方のみ応募が可能な枠」で</description>
     </item>
     
     <item>
       <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
-      <link>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</link>
+      <link>https://swiswiswift.com/2019-07-30/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</guid>
+      <guid>https://swiswiswift.com/2019-07-30/</guid>
       <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
     </item>
     

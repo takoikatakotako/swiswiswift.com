@@ -1,5 +1,6 @@
 +++
 title = "iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました"
+url = "2019-09-11"
 date = "2019-09-11"
 description = "iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました"
 tags = [

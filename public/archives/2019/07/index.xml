@@ -13,10 +13,10 @@
     
     <item>
       <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
-      <link>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</link>
+      <link>https://swiswiswift.com/2019-07-30/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tableview%E3%81%AE%E3%82%BB%E3%83%AB%E3%81%AE%E9%AB%98%E3%81%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8Bswift5.0.1/</guid>
+      <guid>https://swiswiswift.com/2019-07-30/</guid>
       <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
     </item>
     
