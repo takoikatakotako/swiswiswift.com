@@ -3,18 +3,18 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>アプリ使用中に位置情報を取得する - すいすいSwift</title>
+    <title>404 Not Found - すいすいSwift</title>
     <meta name="description"  content="iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。" />
     <meta property="og:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="index.html" />
     <meta property="og:image" content="swift.png" />
     <meta property="og:site_name" content="すいすいSwift" />
-    <meta property="og:description" content=" アプリ使用中に位置情報を取得する | すいすいSwift " />
+    <meta property="og:description" content=" 404 Not Found | すいすいSwift " />
     <meta property="og:image:secure_url" content="swift.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
-    <meta name="twitter:description" content=" アプリ使用中に位置情報を取得する | すいすいSwift " />
+    <meta name="twitter:description" content=" 404 Not Found | すいすいSwift " />
     <meta name="twitter:image" content="swift.png" />
 
     <style type="text/css">
@@ -81,10 +81,10 @@ if (!doNotTrack) {
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>アプリ使用中に位置情報を取得する</h1>
+            <h1>404 Not Found</h1>
             <div class="post-details">
                 <a rel="bookmark">
-                    <time datetime="2018-12-29T1229:120:06">2018-12-29</time>
+                    <time datetime="2017-04-01T41:120:06">2017-04-01</time>
                 </a>
 				
 <span style="float: right;">
@@ -92,15 +92,15 @@ if (!doNotTrack) {
     
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2"></script>
     
-    <div class="fb-share-button" data-href="https://swiswiswift.com/2018-12-29/" data-layout="button_count" data-size="small">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fswiswiswift.com%2f2018-12-29%2f" class="fb-xfbml-parse-ignore">Share</a>
+    <div class="fb-share-button" data-href="https://swiswiswift.com/404/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fswiswiswift.com%2f404%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="アプリ使用中に位置情報を取得する" data-url="https://swiswiswift.com/2018-12-29/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="404 Not Found" data-url="https://swiswiswift.com/404/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
-    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fswiswiswift.com%2f2018-12-29%2f&title=%e3%82%a2%e3%83%97%e3%83%aa%e4%bd%bf%e7%94%a8%e4%b8%ad%e3%81%ab%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%82%92%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
+    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fswiswiswift.com%2f404%2f&title=404%20Not%20Found" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
         <img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" width="20" height="20" style="border: none;" />
     </a>
     <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
@@ -111,52 +111,13 @@ if (!doNotTrack) {
         </header>
 
         <div class="post-content">
-            <p><br></p>
-
-<p>#Swift 4.2</p>
-
-<p>アプリ使用中に緯度と経度を取得するサンプルコードです。<br />
-端末の緯度と経度が変わるとラベル文字列が更新されます。</p>
-
-<p>参考<br />
-<a href="https://dev.classmethod.jp/smartphone/ios-corelocation-swift3/">[iOS] 位置情報の取得 (Swift3編)</a><br />
-<a href="https://qiita.com/chino_tweet/items/db3a536234a43a3c31d9">【CoreLocation】位置情報を取得する</a></p>
-
-<p>LocationManagerを使用する場合は、「位置情報を利用する目的」をInfo.plistに記載する必要があります。</p>
-
-<p>起動中のみ位置情報を取得する場合</p>
-
-<p><code>NSLocationWhenInUseUsageDescription</code><br />
-<code>このアプリは、マップで道案内するため、位置情報を取得します</code></p>
-
-<p>常に位置情報を取得する場合</p>
-
-<p><code>NSLocationAlwaysUsageDescription</code><br />
-<code>åこのアプリは、移動距離取得のため、常に位置情報を取得します</code></p>
-
-<p>位置情報が変更されるとラベルに文字が表示されます。</p>
-
-<p><img src="1.png" alt="alt" /></p>
-
-<script src="https://gist.github.com/O-Junpei/b3779eda289d518889b73e7dabefaca4.js"></script>
+            <p>404 Not Found</p>
 
         </div>
 
         <footer class="post-footer">
             
-            <span class="post-categories">
-                
-                <a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
-                
-            </span>
-            
 
-            
-            <span class="post-tags">
-                
-                <a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>&emsp;
-                
-            </span>
             
         </footer>
         
@@ -170,48 +131,8 @@ if (!doNotTrack) {
 </table>
 
         
-	
-	
-	<h4>関連記事</h4>
-	<ol style="margin-left: 30px; list-style-type: decimal;">
-		
-		<li><strong><a href="https://swiswiswift.com/2018-12-28/">Lifesumアプリのインタラクションが素敵だったので再現してみた</a></strong></li>
-		
-		<li><strong><a href="https://swiswiswift.com/2018-12-27/">押すとクニュっとするボタンを実装する</a></strong></li>
-		
-		<li><strong><a href="https://swiswiswift.com/2018-12-26/">SSH で入ることのできるDockerイメージ(Ubuntu14.04)</a></strong></li>
-		
-		<li><strong><a href="https://swiswiswift.com/2018-12-01/">Alamofireを使ってAPIからJSONを取得する(Swift4.2)</a></strong></li>
-		
-		<li><strong><a href="https://swiswiswift.com/2018-11-12/">Xcode10でプロジェクト名を変更する</a></strong></li>
-		
-		<li><strong><a href="https://swiswiswift.com/2018-09-20/">グループスタイルのTableViewを作成する</a></strong></li>
-		
-		<li><strong><a href="https://swiswiswift.com/2018-09-19/">SafeAreaを取得する</a></strong></li>
-		
-	</ol>
-	
-
     </article>
 
-    
-    <nav class="navigation post-navigation" role="navigation">
-        <div class="nav-links">
-            <div class="nav-previous">
-                
-                <a class="previous" href="https://swiswiswift.com/2018-12-28/"> Lifesumアプリのインタラクションが素敵だったので再現してみた</a>
-                
-            </div>
-            <div class="nav-next">
-                
-                <a class="next" href="https://swiswiswift.com/2018-12-30/"> UITableViewの中身をUISearchBarで検索する(Swift4)</a>
-                
-            </div>
-        </div>
-    </nav>
-    <section>
-        
-    </section>
     
 
 </main>

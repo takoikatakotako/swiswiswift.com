@@ -17,7 +17,7 @@
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-07-30/</guid>
-      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
+      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios (adsbygoogle = window.adsbygoogle || []).push({});</description>
     </item>
     
     <item>

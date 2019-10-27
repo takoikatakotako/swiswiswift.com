@@ -17,7 +17,7 @@
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-09-12/</guid>
-      <description>gem でインストールした cocoapods のバージョンをアップデートする方法です。 gem update cocoapods pod --version</description>
+      <description>gem でインストールした cocoapods のバージョンをアップデートする方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); gem update cocoapods pod --version</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-07-30/</guid>
-      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
+      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios (adsbygoogle = window.adsbygoogle || []).push({});</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-07-29/</guid>
-      <description>パスワードをリセットする事で、アカウントのロックが解除されました。 https://br-campus.jp/password/reset</description>
+      <description>パスワードをリセットする事で、アカウントのロックが解除されました。 https://br-campus.jp/password/reset (adsbygoogle = window.adsbygoogle || []).push({});</description>
     </item>
     
     <item>
@@ -1155,21 +1155,21 @@
     </item>
     
     <item>
+      <title>404 Not Found</title>
+      <link>https://swiswiswift.com/404/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/404/</guid>
+      <description>404 Not Found</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://swiswiswift.com/about/</link>
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/about/</guid>
       <description>インフラとアプリをメインにやっているエンジニアです。 個人開発アプリを作って一発当てるのが夢です。 Twitter @takoikatakotako Github O-Junpei Qita takoikatakotako</description>
-    </item>
-    
-    <item>
-      <title>Error</title>
-      <link>https://swiswiswift.com/error/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/error/</guid>
-      <description>Error</description>
     </item>
     
     <item>
