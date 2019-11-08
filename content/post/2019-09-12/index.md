@@ -16,9 +16,8 @@ aliases = ["migrate-from-jekyl"]
 <br>
 gem でインストールした cocoapods のバージョンをアップデートする方法です。
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <!-- for swiswiswift.com responsive -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-5587141252700968"
