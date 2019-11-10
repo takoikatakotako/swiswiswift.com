@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/aws/</link>
+    <description>Recent content in AWS on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>インフラエンジニアなりたてで知らなかった単語をまとめ</title>
+      <link>https://swiswiswift.com/2019-11-08/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-08/</guid>
+      <description>インフラの勉強をし始めて分からなくて調べた単語をまとめました。 (adsbygoogle = window.adsbygoogle || []).push({}); コンソリデーティッドビリング（Consolidated Billing） 一括請求機能。AWS Organizations で利用することができ、組織の連結アカウントのすべての料金を支払者アカウントに一括請求することができる。連結アカウントのコストを追跡するこ</description>
+    </item>
+    
+  </channel>
+</rss>

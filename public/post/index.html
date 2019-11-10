@@ -92,6 +92,158 @@ if (!doNotTrack) {
         <article class="list__item post clearfix">
 	<div class="list__content clearfix">
 		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-08/" rel="bookmark">インフラエンジニアなりたてで知らなかった単語をまとめ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-08T00:00:00">2019-11-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			インフラの勉強をし始めて分からなくて調べた単語をまとめました。 (adsbygoogle = window.adsbygoogle || []).push({}); コンソリデーティッドビリング（Consolidated Billing） 一括請求機能。AWS Organizations で利用することができ、組織の連結アカウントのすべての料金を支払者アカウントに一括請求することができる。連結アカウントのコストを追跡するこ
+			<a href="https://swiswiswift.com/2019-11-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/aws" rel="tag">AWS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/aws" rel="tag">AWS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-07/" rel="bookmark">PHP で本当に簡単なモックサーバーを作る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-07T00:00:00">2019-11-07</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。 signup.php でユーザー登録を行い、list.php でユーザーの一覧を表示し、deleate.php でユーザーを全て削除します。 (adsbygoogle = window.adsbygoogle || []).push({}); # サーバー起動 $ php -S localhost:8000 # ユーザー登録 $ curl http://localhost:8000/signup.php -X POST -H &#34;Content-Type: application/json&#34; -d &#39;{&#34;name&#34;:&#34;onojun&#34;, &#34;age&#34;:24}&#39; # ユーザー一覧 $ curl http://localhost:8000/list.php # 全てのユーザーを削
+			<a href="https://swiswiswift.com/2019-11-07/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/php" rel="tag">PHP</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/php" rel="tag">PHP</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-06/" rel="bookmark">cURL（curl）でアプリにプッシュ通知を送信する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-06T00:00:00">2019-11-06</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			curl コマンドで iOS端末にプッシュ通知を送信する方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); 証明書と秘密鍵の両方を含めたpemファイルを作成します。 $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem curl コマンドでプッシュ通知を送信します。 プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。 また、本番環境（テストフライトなど）
+			<a href="https://swiswiswift.com/2019-11-06/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-05/" rel="bookmark">p12ファイルから証明書と秘密鍵を取り出す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-05T00:00:00">2019-11-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			.p12 ファイルから証明書と秘密鍵を取り出す方法です。 AWS SNS を Terraform で書くときに必要でした。 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem (adsbygoogle = window.adsbygoogle || []).push({}); ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。 NoArgument が入っても悪さはしないのですが、気になったので消そうとしました。 以下のコマンドを実行すると秘密鍵
+			<a href="https://swiswiswift.com/2019-11-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
 				<h2><a href="https://swiswiswift.com/2019-09-12/" rel="bookmark">gem でインストールした cocoapods をアップデートする</a></h2>
 				<div class="post-details">
 				<a rel="bookmark">
@@ -320,154 +472,6 @@ if (!doNotTrack) {
 </article>
 
     
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="https://swiswiswift.com/2019-06-01/" rel="bookmark">UISlider で値を取得する(Swift5.0)</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2019-06-01T00:00:00">2019-06-01</time>
-				</a>
-				</div>
-		</header>
-
-		<div class="post-excerpt"><p>
-			UISlider で値を取得するサンプルコードです。 最小値と最大値を設定することで、その間の任意の値を取ることができます。
-		</p></div>
-	</div>
-
-	<footer class="post-footer">
-			
-		<span class="post-categories">
-			
-			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
-			
-		</span>
-		
-
-		
-		<span class="post-tags">
-			
-			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
-			
-		</span>
-		
-	</footer>
-
-</article>
-
-    
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="https://swiswiswift.com/2019-05-12/" rel="bookmark">CallKit を使って着信画面を表示する</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2019-05-12T00:00:00">2019-05-12</time>
-				</a>
-				</div>
-		</header>
-
-		<div class="post-excerpt"><p>
-			CallKit を使うことで着信時のUIを使うことができます。
-		</p></div>
-	</div>
-
-	<footer class="post-footer">
-			
-		<span class="post-categories">
-			
-			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
-			
-		</span>
-		
-
-		
-		<span class="post-tags">
-			
-			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
-			
-		</span>
-		
-	</footer>
-
-</article>
-
-    
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="https://swiswiswift.com/2019-04-12/" rel="bookmark">ログイン時にメッセージを表示する（CentOS7）</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2019-04-12T00:00:00">2019-04-12</time>
-				</a>
-				</div>
-		</header>
-
-		<div class="post-excerpt"><p>
-			サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。 ログイン時に表示したい文字は $/etc/motd に記述します。 ただのテキストだと気が付きにくいので、figlet コマンドを使ってAAを作成するのがマイブームです。
-		</p></div>
-	</div>
-
-	<footer class="post-footer">
-			
-		<span class="post-categories">
-			
-			<a href="https://swiswiswift.com/categories/centos" rel="tag">CentOS</a>
-			
-		</span>
-		
-
-		
-		<span class="post-tags">
-			
-			<a href="https://swiswiswift.com/tags/centos" rel="tag">CentOS</a>
-			
-		</span>
-		
-	</footer>
-
-</article>
-
-    
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="https://swiswiswift.com/2019-04-11/" rel="bookmark">iOSでUITest（E2Eテスト）を行う(Swift5.0)</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2019-04-11T00:00:00">2019-04-11</time>
-				</a>
-				</div>
-		</header>
-
-		<div class="post-excerpt"><p>
-			Swift でUITest を行うサンプルコードです。 左右のテキストフィールドに数字を入れ、ボタンを押すとその積を計算するアプリを作りました。 そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入
-		</p></div>
-	</div>
-
-	<footer class="post-footer">
-			
-		<span class="post-categories">
-			
-			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
-			
-		</span>
-		
-
-		
-		<span class="post-tags">
-			
-			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
-			
-		</span>
-		
-	</footer>
-
-</article>
-
-    
   </div>
 
 
@@ -532,9 +536,13 @@ if (!doNotTrack) {
     <a href="https://swiswiswift.com/post/page/13/">13</a>
     
     
+    
+    <a href="https://swiswiswift.com/post/page/14/">14</a>
+    
+    
     <a href="https://swiswiswift.com/post/page/2/" aria-label="Next"><span aria-hidden="true">Next Page</span></a>
     
-    <a href="https://swiswiswift.com/post/page/13/" aria-label="Last"><span aria-hidden="true">&raquo;</span></a>
+    <a href="https://swiswiswift.com/post/page/14/" aria-label="Last"><span aria-hidden="true">&raquo;</span></a>
     
 </ul>
 </div>
@@ -564,6 +572,8 @@ if (!doNotTrack) {
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/arduino">Arduino (1)</a>
             </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/aws">AWS (1)</a>
+            </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/c">C (1)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/centos">CentOS (1)</a>
@@ -578,7 +588,7 @@ if (!doNotTrack) {
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/igor">Igor (1)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/ios">iOS (82)</a>
+                <a href="https://swiswiswift.com/categories/ios">iOS (84)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/java">Java (1)</a>
             </li><li class="cat-item cat-item-2">
@@ -587,6 +597,8 @@ if (!doNotTrack) {
                 <a href="https://swiswiswift.com/categories/linux">Linux (7)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/other">Other (3)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/php">PHP (1)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/rails">Rails (1)</a>
             </li><li class="cat-item cat-item-2">
@@ -609,13 +621,25 @@ if (!doNotTrack) {
 
     <aside class="widget widget_tag_cloud">
         <h2>タグ</h2>
-        <div class="tagcloud"><a class="tag-cloud-link" href="https://swiswiswift.com/tags/android" title="android" style="font-size: 12pt;">Android</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/arduino" title="arduino" style="font-size: 12pt;">Arduino</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/c" title="c" style="font-size: 12pt;">C</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/centos" title="centos" style="font-size: 12pt;">CentOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/docker" title="docker" style="font-size: 12pt;">Docker</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/esp32" title="esp32" style="font-size: 12pt;">ESP32</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/gcp" title="gcp" style="font-size: 12pt;">GCP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/html5" title="html5" style="font-size: 12pt;">HTML5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/igor" title="igor" style="font-size: 12pt;">Igor</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ios" title="ios" style="font-size: 12pt;">iOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/java" title="java" style="font-size: 12pt;">Java</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/javascript" title="javascript" style="font-size: 12pt;">JavaScript</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/linux" title="linux" style="font-size: 12pt;">Linux</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/other" title="other" style="font-size: 12pt;">Other</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/reactnative" title="reactnative" style="font-size: 12pt;">ReactNative</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ruby" title="ruby" style="font-size: 12pt;">Ruby</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift5" title="swift5" style="font-size: 12pt;">Swift5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/tex" title="tex" style="font-size: 12pt;">Tex</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%81%9d%e3%81%ae%e4%bb%96" title="その他" style="font-size: 12pt;">その他</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" title="カンファレンス" style="font-size: 12pt;">カンファレンス</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e5%b0%b1%e6%b4%bb" title="就活" style="font-size: 12pt;">就活</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c" title="電子工作" style="font-size: 12pt;">電子工作</a>&emsp;
+        <div class="tagcloud"><a class="tag-cloud-link" href="https://swiswiswift.com/tags/android" title="android" style="font-size: 12pt;">Android</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/arduino" title="arduino" style="font-size: 12pt;">Arduino</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/aws" title="aws" style="font-size: 12pt;">AWS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/c" title="c" style="font-size: 12pt;">C</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/centos" title="centos" style="font-size: 12pt;">CentOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/docker" title="docker" style="font-size: 12pt;">Docker</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/esp32" title="esp32" style="font-size: 12pt;">ESP32</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/gcp" title="gcp" style="font-size: 12pt;">GCP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/html5" title="html5" style="font-size: 12pt;">HTML5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/igor" title="igor" style="font-size: 12pt;">Igor</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ios" title="ios" style="font-size: 12pt;">iOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/java" title="java" style="font-size: 12pt;">Java</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/javascript" title="javascript" style="font-size: 12pt;">JavaScript</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/linux" title="linux" style="font-size: 12pt;">Linux</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/other" title="other" style="font-size: 12pt;">Other</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/php" title="php" style="font-size: 12pt;">PHP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/reactnative" title="reactnative" style="font-size: 12pt;">ReactNative</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ruby" title="ruby" style="font-size: 12pt;">Ruby</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift5" title="swift5" style="font-size: 12pt;">Swift5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/tex" title="tex" style="font-size: 12pt;">Tex</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%81%9d%e3%81%ae%e4%bb%96" title="その他" style="font-size: 12pt;">その他</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" title="カンファレンス" style="font-size: 12pt;">カンファレンス</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e5%b0%b1%e6%b4%bb" title="就活" style="font-size: 12pt;">就活</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c" title="電子工作" style="font-size: 12pt;">電子工作</a>&emsp;
         </div>
     </aside>
 
     <aside class="widget widget_recent_entries">
         <h2>最近の投稿</h2>
         <ul>
+            <li>
+                <a href="https://swiswiswift.com/2019-11-08/">インフラエンジニアなりたてで知らなかった単語をまとめ</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2019-11-07/">PHP で本当に簡単なモックサーバーを作る</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2019-11-06/">cURL（curl）でアプリにプッシュ通知を送信する</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2019-11-05/">p12ファイルから証明書と秘密鍵を取り出す</a>
+            </li>
             <li>
                 <a href="https://swiswiswift.com/2019-09-12/">gem でインストールした cocoapods をアップデートする</a>
             </li>
@@ -634,24 +658,12 @@ if (!doNotTrack) {
             <li>
                 <a href="https://swiswiswift.com/2019-06-02/">一定間隔の値をUISlider で取得する(Swift5.0)</a>
             </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-06-01/">UISlider で値を取得する(Swift5.0)</a>
-            </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-05-12/">CallKit を使って着信画面を表示する</a>
-            </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-04-12/">ログイン時にメッセージを表示する（CentOS7）</a>
-            </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-04-11/">iOSでUITest（E2Eテスト）を行う(Swift5.0)</a>
-            </li>
         </ul>
     </aside>
 
     <aside class="widget widget_archive">
         <h2>アーカイブ</h2>
-        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li>
+        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (4)</a></li>
         </ul>
     </aside>
 

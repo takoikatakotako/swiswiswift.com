@@ -6,10 +6,46 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>インフラエンジニアなりたてで知らなかった単語をまとめ</title>
+      <link>https://swiswiswift.com/2019-11-08/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-08/</guid>
+      <description>インフラの勉強をし始めて分からなくて調べた単語をまとめました。 (adsbygoogle = window.adsbygoogle || []).push({}); コンソリデーティッドビリング（Consolidated Billing） 一括請求機能。AWS Organizations で利用することができ、組織の連結アカウントのすべての料金を支払者アカウントに一括請求することができる。連結アカウントのコストを追跡するこ</description>
+    </item>
+    
+    <item>
+      <title>PHP で本当に簡単なモックサーバーを作る</title>
+      <link>https://swiswiswift.com/2019-11-07/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-07/</guid>
+      <description>ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。 signup.php でユーザー登録を行い、list.php でユーザーの一覧を表示し、deleate.php でユーザーを全て削除します。 (adsbygoogle = window.adsbygoogle || []).push({}); # サーバー起動 $ php -S localhost:8000 # ユーザー登録 $ curl http://localhost:8000/signup.php -X POST -H &amp;#34;Content-Type: application/json&amp;#34; -d &amp;#39;{&amp;#34;name&amp;#34;:&amp;#34;onojun&amp;#34;, &amp;#34;age&amp;#34;:24}&amp;#39; # ユーザー一覧 $ curl http://localhost:8000/list.php # 全てのユーザーを削</description>
+    </item>
+    
+    <item>
+      <title>cURL（curl）でアプリにプッシュ通知を送信する</title>
+      <link>https://swiswiswift.com/2019-11-06/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-06/</guid>
+      <description>curl コマンドで iOS端末にプッシュ通知を送信する方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); 証明書と秘密鍵の両方を含めたpemファイルを作成します。 $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem curl コマンドでプッシュ通知を送信します。 プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。 また、本番環境（テストフライトなど）</description>
+    </item>
+    
+    <item>
+      <title>p12ファイルから証明書と秘密鍵を取り出す</title>
+      <link>https://swiswiswift.com/2019-11-05/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-05/</guid>
+      <description>.p12 ファイルから証明書と秘密鍵を取り出す方法です。 AWS SNS を Terraform で書くときに必要でした。 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem (adsbygoogle = window.adsbygoogle || []).push({}); ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。 NoArgument が入っても悪さはしないのですが、気になったので消そうとしました。 以下のコマンドを実行すると秘密鍵</description>
+    </item>
     
     <item>
       <title>gem でインストールした cocoapods をアップデートする</title>
