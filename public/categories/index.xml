@@ -6,10 +6,28 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iOS</title>
+      <link>https://swiswiswift.com/categories/ios/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://swiswiswift.com/categories/swift/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/swift/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AWS</title>
@@ -26,24 +44,6 @@
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iOS</title>
-      <link>https://swiswiswift.com/categories/ios/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://swiswiswift.com/categories/swift/</link>
-      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/swift/</guid>
       <description></description>
     </item>
     

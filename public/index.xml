@@ -6,10 +6,28 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでStructが使いまわされる</title>
+      <link>https://swiswiswift.com/2019-11-14/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-14/</guid>
+      <description>画面遷移をするたびに異なる ID を表示させたかったのですが、それができませんでした。（毎回同じ ID が表示される） onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでしょうか？ 勉強していきます！！ (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListを表示する</title>
+      <link>https://swiswiswift.com/2019-11-13/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-13/</guid>
+      <description>SwiftUI でList を表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
     
     <item>
       <title>インフラエンジニアなりたてで知らなかった単語をまとめ</title>
