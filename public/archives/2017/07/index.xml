@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017/07 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2017/07/</link>
+    <description>Recent content in 2017/07 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/archives/2017/07/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>curlでpostでJson送るときにレスポンスヘッダーも確認したい</title>
+      <link>https://swiswiswift.com/2017-07-26/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-26/</guid>
+      <description>最後に --include をつけるとレスポンスヘッダーも表示されます http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;user@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;--include</description>
+    </item>
+    
+    <item>
+      <title>curlでpostでJson送る</title>
+      <link>https://swiswiswift.com/2017-07-25/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-25/</guid>
+      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、apiの確認をしたい時によく使います。 curl http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;kabigon@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;</description>
+    </item>
+    
+    <item>
+      <title>Alamofireを使ってAPIからJSONを取得する</title>
+      <link>https://swiswiswift.com/2017-07-09/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-09/</guid>
+      <description>新しい記事(Swift4)はこちらAlamofireを使ってAPIからJSONを取得する(Swift4.2) swiftの有名な通信ライブラリである Alamofire とこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、お天気API から情報を取得するサンプルです。 今回のサンプルでは非</description>
+    </item>
+    
+    <item>
+      <title>delegateで別のViewからメソッドを呼び出す</title>
+      <link>https://swiswiswift.com/2017-07-08/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-08/</guid>
+      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。</description>
+    </item>
+    
+  </channel>
+</rss>

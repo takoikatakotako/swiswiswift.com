@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017/13 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2017/13/</link>
+    <description>Recent content in 2017/13 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 13 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/archives/2017/13/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UIScrollViewで画像をピンチで拡大したり縮小する</title>
+      <link>https://swiswiswift.com/2017-11-13/</link>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-11-13/</guid>
+      <description>UIScrollViewの中にある画像を拡大したり縮小するサンプルです。 ピンチで画像を大きくしたり、小さくします。</description>
+    </item>
+    
+  </channel>
+</rss>

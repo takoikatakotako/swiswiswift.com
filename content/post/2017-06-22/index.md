@@ -1,0 +1,20 @@
++++
+title = "現在時刻の取得(kotlin)"
+url = "2017-06-22"
+date = "2017-06-22"
+description = "現在時刻の取得(kotlin)"
+tags = [
+    "Android",
+]
+categories = [
+    "Android",
+]
+archives = "2017/06"
+aliases = ["migrate-from-jekyl"]
++++
+
+<br>
+
+Kotlinで現在時刻の取得を行います。
+
+<script src="https://gist.github.com/O-Junpei/5252b4fc7f3d75ab2db380709e320899.js"></script>

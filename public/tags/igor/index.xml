@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Igor on すいすいSwift</title>
+    <link>https://swiswiswift.com/tags/igor/</link>
+    <description>Recent content in Igor on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/tags/igor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Igorでグラフの背景を白にする</title>
+      <link>https://swiswiswift.com/2017-05-24/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-24/</guid>
+      <description>グラフ中で右クリック -&amp;gt; Colors -&amp;gt; both background -&amp;gt; 白色を選択 これでできました。</description>
+    </item>
+    
+  </channel>
+</rss>

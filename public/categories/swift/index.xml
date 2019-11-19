@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/swift/</link>
+    <description>Recent content in Swift on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
+      <link>https://swiswiswift.com/2019-11-19/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-19/</guid>
+      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパースする方法です。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでStructが使いまわされる</title>
+      <link>https://swiswiswift.com/2019-11-14/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-14/</guid>
+      <description>画面遷移をするたびに異なる ID を表示させたかったのですが、それができませんでした。（毎回同じ ID が表示される） onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでしょうか？ 勉強していきます！！ (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListを表示する</title>
+      <link>https://swiswiswift.com/2019-11-13/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-13/</guid>
+      <description>SwiftUI でList を表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
+      <link>https://swiswiswift.com/2019-07-30/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-07-30/</guid>
+      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-02/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-02/</guid>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
+    </item>
+    
+    <item>
+      <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-22/</guid>
+      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-21/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-21/</guid>
+      <description>#Swift4.2 NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-20/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-20/</guid>
+      <description># Swift4.2 setViewControllersでNavigationControllerのRootを切り替えています。</description>
+    </item>
+    
+  </channel>
+</rss>

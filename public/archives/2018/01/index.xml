@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018/01 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2018/01/</link>
+    <description>Recent content in 2018/01 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/archives/2018/01/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UserDefaultsを使ってパラメーターを保存する</title>
+      <link>https://swiswiswift.com/2018-01-17/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-01-17/</guid>
+      <description>UserDefaultsはアプリを落としても保持しておきたいデータを保存するときに使います。 使い方はいたってシンプルです。 サンプルコードでは、まず最初に userDefaults.register(defaults: [&amp;quot;KEY_LabelText&amp;quot;: &amp;quot;Hello&amp;quot;]) で初期値を設定しています。 .register（） はとても便利で、指定したキーに対応するデータが存在しない場合に、初期値を入れてくれます。 次にラ</description>
+    </item>
+    
+    <item>
+      <title>UIPickerViewを使って値を選択する</title>
+      <link>https://swiswiswift.com/2018-01-14/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-01-14/</guid>
+      <description>はいどーも！ UIPickerViewを使って値を取得するサンプルコードです。 PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。 今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。 AppleDeveloperDocuments UIPickerView</description>
+    </item>
+    
+  </channel>
+</rss>

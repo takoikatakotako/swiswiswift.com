@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift5 on すいすいSwift</title>
+    <link>https://swiswiswift.com/tags/swift5/</link>
+    <description>Recent content in Swift5 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 30 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/tags/swift5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
+      <link>https://swiswiswift.com/2019-07-30/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-07-30/</guid>
+      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できました。 サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+  </channel>
+</rss>

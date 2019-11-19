@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on すいすいSwift</title>
+    <link>https://swiswiswift.com/tags/swift/</link>
+    <description>Recent content in Swift on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
+      <link>https://swiswiswift.com/2019-11-19/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-19/</guid>
+      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパースする方法です。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでStructが使いまわされる</title>
+      <link>https://swiswiswift.com/2019-11-14/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-14/</guid>
+      <description>画面遷移をするたびに異なる ID を表示させたかったのですが、それができませんでした。（毎回同じ ID が表示される） onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでしょうか？ 勉強していきます！！ (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListを表示する</title>
+      <link>https://swiswiswift.com/2019-11-13/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-13/</guid>
+      <description>SwiftUI でList を表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+  </channel>
+</rss>

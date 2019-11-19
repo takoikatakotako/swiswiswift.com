@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018/03 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2018/03/</link>
+    <description>Recent content in 2018/03 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/archives/2018/03/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduinoでボタンを使う(プルアップ抵抗無し)</title>
+      <link>https://swiswiswift.com/2018-03-25/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-25/</guid>
+      <description>Arduinoでボタンを使うときのサンプルコードです。 あんまり知られていないんですが、プルアップを使うとプルアップ抵抗が無しで簡単にボタンを使うことができるんですよ。 グラウンドとDegitalの2番ポートを繋げると(ボタンを押すと)そのことを認識できます。</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud FunctionでHelloWorld</title>
+      <link>https://swiswiswift.com/2018-03-24/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-24/</guid>
+      <description>Google様のCloud Functionを触ってみたので、そのメモです。 HelloWorldとJsonでの出力とgetの受け取りです。</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerにTextFieldを追加する</title>
+      <link>https://swiswiswift.com/2018-03-17/</link>
+      <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-17/</guid>
+      <description>UIAlertControllerにTextFieldを追加したサンプルです。</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerを実装する</title>
+      <link>https://swiswiswift.com/2018-03-15/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-15/</guid>
+      <description>NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+    </item>
+    
+    <item>
+      <title>ESP32でRTCモジュールを使う</title>
+      <link>https://swiswiswift.com/2018-03-14/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-14/</guid>
+      <description>ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#include DS1307RTC.h を一番上に持ってくることで解決しました。 サンプルコードのReadTestのESP32バージョンになります。 使用ライブラリと機材は以下の通りです。 DS1307RTCライブラリ github.com/PaulStoffregen/DS1307RTC ESPr® Developer 32</description>
+    </item>
+    
+    <item>
+      <title>文字列やURLからQRコードを生成する</title>
+      <link>https://swiswiswift.com/2018-03-07/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-07/</guid>
+      <description>文字列やURLからQRコードを生成するサンプルコードです。 This is a sample code that generates a QR code from a character string or URL. これらの記事を参考にさせていただきました。 CIImageをData型に変換したときにハマった時の対処法(Swift3.0) SwiftでQRコードを生成してみた 生成したQRコードはこちらです。</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerでアラートを表示する</title>
+      <link>https://swiswiswift.com/2018-03-06/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-06/</guid>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert をUIAlertControllerStyle.actionSheet にするとニュッと下から出るタイプのアラートになります。</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerで下からニュッと出す(UIActionSheet)</title>
+      <link>https://swiswiswift.com/2018-03-05/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-05/</guid>
+      <description>下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。 遥か昔、下からニュッと出てくるアラートはUIActionSheetなんて呼ばれている時期もありましたが、UIAlertControllerに統合されました。</description>
+    </item>
+    
+    <item>
+      <title>列挙型 enum</title>
+      <link>https://swiswiswift.com/2018-03-04/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-04/</guid>
+      <description>列挙型、enumの書き方のサンプルコードです。 ここではpersonというクラスを作り、カビゴンさんの名前と出身地をenumを用いて登録しています。</description>
+    </item>
+    
+    <item>
+      <title>iPhoneアプリのプログラミングの勉強法</title>
+      <link>https://swiswiswift.com/2018-03-03/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-03/</guid>
+      <description>「iPhoneアプリを作るには何から勉強したらいい？」と友達にちょくちょく聞かれるのでオススメの勉強法をまとめてみました。 iPhoneアプリの勉強方に王道が無いと思いますが、良かったら参考にしてください。 1.書籍で勉強する まずはじめに書籍で勉強することをオススメします。 Webページは見返すことが難し</description>
+    </item>
+    
+  </channel>
+</rss>

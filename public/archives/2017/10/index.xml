@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017/10 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2017/10/</link>
+    <description>Recent content in 2017/10 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/archives/2017/10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UINavigationControllerの戻るボタンの戻るを消す</title>
+      <link>https://swiswiswift.com/2017-10-14/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-14/</guid>
+      <description>UINavigationControllerの戻るボタンの文字を消します。 「＜戻る」を「＜」にします。 let backButton = UIBarButtonItem(title: &amp;quot;&amp;quot;, style: .plain, target: nil, action: nil) self.navigationItem.backBarButtonItem = backButton self.navigationController?.pushViewController(picDetailView, animated: true)</description>
+    </item>
+    
+    <item>
+      <title>○秒後に実行させる、毎秒実行する</title>
+      <link>https://swiswiswift.com/2017-10-13/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-13/</guid>
+      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。</description>
+    </item>
+    
+    <item>
+      <title>UITableViewにヘッダーを設定する</title>
+      <link>https://swiswiswift.com/2017-10-08/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-08/</guid>
+      <description>UITableViewにヘッダーを設定するサンプルです。</description>
+    </item>
+    
+    <item>
+      <title>UICollectionViewにCustomセルを追加する</title>
+      <link>https://swiswiswift.com/2017-10-03/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-03/</guid>
+      <description>UICollectionViewにCustumCollectionセルを追加してみました。 クラス名を文字列に変換する NSStringFromClass(CustumCollectionViewCell.self) は、UITableViewやUICollectionView を使うときにとても便利です。</description>
+    </item>
+    
+    <item>
+      <title>UICollectionView</title>
+      <link>https://swiswiswift.com/2017-10-02/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-02/</guid>
+      <description>UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせていただきました。 このサイトは見やすくて、swiftをやる人にとてもオススメです。 makeColor() 関数でランダムに生成した色をセルに入れています。 スクロールするたびに色が変わります。</description>
+    </item>
+    
+    <item>
+      <title>ESP32でSDカードのテキストファイルを読み書きする。</title>
+      <link>https://swiswiswift.com/2017-10-01/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-01/</guid>
+      <description>ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシンプルなサンプルコードがネットにあまりな無かったので描いてみました。 SDカードとESPとの配線はこちらのサイトを参考にしました。 mgo-tec電子工作 いろいろ調べたのですが、プルアップ抵抗はあった方が良</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,37 @@
-hugo new posts/my-first-post.md
+## Install
+
+### Install Hugo
+
+```
+$ brew install hugo
+```
+
+Reference: https://gohugo.io/getting-started/installing/
 
 
+### Install Dependency
 
-git submodule add https://github.com/tosi29/inkblotty.git themes/Inkblotty
+```
+$ git clone https://github.com/O-Junpei/swiswiswift.com/
+$ cd swiswiswift.com
+$ git checkout develop # if needed
+$ git submodule update --init --recursive
+```
 
 
-hugo server -D
+## Build
+
+```
+$ cd swiswiswift.com
+$ hugo
+$ cd public
+$ php -S localhost:8000 
+```
+
+
+## Start Development Server
+
+```
+$ cd swiswiswift.com
+$ hugo server -D
+```

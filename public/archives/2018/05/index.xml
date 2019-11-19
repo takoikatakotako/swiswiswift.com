@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018/05 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2018/05/</link>
+    <description>Recent content in 2018/05 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/archives/2018/05/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>let’s encryptでさくらサーバーをhttpsにする</title>
+      <link>https://swiswiswift.com/2018-05-25/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-25/</guid>
+      <description>以下のサイトを参考にして証明書の設定をして以下の.htaccessをrootにおけば完成です。 ちょっとだけ詰まりました。 さくらのサポート情報 【無料SSL】サーバコントロールパネルからの導入手順</description>
+    </item>
+    
+    <item>
+      <title>Asset CatalogでColor Setを使って色を管理する</title>
+      <link>https://swiswiswift.com/2018-05-24/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-24/</guid>
+      <description>Xcode9(iOS 11)から、色をAssetで管理することができるようになりました。 UIColorのExtensionを作って色を登録して関数作ったりしてごにょごにょしなくて良くなりました。 色の管理がしやすくなりましたし、デザイナーさんとの連携もちょっとしやすくなったのかな？って思いました。 とても良い機能なんですが</description>
+    </item>
+    
+    <item>
+      <title>Appleのエンジニアさんにコードレベルの質問を送ってみた</title>
+      <link>https://swiswiswift.com/2018-05-21/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-21/</guid>
+      <description>「AppleDeveloperの登録料が高すぎる」と友達からよく言われるんですが、高いだけあって良いところもたくさんあります。 その中の一つがTechnical Support Incident（TSI）で、修正できないバグや問題をコードのレベルでAppleのエンジニアさんが質問に答えてくれたり、相談に乗ってくれます</description>
+    </item>
+    
+    <item>
+      <title>UIViewの背景をグラデーションさせる</title>
+      <link>https://swiswiswift.com/2018-05-06/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-06/</guid>
+      <description>UIViewの背景をグラデーションさせるサンプルコードです。 参考にさせていただいたページ 【Swift x iOSアプリ開発】Viewの背景色にグラデーションを設定する方法 Swift UIViewの背景をグラデーションさせる方法 -iPhoneアプリ開発-</description>
+    </item>
+    
+    <item>
+      <title>カスタムボタンクラスを実装する</title>
+      <link>https://swiswiswift.com/2018-05-02/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-02/</guid>
+      <description>UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。 見た目を別ファイルに切り分けることでViewControllerがすっきりします。</description>
+    </item>
+    
+  </channel>
+</rss>

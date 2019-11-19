@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rails on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/rails/</link>
+    <description>Recent content in Rails on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/categories/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CentOS7にRailsをインストールする</title>
+      <link>https://swiswiswift.com/2019-01-14/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-14/</guid>
+      <description>CentOS7にRailsをインストールした時のメモになります。 最終的なNginxの nginx.conf ファイルはこちらになります。</description>
+    </item>
+    
+  </channel>
+</rss>

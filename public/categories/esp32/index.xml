@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ESP32 on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/esp32/</link>
+    <description>Recent content in ESP32 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/categories/esp32/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ESP32でRTCモジュールを使う</title>
+      <link>https://swiswiswift.com/2018-03-14/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-14/</guid>
+      <description>ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#include DS1307RTC.h を一番上に持ってくることで解決しました。 サンプルコードのReadTestのESP32バージョンになります。 使用ライブラリと機材は以下の通りです。 DS1307RTCライブラリ github.com/PaulStoffregen/DS1307RTC ESPr® Developer 32</description>
+    </item>
+    
+    <item>
+      <title>ESP32でSDカードのテキストファイルを読み書きする。</title>
+      <link>https://swiswiswift.com/2017-10-01/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-01/</guid>
+      <description>ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシンプルなサンプルコードがネットにあまりな無かったので描いてみました。 SDカードとESPとの配線はこちらのサイトを参考にしました。 mgo-tec電子工作 いろいろ調べたのですが、プルアップ抵抗はあった方が良</description>
+    </item>
+    
+  </channel>
+</rss>

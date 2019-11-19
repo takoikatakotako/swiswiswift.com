@@ -1,0 +1,35 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <title>{{ .Title }}{{ if ne .Title .Site.Title}} - {{ .Site.Title }}{{end}}</title>
+    <meta name="description"  content="iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。" />
+    <meta property="og:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:image" content="swift.png" />
+    <meta property="og:site_name" content="すいすいSwift" />
+    <meta property="og:description" content="{{ if eq .Title .Site.Title }} iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。 {{ else }} {{.Title}} | {{ .Site.Title }} {{ end }}" />
+    <meta property="og:image:secure_url" content="swift.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
+    <meta name="twitter:description" content="{{ if eq .Title .Site.Title }} iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。 {{ else }} {{.Title}} | {{ .Site.Title }} {{ end }}" />
+    <meta name="twitter:image" content="swift.png" />
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' href='{{ "css/style.css" | absURL }}' type='text/css' media='all' />
+    <link rel='stylesheet' href='{{ "css/custom.css" | absURL }}' type='text/css' media='all' />
+    {{ template "_internal/google_analytics.html" . }}
+</head>
