@@ -6,10 +6,19 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
+      <link>https://swiswiswift.com/2019-11-19/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-19/</guid>
+      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパースする方法です。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
     
     <item>
       <title>SwiftUIでStructが使いまわされる</title>
