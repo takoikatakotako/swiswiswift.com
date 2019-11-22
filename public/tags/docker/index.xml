@@ -6,10 +6,19 @@
     <description>Recent content in Docker on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dockerを使ってPostgreSQLを立て、テーブルを作成する。</title>
+      <link>https://swiswiswift.com/2019-11-22/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-22/</guid>
+      <description>Docker を使って PostgreSQL を立てる方法です。 開発環境を Docker をで立てて整備すると自分のローカル環境を汚さずに済むのでとても良いですよね。 postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーでログインすることができます。（パスワードはpassword） また pokemon というデータベー</description>
+    </item>
     
     <item>
       <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
