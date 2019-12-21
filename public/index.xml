@@ -6,10 +6,37 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dockerで Alpineベースのコンテナに入る</title>
+      <link>https://swiswiswift.com/2019-12-21/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-21/</guid>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash  参考 Dockerコンテナのシェルの中に入る dockerでalpine linux ベースのcontainerに入</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI でアラートを表示する</title>
+      <link>https://swiswiswift.com/2019-12-20/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-20/</guid>
+      <description>SwiftUI でアラートを表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+    </item>
+    
+    <item>
+      <title>Swift5.1で追加されたFunctionBuilderを使ってStructを作る</title>
+      <link>https://swiswiswift.com/2019-12-19/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-19/</guid>
+      <description>Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。 SwiftUI でも活躍していますね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+    </item>
     
     <item>
       <title>SwiftUIでリストのセルをタップするとアラートが表示される方法</title>
