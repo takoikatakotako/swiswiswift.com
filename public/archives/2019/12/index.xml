@@ -6,10 +6,19 @@
     <description>Recent content in 2019/12 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/archives/2019/12/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dockerで Alpineベースのコンテナに入る</title>
+      <link>https://swiswiswift.com/2019-12-21/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-21/</guid>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash  参考 Dockerコンテナのシェルの中に入る dockerでalpine linux ベースのcontainerに入</description>
+    </item>
     
     <item>
       <title>SwiftUI でアラートを表示する</title>
