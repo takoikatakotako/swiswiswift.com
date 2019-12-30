@@ -17,7 +17,7 @@
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-27/</guid>
-      <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNativeのコンパイルできなくなった。 RTCWebSocket.xcodeproject -&amp;gt; RCTWebSocket -&amp;gt; Build Phasesを選択 -&amp;gt; Link Binary WithLibraried にlibfishhook.aを追加。 すでに追加されている場合は削除 を行うことで解決した。</description>
+      <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNativeのコンパイルできなくなった。 RTCWebSocket.xcodeproject -&amp;gt; RCTWebSocket -&amp;gt; Build Phasesを選択 -&amp;gt; Link Binary WithLibraried にlibfishhook.aを追加。 すでに追加されている場合は削除 を行うことで解決した。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-25/</guid>
-      <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 すごく良い記事なので、この記事より彼の記事をみてください。 Getting Started with Tabs in Android — Kotlin build.gradle に以下のdependencyを追加します。 implementation &#39;com.android.support:design:26.1.0&#39;</description>
+      <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 すごく良い記事なので、この記事より彼の記事をみてください。 Getting Started with Tabs in Android — Kotlin build.gradle に以下のdependencyを追加します。 implementation &#39;com.android.support:design:26.1.0&#39; (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-20/</guid>
-      <description>グループスタイルのテーブルビューを表示するサンプルコードです</description>
+      <description>グループスタイルのテーブルビューを表示するサンプルコードです (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-19/</guid>
-      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。 SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。</description>
+      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。 SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type =</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-21/</guid>
-      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash ``` 参考 [Dockerコンテナのシェルの中に入る](https://qiita.com/__cooper</description>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash s $ docker run --rm -t -i alpine:latest /bin/ash 参考 Dockerコンテナのシェルの中に入る dockerでalpine linux ベースのcontainerに入</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-25/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost</description>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-11-19/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost</description>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
   </channel>

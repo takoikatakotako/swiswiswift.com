@@ -24,11 +24,10 @@ ESP32でRTCモジュールを使おうとしたら少し詰まったので記事
 DS1307RTCライブラリ
 [github.com/PaulStoffregen/DS1307RTC](https://github.com/PaulStoffregen/DS1307RTC)
 
-ESPr® Developer 32  
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=swiswiswift-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=B01ESFQFI8&linkId=f2cefe0cf4b52f352011b07e58d088ac&bc1=ffffff&lt1=_top&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"></iframe>
+[ESPr® Developer 32 ](https://amzn.to/2u4PvEn)
 
-Rasbee オリジナル MCUのDC 3.3-5.5V DS3231高精度リアルタイムクロックモジュール 精密RTCモジュール 1個 [並行輸入品]  
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=swiswiswift-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=B00YQZFMMQ&linkId=7d3d17cf414e4c8cbdc6a22a0fb8aba1&bc1=ffffff&lt1=_top&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"></iframe>
+
+[HiLetgo 3個セット DS3231 AT24C32 時計モジュール リアル時間時計モジュール IICモジュール RTCモジュール Arduinoに対応 並行輸入品](https://amzn.to/39qbi9R)
 
 
 配線図  

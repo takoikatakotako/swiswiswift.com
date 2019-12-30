@@ -38,7 +38,7 @@ iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させてい�
 発表のためにWindowsのPCを組んだり、ガジェットを作ったり大変でしたが、発表してよかったです。
 
 ## 発表スライド
-<script async class="speakerdeck-embed" data-id="873317dc017547ec8819ab17e715a110" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+[iOSエンジニアでもできるIoTガジェット作成 基板発注もう何も怖くない](https://speakerdeck.com/onojun/iosenziniademodekiruiotgazietutozuo-cheng-ji-ban-fa-zhu-mouhe-mobu-kunai)
 
 ## まとめ
 ルーキーズLT枠で申し込んでよかったです！楽しかったです！

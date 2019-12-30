@@ -17,7 +17,7 @@
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-29/</guid>
-      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削除する。 SceneDelegate.swift で表示する ViewController を設定します。 func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) { guard let windowScene = (scene as? UIWindowScene) else { return } window = UIWindow(frame: UIScreen.main.bounds) let viewController = ViewController() window?.rootViewController = viewController window?.makeKeyAndVisible() window?.windowScene = windowScene } 参考 Creating Apps Without Storyboards in iOS 13</description>
+      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削除する。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; SceneDelegate.swift で表示する ViewController を設定します。 func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) { guard let windowScene = (scene as? UIWindowScene) else { return } window = UIWindow(frame: UIScreen.main.bounds) let viewController = ViewController() window?.rootViewController = viewController window?.makeKeyAndVisible() window?.windowScene = windowScene } 参考 Creating Apps Without Storyboards in iOS 13</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-21/</guid>
-      <description>TabView - SwiftUI | Apple Developer Documentation</description>
+      <description>TabView - SwiftUI | Apple Developer Documentation (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-20/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-19/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-14/</guid>
-      <description>onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでしょうか？ 勉強していきます！！</description>
+      <description>onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでしょうか？ 勉強していきます！！ (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-13/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-06/</guid>
-      <description>証明書と秘密鍵の両方を含めたpemファイルを作成します。 $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem curl コマンドでプッシュ通知を送信します。 プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。 また、本番環境（テストフライトなど）と開発環境ではドメイン (https://api.push.apple.com/3/device/ or https://api.development.push.apple.com) が違うことに気をつけてください。 # for 本</description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; 証明書と秘密鍵の両方を含めたpemファイルを作成します。 $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem curl コマンドでプッシュ通知を送信します。 プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。 また、本番環境（テストフライトなど）と開発環境</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-05/</guid>
-      <description>$ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。 NoArgument が入っても悪さはしないのですが、気になったので消そうとしました。 以下のコマンドを実行すると秘密鍵は NoArgument 無しで変換できました。 証明書はそのテキストを消す方法が見つから無かったのでいったん諦め</description>
+      <description>$ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。 NoArgument が入っても悪さはしないのですが、気になったので消そうとしました。 以下のコマンドを実行すると秘密鍵は NoArgument 無しで変換できました。 証明書は</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-09-12/</guid>
-      <description>gem update cocoapods pod --version</description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; gem update cocoapods pod --version</description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-07-30/</guid>
-      <description>サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios</description>
+      <description>サンプルコードはこちら。 https://github.com/O-Junpei/swiswiswift-ios (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -116,7 +116,7 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-06-03/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-06-02/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -134,7 +134,7 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-06-01/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -143,7 +143,7 @@
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-05-12/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-04-11/</guid>
-      <description>そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入</description>
+      <description>そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -161,7 +161,7 @@
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-02-01/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -170,7 +170,7 @@
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-27/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -179,7 +179,7 @@
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-26/</guid>
-      <description>@testable import Swiswiswift（Swiswiswiftはプロジェクト名） と書くことで、テストクラスの中から参照できるようになります。 関数名の頭にtestと付けることで、テストとして実行できるようになります。</description>
+      <description>@testable import Swiswiswift（Swiswiswiftはプロジェクト名） と書くことで、テストクラスの中から参照できるようになります。 関数名の頭にtestと付けることで、テストとして実行できるようになります。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -188,7 +188,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-22/</guid>
-      <description>UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView</description>
+      <description>UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -197,7 +197,7 @@
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-21/</guid>
-      <description>NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+      <description>NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -206,7 +206,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-20/</guid>
-      <description></description>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -224,7 +224,7 @@
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-02/</guid>
-      <description>#Swift4.2 Swiftで関数を作る。</description>
+      <description>#Swift4.2 Swiftで関数を作る。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -233,7 +233,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-01/</guid>
-      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array</description>
+      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -242,7 +242,7 @@
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-31/</guid>
-      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。</description>
+      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -251,7 +251,7 @@
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-30/</guid>
-      <description>#Swift4.2 UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。 Swift3 での記事はこちら</description>
+      <description>#Swift4.2 UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。 Swift3 での記事はこちら (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -269,7 +269,7 @@
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-28/</guid>
-      <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 インタラクションの凄さと登録導線離脱率の相関が気になりますね。</description>
+      <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 インタラクションの凄さと登録導線離脱率の相関が気になりますね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -278,7 +278,7 @@
       <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-27/</guid>
-      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕はマイクロインタラクション大好きなんですが、エンジニアやデザイナーの自己満なんでしょうかね？ わからんとです。</description>
+      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕はマイクロインタラクション大好きなんですが、エンジニアやデザイナーの自己満なんでしょうかね？ わからんとです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -287,7 +287,7 @@
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-26/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこちら CentOS6はこちら 参考 Docker 初心者 — ssh で接続できるサーバーを立てる $ docker build -t ssh_ubuntu14:latest . --no-cache $ docker run -d -p 2222:22 ssh_ubuntu14:latest $ ssh-keygen -R [localhost]:2222 $ ssh -p 2222 kabigon@localhost</description>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこちら CentOS6はこちら 参考 Docker 初心者 — ssh で接続できるサーバーを立てる $ docker build -t ssh_ubuntu14:latest . --no-cache $ docker run -d -p 2222:22 ssh_ubuntu14:latest $ ssh-keygen -R [localhost]:2222 $ ssh -p 2222 kabigon@localhost (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -314,7 +314,7 @@
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-20/</guid>
-      <description>グループスタイルのテーブルビューを表示するサンプルコードです</description>
+      <description>グループスタイルのテーブルビューを表示するサンプルコードです (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -323,7 +323,7 @@
       <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-19/</guid>
-      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。 SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。</description>
+      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。 SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type =</description>
     </item>
     
     <item>
@@ -341,7 +341,7 @@
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-07-18/</guid>
-      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。</description>
+      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -359,7 +359,7 @@
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-21/</guid>
-      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプルです。</description>
+      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -368,7 +368,7 @@
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-19/</guid>
-      <description>コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装するのが好きですが、何がベストなのでしょうか。</description>
+      <description>コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装するのが好きですが、何がベストなのでしょうか。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -386,7 +386,7 @@
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-02/</guid>
-      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBarControllerのアイコンは30×30の透過pngです。</description>
+      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBarControllerのアイコンは30×30の透過pngです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -413,7 +413,7 @@
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-05-06/</guid>
-      <description>UIViewの背景をグラデーションさせるサンプルコードです。 参考にさせていただいたページ 【Swift x iOSアプリ開発】Viewの背景色にグラデーションを設定する方法 Swift UIViewの背景をグラデーションさせる方法 -iPhoneアプリ開発-</description>
+      <description>UIViewの背景をグラデーションさせるサンプルコードです。 参考にさせていただいたページ 【Swift x iOSアプリ開発】Viewの背景色にグラデーションを設定する方法 Swift UIViewの背景をグラデーションさせる方法 -iPhoneアプリ開発- (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -422,7 +422,7 @@
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-05-02/</guid>
-      <description>UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。 見た目を別ファイルに切り分けることでViewControllerがすっきりします。</description>
+      <description>UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。 見た目を別ファイルに切り分けることでViewControllerがすっきりします。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -431,7 +431,7 @@
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-04-24/</guid>
-      <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。 NavigationControllerについてはこの記事を参考にしてください。 NavigationControllerを実装する</description>
+      <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。 NavigationControllerについてはこの記事を参考にしてください。 NavigationControllerを実装する (adsbygoogle =</description>
     </item>
     
     <item>
@@ -440,7 +440,7 @@
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-04-23/</guid>
-      <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。 func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)</description>
+      <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。 func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -449,7 +449,7 @@
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-04-23/</guid>
-      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな感じです。 参考に指せて頂いた記事 [Swift]数字を三桁ごとにカンマ区切りにする</description>
+      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな感じです。 参考に指せて頂いた記事 [Swift]数字を三桁ごとにカンマ区切りにする (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -476,7 +476,7 @@
       <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-17/</guid>
-      <description>UIAlertControllerにTextFieldを追加したサンプルです。</description>
+      <description>UIAlertControllerにTextFieldを追加したサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -485,7 +485,7 @@
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-15/</guid>
-      <description>NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+      <description>NavigationContorollerのサンプルコードです。 NavigationContorollerは横にニュッと動いて画面遷移をします。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -494,7 +494,7 @@
       <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-07/</guid>
-      <description>文字列やURLからQRコードを生成するサンプルコードです。 This is a sample code that generates a QR code from a character string or URL. これらの記事を参考にさせていただきました。 CIImageをData型に変換したときにハマった時の対処法(Swift3.0) SwiftでQRコードを生成してみた 生成したQRコードはこちらです。</description>
+      <description>文字列やURLからQRコードを生成するサンプルコードです。 This is a sample code that generates a QR code from a character string or URL. これらの記事を参考にさせていただきました。 CIImageをData型に変換したときにハマった時の対処法(Swift3.0) SwiftでQRコードを生成してみた 生成したQRコードはこちらです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace</description>
     </item>
     
     <item>
@@ -503,7 +503,7 @@
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-06/</guid>
-      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert をUIAlertControllerStyle.actionSheet にするとニュッと下から出るタイプのアラートになります。</description>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert をUIAlertControllerStyle.actionSheet にするとニュッと下から出るタイプのアラートになります。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -512,7 +512,7 @@
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-05/</guid>
-      <description>下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。 遥か昔、下からニュッと出てくるアラートはUIActionSheetなんて呼ばれている時期もありましたが、UIAlertControllerに統合されました。</description>
+      <description>下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。 遥か昔、下からニュッと出てくるアラートはUIActionSheetなんて呼ばれている時期もありましたが、UIAlertControllerに統合されました。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -521,7 +521,7 @@
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-04/</guid>
-      <description>列挙型、enumの書き方のサンプルコードです。 ここではpersonというクラスを作り、カビゴンさんの名前と出身地をenumを用いて登録しています。</description>
+      <description>列挙型、enumの書き方のサンプルコードです。 ここではpersonというクラスを作り、カビゴンさんの名前と出身地をenumを用いて登録しています。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -548,7 +548,7 @@
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-01-14/</guid>
-      <description>はいどーも！ UIPickerViewを使って値を取得するサンプルコードです。 PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。 今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。 AppleDeveloperDocuments UIPickerView</description>
+      <description>はいどーも！ UIPickerViewを使って値を取得するサンプルコードです。 PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。 今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。 AppleDeveloperDocuments UIPickerView (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -557,7 +557,7 @@
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-12-13/</guid>
-      <description>Timeを使って3秒ごとに繰り返しを行います。 Repeat functions every 3 seconds</description>
+      <description>Timeを使って3秒ごとに繰り返しを行います。 Repeat functions every 3 seconds (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -566,7 +566,7 @@
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-11-27/</guid>
-      <description>今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べました。 主なコードは以下のサイトを参考にさせていただきました。 本当にありがとうございました。 Swift2-&amp;gt;4の変換は大変でした。。。 iOS UICollecionViewFlowLayout でカスタムレイアウトを作ろう ～ Swift版</description>
+      <description>今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べました。 主なコードは以下のサイトを参考にさせていただきました。 本当にありがとうございました。 Swift2-&amp;gt;4の変換は大変でした。。。 iOS UICollecionViewFlowLayout でカスタムレイアウトを作ろう ～ Swift版 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
     </item>
     
     <item>
@@ -575,7 +575,7 @@
       <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-11-26/</guid>
-      <description>SwiftでUDP通信するメモです。 SwiftSocket をcocoapodsで入れて、こんな感じで書きました。 woom-02と通信するのに使いました。</description>
+      <description>SwiftでUDP通信するメモです。 SwiftSocket をcocoapodsで入れて、こんな感じで書きました。 woom-02と通信するのに使いました。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -593,7 +593,7 @@
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-11-13/</guid>
-      <description>UIScrollViewの中にある画像を拡大したり縮小するサンプルです。 ピンチで画像を大きくしたり、小さくします。</description>
+      <description>UIScrollViewの中にある画像を拡大したり縮小するサンプルです。 ピンチで画像を大きくしたり、小さくします。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -602,7 +602,7 @@
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-14/</guid>
-      <description>UINavigationControllerの戻るボタンの文字を消します。 「＜戻る」を「＜」にします。 let backButton = UIBarButtonItem(title: &amp;quot;&amp;quot;, style: .plain, target: nil, action: nil) self.navigationItem.backBarButtonItem = backButton self.navigationController?.pushViewController(picDetailView, animated: true)</description>
+      <description>UINavigationControllerの戻るボタンの文字を消します。 「＜戻る」を「＜」にします。 let backButton = UIBarButtonItem(title: &amp;quot;&amp;quot;, style: .plain, target: nil, action: nil) self.navigationItem.backBarButtonItem = backButton self.navigationController?.pushViewController(picDetailView, animated: true) (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -611,7 +611,7 @@
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-13/</guid>
-      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。</description>
+      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -620,7 +620,7 @@
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-08/</guid>
-      <description>UITableViewにヘッダーを設定するサンプルです。</description>
+      <description>UITableViewにヘッダーを設定するサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -629,7 +629,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-03/</guid>
-      <description>UICollectionViewにCustumCollectionセルを追加してみました。 クラス名を文字列に変換する NSStringFromClass(CustumCollectionViewCell.self) は、UITableViewやUICollectionView を使うときにとても便利です。</description>
+      <description>UICollectionViewにCustumCollectionセルを追加してみました。 クラス名を文字列に変換する NSStringFromClass(CustumCollectionViewCell.self) は、UITableViewやUICollectionView を使うときにとても便利です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -638,7 +638,7 @@
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-02/</guid>
-      <description>UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせていただきました。 このサイトは見やすくて、swiftをやる人にとてもオススメです。 makeColor() 関数でランダムに生成した色をセルに入れています。 スクロールするたびに色が変わります。</description>
+      <description>UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせていただきました。 このサイトは見やすくて、swiftをやる人にとてもオススメです。 makeColor() 関数でランダムに生成した色をセルに入れています。 スクロールするたびに色が変わります。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type =</description>
     </item>
     
     <item>
@@ -647,7 +647,7 @@
       <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-08-12/</guid>
-      <description>アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。 毎回聞かれるとスキップしたくなります。 Info.plist の ITSAppUsesNonExemptEncryption を NO にするとスキップすることができます。</description>
+      <description>アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。 毎回聞かれるとスキップしたくなります。 Info.plist の ITSAppUsesNonExemptEncryption を NO にするとスキップすることができます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -665,7 +665,7 @@
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-07-08/</guid>
-      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。</description>
+      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -674,7 +674,7 @@
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-06-15/</guid>
-      <description>「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。 クラス名と行番号、取得表示することができます。 print(&amp;quot;Class name : \(NSStringFromClass(type(of: self))) &amp;quot;) print(#function, #line)</description>
+      <description>「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。 クラス名と行番号、取得表示することができます。 print(&amp;quot;Class name : \(NSStringFromClass(type(of: self))) &amp;quot;) print(#function, #line) (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -692,7 +692,7 @@
       <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-06-05/</guid>
-      <description>Swiftで音楽を簡単に再生するサンプルコードです。</description>
+      <description>Swiftで音楽を簡単に再生するサンプルコードです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -701,7 +701,7 @@
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-17/</guid>
-      <description>Rubyの配列についてです。</description>
+      <description>Rubyの配列についてです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -719,7 +719,7 @@
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-15/</guid>
-      <description>UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。 UITableView 基本的なテーブルビューの例文を以下に示します。</description>
+      <description>UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。 UITableView 基本的なテーブルビューの例文を以下に示します。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -755,7 +755,7 @@
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-11/</guid>
-      <description>.cafファイルはiOSに用いられる音声ファイル形式です。以下はwavファイルを同名で出力するコマンドです。 afconvert -f caff -d ima4 ファイル名.wav</description>
+      <description>.cafファイルはiOSに用いられる音声ファイル形式です。以下はwavファイルを同名で出力するコマンドです。 afconvert -f caff -d ima4 ファイル名.wav (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -782,7 +782,7 @@
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-08/</guid>
-      <description>現在時間を取得します。 AppleDeveloperリファレンスNSCalender サンプルプログラム 以下に示します</description>
+      <description>現在時間を取得します。 AppleDeveloperリファレンスNSCalender サンプルプログラム 以下に示します (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -791,7 +791,7 @@
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-07/</guid>
-      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView UITableView 二つのグループの場合です。</description>
+      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITableView UITableView 二つのグループの場合です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;;</description>
     </item>
     
     <item>
@@ -800,7 +800,7 @@
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-05/</guid>
-      <description>UIButtonクラスはボタンを設置するためのクラスです。 ボタンタップでアクションを起こすことができます。 UIButtonのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIControl ↑ UIButton AppleDeveloperリファレンスUIButton UIButton例文 様々なUIButtonのサンプルです</description>
+      <description>UIButtonクラスはボタンを設置するためのクラスです。 ボタンタップでアクションを起こすことができます。 UIButtonのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIControl ↑ UIButton AppleDeveloperリファレンスUIButton UIButton例文 様々なUIButtonのサンプルです (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width</description>
     </item>
     
     <item>
@@ -818,7 +818,7 @@
       <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-02/</guid>
-      <description>辞書配列の書き方 Swiftの辞書配列です。辞書配列の作成と呼び出しについて記載します。</description>
+      <description>辞書配列の書き方 Swiftの辞書配列です。辞書配列の作成と呼び出しについて記載します。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -827,7 +827,7 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-01/</guid>
-      <description>配列の書き方 Swiftの配列です。配列の作成と呼び出しについて記載します。 配列の追加、挿入、削除 配列の追加、挿入、削除をしてみます。</description>
+      <description>配列の書き方 Swiftの配列です。配列の作成と呼び出しについて記載します。 配列の追加、挿入、削除 配列の追加、挿入、削除をしてみます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
   </channel>

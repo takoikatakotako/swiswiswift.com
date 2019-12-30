@@ -17,7 +17,7 @@
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-07-26/</guid>
-      <description>最後に --include をつけるとレスポンスヘッダーも表示されます http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;user@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;--include</description>
+      <description>最後に --include をつけるとレスポンスヘッダーも表示されます http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;user@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;--include (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-07-25/</guid>
-      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、apiの確認をしたい時によく使います。 curl http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;kabigon@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39;</description>
+      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、apiの確認をしたい時によく使います。 curl http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;kabigon@swiswiswift.com&amp;quot;, &amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;}&#39; (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-07-08/</guid>
-      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。</description>
+      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
   </channel>

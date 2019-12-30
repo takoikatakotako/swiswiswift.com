@@ -17,7 +17,7 @@
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-04-24/</guid>
-      <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。 NavigationControllerについてはこの記事を参考にしてください。 NavigationControllerを実装する</description>
+      <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。 NavigationControllerについてはこの記事を参考にしてください。 NavigationControllerを実装する (adsbygoogle =</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-04-23/</guid>
-      <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。 func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)</description>
+      <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。 func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-04-23/</guid>
-      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな感じです。 参考に指せて頂いた記事 [Swift]数字を三桁ごとにカンマ区切りにする</description>
+      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな感じです。 参考に指せて頂いた記事 [Swift]数字を三桁ごとにカンマ区切りにする (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>

@@ -17,7 +17,7 @@
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-28/</guid>
-      <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 インタラクションの凄さと登録導線離脱率の相関が気になりますね。</description>
+      <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 インタラクションの凄さと登録導線離脱率の相関が気になりますね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-27/</guid>
-      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕はマイクロインタラクション大好きなんですが、エンジニアやデザイナーの自己満なんでしょうかね？ わからんとです。</description>
+      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕はマイクロインタラクション大好きなんですが、エンジニアやデザイナーの自己満なんでしょうかね？ わからんとです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-26/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこちら CentOS6はこちら 参考 Docker 初心者 — ssh で接続できるサーバーを立てる $ docker build -t ssh_ubuntu14:latest . --no-cache $ docker run -d -p 2222:22 ssh_ubuntu14:latest $ ssh-keygen -R [localhost]:2222 $ ssh -p 2222 kabigon@localhost</description>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこちら CentOS6はこちら 参考 Docker 初心者 — ssh で接続できるサーバーを立てる $ docker build -t ssh_ubuntu14:latest . --no-cache $ docker run -d -p 2222:22 ssh_ubuntu14:latest $ ssh-keygen -R [localhost]:2222 $ ssh -p 2222 kabigon@localhost (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-25/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost</description>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
     </item>
     
     <item>
