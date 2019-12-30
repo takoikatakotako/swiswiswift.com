@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 FizzBuzzをRubyで解いてみました。
 
-<script src="https://gist.github.com/O-Junpei/08ecaa1c16ccb1c67603755e2d973dc9.js"></script>
+{{< gist O-Junpei 08ecaa1c16ccb1c67603755e2d973dc9 >}}

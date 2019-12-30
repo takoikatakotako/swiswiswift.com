@@ -18,4 +18,4 @@ aliases = ["migrate-from-jekyl"]
 Timeを使って3秒ごとに繰り返しを行います。  
 Repeat functions every 3 seconds  
 
-<script src="https://gist.github.com/O-Junpei/c163abefb34621b9995d32e2f36d57c3.js"></script>
+{{< gist O-Junpei c163abefb34621b9995d32e2f36d57c3 >}}

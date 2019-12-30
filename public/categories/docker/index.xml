@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on すいすいSwift</title>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-21/</guid>
-      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash  参考 Dockerコンテナのシェルの中に入る dockerでalpine linux ベースのcontainerに入</description>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash ``` 参考 [Dockerコンテナのシェルの中に入る](https://qiita.com/__cooper</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-22/</guid>
-      <description>Docker を使って PostgreSQL を立てる方法です。 開発環境を Docker をで立てて整備すると自分のローカル環境を汚さずに済むのでとても良いですよね。 postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーでログインすることができます。（パスワードはpassword） また pokemon というデータベー</description>
+      <description>postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーでログインすることができます。（パスワードはpassword） また pokemon というデータベースも同時に作られます。 $ docker run -d -p 5432:5432 -e POSTGRES_USER=kabigon -e POSTGRES_PASSWORD=password -e POSTGRES_DB=pokemon postgres:11 $ psql -h localhost -p 5432 -U kabigon -d pokemon ``` ログインができたら `\l` コマンドでデータベースの一覧</description>
     </item>
     
     <item>

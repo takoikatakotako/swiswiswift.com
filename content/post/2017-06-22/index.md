@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 Kotlinで現在時刻の取得を行います。
 
-<script src="https://gist.github.com/O-Junpei/5252b4fc7f3d75ab2db380709e320899.js"></script>
+{{< gist O-Junpei 5252b4fc7f3d75ab2db380709e320899 >}}

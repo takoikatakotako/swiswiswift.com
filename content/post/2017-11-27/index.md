@@ -25,4 +25,4 @@ Swift2->4の変換は大変でした。。。
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/a5b09b2b640174eb27c8c8d6e4e0520c.js"></script>
+{{< gist O-Junpei a5b09b2b640174eb27c8c8d6e4e0520c >}}

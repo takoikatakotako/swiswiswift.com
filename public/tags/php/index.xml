@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PHP on すいすいSwift</title>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-07/</guid>
-      <description>ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。 signup.php でユーザー登録を行い、list.php でユーザーの一覧を表示し、deleate.php でユーザーを全て削除します。 (adsbygoogle = window.adsbygoogle || []).push({}); # サーバー起動 $ php -S localhost:8000 # ユーザー登録 $ curl http://localhost:8000/signup.php -X POST -H &amp;#34;Content-Type: application/json&amp;#34; -d &amp;#39;{&amp;#34;name&amp;#34;:&amp;#34;onojun&amp;#34;, &amp;#34;age&amp;#34;:24}&amp;#39; # ユーザー一覧 $ curl http://localhost:8000/list.php # 全てのユーザーを削</description>
+      <description># サーバー起動 $ php -S localhost:8000 # ユーザー登録 $ curl http://localhost:8000/signup.php -X POST -H &amp;#34;Content-Type: application/json&amp;#34; -d &amp;#39;{&amp;#34;name&amp;#34;:&amp;#34;onojun&amp;#34;, &amp;#34;age&amp;#34;:24}&amp;#39; # ユーザー一覧 $ curl http://localhost:8000/list.php # 全てのユーザーを削除 $ curl http://localhost:8000/deleate.php</description>
     </item>
     
   </channel>

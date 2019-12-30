@@ -34,4 +34,4 @@ UINavigationBar例文
 
 UINavigationBarを生成し、タイトルとボタンを付けます。
 
-<script src="https://gist.github.com/O-Junpei/401a75d396db4548302b32e757f44e52.js"></script>
+{{< gist O-Junpei 401a75d396db4548302b32e757f44e52 >}}

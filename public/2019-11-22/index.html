@@ -111,30 +111,22 @@ if (!doNotTrack) {
         </header>
 
         <div class="post-content">
-            
-
-<p><br>
-Docker を使って PostgreSQL を立てる方法です。<br />
-開発環境を Docker をで立てて整備すると自分のローカル環境を汚さずに済むのでとても良いですよね。</p>
-
+            <!-- raw HTML omitted -->
 <p><a href="https://hub.docker.com/_/postgres">postgres-Docker Hub</a></p>
-
-<p>以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーでログインすることができます。（パスワードはpassword）<br />
+<p>以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーでログインすることができます。（パスワードはpassword）<br>
 また pokemon というデータベースも同時に作られます。</p>
-
 <pre><code>$ docker run -d -p 5432:5432 -e POSTGRES_USER=kabigon -e POSTGRES_PASSWORD=password -e POSTGRES_DB=pokemon postgres:11
 $ psql -h localhost -p 5432 -U kabigon -d pokemon
-</code></pre>
+```
 
-<p></p>
+ログインができたら `\l` コマンドでデータベースの一覧を表示し、pokemon データベースが表示されていることを確認します。
 
-<p>ログインができたら <code>\l</code> コマンドでデータベースの一覧を表示し、pokemon データベースが表示されていることを確認します。</p>
+また `docker-entrypoint-initdb.d` に `.sql` を置くと初期化時に実行してくれます。
+初期テーブルなどを作りたい時に便利です。  
+`initdb` ディレクトリ の中に `setup.sql` を作成し、ディレクトリをマウントすることで、コンテナ初期化時に `.sql` が実行されます。
 
-<p>また <code>docker-entrypoint-initdb.d</code> に <code>.sql</code> を置くと初期化時に実行してくれます。
-初期テーブルなどを作りたい時に便利です。<br />
-<code>initdb</code> ディレクトリ の中に <code>setup.sql</code> を作成し、ディレクトリをマウントすることで、コンテナ初期化時に <code>.sql</code> が実行されます。</p>
-
-<pre><code class="language-setup.sql">create table pokemon
+```setup.sql
+create table pokemon
 (
   id int8,
   name varchar
@@ -145,32 +137,21 @@ create table pokemon_gym
   id int8,
   area varchar
 );
-</code></pre>
-
-<pre><code>$ docker run -v $PWD/initdb:/docker-entrypoint-initdb.d -d -p 5432:5432 -e POSTGRES_USER=kabigon -e POSTGRES_PASSWORD=password -e POSTGRES_DB=pokemon postgres:11
+</code></pre><pre><code>$ docker run -v $PWD/initdb:/docker-entrypoint-initdb.d -d -p 5432:5432 -e POSTGRES_USER=kabigon -e POSTGRES_PASSWORD=password -e POSTGRES_DB=pokemon postgres:11
 $ psql -h localhost -p 5432 -U kabigon -d pokemon
-</code></pre>
-
-<pre><code>pokemon=# \d
+</code></pre><pre><code>pokemon=# \d
 List of relations
  Schema |    Name     | Type  |  Owner  
 --------+-------------+-------+---------
  public | pokemon     | table | kabigon
  public | pokemon_gym | table | kabigon
-</code></pre>
-
-<p><code>pokemon</code> と <code>pokemon_gym</code> テーブルが作成できていることが確認できました。
+</code></pre><p><code>pokemon</code> と <code>pokemon_gym</code> テーブルが作成できていることが確認できました。
 
 なかなかうまくいかない場合はコンテナの中に入って <code>docker-entrypoint-initdb.d</code> の中に <code>.sql</code> があるか確認すると良いかもしれません。</p>
-
 <pre><code>$ docker ps
 $ docker exec -it 9dfa9b7caa7f bash
-</code></pre>
-
-<h3 id="おまけ">おまけ</h3>
-
+</code></pre><h3 id="heading">おまけ</h3>
 <p>docker-compose で立てる場合です。</p>
-
 <pre><code>version: '3'
 
 services:
@@ -185,37 +166,21 @@ services:
         - POSTGRES_DB=dev
       volumes:
         - ./postgres/initdb:/docker-entrypoint-initdb.d
-</code></pre>
-
-<pre><code>.
+</code></pre><pre><code>.
 ├── docker-compose.yaml
 └── postgres
     └── initdb
         └── setup.sql
-</code></pre>
-
-<pre><code>$ docker-compose up -d --force-recreate
-</code></pre>
-
-<!-- for swiswiswift.com responsive -->
-
-<p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5587141252700968"
-     data-ad-slot="1697863134"
-     data-ad-format="auto"
-     data-adtest="on"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- for swiswiswift.com responsive --></p>
-
-<!-- for swiswiswift-22 search -->
-
-<p><script type="text/javascript">amzn_assoc_ad_type =&ldquo;responsive_search_widget&rdquo;; amzn_assoc_tracking_id =&ldquo;swiswiswift-22&rdquo;; amzn_assoc_marketplace =&ldquo;amazon&rdquo;; amzn_assoc_region =&ldquo;JP&rdquo;; amzn_assoc_placement =&ldquo;&rdquo;; amzn_assoc_search_type = &ldquo;search_widget&rdquo;;amzn_assoc_width =&ldquo;auto&rdquo;; amzn_assoc_height =&ldquo;auto&rdquo;; amzn_assoc_default_search_category =&ldquo;&rdquo;; amzn_assoc_default_search_key =&ldquo;&rdquo;;amzn_assoc_theme =&ldquo;light&rdquo;; amzn_assoc_bg_color =&ldquo;FFFFFF&rdquo;; </script><script src="//z-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=JP"></script>
-<!-- for swiswiswift-22 search --></p>
+</code></pre><pre><code>$ docker-compose up -d --force-recreate
+</code></pre><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
         </div>
 
@@ -310,9 +275,11 @@ services:
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/html5">HTML5 (1)</a>
             </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/hugo">Hugo (1)</a>
+            </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/igor">Igor (1)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/ios">iOS (89)</a>
+                <a href="https://swiswiswift.com/categories/ios">iOS (90)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/java">Java (1)</a>
             </li><li class="cat-item cat-item-2">
@@ -330,7 +297,7 @@ services:
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/ruby">Ruby (4)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/swift">Swift (11)</a>
+                <a href="https://swiswiswift.com/categories/swift">Swift (13)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/swiftui">SwiftUI (5)</a>
             </li><li class="cat-item cat-item-2">
@@ -347,13 +314,22 @@ services:
 
     <aside class="widget widget_tag_cloud">
         <h2>タグ</h2>
-        <div class="tagcloud"><a class="tag-cloud-link" href="https://swiswiswift.com/tags/android" title="android" style="font-size: 12pt;">Android</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/arduino" title="arduino" style="font-size: 12pt;">Arduino</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/aws" title="aws" style="font-size: 12pt;">AWS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/c" title="c" style="font-size: 12pt;">C</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/centos" title="centos" style="font-size: 12pt;">CentOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/docker" title="docker" style="font-size: 12pt;">Docker</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/esp32" title="esp32" style="font-size: 12pt;">ESP32</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/gcp" title="gcp" style="font-size: 12pt;">GCP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/html5" title="html5" style="font-size: 12pt;">HTML5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/igor" title="igor" style="font-size: 12pt;">Igor</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ios" title="ios" style="font-size: 12pt;">iOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/java" title="java" style="font-size: 12pt;">Java</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/javascript" title="javascript" style="font-size: 12pt;">JavaScript</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/linux" title="linux" style="font-size: 12pt;">Linux</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/other" title="other" style="font-size: 12pt;">Other</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/php" title="php" style="font-size: 12pt;">PHP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/reactnative" title="reactnative" style="font-size: 12pt;">ReactNative</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ruby" title="ruby" style="font-size: 12pt;">Ruby</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift" title="swift" style="font-size: 12pt;">Swift</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift5" title="swift5" style="font-size: 12pt;">Swift5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swiftui" title="swiftui" style="font-size: 12pt;">SwiftUI</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/tex" title="tex" style="font-size: 12pt;">Tex</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%81%9d%e3%81%ae%e4%bb%96" title="その他" style="font-size: 12pt;">その他</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" title="カンファレンス" style="font-size: 12pt;">カンファレンス</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e5%b0%b1%e6%b4%bb" title="就活" style="font-size: 12pt;">就活</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c" title="電子工作" style="font-size: 12pt;">電子工作</a>&emsp;
+        <div class="tagcloud"><a class="tag-cloud-link" href="https://swiswiswift.com/tags/android" title="android" style="font-size: 12pt;">Android</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/arduino" title="arduino" style="font-size: 12pt;">Arduino</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/aws" title="aws" style="font-size: 12pt;">AWS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/c" title="c" style="font-size: 12pt;">C</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/centos" title="centos" style="font-size: 12pt;">CentOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/docker" title="docker" style="font-size: 12pt;">Docker</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/esp32" title="esp32" style="font-size: 12pt;">ESP32</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/gcp" title="gcp" style="font-size: 12pt;">GCP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/html5" title="html5" style="font-size: 12pt;">HTML5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/hugo" title="hugo" style="font-size: 12pt;">Hugo</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/igor" title="igor" style="font-size: 12pt;">Igor</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ios" title="ios" style="font-size: 12pt;">iOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/java" title="java" style="font-size: 12pt;">Java</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/javascript" title="javascript" style="font-size: 12pt;">JavaScript</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/linux" title="linux" style="font-size: 12pt;">Linux</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/other" title="other" style="font-size: 12pt;">Other</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/php" title="php" style="font-size: 12pt;">PHP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/reactnative" title="reactnative" style="font-size: 12pt;">ReactNative</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ruby" title="ruby" style="font-size: 12pt;">Ruby</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift" title="swift" style="font-size: 12pt;">Swift</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift5" title="swift5" style="font-size: 12pt;">Swift5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swiftui" title="swiftui" style="font-size: 12pt;">SwiftUI</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/tex" title="tex" style="font-size: 12pt;">Tex</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%81%9d%e3%81%ae%e4%bb%96" title="その他" style="font-size: 12pt;">その他</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" title="カンファレンス" style="font-size: 12pt;">カンファレンス</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e5%b0%b1%e6%b4%bb" title="就活" style="font-size: 12pt;">就活</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c" title="電子工作" style="font-size: 12pt;">電子工作</a>&emsp;
         </div>
     </aside>
 
     <aside class="widget widget_recent_entries">
         <h2>最近の投稿</h2>
         <ul>
+            <li>
+                <a href="https://swiswiswift.com/2019-12-30/">MVPアーキテクチャを使ったサンプルアプリ</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2019-12-29/">StoryboardsをiOS13以上のプロジェクトから削除する</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2019-12-28/">HugoでGistが表示されない</a>
+            </li>
             <li>
                 <a href="https://swiswiswift.com/2019-12-21/">Dockerで Alpineベースのコンテナに入る</a>
             </li>
@@ -375,21 +351,12 @@ services:
             <li>
                 <a href="https://swiswiswift.com/2019-11-21/">TabViewを使って画面を切り替える（SwiftUI）</a>
             </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-11-20/">ListViewからそれぞれ別のViewに遷移する（SwiftUI）</a>
-            </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-11-19/">Alamofireで受け取ったJsonをCodableを使ってパースする</a>
-            </li>
-            <li>
-                <a href="https://swiswiswift.com/2019-11-14/">SwiftUIでStructが使いまわされる</a>
-            </li>
         </ul>
     </aside>
 
     <aside class="widget widget_archive">
         <h2>アーカイブ</h2>
-        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (5)</a></li>
+        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (8)</a></li>
         </ul>
     </aside>
 

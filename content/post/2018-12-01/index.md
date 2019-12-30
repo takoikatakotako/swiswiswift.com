@@ -26,4 +26,4 @@ ATS の設定も必要なのでお忘れなく。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/06cdf4d745608b624a9a79bb7770c10e.js"></script>
+{{< gist O-Junpei 06cdf4d745608b624a9a79bb7770c10e >}}

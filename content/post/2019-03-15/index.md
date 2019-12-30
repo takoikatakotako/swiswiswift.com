@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 Java での文字列のシャッフル方法です。  
 結構面倒だったので、記事にしました。
 
-<script src="https://gist.github.com/O-Junpei/aea0cc327c75c2539b0305ca658711b2.js"></script>
+{{< gist O-Junpei aea0cc327c75c2539b0305ca658711b2 >}}

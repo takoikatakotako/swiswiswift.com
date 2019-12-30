@@ -20,4 +20,4 @@ aliases = ["migrate-from-jekyl"]
 swiftの有名な通信ライブラリである [Alamofire](https://github.com/Alamofire/Alamofire) とこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、[お天気API](http://weather.livedoor.com/weather_hacks/webservice) から情報を取得するサンプルです。  
 今回のサンプルでは非同期でJSONを取得し、アラートを表示します。  
 
-<script src="https://gist.github.com/O-Junpei/eea7676aff57850aefb01cdbf2b6c05e.js"></script>
+{{< gist O-Junpei eea7676aff57850aefb01cdbf2b6c05e >}}

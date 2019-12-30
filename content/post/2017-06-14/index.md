@@ -33,4 +33,4 @@ Typeは `String` でValueの中に使用理由を書きます。
 
 コードは以下のようになります。
 
-<script src="https://gist.github.com/O-Junpei/e30e9e82f7b46da3deac632f74a7cc02.js"></script>
+{{< gist O-Junpei e30e9e82f7b46da3deac632f74a7cc02 >}}

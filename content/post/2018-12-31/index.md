@@ -19,4 +19,4 @@ aliases = ["migrate-from-jekyl"]
 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。
 
 
-<script src="https://gist.github.com/O-Junpei/32a5878d69ff5389dc23a3875493e393.js"></script>
+{{< gist O-Junpei 32a5878d69ff5389dc23a3875493e393 >}}

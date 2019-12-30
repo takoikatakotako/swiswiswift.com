@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 JavaScriptのWebテスト用のカンペです。
 
-<script src="https://gist.github.com/O-Junpei/25efb5ea45f7d6037992e2a6c425f014.js"></script>
+{{< gist O-Junpei 25efb5ea45f7d6037992e2a6c425f014 >}}

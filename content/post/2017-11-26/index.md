@@ -19,4 +19,4 @@ SwiftでUDP通信するメモです。
 [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) をcocoapodsで入れて、こんな感じで書きました。  
 woom-02と通信するのに使いました。  
 
-<script src="https://gist.github.com/O-Junpei/b6e3d95b9b9b47995655f4d237a53a46.js"></script>
+{{< gist O-Junpei b6e3d95b9b9b47995655f4d237a53a46 >}}

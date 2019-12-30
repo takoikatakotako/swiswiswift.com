@@ -1,20 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://swiswiswift.com/archives/2019/12/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/archives/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2019-12-30/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/post/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/swift/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/swift/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/ios/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/ios/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2019-12-29/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/hugo/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/hugo/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2019-12-28/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,21 +93,6 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://swiswiswift.com/categories/swiftui/</loc>
     <lastmod>2019-12-20T00:00:00+00:00</lastmod>
   </url>
@@ -60,16 +105,6 @@
   <url>
     <loc>https://swiswiswift.com/2019-12-20/</loc>
     <lastmod>2019-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/swift/</loc>
-    <lastmod>2019-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/swift/</loc>
-    <lastmod>2019-12-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -95,16 +130,6 @@
   <url>
     <loc>https://swiswiswift.com/2019-11-22/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/ios/</loc>
-    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/ios/</loc>
-    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -148,12 +173,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/php/</loc>
+    <loc>https://swiswiswift.com/tags/php/</loc>
     <lastmod>2019-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/php/</loc>
+    <loc>https://swiswiswift.com/categories/php/</loc>
     <lastmod>2019-11-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -213,12 +238,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/%E5%B0%B1%E6%B4%BB/</loc>
+    <loc>https://swiswiswift.com/tags/%E5%B0%B1%E6%B4%BB/</loc>
     <lastmod>2019-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/%E5%B0%B1%E6%B4%BB/</loc>
+    <loc>https://swiswiswift.com/categories/%E5%B0%B1%E6%B4%BB/</loc>
     <lastmod>2019-07-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,12 +283,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/centos/</loc>
+    <loc>https://swiswiswift.com/categories/centos/</loc>
     <lastmod>2019-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/centos/</loc>
+    <loc>https://swiswiswift.com/tags/centos/</loc>
     <lastmod>2019-04-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -488,12 +513,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/other/</loc>
+    <loc>https://swiswiswift.com/tags/other/</loc>
     <lastmod>2018-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/other/</loc>
+    <loc>https://swiswiswift.com/categories/other/</loc>
     <lastmod>2018-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -718,12 +743,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/arduino/</loc>
+    <loc>https://swiswiswift.com/tags/arduino/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/arduino/</loc>
+    <loc>https://swiswiswift.com/categories/arduino/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -733,12 +758,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/gcp/</loc>
+    <loc>https://swiswiswift.com/categories/gcp/</loc>
     <lastmod>2018-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/gcp/</loc>
+    <loc>https://swiswiswift.com/tags/gcp/</loc>
     <lastmod>2018-03-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -968,12 +993,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/tex/</loc>
+    <loc>https://swiswiswift.com/categories/tex/</loc>
     <lastmod>2017-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/tex/</loc>
+    <loc>https://swiswiswift.com/tags/tex/</loc>
     <lastmod>2017-06-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -1008,12 +1033,12 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/tags/javascript/</loc>
+    <loc>https://swiswiswift.com/categories/javascript/</loc>
     <lastmod>2017-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/javascript/</loc>
+    <loc>https://swiswiswift.com/tags/javascript/</loc>
     <lastmod>2017-05-23T00:00:00+00:00</lastmod>
   </url>
   

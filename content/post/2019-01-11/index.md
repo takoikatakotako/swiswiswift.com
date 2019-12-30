@@ -30,4 +30,4 @@ TypeはStringでValueの中に使用理由を書きます。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/a73bf357ab9fe77db1a81c08dc4b62ef.js"></script>
+{{< gist O-Junpei a73bf357ab9fe77db1a81c08dc4b62ef >}}

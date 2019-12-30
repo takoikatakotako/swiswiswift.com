@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019/12 on すいすいSwift</title>
@@ -6,10 +6,37 @@
     <description>Recent content in 2019/12 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/archives/2019/12/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MVPアーキテクチャを使ったサンプルアプリ</title>
+      <link>https://swiswiswift.com/2019-12-30/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-30/</guid>
+      <description>MVPアーキテクチャを使ったサンプルアプリです。 Unitテスト、UIテストも書きました。 以下のような数字を足し合わせるアプリです。 リポジトリはこちら↓ MVP-Sample</description>
+    </item>
+    
+    <item>
+      <title>StoryboardsをiOS13以上のプロジェクトから削除する</title>
+      <link>https://swiswiswift.com/2019-12-29/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-29/</guid>
+      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削除する。 SceneDelegate.swift で表示する ViewController を設定します。 func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) { guard let windowScene = (scene as? UIWindowScene) else { return } window = UIWindow(frame: UIScreen.main.bounds) let viewController = ViewController() window?.rootViewController = viewController window?.makeKeyAndVisible() window?.windowScene = windowScene } 参考 Creating Apps Without Storyboards in iOS 13</description>
+    </item>
+    
+    <item>
+      <title>HugoでGistが表示されない</title>
+      <link>https://swiswiswift.com/2019-12-28/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-28/</guid>
+      <description>Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &amp;lt;script src=&amp;quot;https://gist.github.com/O-Junpei/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 以下のように書き換えることで動作しました。 参考: Shortcodes 置換は Atom の正規表現置換機能を使い一括置換を行いました。</description>
+    </item>
     
     <item>
       <title>Dockerで Alpineベースのコンテナに入る</title>
@@ -17,7 +44,7 @@
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-21/</guid>
-      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash  参考 Dockerコンテナのシェルの中に入る dockerでalpine linux ベースのcontainerに入</description>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。 $ docker run --rm -t -i centos:centos7 /bin/bash $ docker run --rm -t -i alpine:latest /bin/ash ``` 参考 [Dockerコンテナのシェルの中に入る](https://qiita.com/__cooper</description>
     </item>
     
     <item>
@@ -26,7 +53,7 @@
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-20/</guid>
-      <description>SwiftUI でアラートを表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
     <item>
@@ -35,7 +62,7 @@
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-19/</guid>
-      <description>Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。 SwiftUI でも活躍していますね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
     <item>
@@ -44,7 +71,7 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-18/</guid>
-      <description>SwiftUIでリストのセルをタップするとアラートが表示される方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
     <item>
@@ -53,7 +80,7 @@
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-17/</guid>
-      <description>SwiftUIでリストを編集する方法です。 参考: How to enable editing on a list using EditButton (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description>参考: How to enable editing on a list using EditButton</description>
     </item>
     
   </channel>

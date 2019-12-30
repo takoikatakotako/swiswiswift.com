@@ -4,10 +4,10 @@ url = "2019-12-29"
 date = "2019-12-29"
 description = "StoryboardsをiOS13以上のプロジェクトから削除する"
 tags = [
-    "Docker"
+    "Swift", "iOS"
 ]
 categories = [
-    "Docker"
+    "Swift", "iOS"
 ]
 archives = "2019/12"
 aliases = ["migrate-from-jekyl"]

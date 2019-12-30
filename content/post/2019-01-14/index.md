@@ -22,4 +22,4 @@ CentOS7にRailsをインストールした時のメモになります。
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/31555f2ec47b530ccc727cfe59a731f3.js"></script>
+{{< gist O-Junpei 31555f2ec47b530ccc727cfe59a731f3 >}}

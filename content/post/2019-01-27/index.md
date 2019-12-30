@@ -19,4 +19,4 @@ SwiftyJsonなどを使うともっと良い感じにかけますが、今回は�
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/ecaedddc237f4283a845f3e2df038f10.js"></script>
+{{< gist O-Junpei ecaedddc237f4283a845f3e2df038f10 >}}

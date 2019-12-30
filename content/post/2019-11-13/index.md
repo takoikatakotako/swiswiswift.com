@@ -33,4 +33,4 @@ SwiftUI でList を表示する方法です。
 </script>
 <!-- for swiswiswift.com responsive -->
 
-<script src="https://gist.github.com/O-Junpei/c6974ac57164966da13dc9aa579ea94a.js"></script>
+{{< gist O-Junpei c6974ac57164966da13dc9aa579ea94a >}}

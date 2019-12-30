@@ -21,4 +21,4 @@ aliases = ["migrate-from-jekyl"]
 [さくらのサポート情報　【無料SSL】サーバコントロールパネルからの導入手順](https://help.sakura.ad.jp/115000136822/)
 
 
-<script src="https://gist.github.com/O-Junpei/cfecbba82a5284aa128a198da2fb9514.js"></script>
+{{< gist O-Junpei cfecbba82a5284aa128a198da2fb9514 >}}

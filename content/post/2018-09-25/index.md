@@ -29,4 +29,4 @@ build.gradle に以下のdependencyを追加します。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/79c2fc3b9682d226426c87aca9ba675b.js"></script>
+{{< gist O-Junpei 79c2fc3b9682d226426c87aca9ba675b >}}

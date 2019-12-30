@@ -18,4 +18,4 @@ aliases = ["migrate-from-jekyl"]
 #Swift4.2  
 Swiftで関数を作る。
 
-<script src="https://gist.github.com/O-Junpei/39e8e47516ccd198cf2ab7aff89a682d.js"></script>
+{{< gist O-Junpei 39e8e47516ccd198cf2ab7aff89a682d >}}

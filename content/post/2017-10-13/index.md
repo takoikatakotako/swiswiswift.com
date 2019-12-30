@@ -18,4 +18,4 @@ aliases = ["migrate-from-jekyl"]
 Swiftで数秒後に実行する、毎秒実行させるサンプルです。  
 一秒ごとにコンソールに出力されます。  
 
-<script src="https://gist.github.com/O-Junpei/ac7d5dce0d8135037f9f8b6657ac676b.js"></script>
+{{< gist O-Junpei ac7d5dce0d8135037f9f8b6657ac676b >}}

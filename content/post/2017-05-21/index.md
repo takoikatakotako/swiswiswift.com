@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 Androidアプリのステータスバーの変更
 
-<script src="https://gist.github.com/O-Junpei/7a0770930fe319262f44911fc7a170cd.js"></script>
+{{< gist O-Junpei 7a0770930fe319262f44911fc7a170cd >}}

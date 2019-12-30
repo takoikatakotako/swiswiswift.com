@@ -21,4 +21,4 @@ Lifesumというアプリの登録導線のインタラクションがとても�
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/617fa791783d28cab224716b107de3d5.js"></script>
+{{< gist O-Junpei 617fa791783d28cab224716b107de3d5 >}}

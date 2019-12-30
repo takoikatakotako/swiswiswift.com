@@ -34,4 +34,4 @@ Calendar.currentで取得すると、設定によっては和暦(平成〇〇年
 [【Swift3】現在時刻の取得とDataFormatterでの文字列化](https://qiita.com/GDaigo/items/270e6ed6e898e8b8e1c3)  
 
 
-<script src="https://gist.github.com/O-Junpei/9f029788e0b3ea4985719a87d657614b.js"></script>
+{{< gist O-Junpei 9f029788e0b3ea4985719a87d657614b >}}

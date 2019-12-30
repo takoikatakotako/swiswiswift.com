@@ -20,4 +20,4 @@ UIButtonを拡張したカスタムボタンクラスを作成して貼り付け
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/86c25446f96a42f5d62390950f41bbc1.js"></script>
+{{< gist O-Junpei 86c25446f96a42f5d62390950f41bbc1 >}}

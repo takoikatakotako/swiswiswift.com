@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 Androidアプリのアクションバーの影を消します。
 
-<script src="https://gist.github.com/O-Junpei/92f75bbc6d6a5cb70ce2bfda4dcd6aec.js"></script>
+{{< gist O-Junpei 92f75bbc6d6a5cb70ce2bfda4dcd6aec >}}

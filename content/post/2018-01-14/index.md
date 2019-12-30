@@ -25,4 +25,4 @@ AppleDeveloperDocuments
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/bd932336d3a114791f193561e319c964.js"></script>
+{{< gist O-Junpei bd932336d3a114791f193561e319c964 >}}

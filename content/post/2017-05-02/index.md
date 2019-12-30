@@ -21,4 +21,4 @@ aliases = ["migrate-from-jekyl"]
 
 Swiftの辞書配列です。辞書配列の作成と呼び出しについて記載します。  
 
-<script src="https://gist.github.com/O-Junpei/02421a9e6c9b5d6c368b3c3f2e929c6c.js"></script>
+{{< gist O-Junpei 02421a9e6c9b5d6c368b3c3f2e929c6c >}}

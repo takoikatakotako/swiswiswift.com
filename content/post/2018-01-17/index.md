@@ -24,4 +24,4 @@ UserDefaultsはアプリを落としても保持しておきたいデータを�
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/07f2b6d016680c1fa4a5c917ebcfd834.js"></script>
+{{< gist O-Junpei 07f2b6d016680c1fa4a5c917ebcfd834 >}}

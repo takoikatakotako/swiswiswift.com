@@ -24,4 +24,4 @@ UITableView
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/b869d250b494922523717b6443c83408.js"></script>
+{{< gist O-Junpei b869d250b494922523717b6443c83408 >}}

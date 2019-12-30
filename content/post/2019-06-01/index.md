@@ -20,4 +20,4 @@ UISlider で値を取得するサンプルコードです。
 ![alt](1.gif)
 
 
-<script src="https://gist.github.com/O-Junpei/07199c16047be78181bfdeb4394c5467.js"></script>
+{{< gist O-Junpei 07199c16047be78181bfdeb4394c5467 >}}

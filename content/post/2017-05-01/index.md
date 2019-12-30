@@ -22,10 +22,10 @@ aliases = ["migrate-from-jekyl"]
 Swiftの配列です。配列の作成と呼び出しについて記載します。
 
 
-<script src="https://gist.github.com/O-Junpei/c969fea9788ad017d62418b8497550fa.js"></script>
+{{< gist O-Junpei c969fea9788ad017d62418b8497550fa >}}
 
 配列の追加、挿入、削除
 
 配列の追加、挿入、削除をしてみます。
 
-<script src="https://gist.github.com/O-Junpei/a5640c496eab83a2c4cf7a1f8cad7e6a.js"></script>
+{{< gist O-Junpei a5640c496eab83a2c4cf7a1f8cad7e6a >}}

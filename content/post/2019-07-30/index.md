@@ -41,4 +41,4 @@ TableView のセルの高さを変更する方法です。
 
 <br>
 
-<script src="https://gist.github.com/O-Junpei/52393a8847f0c50a4ef6a8253aabd61d.js"></script>
+{{< gist O-Junpei 52393a8847f0c50a4ef6a8253aabd61d >}}

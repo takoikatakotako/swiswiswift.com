@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019/09 on すいすいSwift</title>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-09-12/</guid>
-      <description>gem でインストールした cocoapods のバージョンをアップデートする方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); gem update cocoapods pod --version</description>
+      <description>gem update cocoapods pod --version</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-09-11/</guid>
-      <description>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました。 聞いたセッションについてはまた別ブログで。 まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で発表させていただきました。 「iOSDCでのトークが初めての方のみ応募が可能な枠」で</description>
+      <description>まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で発表させていただきました。 「iOSDCでのトークが初めての方のみ応募が可能な枠」で、基本的なルールは通常のLTと同じです。 この枠で採択されたスピーカーは iOSDC の2-3週間前に開かれる「iOSDCルーキーズ</description>
     </item>
     
   </channel>

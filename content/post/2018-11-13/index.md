@@ -24,4 +24,4 @@ BottomNavigationのタブを選択するとFragmentが切り替わるサンプ�
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/151f02bb6cc7cac4943776356ed916ce.js"></script>
+{{< gist O-Junpei 151f02bb6cc7cac4943776356ed916ce >}}

@@ -32,4 +32,4 @@ Assetを開いて右クリック -> 「New Color Set」を選択
 ![alt](3.png)
 
 
-<script src="https://gist.github.com/O-Junpei/8390cd6f3f76bfbe43ebb87c1f9148ab.js"></script>
+{{< gist O-Junpei 8390cd6f3f76bfbe43ebb87c1f9148ab >}}

@@ -23,4 +23,4 @@ aliases = ["migrate-from-jekyl"]
 関数名の頭にtestと付けることで、テストとして実行できるようになります。
 
 
-<script src="https://gist.github.com/O-Junpei/026e20c64d4aa955e079024a7ea9340a.js"></script>
+{{< gist O-Junpei 026e20c64d4aa955e079024a7ea9340a >}}

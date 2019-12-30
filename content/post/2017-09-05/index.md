@@ -19,4 +19,4 @@ YMF825のサンプルコード　([yamaha-webmusic/ymf825board](https://github.c
 
 シールドの関係で、規定のピンNo9,No10が使えなかったので、ピンを変更しました。  
 
-<script src="https://gist.github.com/O-Junpei/d0b8b4318c58872868bcf1b521ad7455.js"></script>
+{{< gist O-Junpei d0b8b4318c58872868bcf1b521ad7455 >}}

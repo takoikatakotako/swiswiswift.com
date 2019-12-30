@@ -20,4 +20,4 @@ SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパ�
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/f464fc7f9a01303fef01895ef66e1346.js"></script>
+{{< gist O-Junpei f464fc7f9a01303fef01895ef66e1346 >}}

@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 FizzBuzzをCで解きました。
 
-<script src="https://gist.github.com/O-Junpei/82786f56c79ee0935b29c24c14b797a9.js"></script>
+{{< gist O-Junpei 82786f56c79ee0935b29c24c14b797a9 >}}

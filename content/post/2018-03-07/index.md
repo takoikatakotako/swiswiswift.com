@@ -27,4 +27,4 @@ This is a sample code that generates a QR code from a character string or URL.
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/00a5990bd7bc5059899602963310ae54.js"></script>
+{{< gist O-Junpei 00a5990bd7bc5059899602963310ae54 >}}

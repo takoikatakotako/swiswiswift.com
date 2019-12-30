@@ -43,4 +43,4 @@ Privacy – Microphone Usage Description to practice programingもまたString�
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/cecd673920cab46a0bcfc67162f43fe4.js"></script>
+{{< gist O-Junpei cecd673920cab46a0bcfc67162f43fe4 >}}

@@ -24,4 +24,4 @@ ssh-keygen -R [localhost]:2222
 ssh -p 2222 kabigon@localhost
 ```
 
-<script src="https://gist.github.com/O-Junpei/d3f4096b9301a56e05e7ab8239439fe6.js"></script>
+{{< gist O-Junpei d3f4096b9301a56e05e7ab8239439fe6 >}}

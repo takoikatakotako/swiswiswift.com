@@ -18,4 +18,4 @@ aliases = ["migrate-from-jekyl"]
 html, css, javascriptのミニマムなテンプレートです。  
 毎回調べているのでメモです。  
 
-<script src="https://gist.github.com/O-Junpei/711193c2c6cabd33837b01a60981f1a6.js"></script>
+{{< gist O-Junpei 711193c2c6cabd33837b01a60981f1a6 >}}

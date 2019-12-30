@@ -38,7 +38,7 @@ UILabelサンプル
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/6b60db47265f949ded1ee50517b25a5a.js"></script>
+{{< gist O-Junpei 6b60db47265f949ded1ee50517b25a5a >}}
 
 
 UILabelのカスタマイズ
@@ -46,4 +46,4 @@ UILabelのカスタマイズ
 UILabelにタッチイベントを実装
 参考: [[Swift2.0] UILabelとUIImageViewのタップイベント処理を実装する](https://qiita.com/k-yamada-github/items/79bb31cff50dc9fca321)
 
-<script src="https://gist.github.com/O-Junpei/0fb9d9197ce5817e365b064adbd2b409.js"></script>
+{{< gist O-Junpei 0fb9d9197ce5817e365b064adbd2b409 >}}

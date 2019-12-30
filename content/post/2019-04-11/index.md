@@ -24,6 +24,4 @@ Swift でUITest を行うサンプルコードです。
 ![alt](1.gif)
 ![alt](2.gif)
 
-<script src="https://gist.github.com/O-Junpei/5aba51305d74c009a2c878897837e006.js"></script>
-
-<script src="https://gist.github.com/O-Junpei/5aba51305d74c009a2c878897837e006.js"></script>
+{{< gist O-Junpei 5aba51305d74c009a2c878897837e006 >}}

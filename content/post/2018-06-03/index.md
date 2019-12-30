@@ -23,4 +23,4 @@ NavigationControllerを実装する
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/331bff0474d8ab8dddb03d6845254c1f.js"></script>
+{{< gist O-Junpei 331bff0474d8ab8dddb03d6845254c1f >}}

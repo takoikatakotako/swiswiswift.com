@@ -25,4 +25,4 @@ Swift3　での記事はこちら
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/3a3d9030f0a9c048eb784a8a01449061.js"></script>
+{{< gist O-Junpei 3a3d9030f0a9c048eb784a8a01449061 >}}

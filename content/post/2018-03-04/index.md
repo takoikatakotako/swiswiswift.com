@@ -18,4 +18,4 @@ aliases = ["migrate-from-jekyl"]
 列挙型、enumの書き方のサンプルコードです。  
 ここではpersonというクラスを作り、カビゴンさんの名前と出身地をenumを用いて登録しています。  
 
-<script src="https://gist.github.com/O-Junpei/1db6c66be1c7b30aca74d72f6acb9c4d.js"></script>
+{{< gist O-Junpei 1db6c66be1c7b30aca74d72f6acb9c4d >}}

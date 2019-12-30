@@ -23,4 +23,4 @@ iOSでよくあるマイクロインタラクションです。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/0bb81efba8da296691caf4bd3d378cf8.js"></script>
+{{< gist O-Junpei 0bb81efba8da296691caf4bd3d378cf8 >}}

@@ -36,4 +36,4 @@ UITextField、生成し、ボタンが押されるとUITextFieldから文字列�
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/d3e668838373df7c0698a18efd512edf.js"></script>
+{{< gist O-Junpei d3e668838373df7c0698a18efd512edf >}}

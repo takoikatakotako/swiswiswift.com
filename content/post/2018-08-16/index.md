@@ -20,4 +20,4 @@ react-native: 0.56.0
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/2bef7698462c7567835821a417b66124.js"></script>
+{{< gist O-Junpei 2bef7698462c7567835821a417b66124 >}}

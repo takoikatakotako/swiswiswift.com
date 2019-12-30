@@ -25,4 +25,4 @@ UICollectionViewのサンプルです。
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/ef86df62b2c8949733eba1abdf6e6ae5.js"></script>
+{{< gist O-Junpei ef86df62b2c8949733eba1abdf6e6ae5 >}}

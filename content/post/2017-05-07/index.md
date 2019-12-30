@@ -37,7 +37,7 @@ UITableView
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/03d842a3c371bdf7030ec6a7d0537e47.js"></script>
+{{< gist O-Junpei 03d842a3c371bdf7030ec6a7d0537e47 >}}
 
 
 
@@ -45,4 +45,4 @@ UITableView
 
 ![alt](2.png)
 
-<script src="https://gist.github.com/O-Junpei/3be7c007819dc477010b443850fa47eb.js"></script>
+{{< gist O-Junpei 3be7c007819dc477010b443850fa47eb >}}

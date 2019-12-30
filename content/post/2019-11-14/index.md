@@ -38,4 +38,4 @@ aliases = ["migrate-from-jekyl"]
 </script>
 <!-- for swiswiswift.com responsive -->
 
-<script src="https://gist.github.com/O-Junpei/8fa1b637dcc404f99c78f4c2af84c2a4.js"></script>
+{{< gist O-Junpei 8fa1b637dcc404f99c78f4c2af84c2a4 >}}

@@ -21,4 +21,4 @@ UIScrollViewの中にある画像を拡大したり縮小するサンプルで�
 ![alt](1.png)
 ![alt](2.png)
 
-<script src="https://gist.github.com/O-Junpei/2acbcf2fda2b9a7c5a5aadf9d5eac04e.js"></script>
+{{< gist O-Junpei 2acbcf2fda2b9a7c5a5aadf9d5eac04e >}}

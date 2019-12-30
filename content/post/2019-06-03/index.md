@@ -20,7 +20,7 @@ UIButton を使ってボタンを表示するサンプルコードです。
 
 <br>
 
-<script src="https://gist.github.com/O-Junpei/64f95b476583d978860cd9325cf06ee7.js"></script>
+{{< gist O-Junpei 64f95b476583d978860cd9325cf06ee7 >}}
 
 <br>
 

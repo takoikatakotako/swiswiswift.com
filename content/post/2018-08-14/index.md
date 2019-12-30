@@ -23,7 +23,7 @@ react-native: 0.56.0
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/5c354c0c3a43a8301d0b8be917df1bdb.js"></script>
+{{< gist O-Junpei 5c354c0c3a43a8301d0b8be917df1bdb >}}
 
 
 横にするには
@@ -31,4 +31,4 @@ flexDirection: 'row'と設定します。
 
 ![alt](2.png)
 
-<script src="https://gist.github.com/O-Junpei/eb271346f86ded62ebd6afe365197638.js"></script>
+{{< gist O-Junpei eb271346f86ded62ebd6afe365197638 >}}

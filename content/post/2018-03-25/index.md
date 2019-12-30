@@ -19,4 +19,4 @@ Arduinoでボタンを使うときのサンプルコードです。
 あんまり知られていないんですが、プルアップを使うとプルアップ抵抗が無しで簡単にボタンを使うことができるんですよ。  
 グラウンドとDegitalの2番ポートを繋げると(ボタンを押すと)そのことを認識できます。  
 
-<script src="https://gist.github.com/O-Junpei/e1c9239f729164445dcd8c54169cc0b2.js"></script>
+{{< gist O-Junpei e1c9239f729164445dcd8c54169cc0b2 >}}

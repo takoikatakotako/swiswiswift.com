@@ -23,4 +23,4 @@ UITabBarControllerのアイコンは30×30の透過pngです。
 ![alt](1.gif)
 
 
-<script src="https://gist.github.com/O-Junpei/da57dafc4acc822278193fcbead12a63.js"></script>
+{{< gist O-Junpei da57dafc4acc822278193fcbead12a63 >}}

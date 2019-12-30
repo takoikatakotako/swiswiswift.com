@@ -20,4 +20,4 @@ aliases = ["migrate-from-jekyl"]
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/313faccff11ce8155d24fa0d35547027.js"></script>
+{{< gist O-Junpei 313faccff11ce8155d24fa0d35547027 >}}

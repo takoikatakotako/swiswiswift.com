@@ -37,4 +37,4 @@ UIButton例文
 
 ![alt](1.png)
 
-<script src="https://gist.github.com/O-Junpei/15221bd007f80b56b22097dab5e11576.js"></script>
+{{< gist O-Junpei 15221bd007f80b56b22097dab5e11576 >}}

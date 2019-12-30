@@ -25,4 +25,4 @@ func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEdi
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/8b7bb753b5230c2cf44b719c4e072cbe.js"></script>
+{{< gist O-Junpei 8b7bb753b5230c2cf44b719c4e072cbe >}}

@@ -19,4 +19,4 @@ RootViewController をアニメーション付きで切り替えるサンプル�
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/f8fff1bd38317a481d566afb04effdd8.js"></script>
+{{< gist O-Junpei f8fff1bd38317a481d566afb04effdd8 >}}

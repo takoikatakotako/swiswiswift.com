@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 Rubyの配列についてです。
 
-<script src="https://gist.github.com/O-Junpei/23043db0f0a451e49f2f752c2b6ec854.js"></script>
+{{< gist O-Junpei 23043db0f0a451e49f2f752c2b6ec854 >}}

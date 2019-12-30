@@ -20,4 +20,4 @@ UIAlertControllerを使ってアラートを出すサンプルです。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/5aafbf16e920a90e3f5eb275b1d45143.js"></script>
+{{< gist O-Junpei 5aafbf16e920a90e3f5eb275b1d45143 >}}

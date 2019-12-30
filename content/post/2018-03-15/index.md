@@ -20,4 +20,4 @@ NavigationContorollerは横にニュッと動いて画面遷移をします。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/a73f1f37099eb82faa0932396d54cdd0.js"></script>
+{{< gist O-Junpei a73f1f37099eb82faa0932396d54cdd0 >}}

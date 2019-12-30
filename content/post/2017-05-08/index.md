@@ -23,4 +23,4 @@ aliases = ["migrate-from-jekyl"]
 
 以下に示します
 
-<script src="https://gist.github.com/O-Junpei/34fec1ee38a09955862647ec078e94a9.js"></script>
+{{< gist O-Junpei 34fec1ee38a09955862647ec078e94a9 >}}

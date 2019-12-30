@@ -19,4 +19,4 @@ UIAlertControllerにTextFieldを追加したサンプルです。
 
 ![alt](1.gif)
 
-<script src="https://gist.github.com/O-Junpei/73a6d7c7a5010615326516674b25966e.js"></script>
+{{< gist O-Junpei 73a6d7c7a5010615326516674b25966e >}}
