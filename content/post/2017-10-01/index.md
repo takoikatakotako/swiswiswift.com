@@ -26,4 +26,10 @@ SDカードとESPとの配線はこちらのサイトを参考にしました。
 そしてこちらのコードを参考にさせていただきました。  
 ArduinoでSDカードにデータを保存する  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 93b08af9a39e3a70521a5d02fcdd38ca >}}

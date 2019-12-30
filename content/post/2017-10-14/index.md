@@ -23,3 +23,9 @@ let backButton = UIBarButtonItem(title: "", style: .plain, target: nil, action: 
 self.navigationItem.backBarButtonItem = backButton
 self.navigationController?.pushViewController(picDetailView, animated: true)
 ```
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

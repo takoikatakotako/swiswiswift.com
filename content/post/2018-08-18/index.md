@@ -21,4 +21,10 @@ react-native: 0.56.0
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei cad48a18e45c8db30276144fb18bed52 >}}

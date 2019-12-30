@@ -18,4 +18,10 @@ aliases = ["migrate-from-jekyl"]
 あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。  
 今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei ae189d1b905c3f1778f0552ceeb5fcf8 >}}

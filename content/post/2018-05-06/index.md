@@ -25,4 +25,10 @@ UIViewの背景をグラデーションさせるサンプルコードです。
 ![alt](2.png)
 ![alt](3.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
  {{< gist O-Junpei 22f405b16dab2d88e37b7f0a98e292fc >}}

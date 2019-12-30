@@ -19,5 +19,10 @@ UISlider で値を取得するサンプルコードです。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 07199c16047be78181bfdeb4394c5467 >}}

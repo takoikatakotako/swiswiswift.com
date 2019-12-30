@@ -18,3 +18,10 @@ aliases = ["migrate-from-jekyl"]
 グラフ中で右クリック -> Colors -> both background -> 白色を選択
 
 これでできました。
+
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

@@ -17,4 +17,10 @@ aliases = ["migrate-from-jekyl"]
 
 Rubyの配列についてです。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 23043db0f0a451e49f2f752c2b6ec854 >}}

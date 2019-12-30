@@ -45,4 +45,10 @@ UITableView
 
 ![alt](2.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 3be7c007819dc477010b443850fa47eb >}}

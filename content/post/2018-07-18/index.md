@@ -19,4 +19,10 @@ aliases = ["migrate-from-jekyl"]
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 54e9dbf6a0be9f73654b0669b2276a0f >}}

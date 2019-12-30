@@ -18,4 +18,10 @@ aliases = ["migrate-from-jekyl"]
 html, css, javascriptのミニマムなテンプレートです。  
 毎回調べているのでメモです。  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 711193c2c6cabd33837b01a60981f1a6 >}}

@@ -25,4 +25,10 @@ AppleDeveloperDocuments
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei bd932336d3a114791f193561e319c964 >}}

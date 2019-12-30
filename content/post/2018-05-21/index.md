@@ -37,3 +37,9 @@ AppleDeveloperProgramを登録or更新すると2回テクニカルサポート�
 
 AppleDeveloper -テクニカルサポートのリクエスト-  
 https://developer.apple.com/jp/support/technical/  
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

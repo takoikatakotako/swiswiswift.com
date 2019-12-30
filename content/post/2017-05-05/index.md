@@ -37,4 +37,10 @@ UIButton例文
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 15221bd007f80b56b22097dab5e11576 >}}

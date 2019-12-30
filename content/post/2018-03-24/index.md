@@ -18,4 +18,10 @@ aliases = ["migrate-from-jekyl"]
 Google様のCloud Functionを触ってみたので、そのメモです。  
 HelloWorldとJsonでの出力とgetの受け取りです。  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei fb0806d6a15c4dd50a21b8348684bfe7 >}}

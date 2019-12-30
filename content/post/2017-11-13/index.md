@@ -21,4 +21,10 @@ UIScrollViewの中にある画像を拡大したり縮小するサンプルで�
 ![alt](1.png)
 ![alt](2.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 2acbcf2fda2b9a7c5a5aadf9d5eac04e >}}

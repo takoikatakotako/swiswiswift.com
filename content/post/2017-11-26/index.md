@@ -19,4 +19,10 @@ SwiftでUDP通信するメモです。
 [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) をcocoapodsで入れて、こんな感じで書きました。  
 woom-02と通信するのに使いました。  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei b6e3d95b9b9b47995655f4d237a53a46 >}}

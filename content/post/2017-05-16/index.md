@@ -30,4 +30,10 @@ UIStatusBarを白くする方法その2
  ![alt](1.png)
  ![alt](2.png)
 
+ <!-- Google Ads -->
+ {{< google-ads >}}
+
+ <!-- Amazon Ads -->
+ {{< amazon-ads >}}
+
 {{< gist O-Junpei 3f485ae74f1144ec0147dd81c3d677cf >}}

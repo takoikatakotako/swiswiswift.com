@@ -19,4 +19,10 @@ SwiftyJsonなどを使うともっと良い感じにかけますが、今回は�
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei ecaedddc237f4283a845f3e2df038f10 >}}

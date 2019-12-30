@@ -18,4 +18,10 @@ aliases = ["migrate-from-jekyl"]
 Timeを使って3秒ごとに繰り返しを行います。  
 Repeat functions every 3 seconds  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei c163abefb34621b9995d32e2f36d57c3 >}}

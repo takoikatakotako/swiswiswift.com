@@ -23,4 +23,10 @@ aliases = ["migrate-from-jekyl"]
 
 以下に示します
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 34fec1ee38a09955862647ec078e94a9 >}}

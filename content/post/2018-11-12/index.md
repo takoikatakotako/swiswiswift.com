@@ -75,3 +75,10 @@ info.plist の読込先も間違っているので修正します。
 2019/06/20 追記  
 リネームを行うとUnitTest, UITest が実行できなくなってしまいました。  
 Target を一度削除して、作り直すとうまく動作しました。  
+
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

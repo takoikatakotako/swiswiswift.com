@@ -20,4 +20,10 @@ SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパ�
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei f464fc7f9a01303fef01895ef66e1346 >}}

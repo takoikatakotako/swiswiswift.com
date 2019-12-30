@@ -34,3 +34,9 @@ iosのエミュレーター起動する
 cd ReactNative
 react-native run-ios
 ```
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

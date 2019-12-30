@@ -22,5 +22,10 @@ aliases = ["migrate-from-jekyl"]
 `@testable import Swiswiswift`（Swiswiswiftはプロジェクト名）　と書くことで、テストクラスの中から参照できるようになります。  
 関数名の頭にtestと付けることで、テストとして実行できるようになります。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 026e20c64d4aa955e079024a7ea9340a >}}

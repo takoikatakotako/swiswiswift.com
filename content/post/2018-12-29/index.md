@@ -40,4 +40,10 @@ LocationManagerを使用する場合は、「位置情報を利用する目的�
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei b3779eda289d518889b73e7dabefaca4 >}}

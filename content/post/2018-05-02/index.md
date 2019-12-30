@@ -20,4 +20,10 @@ UIButtonを拡張したカスタムボタンクラスを作成して貼り付け
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 86c25446f96a42f5d62390950f41bbc1 >}}

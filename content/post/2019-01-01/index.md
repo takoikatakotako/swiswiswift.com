@@ -21,4 +21,10 @@ Swiftの配列です。配列の作成と呼び出しについて記載します
 #Swift3の記事はこちら  
 Array
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei f4c247c1880ba8be45d2a9d9320558a3 >}}

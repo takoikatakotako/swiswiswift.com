@@ -20,8 +20,13 @@ iOSで画像をインターネットから取得する場合はATSを設定す�
 
 react-native: 0.56.0
 
-
 ![alt](1.png)
 ![alt](2.png)
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 2bef7698462c7567835821a417b66124 >}}

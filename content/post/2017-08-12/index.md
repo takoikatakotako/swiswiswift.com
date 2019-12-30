@@ -18,3 +18,9 @@ aliases = ["migrate-from-jekyl"]
 アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。  
 毎回聞かれるとスキップしたくなります。  
 `Info.plist` の `ITSAppUsesNonExemptEncryption` を `NO` にするとスキップすることができます。  
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

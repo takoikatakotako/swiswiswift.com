@@ -17,4 +17,10 @@ aliases = ["migrate-from-jekyl"]
 Java での文字列のシャッフル方法です。  
 結構面倒だったので、記事にしました。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei aea0cc327c75c2539b0305ca658711b2 >}}

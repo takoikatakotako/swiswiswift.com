@@ -20,3 +20,9 @@ aliases = ["migrate-from-jekyl"]
 ```
 http://localhost:3000/api/url -X POST -H "Content-Type: application/json" -d '{"email":"user@swiswiswift.com", "password":"password"}'--include
 ```
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

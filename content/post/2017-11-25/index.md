@@ -24,3 +24,9 @@ The use of Swift 3 @objc inference in Swift 4 mode is deprecated. Please address
 各ターゲットを選択 -> Build Settings -> 検索窓で inference と検索 -> Swift @objc inference を Default　に設定する　  
 他にもターゲット(UITest,UnitTest)がある場合はそれも Default　に設定する。  
 これで消えるはずです！  
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

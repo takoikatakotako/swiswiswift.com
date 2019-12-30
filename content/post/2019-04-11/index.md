@@ -24,4 +24,10 @@ Swift でUITest を行うサンプルコードです。
 ![alt](1.gif)
 ![alt](2.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 5aba51305d74c009a2c878897837e006 >}}

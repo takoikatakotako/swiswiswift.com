@@ -17,4 +17,10 @@ aliases = ["migrate-from-jekyl"]
 
 Androidアプリのアクションバーの影を消します。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 92f75bbc6d6a5cb70ce2bfda4dcd6aec >}}

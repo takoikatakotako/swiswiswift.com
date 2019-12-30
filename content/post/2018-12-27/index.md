@@ -23,4 +23,10 @@ iOSでよくあるマイクロインタラクションです。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 0bb81efba8da296691caf4bd3d378cf8 >}}

@@ -17,4 +17,10 @@ aliases = ["migrate-from-jekyl"]
 
 JavaScriptのWebテスト用のカンペです。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 25efb5ea45f7d6037992e2a6c425f014 >}}

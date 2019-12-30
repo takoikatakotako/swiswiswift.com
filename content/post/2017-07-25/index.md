@@ -21,3 +21,9 @@ Macのターミナルからcurlコマンドでjsonをpostする方法です。
 ```
 curl http://localhost:3000/api/url -X POST -H "Content-Type: application/json" -d '{"email":"kabigon@swiswiswift.com", "password":"password"}'
 ```
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

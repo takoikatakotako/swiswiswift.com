@@ -19,3 +19,9 @@ aliases = ["migrate-from-jekyl"]
 – Pathの…ボタンを押し、アイコンにしたい画像を選択する。  
 – Resize でサイズの微調節を行う。  
 – Nextボタンを推し、アイコン画像の名前やサイズを確認し、Finish。  
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

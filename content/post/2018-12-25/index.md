@@ -24,4 +24,10 @@ ssh-keygen -R [localhost]:2222
 ssh -p 2222 kabigon@localhost
 ```
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei d3f4096b9301a56e05e7ab8239439fe6 >}}

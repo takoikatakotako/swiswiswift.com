@@ -17,19 +17,11 @@ aliases = ["migrate-from-jekyl"]
 ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。  
 `signup.php` でユーザー登録を行い、`list.php` でユーザーの一覧を表示し、`deleate.php` でユーザーを全て削除します。
 
-<!-- for swiswiswift.com responsive -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5587141252700968"
-     data-ad-slot="1697863134"
-     data-ad-format="auto"
-     data-adtest="on"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- for swiswiswift.com responsive -->
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< highlight html >}}
 # サーバー起動

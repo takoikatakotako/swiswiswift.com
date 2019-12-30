@@ -31,5 +31,10 @@ Assetを開いて右クリック -> 「New Color Set」を選択
 ![alt](2.png)
 ![alt](3.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 8390cd6f3f76bfbe43ebb87c1f9148ab >}}

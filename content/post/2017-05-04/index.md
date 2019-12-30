@@ -75,3 +75,9 @@ let leftNavBtn =  UIBarButtonItem(barButtonSystemItem:  .add, target: self, acti
 - Undo
 - Redo
 - PageCurl
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

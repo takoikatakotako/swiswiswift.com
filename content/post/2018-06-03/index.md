@@ -23,4 +23,10 @@ NavigationControllerを実装する
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 331bff0474d8ab8dddb03d6845254c1f >}}

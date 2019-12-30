@@ -29,4 +29,11 @@ build.gradle に以下のdependencyを追加します。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
+
 {{< gist O-Junpei 79c2fc3b9682d226426c87aca9ba675b >}}

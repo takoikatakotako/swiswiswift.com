@@ -19,4 +19,10 @@ res/color　ディレクトリ以下に　bottom_navigation_color.xml ファイ�
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 007d3ffed0270e0cd6fe205e3b7e41c4 >}}

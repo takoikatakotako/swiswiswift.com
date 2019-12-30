@@ -31,4 +31,10 @@ flexDirection: 'row'と設定します。
 
 ![alt](2.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei eb271346f86ded62ebd6afe365197638 >}}

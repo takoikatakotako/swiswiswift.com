@@ -25,4 +25,10 @@ func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEdi
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 8b7bb753b5230c2cf44b719c4e072cbe >}}

@@ -24,3 +24,9 @@ RTCWebSocket.xcodeproject -> RCTWebSocket -> Build Phasesを選択 -> Link Binar
 すでに追加されている場合は削除  
 
 を行うことで解決した。
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

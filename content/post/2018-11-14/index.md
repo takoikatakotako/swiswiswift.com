@@ -19,3 +19,9 @@ aliases = ["migrate-from-jekyl"]
 要素と検証を開いて、inputタグの type を text　に変更します。  
 
 ![alt](1.png)
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

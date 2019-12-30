@@ -19,4 +19,10 @@ RootViewController をアニメーション付きで切り替えるサンプル�
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei f8fff1bd38317a481d566afb04effdd8 >}}

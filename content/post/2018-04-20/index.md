@@ -33,5 +33,10 @@ Calendar.currentで取得すると、設定によっては和暦(平成〇〇年
 [Swift3での日時に関する処理](https://qiita.com/isom0242/items/e83ab77a3f56f66edd2f)  
 [【Swift3】現在時刻の取得とDataFormatterでの文字列化](https://qiita.com/GDaigo/items/270e6ed6e898e8b8e1c3)  
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 9f029788e0b3ea4985719a87d657614b >}}

@@ -20,4 +20,10 @@ UIAlertControllerを使ってアラートを出すサンプルです。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 5aafbf16e920a90e3f5eb275b1d45143 >}}

@@ -24,18 +24,10 @@ aliases = ["migrate-from-jekyl"]
 
 ![同じIDが表示される](2.gif)
 
-<!-- for swiswiswift.com responsive -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5587141252700968"
-     data-ad-slot="1697863134"
-     data-ad-format="auto"
-     data-adtest="on"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- for swiswiswift.com responsive -->
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 8fa1b637dcc404f99c78f4c2af84c2a4 >}}

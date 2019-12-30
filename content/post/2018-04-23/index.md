@@ -21,4 +21,10 @@ aliases = ["migrate-from-jekyl"]
 参考に指せて頂いた記事  
 [[Swift]数字を三桁ごとにカンマ区切りにする](https://qiita.com/ktanaka117/items/57c43c897fb7040e0980)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei a261ef58268086e280af08e62966a943 >}}

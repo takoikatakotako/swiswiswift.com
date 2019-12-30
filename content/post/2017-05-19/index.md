@@ -17,4 +17,10 @@ aliases = ["migrate-from-jekyl"]
 
 FizzBuzzをRubyで解いてみました。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 08ecaa1c16ccb1c67603755e2d973dc9 >}}

@@ -19,4 +19,10 @@ UIAlertControllerにTextFieldを追加したサンプルです。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 73a6d7c7a5010615326516674b25966e >}}

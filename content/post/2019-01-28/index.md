@@ -17,6 +17,12 @@ aliases = ["migrate-from-jekyl"]
 以下のエラーが出てssh接続ができなくなりました。
 原因は秘密鍵の権限を制限してあげることで解決しました。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 ```
 WARNING: UNPROTECTED PRIVATE KEY FILE! @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

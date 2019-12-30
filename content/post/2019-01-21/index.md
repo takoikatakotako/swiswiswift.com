@@ -22,4 +22,10 @@ NavigationContorollerは横にニュッと動いて画面遷移をします。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 313faccff11ce8155d24fa0d35547027 >}}

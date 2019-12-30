@@ -17,4 +17,10 @@ aliases = ["migrate-from-jekyl"]
 
 Kotlinで現在時刻の取得を行います。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 5252b4fc7f3d75ab2db380709e320899 >}}

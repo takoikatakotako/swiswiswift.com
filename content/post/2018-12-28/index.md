@@ -21,4 +21,11 @@ Lifesumというアプリの登録導線のインタラクションがとても�
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
+
 {{< gist O-Junpei 617fa791783d28cab224716b107de3d5 >}}

@@ -20,5 +20,10 @@ aliases = ["migrate-from-jekyl"]
 
 [さくらのサポート情報　【無料SSL】サーバコントロールパネルからの導入手順](https://help.sakura.ad.jp/115000136822/)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei cfecbba82a5284aa128a198da2fb9514 >}}

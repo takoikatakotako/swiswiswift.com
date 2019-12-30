@@ -23,19 +23,11 @@ $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem
 {{< /highlight >}}
 
 
-<!-- for swiswiswift.com responsive -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5587141252700968"
-     data-ad-slot="1697863134"
-     data-ad-format="auto"
-     data-adtest="on"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- for swiswiswift.com responsive -->
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 
 ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。  

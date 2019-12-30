@@ -25,4 +25,10 @@ UICollectionViewのサンプルです。
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei ef86df62b2c8949733eba1abdf6e6ae5 >}}

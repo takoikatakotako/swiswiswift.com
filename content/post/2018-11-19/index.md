@@ -23,4 +23,10 @@ $ docker run -d -p 2222:22 docker_ssh:latest
 $ ssh -p 2222 kabigon@localhost
 ```
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 14d4ebc02fb6d19e6b20999226534c44 >}}

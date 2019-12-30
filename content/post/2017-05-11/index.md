@@ -20,3 +20,9 @@ aliases = ["migrate-from-jekyl"]
 ```
 afconvert -f caff -d ima4 ファイル名.wav
 ```
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

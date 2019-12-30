@@ -20,4 +20,10 @@ ListViewを使ってリストの表示を行います。
 
 ![alt](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 478a208b9bbda6ff45718209e95a90f7 >}}

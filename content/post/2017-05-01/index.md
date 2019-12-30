@@ -28,4 +28,10 @@ Swiftの配列です。配列の作成と呼び出しについて記載します
 
 配列の追加、挿入、削除をしてみます。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei a5640c496eab83a2c4cf7a1f8cad7e6a >}}

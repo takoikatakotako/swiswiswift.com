@@ -33,4 +33,10 @@ Typeは `String` でValueの中に使用理由を書きます。
 
 コードは以下のようになります。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei e30e9e82f7b46da3deac632f74a7cc02 >}}

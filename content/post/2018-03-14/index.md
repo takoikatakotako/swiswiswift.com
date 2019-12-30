@@ -36,4 +36,10 @@ Rasbee オリジナル MCUのDC 3.3-5.5V DS3231高精度リアルタイムクロ
 ![alt](1.jpg)
 ![alt](2.jpg)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei c5016cb12a9c643cb5ba06897e4e23db >}}

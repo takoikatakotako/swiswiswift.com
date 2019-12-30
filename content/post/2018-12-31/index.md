@@ -18,5 +18,11 @@ aliases = ["migrate-from-jekyl"]
 #Swift4.2  
 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 
 {{< gist O-Junpei 32a5878d69ff5389dc23a3875493e393 >}}

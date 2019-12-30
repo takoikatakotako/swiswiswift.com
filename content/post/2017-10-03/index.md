@@ -19,5 +19,10 @@ UICollectionViewにCustumCollectionセルを追加してみました。
 
 クラス名を文字列に変換する `NSStringFromClass(CustumCollectionViewCell.self)` は、`UITableViewやUICollectionView` を使うときにとても便利です。
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 4c7bf79f0fc1221708eca1fef26ba5e9 >}}

@@ -23,3 +23,9 @@ aliases = ["migrate-from-jekyl"]
 print("Class name : \(NSStringFromClass(type(of: self))) ")
 print(#function, #line)
 ```
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

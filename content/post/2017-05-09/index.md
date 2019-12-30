@@ -46,4 +46,10 @@ UILabelのカスタマイズ
 UILabelにタッチイベントを実装
 参考: [[Swift2.0] UILabelとUIImageViewのタップイベント処理を実装する](https://qiita.com/k-yamada-github/items/79bb31cff50dc9fca321)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei 0fb9d9197ce5817e365b064adbd2b409 >}}

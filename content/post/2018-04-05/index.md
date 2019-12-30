@@ -22,5 +22,10 @@ CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使
 参考にさせて頂いたウェブサイト  
 [[Swift]UITableViewCellのaccessoryViewでaccessoryButtonTappedForRowWithIndexPathが来ない件の対応](https://qiita.com/seiko_m/items/03f71bea83e35d302d3f)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 731f8d5b6b078469981176c61536f5bd >}}

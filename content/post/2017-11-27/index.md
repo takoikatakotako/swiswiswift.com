@@ -25,4 +25,10 @@ Swift2->4の変換は大変でした。。。
 
 ![alt](1.png)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist O-Junpei a5b09b2b640174eb27c8c8d6e4e0520c >}}

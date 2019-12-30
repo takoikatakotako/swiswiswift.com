@@ -83,3 +83,9 @@ $ service sshd restart
 ```
 
 rootでログインできなかったら終わり！！
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}

@@ -19,6 +19,10 @@ aliases = ["migrate-from-jekyl"]
 ログイン時に表示したい文字は `$/etc/motd` に記述します。  
 ただのテキストだと気が付きにくいので、figlet コマンドを使ってAAを作成するのがマイブームです。  
 
+<!-- Google Ads -->
+{{< google-ads >}}
 
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 {{< gist O-Junpei 418c1903a9f051304f3f5d8712cce81c >}}
