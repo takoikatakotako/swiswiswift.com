@@ -1,23 +1,30 @@
 +++
-title =  "SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す"
-url = "2020-01-11"
-date = "2020-01-11"
-description = "SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す"
+title =  "MVPアーキテクチャを使ったサンプルアプリ"
+url = "2019-12-30"
+date = "2019-12-30"
+description = "MVPアーキテクチャを使ったサンプルアプリ"
 tags = [
-    "Swift", "SwiftUI"
+    "Swift"
 ]
 categories = [
-    "Swift", "SwiftUI"
+    "Swift"
 ]
-archives = "2020/01"
+archives = "2019/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。
+MVPアーキテクチャを使ったサンプルアプリです。
+Unitテスト、UIテストも書きました。
 
-![Delegate Sample](1.gif)
+以下のような数字を足し合わせるアプリです。
+
+![MVP](1.gif)
+
+リポジトリはこちら↓
+
+[MVP-Sample](https://github.com/O-Junpei/MVP-Sample)
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -25,4 +32,4 @@ SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei c9d351da76b084b1cc98f39dbfdeaf14 >}}
+{{< gist O-Junpei 4335d84b2922613b47bdee8d37a80a5b >}}
