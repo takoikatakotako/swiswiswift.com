@@ -1,29 +1,23 @@
 +++
-title =  "MVPアーキテクチャを使ったサンプルアプリ"
-url = "2019-12-30"
-date = "2019-12-30"
-description = "MVPアーキテクチャを使ったサンプルアプリ"
+title =  "SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す"
+url = "2020-01-11"
+date = "2020-01-11"
+description = "SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す"
 tags = [
-    "Swift"
+    "Swift", "SwiftUI"
 ]
 categories = [
-    "Swift"
+    "Swift", "SwiftUI"
 ]
-archives = "2019/12"
+archives = "2020/01"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-MVPアーキテクチャを使ったサンプルアプリです。
-Unitテスト、UIテストも書きました。
+SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。
 
-以下のような数字を足し合わせるアプリです。
-
-![MVP](1.gif)
-
-リポジトリはこちら↓
-[MVP-Sample](https://github.com/O-Junpei/MVP-Sample)
+![Delegate Sample](1.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -31,4 +25,4 @@ Unitテスト、UIテストも書きました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 4335d84b2922613b47bdee8d37a80a5b >}}
+{{< gist O-Junpei c9d351da76b084b1cc98f39dbfdeaf14 >}}

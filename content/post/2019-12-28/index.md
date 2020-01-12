@@ -23,9 +23,7 @@ Hugo のバージョンを更新したところ、以下のような Gist のペ
 
 以下のように書き換えることで動作しました。
 
-```
-{{< gist O-Junpei 5aba51305d74c009a2c878897837e006 >}}
-```
+![Replace](1.png)
 
 参考: [Shortcodes](https://gohugo.io/content-management/shortcodes/)
 
@@ -37,4 +35,4 @@ Hugo のバージョンを更新したところ、以下のような Gist のペ
 
 置換は Atom の正規表現置換機能を使い一括置換を行いました。
 
-![Replace](1.png)
+![Replace](2.png)
