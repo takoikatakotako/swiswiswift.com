@@ -49,4 +49,4 @@ Privacy – Microphone Usage Description to practice programingもまたString�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei cecd673920cab46a0bcfc67162f43fe4 >}}
+{{< gist takoikatakotako cecd673920cab46a0bcfc67162f43fe4 >}}

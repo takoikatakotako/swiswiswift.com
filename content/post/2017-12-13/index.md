@@ -24,4 +24,4 @@ Repeat functions every 3 seconds
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei c163abefb34621b9995d32e2f36d57c3 >}}
+{{< gist takoikatakotako c163abefb34621b9995d32e2f36d57c3 >}}

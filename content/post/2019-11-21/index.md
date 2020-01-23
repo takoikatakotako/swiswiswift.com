@@ -27,4 +27,4 @@ TabViewを使って画面を切り替えるサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei ef054d99aeca5cdbc6ab0714ba227fc3 >}}
+{{< gist takoikatakotako ef054d99aeca5cdbc6ab0714ba227fc3 >}}

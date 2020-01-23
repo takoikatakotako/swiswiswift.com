@@ -38,7 +38,7 @@ UILabelサンプル
 
 ![alt](1.png)
 
-{{< gist O-Junpei 6b60db47265f949ded1ee50517b25a5a >}}
+{{< gist takoikatakotako 6b60db47265f949ded1ee50517b25a5a >}}
 
 
 UILabelのカスタマイズ
@@ -52,4 +52,4 @@ UILabelにタッチイベントを実装
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 0fb9d9197ce5817e365b064adbd2b409 >}}
+{{< gist takoikatakotako 0fb9d9197ce5817e365b064adbd2b409 >}}

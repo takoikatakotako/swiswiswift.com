@@ -28,4 +28,4 @@ SwiftUIのPickerでLabelを表示しない方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 236f85c2f4c92db7cb51a6f4faed6a6f >}}
+{{< gist takoikatakotako 236f85c2f4c92db7cb51a6f4faed6a6f >}}

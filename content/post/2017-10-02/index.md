@@ -31,4 +31,4 @@ UICollectionViewのサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei ef86df62b2c8949733eba1abdf6e6ae5 >}}
+{{< gist takoikatakotako ef86df62b2c8949733eba1abdf6e6ae5 >}}

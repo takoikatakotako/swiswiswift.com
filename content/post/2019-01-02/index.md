@@ -24,4 +24,4 @@ Swiftで関数を作る。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 39e8e47516ccd198cf2ab7aff89a682d >}}
+{{< gist takoikatakotako 39e8e47516ccd198cf2ab7aff89a682d >}}

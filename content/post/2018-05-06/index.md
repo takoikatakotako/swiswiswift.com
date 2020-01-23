@@ -31,4 +31,4 @@ UIViewの背景をグラデーションさせるサンプルコードです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
- {{< gist O-Junpei 22f405b16dab2d88e37b7f0a98e292fc >}}
+ {{< gist takoikatakotako 22f405b16dab2d88e37b7f0a98e292fc >}}

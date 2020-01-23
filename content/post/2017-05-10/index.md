@@ -40,4 +40,4 @@ UINavigationBarを生成し、タイトルとボタンを付けます。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 401a75d396db4548302b32e757f44e52 >}}
+{{< gist takoikatakotako 401a75d396db4548302b32e757f44e52 >}}

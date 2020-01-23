@@ -32,7 +32,7 @@ UINavigationBarを生成し、タイトルとボタンを付けます。
 
 ![alt](1.png)
 
-{{< gist O-Junpei 401a75d396db4548302b32e757f44e52 >}}
+{{< gist takoikatakotako 401a75d396db4548302b32e757f44e52 >}}
 
 
 UIBarButtonItemの色の変更

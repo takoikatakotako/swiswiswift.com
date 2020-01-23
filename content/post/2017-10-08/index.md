@@ -23,4 +23,4 @@ UITableViewにヘッダーを設定するサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 16ff17a1cc4477ea59d5ccc6629bc50e >}}
+{{< gist takoikatakotako 16ff17a1cc4477ea59d5ccc6629bc50e >}}

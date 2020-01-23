@@ -19,8 +19,8 @@ author = "Hugo Authors"
 
 ### Github
 
-<a href="https://github.com/O-Junpei">
-  <h4>O-Junpei</h4>
+<a href="https://github.com/takoikatakotako">
+  <h4>takoikatakotako</h4>
 </a>
 
 

@@ -36,4 +36,4 @@ Swift 4.1
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 8db4a9f30678ab13d1188b198c38f34b >}}
+{{< gist takoikatakotako 8db4a9f30678ab13d1188b198c38f34b >}}

@@ -26,4 +26,4 @@ CallKit を使うことで着信時のUIを使うことができます。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 0a5bd7d9735617105e941e86a83ef9bd >}}
+{{< gist takoikatakotako 0a5bd7d9735617105e941e86a83ef9bd >}}

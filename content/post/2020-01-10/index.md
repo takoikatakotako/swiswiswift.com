@@ -23,4 +23,4 @@ Swiftで数字が連番になった配列を作成する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei ca5ef0cb1fc1275addba4050d6a8c927 >}}
+{{< gist takoikatakotako ca5ef0cb1fc1275addba4050d6a8c927 >}}

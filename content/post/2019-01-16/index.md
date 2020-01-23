@@ -25,4 +25,4 @@ which java と sudo which java でパスが違ったのでその解決
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 365fec7b206860bb14626327ff380014 >}}
+{{< gist takoikatakotako 365fec7b206860bb14626327ff380014 >}}

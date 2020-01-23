@@ -24,7 +24,7 @@ Unitテスト、UIテストも書きました。
 
 リポジトリはこちら↓
 
-[MVP-Sample](https://github.com/O-Junpei/MVP-Sample)
+[MVP-Sample](https://github.com/takoikatakotako/MVP-Sample)
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -32,4 +32,4 @@ Unitテスト、UIテストも書きました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 4335d84b2922613b47bdee8d37a80a5b >}}
+{{< gist takoikatakotako 4335d84b2922613b47bdee8d37a80a5b >}}

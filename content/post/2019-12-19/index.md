@@ -23,4 +23,4 @@ SwiftUI でも活躍していますね。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 856389c7a9ed070d5b8c5a4641cf88b6 >}}
+{{< gist takoikatakotako 856389c7a9ed070d5b8c5a4641cf88b6 >}}

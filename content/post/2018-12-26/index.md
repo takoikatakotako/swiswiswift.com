@@ -37,4 +37,4 @@ $ ssh -p 2222 kabigon@localhost
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 51affec5d67897a810e29872f9e28654 >}}
+{{< gist takoikatakotako 51affec5d67897a810e29872f9e28654 >}}

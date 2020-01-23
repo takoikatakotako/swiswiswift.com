@@ -36,4 +36,4 @@ build.gradle に以下のdependencyを追加します。
 {{< amazon-ads >}}
 
 
-{{< gist O-Junpei 79c2fc3b9682d226426c87aca9ba675b >}}
+{{< gist takoikatakotako 79c2fc3b9682d226426c87aca9ba675b >}}

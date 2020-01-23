@@ -25,4 +25,4 @@ UIAlertControllerにTextFieldを追加したサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 73a6d7c7a5010615326516674b25966e >}}
+{{< gist takoikatakotako 73a6d7c7a5010615326516674b25966e >}}

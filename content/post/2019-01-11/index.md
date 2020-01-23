@@ -36,4 +36,4 @@ TypeはStringでValueの中に使用理由を書きます。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei a73bf357ab9fe77db1a81c08dc4b62ef >}}
+{{< gist takoikatakotako a73bf357ab9fe77db1a81c08dc4b62ef >}}

@@ -23,4 +23,4 @@ Androidアプリのステータスバーの変更
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 7a0770930fe319262f44911fc7a170cd >}}
+{{< gist takoikatakotako 7a0770930fe319262f44911fc7a170cd >}}

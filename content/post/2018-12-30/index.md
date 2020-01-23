@@ -32,4 +32,4 @@ Swift3　での記事はこちら
 {{< amazon-ads >}}
 
 
-{{< gist O-Junpei 3a3d9030f0a9c048eb784a8a01449061 >}}
+{{< gist takoikatakotako 3a3d9030f0a9c048eb784a8a01449061 >}}

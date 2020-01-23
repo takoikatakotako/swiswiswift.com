@@ -36,4 +36,4 @@ UIStatusBarを白くする方法その2
  <!-- Amazon Ads -->
  {{< amazon-ads >}}
 
-{{< gist O-Junpei 3f485ae74f1144ec0147dd81c3d677cf >}}
+{{< gist takoikatakotako 3f485ae74f1144ec0147dd81c3d677cf >}}

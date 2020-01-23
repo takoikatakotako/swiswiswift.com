@@ -28,4 +28,4 @@ CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 731f8d5b6b078469981176c61536f5bd >}}
+{{< gist takoikatakotako 731f8d5b6b078469981176c61536f5bd >}}

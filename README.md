@@ -12,7 +12,7 @@ Reference: https://gohugo.io/getting-started/installing/
 ### Install Dependency
 
 ```
-$ git clone https://github.com/O-Junpei/swiswiswift.com/
+$ git clone https://github.com/takoikatakotako/swiswiswift.com/
 $ cd swiswiswift.com
 $ git checkout develop # if needed
 $ git submodule update --init --recursive

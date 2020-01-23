@@ -25,4 +25,4 @@ woom-02と通信するのに使いました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei b6e3d95b9b9b47995655f4d237a53a46 >}}
+{{< gist takoikatakotako b6e3d95b9b9b47995655f4d237a53a46 >}}

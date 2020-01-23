@@ -24,4 +24,4 @@ Swiftで数秒後に実行する、毎秒実行させるサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei ac7d5dce0d8135037f9f8b6657ac676b >}}
+{{< gist takoikatakotako ac7d5dce0d8135037f9f8b6657ac676b >}}

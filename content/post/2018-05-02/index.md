@@ -26,4 +26,4 @@ UIButtonを拡張したカスタムボタンクラスを作成して貼り付け
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 86c25446f96a42f5d62390950f41bbc1 >}}
+{{< gist takoikatakotako 86c25446f96a42f5d62390950f41bbc1 >}}

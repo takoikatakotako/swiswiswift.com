@@ -27,4 +27,4 @@ SwiftUI で Picker を表示するサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 4c1ff8d1731a52359fae0a29a73f0f1d >}}
+{{< gist takoikatakotako 4c1ff8d1731a52359fae0a29a73f0f1d >}}

@@ -25,4 +25,4 @@ YMF825のサンプルコード　([yamaha-webmusic/ymf825board](https://github.c
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei d0b8b4318c58872868bcf1b521ad7455 >}}
+{{< gist takoikatakotako d0b8b4318c58872868bcf1b521ad7455 >}}

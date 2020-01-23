@@ -25,4 +25,4 @@ UISlider で値を取得するサンプルコードです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 07199c16047be78181bfdeb4394c5467 >}}
+{{< gist takoikatakotako 07199c16047be78181bfdeb4394c5467 >}}

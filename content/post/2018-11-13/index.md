@@ -30,4 +30,4 @@ BottomNavigationのタブを選択するとFragmentが切り替わるサンプ�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 151f02bb6cc7cac4943776356ed916ce >}}
+{{< gist takoikatakotako 151f02bb6cc7cac4943776356ed916ce >}}

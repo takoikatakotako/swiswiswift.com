@@ -42,4 +42,4 @@ UITextField、生成し、ボタンが押されるとUITextFieldから文字列�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei d3e668838373df7c0698a18efd512edf >}}
+{{< gist takoikatakotako d3e668838373df7c0698a18efd512edf >}}

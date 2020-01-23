@@ -24,4 +24,4 @@ SwiftUI でアラートを表示する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei d503ff879dda8f8faabdeb2804b1b7f7 >}}
+{{< gist takoikatakotako d503ff879dda8f8faabdeb2804b1b7f7 >}}

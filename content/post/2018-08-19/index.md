@@ -28,4 +28,4 @@ react-native: 0.56.0
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 0446de50e5c393732da448823cf7ffab >}}
+{{< gist takoikatakotako 0446de50e5c393732da448823cf7ffab >}}

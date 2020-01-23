@@ -26,4 +26,4 @@ SwiftUIでリストを編集する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 48a64f8cedca3045b1132d4364a027ee >}}
+{{< gist takoikatakotako 48a64f8cedca3045b1132d4364a027ee >}}

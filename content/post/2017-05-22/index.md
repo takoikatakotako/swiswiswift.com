@@ -23,4 +23,4 @@ Androidアプリのアクションバーの影を消します。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 92f75bbc6d6a5cb70ce2bfda4dcd6aec >}}
+{{< gist takoikatakotako 92f75bbc6d6a5cb70ce2bfda4dcd6aec >}}

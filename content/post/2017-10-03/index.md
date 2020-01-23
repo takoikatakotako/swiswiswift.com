@@ -25,4 +25,4 @@ UICollectionViewにCustumCollectionセルを追加してみました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 4c7bf79f0fc1221708eca1fef26ba5e9 >}}
+{{< gist takoikatakotako 4c7bf79f0fc1221708eca1fef26ba5e9 >}}

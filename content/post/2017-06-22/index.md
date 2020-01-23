@@ -23,4 +23,4 @@ Kotlinで現在時刻の取得を行います。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 5252b4fc7f3d75ab2db380709e320899 >}}
+{{< gist takoikatakotako 5252b4fc7f3d75ab2db380709e320899 >}}

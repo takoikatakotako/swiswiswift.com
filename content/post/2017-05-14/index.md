@@ -34,4 +34,4 @@ UserNotificationの仕様として、使用するオリジナル通知音に不�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 7e6d540d473d228cece71ee522e8866d >}}
+{{< gist takoikatakotako 7e6d540d473d228cece71ee522e8866d >}}

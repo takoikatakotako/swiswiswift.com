@@ -23,4 +23,4 @@ FizzBuzzをRubyで解いてみました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 08ecaa1c16ccb1c67603755e2d973dc9 >}}
+{{< gist takoikatakotako 08ecaa1c16ccb1c67603755e2d973dc9 >}}

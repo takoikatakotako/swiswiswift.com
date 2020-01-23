@@ -39,4 +39,4 @@ UITableView
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 607e450bfa88b7451e08fe7211a433dd >}}
+{{< gist takoikatakotako 607e450bfa88b7451e08fe7211a433dd >}}

@@ -23,4 +23,4 @@ Java での文字列のシャッフル方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei aea0cc327c75c2539b0305ca658711b2 >}}
+{{< gist takoikatakotako aea0cc327c75c2539b0305ca658711b2 >}}

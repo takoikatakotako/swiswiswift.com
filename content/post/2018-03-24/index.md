@@ -24,4 +24,4 @@ HelloWorldとJsonでの出力とgetの受け取りです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei fb0806d6a15c4dd50a21b8348684bfe7 >}}
+{{< gist takoikatakotako fb0806d6a15c4dd50a21b8348684bfe7 >}}

@@ -26,4 +26,4 @@ SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパ�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei f464fc7f9a01303fef01895ef66e1346 >}}
+{{< gist takoikatakotako f464fc7f9a01303fef01895ef66e1346 >}}

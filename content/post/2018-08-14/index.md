@@ -23,7 +23,7 @@ react-native: 0.56.0
 
 ![alt](1.png)
 
-{{< gist O-Junpei 5c354c0c3a43a8301d0b8be917df1bdb >}}
+{{< gist takoikatakotako 5c354c0c3a43a8301d0b8be917df1bdb >}}
 
 
 横にするには
@@ -37,4 +37,4 @@ flexDirection: 'row'と設定します。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei eb271346f86ded62ebd6afe365197638 >}}
+{{< gist takoikatakotako eb271346f86ded62ebd6afe365197638 >}}

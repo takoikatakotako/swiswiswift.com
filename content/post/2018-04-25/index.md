@@ -31,4 +31,4 @@ func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEdi
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 8b7bb753b5230c2cf44b719c4e072cbe >}}
+{{< gist takoikatakotako 8b7bb753b5230c2cf44b719c4e072cbe >}}

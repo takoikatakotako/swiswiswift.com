@@ -41,4 +41,4 @@ DS1307RTCライブラリ
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei c5016cb12a9c643cb5ba06897e4e23db >}}
+{{< gist takoikatakotako c5016cb12a9c643cb5ba06897e4e23db >}}

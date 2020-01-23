@@ -33,4 +33,4 @@ This is a sample code that generates a QR code from a character string or URL.
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 00a5990bd7bc5059899602963310ae54 >}}
+{{< gist takoikatakotako 00a5990bd7bc5059899602963310ae54 >}}

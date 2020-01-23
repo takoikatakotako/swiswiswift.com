@@ -27,4 +27,4 @@ UIPickerView のような複数業の Picker を作成する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 86c1d0aa657687aa855869871e0fb387 >}}
+{{< gist takoikatakotako 86c1d0aa657687aa855869871e0fb387 >}}

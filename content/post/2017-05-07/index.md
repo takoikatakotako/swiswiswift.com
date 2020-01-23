@@ -37,7 +37,7 @@ UITableView
 
 ![alt](1.png)
 
-{{< gist O-Junpei 03d842a3c371bdf7030ec6a7d0537e47 >}}
+{{< gist takoikatakotako 03d842a3c371bdf7030ec6a7d0537e47 >}}
 
 
 
@@ -51,4 +51,4 @@ UITableView
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 3be7c007819dc477010b443850fa47eb >}}
+{{< gist takoikatakotako 3be7c007819dc477010b443850fa47eb >}}

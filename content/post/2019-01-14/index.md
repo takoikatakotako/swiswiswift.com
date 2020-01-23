@@ -28,4 +28,4 @@ CentOS7にRailsをインストールした時のメモになります。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 31555f2ec47b530ccc727cfe59a731f3 >}}
+{{< gist takoikatakotako 31555f2ec47b530ccc727cfe59a731f3 >}}

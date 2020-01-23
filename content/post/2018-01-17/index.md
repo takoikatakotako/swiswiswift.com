@@ -30,4 +30,4 @@ UserDefaultsはアプリを落としても保持しておきたいデータを�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 07f2b6d016680c1fa4a5c917ebcfd834 >}}
+{{< gist takoikatakotako 07f2b6d016680c1fa4a5c917ebcfd834 >}}

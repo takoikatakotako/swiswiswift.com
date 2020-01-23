@@ -25,4 +25,4 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 8c8de5429f79441a3f2d7461e77f2c26 >}}
+{{< gist takoikatakotako 8c8de5429f79441a3f2d7461e77f2c26 >}}

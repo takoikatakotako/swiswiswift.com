@@ -23,4 +23,4 @@ JavaScriptのWebテスト用のカンペです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 25efb5ea45f7d6037992e2a6c425f014 >}}
+{{< gist takoikatakotako 25efb5ea45f7d6037992e2a6c425f014 >}}

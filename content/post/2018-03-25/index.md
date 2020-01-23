@@ -25,4 +25,4 @@ Arduinoでボタンを使うときのサンプルコードです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei e1c9239f729164445dcd8c54169cc0b2 >}}
+{{< gist takoikatakotako e1c9239f729164445dcd8c54169cc0b2 >}}

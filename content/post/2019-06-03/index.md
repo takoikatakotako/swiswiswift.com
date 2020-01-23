@@ -20,7 +20,7 @@ UIButton を使ってボタンを表示するサンプルコードです。
 
 <br>
 
-{{< gist O-Junpei 64f95b476583d978860cd9325cf06ee7 >}}
+{{< gist takoikatakotako 64f95b476583d978860cd9325cf06ee7 >}}
 
 <br>
 

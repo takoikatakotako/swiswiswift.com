@@ -26,4 +26,4 @@ UIAlertControllerを使ってアラートを出すサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 5aafbf16e920a90e3f5eb275b1d45143 >}}
+{{< gist takoikatakotako 5aafbf16e920a90e3f5eb275b1d45143 >}}

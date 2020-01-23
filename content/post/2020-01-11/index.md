@@ -25,4 +25,4 @@ SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei c9d351da76b084b1cc98f39dbfdeaf14 >}}
+{{< gist takoikatakotako c9d351da76b084b1cc98f39dbfdeaf14 >}}

@@ -24,4 +24,4 @@ SwiftUIでリストのセルをタップするとアラートが表示される�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei eff40f3f1c4192b2cb569ad262bd716b >}}
+{{< gist takoikatakotako eff40f3f1c4192b2cb569ad262bd716b >}}

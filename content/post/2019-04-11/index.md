@@ -30,4 +30,4 @@ Swift でUITest を行うサンプルコードです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 5aba51305d74c009a2c878897837e006 >}}
+{{< gist takoikatakotako 5aba51305d74c009a2c878897837e006 >}}

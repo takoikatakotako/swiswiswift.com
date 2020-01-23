@@ -26,4 +26,4 @@ swiftの有名な通信ライブラリである [Alamofire](https://github.com/A
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei eea7676aff57850aefb01cdbf2b6c05e >}}
+{{< gist takoikatakotako eea7676aff57850aefb01cdbf2b6c05e >}}

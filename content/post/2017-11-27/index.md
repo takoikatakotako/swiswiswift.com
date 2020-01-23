@@ -31,4 +31,4 @@ Swift2->4の変換は大変でした。。。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei a5b09b2b640174eb27c8c8d6e4e0520c >}}
+{{< gist takoikatakotako a5b09b2b640174eb27c8c8d6e4e0520c >}}

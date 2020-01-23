@@ -29,4 +29,4 @@ NavigationControllerを実装する
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 331bff0474d8ab8dddb03d6845254c1f >}}
+{{< gist takoikatakotako 331bff0474d8ab8dddb03d6845254c1f >}}

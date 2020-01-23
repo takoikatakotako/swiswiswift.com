@@ -31,4 +31,4 @@ AppleDeveloperDocuments
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei bd932336d3a114791f193561e319c964 >}}
+{{< gist takoikatakotako bd932336d3a114791f193561e319c964 >}}

@@ -18,7 +18,7 @@ aliases = ["migrate-from-jekyl"]
 Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。
 
 ```
-<script src="https://gist.github.com/O-Junpei/5aba51305d74c009a2c878897837e006.js"></script>
+<script src="https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js"></script>
 ```
 
 以下のように書き換えることで動作しました。

@@ -43,4 +43,4 @@ $ curl http://localhost:8000/list.php
 $ curl http://localhost:8000/deleate.php
 {{< /highlight >}}
 
-{{< gist O-Junpei 75bce07d6d7600a0b09b947bd45332ed >}}
+{{< gist takoikatakotako 75bce07d6d7600a0b09b947bd45332ed >}}

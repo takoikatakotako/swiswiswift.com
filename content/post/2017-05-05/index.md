@@ -43,4 +43,4 @@ UIButton例文
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 15221bd007f80b56b22097dab5e11576 >}}
+{{< gist takoikatakotako 15221bd007f80b56b22097dab5e11576 >}}

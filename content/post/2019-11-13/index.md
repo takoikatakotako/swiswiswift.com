@@ -25,4 +25,4 @@ SwiftUI でList を表示する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei c6974ac57164966da13dc9aa579ea94a >}}
+{{< gist takoikatakotako c6974ac57164966da13dc9aa579ea94a >}}

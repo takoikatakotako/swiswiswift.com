@@ -25,4 +25,4 @@ SwiftyJsonなどを使うともっと良い感じにかけますが、今回は�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei ecaedddc237f4283a845f3e2df038f10 >}}
+{{< gist takoikatakotako ecaedddc237f4283a845f3e2df038f10 >}}

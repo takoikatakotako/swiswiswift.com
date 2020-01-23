@@ -22,7 +22,7 @@ aliases = ["migrate-from-jekyl"]
 Swiftの配列です。配列の作成と呼び出しについて記載します。
 
 
-{{< gist O-Junpei c969fea9788ad017d62418b8497550fa >}}
+{{< gist takoikatakotako c969fea9788ad017d62418b8497550fa >}}
 
 配列の追加、挿入、削除
 
@@ -34,4 +34,4 @@ Swiftの配列です。配列の作成と呼び出しについて記載します
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei a5640c496eab83a2c4cf7a1f8cad7e6a >}}
+{{< gist takoikatakotako a5640c496eab83a2c4cf7a1f8cad7e6a >}}

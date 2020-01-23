@@ -23,4 +23,4 @@ Swiftで音楽を簡単に再生するサンプルコードです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 3a0e0e810cc3af5c4ed575ce4f4611c5 >}}
+{{< gist takoikatakotako 3a0e0e810cc3af5c4ed575ce4f4611c5 >}}

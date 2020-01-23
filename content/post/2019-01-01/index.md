@@ -27,4 +27,4 @@ Array
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei f4c247c1880ba8be45d2a9d9320558a3 >}}
+{{< gist takoikatakotako f4c247c1880ba8be45d2a9d9320558a3 >}}

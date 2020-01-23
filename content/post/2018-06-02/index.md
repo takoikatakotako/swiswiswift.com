@@ -28,4 +28,4 @@ UITabBarControllerのアイコンは30×30の透過pngです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei da57dafc4acc822278193fcbead12a63 >}}
+{{< gist takoikatakotako da57dafc4acc822278193fcbead12a63 >}}

@@ -32,4 +32,4 @@ ATS の設定も必要なのでお忘れなく。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 06cdf4d745608b624a9a79bb7770c10e >}}
+{{< gist takoikatakotako 06cdf4d745608b624a9a79bb7770c10e >}}

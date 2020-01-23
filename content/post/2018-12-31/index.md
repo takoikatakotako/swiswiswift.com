@@ -25,4 +25,4 @@ print文を使うことでコンソールに配列の中身や文字列などの
 {{< amazon-ads >}}
 
 
-{{< gist O-Junpei 32a5878d69ff5389dc23a3875493e393 >}}
+{{< gist takoikatakotako 32a5878d69ff5389dc23a3875493e393 >}}

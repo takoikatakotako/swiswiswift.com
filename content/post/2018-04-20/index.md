@@ -39,4 +39,4 @@ Calendar.currentで取得すると、設定によっては和暦(平成〇〇年
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 9f029788e0b3ea4985719a87d657614b >}}
+{{< gist takoikatakotako 9f029788e0b3ea4985719a87d657614b >}}

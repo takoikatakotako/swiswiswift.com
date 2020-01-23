@@ -24,4 +24,4 @@ html, css, javascriptのミニマムなテンプレートです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 711193c2c6cabd33837b01a60981f1a6 >}}
+{{< gist takoikatakotako 711193c2c6cabd33837b01a60981f1a6 >}}

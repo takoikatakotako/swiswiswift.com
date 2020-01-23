@@ -20,7 +20,7 @@ TableView のセルの高さを変更する方法です。
 一括で帰るときは .rowHeight を使い、個別に変えたいときは　heightForRowAt　を使うと実現できました。
 
 サンプルコードはこちら。  
-[https://github.com/O-Junpei/swiswiswift-ios](https://github.com/O-Junpei/swiswiswift-ios)
+[https://github.com/takoikatakotako/swiswiswift-ios](https://github.com/takoikatakotako/swiswiswift-ios)
 
 
 ![alt](1.png)
@@ -34,4 +34,4 @@ TableView のセルの高さを変更する方法です。
 
 <br>
 
-{{< gist O-Junpei 52393a8847f0c50a4ef6a8253aabd61d >}}
+{{< gist takoikatakotako 52393a8847f0c50a4ef6a8253aabd61d >}}

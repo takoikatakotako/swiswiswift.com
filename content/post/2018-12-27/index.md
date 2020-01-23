@@ -29,4 +29,4 @@ iOSでよくあるマイクロインタラクションです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 0bb81efba8da296691caf4bd3d378cf8 >}}
+{{< gist takoikatakotako 0bb81efba8da296691caf4bd3d378cf8 >}}

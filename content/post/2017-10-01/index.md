@@ -32,4 +32,4 @@ ArduinoでSDカードにデータを保存する
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei 93b08af9a39e3a70521a5d02fcdd38ca >}}
+{{< gist takoikatakotako 93b08af9a39e3a70521a5d02fcdd38ca >}}

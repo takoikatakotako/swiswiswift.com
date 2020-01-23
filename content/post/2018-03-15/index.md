@@ -26,4 +26,4 @@ NavigationContorollerは横にニュッと動いて画面遷移をします。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist O-Junpei a73f1f37099eb82faa0932396d54cdd0 >}}
+{{< gist takoikatakotako a73f1f37099eb82faa0932396d54cdd0 >}}
