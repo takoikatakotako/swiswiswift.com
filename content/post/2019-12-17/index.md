@@ -14,7 +14,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 SwiftUIでリストを編集する方法です。
+UITableView よりも短いコードで書くことができました。
 
 ![ListCellEdit](1.gif)
 

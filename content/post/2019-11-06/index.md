@@ -14,19 +14,20 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 curl コマンドで iOS端末にプッシュ通知を送信する方法です。
-
-<!-- Google Ads -->
-{{< google-ads >}}
-
-<!-- Amazon Ads -->
-{{< amazon-ads >}}
 
 証明書と秘密鍵の両方を含めたpemファイルを作成します。
 
 {{< highlight html >}}
 $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem
 {{< /highlight >}}
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
 
 `curl` コマンドでプッシュ通知を送信します。  
 プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。  

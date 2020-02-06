@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 パスワードをリセットする事で、アカウントのロックが解除されました。
 
 [https://br-campus.jp/password/reset](https://br-campus.jp/password/reset)

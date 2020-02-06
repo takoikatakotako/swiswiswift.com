@@ -16,10 +16,12 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 SwiftUI で Picker を表示するサンプルです。
+複数行の場合はこちらです。 [SwiftUIで複数行のPickerを作成する](/2020-01-14/)
 
 ![Picker Sample](1.gif)
 
-参考: [Is there a way to call a function when a SwiftUI Picker selection changes?](https://stackoverflow.com/questions/58676483/is-there-a-way-to-call-a-function-when-a-swiftui-picker-selection-changes)
+参考: [Is there a way to call a function when a SwiftUI Picker selection changes?](https://stackoverflow.com/questions/58676483/is-there-a-way-to-call-a-function-when-a-swiftui-picker-selection-changes)  
+
 
 <!-- Google Ads -->
 {{< google-ads >}}

@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 [お天気Webサービス（Livedoor Weather Web Service）](http://weather.livedoor.com/weather_hacks/webservice) の API を Alamofire から叩き、帰ってきた JSON を struct にパースする方法です。
 
 <!-- Google Ads -->

@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 .p12 ファイルから証明書と秘密鍵を取り出す方法です。  
 AWS SNS を Terraform で書くときに必要でした。  
 

@@ -16,6 +16,8 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 FizzBuzzをCで解きました。
+いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。
+
 
 <!-- Google Ads -->
 {{< google-ads >}}

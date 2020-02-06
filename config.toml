@@ -19,7 +19,7 @@ footnoteReturnLinkContents = "^"
 disqusShortname = ""
 googleAnalytics = "UA-82467612-2"
 
-summaryLength=150
+summaryLength=50
 
 canonifyurls = true
 

@@ -14,8 +14,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-SwiftUI でList を表示する方法です。
 
+SwiftUI でList を表示する方法です。
+画面遷移後の画面なので、NavigationBar がいます。
 
 ![SwiftUI List](1.png)
 

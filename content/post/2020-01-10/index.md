@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 Swiftで数字が連番になった配列を作成する方法です。
+なかなか書き方を覚えられません。
 
 <!-- Google Ads -->
 {{< google-ads >}}

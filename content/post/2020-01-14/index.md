@@ -15,7 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIPickerView のような複数業の Picker を作成する方法です。
+UIPickerView のような複数行の Picker を作成する方法です。
+UIPickerView と使い勝手がかなり異なり、戸惑いました。
 
 ![Multi-Component Picker Sample](1.gif)
 

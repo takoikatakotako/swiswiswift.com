@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 Java での文字列のシャッフル方法です。  
 結構面倒だったので、記事にしました。
 

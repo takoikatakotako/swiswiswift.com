@@ -16,6 +16,8 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 JavaScriptのWebテスト用のカンペです。
+ブラウザがあればできるところが好きです。
+ただ、慣れていないので競技プログラミングをしにくい。。。
 
 <!-- Google Ads -->
 {{< google-ads >}}

@@ -14,7 +14,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-SwiftUIでリストのセルをタップするとアラートが表示される方法です。
+
+SwiftUI でリストのセルをタップするとアラートが表示される方法です。
+まだまだ SwiftUI に慣れません。
 
 ![ListCellEdit](1.gif)
 

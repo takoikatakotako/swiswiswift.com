@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。  
 SwiftyJsonなどを使うともっと良い感じにかけますが、今回は使わないで書いてみました。
 

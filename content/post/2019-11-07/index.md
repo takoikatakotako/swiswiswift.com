@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。  
 `signup.php` でユーザー登録を行い、`list.php` でユーザーの一覧を表示し、`deleate.php` でユーザーを全て削除します。
 

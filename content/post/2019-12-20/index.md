@@ -14,7 +14,11 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 SwiftUI でアラートを表示する方法です。
+UIAlertController とはかなり書き方が異なります。
+`Property Wrapper` の `@State` がまだ慣れません。
+
 
 ![ShowAlert](1.gif)
 

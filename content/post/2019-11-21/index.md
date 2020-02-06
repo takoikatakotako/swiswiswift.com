@@ -14,7 +14,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 TabViewを使って画面を切り替えるサンプルです。
+かなり簡単に書くことができますね。
 
 [TabView - SwiftUI | Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/tabview)
 

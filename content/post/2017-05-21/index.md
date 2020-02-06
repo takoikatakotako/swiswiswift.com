@@ -15,7 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Androidアプリのステータスバーの変更
+Androidアプリのステータスバーの変更方法です。
+色を直指定するのは良くないです、Color.xml に書きましょう。
 
 <!-- Google Ads -->
 {{< google-ads >}}

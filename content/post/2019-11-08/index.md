@@ -14,13 +14,8 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 インフラの勉強をし始めて分からなくて調べた単語をまとめました。
-
-<!-- Google Ads -->
-{{< google-ads >}}
-
-<!-- Amazon Ads -->
-{{< amazon-ads >}}
 
 
 ### コンソリデーティッドビリング（Consolidated Billing）
@@ -69,6 +64,15 @@ IAM ユーザーを IAM グループにまとめ、そのグループにポリ�
 
 ### カナリアデプロイ（Canary Deployment）
 稼働中サーバーの一部だけに新しアプリケーションをデプロイ、リリースする方法。 特定のユーザーだけに新しいアプリケーションを利用してもらうことで新サービスの検証が可能。 デプロイする方法は問わず、デプロイ先の数だけに注目したデプロイ方法。
+
+
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 
 ## 参考
 [AWS ドキュメント](https://docs.aws.amazon.com/)  

@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。
+delegate を使ったのですが、Combine で書いた方がよいかもしれません。
 
 ![Delegate Sample](1.gif)
 

@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。  
 もっと良い方法がある気がします。。。
 

@@ -15,6 +15,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。
 
 ![alt](1.gif)

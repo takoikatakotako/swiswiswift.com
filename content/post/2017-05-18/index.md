@@ -15,7 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Webテスト用のカンペ
+Webテスト用のカンペです。
+就活してるとWebテストで競技プログラミングがよく出てくるので、まとめてみました。
+
 
 <!-- Google Ads -->
 {{< google-ads >}}

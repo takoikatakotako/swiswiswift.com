@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。
 SwiftUI でも活躍していますね。
 
