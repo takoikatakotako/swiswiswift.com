@@ -17,7 +17,7 @@
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-25/</guid>
-      <description>Arduinoでボタンを使うときのサンプルコードです。 あんまり知られていないんですが、プルアップを使うとプルアップ抵抗が無しで簡単にボタンを使うことができるんですよ。 グラウンドとDegitalの2番ポートを繋げると(ボタンを押すと)そのことを認識できます。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category</description>
+      <description>Arduinoでボタンを使うときのサンプルコードです。 あんまり知られていないんですが、プルアップを使</description>
     </item>
     
   </channel>

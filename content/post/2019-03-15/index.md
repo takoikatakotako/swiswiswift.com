@@ -17,6 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 Java での文字列のシャッフル方法です。  
 結構面倒だったので、記事にしました。
+`.suffld` みたいなのが欲しいです。
 
 <!-- Google Ads -->
 {{< google-ads >}}

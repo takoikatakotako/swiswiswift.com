@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 ListViewを使ってリストの表示を行います。
+Kotlin 、Android は設定ファイルが多くて難しいです。
 
 
 ![alt](1.gif)

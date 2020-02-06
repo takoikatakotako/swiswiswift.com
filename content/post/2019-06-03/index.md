@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 UIButton を使ってボタンを表示するサンプルコードです。
+角丸ボタンはよく使います。
 
 ![alt](1.png)
 

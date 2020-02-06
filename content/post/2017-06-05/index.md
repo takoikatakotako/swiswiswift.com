@@ -16,6 +16,8 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 Swiftで音楽を簡単に再生するサンプルコードです。
+リピート再生も簡単にできました。
+サンプルコードにはないですが、ちゃんとエラーハンドリングしましょう。
 
 <!-- Google Ads -->
 {{< google-ads >}}

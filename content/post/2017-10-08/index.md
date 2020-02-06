@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 UITableViewにヘッダーを設定するサンプルです。  
+フッターも同様に設定することができます。
 
 <!-- Google Ads -->
 {{< google-ads >}}

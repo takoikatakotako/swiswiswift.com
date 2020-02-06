@@ -17,7 +17,7 @@
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-14/</guid>
-      <description>ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#include DS1307RTC.h を一番上に持ってくることで解決しました。 サンプルコードのReadTestのESP32バージョンになります。 使用ライブラリと機材は以下の通りです。 DS1307RTCライブラリ github.com/PaulStoffregen/DS1307RTC ESPr® Developer 32</description>
+      <description>ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#in</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-01/</guid>
-      <description>ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシンプルなサンプルコードがネットにあまりな無かったので描いてみました。 SDカードとESPとの配線はこちらのサイトを参考にしました。 mgo-tec電子工作 いろいろ調べたのですが、プルアップ抵抗はあった方が良</description>
+      <description>ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシン</description>
     </item>
     
   </channel>

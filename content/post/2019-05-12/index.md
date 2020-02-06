@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 CallKit を使うことで着信時のUIを使うことができます。
+電話がかかってくるアプリを作る時に使いました。
 
 ![alt](1.jpg)
 ![alt](2.png)

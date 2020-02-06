@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-グラフ中で右クリック -> Colors -> both background -> 白色を選択
-
-これでできました。
+グラフ中で右クリック -> Colors -> both background -> 白色を選択　でできました。
+データの解析にすごい便利ですが、先輩のマクロを読むのは辛いです。。。
 
 
 <!-- Google Ads -->

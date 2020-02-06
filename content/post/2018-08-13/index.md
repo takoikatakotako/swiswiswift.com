@@ -16,7 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 ReactNativeでFlatListを表示するサンプルです。  
-react-native: 0.56.0  
+react-native: 0.56.0  で動作を確認しました。
 
 ![alt](1.png)
 

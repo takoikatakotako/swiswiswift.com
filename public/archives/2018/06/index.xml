@@ -17,7 +17,7 @@
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-28/</guid>
-      <description>私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きました。 アプリのアイコン画像がViewの背景を流れます。 またviewDidLoadにアニメーション関係のメソッドを書くと、NavigationBarの遷移によりアニメーションが止まってしまうことがありま</description>
+      <description>私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きま</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-21/</guid>
-      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプル</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-19/</guid>
-      <description>コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装するのが好きですが、何がベストなのでしょうか。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description>コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装する</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-03/</guid>
-      <description>UITabBarControllerにUINavigationControllerを入れるコードです。 UITabBarControllerにUINavigationBarControllerを入れて実装しています。 UITabBarControllerの実装はこちら。 NavigationControl</description>
+      <description>UITabBarControllerにUINavigationControllerを入れるコードです</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-06-02/</guid>
-      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBarControllerのアイコンは30×30の透過pngです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBar</description>
     </item>
     
   </channel>

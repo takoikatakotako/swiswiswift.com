@@ -15,7 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Kotlinで現在時刻の取得を行います。
+Kotlin で現在時刻の取得を行います。
+アラーム機能を持ったアプリを作っています。
+このあたりは Swift と異なりますね。
 
 <!-- Google Ads -->
 {{< google-ads >}}

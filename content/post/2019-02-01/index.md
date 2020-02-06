@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
+
 RootViewController をアニメーション付きで切り替えるサンプルコードです。  
 チュートリアルの後とかでの使用を想定しています。
 

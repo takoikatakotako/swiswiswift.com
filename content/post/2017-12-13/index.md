@@ -16,7 +16,8 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 Timeを使って3秒ごとに繰り返しを行います。  
-Repeat functions every 3 seconds  
+時計のような機能を持つアプリを作る時に使いました。
+
 
 <!-- Google Ads -->
 {{< google-ads >}}
