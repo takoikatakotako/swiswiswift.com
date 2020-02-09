@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firebase on すいすいSwift</title>
+    <link>https://swiswiswift.com/tags/firebase/</link>
+    <description>Recent content in Firebase on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SwiftUIでFirestoreの画像を表示する</title>
+      <link>https://swiswiswift.com/2020-02-08/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-08/</guid>
+      <description>SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができませ</description>
+    </item>
+    
+  </channel>
+</rss>
