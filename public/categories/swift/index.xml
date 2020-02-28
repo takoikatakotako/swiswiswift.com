@@ -6,10 +6,73 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する</title>
+      <link>https://swiswiswift.com/2020-02-20/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-20/</guid>
+      <description>SwiftUIでサイドメニュー（ハンバーガーメニュー）を表示するサンプルです。 ドラッグで消す箇所など</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのListのSectionの色を変える</title>
+      <link>https://swiswiswift.com/2020-02-19/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-19/</guid>
+      <description>SwiftUIのListのSectionの色を変えるサンプルです。 Appearanceを使って背景色</description>
+    </item>
+    
+    <item>
+      <title>タップでセクション区切りのListViewにチェックを入れる</title>
+      <link>https://swiswiswift.com/2020-02-18/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-18/</guid>
+      <description>タップでセクション区切りのListViewにチェックを入れるサンプルです。 タップすることで State が変化し</description>
+    </item>
+    
+    <item>
+      <title>タップでListViewにチェックを入れる</title>
+      <link>https://swiswiswift.com/2020-02-17/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-17/</guid>
+      <description>タップで ListView にチェックを入れるサンプルです。 タップすることで State が変化し、✔︎を描画するようになります。</description>
+    </item>
+    
+    <item>
+      <title>SwiftでCSVを集計する</title>
+      <link>https://swiswiswift.com/2020-02-16/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-16/</guid>
+      <description>Swift で CSV を集計する方法です。 まず前処理として、CSV ファイルを utf8 に変換する必要があります。 Mac の場合は Numbers</description>
+    </item>
+    
+    <item>
+      <title>UIViewの背景をグリッドにしたり、ドットにしたりする</title>
+      <link>https://swiswiswift.com/2020-02-14/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-14/</guid>
+      <description>UIView の背景をグリッドにしたり、ドットにしたりする方法です。 今回は GridView という UIView のサブクラスを作り、ボタンを</description>
+    </item>
+    
+    <item>
+      <title>ReplayKitを使って画面を録音する</title>
+      <link>https://swiswiswift.com/2020-02-12/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-12/</guid>
+      <description>ReplayKit を使うと画面を録画することができます。 凄く簡単に使うことができる上に、マイクで実況？をしたりするこ</description>
+    </item>
     
     <item>
       <title>SwiftUIでUICollectionViewのようにViewを並べる</title>

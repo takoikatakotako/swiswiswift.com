@@ -1,7 +1,7 @@
 +++
 title =  "タップでListViewにチェックを入れる"
-url = "2020-02-16"
-date = "2020-02-16"
+url = "2020-02-17"
+date = "2020-02-17"
 description = "タップでListViewにチェックを入れる"
 tags = [
     "Swift"
@@ -18,7 +18,7 @@ aliases = ["migrate-from-jekyl"]
 タップで ListView にチェックを入れるサンプルです。
 タップすることで State が変化し、✔︎を描画するようになります。
 
-![CheckList](1.png)
+![CheckList](1.gif)
 
 
 <!-- Google Ads -->
@@ -27,4 +27,4 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako cfeac64f22dc5144c6211b2b418c07ee >}}
+{{< gist takoikatakotako 6c866c82182e8643ada3774c4a18b9a2 >}}
