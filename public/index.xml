@@ -6,10 +6,46 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIで下からPickerを出す</title>
+      <link>https://swiswiswift.com/2020-02-26/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-26/</guid>
+      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでUIImagePickerControllerを使う</title>
+      <link>https://swiswiswift.com/2020-02-25/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-25/</guid>
+      <description>SwiftUIでSwiftUIでUIImagePickerControllerを使う方法です。 UIKit と同</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでButton内の画像の色を変えない</title>
+      <link>https://swiswiswift.com/2020-02-24/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-24/</guid>
+      <description>SwiftUIでButton内の画像の色を変えない方法です。 デフォルトのままだと以下の画像のように色</description>
+    </item>
+    
+    <item>
+      <title>iOS13のModalPresentationStyleを全部試してみた</title>
+      <link>https://swiswiswift.com/2020-02-23/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-23/</guid>
+      <description>iOS13のModalPresentationStyleを全部試してみました。 PopPage モーダルのことを弊社</description>
+    </item>
     
     <item>
       <title>Swiftで動画の終了を検知する</title>
