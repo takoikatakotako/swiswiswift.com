@@ -6,10 +6,46 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでListの要素を削除した入り増やしたりする</title>
+      <link>https://swiswiswift.com/2020-03-01/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-03-01/</guid>
+      <description>SwiftUIでListの要素を削除した入り増やしたりする方法です。 Closure で渡すのはあまりよくない気がし</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでキーボードをボタンで隠す</title>
+      <link>https://swiswiswift.com/2020-02-29/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-29/</guid>
+      <description>SwiftUIでキーボードをボタンで隠す方法です。 UIApplicationを拡張して実現しています</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでKeyboardの高さや出現を検知する</title>
+      <link>https://swiswiswift.com/2020-02-28/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-28/</guid>
+      <description>SwiftUIでKeyboardの高さや出現を検知する方法です。 Combineを使って実現しています</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで複数行の文字列を入力する</title>
+      <link>https://swiswiswift.com/2020-02-27/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-27/</guid>
+      <description>SwiftUIで複数行の文字列を入力する方法です。 UIKitのTextViewを使って実現しています</description>
+    </item>
     
     <item>
       <title>SwiftUIで下からPickerを出す</title>
