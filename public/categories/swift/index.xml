@@ -6,10 +6,37 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftでPDFを作成する</title>
+      <link>https://swiswiswift.com/2020-04-03/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-04-03/</guid>
+      <description>Swift で PDF を作成する方法です。 PDFKit で簡単に PDF を作ることができました、素敵ですね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+    </item>
+    
+    <item>
+      <title>UIActivityViewControllerでText, JSON, PDFを共有する</title>
+      <link>https://swiswiswift.com/2020-04-02/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-04-02/</guid>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでWebViewを表示する</title>
+      <link>https://swiswiswift.com/2020-03-27/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-03-27/</guid>
+      <description>SwiftUIでWebViewを表示する方法です。 UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
     
     <item>
       <title>SwiftUIでListの要素を削除した入り増やしたりする</title>
