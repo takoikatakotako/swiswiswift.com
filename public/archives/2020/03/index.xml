@@ -6,10 +6,19 @@
     <description>Recent content in 2020/03 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/archives/2020/03/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでWebViewを表示する</title>
+      <link>https://swiswiswift.com/2020-03-27/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-03-27/</guid>
+      <description>SwiftUIでWebViewを表示する方法です。 UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
     
     <item>
       <title>SwiftUIでListの要素を削除した入り増やしたりする</title>
