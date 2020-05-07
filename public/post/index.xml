@@ -6,10 +6,28 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでNavigationViewのタイトルやテーブルビューの背景を変える</title>
+      <link>https://swiswiswift.com/2020-05-04/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-04/</guid>
+      <description>SwiftUIでNavigationViewのタイトルやテーブルビューの背景を変える方法です。 TableView と UITextView</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI で文字列中にタップ可能なリンクを追加する</title>
+      <link>https://swiswiswift.com/2020-05-03/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-03/</guid>
+      <description>SwiftUI で文字列中にタップ可能なリンクを追加するを作成する方法です。 UIViewRepresentable と UITextView を使って実現しました。 Reference: UITe</description>
+    </item>
     
     <item>
       <title>SwiftでPDFを作成する</title>
