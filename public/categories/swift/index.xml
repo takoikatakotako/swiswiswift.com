@@ -6,10 +6,55 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FunctionBuilderを使ってViewに影をつける</title>
+      <link>https://swiswiswift.com/2020-05-07/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-07/</guid>
+      <description>FunctionBuilderを使ってViewに影をつける方法です。 FunctionBuilderと</description>
+    </item>
+    
+    <item>
+      <title>ViewModifierを使ってViewに影をつける</title>
+      <link>https://swiswiswift.com/2020-05-06/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-06/</guid>
+      <description>ViewModifierを使ってViewに影をつける方法です。 FunctionBuilderとVie</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでフルスクリーンモーダルを表示する</title>
+      <link>https://swiswiswift.com/2020-05-05/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-05/</guid>
+      <description>SwiftUIでフルスクリーンモーダルを表示する方法です。 SwiftにもっとAPI増えて欲しいです。</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでNavigationViewのタイトルやテーブルビューの背景を変える</title>
+      <link>https://swiswiswift.com/2020-05-04/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-04/</guid>
+      <description>SwiftUIでNavigationViewのタイトルやテーブルビューの背景を変える方法です。 TableView と UITextView</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI で文字列中にタップ可能なリンクを追加する</title>
+      <link>https://swiswiswift.com/2020-05-03/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-03/</guid>
+      <description>SwiftUI で文字列中にタップ可能なリンクを追加するを作成する方法です。 UIViewRepresentable と UITextView を使って実現しました。 Reference: UITe</description>
+    </item>
     
     <item>
       <title>SwiftでPDFを作成する</title>
@@ -252,15 +297,6 @@
       
       <guid>https://swiswiswift.com/2020-01-11/</guid>
       <description>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。 delegate を使ったのですが、Combine で書</description>
-    </item>
-    
-    <item>
-      <title>Swiftで数字が連番になった配列を作成する</title>
-      <link>https://swiswiswift.com/2020-01-10/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-01-10/</guid>
-      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;;</description>
     </item>
     
     <item>
