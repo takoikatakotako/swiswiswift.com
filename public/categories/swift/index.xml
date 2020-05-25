@@ -6,10 +6,37 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>シミュレーターのスクリーンショットを影無しで撮影する（ツールバー無しで撮影する）</title>
+      <link>https://swiswiswift.com/2020-05-14/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-14/</guid>
+      <description>シミュレーターのスクリーンショットを影無しで撮影する（ツールバー無しで撮影する）方法です。 command + shift + 4</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでモーダルからフルモーダルを表示する</title>
+      <link>https://swiswiswift.com/2020-05-13/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-13/</guid>
+      <description>SwiftUIでモーダルからフルモーダルを表示する方法です。 以下の記事の改良版？です。 SwiftUI</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでアプリ起動時に画面を遷移させる</title>
+      <link>https://swiswiswift.com/2020-05-12/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-05-12/</guid>
+      <description>SwiftUIでアプリ起動時に画面を遷移させる方法です。 登録の導線で途中離脱したらその途中から再開さ</description>
+    </item>
     
     <item>
       <title>FunctionBuilderを使ってViewに影をつける</title>
