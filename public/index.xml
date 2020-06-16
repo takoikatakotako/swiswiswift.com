@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>XcodeでAtCoderをC&#43;&#43;でやってみる</title>
+      <link>https://swiswiswift.com/2020-06-02/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-02/</guid>
+      <description>XcodeでAtCoderをC++でやってみました。 AppStore から Xcode をインストールし、Create a new Xcode project で</description>
+    </item>
+    
+    <item>
       <title>SwiftUIで閉じることができないモーダルを表示する</title>
       <link>https://swiswiswift.com/2020-06-01/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
