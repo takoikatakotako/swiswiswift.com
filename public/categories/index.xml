@@ -6,7 +6,7 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Swift</title>
       <link>https://swiswiswift.com/categories/swift/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/swift/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>SwiftUI</title>
       <link>https://swiswiswift.com/categories/swiftui/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/swiftui/</guid>
       <description></description>
@@ -89,6 +89,15 @@
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/%E5%B0%B1%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://swiswiswift.com/categories/c/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/c/</guid>
       <description></description>
     </item>
     
@@ -242,15 +251,6 @@
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>https://swiswiswift.com/categories/c/</link>
-      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/c/</guid>
       <description></description>
     </item>
     
