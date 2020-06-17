@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://swiswiswift.com/categories/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/ios/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/ios/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/post/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/swift/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/swift/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2020-06-15/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://swiswiswift.com/tags/atcoder/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
@@ -23,33 +63,8 @@
   </url>
   
   <url>
-    <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://swiswiswift.com/2020-06-02/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/swift/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/swift/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -260,16 +275,6 @@
   <url>
     <loc>https://swiswiswift.com/2019-12-30/</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/ios/</loc>
-    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/ios/</loc>
-    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>

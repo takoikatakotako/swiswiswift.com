@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Swiftで録画開始とスクリーンショットが取られたことを検知する</title>
+      <link>https://swiswiswift.com/2020-06-15/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-15/</guid>
+      <description>Swiftで録画開始とスクリーンショットが取られたことを検知する方法です。 画面録画開始前に captureStatusDidChange を実行さ</description>
+    </item>
+    
+    <item>
       <title>XcodeでAtCoderをC&#43;&#43;でやってみる</title>
       <link>https://swiswiswift.com/2020-06-02/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
