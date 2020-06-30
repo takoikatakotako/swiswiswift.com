@@ -6,10 +6,37 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでUITestを動かす</title>
+      <link>https://swiswiswift.com/2020-06-24/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-24/</guid>
+      <description>SwiftUIでUITestを動かす方法です。 UIKit の時と違って sleep を入れないと良い感じに動かなかったです</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでText中の文字の太さや色を変える</title>
+      <link>https://swiswiswift.com/2020-06-22/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-22/</guid>
+      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで続きを読む。。。ボタンがあるViewを実装する</title>
+      <link>https://swiswiswift.com/2020-06-20/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-20/</guid>
+      <description>SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。 背景を透明色にし、そのサイズ</description>
+    </item>
     
     <item>
       <title>Swiftで録画開始とスクリーンショットが取られたことを検知する</title>
