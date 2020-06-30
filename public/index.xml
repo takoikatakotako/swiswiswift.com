@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>SwiftUIでUITestを動かす</title>
+      <link>https://swiswiswift.com/2020-06-24/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-24/</guid>
+      <description>SwiftUIでUITestを動かす方法です。 UIKit の時と違って sleep を入れないと良い感じに動かなかったです</description>
+    </item>
+    
+    <item>
       <title>SwiftUIでText中の文字の太さや色を変える</title>
       <link>https://swiswiswift.com/2020-06-22/</link>
       <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
