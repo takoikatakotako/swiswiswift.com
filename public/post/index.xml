@@ -6,10 +6,37 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UserDefaults に配列を保存してTableViewに表示する</title>
+      <link>https://swiswiswift.com/2020-06-27/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-27/</guid>
+      <description>UserDefaults に配列を保存してTableViewに表示する方法です。 FirstViewController のボタンを押すと UserDefaults に現在の時刻が文字列とし</description>
+    </item>
+    
+    <item>
+      <title>UINavigationBar, UITabBar の色を変える</title>
+      <link>https://swiswiswift.com/2020-06-26/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-26/</guid>
+      <description>UINavigationBar, UITabBar の色を変える方法です。 エヴァンゲリオンをイメージしたカラーリングです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+    </item>
+    
+    <item>
+      <title>UITabBarControllerにUINavigationControllerを入れ子で実装する</title>
+      <link>https://swiswiswift.com/2020-06-25/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-25/</guid>
+      <description>UITabBarControllerにUINavigationControllerを入れ子で実装する</description>
+    </item>
     
     <item>
       <title>SwiftUIでUITestを動かす</title>
