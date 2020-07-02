@@ -18,8 +18,9 @@ aliases = ["migrate-from-jekyl"]
 UITabBarControllerにUINavigationControllerを入れるコードです。
 UITabBarControllerにUINavigationBarControllerを入れて実装しています。
 
-UITabBarControllerの実装はこちら。
-NavigationControllerを実装する
+新しい記事があります。
+
+[UITabBarControllerにUINavigationControllerを入れ子で実装する](/2020-06-25)
 
 ![alt](1.gif)
 
