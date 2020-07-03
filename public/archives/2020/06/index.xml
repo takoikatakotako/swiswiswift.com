@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>よくあるチュートリアル画面をUIPageViewControllerとSwiftUIで作る</title>
+      <link>https://swiswiswift.com/2020-06-28/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-06-28/</guid>
+      <description>UIPageViewControllerとSwiftUIでよくあるチュートリアル画面を作ります。 画面</description>
+    </item>
+    
+    <item>
       <title>UserDefaults に配列を保存してTableViewに表示する</title>
       <link>https://swiswiswift.com/2020-06-27/</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
