@@ -48,15 +48,6 @@
     </item>
     
     <item>
-      <title>C</title>
-      <link>https://swiswiswift.com/tags/c/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>C&#43;&#43;</title>
       <link>https://swiswiswift.com/tags/c&#43;&#43;/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
@@ -269,6 +260,15 @@
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://swiswiswift.com/tags/c/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/c/</guid>
       <description></description>
     </item>
     
