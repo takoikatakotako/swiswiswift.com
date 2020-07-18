@@ -6,10 +6,28 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iPadでモーダルのサイズを取得する</title>
+      <link>https://swiswiswift.com/2020-07-02/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-07-02/</guid>
+      <description>iPadでモーダルのサイズを取得する方法です。 viewWillLayoutSubviews でモーダルのサイズを取得することができます。 (adsbygoogle = window.adsbygoogle ||</description>
+    </item>
+    
+    <item>
+      <title>削除、セルの移動が可能なUITableViewを作る</title>
+      <link>https://swiswiswift.com/2020-07-01/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-07-01/</guid>
+      <description>削除、セルの移動が可能なUITableViewを作る方法です。 TableViewを使うと簡単に編集可</description>
+    </item>
     
     <item>
       <title>よくあるチュートリアル画面をUIPageViewControllerとSwiftUIで作る</title>
