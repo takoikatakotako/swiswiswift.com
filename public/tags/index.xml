@@ -6,7 +6,7 @@
     <description>Recent content in Tags on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>iOS</title>
       <link>https://swiswiswift.com/tags/ios/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/ios/</guid>
       <description></description>
@@ -23,9 +23,36 @@
     <item>
       <title>Swift</title>
       <link>https://swiswiswift.com/tags/swift/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IntelliJ</title>
+      <link>https://swiswiswift.com/tags/intellij/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/intellij/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://swiswiswift.com/tags/java/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring</title>
+      <link>https://swiswiswift.com/tags/spring/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/spring/</guid>
       <description></description>
     </item>
     
@@ -134,15 +161,6 @@
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://swiswiswift.com/tags/java/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/tags/java/</guid>
       <description></description>
     </item>
     
