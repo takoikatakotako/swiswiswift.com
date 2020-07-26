@@ -20,6 +20,8 @@ UIPickerViewを使って値を取得するサンプルコードです。
 PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。  
 今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。  
 
+新しい記事は [こちら](/2020-07-05/)
+
 AppleDeveloperDocuments  
 [UIPickerView](https://developer.apple.com/documentation/uikit/uipickerview)
 
