@@ -6,10 +6,19 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UIGestureRecognizer でジェスチャーイベントを取得する</title>
+      <link>https://swiswiswift.com/2020-08-01/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-01/</guid>
+      <description>UIGestureRecognizer でジェスチャーイベントを取得する方法です。 UITapGestureRecognizer, UIPinchGestureRecognizer, UILongPressGestureRecognizer, UISwipeGestureRecognizer などを使ってスワイプ、ピンチなどのイベントを取得</description>
+    </item>
     
     <item>
       <title>UIPickerViewを使って値を選択する</title>
