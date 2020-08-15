@@ -6,10 +6,37 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIのPreviewを横向きにする</title>
+      <link>https://swiswiswift.com/2020-08-04/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-04/</guid>
+      <description>SwiftUIのPreviewを横向きにする方法です。 Previewのサイズを変更することで実現しま</description>
+    </item>
+    
+    <item>
+      <title>Buttonからプッシュ遷移をする（NavigationLinkを無効にする）</title>
+      <link>https://swiswiswift.com/2020-08-03/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-03/</guid>
+      <description>Buttonからプッシュ遷移をする方法です。 この方法であれば、NavigationLink を擬似的に</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでNavigationBarを隠す</title>
+      <link>https://swiswiswift.com/2020-08-02/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-02/</guid>
+      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true)を設定すると隠すことができ</description>
+    </item>
     
     <item>
       <title>UIPickerViewを使って値を選択する</title>
