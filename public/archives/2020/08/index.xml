@@ -37,5 +37,14 @@
       <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true)を設定すると隠すことができ</description>
     </item>
     
+    <item>
+      <title>UIGestureRecognizer でジェスチャーイベントを取得する</title>
+      <link>https://swiswiswift.com/2020-08-01/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-01/</guid>
+      <description>UIGestureRecognizer でジェスチャーイベントを取得する方法です。 UITapGestureRecognizer, UIPinchGestureRecognizer, UILongPressGestureRecognizer, UISwipeGestureRecognizer などを使ってスワイプ、ピンチなどのイベントを取得</description>
+    </item>
+    
   </channel>
 </rss>
