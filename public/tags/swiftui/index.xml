@@ -6,10 +6,19 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIのTextFieldで編集中と編集完了を検知する</title>
+      <link>https://swiswiswift.com/2020-08-06/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-06/</guid>
+      <description>SwiftUIのTextFieldで編集中と編集完了を検知する方法です。 UIKit よりも少ないコードで実現で</description>
+    </item>
     
     <item>
       <title>SwiftUIのPreviewを横向きにする</title>
