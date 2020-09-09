@@ -20,7 +20,7 @@ AWS SNS を Terraform で書くときに必要でした。
 
 {{< highlight html >}}
 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem
-$ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem
+$ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.pem
 {{< /highlight >}}
 
 
