@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 Xcodeでコードをフォーマットする方法です。
 command + a でコードを全て選択し、control + i でコードをフォーマットすることができます。
 
-![Format]](1.gif)
+![Format](1.gif)
 
 
 <!-- Google Ads -->

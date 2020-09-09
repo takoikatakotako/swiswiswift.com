@@ -1,8 +1,8 @@
 +++
-title = "CustumTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ"
+title = "CustomTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ"
 url = "2018-04-05"
 date = "2018-04-05"
-description = "CustumTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ"
+description = "CustomTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ"
 tags = [
     "iOS",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使うことができます。  
+CustomTableViewCellを作ると好きなレイアウトのCellをTableViewで使うことができます。  
 そしてTableViewCellのアクセサリービューにはUISwitchやチェックマークなどのアクセサリをつけることができます。  
 今回はその両方を使ったサンプルコードです。  
 
