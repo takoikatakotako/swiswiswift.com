@@ -6,10 +6,28 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Xcodeで行を入れ替える</title>
+      <link>https://swiswiswift.com/2020-08-08/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-08/</guid>
+      <description>Xcodeで行を入れ替える方法です。 command + option + [ でカーソルのある行を上に持ってくることができます。 また</description>
+    </item>
+    
+    <item>
+      <title>Xcodeでコードをフォーマットする</title>
+      <link>https://swiswiswift.com/2020-08-07/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-08-07/</guid>
+      <description>Xcodeでコードをフォーマットする方法です。 command + a でコードを全て選択し、control + i でコード</description>
+    </item>
     
     <item>
       <title>SwiftUIのTextFieldで編集中と編集完了を検知する</title>

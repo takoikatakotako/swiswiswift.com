@@ -6,7 +6,7 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,27 @@
     <item>
       <title>iOS</title>
       <link>https://swiswiswift.com/categories/ios/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/ios/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SwiftUI</title>
-      <link>https://swiswiswift.com/categories/swiftui/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      <title>Swift</title>
+      <link>https://swiswiswift.com/categories/swift/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/categories/swiftui/</guid>
+      <guid>https://swiswiswift.com/categories/swift/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Swift</title>
-      <link>https://swiswiswift.com/categories/swift/</link>
-      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <title>SwiftUI</title>
+      <link>https://swiswiswift.com/categories/swiftui/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/categories/swift/</guid>
+      <guid>https://swiswiswift.com/categories/swiftui/</guid>
       <description></description>
     </item>
     

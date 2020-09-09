@@ -6,7 +6,7 @@
     <description>Recent content in Tags on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,27 @@
     <item>
       <title>iOS</title>
       <link>https://swiswiswift.com/tags/ios/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SwiftUI</title>
-      <link>https://swiswiswift.com/tags/swiftui/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      <title>Swift</title>
+      <link>https://swiswiswift.com/tags/swift/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/swiftui/</guid>
+      <guid>https://swiswiswift.com/tags/swift/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Swift</title>
-      <link>https://swiswiswift.com/tags/swift/</link>
-      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <title>SwiftUI</title>
+      <link>https://swiswiswift.com/tags/swiftui/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/tags/swift/</guid>
+      <guid>https://swiswiswift.com/tags/swiftui/</guid>
       <description></description>
     </item>
     
