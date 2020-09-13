@@ -6,10 +6,19 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SwiftUIでアラートとシートを出し分ける</title>
+      <link>https://swiswiswift.com/2020-09-03/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-03/</guid>
+      <description>SwiftUIでアラートとシートを出し分ける方法です。 TextField に入力された文字列が Double に変換できるかチェック</description>
+    </item>
     
     <item>
       <title>curl で iOSにVoIPプッシュを送る</title>
