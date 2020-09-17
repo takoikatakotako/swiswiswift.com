@@ -6,10 +6,55 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Viewを横に等間隔で横に並べる</title>
+      <link>https://swiswiswift.com/2020-09-08/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-08/</guid>
+      <description>SwiftUIでViewを横に等間隔で横に並べてください。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;;</description>
+    </item>
+    
+    <item>
+      <title>画像を丸く切り取り、枠を付ける</title>
+      <link>https://swiswiswift.com/2020-09-07/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-07/</guid>
+      <description>SwiftUIで画像を丸く切り取り、枠を付ける方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category</description>
+    </item>
+    
+    <item>
+      <title>画像をリサイズして表示（clip）</title>
+      <link>https://swiswiswift.com/2020-09-06/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-06/</guid>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示</description>
+    </item>
+    
+    <item>
+      <title>画像をリサイズして表示（fit）</title>
+      <link>https://swiswiswift.com/2020-09-05/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-05/</guid>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。 (adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>Buttonを押すとTextの文字が変わる</title>
+      <link>https://swiswiswift.com/2020-09-04/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-04/</guid>
+      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var t</description>
+    </item>
     
     <item>
       <title>SwiftUIでアラートとシートを出し分ける</title>
