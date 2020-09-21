@@ -6,10 +6,46 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swiswiswift.com/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
+      <link>https://swiswiswift.com/2020-09-12/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-12/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加す</description>
+    </item>
+    
+    <item>
+      <title>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</title>
+      <link>https://swiswiswift.com/2020-09-12/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-12/</guid>
+      <description>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を</description>
+    </item>
+    
+    <item>
+      <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する（Combine）</title>
+      <link>https://swiswiswift.com/2020-09-10/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-10/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+    </item>
+    
+    <item>
+      <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する（Closure）</title>
+      <link>https://swiswiswift.com/2020-09-09/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-09/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+    </item>
     
     <item>
       <title>Viewを横に等間隔で横に並べる</title>
