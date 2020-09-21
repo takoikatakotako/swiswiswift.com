@@ -3,18 +3,18 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する - すいすいSwift</title>
+    <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する - すいすいSwift</title>
     <meta name="description"  content="iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。" />
     <meta property="og:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="index.html" />
     <meta property="og:image" content="swift.png" />
     <meta property="og:site_name" content="すいすいSwift" />
-    <meta property="og:description" content=" GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する | すいすいSwift " />
+    <meta property="og:description" content=" GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する | すいすいSwift " />
     <meta property="og:image:secure_url" content="swift.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
-    <meta name="twitter:description" content=" GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する | すいすいSwift " />
+    <meta name="twitter:description" content=" GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する | すいすいSwift " />
     <meta name="twitter:image" content="swift.png" />
 
     <style type="text/css">
@@ -83,7 +83,7 @@ if (!doNotTrack) {
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</h1>
+            <h1>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</h1>
             <div class="post-details">
                 <a rel="bookmark">
                     <time datetime="2020-09-12T912:120:06">2020-09-12</time>
@@ -98,11 +98,11 @@ if (!doNotTrack) {
         <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fswiswiswift.com%2f2020-09-12%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する" data-url="https://swiswiswift.com/2020-09-12/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する" data-url="https://swiswiswift.com/2020-09-12/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
-    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fswiswiswift.com%2f2020-09-12%2f&title=Github%e3%81%aeAPI%e3%82%92%e5%8f%a9%e3%81%8d%e3%80%81%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%e3%82%92%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b%e3%80%82%e4%b8%80%e7%95%aa%e6%9c%80%e5%be%8c%e3%81%be%e3%81%a7%e3%81%84%e3%81%8f%e3%81%a8%e8%bf%bd%e5%8a%a0%e3%81%a7%e5%8f%96%e5%be%97%e3%81%97Indicator%20%e3%82%92%e8%a1%a8%e7%a4%ba%e3%81%99%e3%82%8b" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
+    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fswiswiswift.com%2f2020-09-12%2f&title=Github%e3%81%aeAPI%e3%82%92%e5%8f%a9%e3%81%8d%e3%80%81%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%08%e3%81%ae%e6%83%85%e5%a0%b1%e3%82%92%e3%83%aa%e3%82%b9%e3%83%88%e3%81%ab%e8%a1%a8%e7%a4%ba%e3%81%99%e3%82%8b%e3%80%82%e4%b8%80%e7%95%aa%e4%b8%8b%e3%81%be%e3%81%a7%e3%82%b9%e3%82%af%e3%83%ad%e3%83%bc%e3%83%ab%e3%81%95%e3%82%8c%e3%81%9f%e3%82%89%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
         <img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" width="20" height="20" style="border: none;" />
     </a>
     <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
@@ -114,7 +114,7 @@ if (!doNotTrack) {
 
         <div class="post-content">
             <!-- raw HTML omitted -->
-<p>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する方法です。</p>
+<p>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する方法です。</p>
 <p><img src="1.gif" alt="SwiftUI"></p>
 <!-- raw HTML omitted -->
 
@@ -136,7 +136,7 @@ if (!doNotTrack) {
 <script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="auto"; amzn_assoc_height ="auto"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=JP"></script>
 
 
-<script type="application/javascript" src="https://gist.github.com/takoikatakotako/bb6e6979c9876db137ac769b9a32df59.js"></script>
+<script type="application/javascript" src="https://gist.github.com/takoikatakotako/2426098105a9034d2baf34edeff1b143.js"></script>
 
 
         </div>
@@ -178,7 +178,7 @@ if (!doNotTrack) {
 	<h4>関連記事</h4>
 	<ol style="margin-left: 30px; list-style-type: decimal;">
 		
-		<li><strong><a href="https://swiswiswift.com/2020-09-12/">GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</a></strong></li>
+		<li><strong><a href="https://swiswiswift.com/2020-09-12/">GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</a></strong></li>
 		
 		<li><strong><a href="https://swiswiswift.com/2020-09-10/">GithubのAPIを叩き、リポジトリの情報をリストに表示する（Combine）</a></strong></li>
 		
@@ -202,12 +202,10 @@ if (!doNotTrack) {
         <div class="nav-links">
             <div class="nav-previous">
                 
-                <a class="previous" href="https://swiswiswift.com/2020-09-10/"> GithubのAPIを叩き、リポジトリの情報をリストに表示する（Combine）</a>
+                <a class="previous" href="https://swiswiswift.com/2020-09-12/"> GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</a>
                 
             </div>
             <div class="nav-next">
-                
-                <a class="next" href="https://swiswiswift.com/2020-09-12/"> GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</a>
                 
             </div>
         </div>

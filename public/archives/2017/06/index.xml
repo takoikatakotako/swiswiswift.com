@@ -5,11 +5,7 @@
     <link>https://swiswiswift.com/archives/2017/06/</link>
     <description>Recent content in 2017/06 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    
-	<atom:link href="https://swiswiswift.com/archives/2017/06/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2017/06/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>現在時刻の取得(kotlin)</title>
       <link>https://swiswiswift.com/2017-06-22/</link>
