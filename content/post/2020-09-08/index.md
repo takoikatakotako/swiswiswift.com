@@ -1,8 +1,8 @@
 +++
-title =  "Viewを横に等間隔で横に並べる"
+title =  "SwiftUIでViewを横に等間隔で横に並べる"
 url = "2020-09-08"
 date = "2020-09-08"
-description = "Viewを横に等間隔で横に並べる"
+description = "SwiftUIでViewを横に等間隔で横に並べる"
 tags = [
   "SwiftUI",
   "iOS"
@@ -17,7 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでViewを横に等間隔で横に並べてください。
+SwiftUIでViewを横に等間隔で横に並べて表示するほうほうです。
+アイコンを等間隔で表示したりするときにつかいました。
 
 ![SwiftUI](1.png)
 

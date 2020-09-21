@@ -1,8 +1,8 @@
 +++
-title =  "画像をリサイズして表示（clip）"
+title =  "SwiftUIで画像をリサイズして表示（clip）"
 url = "2020-09-06"
 date = "2020-09-06"
-description = "画像をリサイズして表示（clip）"
+description = "SwiftUIで画像をリサイズして表示（clip）"
 tags = [
   "SwiftUI",
   "iOS"

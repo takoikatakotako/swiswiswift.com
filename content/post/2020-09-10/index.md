@@ -1,8 +1,8 @@
 +++
-title =  "GithubのAPIを叩き、リポジトリの情報をリストに表示する（Combine）"
+title =  "GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Combine）"
 url = "2020-09-10"
 date = "2020-09-10"
-description = "GithubのAPIを叩き、リポジトリの情報をリストに表示する（Combine）"
+description = "GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Combine）"
 tags = [
   "SwiftUI",
   "iOS"
@@ -18,7 +18,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。
-
+[Infinite List Scroll with SwiftUI and Combine](https://www.vadimbulavin.com/infinite-list-scroll-swiftui-combine/) を参考にさせていただきました。
 
 ![SwiftUI](1.gif)
 
