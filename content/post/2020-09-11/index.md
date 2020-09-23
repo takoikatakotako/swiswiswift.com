@@ -1,7 +1,7 @@
 +++
 title =  "GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する"
-url = "2020-09-12"
-date = "2020-09-12"
+url = "2020-09-11"
+date = "2020-09-11"
 description = "GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する"
 tags = [
   "SwiftUI",
