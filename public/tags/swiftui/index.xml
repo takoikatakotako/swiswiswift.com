@@ -6,7 +6,20 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SwiftUIでButton内の画像やテキストの色を変えない</title>
+      <link>https://swiswiswift.com/2020-09-14/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-14/</guid>
+      <description>SwiftUIでButton内の画像やテキストの色を変えない方法です。 .buttonStyle(PlainButtonStyle()) ではフルーツの一覧を表示して</description>
+    </item>
+    
     <item>
       <title>SwiftUIで画面遷移時に値を渡す</title>
       <link>https://swiswiswift.com/2020-09-13/</link>
@@ -17,21 +30,21 @@
     </item>
     
     <item>
-      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
-      <link>https://swiswiswift.com/2020-09-12/</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-09-12/</guid>
-      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加す</description>
-    </item>
-    
-    <item>
       <title>GithubのAPIを叩き、SwiftUIでリポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</title>
       <link>https://swiswiswift.com/2020-09-12/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-12/</guid>
       <description>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を</description>
+    </item>
+    
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
+      <link>https://swiswiswift.com/2020-09-11/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-11/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加す</description>
     </item>
     
     <item>

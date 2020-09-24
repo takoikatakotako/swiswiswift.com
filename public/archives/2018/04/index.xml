@@ -5,7 +5,11 @@
     <link>https://swiswiswift.com/archives/2018/04/</link>
     <description>Recent content in 2018/04 on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2018/04/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    
+	<atom:link href="https://swiswiswift.com/archives/2018/04/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>TableViewを編集してCellを削除する</title>
       <link>https://swiswiswift.com/2018-04-24/</link>
