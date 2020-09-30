@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Swiftで文章を読み上げる（音声合成）</title>
+      <link>https://swiswiswift.com/2020-09-15/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-09-15/</guid>
+      <description>Swiftで文章を読み上げる（音声合成）方法です。 AVFoundation を import し、以下のコードを書くことで iPhone に文字列を読み</description>
+    </item>
+    
+    <item>
       <title>SwiftUIでButton内の画像やテキストの色を変えない</title>
       <link>https://swiswiswift.com/2020-09-14/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
