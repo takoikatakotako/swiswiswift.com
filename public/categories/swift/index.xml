@@ -6,11 +6,7 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swiftで文章を読み上げる（音声合成）</title>
       <link>https://swiswiswift.com/2020-09-15/</link>
