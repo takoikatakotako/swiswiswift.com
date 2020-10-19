@@ -1,14 +1,14 @@
 +++
-title =  "SwiftUIでViewの周りに影をつける"
-url = "2020-10-01"
-date = "2020-10-01"
-description = "SwiftUIでViewの周りに影をつける"
+title =  "SwiftUIでVStackの周りに影をつける"
+url = "2020-10-03"
+date = "2020-10-03"
+description = "SwiftUIでVStackの周りに影をつける"
 tags = [
-  "SwiftUI",
+  "Swift",
   "iOS"
 ]
 categories = [
-  "SwiftUI",
+  "Swift",
   "iOS"
 ]
 archives = "2020/10"
@@ -29,4 +29,4 @@ ImageのViewの周りに影をつけています。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 13654ae9fbdaba371c1a451c8934e349 >}}
+{{< gist takoikatakotako 171921a210ba51d02e1840e0e18f964c >}}
