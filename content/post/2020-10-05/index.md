@@ -17,6 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+ディレクトリにあるtxtファイルでループする方法です。ディレクトリに存在する全ての.txtファイルに処理をしたいときによく使います。
 
 <!-- Google Ads -->
 {{< google-ads >}}

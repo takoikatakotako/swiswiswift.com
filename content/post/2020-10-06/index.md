@@ -17,6 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+ディレクトリにあるwavファイルをcafに変換する方法です。ディレクトリに存在する全ての.wavファイルをcafファイルに変換したいときによく使います。
 
 <!-- Google Ads -->
 {{< google-ads >}}

@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 UIPageViewControllerでウォークスルー画面を実装する方法です。
 ウォークスルー画面はチュートリアルなどでよくありますね。
 
-![UIPageViewController](1.png)
+![UIPageViewController](1.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}
