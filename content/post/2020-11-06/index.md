@@ -4,10 +4,10 @@ url = "2020-11-06"
 date = "2020-11-06"
 description = "SwiftUIでViewの上にViewを重ねる"
 tags = [
-  "bash"
+  "Swift", "SwiftUI"
 ]
 categories = [
-  "bash"
+  "Swift", "SwiftUI"
 ]
 archives = "2020/10"
 aliases = ["migrate-from-jekyl"]
@@ -16,7 +16,9 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 SwiftUIでViewの上にViewを重ねる方法です。
-Imageの上に半透明に黒い Text を重ねています。
+Imageの上に半透明に黒いTextを重ねています。
+
+![TextOnImage](1.png)
 
 <!-- Google Ads -->
 {{< google-ads >}}

@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIのTextFieldで編集中と編集完了を検知する方法です。
 UIKit よりも少ないコードで実現できている気がします。
 
-![TextField]](1.gif)
+![TextField](1.gif)
 
 
 <!-- Google Ads -->
