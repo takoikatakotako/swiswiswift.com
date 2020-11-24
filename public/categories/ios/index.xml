@@ -6,7 +6,97 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UIViewに影をつける</title>
+      <link>https://swiswiswift.com/2020-11-04/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-04/</guid>
+      <description>UIViewに影をつける方法です。 オレンジ色のUIView の周りに影をつけています。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで端末のシェイクを検知する</title>
+      <link>https://swiswiswift.com/2020-11-01/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-01/</guid>
+      <description>SwiftUIで端末のシェイクを検知する方法です。 端末をシェイクすると Text 内の文字が変わります。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでAppStorageを使ってUserDefaultの値を監視する</title>
+      <link>https://swiswiswift.com/2020-10-08/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-08/</guid>
+      <description>SwiftUIでAppStorageを使ってUserDefaultの値を監視する方法です。 UserD</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListの中に複数のNavigationLinkを設置する</title>
+      <link>https://swiswiswift.com/2020-10-07/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-07/</guid>
+      <description>SwiftUIでListの中に複数のNavigationLinkを設置する方法です。 素直に実装すると</description>
+    </item>
+    
+    <item>
+      <title>ディレクトリにあるwavファイルをcafに変換する</title>
+      <link>https://swiswiswift.com/2020-10-06/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-06/</guid>
+      <description>ディレクトリにあるwavファイルをcafに変換する方法です。ディレクトリに存在する全ての.wavファ</description>
+    </item>
+    
+    <item>
+      <title>ディレクトリにあるtxtファイルでループする</title>
+      <link>https://swiswiswift.com/2020-10-05/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-05/</guid>
+      <description>ディレクトリにあるtxtファイルでループする方法です。ディレクトリに存在する全ての.txtファイルに</description>
+    </item>
+    
+    <item>
+      <title>ディレクトリにあるファイル名でループする</title>
+      <link>https://swiswiswift.com/2020-10-04/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-04/</guid>
+      <description>ディレクトリにあるファイル名でループする方法です。ディレクトリに存在する全てのファイルに処理をしたい</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでVStackの周りに影をつける</title>
+      <link>https://swiswiswift.com/2020-10-03/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-03/</guid>
+      <description>SwiftでUIViewの周りに影をつける方法です。 ImageのViewの周りに影をつけています。 shadowOffset</description>
+    </item>
+    
+    <item>
+      <title>UIPageViewControllerでウォークスルー画面を実装する</title>
+      <link>https://swiswiswift.com/2020-10-02/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-02/</guid>
+      <description>UIPageViewControllerでウォークスルー画面を実装する方法です。 ウォークスルー画面は</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでViewの周りに影をつける</title>
+      <link>https://swiswiswift.com/2020-10-01/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-01/</guid>
+      <description>SwiftでUIViewの周りに影をつける方法です。 ImageのViewの周りに影をつけています。 shadowOffset</description>
+    </item>
+    
     <item>
       <title>Swiftで文章を読み上げる（音声合成）</title>
       <link>https://swiswiswift.com/2020-09-15/</link>

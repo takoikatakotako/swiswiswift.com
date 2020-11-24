@@ -6,7 +6,52 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでViewの上にViewを重ねる</title>
+      <link>https://swiswiswift.com/2020-11-06/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-06/</guid>
+      <description>SwiftUIでViewの上にViewを重ねる方法です。 Imageの上に半透明に黒いTextを重ねて</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで端末のシェイクを検知する</title>
+      <link>https://swiswiswift.com/2020-11-01/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-01/</guid>
+      <description>SwiftUIで端末のシェイクを検知する方法です。 端末をシェイクすると Text 内の文字が変わります。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでAppStorageを使ってUserDefaultの値を監視する</title>
+      <link>https://swiswiswift.com/2020-10-08/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-08/</guid>
+      <description>SwiftUIでAppStorageを使ってUserDefaultの値を監視する方法です。 UserD</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListの中に複数のNavigationLinkを設置する</title>
+      <link>https://swiswiswift.com/2020-10-07/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-07/</guid>
+      <description>SwiftUIでListの中に複数のNavigationLinkを設置する方法です。 素直に実装すると</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでViewの周りに影をつける</title>
+      <link>https://swiswiswift.com/2020-10-01/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-10-01/</guid>
+      <description>SwiftでUIViewの周りに影をつける方法です。 ImageのViewの周りに影をつけています。 shadowOffset</description>
+    </item>
+    
     <item>
       <title>SwiftUIでButton内の画像やテキストの色を変えない</title>
       <link>https://swiswiswift.com/2020-09-14/</link>
