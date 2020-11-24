@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 UIViewに影をつける方法です。
 オレンジ色のUIView の周りに影をつけています。
 
-![Shake](1.gif)
+![Shadow](1.png)
 
 <!-- Google Ads -->
 {{< google-ads >}}
