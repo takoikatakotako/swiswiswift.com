@@ -13,7 +13,7 @@ categories = [
   "Swift",
   "iOS"
 ]
-archives = "2020/10"
+archives = "2020/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
