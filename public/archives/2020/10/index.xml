@@ -7,51 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2020/10/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SwiftUIでViewの上にViewを重ねる</title>
-      <link>https://swiswiswift.com/2020-11-06/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-11-06/</guid>
-      <description>SwiftUIでViewの上にViewを重ねる方法です。 Imageの上に半透明に黒いTextを重ねて</description>
-    </item>
-    
-    <item>
-      <title>ディレクトリにあるwavファイルをcafに変換する</title>
-      <link>https://swiswiswift.com/2020-11-05/</link>
-      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-11-05/</guid>
-      <description>ディレクトリにあるwavファイルをcafに変換する方法です。 参考: bashのfor文でよく使うものメ</description>
-    </item>
-    
-    <item>
-      <title>UIViewに影をつける</title>
-      <link>https://swiswiswift.com/2020-11-04/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-11-04/</guid>
-      <description>UIViewに影をつける方法です。 オレンジ色のUIView の周りに影をつけています。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
-    </item>
-    
-    <item>
-      <title>ディレクトリにあるファイル名でループ</title>
-      <link>https://swiswiswift.com/2020-11-04/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-11-04/</guid>
-      <description>ディレクトリにあるファイル名でループする方法です。 参考: bashのfor文でよく使うものメモ (adsbygoogle = window.adsbygoogle ||</description>
-    </item>
-    
-    <item>
-      <title>SwiftUIで端末のシェイクを検知する</title>
-      <link>https://swiswiswift.com/2020-11-01/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-11-01/</guid>
-      <description>SwiftUIで端末のシェイクを検知する方法です。 端末をシェイクすると Text 内の文字が変わります。 (adsbygoogle = window.adsbygoogle</description>
-    </item>
-    
-    <item>
       <title>SwiftUIでAppStorageを使ってUserDefaultの値を監視する</title>
       <link>https://swiswiswift.com/2020-10-08/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>

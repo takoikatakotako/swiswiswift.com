@@ -6,7 +6,34 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UIAlertControllerの中でTextFieldを使い、文字数を制限する</title>
+      <link>https://swiswiswift.com/2020-11-09/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-09/</guid>
+      <description>UIAlertControllerの中でTextFieldを使い、文字数を制限する方法です。 このサン</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerの中でTextFieldを使う</title>
+      <link>https://swiswiswift.com/2020-11-08/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-08/</guid>
+      <description>UIAlertControllerの中でTextFieldを使う方法です。 Alertの中でテキストを</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでMapを使う。Mapにピンを立てる</title>
+      <link>https://swiswiswift.com/2020-11-07/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-07/</guid>
+      <description>SwiftUIでMapを使う。Mapにピンを立てる方法です。 UIViewRepresentableを</description>
+    </item>
+    
     <item>
       <title>SwiftUIでViewの上にViewを重ねる</title>
       <link>https://swiswiswift.com/2020-11-06/</link>
@@ -23,6 +50,15 @@
       
       <guid>https://swiswiswift.com/2020-11-04/</guid>
       <description>UIViewに影をつける方法です。 オレンジ色のUIView の周りに影をつけています。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+    </item>
+    
+    <item>
+      <title>画面内にPageViewControllerがあるウォークスルー画面を実装する</title>
+      <link>https://swiswiswift.com/2020-11-02/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-02/</guid>
+      <description>画面内にPageViewControllerがあるウォークスルー画面を実装する方法です。 一番最後のペ</description>
     </item>
     
     <item>

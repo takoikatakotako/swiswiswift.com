@@ -6,7 +6,16 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでMapを使う。Mapにピンを立てる</title>
+      <link>https://swiswiswift.com/2020-11-07/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-07/</guid>
+      <description>SwiftUIでMapを使う。Mapにピンを立てる方法です。 UIViewRepresentableを</description>
+    </item>
+    
     <item>
       <title>SwiftUIでViewの上にViewを重ねる</title>
       <link>https://swiswiswift.com/2020-11-06/</link>
