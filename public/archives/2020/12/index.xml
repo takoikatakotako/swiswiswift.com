@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020/12 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2020/12/</link>
+    <description>Recent content in 2020/12 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2020/12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftでSpringBootで作られたAPIに文字列を渡す</title>
+      <link>https://swiswiswift.com/2020-12-02/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-02/</guid>
+      <description>SwiftでSpringBootで作られたAPIに文字列を渡した時にちょっと詰まったのでそれの忘備録</description>
+    </item>
+    
+    <item>
+      <title>SpringBootでBeanを返すとプロパティ名のisが省略される</title>
+      <link>https://swiswiswift.com/2020-12-01/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-01/</guid>
+      <description>SpringBoot で boolean型 で isXXX という名前のプロパティを持つ Bean を返すとisが省略されたので、それ周りの挙動の</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,25 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftでSpringBootで作られたAPIに文字列を渡す</title>
+      <link>https://swiswiswift.com/2020-12-02/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-02/</guid>
+      <description>SwiftでSpringBootで作られたAPIに文字列を渡した時にちょっと詰まったのでそれの忘備録</description>
+    </item>
+    
+    <item>
+      <title>TableViewでセルのロングタップを検出する</title>
+      <link>https://swiswiswift.com/2020-11-10/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-11-10/</guid>
+      <description>TableViewでセルのロングタップを検出する方法です。 通常のタップとロングタップをそれぞれのイベ</description>
+    </item>
+    
     <item>
       <title>UIAlertControllerの中でTextFieldを使い、文字数を制限する</title>
       <link>https://swiswiswift.com/2020-11-09/</link>
