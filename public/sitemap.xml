@@ -4,46 +4,81 @@
   
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/java/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/java/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/spring/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/spring/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/tags/swift/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/categories/swift/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2020-12-02/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/2020-11-09/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/uikit/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/uikit/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://swiswiswift.com/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2020-12-01/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2020-11-10/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/tags/uikit/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/categories/uikit/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/2020-11-09/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -294,26 +329,6 @@
   
   <url>
     <loc>https://swiswiswift.com/2020-07-04/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/java/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/java/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/tags/spring/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://swiswiswift.com/categories/spring/</loc>
     <lastmod>2020-07-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -1714,6 +1729,10 @@
   
   <url>
     <loc>https://swiswiswift.com/archives/2020/11/</loc>
+  </url>
+  
+  <url>
+    <loc>https://swiswiswift.com/archives/2020/12/</loc>
   </url>
   
   <url>
