@@ -2,7 +2,7 @@
 title =  "SpringBootでBeanを返すとプロパティ名のisが省略される"
 url = "2020-12-01"
 date = "2020-12-01"
-description = "SpringBootでBeanを返すとプロパティ名のisが省略される"
+description = "SpringBootでbooleanを返すとプロパティ名のisが省略される"
 tags = [
   "Spring", "Java"
 ]
