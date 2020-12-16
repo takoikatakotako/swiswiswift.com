@@ -25,7 +25,7 @@ Xcodeでプロジェクトを作成してGithubにプッシュする忘備録で
 
 ![Drag and drop](2.png)
 
-[gitignore.io](https://www.toptal.com/developers/gitignore)にアクセスして .gitignore ファイルを作成します。
+[gitignore.io](https://www.toptal.com/developers/gitignore)にアクセスして .gitignore を作成します。生成された .gitignore をリポジトリ限定無視リストに貼り付けます。
 
 ![.gitignore](3.png)
 
