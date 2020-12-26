@@ -6,7 +6,70 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIを使ったTODOアプリのサンプル</title>
+      <link>https://swiswiswift.com/2020-12-10/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-10/</guid>
+      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。 (adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>AVAudioPlayerNodeを使って音楽の再生、一時停止、再生速度変更、ピッチ変更、ボリューム変更を行う</title>
+      <link>https://swiswiswift.com/2020-12-09/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-09/</guid>
+      <description>AVAudioPlayerNodeを使って音楽の再生、一時停止、再生速度変更、ピッチ変更、ボリューム</description>
+    </item>
+    
+    <item>
+      <title>AVAudioPlayerを使って音楽の再生、一時停止、停止、ボリューム変更、再生速度変更を行う</title>
+      <link>https://swiswiswift.com/2020-12-08/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-08/</guid>
+      <description>AVAudioPlayerを使って音楽の再生、一時停止、停止、ボリューム変更、再生速度変更を行う方法</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでImageを長押しするとContextMenuを表示する</title>
+      <link>https://swiswiswift.com/2020-12-07/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-07/</guid>
+      <description>SwiftUIでImageを長押しするとContextMenuを表示する方法です。 アイコンが表示され</description>
+    </item>
+    
+    <item>
+      <title>ImageViewを長押しするとContextMenuを表示する</title>
+      <link>https://swiswiswift.com/2020-12-06/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-06/</guid>
+      <description>ImageViewを長押しするとUIMenuを表示する方法です。 アイコンが表示されているImageV</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでMapを表示してアノテーションを表示する</title>
+      <link>https://swiswiswift.com/2020-12-05/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-05/</guid>
+      <description>SwiftUIでMapを表示してアノテーションを表示する方法です。 iOS14からSwiftUIでMa</description>
+    </item>
+    
+    <item>
+      <title>UIStepperを使って値を増減させる</title>
+      <link>https://swiswiswift.com/2020-12-04/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-04/</guid>
+      <description>UIStepperを使って値を増減させる方法です。 UIStepperを使うと値を増減させるUIを簡単</description>
+    </item>
+    
     <item>
       <title>Xcodeでプロジェクトを作成してGithubにプッシュする</title>
       <link>https://swiswiswift.com/2020-12-03/</link>
