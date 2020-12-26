@@ -6,7 +6,34 @@
     <description>Recent content in UIKit on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/uikit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/uikit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ImageViewを長押しするとContextMenuを表示する</title>
+      <link>https://swiswiswift.com/2020-12-06/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-06/</guid>
+      <description>ImageViewを長押しするとUIMenuを表示する方法です。 アイコンが表示されているImageV</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでMapを表示してアノテーションを表示する</title>
+      <link>https://swiswiswift.com/2020-12-05/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-05/</guid>
+      <description>SwiftUIでMapを表示してアノテーションを表示する方法です。 iOS14からSwiftUIでMa</description>
+    </item>
+    
+    <item>
+      <title>UIStepperを使って値を増減させる</title>
+      <link>https://swiswiswift.com/2020-12-04/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-12-04/</guid>
+      <description>UIStepperを使って値を増減させる方法です。 UIStepperを使うと値を増減させるUIを簡単</description>
+    </item>
+    
     <item>
       <title>TableViewでセルのロングタップを検出する</title>
       <link>https://swiswiswift.com/2020-11-10/</link>
