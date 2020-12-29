@@ -29,4 +29,4 @@ AVAudioPlayerを使うと簡単に音楽の再生などに関することする�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 51c80523039937ccb7dcb50605c0afc4 >}}
+{{< gist takoikatakotako a11f4d7f6492c925c8a38f3e32349380 >}}
