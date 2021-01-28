@@ -6,23 +6,14 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する</title>
-      <link>https://swiswiswift.com/2020-12-14/</link>
-      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2020-12-14/</guid>
-      <description>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する方法です。 AVAudioPlayer は Delegate</description>
-    </item>
-    
-    <item>
-      <title>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する</title>
       <link>https://swiswiswift.com/2020-12-13/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-12-13/</guid>
-      <description>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する方法です。 SwiftUI</description>
+      <description>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する方法です。 AVAudioPlayer は Delegate</description>
     </item>
     
     <item>
