@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2020/02/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SwiftUIでフルスクリーンモーダルを表示する（iOS14以上）</title>
+      <link>https://swiswiswift.com/2021-02-02/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-02-02/</guid>
+      <description>SwiftUIでフルスクリーンモーダルを表示する方法です。（iOS14以上） いままでSwiftUIで</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでモーダルを表示する時に値を渡す</title>
+      <link>https://swiswiswift.com/2021-02-01/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-02-01/</guid>
+      <description>SwiftUIでモーダルを表示する時に値を渡す方法です。 TextFieldでname変数に文字列を入</description>
+    </item>
+    
+    <item>
       <title>SwiftUIでキーボードをボタンで隠す</title>
       <link>https://swiswiswift.com/2020-02-29/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
