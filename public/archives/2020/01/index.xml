@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2020/01/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Swiftで文字列を圧縮して保存し、そのデータを読み取る</title>
+      <link>https://swiswiswift.com/2021-01-01/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-01-01/</guid>
+      <description>Swiftで文字列を圧縮して保存し、そのデータを読み取る方法です。 zlib というアルゴリズムで文字列を圧縮</description>
+    </item>
+    
+    <item>
       <title>SwiftUIで複数行のPickerを作成する</title>
       <link>https://swiswiswift.com/2020-01-14/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
