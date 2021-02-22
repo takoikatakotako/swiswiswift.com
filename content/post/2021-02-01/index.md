@@ -22,4 +22,10 @@ TextFieldでname変数に文字列を入力します。その入力した文字�
 
 ![ShowModal](1.gif)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist takoikatakotako e48bfa3f84ed62cde778d183fd5583b8 >}}
