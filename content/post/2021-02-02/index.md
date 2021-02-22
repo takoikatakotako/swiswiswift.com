@@ -28,4 +28,10 @@ iOS13でフルスクリーンモーダルを表示させたい場合はこの記
 
 参考: [How to present a full screen modal view using fullScreenCover()](https://www.hackingwithswift.com/quick-start/swiftui/how-to-present-a-full-screen-modal-view-using-fullscreencover)
 
+<!-- Google Ads -->
+{{< google-ads >}}
+
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
 {{< gist takoikatakotako a3ac6937cd6da708b90ed6cdb2f8a30f >}}
