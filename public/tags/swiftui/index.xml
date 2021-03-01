@@ -6,7 +6,43 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiftでオンライン上のファイルを再生する</title>
+      <link>https://swiswiswift.com/2021-02-10/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-02-10/</guid>
+      <description>Swiftでオンライン上のファイルを再生する方法です。 簡単に実装できました。ただエラーハンドリングが</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでアラートを入れ子にして使うことができない</title>
+      <link>https://swiswiswift.com/2021-02-09/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-02-09/</guid>
+      <description>SwiftUIでアラートを入れ子にして使うことができなかったのでそのメモです。 以下のコードの様に HStack の</description>
+    </item>
+    
+    <item>
+      <title>iOSでGoogle-Mobile-Ads-SDKの８系が入らない</title>
+      <link>https://swiswiswift.com/2021-02-08/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-02-08/</guid>
+      <description>iOSでGoogle-Mobile-Ads-SDKの８系が入らない時の対処法です。 Firebase/adMob を外したらうまく</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでボタンを押すとポップアップを表示する</title>
+      <link>https://swiswiswift.com/2021-02-07/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-02-07/</guid>
+      <description>SwiftUIでボタンを押すとポップアップを表示する方法です。 以下の例ではボタンを押すとアラート（中</description>
+    </item>
+    
     <item>
       <title>SwiftUIでBMIを計算し、結果を別のViewで表示する</title>
       <link>https://swiswiswift.com/2021-02-06/</link>
