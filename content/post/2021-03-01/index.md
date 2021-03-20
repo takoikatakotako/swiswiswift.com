@@ -21,7 +21,7 @@ QGridを使ってCollectionViewを実装する方法です。
 iOS13のSwiftUIではCollectionViewに相当するものがありません。
 [QGrid](https://github.com/Q-Mobile/QGrid)を使うことでCollectionViewに似たものを実装することができます。
 
-![QGrid]](1.gif)
+![QGrid](1.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}

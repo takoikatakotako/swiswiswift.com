@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでViewを横スクロールで表示する方法です。
 SwiftUIだと簡単に実装できて良いですね！！
 
-![Scroll]](1.gif)
+![Scroll](1.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}
