@@ -20,13 +20,13 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでButtonを有効にしたり無効にしたりする方法です。
 Toggleを押すとボタンが有効になったり、無効になったりします。
 
+![Enable](1.gif)
+
 <!-- Google Ads -->
 {{< google-ads >}}
 
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-![Enable](1.gif)
-
-{{< gist takoikatakotako beca4b228a18a9022664d0f6878d167e >}}
+{{< gist takoikatakotako 417c0cdd6928e3ddfb7420e4dc48dafa >}}
 
