@@ -6,7 +6,43 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる</title>
+      <link>https://swiswiswift.com/2021-03-10/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-03-10/</guid>
+      <description>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる方法です。 遷移後のシートでもisPre</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで初めの画面に遷移する（popToRootViewController）</title>
+      <link>https://swiswiswift.com/2021-03-09/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-03-09/</guid>
+      <description>SwiftUIで初めの画面に遷移する（popToRootViewController）方法です。 isDetailLink が</description>
+    </item>
+    
+    <item>
+      <title>Swiftで10進数を2進数に変換する</title>
+      <link>https://swiswiswift.com/2021-03-08/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-03-08/</guid>
+      <description>Swiftで10進数を2進数に変換する方法です。 TextFieldに数字を入力し、変換ボタンを押すと</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのTextFieldで表示するキーボードを指定する</title>
+      <link>https://swiswiswift.com/2021-03-07/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-03-07/</guid>
+      <description>SwiftUIのTextFieldで表示するキーボードを指定する方法です。 keyboardType を指定することで表示する</description>
+    </item>
+    
     <item>
       <title>SwiftでMKMapViewに線を引く</title>
       <link>https://swiswiswift.com/2021-03-05/</link>
