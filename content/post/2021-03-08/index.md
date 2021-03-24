@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 Swiftで10進数を2進数に変換する方法です。
 TextFieldに数字を入力し、変換ボタンを押すと2進数に変換されます。
 
-![Keyboard]](1.png)
+![Keyboard](1.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}

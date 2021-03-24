@@ -20,7 +20,7 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIのTextFieldで表示するキーボードを指定する方法です。
 `keyboardType` を指定することで表示するキーボードの種類を設定することができます。
 
-![Keyboard]](1.png)
+![Keyboard](1.png)
 
 <!-- Google Ads -->
 {{< google-ads >}}
