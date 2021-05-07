@@ -25,7 +25,13 @@ curl で iOSにVoIPプッシュを送る方法です。
 .pem ファイルを使ってプッシュ通知を送ります。apple の URL は配布方法によって異なるので気をつけてください。
 たとえば Xcode から実機に送ると以下の URL で良いですが、TestFlightやストアから配布する場合は URL 中の develop は不要です。
 
-<code>curl -v -d '{"aps":{"alert":"hello"}}' --http2 --cert file-name.pem https://api.development.push.apple.com/3/device/{YOUR_TOKEN}</code>
+```
+curl --http2 \
+    -E file-name.pem \
+    --header "apns-topic: {YOUR_BUNDLE_ID}.voip" \
+    -d "{\"message\":\"Hello\"}" \
+    https://api.development.push.apple.com/3/device/{YOUR_TOKEN}
+```
 
 <!-- Google Ads -->
 {{< google-ads >}}

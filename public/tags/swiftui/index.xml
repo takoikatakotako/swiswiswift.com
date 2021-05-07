@@ -6,7 +6,52 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでSearchBar(TextField)にクリアボタンをつける</title>
+      <link>https://swiswiswift.com/2021-05-02/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-02/</guid>
+      <description>SwiftUIでSearchBar(TextField)にクリアボタンをつける方法です。 TextFiled に文字を入</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでSearchBar(TextField)を使って検索する</title>
+      <link>https://swiswiswift.com/2021-05-01/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-01/</guid>
+      <description>SwiftUIでSearchBar(TextField)を使って検索する方法です。 TextFiled に文字を入力する</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのListの中にボタンを複数設置する</title>
+      <link>https://swiswiswift.com/2021-04-08/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-04-08/</guid>
+      <description>SwiftUIのListの中にボタンを複数設置する方法です。 buttonStyle(PlainButtonStyle()) を設定することできました。 参考サイト SwiftUI</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのListでSpacerの部分にもタップ判定をつける</title>
+      <link>https://swiswiswift.com/2021-04-07/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-04-07/</guid>
+      <description>SwiftUIのListでSpacerの部分にもタップ判定をつける方法です。 .contentShape(Rectangle()) を設定することでタップ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListをEditModeにして並び替える</title>
+      <link>https://swiswiswift.com/2021-04-02/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-04-02/</guid>
+      <description>SwiftUIでListをEditModeにして並び替える方法です。 UITableViewのEdit</description>
+    </item>
+    
     <item>
       <title>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる</title>
       <link>https://swiswiswift.com/2021-03-10/</link>
