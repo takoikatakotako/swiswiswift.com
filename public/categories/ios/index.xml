@@ -6,7 +6,16 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでListをEditModeにして並び替える</title>
+      <link>https://swiswiswift.com/2021-04-02/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-04-02/</guid>
+      <description>SwiftUIでListをEditModeにして並び替える方法です。 UITableViewのEdit</description>
+    </item>
+    
     <item>
       <title>Swiftでプロジェクトの中に含まれるJSONファイルを読み込む</title>
       <link>https://swiswiswift.com/2021-04-01/</link>
