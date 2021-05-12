@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shell on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/shell/</link>
+    <description>Recent content in Shell on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DockerのMySQLでdocker-entrypoint-initdb.dの完了を待つ</title>
+      <link>https://swiswiswift.com/2021-05-04/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-04/</guid>
+      <description>DockerのMySQLでdocker-entrypoint-initdb.dの完了を待つ方法です。</description>
+    </item>
+    
+    <item>
+      <title>waitコマンドで複数の処理の完了を待つ</title>
+      <link>https://swiswiswift.com/2021-05-03/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-03/</guid>
+      <description>waitコマンドで複数の処理の完了を待つ方法です。 sh script.sh を実行すると sleep.sh の完了を待ち、最後の Echo 文を実行し</description>
+    </item>
+    
+  </channel>
+</rss>
