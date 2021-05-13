@@ -21,6 +21,7 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIで端末のシェイクを検知する方法です。
 端末をシェイクすると Text 内の文字が変わります。
+ReactNativeは端末をシェイクするとデバッグメニューが出てくるのが面白いです。
 
 ![Shake](1.gif)
 

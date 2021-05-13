@@ -17,8 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UINavigationBar, UITabBar の色を変える方法です。
-エヴァンゲリオンをイメージしたカラーリングです。
+iOSでUINavigationBar, UITabBar の色を変える方法です。
+エヴァンゲリオンをイメージしたカラーリングです。今度のエヴァの映画が楽しみです。
 
 ![UITabBarController](1.gif)
 
