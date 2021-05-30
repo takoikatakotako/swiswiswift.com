@@ -19,6 +19,7 @@ aliases = ["migrate-from-jekyl"]
 
 UIViewに影をつける方法です。
 オレンジ色のUIView の周りに影をつけています。
+影があると浮き上がって見えるの不思議ですね。
 
 ![Shadow](1.png)
 

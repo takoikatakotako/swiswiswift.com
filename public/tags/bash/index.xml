@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>ディレクトリにあるファイル名でループ</title>
-      <link>https://swiswiswift.com/2020-11-04/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <title>シェルスクリプトでディレクトリにあるファイル名の一覧でループする</title>
+      <link>https://swiswiswift.com/2020-11-03/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-11-04/</guid>
-      <description>ディレクトリにあるファイル名でループする方法です。 参考: bashのfor文でよく使うものメモ (adsbygoogle = window.adsbygoogle ||</description>
+      <guid>https://swiswiswift.com/2020-11-03/</guid>
+      <description>シェルスクリプトでディレクトリにあるファイル名の一覧でループする方法です。 参考: bashのfor文で</description>
     </item>
     
   </channel>

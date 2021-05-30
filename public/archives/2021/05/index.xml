@@ -7,6 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/05/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>iOSでバージョンとビルド番号を取得する</title>
+      <link>https://swiswiswift.com/2021-05-10/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-10/</guid>
+      <description>iOSでバージョンとビルド番号を取得する方法です。 バージョンとビルド番号を文字列で取得します。 オプシ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListにButtonを設定してパラメーターの違う画面に遷移する</title>
+      <link>https://swiswiswift.com/2021-05-09/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-09/</guid>
+      <description>SwiftUIでListにButtonを設定してパラメーターの違う画面に遷移する方法です。 詳細ページ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで少しカスタマイズしたActivityIndicatorを表示する</title>
+      <link>https://swiswiswift.com/2021-05-08/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-08/</guid>
+      <description>SwiftUIで少しカスタマイズしたActivityIndicatorを表示する方法です。背景色をつ</description>
+    </item>
+    
+    <item>
+      <title>Swiftでデフォルト引数を使う</title>
+      <link>https://swiswiswift.com/2021-05-07/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-07/</guid>
+      <description>Swiftでデフォルト引数を使う方法です。 favorite 関数に引数を渡さず呼び出すと &amp;quot;I love Snorlax が返り、任意の名前を渡</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでActivityIndicatorを表示する</title>
+      <link>https://swiswiswift.com/2021-05-06/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-06/</guid>
+      <description>SwiftUIでActivityIndicatorを表示する方法です。 ロード中などのくるくるするやつ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでUIActivityViewControllerを表示する</title>
+      <link>https://swiswiswift.com/2021-05-05/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-05/</guid>
+      <description>SwiftUIでUIActivityViewControllerを表示する方法です。 ボタンを押すと URL</description>
+    </item>
+    
+    <item>
       <title>DockerのMySQLでdocker-entrypoint-initdb.dの完了を待つ</title>
       <link>https://swiswiswift.com/2021-05-04/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
