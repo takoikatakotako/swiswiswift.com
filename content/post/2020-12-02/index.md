@@ -1,6 +1,6 @@
 +++
 title =  "SwiftでSpringBootで作られたAPIに文字列を渡す"
-url = "2020-12-02"
+url = "2020-12-02"
 date = "2020-12-02"
 description = "SwiftでSpringBootで作られたAPIに文字列を渡す"
 tags = [

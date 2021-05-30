@@ -1,6 +1,6 @@
 +++
 title =  "SwiftUIでMapを表示してアノテーションを表示する"
-url = "2020-12-05"
+url = "2020-12-05"
 date = "2020-12-05"
 description = "SwiftUIでMapを表示してアノテーションを表示する"
 tags = [

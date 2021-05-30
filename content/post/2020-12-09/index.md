@@ -1,6 +1,6 @@
 +++
 title =  "AVAudioPlayerNodeを使って音楽の再生、一時停止、再生速度変更、ピッチ変更、ボリューム変更を行う"
-url = "2020-12-09"
+url = "2020-12-09"
 date = "2020-12-09"
 description = "AVAudioPlayerNodeを使って音楽の再生、一時停止、再生速度変更、ピッチ変更、ボリューム変更を行う"
 tags = [

@@ -1,6 +1,6 @@
 +++
 title =  "ImageViewを長押しするとContextMenuを表示する"
-url = "2020-12-06"
+url = "2020-12-06"
 date = "2020-12-06"
 description = "ImageViewを長押しするとContextMenuを表示する"
 tags = [

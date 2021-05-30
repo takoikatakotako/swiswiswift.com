@@ -1,6 +1,6 @@
 +++
 title =  "Xcodeでプロジェクトを作成してGithubにプッシュする"
-url = "2020-12-03"
+url = "2020-12-03"
 date = "2020-12-03"
 description = "Xcodeでプロジェクトを作成してGithubにプッシュする"
 tags = [

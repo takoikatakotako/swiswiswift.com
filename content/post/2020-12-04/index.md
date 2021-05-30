@@ -1,6 +1,6 @@
 +++
 title =  "UIStepperを使って値を増減させる"
-url = "2020-12-04"
+url = "2020-12-04"
 date = "2020-12-04"
 description = "UIStepperを使って値を増減させる"
 tags = [

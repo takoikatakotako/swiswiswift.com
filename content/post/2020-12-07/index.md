@@ -1,6 +1,6 @@
 +++
 title =  "SwiftUIでImageを長押しするとContextMenuを表示する"
-url = "2020-12-07"
+url = "2020-12-07"
 date = "2020-12-07"
 description = "SwiftUIでImageを長押しするとContextMenuを表示する"
 tags = [
