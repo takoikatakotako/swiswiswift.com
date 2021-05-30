@@ -1,7 +1,7 @@
 +++
 title =  "Swiftでデフォルト引数を使う"
-url = "2021-05-08"
-date = "2021-05-08"
+url = "2021-05-07"
+date = "2021-05-07"
 description = "Swiftでデフォルト引数を使う"
 tags = [
   "SwiftUI"

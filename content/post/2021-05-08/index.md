@@ -1,7 +1,7 @@
 +++
 title =  "SwiftUIで少しカスタマイズしたActivityIndicatorを表示する"
-url = "2021-05-07"
-date = "2021-05-07"
+url = "2021-05-08"
+date = "2021-05-08"
 description = "SwiftUIで少しカスタマイズしたActivityIndicatorを表示する"
 tags = [
   "SwiftUI"
