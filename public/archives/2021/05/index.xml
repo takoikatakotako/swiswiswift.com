@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/05/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JetpackComposeで画面遷移する</title>
+      <link>https://swiswiswift.com/2021-05-11/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-05-11/</guid>
+      <description>JetpackComposeで画面遷移する方法です。 以下の記事を参考にしながら画面遷移してみました。</description>
+    </item>
+    
+    <item>
       <title>iOSでバージョンとビルド番号を取得する</title>
       <link>https://swiswiswift.com/2021-05-10/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
