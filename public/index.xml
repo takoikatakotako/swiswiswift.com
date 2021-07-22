@@ -6,7 +6,34 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自分で定義したStructをUserDefaultsに保存する</title>
+      <link>https://swiswiswift.com/2021-07-03/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-07-03/</guid>
+      <description>自分で定義したStructをUserDefaultsに保存する方法です。 そのままでは保存することがで</description>
+    </item>
+    
+    <item>
+      <title>Identifiableに適合していないStructでListを使う</title>
+      <link>https://swiswiswift.com/2021-07-02/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-07-02/</guid>
+      <description>Identifiableに適合していないStructでListを使う方法です。 id でプロパティユニーク</description>
+    </item>
+    
+    <item>
+      <title>iOSでMKMapViewの上に図形を描画する</title>
+      <link>https://swiswiswift.com/2021-07-01/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-07-01/</guid>
+      <description>iOSのMKMapViewの上に図形を描画する方法です。 MKPolygon を使うことで任意の多角形を描画することがで</description>
+    </item>
+    
     <item>
       <title>iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く</title>
       <link>https://swiswiswift.com/2021-06-02/</link>
