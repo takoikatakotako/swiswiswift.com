@@ -26,4 +26,4 @@ iOSのMKMapViewの上に図形を描画する方法です。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-![画像](1.png)
+![Image](1.png)
