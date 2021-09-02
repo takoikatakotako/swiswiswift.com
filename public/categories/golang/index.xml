@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on すいすいSwift</title>
+    <link>https://swiswiswift.com/categories/golang/</link>
+    <description>Recent content in Golang on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golangで構造体をJSONファイルとして出力する</title>
+      <link>https://swiswiswift.com/2021-09-02/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-09-02/</guid>
+      <description>Golangで構造体をJSONファイルとして出力する。 このコードでは構造体PokemonをJSONと</description>
+    </item>
+    
+    <item>
+      <title>Golangで配列のJSONを構造体の配列に変換する</title>
+      <link>https://swiswiswift.com/2021-09-01/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-09-01/</guid>
+      <description>Golangで構造体をJSONファイルとして出力する方法です。 このコードではローカルのJSONファイ</description>
+    </item>
+    
+    <item>
+      <title>GolangでJSONを構造体に変換する</title>
+      <link>https://swiswiswift.com/2021-08-01/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-08-01/</guid>
+      <description>GolangでJSONを構造体に変換する方法です。 このコードではローカルのJSONファイルを読みとり</description>
+    </item>
+    
+  </channel>
+</rss>
