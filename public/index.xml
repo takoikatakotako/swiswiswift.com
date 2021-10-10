@@ -6,7 +6,34 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golangでtext/templateを使ってhtmlファイルを生成する</title>
+      <link>https://swiswiswift.com/2021-10-02/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-10-02/</guid>
+      <description>Golangでtext/templateを使ってhtmlファイルを生成する方法です。 Pokemon構</description>
+    </item>
+    
+    <item>
+      <title>MapViewのタップした箇所に黒丸を描画する</title>
+      <link>https://swiswiswift.com/2021-10-01/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-10-01/</guid>
+      <description>MapViewのタップした箇所に黒丸を描画する方法です。 タップした箇所に黒丸を描画しています。黒丸の</description>
+    </item>
+    
+    <item>
+      <title>PCBEで作った基板をPCBGOGOで注文する</title>
+      <link>https://swiswiswift.com/2021-09-05/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-09-05/</guid>
+      <description>PCBEで作った基板をPCBGOGOで注文する方法です。 ファイル -&amp;gt; 基盤見積もり作成 -&amp;gt; 画像のように「デ</description>
+    </item>
+    
     <item>
       <title>AppStoreConnectで「銀行振り込みが完了しませんでした」というメッセージが現れて消えない</title>
       <link>https://swiswiswift.com/2021-09-04/</link>
