@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/docker/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/docker/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2021-10-03/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/mysql/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/mysql/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/post/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/golang/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
@@ -12,15 +36,6 @@
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2021-10-02/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/ios/</loc>
@@ -115,12 +130,6 @@
   </url><url>
     <loc>https://swiswiswift.com/2021-05-05/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/docker/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/docker/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2021-05-04/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
