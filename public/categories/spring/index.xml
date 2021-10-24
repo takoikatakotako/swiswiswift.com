@@ -6,7 +6,16 @@
     <description>Recent content in Spring on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/spring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその１</title>
+      <link>https://swiswiswift.com/2021-10-04/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-10-04/</guid>
+      <description>Springを使ってお問い合わせフォームを作ります。 ユーザーがフォームにお問い合わせ内容を書いて投稿</description>
+    </item>
+    
     <item>
       <title>SwiftでSpringBootで作られたAPIに文字列を渡す</title>
       <link>https://swiswiswift.com/2020-12-02/</link>
