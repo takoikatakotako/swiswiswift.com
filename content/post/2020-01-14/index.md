@@ -22,6 +22,10 @@ UIPickerView と使い勝手がかなり異なり、戸惑いました。
 
 参考: [Multi-Component Picker (UIPickerView) in SwiftUI](https://stackoverflow.com/questions/56567539/multi-component-picker-uipickerview-in-swiftui)
 
+追記
+iOS15では `compositingGroup` を追記する必要があります。
+
+
 <!-- Google Ads -->
 {{< google-ads >}}
 
