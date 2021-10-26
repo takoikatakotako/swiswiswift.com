@@ -122,6 +122,3 @@ public String getFormResult(@ModelAttribute ContactForm form, Model model) {
 ```
 
 これで完成です。`localhost:8080/form` にアクセスするとフォームが表示され、入力後に投稿ボタンを押すとお礼メッセージと投稿内容が表示されます。
-コードの全文はこちらです。
-
-{{< gist takoikatakotako 96b33aae5312a1e09e9cbf3eff531533 >}}
