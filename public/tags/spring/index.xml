@@ -6,7 +6,25 @@
     <description>Recent content in Spring on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその４</title>
+      <link>https://swiswiswift.com/2021-10-07/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-10-07/</guid>
+      <description>Springを使ってお問い合わせフォームを作るその４です。 今回はフォームから DB に追加できるようにしま</description>
+    </item>
+    
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその３</title>
+      <link>https://swiswiswift.com/2021-10-06/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-10-06/</guid>
+      <description>Springを使ってお問い合わせフォームを作るその３です。 今回は Spring と DB を接続して前回作成した contact テーブ</description>
+    </item>
+    
     <item>
       <title>Springを使ってお問い合わせフォームを作るその１</title>
       <link>https://swiswiswift.com/2021-10-04/</link>
