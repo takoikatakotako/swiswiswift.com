@@ -6,11 +6,29 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS</title>
+      <link>https://swiswiswift.com/categories/ios/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SwiftUI</title>
+      <link>https://swiswiswift.com/categories/swiftui/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/swiftui/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Java</title>
       <link>https://swiswiswift.com/categories/java/</link>
-      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/java/</guid>
       <description></description>
@@ -19,7 +37,7 @@
     <item>
       <title>Spring</title>
       <link>https://swiswiswift.com/categories/spring/</link>
-      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/spring/</guid>
       <description></description>
@@ -53,29 +71,11 @@
     </item>
     
     <item>
-      <title>iOS</title>
-      <link>https://swiswiswift.com/categories/ios/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PCBE</title>
       <link>https://swiswiswift.com/categories/pcbe/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/pcbe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SwiftUI</title>
-      <link>https://swiswiswift.com/categories/swiftui/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/swiftui/</guid>
       <description></description>
     </item>
     

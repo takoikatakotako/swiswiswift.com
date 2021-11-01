@@ -6,7 +6,16 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでカメラを使う</title>
+      <link>https://swiswiswift.com/2021-11-01/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-01/</guid>
+      <description>SwiftUIでカメラを使う方法です。 録画を可能にする CameraView を作成しそれを SwiftUI 側で呼び出すようにします。 S</description>
+    </item>
+    
     <item>
       <title>iOSで実機ビルドだと動けどTestFlightから配信すると動かない</title>
       <link>https://swiswiswift.com/2021-07-05/</link>
