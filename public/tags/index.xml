@@ -6,7 +6,43 @@
     <description>Recent content in Tags on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swift</title>
+      <link>https://swiswiswift.com/tags/swift/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SwiftUI</title>
+      <link>https://swiswiswift.com/tags/swiftui/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/swiftui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>https://swiswiswift.com/tags/ios/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UIKit</title>
+      <link>https://swiswiswift.com/tags/uikit/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/tags/uikit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Java</title>
       <link>https://swiswiswift.com/tags/java/</link>
@@ -22,24 +58,6 @@
       <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/spring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iOS</title>
-      <link>https://swiswiswift.com/tags/ios/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SwiftUI</title>
-      <link>https://swiswiswift.com/tags/swiftui/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/tags/swiftui/</guid>
       <description></description>
     </item>
     
@@ -80,15 +98,6 @@
     </item>
     
     <item>
-      <title>Swift</title>
-      <link>https://swiswiswift.com/tags/swift/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/tags/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jetpack Compose</title>
       <link>https://swiswiswift.com/tags/jetpack-compose/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
@@ -121,15 +130,6 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/tags/iij/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UIKit</title>
-      <link>https://swiswiswift.com/tags/uikit/</link>
-      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/tags/uikit/</guid>
       <description></description>
     </item>
     

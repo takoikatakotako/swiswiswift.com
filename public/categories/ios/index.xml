@@ -6,7 +6,16 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHPickerViewControllerを使って画像を選択する</title>
+      <link>https://swiswiswift.com/2021-11-05/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-05/</guid>
+      <description>PHPickerViewController を使って画像を選択する方法です。 UIImagePickerController が将来的に非推奨になり PHPickerViewController に置き換わっていくみたいです。 参考: Meet the</description>
+    </item>
+    
     <item>
       <title>SwiftUIでスライダーとスクロールを連動させる</title>
       <link>https://swiswiswift.com/2021-11-02/</link>
