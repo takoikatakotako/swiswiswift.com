@@ -6,7 +6,16 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでPHPickerViewControllerを使って画像を選択する</title>
+      <link>https://swiswiswift.com/2021-11-09/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-09/</guid>
+      <description>SwiftUIでPHPickerViewControllerを使って画像を選択する方法です。 Imag</description>
+    </item>
+    
     <item>
       <title>SwiftUIでスライダーとスクロールを連動させる</title>
       <link>https://swiswiswift.com/2021-11-02/</link>

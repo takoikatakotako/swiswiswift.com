@@ -7,6 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/11/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SwiftUIでPHPickerViewControllerを使って画像を選択する</title>
+      <link>https://swiswiswift.com/2021-11-09/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-09/</guid>
+      <description>SwiftUIでPHPickerViewControllerを使って画像を選択する方法です。 Imag</description>
+    </item>
+    
+    <item>
+      <title>SwiftでJSONエンコードするときに数字の桁数を指定する</title>
+      <link>https://swiswiswift.com/2021-11-08/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-08/</guid>
+      <description>SwiftでJSONデコードするときに数字の桁数を指定する方法です。 文字列になってしまいましたが、以</description>
+    </item>
+    
+    <item>
+      <title>Swiftの細かい文法のメモ</title>
+      <link>https://swiswiswift.com/2021-11-07/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-07/</guid>
+      <description>関数の引数は呼び出し側で省略したり、別名をつけたりすることができる。 func buyA(product: Int, price: Int, quantity: Int) { print(product, price, quantity) } buyA(product: 1200, price: 1500,</description>
+    </item>
+    
+    <item>
+      <title>Swiftで引数を参照渡しをする</title>
+      <link>https://swiswiswift.com/2021-11-06/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-06/</guid>
+      <description>Swiftで引数を参照渡しをする方法です。 まず普通に書いた場合です。 プログラム実行後 x = 2, y = 4 とな</description>
+    </item>
+    
+    <item>
+      <title>PHPickerViewControllerを使って画像を選択する</title>
+      <link>https://swiswiswift.com/2021-11-05/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-05/</guid>
+      <description>PHPickerViewController を使って画像を選択する方法です。 UIImagePickerController が将来的に非推奨になり PHPickerViewController に置き換わっていくみたいです。 参考: Meet the</description>
+    </item>
+    
+    <item>
       <title>SpringBootでマークダウンをHTMLに変換してThymeleafで表示する</title>
       <link>https://swiswiswift.com/2021-11-03/</link>
       <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
