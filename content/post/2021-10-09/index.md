@@ -161,7 +161,7 @@ ssh root@160.251.101.154
 `/opt` ディレクトリに移動し、アプリケーションを起動します。文字列に特殊文字（`&`とか）が含まれると別のコマンドと認識されてしまうので、シングルクオートで囲ってあげます。
 
 ```bash
-java -jar spring-0.0.1-SNAPSHOT.jar \
+java -Xms128M -Xmx128M -jar spring-0.0.1-SNAPSHOT.jar \
   --server.port=80 \
   --spring.datasource.url=jdbc:mysql://127.0.0.1:3306/swiswiswift-db \
   --spring.datasource.username=spring \
