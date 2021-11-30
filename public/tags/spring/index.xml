@@ -6,7 +6,16 @@
     <description>Recent content in Spring on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpringBootでログをファイルに出力する</title>
+      <link>https://swiswiswift.com/2021-11-13/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-13/</guid>
+      <description>SpringBootでログをファイルに出力する方法です。 application.properties に logging.file.name=spring.log を追加するとログがファイルとしても出力</description>
+    </item>
+    
     <item>
       <title>SpringBootでマークダウンをHTMLに変換してThymeleafで表示する</title>
       <link>https://swiswiswift.com/2021-11-03/</link>
