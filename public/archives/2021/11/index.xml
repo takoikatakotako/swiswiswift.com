@@ -7,6 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/11/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SpringBootでログをファイルに出力する</title>
+      <link>https://swiswiswift.com/2021-11-13/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-13/</guid>
+      <description>SpringBootでログをファイルに出力する方法です。 application.properties に logging.file.name=spring.log を追加するとログがファイルとしても出力</description>
+    </item>
+    
+    <item>
+      <title>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
+      <link>https://swiswiswift.com/2021-11-12/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-12/</guid>
+      <description>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する方法です。 スクロールしたりピ</description>
+    </item>
+    
+    <item>
+      <title>Rustでコマンドライン引数を渡す</title>
+      <link>https://swiswiswift.com/2021-11-11/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-11/</guid>
+      <description>Rustでコマンドライン引数を渡す方法です。 use std::env; fn main() { let args: Vec&amp;lt;String&amp;gt; = env::args().collect(); println!(&amp;#34;{:?}&amp;#34;, args); } rustc main.rs ./main snorlax 143 [&amp;quot;./main&amp;quot;, &amp;quot;snorlax&amp;quot;, &amp;quot;143&amp;quot;]</description>
+    </item>
+    
+    <item>
+      <title>RustでHelloWorldをする</title>
+      <link>https://swiswiswift.com/2021-11-10/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-10/</guid>
+      <description>RustでHelloWorldをする方法です。 main.rs というファイルを作成します。 fn main() { println!(&amp;#34;Hello, World&amp;#34;); } 以下のコマン</description>
+    </item>
+    
+    <item>
       <title>SwiftUIでPHPickerViewControllerを使って画像を選択する</title>
       <link>https://swiswiswift.com/2021-11-09/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
@@ -49,6 +85,15 @@
       
       <guid>https://swiswiswift.com/2021-11-05/</guid>
       <description>PHPickerViewController を使って画像を選択する方法です。 UIImagePickerController が将来的に非推奨になり PHPickerViewController に置き換わっていくみたいです。 参考: Meet the</description>
+    </item>
+    
+    <item>
+      <title>UIKitのScrollViewでページングを実装する</title>
+      <link>https://swiswiswift.com/2021-11-04/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-11-04/</guid>
+      <description>UIKitのScrollViewでページングを実装する方法です。 スクロールすると切り替わるタイミング</description>
     </item>
     
     <item>
