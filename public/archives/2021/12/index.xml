@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/12/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SwiftUIでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
+      <link>https://swiswiswift.com/2021-12-05/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-12-05/</guid>
+      <description>SwiftUIでMapViewの中央に十字を用意し、その中央の座標を取得する方法です。 MapView</description>
+    </item>
+    
+    <item>
       <title>RustでキャメルケースのJSONをスネークケースにデシリアライズしたり、キャメルケースのJSONにする</title>
       <link>https://swiswiswift.com/2021-12-04/</link>
       <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>

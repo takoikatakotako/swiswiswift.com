@@ -6,7 +6,34 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swift</title>
+      <link>https://swiswiswift.com/categories/swift/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SwiftUI</title>
+      <link>https://swiswiswift.com/categories/swiftui/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/swiftui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>今年の目標</title>
+      <link>https://swiswiswift.com/categories/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Rust</title>
       <link>https://swiswiswift.com/categories/rust/</link>
@@ -49,24 +76,6 @@
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/uikit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://swiswiswift.com/categories/swift/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SwiftUI</title>
-      <link>https://swiswiswift.com/categories/swiftui/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/swiftui/</guid>
       <description></description>
     </item>
     
