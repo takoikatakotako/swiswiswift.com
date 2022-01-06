@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022/01 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2022/01/</link>
+    <description>Recent content in 2022/01 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS15でPickerを横に並べるとタップ領域が重なってしまう</title>
+      <link>https://swiswiswift.com/2022-01-02/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-02/</guid>
+      <description>iOS15でPickerを横に並べるとタップ領域が重なってしまう不具合に悩まされたのでその忘備録です</description>
+    </item>
+    
+    <item>
+      <title>2022年の目標</title>
+      <link>https://swiswiswift.com/2022-01-01/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-01/</guid>
+      <description>あけましておめでとうございます、2022年もよろしくお願いします！ 今年の目標は以下の通りです。 個人開</description>
+    </item>
+    
+  </channel>
+</rss>

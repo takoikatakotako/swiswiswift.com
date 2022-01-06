@@ -6,7 +6,25 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS15でPickerを横に並べるとタップ領域が重なってしまう</title>
+      <link>https://swiswiswift.com/2022-01-02/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-02/</guid>
+      <description>iOS15でPickerを横に並べるとタップ領域が重なってしまう不具合に悩まされたのでその忘備録です</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
+      <link>https://swiswiswift.com/2021-12-05/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2021-12-05/</guid>
+      <description>SwiftUIでMapViewの中央に十字を用意し、その中央の座標を取得する方法です。 MapView</description>
+    </item>
+    
     <item>
       <title>SwiftUIでPHPickerViewControllerを使って画像を選択する</title>
       <link>https://swiswiswift.com/2021-11-09/</link>
