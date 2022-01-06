@@ -6,7 +6,25 @@
     <description>Recent content in Swift on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xcodeで左側のファイル一覧のナビゲーションが隠れてしまって出てこない</title>
+      <link>https://swiswiswift.com/2022-01-04/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-04/</guid>
+      <description>Xcodeで左側のファイル一覧のナビゲーションが隠れてしまって出てこないときの方法です。 command + 0 で出し</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでさまざまなデバイスのプレビューを確認する</title>
+      <link>https://swiswiswift.com/2022-01-03/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-03/</guid>
+      <description>SwiftUIでさまざまなデバイスのプレビューを確認する方法です。 まず以下のコマンドでデバイスの一覧</description>
+    </item>
+    
     <item>
       <title>iOS15でPickerを横に並べるとタップ領域が重なってしまう</title>
       <link>https://swiswiswift.com/2022-01-02/</link>
