@@ -7,6 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/01/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>S3に静的ファイルを置いてインターネットに公開する</title>
+      <link>https://swiswiswift.com/2022-01-07/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-07/</guid>
+      <description>S3に画像などの静的ファイルを置いて公開する方法です。 まずS3のコンソールにアクセスします。 「バケッ</description>
+    </item>
+    
+    <item>
+      <title>CollectionViewで並び替え時に選択されたセルにアニメーションを付与する</title>
+      <link>https://swiswiswift.com/2022-01-06/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-06/</guid>
+      <description>CollectionViewで並び替え時に選択されたセルにアニメーションを付与する方法です。 長押しす</description>
+    </item>
+    
+    <item>
+      <title>UICollectionViewのセルを並び替える</title>
+      <link>https://swiswiswift.com/2022-01-05/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-05/</guid>
+      <description>UICollectionViewのセルを並び替える方法です。 長押しすると移動できるようになります。 参</description>
+    </item>
+    
+    <item>
       <title>Xcodeで左側のファイル一覧のナビゲーションが隠れてしまって出てこない</title>
       <link>https://swiswiswift.com/2022-01-04/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
