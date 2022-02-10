@@ -15,6 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+[新しい記事](/2022-02-02) があります。
+
 UICollectionViewのサンプルです。  
 
 [UICollectionViewを使う](http://docs.fabo.io/swift/uikit/053_uicollectionview.html) を参考にさせていただきました。  
