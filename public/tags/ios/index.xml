@@ -6,7 +6,34 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CollectionViewに区切り線を追加する</title>
+      <link>https://swiswiswift.com/2022-02-04/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-04/</guid>
+      <description>CollectionViewに区切り線を追加する方法です。 参考: UICollectionView の Layout で悩んだら Decoration Viewを用いてC</description>
+    </item>
+    
+    <item>
+      <title>CollectionViewの背景にスクロールする画像を設定する</title>
+      <link>https://swiswiswift.com/2022-02-03/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-03/</guid>
+      <description>CollectionViewの背景にスクロールする画像を設定する方法です。 よくわかっていないのですが</description>
+    </item>
+    
+    <item>
+      <title>UICollectionViewのサンプル</title>
+      <link>https://swiswiswift.com/2022-02-02/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-02/</guid>
+      <description>UICollectionViewのサンプルです。 makeColor() 関数でランダムに生成した色をセルに入れています。 ス</description>
+    </item>
+    
     <item>
       <title>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
       <link>https://swiswiswift.com/2021-11-12/</link>
@@ -1309,7 +1336,7 @@
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-02/</guid>
-      <description>UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせて</description>
+      <description>新しい記事 があります。 UICollectionViewのサンプルです。 UICollectionVie</description>
     </item>
     
     <item>

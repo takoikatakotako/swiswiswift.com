@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022/02 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2022/02/</link>
+    <description>Recent content in 2022/02 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CollectionViewに区切り線を追加する</title>
+      <link>https://swiswiswift.com/2022-02-04/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-04/</guid>
+      <description>CollectionViewに区切り線を追加する方法です。 参考: UICollectionView の Layout で悩んだら Decoration Viewを用いてC</description>
+    </item>
+    
+    <item>
+      <title>CollectionViewの背景にスクロールする画像を設定する</title>
+      <link>https://swiswiswift.com/2022-02-03/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-03/</guid>
+      <description>CollectionViewの背景にスクロールする画像を設定する方法です。 よくわかっていないのですが</description>
+    </item>
+    
+    <item>
+      <title>UICollectionViewのサンプル</title>
+      <link>https://swiswiswift.com/2022-02-02/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-02/</guid>
+      <description>UICollectionViewのサンプルです。 makeColor() 関数でランダムに生成した色をセルに入れています。 ス</description>
+    </item>
+    
+    <item>
+      <title>AWS CLI を使ってS3バケットを作成する</title>
+      <link>https://swiswiswift.com/2022-02-01/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-01/</guid>
+      <description>AWS Command Line Interface（CLI）を使ってS3バケットを作成する方法です。 AWS CLIはAWSが提供する</description>
+    </item>
+    
+  </channel>
+</rss>
