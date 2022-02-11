@@ -9,7 +9,7 @@ tags = [
 categories = [
   "AWS"
 ]
-archives = "2022/01"
+archives = "2022/02"
 aliases = ["migrate-from-jekyl"]
 +++
 
