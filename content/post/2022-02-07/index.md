@@ -37,7 +37,7 @@ import urllib.request
 import json
 
 def main():
-    url = 'https://discord.com/api/webhooks/942669934578786345/ORWh5n5GbZ5ZksqDGRRhOfU2E59I5u6x94Rt4OCesMM2hu90IewNRl6PKLx6PslDVCHJ'
+    url = 'https://discord.com/api/webhooks/xxx/xxx'
     message = {'username': 'おはようBot', 'content' : 'おはようございます！'}
     data = json.dumps(message).encode("utf-8")
     request = urllib.request.Request(
