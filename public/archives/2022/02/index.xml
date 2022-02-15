@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/02/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>LambdaとEvent BridgeでDiscordの目覚ましBotを作る</title>
+      <link>https://swiswiswift.com/2022-02-07/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-07/</guid>
+      <description>LambdaとEvent BridgeでDiscordの目覚ましBotを作る方法です。 「おはよう」と毎</description>
+    </item>
+    
+    <item>
       <title>MKMapViewで経路を表示する</title>
       <link>https://swiswiswift.com/2022-02-06/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
