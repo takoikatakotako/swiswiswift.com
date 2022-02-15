@@ -20,6 +20,7 @@ LambdaとEvent BridgeでDiscordの目覚ましBotを作る方法です。
 
 まずDiscordでウェブフックを作成します。
 curlコマンドを使い、メッセージが届くことを確認します。
+https://discord.com/api/webhooks/xxx/xxx は差し替えてください。
 
 ```
 export WEBHOOK_URL="https://discord.com/api/webhooks/xxx/xxx"
@@ -30,7 +31,7 @@ curl \
 ```
 
 届いたことを確認したら上記curl文をPythonで書き換えます。
-これをLambdaに載っけます。
+書き換えたものが以下です。
 
 ```
 import urllib.request
@@ -58,20 +59,20 @@ if __name__ == '__main__':
     main()
 ```
 
+マネジメントコンソールから Lambda を作成します。
 
-MKMapViewで経路を表示する方法です。
-新宿駅から秋葉原駅への経路を表示しています。
+![Create](1.png)
 
-![Image](1.png)
+ソースコードを書き換えます。
 
-参考: [【Swift】MapKitで経由地点を含めたルートディレクションの表示方法](https://orangelog.site/swift/mapkit-waypoints-route-direction/)
+![Edit](2.png)
 
+Event Bridge にトリガーを設定します。
 
-<!-- Amazon Ads -->
-{{< amazon-ads >}}
+![Setting](3.png)
 
-<!-- Google Ads -->
-{{< google-ads >}}
+このように設定され、毎分Discordにメッセージが届けば完了です。
+Cronの時刻はGMTなので日本時刻とは時差があるので注意が必要です。
 
-{{< gist takoikatakotako a463227e5ade350bb9e5511c6113703f >}}
+![Edit](4.png)
 
