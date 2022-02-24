@@ -16,6 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 EC2インスタンスを立ててnginxをインストールしてブラウザからアクセスする方法です。
+
 まずSSH用のキーペアに権限を付与します。
 
 ```
@@ -43,35 +44,20 @@ sudo systemctl start nginx
 sudo systemctl status nginx
 ```
 
-curlコマンドでなんとかする。
+次にインターネットからEC2インスタンスにアクセスできるようにセキュリティグループで80番ポートを許可します。
+ブラウザにEC2インスタンスのパブリックIPを入力してアクセスするとnginxのページが表示されることを確認します。
+
+次にローカルの index.html ファイルを scp コマンドでEC2インスタンスに転送します。
 
 ```
-curl localhost
-```
-
-
-セキュリティグループで80番ポートを許可する。
-ブラウザIPアドレスを入力し、nginxを表示できることを確認する。
-
-
-index.html ファイルを SCPで転送する。
-
-cd  /usr/share/nginx/html
-
 chmod 777 index.html
-scp -i ./2022-02-20-delete-me.pem index.html ec2-user@18.183.251.213:/home/ec2-user
-ssh -i 2022-02-20-delete-me.pem ec2-user@18.183.251.213
+scp -i key-pair.pem index.html ec2-user@{IP_Address}:/home/ec2-user
+```
+
+nginx のページの index.html ファイルは /usr/share/nginx/html/html/index.html にあるので、先ほどアップロードした index.html で上書きします。
+
+```
 mv /home/ec2-user/index.html /usr/share/nginx/html/index.html
+```
 
-
-PythonでWebサイトのHTMLファイルを取得して保存する方法です。
-urllibでGETアクセスし、レスポンスを文字列として保存しています。
-
-<!-- Amazon Ads -->
-{{< amazon-ads >}}
-
-<!-- Google Ads -->
-{{< google-ads >}}
-
-{{< gist takoikatakotako 1a54d6808fe1d35c2e020f9e5f8ef55a >}}
-
+再度ブラウザにEC2インスタンスのパブリックIPを入力してアクセスするとローカルの index.html と同じ内容のものが表示されます。
