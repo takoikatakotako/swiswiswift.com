@@ -6,7 +6,25 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC2インスタンスにnginxをインストールしてブラウザからアクセスする</title>
+      <link>https://swiswiswift.com/2022-02-09/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-09/</guid>
+      <description>EC2インスタンスを立ててnginxをインストールしてブラウザからアクセスする方法です。 まずSSH用</description>
+    </item>
+    
+    <item>
+      <title>PythonでWebサイトのHTMLファイルを取得して保存する</title>
+      <link>https://swiswiswift.com/2022-02-08/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-02-08/</guid>
+      <description>PythonでWebサイトのHTMLファイルを取得して保存する方法です。 urllibでGETアクセス</description>
+    </item>
+    
     <item>
       <title>LambdaとEvent BridgeでDiscordの目覚ましBotを作る</title>
       <link>https://swiswiswift.com/2022-02-07/</link>
