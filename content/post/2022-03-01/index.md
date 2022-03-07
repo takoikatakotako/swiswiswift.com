@@ -85,5 +85,31 @@ ALBの作成画面に戻り、先ほど作成したターゲットグループ�
 ALBのURLをブラウザに入力し、nginxのページが表示されることを確認します。
 
 
-## Route53の
+## Route53を使いALBに独自ドメインを設定する
 
+Route53のコンソールからホストゾーンを選択し、シンプルルーテングを追加します。
+
+![Add Simple Routing](8.png)
+
+任意のレコード名を設定し、ルーティング先に先ほど追加したALBを設定します。
+
+![Set Simple Routing](9.png)
+
+追加したレコードにブラウザからアクセスし、nginxの画面が表示されることを確認します。
+
+
+## AWS Certificate Managerを使って証明書を作成してHTTPSにする
+
+ACMからパブリック証明書をリクエストします。
+
+![Request Certificate](10.png)
+
+![Request Certificate](11.png)
+
+ALBのリスナールールにHTTPSのリスナールールを設定します。
+
+![ALB Listener Rule](12.png)
+
+![ALB Listener Rule](13.png)
+
+最後にHTTPからのリクエストをHTTPSにリダイレクトする設定を行います。
