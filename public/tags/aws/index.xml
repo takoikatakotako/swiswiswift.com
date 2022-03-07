@@ -6,7 +6,16 @@
     <description>Recent content in AWS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALBに独自ドメインを設定してHTTPSにする</title>
+      <link>https://swiswiswift.com/2022-03-01/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-03-01/</guid>
+      <description>ALBに独自ドメインを設定してHTTPSにする方法です。 ALBの向き先をnginxをインストールした</description>
+    </item>
+    
     <item>
       <title>EC2インスタンスにnginxをインストールしてブラウザからアクセスする</title>
       <link>https://swiswiswift.com/2022-02-09/</link>
