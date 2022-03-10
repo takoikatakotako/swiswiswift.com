@@ -114,52 +114,52 @@ if (!doNotTrack) {
         <div class="post-content">
             <!-- raw HTML omitted -->
 <p>関数の引数は呼び出し側で省略したり、別名をつけたりすることができる。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">buyA</span>(product: Int, price: Int, quantity: Int) {
-    print(product, price, quantity)
-}
-buyA(product: <span style="color:#ae81ff">1200</span>, price: <span style="color:#ae81ff">1500</span>, quantity: <span style="color:#ae81ff">1</span>)
-
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">buyB</span>(<span style="color:#66d9ef">_</span> product: Int, <span style="color:#66d9ef">_</span> price: Int, <span style="color:#66d9ef">_</span> quantity: Int) {
-    print(product, price, quantity)
-}
-buyB(<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">123</span>)
-
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">buyC</span>(a product: Int, b price: Int, c quantity: Int) {
-    print(product, price, quantity)
-}
-buyC(a: <span style="color:#ae81ff">123</span>, b: <span style="color:#ae81ff">123</span>, c: <span style="color:#ae81ff">123</span>)
-</code></pre></div><p>関数が１行の場合は return を省略できる。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">messageA</span>() -&gt; String {
-    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
-}
-
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">messageB</span>() -&gt; String {
-    <span style="color:#e6db74">&#34;Hello&#34;</span>
-}
-</code></pre></div><p>return と同じ行に書いたコードは実行される。もちろんそれよりも下の行は実行されない。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">sayHello</span>() {
-    print(<span style="color:#e6db74">&#34;Hello&#34;</span>)
-    <span style="color:#66d9ef">return</span> print(<span style="color:#e6db74">&#34;XXX&#34;</span>)
-    print(<span style="color:#e6db74">&#34;YYY&#34;</span>)
-}
-
-sayHello()
-</code></pre></div><pre tabindex="0"><code>Hello
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">buyA</span>(product: Int, price: Int, quantity: Int) {
+</span></span><span style="display:flex;"><span>    print(product, price, quantity)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>buyA(product: <span style="color:#ae81ff">1200</span>, price: <span style="color:#ae81ff">1500</span>, quantity: <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">buyB</span>(<span style="color:#66d9ef">_</span> product: Int, <span style="color:#66d9ef">_</span> price: Int, <span style="color:#66d9ef">_</span> quantity: Int) {
+</span></span><span style="display:flex;"><span>    print(product, price, quantity)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>buyB(<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">123</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">buyC</span>(a product: Int, b price: Int, c quantity: Int) {
+</span></span><span style="display:flex;"><span>    print(product, price, quantity)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>buyC(a: <span style="color:#ae81ff">123</span>, b: <span style="color:#ae81ff">123</span>, c: <span style="color:#ae81ff">123</span>)
+</span></span></code></pre></div><p>関数が１行の場合は return を省略できる。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">messageA</span>() -&gt; String {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">messageB</span>() -&gt; String {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Hello&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>return と同じ行に書いたコードは実行される。もちろんそれよりも下の行は実行されない。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">sayHello</span>() {
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Hello&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> print(<span style="color:#e6db74">&#34;XXX&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;YYY&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sayHello()
+</span></span></code></pre></div><pre tabindex="0"><code>Hello
 XXX
 </code></pre><p>Swift で GOTO 的なことをする。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift">x: <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">true</span> {
-    y: <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">true</span> {
-        <span style="color:#66d9ef">continue</span> y
-    }
-}
-</code></pre></div><p>Swift には repeat という繰返し方法がある。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">var</span> counter = <span style="color:#ae81ff">0</span>
-<span style="color:#66d9ef">repeat</span> {
-    print(<span style="color:#e6db74">&#34;counter: </span><span style="color:#e6db74">\(</span>counter<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
-    counter = counter <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
-} <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">false</span>
-print(<span style="color:#e6db74">&#34;counter: </span><span style="color:#e6db74">\(</span>counter<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
-</code></pre></div><pre tabindex="0"><code>counter: 0
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span>x: <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">true</span> {
+</span></span><span style="display:flex;"><span>    y: <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">true</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span> y
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Swift には repeat という繰返し方法がある。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> counter = <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">repeat</span> {
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;counter: </span><span style="color:#e6db74">\(</span>counter<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    counter = counter <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;counter: </span><span style="color:#e6db74">\(</span>counter<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><pre tabindex="0"><code>counter: 0
 counter: 1
 </code></pre>
         </div>
@@ -253,7 +253,7 @@ counter: 1
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/atcoder">AtCoder (1)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/aws">AWS (6)</a>
+                <a href="https://swiswiswift.com/categories/aws">AWS (7)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/bash">bash (2)</a>
             </li><li class="cat-item cat-item-2">
@@ -348,6 +348,9 @@ counter: 1
         <h2>最近の投稿</h2>
         <ul>
             <li>
+                <a href="https://swiswiswift.com/2022-03-02/">LambdaのコードをCLIから更新する</a>
+            </li>
+            <li>
                 <a href="https://swiswiswift.com/2022-03-01/">ALBに独自ドメインを設定してHTTPSにする</a>
             </li>
             <li>
@@ -374,15 +377,12 @@ counter: 1
             <li>
                 <a href="https://swiswiswift.com/2022-02-02/">UICollectionViewのサンプル</a>
             </li>
-            <li>
-                <a href="https://swiswiswift.com/2022-02-01/">AWS CLI を使ってS3バケットを作成する</a>
-            </li>
         </ul>
     </aside>
 
     <aside class="widget widget_archive">
         <h2>アーカイブ</h2>
-        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/01">2020/01 (6)</a></li><li><a href="https://swiswiswift.com/archives/2020/02">2020/02 (29)</a></li><li><a href="https://swiswiswift.com/archives/2020/03">2020/03 (12)</a></li><li><a href="https://swiswiswift.com/archives/2020/04">2020/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2020/05">2020/05 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/06">2020/06 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/07">2020/07 (5)</a></li><li><a href="https://swiswiswift.com/archives/2020/08">2020/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2020/09">2020/09 (15)</a></li><li><a href="https://swiswiswift.com/archives/2020/10">2020/10 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/11">2020/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/12">2020/12 (13)</a></li><li><a href="https://swiswiswift.com/archives/2021/04">2021/04 (8)</a></li><li><a href="https://swiswiswift.com/archives/2021/05">2021/05 (11)</a></li><li><a href="https://swiswiswift.com/archives/2021/06">2021/06 (2)</a></li><li><a href="https://swiswiswift.com/archives/2021/07">2021/07 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/08">2021/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2021/09">2021/09 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/10">2021/10 (9)</a></li><li><a href="https://swiswiswift.com/archives/2021/11">2021/11 (16)</a></li><li><a href="https://swiswiswift.com/archives/2021/12">2021/12 (5)</a></li><li><a href="https://swiswiswift.com/archives/2022/01">2022/01 (8)</a></li><li><a href="https://swiswiswift.com/archives/2022/02">2022/02 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/03">2022/03 (1)</a></li>
+        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/01">2020/01 (6)</a></li><li><a href="https://swiswiswift.com/archives/2020/02">2020/02 (29)</a></li><li><a href="https://swiswiswift.com/archives/2020/03">2020/03 (12)</a></li><li><a href="https://swiswiswift.com/archives/2020/04">2020/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2020/05">2020/05 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/06">2020/06 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/07">2020/07 (5)</a></li><li><a href="https://swiswiswift.com/archives/2020/08">2020/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2020/09">2020/09 (15)</a></li><li><a href="https://swiswiswift.com/archives/2020/10">2020/10 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/11">2020/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/12">2020/12 (13)</a></li><li><a href="https://swiswiswift.com/archives/2021/04">2021/04 (8)</a></li><li><a href="https://swiswiswift.com/archives/2021/05">2021/05 (11)</a></li><li><a href="https://swiswiswift.com/archives/2021/06">2021/06 (2)</a></li><li><a href="https://swiswiswift.com/archives/2021/07">2021/07 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/08">2021/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2021/09">2021/09 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/10">2021/10 (9)</a></li><li><a href="https://swiswiswift.com/archives/2021/11">2021/11 (16)</a></li><li><a href="https://swiswiswift.com/archives/2021/12">2021/12 (5)</a></li><li><a href="https://swiswiswift.com/archives/2022/01">2022/01 (8)</a></li><li><a href="https://swiswiswift.com/archives/2022/02">2022/02 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/03">2022/03 (2)</a></li>
         </ul>
     </aside>
 

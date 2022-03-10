@@ -66,7 +66,7 @@
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-10-03/</guid>
-      <description>Dockerを使ってMySQLを練習する方法です。 まず以下のような docker-compose.yml を作成します。 version: &amp;quot;3.7&amp;quot; services: mysql: image: mysql:8.0.20 container_name: swiswiswift-mysql environment:</description>
+      <description>Dockerを使ってMySQLを練習する方法です。 まず以下のような docker-compose.yml を作成します。 version: &amp;#34;3.7&amp;#34; services: mysql: image: mysql:8.0.20 container_name: swiswiswift-mysql environment:</description>
     </item>
     
     <item>

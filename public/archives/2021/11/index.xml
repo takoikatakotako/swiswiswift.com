@@ -57,7 +57,7 @@
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-11-11/</guid>
-      <description>Rustでコマンドライン引数を渡す方法です。 use std::env; fn main() { let args: Vec&amp;lt;String&amp;gt; = env::args().collect(); println!(&amp;#34;{:?}&amp;#34;, args); } rustc main.rs ./main snorlax 143 [&amp;quot;./main&amp;quot;, &amp;quot;snorlax&amp;quot;, &amp;quot;143&amp;quot;]</description>
+      <description>Rustでコマンドライン引数を渡す方法です。 use std::env; fn main() { let args: Vec&amp;lt;String&amp;gt; = env::args().collect(); println!(&amp;#34;{:?}&amp;#34;, args); } rustc main.rs ./main snorlax 143 [&amp;#34;./main&amp;#34;, &amp;#34;snorlax&amp;#34;, &amp;#34;143&amp;#34;]</description>
     </item>
     
     <item>

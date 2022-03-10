@@ -6,7 +6,16 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LambdaのコードをCLIから更新する</title>
+      <link>https://swiswiswift.com/2022-03-02/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-03-02/</guid>
+      <description>LambdaのコードをCLIから更新する方法です。 list-functions コマンドで更新したい関数名を確認します。 aws lambda list-functions |</description>
+    </item>
+    
     <item>
       <title>ALBに独自ドメインを設定してHTTPSにする</title>
       <link>https://swiswiswift.com/2022-03-01/</link>
@@ -265,7 +274,7 @@
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-11-11/</guid>
-      <description>Rustでコマンドライン引数を渡す方法です。 use std::env; fn main() { let args: Vec&amp;lt;String&amp;gt; = env::args().collect(); println!(&amp;#34;{:?}&amp;#34;, args); } rustc main.rs ./main snorlax 143 [&amp;quot;./main&amp;quot;, &amp;quot;snorlax&amp;quot;, &amp;quot;143&amp;quot;]</description>
+      <description>Rustでコマンドライン引数を渡す方法です。 use std::env; fn main() { let args: Vec&amp;lt;String&amp;gt; = env::args().collect(); println!(&amp;#34;{:?}&amp;#34;, args); } rustc main.rs ./main snorlax 143 [&amp;#34;./main&amp;#34;, &amp;#34;snorlax&amp;#34;, &amp;#34;143&amp;#34;]</description>
     </item>
     
     <item>
@@ -418,7 +427,7 @@
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-10-03/</guid>
-      <description>Dockerを使ってMySQLを練習する方法です。 まず以下のような docker-compose.yml を作成します。 version: &amp;quot;3.7&amp;quot; services: mysql: image: mysql:8.0.20 container_name: swiswiswift-mysql environment:</description>
+      <description>Dockerを使ってMySQLを練習する方法です。 まず以下のような docker-compose.yml を作成します。 version: &amp;#34;3.7&amp;#34; services: mysql: image: mysql:8.0.20 container_name: swiswiswift-mysql environment:</description>
     </item>
     
     <item>
@@ -1232,30 +1241,30 @@
     </item>
     
     <item>
-      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
       <link>https://swiswiswift.com/2020-09-11/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-11/</guid>
-      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加す</description>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</description>
     </item>
     
     <item>
-      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Combine）</title>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Combine）</title>
       <link>https://swiswiswift.com/2020-09-10/</link>
       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-10/</guid>
-      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせ</description>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせて</description>
     </item>
     
     <item>
-      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Closure）</title>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Closure）</title>
       <link>https://swiswiswift.com/2020-09-09/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-09/</guid>
-      <description>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI</description>
+      <description>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and</description>
     </item>
     
     <item>
@@ -1894,7 +1903,7 @@
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-28/</guid>
-      <description>Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &amp;lt;script src=&amp;quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 以下のように書き</description>
+      <description>Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &amp;lt;script src=&amp;#34;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 以下のように書き</description>
     </item>
     
     <item>
