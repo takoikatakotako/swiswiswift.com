@@ -353,8 +353,13 @@ aws dynamodb delete-item \
 
 # 参考記事
 https://www.wakuwakubank.com/posts/675-aws-cli-dynamodb/
-https://dynobase.dev/dynamodb-cli-query-examples/#query-with-sorting
-https://dev.classmethod.jp/articles/partiql-for-dynamodb-example/
-https://qiita.com/ekzemplaro/items/93c0aef433a2b633ab4a
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-7.html
 
+https://dynobase.dev/dynamodb-cli-query-examples/#query-with-sorting
+
+https://dev.classmethod.jp/articles/partiql-for-dynamodb-example/
+
+https://qiita.com/ekzemplaro/items/93c0aef433a2b633ab4a
+
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/
+
+getting-started-step-7.html
