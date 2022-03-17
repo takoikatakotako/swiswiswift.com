@@ -31,5 +31,5 @@ MKMapViewで経路を表示する方法です。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako a463227e5ade350bb9e5511c6113703f >}}
+{{< gist takoikatakotako ce16ae407a9c90b5d55ac9884c02ad23 >}}
 

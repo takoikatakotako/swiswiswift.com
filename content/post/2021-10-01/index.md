@@ -18,6 +18,7 @@ aliases = ["migrate-from-jekyl"]
 
 MapViewのタップした箇所に黒丸を描画する方法です。
 タップした箇所に黒丸を描画しています。黒丸のサイズは地図に対して相対的ではなく絶対的（地図を拡大すると黒丸も大きくなる）になります。
+相対的なものにしたいときはMKPointAnnotationを使うと良いかもしれません。
 
 ![Map](1.gif)
 
@@ -28,5 +29,4 @@ MapViewのタップした箇所に黒丸を描画する方法です。
 {{< google-ads >}}
 
 {{< gist takoikatakotako 99e36641ed40aab5a01af63acc4cb239 >}}
-
 
