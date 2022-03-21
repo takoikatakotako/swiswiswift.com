@@ -54,80 +54,79 @@ Getを選択し、先ほど作成したLambda関数と連携させます。
 
 
 
-DynamoDBを作ります。
+次にDynamoDBを作ります。
+`todo-table` というテーブルを作り、`todoMessage` をパーテーションキーに、`todoDate` をソートキーに設定します。
+
+![Create DynamoDB](11.png)
+
+`todo-table` にデータを入れていきます。
 
 ```
 aws dynamodb put-item \
 --table-name todo-table \
---item '{ "todoMessage": { "S": "Clean My Room" }, "todoDate": { "S": "2022-03-20T00:00:00Z" } }' \
---profile sandbox
-```
-
-```
-aws dynamodb put-item \
---table-name todo-table \
---item '{ "todoMessage": { "S": "Shopping" }, "todoDate": { "S": "2022-03-19T00:00:00Z" } }' \
---profile sandbox
+--item '{ "todoMessage": { "S": "Clean My Room" }, "todoDate": { "S": "2022-03-20T00:00:00Z" } }'
 ```
 
 ```
 aws dynamodb put-item \
 --table-name todo-table \
---item '{ "todoMessage": { "S": "Programing" }, "todoDate": { "S": "2022-03-18T00:00:00Z" } }' \
---profile sandbox
+--item '{ "todoMessage": { "S": "Shopping" }, "todoDate": { "S": "2022-03-19T00:00:00Z" } }'
 ```
 
+```
+aws dynamodb put-item \
+--table-name todo-table \
+--item '{ "todoMessage": { "S": "Programing" }, "todoDate": { "S": "2022-03-18T00:00:00Z" } }'
+```
+
+追加したデータを確認します。
 
 ```
 aws dynamodb scan \
 --table-name todo-table \
---limit 10 \
---profile sandbox | jq
-```
-
-
-```
-aws dynamodb query \
---table-name todo-table \
---key-condition-expression "todoMessage = :todoMessage" \
---filter-expression 'attribute_not_exists(todoMessage)' \
---profile sandbox | jq
-
+--limit 10 | jq
 ```
 
 ```
 aws dynamodb scan \
 --table-name todo-table \
---filter-expression 'attribute_not_exists(todoMessage2)' \
---profile sandbox | jq
+--filter-expression 'attribute_exists(todoMessage)' \
+--filter-expression 'attribute_exists(todoDate)' \
+--limit 100 | jq
 ```
 
+Lambda関数のロールに DynamoDB へのアクセス権限を付与します。
 
-```
-aws dynamodb scan \
---table-name todo-table \
---filter-expression 'attribute_not_exists(todoMessage2)' \
---profile sandbox | jq
-```
+![Select Lambda Role](12.png)
 
+![Attach Policy](13.png)
+
+![Attach DynamoDB Full Access Policy](14.png)
+
+権限を付与したら Lambda のソースコードを変更します。
+Item をスキャンして返します。
 
 ```
 import json
 import boto3
 
-
-def lambda_handler(event, context):
-    # TODO implement
-    
+def lambda_handler(event, context):    
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('todo-table')
-    response = table.scan()
     
-    print(response['Items'])
+    scan_kwargs = {
+        'FilterExpression': 'attribute_exists(todoMessage)',
+        'FilterExpression': 'attribute_exists(todoDate)',
+        'Limit': 100,
+    }
     
+    response = table.scan(**scan_kwargs)
+    items = response['Items']    
     
     return {
         'statusCode': 200,
-        'body': json.dumps(response['Items'])
+        'body': json.dumps(items),
     }
 ```
+
+再び API Gateway のエンドポイントにブラウザからアクセスして Todoリストを確認できれば完成です。
