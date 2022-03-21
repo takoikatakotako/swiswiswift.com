@@ -177,8 +177,8 @@ aws dynamodb scan \
 ```
 aws dynamodb scan \
 --table-name pokemon-table \
---filter-expression 'pokemonType = :pt' \
---expression-attribute-values '{ ":pt": { "S": "Normal" } }' \
+--filter-expression 'pokemonType = :pokemonType' \
+--expression-attribute-values '{ ":pokemonType": { "S": "Normal" } }' \
 --limit 1 | jq
 ```
 
