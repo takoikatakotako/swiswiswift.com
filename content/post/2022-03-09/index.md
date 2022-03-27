@@ -50,29 +50,25 @@ API GatewayでRestAPIを作ります。
 ![Create Stage](7.png)
 
 
-API Gateway でカスタムドメインを作成します。
+API Gateway でカスタムドメインを作成します。`api-gateway.swiswiswift.com` というドメインを作成します。事前ににACM証明書を用意する必要があります。
 
 ![Create Custom Domain](8.png)
 
-
-API マッピングです。
-
-![API Mapping](9.png)
+![Create Custom Domai](9.png)
 
 
-ルーティングポリシーを設定。
+API Mappingの設定を行います。
 
-![Create Record](10.png)
-
-
-ルーティングポリシーを設定。
+![API Mapping](10.png)
 
 ![Create Record](11.png)
 
+
+Route53でレコードを設定します。
+レコード名を先に入力しないとAPI Gateway のエイリアスに候補が出てこないので注意が必要です。
+
 ![Create Record](12.png)
 
-![Create Record](13.png)
+`https://api-gateway.swiswiswift.com/` にアクセスしてレスポンスが帰ることを確認します。http -> https のリダイレクトは無いので注意が必要がです。
 
-`https://api-gateway.swiswiswift.com/` にアクセスしてレスポンスが帰ることを確認します。
-
-![Create Record](14.png)
+![Custom Domain](13.png)
