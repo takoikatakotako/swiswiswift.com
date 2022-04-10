@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://swiswiswift.com/categories/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/docker/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/docker/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2022-04-02/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/post/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/</loc>
+    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/java/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/java/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/spring/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/spring/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2022-04-01/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://swiswiswift.com/2022-03-09/</loc>
     <lastmod>2022-03-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,18 +45,6 @@
     <lastmod>2022-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/categories/aws/</loc>
-    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/</loc>
     <lastmod>2022-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2022-03-08/</loc>
@@ -170,18 +194,6 @@
     <loc>https://swiswiswift.com/2021-11-14/</loc>
     <lastmod>2021-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://swiswiswift.com/tags/java/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/java/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/spring/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/spring/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://swiswiswift.com/2021-11-13/</loc>
     <lastmod>2021-11-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -238,12 +250,6 @@
   </url><url>
     <loc>https://swiswiswift.com/2021-10-06/</loc>
     <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/docker/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/docker/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/mysql/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
@@ -1483,6 +1489,8 @@
     <loc>https://swiswiswift.com/archives/2022/02/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/2022/03/</loc>
+  </url><url>
+    <loc>https://swiswiswift.com/archives/2022/04/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/</loc>
   </url><url>

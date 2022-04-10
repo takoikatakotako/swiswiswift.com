@@ -7,7 +7,7 @@ tags = [
   "Docker"
 ]
 categories = [
-  "Docker"　
+  "Docker"
 ]
 archives = "2022/04"
 aliases = ["migrate-from-jekyl"]
