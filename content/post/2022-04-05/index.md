@@ -1,15 +1,15 @@
 +++
-title =  ""
+title =  "SwiftUIで画像をピンチで拡大する（MagnificationGesture）"
 url = "2022-04-05"
 date = "2022-04-05"
-description = "findコマンドでディレクトリを探す"
+description = "SwiftUIで画像をピンチで拡大する（MagnificationGesture）"
 tags = [
-  "Linux",
-  "find"
+  "iOS",
+  "SwiftUI"
 ]
 categories = [
-  "Linux",
-  "find"
+  "iOS",
+  "SwiftUI"
 ]
 archives = "2022/04"
 aliases = ["migrate-from-jekyl"]
@@ -17,27 +17,18 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-findコマンドでディレクトリを探す方法です。
-findコマンドで2階層以内のsnorlaxディレクトリを検索します。
+SwiftUIで画像をピンチで拡大する方法です。
+MagnificationGestureを使った方法で画像をピンチで拡大します。
+ただこの方法ではドラッグすることができないので、他の方法にする必要があります。
 
-```
-.
-├── slowpoke
-│   └── snorlax
-└── snorlax
-    └── snorlax
-        └── snorlax
-            └── snorlax
-                └── snorlax
-```
+![Pinch and Zoom](1.gif)
 
-```
-find . -type d -maxdepth 2 -name "snorlax"
-```
 
-```
-./snorlax
-./snorlax/snorlax
-./slowpoke/snorlax
-```
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
+{{< gist takoikatakotako 2c80da179839a3767cd87f7646784885 >}}
 
