@@ -20,6 +20,13 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIで画像をピンチで拡大する方法です。
 UIImageViewとUIScrollViewを使って画像をピンチで拡大します。
 
+他にはこのような方法があります。
+
+[SwiftUIで画像をピンチで拡大する（MagnificationGesture）](/2022-04-05)
+
+[SwiftUIで画像をピンチで拡大する（PDFView）](/2022-04-06)
+
+
 ![Pinch and Zoom](1.gif)
 
 <!-- Amazon Ads -->

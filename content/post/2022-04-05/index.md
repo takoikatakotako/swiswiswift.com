@@ -21,6 +21,12 @@ SwiftUIで画像をピンチで拡大する方法です。
 MagnificationGestureを使った方法で画像をピンチで拡大します。
 ただこの方法ではドラッグすることができないので、他の方法にする必要があります。
 
+他にはこのような方法があります。
+
+[SwiftUIで画像をピンチで拡大する（PDFView）](/2022-04-06)
+
+[SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）](/2022-04-07)
+
 ![Pinch and Zoom](1.gif)
 
 
