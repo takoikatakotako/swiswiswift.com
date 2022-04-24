@@ -6,7 +6,25 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>findコマンドでディレクトリを探す</title>
+      <link>https://swiswiswift.com/2022-04-04/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-04/</guid>
+      <description>findコマンドでディレクトリを探す方法です。 findコマンドで2階層以内のsnorlaxディレクト</description>
+    </item>
+    
+    <item>
+      <title>cut コマンドで文字をカットする</title>
+      <link>https://swiswiswift.com/2022-04-03/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-03/</guid>
+      <description>cutコマンドを使うことで文字列を切り取ることができます。 2文字目から4文字目をカットしています。 echo</description>
+    </item>
+    
     <item>
       <title>id_rsa’ are too open.</title>
       <link>https://swiswiswift.com/2019-01-28/</link>
