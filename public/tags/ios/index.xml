@@ -6,7 +6,34 @@
     <description>Recent content in iOS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（UIImageView &#43; UIScrollView）</title>
+      <link>https://swiswiswift.com/2022-04-07/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-07/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 UIImageViewとUIScrollViewを使</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（PDFView）</title>
+      <link>https://swiswiswift.com/2022-04-06/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-06/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 画像をピンチで拡大します。 他にはこのような方法があり</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（MagnificationGesture）</title>
+      <link>https://swiswiswift.com/2022-04-05/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-05/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 MagnificationGestureを使った方法</description>
+    </item>
+    
     <item>
       <title>SwiftUIでMapViewを使い複数の位置情報を選択する</title>
       <link>https://swiswiswift.com/2022-03-07/</link>

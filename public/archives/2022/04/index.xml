@@ -7,6 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/04/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SwiftUIで画像をピンチで拡大する（UIImageView &#43; UIScrollView）</title>
+      <link>https://swiswiswift.com/2022-04-07/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-07/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 UIImageViewとUIScrollViewを使</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（PDFView）</title>
+      <link>https://swiswiswift.com/2022-04-06/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-06/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 画像をピンチで拡大します。 他にはこのような方法があり</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（MagnificationGesture）</title>
+      <link>https://swiswiswift.com/2022-04-05/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-05/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 MagnificationGestureを使った方法</description>
+    </item>
+    
+    <item>
+      <title>findコマンドでディレクトリを探す</title>
+      <link>https://swiswiswift.com/2022-04-04/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-04/</guid>
+      <description>findコマンドでディレクトリを探す方法です。 findコマンドで2階層以内のsnorlaxディレクト</description>
+    </item>
+    
+    <item>
+      <title>cut コマンドで文字をカットする</title>
+      <link>https://swiswiswift.com/2022-04-03/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-03/</guid>
+      <description>cutコマンドを使うことで文字列を切り取ることができます。 2文字目から4文字目をカットしています。 echo</description>
+    </item>
+    
+    <item>
       <title>Dockerビルドに秘密情報を使う</title>
       <link>https://swiswiswift.com/2022-04-02/</link>
       <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
