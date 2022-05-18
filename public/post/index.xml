@@ -6,7 +6,34 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC2にMySQLをインストールする</title>
+      <link>https://swiswiswift.com/2022-05-02/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-02/</guid>
+      <description>EC2インスタンスにMySQLをインストールする方法です。 # ルートユーザーに切り替える。 sudo su - # イン</description>
+    </item>
+    
+    <item>
+      <title>FFmpegを使って動画の情報を表示する</title>
+      <link>https://swiswiswift.com/2022-05-01/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-01/</guid>
+      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 $ ffmpeg -i movie.mp4</description>
+    </item>
+    
+    <item>
+      <title>ターミナルのアカウント名を一時的に変更する</title>
+      <link>https://swiswiswift.com/2022-04-10/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-04-10/</guid>
+      <description>ターミナルのアカウント名を一時的に変更する方法です。 以下のコマンドで一時的にアカウント名を変えること</description>
+    </item>
+    
     <item>
       <title>Lambdaトリガー（Lambda Permission）のStatement IDを確認する</title>
       <link>https://swiswiswift.com/2022-04-09/</link>
