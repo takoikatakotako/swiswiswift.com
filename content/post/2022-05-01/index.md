@@ -20,6 +20,12 @@ aliases = ["migrate-from-jekyl"]
 FFmpegを使って動画の情報を表示する方法です。
 以下のコマンドで表示することができました。
 
+<!-- Amazon Ads -->
+{{< amazon-ads >}}
+
+<!-- Google Ads -->
+{{< google-ads >}}
+
 ```
 $ ffmpeg -i movie.mp4
 ```
