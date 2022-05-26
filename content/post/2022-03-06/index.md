@@ -251,7 +251,7 @@ aws dynamodb query \
 ```
 aws dynamodb query \
 --table-name pokemon-table \
---index-name pokemon-type-index	\
+--index-name pokemon-type-index \
 --key-condition-expression "pokemonType = :pokemonType" \
 --expression-attribute-values '{ ":pokemonType": { "S": "Normal" } }' | jq
 ```
