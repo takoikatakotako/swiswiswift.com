@@ -1,8 +1,8 @@
 +++
-title =  "iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く"
+title =  "iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く"
 url = "2022-06-05"
 date = "2022-06-05"
-description = "iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く"
+description = "iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く"
 tags = [
   "SwiftUI"
 ]
@@ -15,16 +15,13 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く方法です。
+iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く方法です。
 
-![ファイル](1.gif)
+![Preview](1.gif)
 
-ファイルを開く前にファイルを作る必要があります。
-アプリのドキュメントディレクトリにファイルを保存するアプリを書きます。
+`info.plist` にファイルアプリでドキュメントディレクトリを開けるように `Supports opening documents in place` と `Application supports iTunes file sharing` を追加し、どちらも `YES` に設定します。
 
 ![plist](1.png)
-
-{{< gist takoikatakotako acf3246a3d2d1d0b909f85cf2de6d6c2 >}}
 
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
@@ -32,8 +29,5 @@ iOSのファイルアプリを開いてドキュメントフォルダに保存�
 <!-- Google Ads -->
 {{< google-ads >}}
 
-
-次に `info.plist` にファイルアプリでドキュメントディレクトリを開けるように `Supports opening documents in place` と `Application supports iTunes file sharing` を追加し、どちらも `YES` に設定します。
-
-![plist](2.png)
+{{< gist takoikatakotako 9fafd9750fb0f843daf8d6f3e3ecf82a >}}
 
