@@ -6,7 +6,133 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでObservableObjectの@publishedなプロパティとBindingをする</title>
+      <link>https://swiswiswift.com/2022-06-06/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-06/</guid>
+      <description>SwiftUIでObservableObjectの@publishedなプロパティとBindingを</description>
+    </item>
+    
+    <item>
+      <title>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く</title>
+      <link>https://swiswiswift.com/2022-06-05/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-05/</guid>
+      <description>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュ</description>
+    </item>
+    
+    <item>
+      <title>Swiftで複数のViewをドラッグで移動する</title>
+      <link>https://swiswiswift.com/2022-06-04/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-04/</guid>
+      <description>Swiftで複数のViewをドラッグで移動する方法です。 ViewController でタッチのイベントを検出し、Pokemon</description>
+    </item>
+    
+    <item>
+      <title>Swiftでドラッグで移動し、長押しでContextMenuを表示する</title>
+      <link>https://swiswiswift.com/2022-06-03/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-03/</guid>
+      <description>Swiftでドラッグで移動し、長押しでContextMenuを表示する方法です。 ViewController でタッチのイベント</description>
+    </item>
+    
+    <item>
+      <title>Swiftでタップ、ドラッグした箇所にViewを移動させる</title>
+      <link>https://swiswiswift.com/2022-06-02/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-02/</guid>
+      <description>Swiftでタップ、ドラッグした箇所にViewを移動させる方法です。 ViewController でタッチのイベントを検出し、そ</description>
+    </item>
+    
+    <item>
+      <title>Playgroundで2次のベジェ曲線を描画する</title>
+      <link>https://swiswiswift.com/2022-06-01/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-01/</guid>
+      <description>Playgroundで2次のベジェ曲線を描画する方法です。 あなたの知らないベジェ曲線の世界 に詳細な解</description>
+    </item>
+    
+    <item>
+      <title>Swiftで配列からランダムに要素を取り出す</title>
+      <link>https://swiswiswift.com/2022-05-10/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-10/</guid>
+      <description>Swiftで配列からランダムに要素を取り出す方法です。 配列をシャッフルした後に先頭の要素を取得してい</description>
+    </item>
+    
+    <item>
+      <title>Swiftで16進数を使う</title>
+      <link>https://swiswiswift.com/2022-05-09/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-09/</guid>
+      <description>Swiftで16進数を使う方法です。 0x を使うことで16進数を表現できます。(1, 2, 3, 4, 5, 6, 7, 8, 9, a, b,</description>
+    </item>
+    
+    <item>
+      <title>Swiftで桁数を指定する</title>
+      <link>https://swiswiswift.com/2022-05-08/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-08/</guid>
+      <description>e の後ろに桁数を指定することができます。 let number: Double = 123e2 print(number) // 12300.0 負の値にすると小数点にできます。 let number: Double = 123e-4 print(number)</description>
+    </item>
+    
+    <item>
+      <title>Swiftで関数の引数にジェネリクスを使う</title>
+      <link>https://swiswiswift.com/2022-05-07/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-07/</guid>
+      <description>Swiftで関数の引数にジェネリクスを使う方法です。 以下のように記述することで、引数に Int でも String でも受</description>
+    </item>
+    
+    <item>
+      <title>PlaygroundでViewのプレビューを表示する</title>
+      <link>https://swiswiswift.com/2022-05-06/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-06/</guid>
+      <description>PlaygroundでViewのプレビューを表示する方法です。 PlaygroundPage.current.liveView に表示したいViewを設定することで</description>
+    </item>
+    
+    <item>
+      <title>SwiftでSetから要素を削除する</title>
+      <link>https://swiswiswift.com/2022-05-06/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-06/</guid>
+      <description>SwiftでSetから要素を削除する方法です。 remove を使うことで要素を削除することができます。 var mySet: Set = [1,</description>
+    </item>
+    
+    <item>
+      <title>Pythonで別ファイルの関数を実行する</title>
+      <link>https://swiswiswift.com/2022-05-04/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-04/</guid>
+      <description>Pythonで別ファイルの関数を実行する方法です。 functions.py で定義した hello() を main.py で実行しています。 $ python main.py amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+    </item>
+    
+    <item>
+      <title>JavaScriptでBMI計算機を作る</title>
+      <link>https://swiswiswift.com/2022-05-03/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-05-03/</guid>
+      <description>JavaScriptでBMI計算機を作る方法です。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; (adsbygoogle =</description>
+    </item>
+    
     <item>
       <title>EC2にMySQLをインストールする</title>
       <link>https://swiswiswift.com/2022-05-02/</link>
@@ -22,7 +148,7 @@
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-01/</guid>
-      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 $ ffmpeg -i movie.mp4</description>
+      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
     </item>
     
     <item>
@@ -716,15 +842,6 @@
       
       <guid>https://swiswiswift.com/2021-07-01/</guid>
       <description>iOSのMKMapViewの上に図形を描画する方法です。 MKPolygon を使うことで任意の多角形を描画することがで</description>
-    </item>
-    
-    <item>
-      <title>iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く</title>
-      <link>https://swiswiswift.com/2021-06-02/</link>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/2021-06-02/</guid>
-      <description>iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く方法です。 アプリのドキュメ</description>
     </item>
     
     <item>

@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/06/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く</title>
-      <link>https://swiswiswift.com/2021-06-02/</link>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <title>SwiftUIでObservableObjectの@publishedなプロパティとBindingをする</title>
+      <link>https://swiswiswift.com/2022-06-06/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2021-06-02/</guid>
-      <description>iOSのファイルアプリを開いてドキュメントフォルダに保存したファイルを開く方法です。 アプリのドキュメ</description>
+      <guid>https://swiswiswift.com/2022-06-06/</guid>
+      <description>SwiftUIでObservableObjectの@publishedなプロパティとBindingを</description>
+    </item>
+    
+    <item>
+      <title>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く</title>
+      <link>https://swiswiswift.com/2022-06-05/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-05/</guid>
+      <description>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュ</description>
     </item>
     
     <item>
