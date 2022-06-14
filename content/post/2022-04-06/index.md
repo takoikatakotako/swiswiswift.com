@@ -32,8 +32,6 @@ SwiftUIで画像をピンチで拡大する方法です。
 ![Pinch and Zoom](1.gif)
 
 
-
-
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 

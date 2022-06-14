@@ -79,6 +79,11 @@ cat /var/log/mysqld.log | grep root
 mysql_secure_installation
 ```
 
+```
+# ログインできることを確認
+mysql -u root -p
+```
+
 
 ### 参考
 [AWS EC2 AmazonLinux2 MySQLをインストールする](https://qiita.com/miriwo/items/eb09c065ee9bb7e8fe06)

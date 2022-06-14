@@ -6,7 +6,43 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUI</title>
+      <link>https://swiswiswift.com/categories/swiftui/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/swiftui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://swiswiswift.com/categories/swift/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://swiswiswift.com/categories/python/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://swiswiswift.com/categories/javascript/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AWS</title>
       <link>https://swiswiswift.com/categories/aws/</link>
@@ -53,15 +89,6 @@
     </item>
     
     <item>
-      <title>SwiftUI</title>
-      <link>https://swiswiswift.com/categories/swiftui/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/swiftui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>find</title>
       <link>https://swiswiswift.com/categories/find/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
@@ -103,24 +130,6 @@
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/spring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://swiswiswift.com/categories/python/</link>
-      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://swiswiswift.com/categories/swift/</link>
-      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/swift/</guid>
       <description></description>
     </item>
     
@@ -418,15 +427,6 @@
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/igor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://swiswiswift.com/categories/javascript/</link>
-      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/javascript/</guid>
       <description></description>
     </item>
     
