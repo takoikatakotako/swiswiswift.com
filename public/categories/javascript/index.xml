@@ -6,7 +6,16 @@
     <description>Recent content in JavaScript on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LambdaでBMIを計算するAPIを作成してJSで呼び出す</title>
+      <link>https://swiswiswift.com/2022-06-08/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-08/</guid>
+      <description>LambdaでBMIを計算するAPIを作成してJSで呼び出す方法です。 以下のコードをコードタブに貼り</description>
+    </item>
+    
     <item>
       <title>JavaScriptでBMI計算機を作る</title>
       <link>https://swiswiswift.com/2022-05-03/</link>
