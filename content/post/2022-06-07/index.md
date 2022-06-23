@@ -24,7 +24,7 @@ JSから呼び出す場合はCORSの設定を行う必要があります。
 ![Preview](1.png)
 
 ```
-curl -X POST -d '{"hight":170, "weight":60}' {ENDPOINT_URL}
+curl -X POST -H "Content-Type: application/json" -d '{"hight":170, "weight":60}' {ENDPOINT_URL}
 ```
 
 ```

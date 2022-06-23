@@ -113,18 +113,27 @@ if (!doNotTrack) {
 
         <div class="post-content">
             <!-- raw HTML omitted -->
-<p>LambdaでBMIを計算するAPIを作成してJSで呼び出す方法です。
-以下のコードをコードタブに貼り付け関数URLを作成します。</p>
+<p>LambdaでBMIを計算するAPIを作成してJSで呼び出す方法です。</p>
+<h2 id="lambdaでapiを作成する">LambdaでAPIを作成する</h2>
+<p>Lambdaと関数URLを使ってAPIを作成します。
+マネジメントコンソールからLambda関数を作成します。</p>
 <p><img src="1.png" alt="Lambda"></p>
-<p>以下のcurlコマンドを実行し、bmiが計算されることを確認します。</p>
-<pre tabindex="0"><code>curl -X POST -d &#39;{&#34;hight&#34;:170, &#34;weight&#34;:60}&#39; {ENDPOINT_URL}
+<script type="application/javascript" src="https://gist.github.com/takoikatakotako/43eea80c16207f8101b5ec97de7cf702.js"></script>
+
+<p>以下のcurlコマンドを実行し、bmiが計算されることを確認します。
+<code>{ENDPOINT_URL}</code> は関数URLの値です。</p>
+<pre tabindex="0"><code>curl -X POST -H &#34;Content-Type: application/json&#34; -d &#39;{&#34;hight&#34;:170, &#34;weight&#34;:60}&#39; {ENDPOINT_URL}
 </code></pre><pre tabindex="0"><code>{
   &#34;bmi&#34;: 20.761245674740486
 }
-</code></pre><p>CORSの設定します。</p>
+</code></pre><h2 id="corsの設定">CORSの設定</h2>
+<p>オリジンが異なるJSからAPIを使うにはCORSの設定を行う必要があります。
+許可ヘッダーに <code>content-type</code> を入力し、許可メソッドに <code>POST</code> を追加します。</p>
 <p><img src="2.png" alt="CORS"></p>
-<p>次に <code>index.html</code> と <code>script.js</code> を作成します。
-計算ボタンを押すとBMIが計算されるとBMIがアラートで表示されます。</p>
+<h2 id="htmlとjsを作成">HTMLとJSを作成</h2>
+<p>以下のコードを参考にしながら <code>index.html</code> と <code>script.js</code> を作成します。
+計算ボタンを押すとBMIが計算されるとBMIがアラートで表示されます。
+JS中の <code>{ENDPOINT_URL}</code> は関数URLの値を使用します。</p>
 <script type="application/javascript" src="https://gist.github.com/takoikatakotako/1619954860ed744a705b558890232626.js"></script>
 
 

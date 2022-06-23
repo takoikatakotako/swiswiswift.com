@@ -117,7 +117,7 @@ if (!doNotTrack) {
 以下のコードをコードタブに貼り付け関数URLを作成します。
 JSから呼び出す場合はCORSの設定を行う必要があります。</p>
 <p><img src="1.png" alt="Preview"></p>
-<pre tabindex="0"><code>curl -X POST -d &#39;{&#34;hight&#34;:170, &#34;weight&#34;:60}&#39; {ENDPOINT_URL}
+<pre tabindex="0"><code>curl -X POST -H &#34;Content-Type: application/json&#34; -d &#39;{&#34;hight&#34;:170, &#34;weight&#34;:60}&#39; {ENDPOINT_URL}
 </code></pre><pre tabindex="0"><code>{
   &#34;bmi&#34;: 20.761245674740486
 }
