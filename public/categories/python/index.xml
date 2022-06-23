@@ -6,7 +6,25 @@
     <description>Recent content in Python on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LambdaでBMIを計算するAPIを作成してJSで呼び出す</title>
+      <link>https://swiswiswift.com/2022-06-08/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-08/</guid>
+      <description>LambdaでBMIを計算するAPIを作成してJSで呼び出す方法です。 以下のコードをコードタブに貼り</description>
+    </item>
+    
+    <item>
+      <title>LambdaでBMIを計算するAPIを作成する</title>
+      <link>https://swiswiswift.com/2022-06-07/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-07/</guid>
+      <description>LambdaでBMIを計算するAPIを作成する方法です。 以下のコードをコードタブに貼り付け関数URL</description>
+    </item>
+    
     <item>
       <title>Pythonで別ファイルの関数を実行する</title>
       <link>https://swiswiswift.com/2022-05-04/</link>
