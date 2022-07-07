@@ -18,20 +18,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 LambdaでBMIを計算するAPIを作成する方法です。
-以下のコードをコードタブに貼り付け関数URLを作成します。
-JSから呼び出す場合はCORSの設定を行う必要があります。
-
-![Preview](1.png)
-
-```
-curl -X POST -H "Content-Type: application/json" -d '{"hight":170, "weight":60}' {ENDPOINT_URL}
-```
-
-```
-{
-  "bmi": 20.761245674740486
-}
-```
+以下のコードをコードタブに貼り付けLambda関数を作成します。
 
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
@@ -39,4 +26,24 @@ curl -X POST -H "Content-Type: application/json" -d '{"hight":170, "weight":60}'
 <!-- Google Ads -->
 {{< google-ads >}}
 
+![Preview](1.png)
+
 {{< gist takoikatakotako 47068dc30c1774d2364f4821fc8adf6b >}}
+
+次に関数URLを作成します。
+
+![Preview](2.png)
+
+curl から作成した関数URLに対してリクエストを送ります。
+
+```
+curl -X POST -H "Content-Type: application/json" -d '{"hight":170, "weight":60}' {ENDPOINT_URL}
+```
+
+以下のようなレスポンスが返れば成功です。
+
+```
+{
+  "bmi": 20.761245674740486
+}
+```
