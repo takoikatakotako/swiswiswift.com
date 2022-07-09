@@ -24,7 +24,8 @@ Lambdaと関数URLの作成方法は [こちら](/2022-06-07/) を参考にし�
 
 ### Lmabdaにデータを送る
 
-`snorlax` を送る。
+Lambda に `snorlax` というデータを送ります。
+受け取ったデータは `event['body']` で受け取ることができますが、base64でデコードする必要があります。
 
 ```
 import json
@@ -45,7 +46,7 @@ def lambda_handler(event, context):
 ```
 
 ```
-curl -X POST -d 'snorlax' https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap-northeast-1.on.aws/ | jq
+curl -X POST -d 'snorlax' {ENDPOINT_URL} | jq
 ```
 
 ```
@@ -57,7 +58,8 @@ curl -X POST -d 'snorlax' https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap
 
 ### LmabdaにJSONデータを送る
 
-`{"pokemon":"snorlax"}` を送る。
+Lambda に `{"pokemon":"snorlax"}` というデータを送ります。
+受け取ったデータは `event['body']` で受け取ることができますが、base64でデコードし、mapに変換する必要があります。
 
 ```
 import json
@@ -84,7 +86,7 @@ def lambda_handler(event, context):
 ```
 
 ```
-curl -X POST -d '{"pokemon":"snorlax"}' https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap-northeast-1.on.aws/ | jq
+curl -X POST -d '{"pokemon":"snorlax"}' {ENDPOINT_URL} | jq
 ```
 
 ```
@@ -96,7 +98,8 @@ curl -X POST -d '{"pokemon":"snorlax"}' https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct
 
 ### LmabdaにContextType付きでJSONデータを送る
 
-`{"pokemon":"snorlax"}` を送る。
+Lambda に `{"pokemon":"snorlax"}` というデータを `Content-Type: application/json` ヘッダー付きで送ります。
+受け取ったデータは `event['body']` で受け取ることができ、base64でデコードせずとも、mapに変換することができます。
 
 ```
 import json
@@ -117,7 +120,7 @@ def lambda_handler(event, context):
 ```
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"pokemon":"snorlax"}' https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap-northeast-1.on.aws/ | jq
+curl -X POST -H "Content-Type: application/json" -d '{"pokemon":"snorlax"}' {ENDPOINT_URL} | jq
 ```
 
 ```
