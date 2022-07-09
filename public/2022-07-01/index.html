@@ -116,7 +116,8 @@ if (!doNotTrack) {
 <p>curlでLambdaの関数URLにリクエストを送る方法です。
 Lambdaと関数URLの作成方法は <a href="https://swiswiswift.com/2022-06-07/">こちら</a> を参考にしてください。</p>
 <h3 id="lmabdaにデータを送る">Lmabdaにデータを送る</h3>
-<p><code>snorlax</code> を送る。</p>
+<p>Lambda に <code>snorlax</code> というデータを送ります。
+受け取ったデータは <code>event['body']</code> で受け取ることができますが、base64でデコードする必要があります。</p>
 <pre tabindex="0"><code>import json
 import base64
 
@@ -132,12 +133,13 @@ def lambda_handler(event, context):
         &#39;statusCode&#39;: 200,
         &#39;body&#39;: json.dumps(response)
     }
-</code></pre><pre tabindex="0"><code>curl -X POST -d &#39;snorlax&#39; https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap-northeast-1.on.aws/ | jq
+</code></pre><pre tabindex="0"><code>curl -X POST -d &#39;snorlax&#39; {ENDPOINT_URL} | jq
 </code></pre><pre tabindex="0"><code>{
   &#34;pokemon&#34;: &#34;snorlax&#34;
 }
 </code></pre><h3 id="lmabdaにjsonデータを送る">LmabdaにJSONデータを送る</h3>
-<p><code>{&quot;pokemon&quot;:&quot;snorlax&quot;}</code> を送る。</p>
+<p>Lambda に <code>{&quot;pokemon&quot;:&quot;snorlax&quot;}</code> というデータを送ります。
+受け取ったデータは <code>event['body']</code> で受け取ることができますが、base64でデコードし、mapに変換する必要があります。</p>
 <pre tabindex="0"><code>import json
 import base64
 
@@ -159,12 +161,13 @@ def lambda_handler(event, context):
         &#39;statusCode&#39;: 200,
         &#39;body&#39;: json.dumps(response)
     }
-</code></pre><pre tabindex="0"><code>curl -X POST -d &#39;{&#34;pokemon&#34;:&#34;snorlax&#34;}&#39; https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap-northeast-1.on.aws/ | jq
+</code></pre><pre tabindex="0"><code>curl -X POST -d &#39;{&#34;pokemon&#34;:&#34;snorlax&#34;}&#39; {ENDPOINT_URL} | jq
 </code></pre><pre tabindex="0"><code>{
   &#34;pokemon&#34;: &#34;snorlax&#34;
 }
 </code></pre><h3 id="lmabdaにcontexttype付きでjsonデータを送る">LmabdaにContextType付きでJSONデータを送る</h3>
-<p><code>{&quot;pokemon&quot;:&quot;snorlax&quot;}</code> を送る。</p>
+<p>Lambda に <code>{&quot;pokemon&quot;:&quot;snorlax&quot;}</code> というデータを <code>Content-Type: application/json</code> ヘッダー付きで送ります。
+受け取ったデータは <code>event['body']</code> で受け取ることができ、base64でデコードせずとも、mapに変換することができます。</p>
 <pre tabindex="0"><code>import json
 
 def lambda_handler(event, context):
@@ -180,7 +183,7 @@ def lambda_handler(event, context):
         &#39;statusCode&#39;: 200,
         &#39;body&#39;: json.dumps(response)
     }
-</code></pre><pre tabindex="0"><code>curl -X POST -H &#34;Content-Type: application/json&#34; -d &#39;{&#34;pokemon&#34;:&#34;snorlax&#34;}&#39; https://kpbgp7tjt7yyoyerlj3upsb6uu0jjlct.lambda-url.ap-northeast-1.on.aws/ | jq
+</code></pre><pre tabindex="0"><code>curl -X POST -H &#34;Content-Type: application/json&#34; -d &#39;{&#34;pokemon&#34;:&#34;snorlax&#34;}&#39; {ENDPOINT_URL} | jq
 </code></pre><pre tabindex="0"><code>{
   &#34;pokemon&#34;: &#34;snorlax&#34;
 }
