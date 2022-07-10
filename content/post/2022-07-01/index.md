@@ -13,7 +13,7 @@ categories = [
   "Python",
   "JavaScript"
 ]
-archives = "2021/06"
+archives = "2021/07"
 aliases = ["migrate-from-jekyl"]
 +++
 
