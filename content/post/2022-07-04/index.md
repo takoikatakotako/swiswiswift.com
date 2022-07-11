@@ -1,5 +1,5 @@
 +++
-title =  "cpコマンド（LPIC）"
+title = "cpコマンド（LPIC）"
 url = "2022-07-04"
 date = "2022-07-04"
 description = "cpコマンド（LPIC）"

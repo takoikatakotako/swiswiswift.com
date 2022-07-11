@@ -1,5 +1,5 @@
 +++
-title =  rmコマンド（LPIC）"
+title = "rmコマンド（LPIC）"
 url = "2022-07-07"
 date = "2022-07-07"
 description = "rmコマンド（LPIC）"

@@ -1,5 +1,5 @@
 +++
-title =  "lsコマンド（LPIC）"
+title = "lsコマンド（LPIC）"
 url = "2022-07-03"
 date = "2022-07-03"
 description = "lsコマンド（LPIC）"

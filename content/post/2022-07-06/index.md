@@ -1,5 +1,5 @@
 +++
-title =  "mkdirコマンド（LPIC）"
+title = "mkdirコマンド（LPIC）"
 url = "2022-07-06"
 date = "2022-07-06"
 description = "mkdirコマンド（LPIC）"

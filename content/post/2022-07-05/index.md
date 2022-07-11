@@ -1,5 +1,5 @@
 +++
-title =  "mvコマンド（LPIC）"
+title = "mvコマンド（LPIC）"
 url = "2022-07-05"
 date = "2022-07-05"
 description = "mvコマンド（LPIC）"
