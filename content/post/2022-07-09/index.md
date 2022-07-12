@@ -1,7 +1,7 @@
 +++
 title = "touchコマンド（LPIC）"
-url = "2022-07-08"
-date = "2022-07-08"
+url = "2022-07-09"
+date = "2022-07-09"
 description = "touchコマンド（LPIC）"
 tags = [
   "Linux",
