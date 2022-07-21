@@ -19,3 +19,26 @@ aliases = ["migrate-from-jekyl"]
 
 LPICレベル1で出てくるLinuxコマンドのまとめです。
 
+
+
+## ls
+
+
+## cp
+
+
+## mv
+
+
+## mkdir
+
+
+## rm
+
+
+## rmdir
+
+## touch
+
+## file
+
