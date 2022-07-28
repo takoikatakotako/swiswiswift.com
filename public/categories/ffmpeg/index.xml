@@ -13,7 +13,7 @@
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-01/</guid>
-      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 $ ffmpeg -i movie.mp4</description>
     </item>
     
   </channel>

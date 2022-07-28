@@ -31,7 +31,7 @@
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-18/</guid>
-      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height</description>
+      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-16/</guid>
-      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;;</description>
+      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-13/</guid>
-      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。</description>
     </item>
     
     <item>
@@ -85,7 +85,7 @@
       <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-12/</guid>
-      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0 (adsbygoogle =</description>
+      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0</description>
     </item>
     
   </channel>

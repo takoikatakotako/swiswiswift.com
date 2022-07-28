@@ -283,7 +283,7 @@
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-12-10/</guid>
-      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。 (adsbygoogle</description>
+      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。</description>
     </item>
     
     <item>
@@ -535,7 +535,7 @@
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-08-05/</guid>
-      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControll</description>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert を UIAlertControllerStyle.actionSheet にするとニュッと下から出</description>
     </item>
     
     <item>
@@ -562,7 +562,7 @@
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-08-02/</guid>
-      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true)を設定すると隠すことができ</description>
+      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true) を設定すると隠すことができます。 理由は不明ですが、空文字で仮のタイトルを設定</description>
     </item>
     
     <item>
@@ -589,7 +589,7 @@
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-07-02/</guid>
-      <description>iPadでモーダルのサイズを取得する方法です。 viewWillLayoutSubviews でモーダルのサイズを取得することができます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <description>iPadでモーダルのサイズを取得する方法です。 viewWillLayoutSubviews でモーダルのサイズを取得することができます。</description>
     </item>
     
     <item>
@@ -724,7 +724,7 @@
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-04-03/</guid>
-      <description>Swift で PDF を作成する方法です。 PDFKit で簡単に PDF を作ることができました、素敵ですね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+      <description>Swift で PDF を作成する方法です。 PDFKit で簡単に PDF を作ることができました、素敵ですね。 参考: Creating a PDF in Swift with PDFKit</description>
     </item>
     
     <item>
@@ -733,7 +733,7 @@
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-04-02/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
     <item>
@@ -742,7 +742,7 @@
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-03-27/</guid>
-      <description>SwiftUIでWebViewを表示する方法です。 UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。 (adsbygoogle = window.adsbygoogle</description>
+      <description>SwiftUIでWebViewを表示する方法です。 UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。</description>
     </item>
     
     <item>
@@ -787,7 +787,7 @@
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-02-26/</guid>
-      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle</description>
+      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController</description>
     </item>
     
     <item>
@@ -967,7 +967,7 @@
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-01-10/</guid>
-      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;;</description>
+      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。</description>
     </item>
     
     <item>
@@ -1039,7 +1039,7 @@
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-13/</guid>
-      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。</description>
     </item>
     
     <item>
@@ -1057,7 +1057,7 @@
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-06-02/</guid>
-      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
     </item>
     
     <item>
@@ -1084,7 +1084,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-20/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
   </channel>
