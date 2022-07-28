@@ -19,7 +19,16 @@ aliases = ["migrate-from-jekyl"]
 
 # mv
 
-mv memo.txt memo3.txt
+ファイルやディレクトリの移動に使用するコマンドです。
 
-移動する。この場合は実質的にリネーム
+### `memo.txt` を `memo2.txt` にリネームする
 
+```
+$ mv memo.txt memo2.txt
+```
+
+### `/tmp/snorlax` ディレクトリにあるすべてのファイル、サブディレクトリをカレントディレクトリに移動させる
+
+```
+$ mv -f /tmp/snorlax/ .
+```
