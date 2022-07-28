@@ -102,7 +102,7 @@
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-05/</guid>
-      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。 (adsbygoogle</description>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。</description>
     </item>
     
     <item>
@@ -111,7 +111,7 @@
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-04/</guid>
-      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var t</description>
+      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var text</description>
     </item>
     
     <item>

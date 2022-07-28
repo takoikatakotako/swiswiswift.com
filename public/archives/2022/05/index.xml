@@ -102,7 +102,7 @@
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-04/</guid>
-      <description>Pythonで別ファイルの関数を実行する方法です。 functions.py で定義した hello() を main.py で実行しています。 $ python main.py amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <description>Pythonで別ファイルの関数を実行する方法です。 functions.py で定義した hello() を main.py で実行しています。 $ python main.py</description>
     </item>
     
     <item>
@@ -111,7 +111,7 @@
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-03/</guid>
-      <description>JavaScriptでBMI計算機を作る方法です。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; (adsbygoogle =</description>
+      <description>JavaScriptでBMI計算機を作る方法です。</description>
     </item>
     
     <item>
@@ -129,7 +129,7 @@
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-01/</guid>
-      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 $ ffmpeg -i movie.mp4</description>
     </item>
     
   </channel>

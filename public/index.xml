@@ -265,7 +265,7 @@
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-04/</guid>
-      <description>Pythonで別ファイルの関数を実行する方法です。 functions.py で定義した hello() を main.py で実行しています。 $ python main.py amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <description>Pythonで別ファイルの関数を実行する方法です。 functions.py で定義した hello() を main.py で実行しています。 $ python main.py</description>
     </item>
     
     <item>
@@ -274,7 +274,7 @@
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-03/</guid>
-      <description>JavaScriptでBMI計算機を作る方法です。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;; (adsbygoogle =</description>
+      <description>JavaScriptでBMI計算機を作る方法です。</description>
     </item>
     
     <item>
@@ -292,7 +292,7 @@
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-05-01/</guid>
-      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <description>FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。 $ ffmpeg -i movie.mp4</description>
     </item>
     
     <item>
@@ -445,7 +445,7 @@
       <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-03-03/</guid>
-      <description>SwiftUIでのプッシュ通知の最小構成です。 プッシュ通知のテストをしたい時に使用します。 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace</description>
+      <description>SwiftUIでのプッシュ通知の最小構成です。 プッシュ通知のテストをしたい時に使用します。</description>
     </item>
     
     <item>
@@ -688,7 +688,7 @@
       <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-11-14/</guid>
-      <description>RustでstructをJSONにシリアライズしたりデシリアライズする方法です。 参考 amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+      <description>RustでstructをJSONにシリアライズしたりデシリアライズする方法です。 参考</description>
     </item>
     
     <item>
@@ -1219,7 +1219,7 @@
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-03-05/</guid>
-      <description>SwiftでMKMapViewに線を引く方法です。 以下の例では大阪、松本、東京で線を引いています。 (adsbygoogle</description>
+      <description>SwiftでMKMapViewに線を引く方法です。 以下の例では大阪、松本、東京で線を引いています。</description>
     </item>
     
     <item>
@@ -1390,7 +1390,7 @@
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-12-10/</guid>
-      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。 (adsbygoogle</description>
+      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。</description>
     </item>
     
     <item>
@@ -1732,7 +1732,7 @@
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-05/</guid>
-      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。 (adsbygoogle</description>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。</description>
     </item>
     
     <item>
@@ -1741,7 +1741,7 @@
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-04/</guid>
-      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var t</description>
+      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var text</description>
     </item>
     
     <item>
@@ -1813,7 +1813,7 @@
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-08-05/</guid>
-      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControll</description>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert を UIAlertControllerStyle.actionSheet にするとニュッと下から出</description>
     </item>
     
     <item>
@@ -1840,7 +1840,7 @@
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-08-02/</guid>
-      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true)を設定すると隠すことができ</description>
+      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true) を設定すると隠すことができます。 理由は不明ですが、空文字で仮のタイトルを設定</description>
     </item>
     
     <item>
@@ -1885,7 +1885,7 @@
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-07-02/</guid>
-      <description>iPadでモーダルのサイズを取得する方法です。 viewWillLayoutSubviews でモーダルのサイズを取得することができます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <description>iPadでモーダルのサイズを取得する方法です。 viewWillLayoutSubviews でモーダルのサイズを取得することができます。</description>
     </item>
     
     <item>
@@ -1948,7 +1948,7 @@
       <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-06-22/</guid>
-      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。 (adsbygoogle = window.adsbygoogle</description>
+      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。</description>
     </item>
     
     <item>
@@ -2065,7 +2065,7 @@
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-04-03/</guid>
-      <description>Swift で PDF を作成する方法です。 PDFKit で簡単に PDF を作ることができました、素敵ですね。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+      <description>Swift で PDF を作成する方法です。 PDFKit で簡単に PDF を作ることができました、素敵ですね。 参考: Creating a PDF in Swift with PDFKit</description>
     </item>
     
     <item>
@@ -2074,7 +2074,7 @@
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-04-02/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
     <item>
@@ -2083,7 +2083,7 @@
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-03-27/</guid>
-      <description>SwiftUIでWebViewを表示する方法です。 UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。 (adsbygoogle = window.adsbygoogle</description>
+      <description>SwiftUIでWebViewを表示する方法です。 UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。</description>
     </item>
     
     <item>
@@ -2128,7 +2128,7 @@
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-02-26/</guid>
-      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle</description>
+      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController</description>
     </item>
     
     <item>
@@ -2308,7 +2308,7 @@
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-01-10/</guid>
-      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;;</description>
+      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。</description>
     </item>
     
     <item>
@@ -2353,7 +2353,7 @@
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-20/</guid>
-      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。</description>
     </item>
     
     <item>
@@ -2371,7 +2371,7 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-18/</guid>
-      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。</description>
     </item>
     
     <item>
@@ -2434,7 +2434,7 @@
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-11-13/</guid>
-      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。</description>
     </item>
     
     <item>
@@ -2515,7 +2515,7 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-06-03/</guid>
-      <description>UIButton を使ってボタンを表示するサンプルコードです。 角丸ボタンはよく使います。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement</description>
+      <description>UIButton を使ってボタンを表示するサンプルコードです。 角丸ボタンはよく使います。</description>
     </item>
     
     <item>
@@ -2524,7 +2524,7 @@
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-06-02/</guid>
-      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
     </item>
     
     <item>
@@ -2542,7 +2542,7 @@
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-05-12/</guid>
-      <description>CallKit を使うことで着信時のUIを使うことができます。 電話がかかってくるアプリを作る時に使いました。 (adsbygoogle = window.adsbygoogle</description>
+      <description>CallKit を使うことで着信時のUIを使うことができます。 電話がかかってくるアプリを作る時に使いました。</description>
     </item>
     
     <item>
@@ -2560,7 +2560,7 @@
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-04-11/</guid>
-      <description>そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入</description>
     </item>
     
     <item>
@@ -2569,7 +2569,7 @@
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-03-15/</guid>
-      <description>Java での文字列のシャッフル方法です。 結構面倒だったので、記事にしました。 .suffld みたいなのが欲しいです。 (adsbygoogle =</description>
+      <description>Java での文字列のシャッフル方法です。 結構面倒だったので、記事にしました。 .suffld みたいなのが欲しいです。</description>
     </item>
     
     <item>
@@ -2632,7 +2632,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-20/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <description></description>
     </item>
     
     <item>
@@ -2686,7 +2686,7 @@
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-02/</guid>
-      <description>Swiftで関数を作る方法です。 最近はネット記事を見ないでも見なくても書けるようになってきました。 (adsbygoogle</description>
+      <description>Swiftで関数を作る方法です。 最近はネット記事を見ないでも見なくても書けるようになってきました。</description>
     </item>
     
     <item>
@@ -2695,7 +2695,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-01-01/</guid>
-      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array (adsbygoogle = window.adsbygoogle</description>
+      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array</description>
     </item>
     
     <item>
@@ -2704,7 +2704,7 @@
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-12-31/</guid>
-      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。</description>
     </item>
     
     <item>
@@ -2794,7 +2794,7 @@
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-11-20/</guid>
-      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。</description>
     </item>
     
     <item>
@@ -2857,7 +2857,7 @@
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-09-20/</guid>
-      <description>グループスタイルのテーブルビューを表示するサンプルコードです 設定画面などはこんな感じですね。 (adsbygoogle = window.adsbygoogle ||</description>
+      <description>グループスタイルのテーブルビューを表示するサンプルコードです 設定画面などはこんな感じですね。</description>
     </item>
     
     <item>
@@ -2893,7 +2893,7 @@
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-18/</guid>
-      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height</description>
+      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0</description>
     </item>
     
     <item>
@@ -2911,7 +2911,7 @@
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-16/</guid>
-      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;;</description>
+      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0</description>
     </item>
     
     <item>
@@ -2938,7 +2938,7 @@
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-13/</guid>
-      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。</description>
     </item>
     
     <item>
@@ -2947,7 +2947,7 @@
       <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-08-12/</guid>
-      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0 (adsbygoogle =</description>
+      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0</description>
     </item>
     
     <item>
@@ -2956,7 +2956,7 @@
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-07-18/</guid>
-      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace</description>
+      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。</description>
     </item>
     
     <item>
@@ -2965,7 +2965,7 @@
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-07-17/</guid>
-      <description>html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <description>html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。</description>
     </item>
     
     <item>
@@ -3127,7 +3127,7 @@
       <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2018-03-17/</guid>
-      <description>UIAlertControllerにTextFieldを追加したサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;;</description>
+      <description>UIAlertControllerにTextFieldを追加したサンプルです。</description>
     </item>
     
     <item>
@@ -3217,7 +3217,7 @@
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-12-13/</guid>
-      <description>Timeを使って3秒ごとに繰り返しを行います。 時計のような機能を持つアプリを作る時に使いました。 (adsbygoogle =</description>
+      <description>Timeを使って3秒ごとに繰り返しを行います。 時計のような機能を持つアプリを作る時に使いました。</description>
     </item>
     
     <item>
@@ -3271,7 +3271,7 @@
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-13/</guid>
-      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。 (adsbygoogle = window.adsbygoogle</description>
+      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。</description>
     </item>
     
     <item>
@@ -3280,7 +3280,7 @@
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-10-08/</guid>
-      <description>UITableViewにヘッダーを設定するサンプルです。 フッターも同様に設定することができます。 (adsbygoogle =</description>
+      <description>UITableViewにヘッダーを設定するサンプルです。 フッターも同様に設定することができます。</description>
     </item>
     
     <item>
@@ -3460,7 +3460,7 @@
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2017-05-20/</guid>
-      <description>FizzBuzzをCで解きました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>FizzBuzzをCで解きました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。</description>
     </item>
     
     <item>

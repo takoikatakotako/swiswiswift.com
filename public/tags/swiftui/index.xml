@@ -301,7 +301,7 @@
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2021-03-05/</guid>
-      <description>SwiftでMKMapViewに線を引く方法です。 以下の例では大阪、松本、東京で線を引いています。 (adsbygoogle</description>
+      <description>SwiftでMKMapViewに線を引く方法です。 以下の例では大阪、松本、東京で線を引いています。</description>
     </item>
     
     <item>
@@ -445,7 +445,7 @@
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-12-10/</guid>
-      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。 (adsbygoogle</description>
+      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。</description>
     </item>
     
     <item>
@@ -616,7 +616,7 @@
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-05/</guid>
-      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。 (adsbygoogle</description>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。</description>
     </item>
     
     <item>
@@ -625,7 +625,7 @@
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-09-04/</guid>
-      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var t</description>
+      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var text</description>
     </item>
     
     <item>
@@ -688,7 +688,7 @@
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-08-02/</guid>
-      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true)を設定すると隠すことができ</description>
+      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true) を設定すると隠すことができます。 理由は不明ですが、空文字で仮のタイトルを設定</description>
     </item>
     
     <item>
@@ -715,7 +715,7 @@
       <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2020-06-22/</guid>
-      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。 (adsbygoogle = window.adsbygoogle</description>
+      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。</description>
     </item>
     
     <item>
@@ -877,7 +877,7 @@
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-20/</guid>
-      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。</description>
     </item>
     
     <item>
@@ -886,7 +886,7 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2019-12-18/</guid>
-      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。</description>
     </item>
     
     <item>
