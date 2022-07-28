@@ -6,7 +6,25 @@
     <description>Recent content in AWS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraformを使ってサーバーレスでサービスを作成したので振り返る</title>
+      <link>https://swiswiswift.com/2022-07-13/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-13/</guid>
+      <description>はじめに 個人開発でサービスを作るのが趣味です。 Terraform, Lambda, DynamoDBを使ってサーバーレスで簡単なービス</description>
+    </item>
+    
+    <item>
+      <title>EC2インスタンスのバックアップを作成する（AMI）</title>
+      <link>https://swiswiswift.com/2022-07-12/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-12/</guid>
+      <description>EC2インスタンスのバックアップを作成する方法です。 EC2インスタンスをバックアップする方法はいくつ</description>
+    </item>
+    
     <item>
       <title>curlでLambdaの関数URLにデータ付きでリクエストを送る</title>
       <link>https://swiswiswift.com/2022-07-01/</link>
