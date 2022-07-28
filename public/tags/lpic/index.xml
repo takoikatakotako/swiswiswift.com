@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LPIC on すいすいSwift</title>
+    <link>https://swiswiswift.com/tags/lpic/</link>
+    <description>Recent content in LPIC on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/lpic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>メタキャラクター（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-12/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-12/</guid>
+      <description>メタキャラクター ls *.txt .txt を一覧表示 ls mem?.md mem?.md を検索する。?はなんでもおk。</description>
+    </item>
+    
+    <item>
+      <title>fileコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-10/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-10/</guid>
+      <description>file file memo.md ファイルの種別を表示する。</description>
+    </item>
+    
+    <item>
+      <title>touchコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-09/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-09/</guid>
+      <description>touch touch hello.txt ファイルを作る</description>
+    </item>
+    
+    <item>
+      <title>rmdirコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-08/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-08/</guid>
+      <description>rmdir rmdir hello ディレクトリを削除する。ただ空じゃないと消せない</description>
+    </item>
+    
+    <item>
+      <title>rmコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-07/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-07/</guid>
+      <description>rm rm memo3.txt ファイルを削除する</description>
+    </item>
+    
+    <item>
+      <title>mkdirコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-06/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-06/</guid>
+      <description>mkdir mkdir hello ディレクトリを作成</description>
+    </item>
+    
+    <item>
+      <title>mvコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-05/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-05/</guid>
+      <description>mv mv memo.txt memo3.txt 移動する。この場合は実質的にリネーム</description>
+    </item>
+    
+    <item>
+      <title>cpコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-04/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-04/</guid>
+      <description>cp cp memo.txt memo2.txt ファイルのコピー cp -r ffmepg ffmpeg2 ディレクトリをコピー</description>
+    </item>
+    
+    <item>
+      <title>lsコマンド（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-03/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-03/</guid>
+      <description>ls ls 一覧を表示する ls -ld ディレクトリの情報を表示 ls -a 隠しファイルも含めて表示</description>
+    </item>
+    
+    <item>
+      <title>LPICレベル1で出てくるLinuxコマンドのまとめ</title>
+      <link>https://swiswiswift.com/2022-07-02/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-02/</guid>
+      <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 ls cp mv mkdir rm rmdir touch file メタキャラクター</description>
+    </item>
+    
+  </channel>
+</rss>
