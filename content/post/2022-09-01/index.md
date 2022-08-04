@@ -51,3 +51,17 @@ aliases = ["migrate-from-jekyl"]
 $ find . -name snorlax
 ```
 
+### rootが所有するディレクトリとファイルをすべて表示する（-uidを使う場合）
+
+```
+$ find . -uid 0
+```
+
+rootユーザーのuidは0
+
+
+### rootが所有するディレクトリとファイルをすべて表示する（-userを使う場合）
+
+```
+$ find . -user root
+```
