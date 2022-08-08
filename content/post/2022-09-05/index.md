@@ -17,4 +17,5 @@ aliases = ["migrate-from-jekyl"]
 
 # ldconfig
 
+リンクの作成やライブラリのキャッシュを行うコマンドです。
 

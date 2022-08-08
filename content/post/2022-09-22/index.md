@@ -43,6 +43,8 @@ updatedbコマンドの設定が記述されたファイル
 
 ## /proc/cpuinfo
 
+プロセッサの情報が格納されたファイルです。
+
 ## /proc/interrupts
 
 ## /proc/ioports

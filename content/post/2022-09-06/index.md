@@ -17,3 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 # ldd
 
+lddコマンドは共有ライブラリへの依存関係を表示するコマンドです。
