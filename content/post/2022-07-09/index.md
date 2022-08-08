@@ -19,6 +19,25 @@ aliases = ["migrate-from-jekyl"]
 
 # touch
 
-touch hello.txt
 
-ファイルを作る
+## サンプル
+
+### hello.txtを作る
+
+```
+$ touch hello.txt
+```
+
+### タイムスタンプを指定してhello.txtを作る
+
+```
+$ touch --date="2022/8/8 12:00" 8-8.txt 
+```
+
+```
+$ ls -l 8-8.txt 
+```
+
+```
+-rw-r--r-- 1 root root 0 Aug  8 12:00 8-8.txt
+```

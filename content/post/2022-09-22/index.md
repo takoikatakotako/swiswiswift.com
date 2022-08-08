@@ -37,6 +37,10 @@ Debian系のパッケージのダウンロード先（リポジトリ）が書�
 
 ハッシュ化されたパスワードが保存されたファイルです。
 
+## /etc/updatedb.conf
+
+updatedbコマンドの設定が記述されたファイル
+
 ## /proc/cpuinfo
 
 ## /proc/interrupts

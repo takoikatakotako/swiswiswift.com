@@ -35,6 +35,16 @@ aliases = ["migrate-from-jekyl"]
 $ touch file.txt
 ```
 
+ファイルの詳細を確認します。
+
+```
+$ ls -li file.txt
+```
+
+```
+393491 -rw-r--r-- 1 root root 0 Aug  8 01:38 file.txt
+```
+
 ハードリンクを作成します。
 
 ```
@@ -49,11 +59,12 @@ $ ls -li file-hard.txt
 ```
 
 ```
-83849756 -rw-r--r--  3 snorlax  staff  0  8  4 11:41 file.txt
-83849756 -rw-r--r--  3 snorlax  staff  0  8  4 11:41 file-hard.txt
+393491 -rw-r--r-- 2 root root 0 Aug  8 01:38 file.txt
+393491 -rw-r--r-- 2 root root 0 Aug  8 01:38 file-hard.txt
 ```
 
-ハードリンクではiノードの値が共に `83849756` であることがわかります。
+ハードリンクではiノードの値が共に `393491` であることがわかります。
+またハードリンクを作成したことで、リンク数が1から2へと増えていることがわかります。
 
 次にシンボリックリンクを作成します。
 
