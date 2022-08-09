@@ -6,7 +6,16 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://swiswiswift.com/categories/linux/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>JavaScript</title>
       <link>https://swiswiswift.com/categories/javascript/</link>
@@ -31,15 +40,6 @@
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://swiswiswift.com/categories/linux/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/linux/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,232 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ps（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-09/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-09/</guid>
+      <description>ps プロセスの情報を得るコマンドです。 BSDでのオプション a すべてのプロセスを表示する u 詳細情報を表示</description>
+    </item>
+    
+    <item>
+      <title>vi（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-08/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-08/</guid>
+      <description>vi ファイルの作成、編集を行うコマンド（エディタ）です。 コマンドモード、入力モード、exモードを使い分</description>
+    </item>
+    
+    <item>
+      <title>fgrep（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-07/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-07/</guid>
+      <description>fgrep fgrepは正規表現を使用せずに検索したい時に使用します。 grep コマンドではこのように正規表現を使って</description>
+    </item>
+    
+    <item>
+      <title>pgrep（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-06/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-06/</guid>
+      <description>pgrep 現在実行中のプロセスを調べて、ユーザー名、UID、GIDなどを元にプロセスIDを検索します。 オプシ</description>
+    </item>
+    
+    <item>
+      <title>sha256sum（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-05/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-05/</guid>
+      <description>sha256sum ハッシュ値を求めるコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>od（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-04/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-04/</guid>
+      <description>od ファイルの内容を8進数で表示するコマンドです。 オプション -d Decimal（10進数）で表示する -x Hexa</description>
+    </item>
+    
+    <item>
+      <title>od（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-03/</link>
+      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-03/</guid>
+      <description>od ファイルの内容を8進数で表示するコマンドです。 オプション -d Decimal（10進数）で表示する -x Hexa</description>
+    </item>
+    
+    <item>
+      <title>wc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-02/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-02/</guid>
+      <description>wc テキストファイルの文字数や行数を数えるコマンドです。 オプション -c バイト数だけを出力する。 -l 行数だけ</description>
+    </item>
+    
+    <item>
+      <title>tr（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-01/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-01/</guid>
+      <description>cut ファイル内の行中の特定部分のみを取り出すコマンドです。 オプション -c 指定された位置の各文字だけを表示</description>
+    </item>
+    
+    <item>
+      <title>tr（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-31/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-31/</guid>
+      <description>sed テキストの置換に誓われるコマンドです。 オプション -i 編集結果をファイルに書き込む。 サンプル pokem</description>
+    </item>
+    
+    <item>
+      <title>tr（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-30/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-30/</guid>
+      <description>tr 標準入力であるキーボードから入力した文字を指定した文字に変換し、標準出力であるディスプレイに表示し</description>
+    </item>
+    
+    <item>
+      <title>tail（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-29/</link>
+      <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-29/</guid>
+      <description>tail テキストファイルの末尾部分を表示するコマンドです。 デフォルトでは10行目まで表示します。 オプション</description>
+    </item>
+    
+    <item>
+      <title>head（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-28/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-28/</guid>
+      <description>head テキストファイルの先頭部分を表示するコマンドです。 デフォルトでは10行目まで表示します。 オプション</description>
+    </item>
+    
+    <item>
+      <title>grep（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-27/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-27/</guid>
+      <description>grep テキストデータ内の文字列検索を行うコマンドです。 オプション -v パターンに一致しない行を表示する -n 行番</description>
+    </item>
+    
+    <item>
+      <title>コマンドを続けて実行する（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-26/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-26/</guid>
+      <description>コマンドを続けて実行する 複数のコマンドを続けて実行する方法です。 サンプル ;の前のコマンドの終了コード</description>
+    </item>
+    
+    <item>
+      <title>tee（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-25/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-25/</guid>
+      <description>tee 標準入力から読み込んだデータ尾を標準出力とファイルの両方に出力するコマンドです。 サンプル pokemons.txt を行番号</description>
+    </item>
+    
+    <item>
+      <title>リダイレクト（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-24/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-24/</guid>
+      <description>リダイレクト リダイレクトをすることで出力結果やエラーをテキストファイルに出力したりすることができます</description>
+    </item>
+    
+    <item>
+      <title>cat（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-23/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-23/</guid>
+      <description>cat cat はテキストを表示するために使うコマンドです。 オプション -n 行番号を表示します。 サンプル file.txt を表示する</description>
+    </item>
+    
+    <item>
+      <title>less（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-22/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-22/</guid>
+      <description>less less は1画面に収まらないような長いテキストを表示するために使うコマンドです。 似たコマンドに more がありま</description>
+    </item>
+    
+    <item>
+      <title>more（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-21/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-21/</guid>
+      <description>more more は1画面に収まらないような長いテキストを表示するために使うコマンドです。 似たコマンドに less がありま</description>
+    </item>
+    
+    <item>
+      <title>xz,unxz（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-20/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-20/</guid>
+      <description>xz,unxz xz は圧縮に、unxz は解凍に使われるコマンドです。 サンプル file1.txt をxzで圧縮する $ xz file1.txt file1.txt.xz が生成され、f</description>
+    </item>
+    
+    <item>
+      <title>bzip2,bunzip2（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-19/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-19/</guid>
+      <description>bzip2,bunzip2 bzip2 は圧縮に、bunzip2 は解凍に使われるコマンドです。 サンプル file1.txt をbzip2で圧縮する $ bzip2 file1.txt file1.txt.bz2 が</description>
+    </item>
+    
+    <item>
+      <title>gzip, gunzip（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-18/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-18/</guid>
+      <description>gzip, gunzip gzip は圧縮に、gunzip は解凍に使われるコマンドです。 サンプル file1.txt をgzipで圧縮する $ gzip file1.txt file1.txt.gz が生</description>
+    </item>
+    
+    <item>
+      <title>tar（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-17/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-17/</guid>
+      <description>tar アーカイブファイルの管理に使用するコマンドです。 オプション -c アーカイブファイルを作成する -t アーカイ</description>
+    </item>
+    
+    <item>
+      <title>useradd（LPIC）</title>
+      <link>https://swiswiswift.com/2022-07-16/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-07-16/</guid>
+      <description>useradd ユーザーを追加する。</description>
+    </item>
+    
     <item>
       <title>メタキャラクター（LPIC）</title>
       <link>https://swiswiswift.com/2022-07-12/</link>
@@ -22,7 +247,7 @@
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-10/</guid>
-      <description>file file memo.md ファイルの種別を表示する。</description>
+      <description>file ファイルの種類を調べるコマンドです。 オプション -i MINEタイプで表示する サンプル file.txt のファイルの種類</description>
     </item>
     
     <item>
@@ -31,7 +256,7 @@
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-09/</guid>
-      <description>touch touch hello.txt ファイルを作る</description>
+      <description>touch サンプル hello.txtを作る $ touch hello.txt タイムスタンプを指定してhello.txtを作る $ touch --date=&amp;#34;2022/8/8 12:00&amp;#34; 8-8.txt $</description>
     </item>
     
     <item>
@@ -49,7 +274,7 @@
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-07/</guid>
-      <description>rm rm memo3.txt ファイルを削除する</description>
+      <description>rm ファイルを削除するコマンドです。 オプション -i ファイルを削除する前にユーザーへ確認する -f ユーザーへの</description>
     </item>
     
     <item>
@@ -67,7 +292,7 @@
       <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-05/</guid>
-      <description>mv mv memo.txt memo3.txt 移動する。この場合は実質的にリネーム</description>
+      <description>mv ファイルやディレクトリの移動に使用するコマンドです。 memo.txt を memo2.txt にリネームする $ mv memo.txt memo2.txt /tmp/snorlax ディレクトリにあ</description>
     </item>
     
     <item>
@@ -76,7 +301,7 @@
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-04/</guid>
-      <description>cp cp memo.txt memo2.txt ファイルのコピー cp -r ffmepg ffmpeg2 ディレクトリをコピー</description>
+      <description>cp ファイルやディレクトリを複製する場合に使うコマンドです。 オプション -i コピー先に同名ファイルが存在す</description>
     </item>
     
     <item>
@@ -85,7 +310,7 @@
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-03/</guid>
-      <description>ls ls 一覧を表示する ls -ld ディレクトリの情報を表示 ls -a 隠しファイルも含めて表示</description>
+      <description>ls ファイルやディレクトリの情報を一覧表示するコマンドです。 オプション -F ファイルタイプを表す記号の表示</description>
     </item>
     
     <item>
@@ -94,7 +319,7 @@
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-02/</guid>
-      <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 ls cp mv mkdir rm rmdir touch file メタキャラクター</description>
+      <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 bzip2,bunzip2 bzip2 は圧縮に、bunzip2 は解凍に使われ</description>
     </item>
     
     <item>

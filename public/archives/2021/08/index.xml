@@ -7,6 +7,87 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/08/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ps（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-09/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-09/</guid>
+      <description>ps プロセスの情報を得るコマンドです。 BSDでのオプション a すべてのプロセスを表示する u 詳細情報を表示</description>
+    </item>
+    
+    <item>
+      <title>vi（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-08/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-08/</guid>
+      <description>vi ファイルの作成、編集を行うコマンド（エディタ）です。 コマンドモード、入力モード、exモードを使い分</description>
+    </item>
+    
+    <item>
+      <title>fgrep（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-07/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-07/</guid>
+      <description>fgrep fgrepは正規表現を使用せずに検索したい時に使用します。 grep コマンドではこのように正規表現を使って</description>
+    </item>
+    
+    <item>
+      <title>pgrep（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-06/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-06/</guid>
+      <description>pgrep 現在実行中のプロセスを調べて、ユーザー名、UID、GIDなどを元にプロセスIDを検索します。 オプシ</description>
+    </item>
+    
+    <item>
+      <title>sha256sum（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-05/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-05/</guid>
+      <description>sha256sum ハッシュ値を求めるコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>od（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-04/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-04/</guid>
+      <description>od ファイルの内容を8進数で表示するコマンドです。 オプション -d Decimal（10進数）で表示する -x Hexa</description>
+    </item>
+    
+    <item>
+      <title>od（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-03/</link>
+      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-03/</guid>
+      <description>od ファイルの内容を8進数で表示するコマンドです。 オプション -d Decimal（10進数）で表示する -x Hexa</description>
+    </item>
+    
+    <item>
+      <title>wc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-02/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-02/</guid>
+      <description>wc テキストファイルの文字数や行数を数えるコマンドです。 オプション -c バイト数だけを出力する。 -l 行数だけ</description>
+    </item>
+    
+    <item>
+      <title>tr（LPIC）</title>
+      <link>https://swiswiswift.com/2022-08-01/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-08-01/</guid>
+      <description>cut ファイル内の行中の特定部分のみを取り出すコマンドです。 オプション -c 指定された位置の各文字だけを表示</description>
+    </item>
+    
+    <item>
       <title>GolangでJSONを構造体に変換する</title>
       <link>https://swiswiswift.com/2021-08-01/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
