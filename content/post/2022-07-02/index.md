@@ -259,7 +259,7 @@ updatedbはlocate用の検索データベースを作成します。
 
 
 
-## [profile、.bash_profile、.profile、.bash_login](/2022-09-11)
+## [/etc/profile、.bash_profile、.bash_login、.profile](/2022-09-11)
 
 
 ## [関数（シェル）](/2022-09-12)
@@ -351,4 +351,6 @@ updatedbはlocate用の検索データベースを作成します。
 ## [/etc/fstab](/2022-10-18)
 
 ## [lscpu](/2022-10-19)
+
+## [シェル変数と環境変数の違い](/2022-10-20)
 

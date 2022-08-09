@@ -40,3 +40,23 @@ $ cat file.txt
 ```
 $ cat -n file.txt
 ```
+
+### 複数行の文字列を表示する
+
+```
+$ cat << END
+I
+Love 
+Snorlax
+END
+```
+
+### 複数行の文字列をファイルに保存する
+
+```
+$ cat << END > snorlax.txt
+I
+Love 
+Snorlax
+END
+```

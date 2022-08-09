@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# profile、.bash_profile、.profile、.bash_login
+# /etc/profile、.bash_profile、.bash_login、.profile]
 
 `/etc/profile` -> `~/.bash_profile` -> `./bash_login` -> `~/.profile` の順番で読み込まれる。
 

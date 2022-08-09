@@ -45,3 +45,12 @@ aliases = ["migrate-from-jekyl"]
 1番目の引数、2番目の引数
 
 
+## サンプル
+
+### シェル変数を設定する
+
+```
+$ POKEMON_SHELL=Snorlax
+```
+
+
