@@ -1,8 +1,8 @@
 +++
-title = "lsblk"
+title = "lsblk（LPIC）"
 url = "2022-10-16"
 date = "2022-10-16"
-description = "lsblk"
+description = "lsblk（LPIC）"
 tags = [
   "Linux"
 ]

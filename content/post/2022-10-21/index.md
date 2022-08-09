@@ -1,8 +1,8 @@
 +++
-title = "シェル変数と環境変数の違い"
+title = "split（LPIC）"
 url = "2022-10-21"
 date = "2022-10-21"
-description = "シェル変数と環境変数の違い"
+description = "split（LPIC）"
 tags = [
   "Linux"
 ]

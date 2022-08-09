@@ -1,8 +1,8 @@
 +++
-title = "lscpu"
+title = "lscpu（LPIC）"
 url = "2022-10-19"
 date = "2022-10-19"
-description = "lscpu"
+description = "lscpu（LPIC）"
 tags = [
   "Linux"
 ]

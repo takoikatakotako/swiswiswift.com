@@ -1,8 +1,8 @@
 +++
-title = "umount"
+title = "umount（LPIC）"
 url = "2022-10-17"
 date = "2022-10-17"
-description = "umount"
+description = "umount（LPIC）"
 tags = [
   "Linux"
 ]

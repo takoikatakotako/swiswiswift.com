@@ -1,8 +1,8 @@
 +++
-title = "/etc/fstab"
+title = "/etc/fstab（LPIC）"
 url = "2022-10-18"
 date = "2022-10-18"
-description = "/etc/fstab"
+description = "/etc/fstab（LPIC）"
 tags = [
   "Linux"
 ]

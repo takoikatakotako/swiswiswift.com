@@ -1,8 +1,8 @@
 +++
-title = "シェル変数と環境変数の違い"
+title = "シェル変数と環境変数の違い（LPIC）"
 url = "2022-10-20"
 date = "2022-10-20"
-description = "シェル変数と環境変数の違い"
+description = "シェル変数と環境変数の違い（LPIC）"
 tags = [
   "Linux"
 ]
