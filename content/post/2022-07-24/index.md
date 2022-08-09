@@ -105,6 +105,25 @@ $ echo "snorlax" 1>> log.txt 2>&1
 $ snorlax 1>> log.txt 2>&1
 ```
 
+また `>&` は `&>` としても同様な結果を得ることができ、`>>&` は `&>>` と同様です。
+
+ ```
+$ echo "snorlax" >>& log.txt
+```
+
+```
+$ snorlax >>& log.txt
+```
+
+```
+$ cat log.txt
+```
+
+```
+snorlax
+zsh: command not found: snorlax
+```
+
 
 ## pokemons.txt の内容を標準入力から取り込み検索する
 
