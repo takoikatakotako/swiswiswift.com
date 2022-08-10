@@ -51,6 +51,8 @@ updatedbコマンドの設定が記述されたファイル
 
 ## /proc/interrupts
 
+割り込み要求（IRQ: Interrupt ReQuest）の情報を確認できるファイルです。
+
 ## /proc/ioports
 
 ## /proc/mounts

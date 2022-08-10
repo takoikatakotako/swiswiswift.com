@@ -18,6 +18,7 @@ aliases = ["migrate-from-jekyl"]
 # lsmod
 
 現在システムにロードされているモジュールの状態を表示するコマンドです。
+またモジュールの状態は `/proc/modules` に格納されています。
 
 ```
 $ lsmod
