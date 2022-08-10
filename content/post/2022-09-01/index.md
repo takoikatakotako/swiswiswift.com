@@ -48,8 +48,22 @@ aliases = ["migrate-from-jekyl"]
 ### snorlaxをファイル名に含むファイルを検索する
 
 ```
-$ find . -name snorlax
+$ find . -name "*snorlax*"
 ```
+
+### カレントディレクトリのみでsnorlaxをファイル名に含むファイルを検索する
+
+```
+$ find . -name "*snorlax*" -maxdepth 1
+```
+
+### カレントディレクトリ内のsnorlaxをファイル名に含むファイルを削除する
+
+```
+$ find . -name "*snorlax*" -maxdepth 1 -print0 | xargs -0 rm
+```
+
+参考: [findとxargsコマンドで-print0オプションを使う理由(改)](https://qiita.com/maskedw/items/2dfdf6fa7eee991ddc45)
 
 ### rootが所有するディレクトリとファイルをすべて表示する（-uidを使う場合）
 

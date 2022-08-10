@@ -30,3 +30,7 @@ aliases = ["migrate-from-jekyl"]
 ## サンプル
 
 ### ファイルの所有者を
+
+
+chown user:group fileA
+
