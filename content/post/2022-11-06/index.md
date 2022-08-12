@@ -16,3 +16,6 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 # GRUB2
+
+ブートローダーです。
+GRUBの設定ファイルは `/boot/grub2/grub.cfg` と `/etc/default/grub` です。
