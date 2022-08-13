@@ -400,6 +400,16 @@ updatedbはlocate用の検索データベースを作成します。
 
 ## [BIOSとUEFI](/2022-11-12)
 
-## [???](/2022-11-13)
+## [groups](/2022-11-13)
 
 ## [zypper](/2022-11-14)
+
+userdel
+
+getent
+
+change
+
+usermod
+
+crontab

@@ -1,8 +1,8 @@
 +++
-title = "???（LPIC）"
+title = "groups（LPIC）"
 url = "2022-11-13"
 date = "2022-11-13"
-description = "???（LPIC）"
+description = "groups（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# ???
+# groups
+
+ユーザーの所属グループを表示するコマンドです。
 
