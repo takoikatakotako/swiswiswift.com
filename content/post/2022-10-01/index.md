@@ -30,6 +30,28 @@ aliases = ["migrate-from-jekyl"]
 ### remove
 
 
+
+## apt-get update と apt-get upgrade と apt-get dist-upgrade　の違い
+
+### apt-get update
+
+- パッケージのリストを更新する
+- インストールされているパッケージの更新は行わない
+
+### apt-get upgrade
+
+- インストールされているパッケージを更新する. さきにupdateを実行しておく
+- ただし、更新によって新規にパッケージのインストールや削除が発生するような場合は、それを行わない
+- つまり、安全なアップデート
+
+### apt-get dist-upgrade
+
+- インストールされているパッケージを更新する.
+- 更新によって新規にパッケージのインストールや削除が発生するような場合、それらも実行する
+
+参考: [yum update と yum upgradeの違い（ついでにDebianも）](https://qiita.com/aki3061/items/4e0597505097538b6e2c)
+
+
 ## サンプル
 
 ### インストールされているパッケージの更新を行う
