@@ -17,3 +17,19 @@ aliases = ["migrate-from-jekyl"]
 
 # yum
 
+
+
+## サンプル
+
+### slコマンドをインストールする
+
+```
+$ yum install sl
+```
+
+### パッケージグループを一覧表示する
+
+```
+$ yum grouplist
+```
+
