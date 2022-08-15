@@ -17,4 +17,19 @@ aliases = ["migrate-from-jekyl"]
 
 # systemctl
 
+## サンプル
+
+### sshd.serviceを開始する
+
+```
+$ systemctl start sshd.service
+```
+
+### システム起動時にsshd.serviceを自動起動する
+
+```
+$ systemctl enable sshd.service
+```
+
+
 

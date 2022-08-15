@@ -18,6 +18,10 @@ aliases = ["migrate-from-jekyl"]
 # passwd
 
 
+## サンプル
+
+### snorlaxのパスワードを設定する
+
 ```
 $ passwd snorlax
 ```

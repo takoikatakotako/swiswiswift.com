@@ -15,7 +15,39 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# /etc/profile、.bash_profile、.bash_login、.profile]
+# bash
+
+## /etc/profile、.bash_profile、.bash_login、.profile
 
 `/etc/profile` -> `~/.bash_profile` -> `./bash_login` -> `~/.profile` の順番で読み込まれる。
 
+
+## .bash_history
+
+`.bash_history` にはコマンド履歴が保存されます。
+
+```
+$ cat /root/.bash_history
+```
+
+## HISTFILE
+
+`HISTFILE` にはコマンド履歴を保存するファイルが指定されます。
+
+```
+$ echo $HISTFILE
+```
+
+```
+/root/.bash_history
+```
+
+## HISTSIZE
+
+```
+$ echo $HISTSIZE
+```
+
+```
+1000
+```

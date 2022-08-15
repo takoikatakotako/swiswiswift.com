@@ -1,8 +1,8 @@
 +++
-title = "yum（LPIC）"
+title = "yum,etc（LPIC）"
 url = "2022-09-08"
 date = "2022-09-08"
-description = "yum（LPIC）"
+description = "yum,etc（LPIC）"
 tags = [
   "Linux"
 ]
@@ -89,4 +89,9 @@ $ yum remove sl
 $ yum erase sl
 ```
 
+### yum updateを実行した時のアップデート対象となるパッケージの一覧を表示
+
+```
+$ yum check-update
+```
 

@@ -21,6 +21,15 @@ aliases = ["migrate-from-jekyl"]
 コマンドモード、入力モード、exモードを使い分けます。
 
 
+## 環境変数EDITOR
+
+デフォルトのエディタは環境変数EDITORで設定できます。
+
+```
+$ export EDITOR=/usr/bin/vi
+```
+
+
 ## コマンドモード
 
 ### [ctrl] + f

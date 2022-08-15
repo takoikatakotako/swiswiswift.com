@@ -1,8 +1,8 @@
 +++
-title = "dpkg（LPIC）"
+title = "dpkg,etc（LPIC）"
 url = "2022-09-28"
 date = "2022-09-28"
-description = "dpkg（LPIC）"
+description = "dpkg,etc（LPIC）"
 tags = [
   "Linux"
 ]
@@ -91,3 +91,11 @@ e2fsprogs: /etc/mke2fs.conf
 $ dplg -C
 ```
 
+
+# dpkg-reconfigure
+
+インストール済みパッケージを再設定する。
+
+```
+$ dpkg-reconfigure postfix
+```

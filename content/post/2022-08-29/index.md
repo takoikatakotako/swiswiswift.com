@@ -29,8 +29,39 @@ aliases = ["migrate-from-jekyl"]
 
 ## サンプル
 
-### ファイルの所有者を
+### ファイルの所有者、グループを変更する
 
+snorlaxでファイルを作成します。
 
-chown user:group fileA
+```
+$ su snorlax
+$ touch file.txt
+$ ls -l file.txt
+```
+
+```
+-rw-rw-r-- 1 snorlax snorlax 0 Aug 14 00:51 file.txt
+```
+
+ファイルの所有者とグループをrootに変更します。
+
+```
+$ chown root:root file.txt
+$ ls -l file.txt 
+```
+
+```
+-rw-rw-r-- 1 root root 0 Aug 14 00:51 file.txt
+```
+
+`ユーザー名:グループ名` ではなく、`ユーザー名.グループ名` でも変更できます。
+
+```
+$ chown snorlax.snorlax file.txt
+$ ls -l file.txt
+```
+
+```
+$ -rw-rw-r-- 1 snorlax snorlax 0 Aug 14 00:51 file.txt
+```
 

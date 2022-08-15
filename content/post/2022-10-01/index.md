@@ -60,6 +60,12 @@ aliases = ["migrate-from-jekyl"]
 $ apt-get upgrade
 ```
 
+### パッケージ情報の依存関係情報のキャッシュを最新の情報に更新する
+
+```
+$ apt-get update
+```
+
 ### lolcatをインストールする
 
 ```
@@ -71,3 +77,16 @@ $ apt-get install lolcat
 ```
 $ apt-get remove lolcat
 ```
+
+
+# apt-cache
+
+
+## サンプル
+
+### slが依存するパッケージの情報を表示します
+
+```
+$ apt-cache depends sl
+```
+

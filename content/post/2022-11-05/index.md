@@ -46,3 +46,34 @@ GRUBのルートデバイスを定義する。
 ### initrd
 
 初期RAMディスクのイメージファイルを指定する
+
+
+## その他
+
+- カーネル選択メニューが表示されているときに「A」もしくは「E」のキーを押すとカーネルオプションを編集できるようになります。
+
+
+
+# GRUB2
+
+ブートローダーです。
+GRUBの設定ファイルは `/boot/grub2/grub.cfg` と `/etc/default/grub` です。
+
+## grub-mkconfig
+
+`/etc/default/grub` に設定を記述し、`grub-mkconfig` を実行すると `/boot/grub2/grub.cfg` が生成されます。
+
+
+# grub-install
+
+GRUBをインストールコマンドです。
+
+
+## サンプル
+
+### /dev/sdaのMBRにGRUBをインストールする
+
+```
+$ grub-install /dev/sda
+```
+

@@ -1,8 +1,8 @@
 +++
 title = "???（LPIC）"
-url = "2022-11-06"
-date = "2022-11-06"
-description = "???（（LPIC）"
+url = "2022-11-22"
+date = "2022-11-22"
+description = "???（LPIC）"
 tags = [
   "Linux"
 ]
