@@ -1,8 +1,8 @@
 +++
-title = "dd（LPIC）"
-url = "2022-11-06"
-date = "2022-11-06"
-description = "dd（（LPIC）"
+title = "chgrp（LPIC）"
+url = "2022-11-27"
+date = "2022-11-27"
+description = "chgrp（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,7 +15,6 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# dd
+# chgrp
 
 
-## サンプル

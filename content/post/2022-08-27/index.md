@@ -208,3 +208,49 @@ $ ls -l snorlax.exe
 $ chmod 1000 file.txt
 ```
 
+###　ハードリンクの権限を変更する
+
+ハードリンクの権限を変更すると元ファイルの権限も一緒に変更されます。（シンボリックリンクでも同様です）
+`file.txt` を作成し、権限を確認します。
+ 
+```
+$ fouch file.txt
+$ ls -l file.txt
+```
+
+```
+-rw-r--r-- 1 root root 0 Aug 15 23:24 file.txt
+```
+
+`file.txt` のハードリンクの `file.txt.hard` を作成します。
+権限を確認します。
+
+```
+$ ln file.txt file.txt.hard
+$ ls -l file.txt.hard
+```
+
+```
+-rw-r--r-- 2 root root 0 Aug 15 23:24 file.txt.hard
+```
+
+`file.txt.hard` の権限を変更します。
+
+```
+$ chmod 777 file.txt.hard
+$ ls -l file.txt.hard
+```
+
+```
+-rwxrwxrwx 2 root root 0 Aug 15 23:24 file.txt.hard
+```
+
+`file.txt` の権限も変更されています。
+
+```
+$ ls -l file.txt
+```
+
+```
+-rwxrwxrwx 2 root root 0 Aug 15 23:24 file.txt
+```
