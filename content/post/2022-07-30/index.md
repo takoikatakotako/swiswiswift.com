@@ -46,8 +46,33 @@ $ tr -d 's'
 ```
 
 
-### pokemons.txtの文字を全て大文字に変換する
+
+### file.txtの英小文字をすべて大文字にする
 
 ```
-$ tr 'a-z' 'A-Z' pokemons.txt
+$ cat file.txt
+```
+
+```
+Ditto
+Slowpoke
+Snorlax
+```
+
+```
+$ tr 'a-z' 'A-Z' < file.txt 
+```
+
+```
+DITTO
+SLOWPOKE
+SNORLAX
+```
+
+以下のコマンドでも英小文字をすべて大文字にする
+
+```
+$ cat file.txt | tr 'a-z' 'A-Z'
+$ tr [:lower:] [:upper:] < file.txt
+$ tr '[:lower:]' '[:upper:]' < file.txt
 ```
