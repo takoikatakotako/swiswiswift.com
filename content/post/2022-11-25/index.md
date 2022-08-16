@@ -1,8 +1,8 @@
 +++
-title = "head（LPIC）"
+title = "???（LPIC）"
 url = "2022-11-25"
 date = "2022-11-25"
-description = "head（LPIC）"
+description = "???（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,7 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# head
+# ???
 
-
-## サンプル

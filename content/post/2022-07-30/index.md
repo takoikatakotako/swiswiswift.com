@@ -24,7 +24,7 @@ aliases = ["migrate-from-jekyl"]
 
 ### -d
 
-文字群1で合致いた文字を削除する
+文字群1で合致した文字を削除する
 
 ### -s
 
@@ -75,4 +75,17 @@ SNORLAX
 $ cat file.txt | tr 'a-z' 'A-Z'
 $ tr [:lower:] [:upper:] < file.txt
 $ tr '[:lower:]' '[:upper:]' < file.txt
+```
+
+
+### file.txtからlaxを削除して表示する
+
+```
+$ tr -d 'lax' < file.txt
+```
+
+```
+Ditto
+Sowpoke
+Snor
 ```

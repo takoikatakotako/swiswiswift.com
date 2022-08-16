@@ -45,12 +45,15 @@ aliases = ["migrate-from-jekyl"]
 
 ## サンプル
 
-### pokemons.txtからsnorlaxを検索する
+### pokemons.txtからSnorlaxを検索する
 
 ```
-$ grep snorlax pokemons.txt
+$ grep Snorlax pokemons.txt
 ```
 
+```
+Snorlax
+```
 
 ### pokemons.txtから大文字小文字の区別なくsnorlaxを検索する
 
@@ -58,9 +61,29 @@ $ grep snorlax pokemons.txt
 $ grep -i SNORLAX pokemons.txt
 ```
 
+```
+Snorlax
+```
 
-### pokemons.txtからsnorlax以外をを検索する
+
+### pokemons.txtからSnorlax以外を検索する
 
 ```
-$ grep -v snorlax pokemons.txt
+$ grep -v Snorlax pokemons.txt
+```
+
+```
+Ditto
+Slowpoke
+```
+
+
+### pokemons.txtから末尾がlaxの行を検索する
+
+```
+$ grep -e lax$ pokemons.txt
+```
+
+```
+Snorlax
 ```
