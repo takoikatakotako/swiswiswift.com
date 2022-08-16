@@ -90,5 +90,5 @@ $ systemctl disable nginx.service
 
 ## その他
 
-`/lib/systemd/system` ディレクトリ以下にはsystemd のデフォルトのUnit定義さいるが格納されています。
-
+- `/lib/systemd/system` ディレクトリ以下にはsystemd のデフォルトのUnit定義さいるが格納されています。
+- 現在のランレベルを調べるには `runlevel` コマンドを使用します。

@@ -22,8 +22,14 @@ aliases = ["migrate-from-jekyl"]
 
 ##　サンプル
 
-バックグラウンドで sl コマンドを実行する。
+### バックグラウンドで sl コマンドを実行する。
 
 ```
 $ nohup sl &
+```
+
+### バックグランドでupdatedbコマンドを実行する
+
+```
+$ nohup updatedb & 
 ```

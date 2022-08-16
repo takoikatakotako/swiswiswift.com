@@ -95,3 +95,8 @@ $ yum erase sl
 $ yum check-update
 ```
 
+### nginxを検索する
+
+```
+$ yum search nginx
+```
