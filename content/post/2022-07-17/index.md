@@ -63,6 +63,39 @@ aliases = ["migrate-from-jekyl"]
 $ tar cf archive.tar file1.txt file2.txt
 ```
 
+### file1.txt file2.txt　を含む archive.tar.gz を作成する
+
+```
+$ tar cfz archive.tar.gz file1.txt file2.txt
+```
+
+gzipで圧縮されているのでgunzipで解凍できます。
+
+```
+$ gunzip archive.tar.gz
+```
+
+
+
+```
+$ tar zxf archive.tar.gz
+```
+
+### file1.txt file2.txt　を含む archive.tar.bz2 を作成する
+
+```
+$ tar cfj archive.tar.bz2 file1.txt file2.txt
+```
+
+bzipで圧縮されているのでbunzip2で解凍できます。
+
+```
+$ bunzip2 archive.tar.bz2
+```
+
+
+
+
 ### archive.tar 内のすべてのファイルの詳細を一覧表示する
 
 ```
