@@ -75,7 +75,7 @@ gzipで圧縮されているのでgunzipで解凍できます。
 $ gunzip archive.tar.gz
 ```
 
-
+tarコマンドでも解凍と展開ができます。
 
 ```
 $ tar zxf archive.tar.gz
@@ -93,7 +93,11 @@ bzipで圧縮されているのでbunzip2で解凍できます。
 $ bunzip2 archive.tar.bz2
 ```
 
+tarコマンドでも解凍と展開ができます。
 
+```
+$ tar jxf archive.tar.bz2
+```
 
 
 ### archive.tar 内のすべてのファイルの詳細を一覧表示する
