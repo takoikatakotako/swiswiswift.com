@@ -17,4 +17,4 @@ aliases = ["migrate-from-jekyl"]
 
 # gdisk
 
-
+GPTに対応したパーティションの作成や削除などに使うコマンドです。
