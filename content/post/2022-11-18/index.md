@@ -1,8 +1,8 @@
 +++
-title = "usermod（LPIC）"
+title = "???（LPIC）"
 url = "2022-11-18"
 date = "2022-11-18"
-description = "usermod（LPIC）"
+description = "???（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,6 +15,6 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# usermod
+# ???
 
 

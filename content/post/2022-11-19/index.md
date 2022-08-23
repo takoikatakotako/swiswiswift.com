@@ -1,8 +1,8 @@
 +++
-title = "crontab（LPIC）"
+title = "???（LPIC）"
 url = "2022-11-19"
 date = "2022-11-19"
-description = "crontab（LPIC）"
+description = "???（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,6 +15,6 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# crontab
+# ???
 
 

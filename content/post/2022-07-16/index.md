@@ -1,8 +1,8 @@
 +++
-title = "useradd（LPIC）"
+title = "chsh（LPIC）"
 url = "2022-07-16"
 date = "2022-07-16"
-description = "useradd（LPIC）"
+description = "chsh（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,6 +15,21 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# useradd
+# chsh
 
-ユーザーを追加する。
+
+## サンプル
+
+
+### ユーザーを対話的なログインをできないようにする
+
+sshコマンドによるログインやsuコマンドによるアカウントの変更ができなくなります。
+
+```
+$ chsh -s /bin/false snorlax
+$ cat /etc/passwd | grep snorlax
+```
+
+```
+snorlax:x:1000:1000::/home/snorlax:/bin/false
+```

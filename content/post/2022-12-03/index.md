@@ -33,3 +33,12 @@ snorlax:x:1000:1000:I Love Snorlax! :/home/snorlax:/bin/bash
 - 6. ホームディレクトリ
 - 7. デフォルトシェル
 
+
+### ユーザーをログインできないようにする
+
+`/etc/passwd` の最初の:の後を`*` もしくは `!` にするとログインできなくなります。
+
+```
+snorlax:*:1000:1000::/home/snorlax:/bin/sh
+```
+

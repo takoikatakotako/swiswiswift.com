@@ -1,8 +1,8 @@
 +++
-title = "getent（LPIC）"
+title = "???（LPIC）"
 url = "2022-11-16"
 date = "2022-11-16"
-description = "getent（LPIC）"
+description = "???（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,4 +15,4 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# getent
+# ???
