@@ -17,3 +17,17 @@ aliases = ["migrate-from-jekyl"]
 
 # netstat
 
+
+```
+$ netstat -nr
+```
+
+```
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         160.251.100.1   0.0.0.0         UG        0 0          0 eth0
+157.7.180.133   160.251.100.1   255.255.255.255 UGH       0 0          0 eth0
+160.251.100.0   0.0.0.0         255.255.254.0   U         0 0          0 eth0
+160.251.100.1   0.0.0.0         255.255.255.255 UH        0 0          0 eth0
+163.44.76.148   160.251.100.1   255.255.255.255 UGH       0 0          0 eth0
+```

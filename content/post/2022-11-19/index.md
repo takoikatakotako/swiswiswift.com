@@ -15,7 +15,6 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-
 # ntpd,ntpdate,etc
 
 
@@ -30,6 +29,14 @@ ntpdの設定ファイルです。
 
 
 ## オプション
+
+### driftfile
+
+### restrict
+
+### server
+
+リモートサーバーのIPアドレスかDNS名、あるいは参照クロックのアドレスを指定する。
 
 ### iburst
 
@@ -120,6 +127,10 @@ NTPを利用した時刻の設定をするコマンドです。
 
 ```
 $ ntpdate -q ntp.nict.jp
+```
+
+```
+24 Aug 16:32:17 ntpdate[81301]: adjust time server 133.243.238.164 offset -0.000001 sec
 ```
 
 

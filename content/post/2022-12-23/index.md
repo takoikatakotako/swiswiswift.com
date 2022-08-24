@@ -17,3 +17,24 @@ aliases = ["migrate-from-jekyl"]
 
 # nmcli
 
+NetworkManagerの制御を行うコマンドラインツールです。
+
+## オブジェクト
+
+### general
+
+### device
+
+### connection
+
+### networking
+
+
+
+## サンプル
+
+### Wi-FiのアクセスポイントのSnorlax-WiFiに接続する
+
+```
+$ nmcli device wifi connect Snorlax-WiFi
+```

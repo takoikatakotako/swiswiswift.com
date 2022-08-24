@@ -17,3 +17,5 @@ aliases = ["migrate-from-jekyl"]
 
 # hostname
 
+ホスト名の設定、変更をするコマンドです。
+

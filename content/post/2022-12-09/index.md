@@ -1,8 +1,8 @@
 +++
-title = "chronyc（LPIC）"
+title = "chronyc,chronyd（LPIC）"
 url = "2022-12-09"
 date = "2022-12-09"
-description = "chronyc（LPIC）"
+description = "chronyc,chronyd（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# chronyc
+# chronyc,chronyd
+
+従来のntpdデーモン、ntpdateコマンドに代わり、機能及びパフォーマンスを改善したものです。
+読み方はクローニーです。
 

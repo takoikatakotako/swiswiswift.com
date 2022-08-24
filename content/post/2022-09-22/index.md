@@ -85,6 +85,8 @@ yumの基本設定ファイル
 
 ## /proc/ioports
 
+## /proc/sys/net/ipv4/ip_forward
+
 ## /proc/mounts
 
 現在のマウント状態が格納されているファイル

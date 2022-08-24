@@ -452,7 +452,7 @@ updatedbはlocate用の検索データベースを作成します。
 
 ## [groupadd,groupdel](/2022-12-08)
 
-## [chronyc](/2022-12-09)
+## [chronyc,chronyd](/2022-12-09)
 
 ## [syslogd](/2022-12-10)
 
@@ -499,3 +499,9 @@ updatedbはlocate用の検索データベースを作成します。
 ## [gpg](/2022-12-31)
 
 ## [ulimit](/2023-01-01)
+
+## [systemdのタイマー](/2023-01-02)
+
+## [/etc/hosts](/2023-01-03)
+
+## [/etc/resolv.conf](/2023-01-04)

@@ -17,3 +17,13 @@ aliases = ["migrate-from-jekyl"]
 
 # Postfix,Exim,Sendmail,MTA,etc
 
+
+
+## ~/.foward
+
+Sendmail, Postfix, Exim などの MTAで、ユーザーが受信メールのリダイレクトを行うファイルです。
+
+```
+mama@example.com
+mama@mylpic.com
+```

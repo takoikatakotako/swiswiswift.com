@@ -17,3 +17,15 @@ aliases = ["migrate-from-jekyl"]
 
 # syslogd
 
+
+
+## /etc/syslog.conf
+
+syslogdの設定ファイルです。
+
+
+## すべてのカーネルメッセージをコンソールに表示する
+
+```
+kern.* /dev/console
+```

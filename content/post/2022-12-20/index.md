@@ -17,3 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 # ifconfig
 
+ネットワークI/Fの設定、表示するコマンドです。
+
+```
+$ ifconfig
+```
