@@ -37,6 +37,12 @@ Debian系のパッケージのダウンロード先（リポジトリ）が書�
 
 SysV initで起動時に使用するスクリプトをランレベルごとに管理しており、例えばランレベル5であれば /etc/rc.d/rc5.d ディレクトリに格納しています。
 
+## /etc/hosts
+
+## /etc/nsswitch.conf
+
+## /etc/resolv.conf
+
 ## /etc/shadow
 
 ハッシュ化されたパスワードが保存されたファイルです。

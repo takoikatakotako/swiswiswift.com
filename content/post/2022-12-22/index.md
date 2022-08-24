@@ -1,8 +1,8 @@
 +++
-title = "netstat（LPIC）"
-url = "2022-12-16"
-date = "2022-12-16"
-description = "netstat（（LPIC）"
+title = "route（LPIC）"
+url = "2022-12-22"
+date = "2022-12-22"
+description = "route（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# netstat
+# route
 

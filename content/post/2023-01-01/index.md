@@ -1,8 +1,8 @@
 +++
-title = "netstat（LPIC）"
-url = "2022-12-16"
-date = "2022-12-16"
-description = "netstat（（LPIC）"
+title = "ulimit（LPIC）"
+url = "2023-01-01"
+date = "2023-01-01"
+description = "ulimit（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# netstat
+# ulimit
 

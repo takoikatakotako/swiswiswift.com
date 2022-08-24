@@ -1,8 +1,8 @@
 +++
-title = "netstat（LPIC）"
-url = "2022-12-16"
-date = "2022-12-16"
-description = "netstat（（LPIC）"
+title = "dig（LPIC）"
+url = "2022-12-26"
+date = "2022-12-26"
+description = "dig（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# netstat
+# dig
 

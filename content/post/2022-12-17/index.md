@@ -1,8 +1,8 @@
 +++
-title = "netstat（LPIC）"
-url = "2022-12-16"
-date = "2022-12-16"
-description = "netstat（（LPIC）"
+title = "ping（LPIC）"
+url = "2022-12-17"
+date = "2022-12-17"
+description = "ping（（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# netstat
+# ping
 
