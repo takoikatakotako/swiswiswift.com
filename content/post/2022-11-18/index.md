@@ -1,8 +1,8 @@
 +++
-title = "???（LPIC）"
+title = "hwclock（LPIC）"
 url = "2022-11-18"
 date = "2022-11-18"
-description = "???（LPIC）"
+description = "hwclock（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,6 +15,20 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# ???
+# hwclock
+
+
+### ハードウェアクロックをシステムクロックに合わせる
+
+```
+$ hwclock -u --systohc
+```
+
+
+### システムクロックをハードウェアクロックに合わせる
+
+```
+$ hwclock -u --hctosys
+```
 
 
