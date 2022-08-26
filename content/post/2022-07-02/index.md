@@ -490,7 +490,7 @@ updatedbはlocate用の検索データベースを作成します。
 
 ## [Postfix,Exim,Sendmail,MTA,etc](/2022-12-27)
 
-## [su,sudo,etc](/2022-12-28)
+## [su,sudo,sudoers,etc](/2022-12-28)
 
 ## [xinetd,TCP Wrapper,etc](/2022-12-29)
 
@@ -505,3 +505,5 @@ updatedbはlocate用の検索データベースを作成します。
 ## [/etc/hosts](/2023-01-03)
 
 ## [/etc/resolv.conf](/2023-01-04)
+
+## [last](/2023-01-05)

@@ -17,3 +17,21 @@ aliases = ["migrate-from-jekyl"]
 
 # ssh,ssh-keygen,ssh-agent,etc
 
+
+
+# ssh
+
+## オプション
+
+### -i
+
+秘密鍵を指定する
+
+### -p
+
+ポート番号を指定する
+
+### -o Port
+
+ポート番号を指定する
+

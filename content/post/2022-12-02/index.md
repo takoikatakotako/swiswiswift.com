@@ -25,18 +25,68 @@ aliases = ["migrate-from-jekyl"]
 
 ## ディスプレイマネージャー
 
-xdm, gdm, kdm, lightdm
-
+- XDM（X Display Manager）
+- GDM（Gnome Display Manager）
+- SDDM（Simple Desktop Display Manager）
+- LightDM
 
 
 ## ウィンドウマネージャー
 
+- Mutter
+- metacity
+- kwin
 
+
+## デスクトップ環境
+
+## GNOME（GNU Network Object Model Environment）
+
+- 標準ディスプレイマネージャー: gdm
+- 標準ウィンドウマネージャー: metacity, mutter
+
+
+## KDE
+
+- 標準ディスプレイマネージャー: kdm, sddm
+- 標準ウィンドウマネージャー: kwin
+
+
+## X Window System
+
+- 標準ディスプレイマネージャー: xdm
+- 標準ウィンドウマネージャー: twm
+
+
+## アクセシビリティ
+
+### オンスクリーンキーボード
+
+- gok（GNOME Onscreen Keyboard）はGonome2のオンスクリーンキーボード
+
+### テキスト読み上げプログラム
+
+- emacspeakはEmacsに読み込んだテキストや電子メールなどを音声を読み上げるソフトです。
+
+### スティッキー・キー
+
+2つのキーを同時に起こすことが困難な場合に有効にする設定です。
+
+### スロー・キー
+
+指定した時間より長く押し続けないとそのキー入力を有効としない設定です。
+
+### バウンス・キー
+
+同じキーを素早く押したとき場合はそのキー入力を有効としない設定です。
 
 ## xdpyinfo
 
 Xサーバーについての情報を表示するコマンドです。
 
+## xwininfo
+
+クリックした特定のウィンドウの情報を表示するコマンドです。
 
 
 ## 環境変数DISPLAY

@@ -17,3 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 # su,sudo,etc
 
+
+
+## /etc/sudoers
+
+sudoコマンドは `/etc/sudoers` ファイルを参照して、ユーザーがコマンドの実行権限を持っているか判定します。
