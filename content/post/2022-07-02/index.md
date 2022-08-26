@@ -454,7 +454,7 @@ updatedbはlocate用の検索データベースを作成します。
 
 ## [chronyc,chronyd](/2022-12-09)
 
-## [syslogd](/2022-12-10)
+## [syslog,rsyslog,syslog-ng,systemd journal,systemd-cat,logger,logrotate,etc](/2022-12-10)
 
 ## [プリンター,lpadmin,Ghostscript,etc](/2022-12-11)
 
