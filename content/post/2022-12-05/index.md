@@ -25,10 +25,14 @@ aliases = ["migrate-from-jekyl"]
 
 # cron
 
-
-
 # crontab
 
+## /etc/cron.allow, /etc/cron.deby
+
+`/etc/cron.allow` に記述があるユーザーはcrontabを作成することができる。
+`/etc/cron.deby` に記述があるユーザーはcrontabを作成することができない。
+`/etc/cron.allow` と `/etc/cron.deby` の両方が作成されている場合は
+`/etc/cron.allow` と `/etc/cron.deby` の両方が存在しない場合はrootユーザーだけがcrontabを作成できる。
 
 ```
 1 2 3 4 5 6
