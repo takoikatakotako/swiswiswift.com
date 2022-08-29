@@ -75,3 +75,18 @@ tcp        0    348 v160-251-101-197.3f:ssh fpb6aa6cb4.ap.nur:59895 ESTABLISHED
 ...
 ```
 
+### ルーティングテーブルを表示
+
+```
+$ netstat -r
+```
+
+```
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         v160-251-100-1. 0.0.0.0         UG        0 0          0 eth0
+cache12.cloud.z v160-251-100-1. 255.255.255.255 UGH       0 0          0 eth0
+160.251.100.0   0.0.0.0         255.255.254.0   U         0 0          0 eth0
+v160-251-100-1. 0.0.0.0         255.255.255.255 UH        0 0          0 eth0
+cache13.cloud.z v160-251-100-1. 255.255.255.255 UGH       0 0          0 eth0
+```

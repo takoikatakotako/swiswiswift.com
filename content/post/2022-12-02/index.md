@@ -21,6 +21,12 @@ aliases = ["migrate-from-jekyl"]
 ## xorg.conf
 
 設定ファイルです。
+- /etc/X11/xorg.conf
+
+xorg.conf.d 以下に設定ファイルが分割されて格納されている場合もあります。
+
+- /etc/X11/xorg.conf.d/*
+- /usr/share/X11/xorg.conf.d/*
 
 
 ## ディスプレイマネージャー

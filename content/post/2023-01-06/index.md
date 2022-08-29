@@ -26,6 +26,12 @@ aliases = ["migrate-from-jekyl"]
 
 タイムゾーンファイルが格納されている。
 
+### locale.conf
+
+- LC_TIME: 時刻の形式
+- LC_TELEPHONE: 電話番号の形式
+- LANG: 言語を定義
+
 
 ## サンプル
 

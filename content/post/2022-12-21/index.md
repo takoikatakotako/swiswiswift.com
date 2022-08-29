@@ -17,3 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 # ip
 
+### ネットワークインターフェース eth0 の送受信のバイト数を表示する
+
+```
+$ ip -s link show dev eth0
+```

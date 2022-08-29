@@ -20,6 +20,8 @@ aliases = ["migrate-from-jekyl"]
 DNSサーバーへの問い合わせをするコマンドです
 
 
+## オプション
+
 ### swiswiswift.comのIPアドレスを調べる
 
 ```
