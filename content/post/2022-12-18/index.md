@@ -1,8 +1,8 @@
 +++
-title = "traceroute（LPIC）"
+title = "traceroute,tracepath（LPIC）"
 url = "2022-12-18"
 date = "2022-12-18"
-description = "traceroute（LPIC）"
+description = "traceroute,tracepath（LPIC）"
 tags = [
   "Linux"
 ]
@@ -42,4 +42,13 @@ traceroute to swiswiswift.com (13.225.173.24), 30 hops max, 60 byte packets
 12  * * *
 13  * * *
 14  server-13-225-173-24.nrt57.r.cloudfront.net (13.225.173.24)  0.980 ms  0.888 ms  2.219 ms
+```
+
+
+# tracepath
+
+### ローカルホストからswiswiswift.comへの経路をトレースして表示する
+
+```
+$ traceroute swiswiswift.com
 ```

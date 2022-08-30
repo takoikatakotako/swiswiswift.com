@@ -19,4 +19,11 @@ aliases = ["migrate-from-jekyl"]
 
 従来のntpdデーモン、ntpdateコマンドに代わり、機能及びパフォーマンスを改善したものです。
 読み方はクローニーです。
+設定ファイルは `/etc/chrony.conf` です。
 
+
+### chronyを起動
+
+```
+$ systemctl start chronyd
+```

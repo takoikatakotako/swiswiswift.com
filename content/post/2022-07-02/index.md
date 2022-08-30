@@ -470,7 +470,7 @@ updatedbはlocate用の検索データベースを作成します。
 
 ## [ping](/2022-12-17)
 
-## [traceroute](/2022-12-18)
+## [traceroute,tracepath](/2022-12-18)
 
 ## [lsof](/2022-12-19)
 
