@@ -18,7 +18,6 @@ aliases = ["migrate-from-jekyl"]
 # date
 
 
-
 ## サンプル
 
 ### 現在時間を表示
@@ -31,6 +30,11 @@ $ date
 Tue Aug 23 05:19:08 PM JST 2022
 ```
 
+### 日付が入りでファイルを生成
+
+```
+$ touch `date "+%Y%m%d-snorlax.txt"`
+```
 
 ### UTCで現在時刻を表示
 

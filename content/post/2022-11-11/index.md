@@ -1,8 +1,8 @@
 +++
-title = "???（LPIC）"
+title = "/etc/hostsでホスト名とIPアドレスを対応させる（LPIC）"
 url = "2022-11-11"
 date = "2022-11-11"
-description = "???（LPIC）"
+description = "/etc/hostsでホスト名とIPアドレスを対応させる（LPIC）"
 tags = [
   "Linux"
 ]
@@ -15,5 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-# ???
+# /etc/hostsでホスト名とIPアドレスを対応させる
 
