@@ -17,6 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 # /etc/resolv.conf
 
+/etc/resolv.confは名前解決の設定を行うファイルです
 
 ```
 $ cat /etc/resolv.conf

@@ -17,6 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 # systemdのタイマー
 
+cronのようなタイマーを作ることができます。
+
 ## 1時間ごとに実行するタイマーを作成する
 
 スクリプト `timer-per-hour.sh` を作成します。
@@ -66,7 +68,6 @@ $ systemctl list-timers
 ```
 
 
-
 ## サンプル
 
 ### 登録されているタイマーの一覧を表示
@@ -81,5 +82,3 @@ Wed 2022-08-24 17:03:43 JST 58min left    Tue 2022-08-23 17:03:43 JST 23h ago   
 Wed 2022-08-24 17:13:48 JST 1h 8min left  Tue 2022-08-23 17:13:48 JST 22h ago       systemd-tmpfiles-clean.timer   syst>
 ...
 ```
-
-

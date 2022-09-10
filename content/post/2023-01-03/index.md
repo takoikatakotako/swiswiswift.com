@@ -17,7 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 # /etc/hosts
 
-IP青dレストホスト名の対応情報を格納するファイルです。
+IPアドレスとホスト名の対応情報を格納するファイルです。
 
 ```
 $ cat /etc/hosts
