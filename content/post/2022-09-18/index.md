@@ -17,6 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 # passwd
 
+パスワードの変更を行うコマンドです。
+
 
 ## サンプル
 

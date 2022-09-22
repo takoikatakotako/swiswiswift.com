@@ -17,6 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 # alias
 
+エイリアスを設定するコマンドです。
 
 ## サンプル
 

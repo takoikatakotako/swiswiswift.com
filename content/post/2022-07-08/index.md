@@ -19,7 +19,14 @@ aliases = ["migrate-from-jekyl"]
 
 # rmdir
 
-rmdir hello
+ディレクトリを削除するコマンドです。
 
-ディレクトリを削除する。ただ空じゃないと消せない
+## サンプル
 
+### helloディレクトリを削除する
+
+```
+$ rmdir hello
+```
+
+helloディレクトリは空である必要があります。

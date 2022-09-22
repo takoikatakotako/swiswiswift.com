@@ -20,7 +20,6 @@ aliases = ["migrate-from-jekyl"]
 ユーザーを追加したり、削除したりするコマンドです。
 
 
-
 # useradd
 
 ユーザーを追加するためのコマンドです。

@@ -19,6 +19,7 @@ aliases = ["migrate-from-jekyl"]
 
 # touch
 
+ファイルを作成するコマンドです。
 
 ## サンプル
 

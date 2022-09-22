@@ -3,18 +3,18 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>useradd（LPIC） - すいすいSwift</title>
+    <title>chsh（LPIC） - すいすいSwift</title>
     <meta name="description"  content="iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。" />
     <meta property="og:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="index.html" />
     <meta property="og:image" content="swift.png" />
     <meta property="og:site_name" content="すいすいSwift" />
-    <meta property="og:description" content=" useradd（LPIC） | すいすいSwift " />
+    <meta property="og:description" content=" chsh（LPIC） | すいすいSwift " />
     <meta property="og:image:secure_url" content="swift.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
-    <meta name="twitter:description" content=" useradd（LPIC） | すいすいSwift " />
+    <meta name="twitter:description" content=" chsh（LPIC） | すいすいSwift " />
     <meta name="twitter:image" content="swift.png" />
 
     <style type="text/css">
@@ -82,7 +82,7 @@ if (!doNotTrack) {
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>useradd（LPIC）</h1>
+            <h1>chsh（LPIC）</h1>
             <div class="post-details">
                 <a rel="bookmark">
                     <time datetime="2022-07-16T716:120:06">2022-07-16</time>
@@ -97,11 +97,11 @@ if (!doNotTrack) {
         <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fswiswiswift.com%2f2022-07-16%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="useradd（LPIC）" data-url="https://swiswiswift.com/2022-07-16/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="chsh（LPIC）" data-url="https://swiswiswift.com/2022-07-16/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
-    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fswiswiswift.com%2f2022-07-16%2f&title=useradd%ef%bc%88LPIC%ef%bc%89" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
+    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fswiswiswift.com%2f2022-07-16%2f&title=chsh%ef%bc%88LPIC%ef%bc%89" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
         <img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" width="20" height="20" style="border: none;" />
     </a>
     <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
@@ -113,9 +113,15 @@ if (!doNotTrack) {
 
         <div class="post-content">
             <!-- raw HTML omitted -->
-<h1 id="useradd">useradd</h1>
-<p>ユーザーを追加する。</p>
-
+<h1 id="chsh">chsh</h1>
+<p>ユーザーをログインをできないようにするコマンドです。</p>
+<h2 id="サンプル">サンプル</h2>
+<h3 id="ユーザーを対話的なログインをできないようにする">ユーザーを対話的なログインをできないようにする</h3>
+<p>sshコマンドによるログインやsuコマンドによるアカウントの変更ができなくなります。</p>
+<pre tabindex="0"><code>$ chsh -s /bin/false snorlax
+$ cat /etc/passwd | grep snorlax
+</code></pre><pre tabindex="0"><code>snorlax:x:1000:1000::/home/snorlax:/bin/false
+</code></pre>
         </div>
 
         <footer class="post-footer">
@@ -151,7 +157,7 @@ if (!doNotTrack) {
 	<h4>関連記事</h4>
 	<ol style="margin-left: 30px; list-style-type: decimal;">
 		
-		<li><strong><a href="https://swiswiswift.com/2022-07-12/">メタキャラクター（LPIC）</a></strong></li>
+		<li><strong><a href="https://swiswiswift.com/2022-07-11/">メタキャラクター（LPIC）</a></strong></li>
 		
 		<li><strong><a href="https://swiswiswift.com/2022-07-10/">fileコマンド（LPIC）</a></strong></li>
 		
@@ -249,7 +255,7 @@ if (!doNotTrack) {
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/jetpack-compose">Jetpack Compose (1)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/linux">Linux (44)</a>
+                <a href="https://swiswiswift.com/categories/linux">Linux (86)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/lpic">LPIC (10)</a>
             </li><li class="cat-item cat-item-2">
@@ -277,7 +283,7 @@ if (!doNotTrack) {
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/spring">Spring (12)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/swift">Swift (120)</a>
+                <a href="https://swiswiswift.com/categories/swift">Swift (121)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/swiftui">SwiftUI (101)</a>
             </li><li class="cat-item cat-item-2">
@@ -287,7 +293,7 @@ if (!doNotTrack) {
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/tex">Tex (1)</a>
             </li><li class="cat-item cat-item-2">
-                <a href="https://swiswiswift.com/categories/uikit">UIKit (10)</a>
+                <a href="https://swiswiswift.com/categories/uikit">UIKit (11)</a>
             </li><li class="cat-item cat-item-2">
                 <a href="https://swiswiswift.com/categories/xcode">Xcode (3)</a>
             </li><li class="cat-item cat-item-2">
@@ -312,41 +318,41 @@ if (!doNotTrack) {
         <h2>最近の投稿</h2>
         <ul>
             <li>
-                <a href="https://swiswiswift.com/2022-08-09/">ps（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-22/">Linuxのファイル（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-08/">vi（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-21/">mount（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-07/">fgrep（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-20/">mkfs（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-06/">pgrep（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-19/">ファイルシステム（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-05/">sha256sum（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-18/">passwd（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-04/">od（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-17/">useradd（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-03/">od（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-16/">シェルスクリプト（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-02/">wc（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-15/">シェル変数（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-08-01/">tr（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-14/">unalias（LPIC）</a>
             </li>
             <li>
-                <a href="https://swiswiswift.com/2022-07-31/">tr（LPIC）</a>
+                <a href="https://swiswiswift.com/2022-09-13/">alias（LPIC）</a>
             </li>
         </ul>
     </aside>
 
     <aside class="widget widget_archive">
         <h2>アーカイブ</h2>
-        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/01">2020/01 (6)</a></li><li><a href="https://swiswiswift.com/archives/2020/02">2020/02 (29)</a></li><li><a href="https://swiswiswift.com/archives/2020/03">2020/03 (12)</a></li><li><a href="https://swiswiswift.com/archives/2020/04">2020/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2020/05">2020/05 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/06">2020/06 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/07">2020/07 (5)</a></li><li><a href="https://swiswiswift.com/archives/2020/08">2020/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2020/09">2020/09 (15)</a></li><li><a href="https://swiswiswift.com/archives/2020/10">2020/10 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/11">2020/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/12">2020/12 (13)</a></li><li><a href="https://swiswiswift.com/archives/2021/04">2021/04 (8)</a></li><li><a href="https://swiswiswift.com/archives/2021/05">2021/05 (11)</a></li><li><a href="https://swiswiswift.com/archives/2021/06">2021/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/07">2021/07 (36)</a></li><li><a href="https://swiswiswift.com/archives/2021/08">2021/08 (10)</a></li><li><a href="https://swiswiswift.com/archives/2021/09">2021/09 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/10">2021/10 (9)</a></li><li><a href="https://swiswiswift.com/archives/2021/11">2021/11 (16)</a></li><li><a href="https://swiswiswift.com/archives/2021/12">2021/12 (5)</a></li><li><a href="https://swiswiswift.com/archives/2022/01">2022/01 (8)</a></li><li><a href="https://swiswiswift.com/archives/2022/02">2022/02 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/03">2022/03 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/04">2022/04 (10)</a></li><li><a href="https://swiswiswift.com/archives/2022/05">2022/05 (14)</a></li>
+        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/01">2020/01 (6)</a></li><li><a href="https://swiswiswift.com/archives/2020/02">2020/02 (29)</a></li><li><a href="https://swiswiswift.com/archives/2020/03">2020/03 (12)</a></li><li><a href="https://swiswiswift.com/archives/2020/04">2020/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2020/05">2020/05 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/06">2020/06 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/07">2020/07 (5)</a></li><li><a href="https://swiswiswift.com/archives/2020/08">2020/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2020/09">2020/09 (15)</a></li><li><a href="https://swiswiswift.com/archives/2020/10">2020/10 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/11">2020/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2020/12">2020/12 (13)</a></li><li><a href="https://swiswiswift.com/archives/2021/04">2021/04 (8)</a></li><li><a href="https://swiswiswift.com/archives/2021/05">2021/05 (11)</a></li><li><a href="https://swiswiswift.com/archives/2021/06">2021/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2021/07">2021/07 (36)</a></li><li><a href="https://swiswiswift.com/archives/2021/08">2021/08 (31)</a></li><li><a href="https://swiswiswift.com/archives/2021/09">2021/09 (26)</a></li><li><a href="https://swiswiswift.com/archives/2021/10">2021/10 (9)</a></li><li><a href="https://swiswiswift.com/archives/2021/11">2021/11 (16)</a></li><li><a href="https://swiswiswift.com/archives/2021/12">2021/12 (5)</a></li><li><a href="https://swiswiswift.com/archives/2022/01">2022/01 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/02">2022/02 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/03">2022/03 (9)</a></li><li><a href="https://swiswiswift.com/archives/2022/04">2022/04 (10)</a></li><li><a href="https://swiswiswift.com/archives/2022/05">2022/05 (14)</a></li>
         </ul>
     </aside>
 

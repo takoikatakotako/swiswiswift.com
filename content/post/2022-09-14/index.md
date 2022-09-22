@@ -17,6 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 # unalias
 
+エイリアスを解除するコマンドです。
 
 ## サンプル
 

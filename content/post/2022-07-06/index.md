@@ -19,6 +19,12 @@ aliases = ["migrate-from-jekyl"]
 
 # mkdir
 
-mkdir hello
+mkdirはディレクトリを作成するコマンドです。
 
-ディレクトリを作成
+## サンプル
+
+### helloディレクトリを作成する
+
+```
+$ mkdir hello
+```

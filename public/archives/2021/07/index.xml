@@ -12,7 +12,7 @@
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-31/</guid>
-      <description>sed テキストの置換に誓われるコマンドです。 オプション -i 編集結果をファイルに書き込む。 サンプル pokem</description>
+      <description>sed テキストを置換するコマンドです。 オプション -i 編集結果をファイルに書き込む。 サンプル pokemons</description>
     </item>
     
     <item>
@@ -142,12 +142,12 @@
     </item>
     
     <item>
-      <title>useradd（LPIC）</title>
+      <title>chsh（LPIC）</title>
       <link>https://swiswiswift.com/2022-07-16/</link>
       <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-16/</guid>
-      <description>useradd ユーザーを追加する。</description>
+      <description>chsh ユーザーをログインをできないようにするコマンドです。 サンプル ユーザーを対話的なログインをできないよ</description>
     </item>
     
     <item>
@@ -188,11 +188,11 @@
     
     <item>
       <title>メタキャラクター（LPIC）</title>
-      <link>https://swiswiswift.com/2022-07-12/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <link>https://swiswiswift.com/2022-07-11/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2022-07-12/</guid>
-      <description>メタキャラクター ls *.txt .txt を一覧表示 ls mem?.md mem?.md を検索する。?はなんでもおk。</description>
+      <guid>https://swiswiswift.com/2022-07-11/</guid>
+      <description>メタキャラクター メタキャラクターは特別な意味や役割を持つ文字です。 サンプル .txt拡張子を持つファイ</description>
     </item>
     
     <item>
@@ -210,7 +210,7 @@
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-09/</guid>
-      <description>touch サンプル hello.txtを作る $ touch hello.txt タイムスタンプを指定してhello.txtを作る $ touch --date=&amp;#34;2022/8/8 12:00&amp;#34; 8-8.txt $</description>
+      <description>touch ファイルを作成するコマンドです。 サンプル hello.txtを作る $ touch hello.txt タイムスタンプを指定してhe</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-08/</guid>
-      <description>rmdir rmdir hello ディレクトリを削除する。ただ空じゃないと消せない</description>
+      <description>rmdir ディレクトリを削除するコマンドです。 サンプル helloディレクトリを削除する $ rmdir hello helloディレ</description>
     </item>
     
     <item>
@@ -237,7 +237,7 @@
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-06/</guid>
-      <description>mkdir mkdir hello ディレクトリを作成</description>
+      <description>mkdir mkdirはディレクトリを作成するコマンドです。 サンプル helloディレクトリを作成する $ mkdir hello</description>
     </item>
     
     <item>

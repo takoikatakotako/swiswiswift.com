@@ -17,6 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 # bash
 
+Linuxでコマンドなどの命令文を記述したシェルを実行するために使われます。
+
 ## /etc/profile、.bash_profile、.bash_login、.profile
 
 `/etc/profile` -> `~/.bash_profile` -> `./bash_login` -> `~/.profile` の順番で読み込まれる。
