@@ -6,7 +6,16 @@
     <description>Recent content in UIKit on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/uikit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/uikit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiftで最低幅を持ち横幅が可変なボタンを作成する</title>
+      <link>https://swiswiswift.com/2022-01-09/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-01-09/</guid>
+      <description>Swiftで最低幅を持ち横幅が可変なボタンを作成する方法です。 ボタンの横幅が最低53pxで、余白が1</description>
+    </item>
+    
     <item>
       <title>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
       <link>https://swiswiswift.com/2021-11-12/</link>

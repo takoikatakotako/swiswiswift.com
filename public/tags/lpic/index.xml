@@ -6,14 +6,14 @@
     <description>Recent content in LPIC on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/lpic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/lpic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>メタキャラクター（LPIC）</title>
-      <link>https://swiswiswift.com/2022-07-12/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <link>https://swiswiswift.com/2022-07-11/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2022-07-12/</guid>
-      <description>メタキャラクター ls *.txt .txt を一覧表示 ls mem?.md mem?.md を検索する。?はなんでもおk。</description>
+      <guid>https://swiswiswift.com/2022-07-11/</guid>
+      <description>メタキャラクター メタキャラクターは特別な意味や役割を持つ文字です。 サンプル .txt拡張子を持つファイ</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-10/</guid>
-      <description>file file memo.md ファイルの種別を表示する。</description>
+      <description>file ファイルの種類を調べるコマンドです。 オプション -i MINEタイプで表示する サンプル file.txt のファイルの種類</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-09/</guid>
-      <description>touch touch hello.txt ファイルを作る</description>
+      <description>touch ファイルを作成するコマンドです。 サンプル hello.txtを作る $ touch hello.txt タイムスタンプを指定してhe</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-08/</guid>
-      <description>rmdir rmdir hello ディレクトリを削除する。ただ空じゃないと消せない</description>
+      <description>rmdir ディレクトリを削除するコマンドです。 サンプル helloディレクトリを削除する $ rmdir hello helloディレ</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-07/</guid>
-      <description>rm rm memo3.txt ファイルを削除する</description>
+      <description>rm ファイルを削除するコマンドです。 オプション -i ファイルを削除する前にユーザーへ確認する -f ユーザーへの</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-06/</guid>
-      <description>mkdir mkdir hello ディレクトリを作成</description>
+      <description>mkdir mkdirはディレクトリを作成するコマンドです。 サンプル helloディレクトリを作成する $ mkdir hello</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-05/</guid>
-      <description>mv mv memo.txt memo3.txt 移動する。この場合は実質的にリネーム</description>
+      <description>mv ファイルやディレクトリの移動に使用するコマンドです。 memo.txt を memo2.txt にリネームする $ mv memo.txt memo2.txt /tmp/snorlax ディレクトリにあ</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-04/</guid>
-      <description>cp cp memo.txt memo2.txt ファイルのコピー cp -r ffmepg ffmpeg2 ディレクトリをコピー</description>
+      <description>cp ファイルやディレクトリを複製する場合に使うコマンドです。 オプション -i コピー先に同名ファイルが存在す</description>
     </item>
     
     <item>
@@ -85,7 +85,7 @@
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-03/</guid>
-      <description>ls ls 一覧を表示する ls -ld ディレクトリの情報を表示 ls -a 隠しファイルも含めて表示</description>
+      <description>ls ファイルやディレクトリの情報を一覧表示するコマンドです。 オプション -F ファイルタイプを表す記号の表示</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-07-02/</guid>
-      <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 ls cp mv mkdir rm rmdir touch file メタキャラクター</description>
+      <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 bzip2,bunzip2 bzip2 は圧縮に、bunzip2 は解凍に使われ</description>
     </item>
     
   </channel>

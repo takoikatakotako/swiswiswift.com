@@ -19,6 +19,24 @@ aliases = ["migrate-from-jekyl"]
 
 # file
 
-file memo.md
+ファイルの種類を調べるコマンドです。
 
-ファイルの種別を表示する。
+
+## オプション
+
+### -i
+
+MINEタイプで表示する
+
+
+## サンプル
+
+### file.txt のファイルの種類を調べる
+
+```
+$ file file.txt
+```
+
+```
+file.txt: ASCII text
+```
