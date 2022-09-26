@@ -6,7 +6,43 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SGID（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-26/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-26/</guid>
+      <description> SUID </description>
+    </item>
+    
+    <item>
+      <title>SUID（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-25/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-25/</guid>
+      <description> SUID </description>
+    </item>
+    
+    <item>
+      <title>adduser（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-24/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-24/</guid>
+      <description>adduser 対話形式でユーザーを作成するコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>userdel（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-23/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-23/</guid>
+      <description>userdel ユーザーを削除するコマンドです。</description>
+    </item>
+    
     <item>
       <title>Linuxのファイル（LPIC）</title>
       <link>https://swiswiswift.com/2022-09-22/</link>
@@ -698,6 +734,15 @@
       
       <guid>https://swiswiswift.com/2022-07-02/</guid>
       <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 bzip2,bunzip2 bzip2 は圧縮に、bunzip2 は解凍に使われ</description>
+    </item>
+    
+    <item>
+      <title>シェル変数と環境変数</title>
+      <link>https://swiswiswift.com/2022-06-10/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-10/</guid>
+      <description>シェル変数と環境変数の違いについての解説です。 シェル変数は子プロセスでその値を呼び出すことはできませ</description>
     </item>
     
     <item>

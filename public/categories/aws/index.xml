@@ -35,6 +35,42 @@
     </item>
     
     <item>
+      <title>CodeBuildでC言語をビルドする</title>
+      <link>https://swiswiswift.com/2022-06-13/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-13/</guid>
+      <description>CodeBuildでC言語をビルドする方法です。 C言語を書き、main.c というファイル名で保存しま</description>
+    </item>
+    
+    <item>
+      <title>AWSでEC2をプライベートサブネットに設置する</title>
+      <link>https://swiswiswift.com/2022-06-12/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-12/</guid>
+      <description>AWSでEC2をプライベートサブネットに設置する方法です。 Private-Subnetを作成します。</description>
+    </item>
+    
+    <item>
+      <title>Dockerイメージを作成してECSで動かす</title>
+      <link>https://swiswiswift.com/2022-06-11/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-11/</guid>
+      <description>Dockerイメージを作成してECSで動かします。 Dockerのおさらいとnginxイメージについて</description>
+    </item>
+    
+    <item>
+      <title>DynamoDBのItemを一度に削除する（batch-write-item）</title>
+      <link>https://swiswiswift.com/2022-06-09/</link>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-09/</guid>
+      <description>DynamoDBのItemを一度に削除する方法です。 batch-write-item を使うことで一度に削除することができます。 今回</description>
+    </item>
+    
+    <item>
       <title>LambdaでBMIを計算するAPIを作成してJSで呼び出す</title>
       <link>https://swiswiswift.com/2022-06-08/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>

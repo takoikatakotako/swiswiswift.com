@@ -7,6 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2021/09/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SGID（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-26/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-26/</guid>
+      <description> SUID </description>
+    </item>
+    
+    <item>
+      <title>SUID（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-25/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-25/</guid>
+      <description> SUID </description>
+    </item>
+    
+    <item>
+      <title>adduser（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-24/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-24/</guid>
+      <description>adduser 対話形式でユーザーを作成するコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>userdel（LPIC）</title>
+      <link>https://swiswiswift.com/2022-09-23/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-09-23/</guid>
+      <description>userdel ユーザーを削除するコマンドです。</description>
+    </item>
+    
+    <item>
       <title>Linuxのファイル（LPIC）</title>
       <link>https://swiswiswift.com/2022-09-22/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>

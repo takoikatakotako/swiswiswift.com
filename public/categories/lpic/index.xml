@@ -97,5 +97,14 @@
       <description>LPICレベル1で出てくるLinuxコマンドのまとめです。 bzip2,bunzip2 bzip2 は圧縮に、bunzip2 は解凍に使われ</description>
     </item>
     
+    <item>
+      <title>シェル変数と環境変数</title>
+      <link>https://swiswiswift.com/2022-06-10/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-10/</guid>
+      <description>シェル変数と環境変数の違いについての解説です。 シェル変数は子プロセスでその値を呼び出すことはできませ</description>
+    </item>
+    
   </channel>
 </rss>

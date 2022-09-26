@@ -6,7 +6,16 @@
     <description>Recent content in Docker on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerイメージを作成してECSで動かす</title>
+      <link>https://swiswiswift.com/2022-06-11/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-11/</guid>
+      <description>Dockerイメージを作成してECSで動かします。 Dockerのおさらいとnginxイメージについて</description>
+    </item>
+    
     <item>
       <title>Dockerビルドに秘密情報を使う</title>
       <link>https://swiswiswift.com/2022-04-02/</link>
