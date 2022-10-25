@@ -31,22 +31,45 @@ Public-Subnetに踏み台インスタンスをインスタンスを作成しま�
 $ ssh -i key-pair.pem ec2-user@{PUBLIC_EC2_IP}
 ```
 
-scpでPublic-Instanceにキーペアを送信します。
+scpでPublic-Instanceにキーペア（秘密鍵）を送信します。
 
 ```
 $ scp -i key-pair.pem key-pair.pem ec2-user@{PUBLIC_EC2_IP}:/home/ec2-user/key-pair.pem
+```
+
+秘密鍵の権限を設定します。
+
+```
+$ chmod /home/ec2-user/key-pair.pem
+```
+
+Private Instance にアクセスします。
+
+```
+$ ssh -i key-pair.pem ec2-user@{PRIVATE_INSTANCE_LOCAL_IP}
+```
+
+Private Instance の中からではインターネットにアクセスできないことを確認します。
+
+```
+$ curl http://abehiroshi.la.coocan.jp/    # アクセスできない
 ```
 
 NATゲートウェイを作成します。
 
 ![Image](2.png)
 
-Routeテーブルの設定をします。
+Routeテーブルの作成し、送信元の設定とサブネットの関連付けを行います。
 
 ![Image](3.png)
 
-これでPublic-InstanceからPrivate-Instanceにアクセスすることができます。
+![Image](4.png)
+
+![Image](5.png)
+
+
+これでPublic-Instanceからインターネットにアクセスすることができます。
 
 ```
-$ ssh -i key-pair.pem ec2-user@{PRIVATE_EC2_IP}
+$ curl http://abehiroshi.la.coocan.jp/
 ```
