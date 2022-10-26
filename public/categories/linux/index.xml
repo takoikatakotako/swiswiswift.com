@@ -6,7 +6,16 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>特殊文字のエスケープ（LPIC）</title>
+      <link>https://swiswiswift.com/2022-10-26/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-10-26/</guid>
+      <description>xargs 標準入力から受け取った値を引数に渡すコマンドです。 サンプル ls に &amp;lsquo;-li&amp;rsquo; を渡して実行する ls -li と同等です。 $</description>
+    </item>
+    
     <item>
       <title>特殊文字のエスケープ（LPIC）</title>
       <link>https://swiswiswift.com/2022-10-25/</link>
