@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022/11 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2022/11/</link>
+    <description>Recent content in 2022/11 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACPI（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-03/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-03/</guid>
+      <description>Advanced Configuration and Power Interface（ACPI） ACPIはPC/AT互換機の電源制御の統一規格として採用された</description>
+    </item>
+    
+    <item>
+      <title>modprobe（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-02/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-02/</guid>
+      <description>modprobe 指定したモジュールの依存関係を確認し、必要なモジュールを自動的に追加、もしくは削除します。 モジュー</description>
+    </item>
+    
+    <item>
+      <title>システムアーキテクチャ（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-01/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-01/</guid>
+      <description>システムアーキテクチャ PCI PCI Express USB eDP DDR SDRAM</description>
+    </item>
+    
+  </channel>
+</rss>

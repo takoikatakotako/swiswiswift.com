@@ -6,7 +6,79 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACPI（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-03/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-03/</guid>
+      <description>Advanced Configuration and Power Interface（ACPI） ACPIはPC/AT互換機の電源制御の統一規格として採用された</description>
+    </item>
+    
+    <item>
+      <title>modprobe（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-02/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-02/</guid>
+      <description>modprobe 指定したモジュールの依存関係を確認し、必要なモジュールを自動的に追加、もしくは削除します。 モジュー</description>
+    </item>
+    
+    <item>
+      <title>システムアーキテクチャ（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-01/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-01/</guid>
+      <description>システムアーキテクチャ PCI PCI Express USB eDP DDR SDRAM</description>
+    </item>
+    
+    <item>
+      <title>type（LPIC）</title>
+      <link>https://swiswiswift.com/2022-10-31/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-10-31/</guid>
+      <description>type コマンドのパスや種類を表示するときに使うコマンドです。 WindowsとLinuxでは挙動が異なりま</description>
+    </item>
+    
+    <item>
+      <title>xfs_repair（LPIC）</title>
+      <link>https://swiswiswift.com/2022-10-30/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-10-30/</guid>
+      <description>xfs_repair XFSファイルシステムを検査、修復するコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>fsck,e2fsck（LPIC）</title>
+      <link>https://swiswiswift.com/2022-10-29/</link>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-10-29/</guid>
+      <description>fsck,e2fsck ファイルシステムにエラーがないかどうかのチェックと修復を行うコマンドです。 オプション -A /etc/f</description>
+    </item>
+    
+    <item>
+      <title>tune2fs（LPIC）</title>
+      <link>https://swiswiswift.com/2022-10-28/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-10-28/</guid>
+      <description>tune2fs ext2/ext3/ext4 ファイルシステムのパラメーターを調整するコマンドです。 オプション -c [回数] チェックなしでマウント</description>
+    </item>
+    
+    <item>
+      <title>man（LPIC）</title>
+      <link>https://swiswiswift.com/2022-10-27/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-10-27/</guid>
+      <description>man コマンドのマニュアルを表示するためのコマンドです。 オプション -a すべてのセクションのmanページが表</description>
+    </item>
+    
     <item>
       <title>特殊文字のエスケープ（LPIC）</title>
       <link>https://swiswiswift.com/2022-10-26/</link>
