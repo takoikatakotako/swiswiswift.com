@@ -6,7 +6,25 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRUB（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-05/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-05/</guid>
+      <description>GRUB ブートローダーです。 GRUBの設定ファイルは /boot/grub/menu.lst と /boot/grub/grub.conf です。 設定項目 default デフォルトで起動するOSを定義す</description>
+    </item>
+    
+    <item>
+      <title>GPTとMBR（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-04/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-04/</guid>
+      <description>GPTとMBR MBRとGPTは、マスターブートレコード（Master Boot Record）とGUIDパーテ</description>
+    </item>
+    
     <item>
       <title>ACPI（LPIC）</title>
       <link>https://swiswiswift.com/2022-11-03/</link>
