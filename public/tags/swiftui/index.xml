@@ -6,7 +6,25 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する</title>
+      <link>https://swiswiswift.com/2022-06-16/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-16/</guid>
+      <description>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する方法です。</description>
+    </item>
+    
+    <item>
+      <title>Swiftのasync,awaitを使ってAPIをフェッチする</title>
+      <link>https://swiswiswift.com/2022-06-15/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-06-15/</guid>
+      <description>Swiftのasync,awaitを使ってAPIをフェッチする方法です。</description>
+    </item>
+    
     <item>
       <title>SwiftUIでObservableObjectの@publishedなプロパティとBindingをする</title>
       <link>https://swiswiswift.com/2022-06-06/</link>

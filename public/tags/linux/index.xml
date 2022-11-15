@@ -6,7 +6,97 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 05 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>userdel（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-15/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-15/</guid>
+      <description>userdel ユーザーを削除するコマンドです。 サンプル snorlaxユーザーを削除する（snorlaxのホームデ</description>
+    </item>
+    
+    <item>
+      <title>zypper（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-14/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-14/</guid>
+      <description>zypper Libzyppライブラリを利用したコマンドラインによるパッケージ管理ツールです。 サンプル</description>
+    </item>
+    
+    <item>
+      <title>at,batch（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-13/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-13/</guid>
+      <description>at,batch 指定したコマンドを1回だけ実行するコマンドです。 at /etc/at.allow /etc/at.allow に登録されたユーザーは、atコマンドとbat</description>
+    </item>
+    
+    <item>
+      <title>BIOSとUEFI（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-12/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-12/</guid>
+      <description>BIOSとUEFI BIOS、UEFIはマザーボードに搭載されているプログラムです。 UEFIはBIOS</description>
+    </item>
+    
+    <item>
+      <title>/etc/hostsでホスト名とIPアドレスを対応させる（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-11/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-11/</guid>
+      <description>/etc/hostsでホスト名とIPアドレスを対応させる</description>
+    </item>
+    
+    <item>
+      <title>wall（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-10/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-10/</guid>
+      <description> wall </description>
+    </item>
+    
+    <item>
+      <title>uname（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-09/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-09/</guid>
+      <description> uname </description>
+    </item>
+    
+    <item>
+      <title>systemctl（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-08/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-08/</guid>
+      <description>systemctl サンプル sshd.serviceを開始する $ systemctl start sshd.service システム起動時にsshd.serviceを自動起</description>
+    </item>
+    
+    <item>
+      <title>init, telinit（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-07/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-07/</guid>
+      <description>init, telinit ランレベルを変更するコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>dd（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-06/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-06/</guid>
+      <description>dd サンプル</description>
+    </item>
+    
     <item>
       <title>GRUB（LPIC）</title>
       <link>https://swiswiswift.com/2022-11-05/</link>
