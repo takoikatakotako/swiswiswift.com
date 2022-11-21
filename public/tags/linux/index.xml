@@ -6,7 +6,61 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shutdown（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-21/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-21/</guid>
+      <description>shutdown オプション -r 再起動する。 -h シャットダウン後システムを停止する。 -k 実際にはシャットダウンを行なわず、</description>
+    </item>
+    
+    <item>
+      <title>journalctl（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-20/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-20/</guid>
+      <description>journalctl systemd-journaldが収集したログを表示するためのコマンドです。 サンプル 保管されている</description>
+    </item>
+    
+    <item>
+      <title>ntpd,ntpdate,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-19/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-19/</guid>
+      <description>ntpd,ntpdate,etc ntpd NTPにより時刻の同期を取るデーモンです。 /etc/ntp.conf ntpdの設定ファイルです。 オプション driftfile restrict server リモート</description>
+    </item>
+    
+    <item>
+      <title>hwclock（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-18/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-18/</guid>
+      <description>hwclock ハードウェアクロックをシステムクロックに合わせる $ hwclock -u --systohc システムクロックをハードウェアクロックに合</description>
+    </item>
+    
+    <item>
+      <title>chage（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-17/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-17/</guid>
+      <description>change サンプル snorlaxユーザーのパスワードの有効期限を調べる $ chage -l snorlax snorlaxのパスワードの有</description>
+    </item>
+    
+    <item>
+      <title>date（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-16/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-16/</guid>
+      <description>date サンプル 現在時間を表示 $ date Tue Aug 23 05:19:08 PM JST 2022 日付が入りでファイルを生成 $ touch `date &amp;#34;+%Y%m%d-snorlax.txt&amp;#34;` UTCで現在時刻を表示 $</description>
+    </item>
+    
     <item>
       <title>userdel（LPIC）</title>
       <link>https://swiswiswift.com/2022-11-15/</link>
