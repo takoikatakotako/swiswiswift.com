@@ -21,7 +21,7 @@
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/2022-06-15/</guid>
-      <description>Swiftのasync,awaitを使ってAPIをフェッチする方法です。</description>
+      <description>Swiftのasync,awaitを使ってAPIをフェッチする方法です。 従来のClosureを使った</description>
     </item>
     
     <item>
