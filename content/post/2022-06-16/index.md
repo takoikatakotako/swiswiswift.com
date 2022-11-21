@@ -19,9 +19,6 @@ aliases = ["migrate-from-jekyl"]
 
 Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する方法です。
 
+![Image](1.png)
 
 {{< gist takoikatakotako 55e5edb66875320f3505b27d30f75505 >}}
-
-
-
-
