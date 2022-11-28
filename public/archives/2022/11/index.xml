@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/11/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>gdisk（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-28/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-28/</guid>
+      <description>gdisk GPTに対応したパーティションの作成や削除などに使うコマンドです。</description>
+    </item>
+    
+    <item>
       <title>chgrp（LPIC）</title>
       <link>https://swiswiswift.com/2022-11-27/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
