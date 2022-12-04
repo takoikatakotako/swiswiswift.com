@@ -6,7 +6,61 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/etc/group（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-04/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-04/</guid>
+      <description>/etc/group グループの設定は /etc/group に保存されています。 1 2 3 4 pokemon:x:1002:snorlax,ditto グループ名 グループパスワード。 グループID グループ</description>
+    </item>
+    
+    <item>
+      <title>/etc/passwd（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-03/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-03/</guid>
+      <description>/etc/passwd ユーザーのアカウント情報は /etc/passwd ファイルに保存されます。 1 2 3 4 5 6 7 snorlax:x:1000:1000:I Love Snorlax! :/home/snorlax:/bin/bash ユーザー名 パスワード。s</description>
+    </item>
+    
+    <item>
+      <title>X.org（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-02/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-02/</guid>
+      <description>X.org,etc xorg.conf 設定ファイルです。 /etc/X11/xorg.conf xorg.conf.d 以下に設定ファイルが分割されて格納されている場合もあります。 /etc/X11/xorg.conf.d/* /usr/share/X11/xorg.conf.d/* ディスプレ</description>
+    </item>
+    
+    <item>
+      <title>LPIC101直前まとめ（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-01/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-01/</guid>
+      <description>LPIC101直前まとめ テスト直前に確認することを想定したページです。 setはシェル変数の一覧を表示</description>
+    </item>
+    
+    <item>
+      <title>pkill（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-30/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-30/</guid>
+      <description>pkill サンプル nginxを終了させる $ ps ax | grep nginx 5241 ? Ss 0:00 nginx: master process /usr/sbin/nginx 5242 ? S 0:00 nginx: worker process 5244 pts/0 S+ 0:00 grep --color=auto nginx $ pkill nginx `` $ ps</description>
+    </item>
+    
+    <item>
+      <title>parted（LPIC）</title>
+      <link>https://swiswiswift.com/2022-11-29/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-11-29/</guid>
+      <description> parted </description>
+    </item>
+    
     <item>
       <title>gdisk（LPIC）</title>
       <link>https://swiswiswift.com/2022-11-28/</link>
