@@ -6,7 +6,52 @@
     <description>Recent content in Linux on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chronyc,chronyd（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-09/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-09/</guid>
+      <description>chronyc,chronyd 従来のntpdデーモン、ntpdateコマンドに代わり、機能及びパフォーマンスを改善したものです。</description>
+    </item>
+    
+    <item>
+      <title>groupadd,groupdel（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-08/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-08/</guid>
+      <description> groupadd,groupdel groupadd $ groupadd pokemon $ cat /etc/group | grep pokemon pokemon:x:1001: groupdel $ groupdel pokemon </description>
+    </item>
+    
+    <item>
+      <title>getent（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-07/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-07/</guid>
+      <description>getent ネームサービススイッチ（/etc/nsswitch.conf）の設定に従い、引数で指定したデータベ</description>
+    </item>
+    
+    <item>
+      <title>Wayland（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-06/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-06/</guid>
+      <description>Wayland WaylaはXに変わる新しいディスプレイサーバーです。</description>
+    </item>
+    
+    <item>
+      <title>cron,crontab,anacron,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-05/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-05/</guid>
+      <description>cron,crontab,anacron,etc cron crontab /etc/cron.allow, /etc/cron.deby /etc/cron.allow に記述があるユーザーはcrontabを作成することができる。 /etc/cron.deby に記述があるユーザーはcr</description>
+    </item>
+    
     <item>
       <title>/etc/group（LPIC）</title>
       <link>https://swiswiswift.com/2022-12-04/</link>
