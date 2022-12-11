@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://swiswiswift.com/archives/2022/11/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>プリンター,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-11/</link>
+      <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-11/</guid>
+      <description>プリンター,etc Postscript Printer Description（PPD） PPDはフォント、用紙サイズ、解像度などPos</description>
+    </item>
+    
+    <item>
+      <title>syslog,rsyslog,syslog-ng,systemd journal,logger,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-10/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-10/</guid>
+      <description>syslog,rsyslog,syslog-ng,systemd journal システムログを収集するソフトウェアです。 syslog ファシリティ ファシリティはメッセージの生成元を表します</description>
+    </item>
+    
+    <item>
       <title>chronyc,chronyd（LPIC）</title>
       <link>https://swiswiswift.com/2022-12-09/</link>
       <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
