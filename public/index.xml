@@ -6,7 +6,205 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>systemdのタイマー（LPIC）</title>
+      <link>https://swiswiswift.com/2023-01-02/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-01-02/</guid>
+      <description>systemdのタイマー cronのようなタイマーを作ることができます。 1時間ごとに実行するタイマーを</description>
+    </item>
+    
+    <item>
+      <title>ulimit（LPIC）</title>
+      <link>https://swiswiswift.com/2023-01-01/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-01-01/</guid>
+      <description> ulimit </description>
+    </item>
+    
+    <item>
+      <title>gpg（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-31/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-31/</guid>
+      <description> gpg </description>
+    </item>
+    
+    <item>
+      <title>ssh,ssh-keygen,ssh-agent,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-30/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-30/</guid>
+      <description>ssh,ssh-keygen,ssh-agent,etc ssh オプション -i 秘密鍵を指定する -p ポート番号を指定する -o Port ポート番号を指定する</description>
+    </item>
+    
+    <item>
+      <title>xinetd（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-29/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-29/</guid>
+      <description> xinetd,TCP Wrapper,etc </description>
+    </item>
+    
+    <item>
+      <title>su,sudo,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-28/</link>
+      <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-28/</guid>
+      <description>su,sudo,etc /etc/sudoers sudoコマンドは /etc/sudoers ファイルを参照して、ユーザーがコマンドの実行権限を持っているか判定します。</description>
+    </item>
+    
+    <item>
+      <title>Postfix,Exim,Sendmail,MTA,newaliases,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-27/</link>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-27/</guid>
+      <description>Postfix,Exim,Sendmail,MTA,newaliases,etc newaliases /etc/aliases ファイルを参照して、/etc/aliases.db ファイルを更新するコマンドです。 ~/.foward Sendmail, Postfix, Exim など</description>
+    </item>
+    
+    <item>
+      <title>dig（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-26/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-26/</guid>
+      <description>dig DNSサーバーへの問い合わせをするコマンドです オプション swiswiswift.comのIPアドレ</description>
+    </item>
+    
+    <item>
+      <title>host（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-25/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-25/</guid>
+      <description>host DNSサーバーへの問い合わせをするコマンドです。 swiswiswiftのIPアドレスを調べる $ host swiswiswift.com</description>
+    </item>
+    
+    <item>
+      <title>hostname（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-24/</link>
+      <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-24/</guid>
+      <description>hostname ホスト名の設定、変更をするコマンドです。 ホスト名を表示 $ hostname ホスト名を更新 $ hostname new.host.name.com</description>
+    </item>
+    
+    <item>
+      <title>nmcli（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-23/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-23/</guid>
+      <description>nmcli NetworkManagerの制御を行うコマンドラインツールです。 オブジェクト general device connection networking サンプル Wi</description>
+    </item>
+    
+    <item>
+      <title>route（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-22/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-22/</guid>
+      <description>route ルーティングテーブルの設定と表示を行うコマンドです。 表示 $ route Kernel IP routing table Destination Gateway Genmask Flags Metric Ref Use Iface default v160-251-100-1. 0.0.0.0 UG 100 0 0</description>
+    </item>
+    
+    <item>
+      <title>ip（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-21/</link>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-21/</guid>
+      <description>ip ネットワークインターフェース、ルーティングテーブルなどを管理するコマンドです。 routeコマンドや</description>
+    </item>
+    
+    <item>
+      <title>ifconfig,ifup,ifdown,etc（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-20/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-20/</guid>
+      <description>ifconfig ネットワークI/Fの設定、表示するコマンドです。 $ ifconfig ネットワークインターフェース eth0 の送受信バイト数</description>
+    </item>
+    
+    <item>
+      <title>lsof（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-19/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-19/</guid>
+      <description>lsof プロセスによってオープンされているファイルの一覧を表示します。 オプション -i オープンしているインター</description>
+    </item>
+    
+    <item>
+      <title>traceroute,tracepath（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-18/</link>
+      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-18/</guid>
+      <description>traceroute サンプル ローカルホストからswiswiswift.comへの経路をトレースして表示する $ traceroute swiswiswift.com traceroute to swiswiswift.com</description>
+    </item>
+    
+    <item>
+      <title>ping（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-17/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-17/</guid>
+      <description> ping </description>
+    </item>
+    
+    <item>
+      <title>netstat（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-16/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-16/</guid>
+      <description>netstat TCPとUDPのサービスポートの状態、UNIXドメインソケットの状態、ルーティングルーティング情報</description>
+    </item>
+    
+    <item>
+      <title>UDP,TCP（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-15/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-15/</guid>
+      <description>UDP,TCP TCP コネクションを確立し、確立した通信路で転送を行う 受信データのエラー訂正機能がある UDP コネクションを</description>
+    </item>
+    
+    <item>
+      <title>IPアドレス（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-14/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-14/</guid>
+      <description>IPアドレス IPV4 プライベートアドレス 10.0.0.0 - 10.255.255.255 172.16.0.0 - 172.31.255.255 192.168.0.0 - 192.168.255.255 サンプル 192.168.1.64/28 プレフィックスが /28 なので、32-28と</description>
+    </item>
+    
+    <item>
+      <title>iconv（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-13/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-13/</guid>
+      <description>iconv ファイルのエンコードを変更するコマンドです。</description>
+    </item>
+    
+    <item>
+      <title>locale（LPIC）</title>
+      <link>https://swiswiswift.com/2022-12-12/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2022-12-12/</guid>
+      <description>locale ロケール情報の表示の表示はlocaleコマンドで行います。 サンプル 現在設定されているロケール情報を</description>
+    </item>
+    
     <item>
       <title>プリンター,etc（LPIC）</title>
       <link>https://swiswiswift.com/2022-12-11/</link>
