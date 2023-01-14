@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023/01 on すいすいSwift</title>
+    <link>https://swiswiswift.com/archives/2023/01/</link>
+    <description>Recent content in 2023/01 on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://swiswiswift.com/archives/2023/01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでローカル通知を送信する</title>
+      <link>https://swiswiswift.com/2023-01-14/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-01-14/</guid>
+      <description>SwiftUIでローカル通知を送信する方法です。 ローカル通知であればサーバーを用意しなくてもプッシュ</description>
+    </item>
+    
+  </channel>
+</rss>
