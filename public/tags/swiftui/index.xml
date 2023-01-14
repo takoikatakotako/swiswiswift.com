@@ -6,7 +6,16 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでローカル通知を送信する</title>
+      <link>https://swiswiswift.com/2023-01-14/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-01-14/</guid>
+      <description>SwiftUIでローカル通知を送信する方法です。 ローカル通知であればサーバーを用意しなくてもプッシュ</description>
+    </item>
+    
     <item>
       <title>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する</title>
       <link>https://swiswiswift.com/2022-06-16/</link>
