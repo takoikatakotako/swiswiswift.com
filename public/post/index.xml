@@ -6,7 +6,16 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでアラートのメッセージを出し分ける</title>
+      <link>https://swiswiswift.com/2023-01-16/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-01-16/</guid>
+      <description>SwiftUIでアラートのメッセージを出し分ける方法です。 アラート表示前にアラートメッセージを変更し</description>
+    </item>
+    
     <item>
       <title>SwiftUIでローカル通知を送信する</title>
       <link>https://swiswiswift.com/2023-01-14/</link>
