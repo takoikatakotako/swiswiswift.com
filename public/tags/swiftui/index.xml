@@ -6,7 +6,16 @@
     <description>Recent content in SwiftUI on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでカレンダーを作成する</title>
+      <link>https://swiswiswift.com/2023-02-08/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-02-08/</guid>
+      <description>SwiftUIでカレンダーを作成する方法です。 VStack と HStack を組み合わせて作成しました。</description>
+    </item>
+    
     <item>
       <title>SwiftUIでアラートのメッセージを出し分ける</title>
       <link>https://swiswiswift.com/2023-01-16/</link>
