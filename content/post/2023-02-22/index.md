@@ -18,7 +18,7 @@ aliases = ["migrate-from-jekyl"]
 SwiftでUICalendarViewを使ってカレンダーを表示する方法です。
 iOS16からUICalendarViewというすごく便利なものが使えるようになりました。
 
-![Modal](20230223.git)
+![Modal](20230222.git)
 
 参考: [How to use UICalendarView in iOS](https://nemecek.be/blog/161/how-to-use-uicalendarview-in-ios)
 
