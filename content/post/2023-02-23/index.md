@@ -18,7 +18,7 @@ aliases = ["migrate-from-jekyl"]
 Swiftでモーダル表示時にviewWillDisappearが呼ばれないということが起きました。
 以下のようにボタンを押したタイミングでフルスクリーンのモーダルが表示されるとします。
 
-![Modal](20230223.git)
+![Modal](20230223.gif)
 
 `modalPresentationStyle` を `.fullScreen` にすると `viewWillDisappear` と `viewDidAppear` がモーダル表示のタイミングで呼ばれますが、`.overFullScreen` にすると `viewDidAppear` しか呼ばれませんでした。
 

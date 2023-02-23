@@ -1,7 +1,7 @@
 +++
 title = "SwiftUIでTODOアプリを作成する"
-url = "2023-02-24"
-date = "2023-02-24"
+url = "2023-02-20"
+date = "2023-02-20"
 description = "SwiftUIでTODOアプリを作成する"
 tags = [
   "SwiftUI"
@@ -18,6 +18,8 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでTODOアプリのサンプルを作成してみました。
 Add Scheduleボタンを押すと予定入力画面が表示されます。
 日付を押すと予定一覧画面が表示され、予定の一覧を確認することができます。
+
+![ToDo App](20230220.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}
