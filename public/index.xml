@@ -6,7 +6,43 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiftでモーダル表示時にviewWillDisappearが呼ばれない</title>
+      <link>https://swiswiswift.com/2023-02-23/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-02-23/</guid>
+      <description>Swiftでモーダル表示時にviewWillDisappearが呼ばれないということが起きました。 以</description>
+    </item>
+    
+    <item>
+      <title>SwiftでUICalendarViewを使ってカレンダーを表示する</title>
+      <link>https://swiswiswift.com/2023-02-22/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-02-22/</guid>
+      <description>SwiftでUICalendarViewを使ってカレンダーを表示する方法です。 iOS16からUICa</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでUICalendarViewを使ってカレンダーを表示する</title>
+      <link>https://swiswiswift.com/2023-02-21/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-02-21/</guid>
+      <description>SwiftUIでUICalendarViewを使ってカレンダーを表示する。 iOS16からUICale</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでTODOアプリを作成する</title>
+      <link>https://swiswiswift.com/2023-02-20/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-02-20/</guid>
+      <description>SwiftUIでTODOアプリのサンプルを作成してみました。 Add Scheduleボタンを押すと予定入力</description>
+    </item>
+    
     <item>
       <title>SwiftUIでカレンダーを作成する</title>
       <link>https://swiswiswift.com/2023-02-08/</link>

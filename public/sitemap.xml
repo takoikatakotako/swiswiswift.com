@@ -3,24 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/swiftui/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/categories/swiftui/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://swiswiswift.com/2023-02-08/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
+    <loc>https://swiswiswift.com/2023-02-23/</loc>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/</loc>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/swift/</loc>
+    <lastmod>2023-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/swift/</loc>
+    <lastmod>2023-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-02-22/</loc>
+    <lastmod>2023-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-02-21/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-02-20/</loc>
+    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-02-08/</loc>
     <lastmod>2023-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2023-01-16/</loc>
@@ -628,12 +646,6 @@
   </url><url>
     <loc>https://swiswiswift.com/categories/python/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/swift/</loc>
-    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/swift/</loc>
-    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2022-06-16/</loc>
     <lastmod>2022-06-16T00:00:00+00:00</lastmod>
@@ -2204,6 +2216,8 @@
     <loc>https://swiswiswift.com/archives/2022/11/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/2023/01/</loc>
+  </url><url>
+    <loc>https://swiswiswift.com/archives/2023/02/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/</loc>
   </url><url>
