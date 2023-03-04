@@ -18,7 +18,11 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでカレンダーを作成する方法です。
 VStack と HStack を組み合わせて作成しました。
 
-![Calender](20230208.png)
+2023年2月24日追記
+iOS16からUICalendarViewという便利なものが用意されたのでそれを使った方が良いかもしれません。
+[こちら](/2023-02-21) の記事です。
+
+![Calendar](20230208.png)
 
 <!-- Google Ads -->
 {{< google-ads >}}
