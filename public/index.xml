@@ -6,7 +6,43 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>転職活動エントリ</title>
+      <link>https://swiswiswift.com/2023-04-01/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-04-01/</guid>
+      <description>はじめに 転職の際の忘備録として記憶が鮮明なうちに書き残します。 誰かの参考になれば幸いです。 TL;DR エージェ</description>
+    </item>
+    
+    <item>
+      <title>Error Finding App Store Credentials というエラーが出てしまう</title>
+      <link>https://swiswiswift.com/2023-03-03/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-03-03/</guid>
+      <description>Error Finding App Store Credentials というエラーが出てしまった時の対処法です。 上記のエラーが出てしまい、AppStoreCon</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでImageの色を反転させる</title>
+      <link>https://swiswiswift.com/2023-03-02/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-03-02/</guid>
+      <description>SwiftUIでImageの色を反転させる方法です。 .colorInvert() を追加することで色を反転させることができます。</description>
+    </item>
+    
+    <item>
+      <title>SwiftでJSONをDictonaryでDecodeする</title>
+      <link>https://swiswiswift.com/2023-03-01/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-03-01/</guid>
+      <description>SwiftでJSONをDictonaryでDecodeする方法です。 Mapのような辞書配列をDict</description>
+    </item>
+    
     <item>
       <title>UserDefaultsで複数の値をセットで保存する</title>
       <link>https://swiswiswift.com/2023-02-24/</link>

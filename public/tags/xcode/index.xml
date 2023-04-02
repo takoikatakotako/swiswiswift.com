@@ -6,7 +6,16 @@
     <description>Recent content in Xcode on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Error Finding App Store Credentials というエラーが出てしまう</title>
+      <link>https://swiswiswift.com/2023-03-03/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-03-03/</guid>
+      <description>Error Finding App Store Credentials というエラーが出てしまった時の対処法です。 上記のエラーが出てしまい、AppStoreCon</description>
+    </item>
+    
     <item>
       <title>CollectionViewで並び替え時に選択されたセルにアニメーションを付与する</title>
       <link>https://swiswiswift.com/2022-01-06/</link>
