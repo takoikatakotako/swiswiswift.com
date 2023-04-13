@@ -1,13 +1,13 @@
 +++
-title = "転職活動エントリ"
+title = "JavaScriptで画像を読み込んでCanvasに表示する"
 url = "2023-04-02"
 date = "2023-04-02"
-description = "転職活動エントリ"
+description = "JavaScriptで画像を読み込んでCanvasに表示する"
 tags = [
-  "キャリア"
+  "JavaScript"
 ]
 categories = [
-  "キャリア"
+  "JavaScript"
 ]
 archives = "2023/04"
 aliases = ["migrate-from-jekyl"]
