@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/golang/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/golang/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-05-01/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/categories/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2023-04-01/</loc>
@@ -1018,12 +1027,6 @@
   </url><url>
     <loc>https://swiswiswift.com/2021-10-03/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/golang/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/golang/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2021-10-02/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
