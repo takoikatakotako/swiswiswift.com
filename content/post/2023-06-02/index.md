@@ -1,7 +1,7 @@
 +++
 title = "JavaScriptで画像を読み込んでCanvasに表示する"
-url = "2023-04-02"
-date = "2023-04-02"
+url = "2023-06-01"
+date = "2023-06-01"
 description = "JavaScriptで画像を読み込んでCanvasに表示する"
 tags = [
   "JavaScript"
