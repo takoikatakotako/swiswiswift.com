@@ -6,7 +6,25 @@
     <description>Recent content on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWSクラウドプラクティショナーとソリューションアーキテクトアソシエイトの勉強方法</title>
+      <link>https://swiswiswift.com/2023-06-02/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-06-02/</guid>
+      <description>AWS未経験の方がAWSについて知るには資格勉強をするのが良いと思っています。 おすすめの勉強法につい</description>
+    </item>
+    
+    <item>
+      <title>GolangでWindowsで動作するソフトを作る</title>
+      <link>https://swiswiswift.com/2023-06-01/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-06-01/</guid>
+      <description>GolangでWindowsで動作するソフトを作る方法です。 &amp;ldquo;Hello World&amp;rdquo; と表示して、入力があると終了するソフ</description>
+    </item>
+    
     <item>
       <title>GolangでWebAPIを作るハンズオン（その１）</title>
       <link>https://swiswiswift.com/2023-05-01/</link>
