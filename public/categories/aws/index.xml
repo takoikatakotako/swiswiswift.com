@@ -6,7 +6,16 @@
     <description>Recent content in AWS on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWSクラウドプラクティショナーとソリューションアーキテクトアソシエイトの勉強方法</title>
+      <link>https://swiswiswift.com/2023-06-02/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-06-02/</guid>
+      <description>AWS未経験の方がAWSについて知るには資格勉強をするのが良いと思っています。 おすすめの勉強法につい</description>
+    </item>
+    
     <item>
       <title>Terraformを使ってサーバーレスでサービスを作成したので振り返る</title>
       <link>https://swiswiswift.com/2022-07-13/</link>
