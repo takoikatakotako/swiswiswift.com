@@ -31,7 +31,17 @@
     </style>
     <link rel='stylesheet' href='{{ "css/style.css" | absURL }}' type='text/css' media='all' />
     <link rel='stylesheet' href='{{ "css/custom.css" | absURL }}' type='text/css' media='all' />
-    {{ template "_internal/google_analytics.html" . }}
+    <!-- {{ template "_internal/google_analytics.html" . }} -->
     <!-- Admob -->
     <script data-ad-client="ca-pub-5587141252700968" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHT15MJHCR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BHT15MJHCR');
+    </script>
 </head>
