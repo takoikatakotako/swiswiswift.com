@@ -3,10 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2023-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/javascript/</loc>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/javascript/</loc>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2023-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/</loc>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/</loc>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-07-04/</loc>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-07-03/</loc>
+    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-07-02/</loc>
+    <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-07-01/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/iosdc/</loc>
+    <lastmod>2023-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/iosdc/</loc>
+    <lastmod>2023-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-06-04/</loc>
+    <lastmod>2023-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/swift/</loc>
     <lastmod>2023-06-03T00:00:00+00:00</lastmod>
@@ -15,12 +48,6 @@
     <lastmod>2023-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2023-06-03/</loc>
-    <lastmod>2023-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2023-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/</loc>
     <lastmod>2023-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/aws/</loc>
@@ -622,12 +649,6 @@
   </url><url>
     <loc>https://swiswiswift.com/2022-07-16/</loc>
     <lastmod>2022-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/javascript/</loc>
-    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/javascript/</loc>
-    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2022-07-15/</loc>
     <lastmod>2022-07-15T00:00:00+00:00</lastmod>
@@ -2257,6 +2278,8 @@
     <loc>https://swiswiswift.com/archives/2023/04/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/2023/06/</loc>
+  </url><url>
+    <loc>https://swiswiswift.com/archives/2023/07/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/</loc>
   </url><url>

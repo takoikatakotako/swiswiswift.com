@@ -6,7 +6,25 @@
     <description>Recent content in Categories on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>https://swiswiswift.com/categories/javascript/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOSDC</title>
+      <link>https://swiswiswift.com/categories/iosdc/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/categories/iosdc/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Swift</title>
       <link>https://swiswiswift.com/categories/swift/</link>
@@ -67,15 +85,6 @@
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://swiswiswift.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://swiswiswift.com/categories/javascript/</link>
-      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://swiswiswift.com/categories/javascript/</guid>
       <description></description>
     </item>
     
