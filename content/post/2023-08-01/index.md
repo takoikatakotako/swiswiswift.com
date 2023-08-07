@@ -18,4 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでPDFを表示する方法です。
 `PDFView` を利用して `snorlax.pdf` を表示させています。
 
+{{< figure src="1.gif" width="300" >}}
+
 {{< gist takoikatakotako f2278979cc7a22ebb458435ccf817a92 >}}
