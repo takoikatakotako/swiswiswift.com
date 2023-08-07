@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://swiswiswift.com/categories/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/post/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/swiftui/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/categories/swiftui/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/2023-08-01/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/tags/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swiswiswift.com/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/tags/javascript/</loc>
     <lastmod>2023-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/categories/javascript/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/post/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/</loc>
     <lastmod>2023-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2023-07-04/</loc>
@@ -88,12 +97,6 @@
   </url><url>
     <loc>https://swiswiswift.com/categories/xcode/</loc>
     <lastmod>2023-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/tags/swiftui/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swiswiswift.com/categories/swiftui/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swiswiswift.com/2023-03-02/</loc>
     <lastmod>2023-03-02T00:00:00+00:00</lastmod>
@@ -2280,6 +2283,8 @@
     <loc>https://swiswiswift.com/archives/2023/06/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/2023/07/</loc>
+  </url><url>
+    <loc>https://swiswiswift.com/archives/2023/08/</loc>
   </url><url>
     <loc>https://swiswiswift.com/archives/</loc>
   </url><url>

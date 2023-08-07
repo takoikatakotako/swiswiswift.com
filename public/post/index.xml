@@ -6,7 +6,16 @@
     <description>Recent content in Posts on すいすいSwift</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでPDFを表示する</title>
+      <link>https://swiswiswift.com/2023-08-01/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2023-08-01/</guid>
+      <description>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。</description>
+    </item>
+    
     <item>
       <title>セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする</title>
       <link>https://swiswiswift.com/2023-07-04/</link>
