@@ -2,7 +2,7 @@ baseURL = "https://swiswiswift.com/"
 # baseURL = "localhost: 8000"
 languageCode = "ja"
 title = "すいすいSwift"
-theme = "Inkblotty2"
+theme = "swiswiswift"
 
 
 # [taxonomies]
