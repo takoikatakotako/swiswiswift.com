@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+/* item */
+.item > h2 > a {
+    text-decoration: none;
+}

@@ -11,8 +11,8 @@ features = []
 min_version = "0.113.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "takoikatakotako"
+  homepage = "https://swiswiswift.com"
 
 # If porting an existing theme
 [original]
