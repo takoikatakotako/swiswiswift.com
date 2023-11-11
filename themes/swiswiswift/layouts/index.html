@@ -19,50 +19,14 @@
     </header>
 
     <div>
+        {{ range .Paginator.Pages }}
         <div class="item">
-            <h2><a href="https://swiswiswift.com/2023-07-04/">SwiftUIでPDFを表示する</a></h2>
+            <h2><a href="https://swiswiswift.com/2023-07-04/">{{.Title}}</a></h2>
             <h3>2023-08-01</h3>
-            <p>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。SwiftUIでPDFを表示する方法です。表示させています。SwiftUIでPDFを表示する方法です。<a href="https://swiswiswift.com/2023-07-04/">...more</a></p>
-            <p>SwiftUI, SwiftUI</p>
+            <p>{{ .Summary }}<a href="https://swiswiswift.com/2023-07-04/">...more</a></p>
         </div>
-
         <hr>
-
-        <div class="item">
-            <h2><a href="https://swiswiswift.com/2023-07-04/">SwiftUIでPDFを表示する</a></h2>
-            <h3>2023-08-01</h3>
-            <p>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。</p>
-            <p>SwiftUI, SwiftUI</p>
-        </div>
-
-        <hr>
-
-        <div class="item">
-            <h2><a href="https://swiswiswift.com/2023-07-04/">SwiftUIでPDFを表示する</a></h2>
-            <h3>2023-08-01</h3>
-            <p>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。</p>
-            <p>SwiftUI, SwiftUI</p>
-        </div>
-
-        <hr>
-
-        <div class="item">
-            <h2><a href="https://swiswiswift.com/2023-07-04/">SwiftUIでPDFを表示する</a></h2>
-            <h3>2023-08-01</h3>
-            <p>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。</p>
-            <p>SwiftUI, SwiftUI</p>
-        </div>
-
-        <hr>
-
-        <div class="item">
-            <h2><a href="https://swiswiswift.com/2023-07-04/">SwiftUIでPDFを表示する</a></h2>
-            <h3>2023-08-01</h3>
-            <p>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。</p>
-            <p>SwiftUI, SwiftUI</p>
-        </div>
-
-        <hr>
+        {{ end }}
     </div>
 
     <footer>
