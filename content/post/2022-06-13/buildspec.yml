@@ -1,9 +1,0 @@
-version: 0.2
-
-phases:
-  build:
-    commands:
-      - gcc --version
-      - ls
-      - gcc main.c -o main
-      - aws s3 cp main s3://swiswiswift-clang-bucket/output/main
