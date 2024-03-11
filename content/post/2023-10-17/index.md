@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIで画像を丸く切り取り枠を付ける"
+title = "SwiftUIでアラートとシートを出し分ける"
 url = "2023-10-06"
 date = "2023-10-06"
-description = "SwiftUIで画像を丸く切り取り枠を付ける"
+description = "SwiftUIでアラートとシートを出し分ける"
 tags = [
   "SwiftUI"
 ]

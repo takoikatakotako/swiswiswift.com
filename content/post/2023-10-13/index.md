@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIで画像を丸く切り取り枠を付ける"
+title = "SwiftUIでListのスタイルを変更する"
 url = "2023-10-06"
 date = "2023-10-06"
-description = "SwiftUIで画像を丸く切り取り枠を付ける"
+description = "SwiftUIでListのスタイルを変更する"
 tags = [
   "SwiftUI"
 ]

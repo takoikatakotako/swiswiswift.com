@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIで画像を丸く切り取り枠を付ける"
+title = "SwiftUIで全画面でSheetを表示する"
 url = "2023-10-06"
 date = "2023-10-06"
-description = "SwiftUIで画像を丸く切り取り枠を付ける"
+description = "SwiftUIで全画面でSheetを表示する"
 tags = [
   "SwiftUI"
 ]

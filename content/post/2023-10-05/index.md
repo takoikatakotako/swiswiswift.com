@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIで画像を丸く切り取り枠を付ける"
+title = "SwiftUIで画像を等間隔で横に並べる"
 url = "2023-10-05"
 date = "2023-10-05"
-description = "SwiftUIで画像を丸く切り取り枠を付ける"
+description = "SwiftUIで画像を等間隔で横に並べる"
 tags = [
   "SwiftUI"
 ]
