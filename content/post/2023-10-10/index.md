@@ -15,10 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIで画像を丸く切り取り枠を付ける方法です。
-150×200サイズに画像をリサイズして表示させています。
-アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。
+SwiftUIでListを使ってセクションごとに表示する方法です。
+Listの `listStyle` を指定して表示方法を変えています。
 
-<img src="1.png" width="300px" alt="SwiftUIで画像を丸く切り取り枠を付ける">
+<img src="1.png" width="300px" alt="SwiftUIでListを使ってセクションごとに表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 42f3882acd1823e0699fb94231497325 >}}

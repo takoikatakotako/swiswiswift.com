@@ -15,10 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIで画像を丸く切り取り枠を付ける方法です。
-150×200サイズに画像をリサイズして表示させています。
-アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。
+SwiftUIでNavigationViewを使いラージタイトルを表示する方法です。
+`navigationTitle` でタイトルを設定し、`navigationBarTitleDisplayMode` でサイズを指定しています。
 
-<img src="1.png" width="300px" alt="SwiftUIで画像を丸く切り取り枠を付ける">
+<img src="1.png" width="300px" alt="SwiftUIでNavigationViewを使いラージタイトルを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 77246d6e46c8319e2208ca39f2f22d84 >}}

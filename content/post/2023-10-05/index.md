@@ -15,10 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIで画像を丸く切り取り枠を付ける方法です。
-150×200サイズに画像をリサイズして表示させています。
-アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。
+SwiftUIで画像を等間隔で横に並べる方法です。
+Spacerを使うことで等間隔にViewを並べることができます。
 
-<img src="1.png" width="300px" alt="SwiftUIで画像を丸く切り取り枠を付ける">
+<img src="1.png" width="300px" alt="SwiftUIで画像を等間隔で横に並べる">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 74d103dd2cefa738d3c8fbabab907045 >}}
