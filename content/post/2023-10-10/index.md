@@ -1,7 +1,7 @@
 +++
 title = "SwiftUIでListを使ってセクションごとに表示する"
-url = "2023-10-06"
-date = "2023-10-06"
+url = "2023-10-10"
+date = "2023-10-10"
 description = "SwiftUIでListを使ってセクションごとに表示する"
 tags = [
   "SwiftUI"
