@@ -1,7 +1,7 @@
 +++
 title = "SwiftUIでSheetを表示する"
-url = "2023-10-06"
-date = "2023-10-06"
+url = "2023-10-28"
+date = "2023-10-28"
 description = "SwiftUIでSheetを表示する"
 tags = [
   "SwiftUI"
@@ -15,10 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIで画像を丸く切り取り枠を付ける方法です。
-150×200サイズに画像をリサイズして表示させています。
-アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。
+SwiftUIでSheetを表示する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIで画像を丸く切り取り枠を付ける">
+<img src="1.png" width="300px" alt="SwiftUIでSheetを表示する">
 
 {{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
