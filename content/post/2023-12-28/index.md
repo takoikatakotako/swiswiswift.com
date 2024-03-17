@@ -1,7 +1,7 @@
 +++
 title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
+url = "2023-12-28"
+date = "2023-12-28"
 description = "SwiftUIでPreviewを横向きにする"
 tags = [
   "SwiftUI"
