@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIで画像をピンチで拡大する（PDFView）"
 url = "2023-12-30"
 date = "2023-12-30"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIで画像をピンチで拡大する（PDFView）"
 tags = [
   "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIで画像をピンチで拡大する（PDFView）方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="1.png" width="300px" alt="SwiftUIで画像をピンチで拡大する（PDFView）">
 
 {{< gist takoikatakotako cd108d941788af118601acab68557118 >}}

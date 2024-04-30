@@ -2,7 +2,7 @@
 title = "SwiftUIでTabViewを使って画面を切り替える"
 url = "2023-10-08"
 date = "2023-10-08"
-description = "SwiftUIでTabViewを使って画面を切り替える
+description = "SwiftUIでTabViewを使って画面を切り替える"
 tags = [
   "SwiftUI"
 ]
