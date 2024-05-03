@@ -1,15 +1,15 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIで画像をピンチで拡大する（MagnificationGesture）"
 url = "2023-12-29"
 date = "2023-12-29"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIで画像をピンチで拡大する（MagnificationGesture）"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでPreviewを横向きにする方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-29.gif" width="300px" alt="SwiftUIで画像をピンチで拡大する（MagnificationGesture）">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako fec945458cd8d7d5a550908eb7f1924e >}}

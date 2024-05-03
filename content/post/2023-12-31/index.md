@@ -9,7 +9,7 @@ tags = [
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）">
+<img src="2023-12-31.gif" width="300px" alt="SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 822bc65a643f0538ef91b710c685951a >}}

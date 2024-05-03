@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIで画像をピンチで拡大する（PDFView）方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIで画像をピンチで拡大する（PDFView）">
+<img src="2023-12-30.gif" width="300px" alt="SwiftUIで画像をピンチで拡大する（PDFView）">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 5758362b01e5179d41f8b3c8effe8aac >}}
