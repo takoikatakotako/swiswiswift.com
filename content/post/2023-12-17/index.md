@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
+title = "Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する"
 url = "2023-12-17"
 date = "2023-12-17"
-description = "SwiftUIでPreviewを横向きにする"
+description = "Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-17.png" width="300px" alt="Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 63ccc7aa781296d2b73c41cef81c246f >}}

@@ -1,5 +1,5 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
+title = "XXXSwiftUIでPreviewを横向きにする"
 url = "2023-12-07"
 date = "2023-12-07"
 description = "SwiftUIでPreviewを横向きにする"

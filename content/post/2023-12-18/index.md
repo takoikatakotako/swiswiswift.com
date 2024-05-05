@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでObservableObjectの@publishedなプロパティとBindingする"
 url = "2023-12-18"
 date = "2023-12-18"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIでObservableObjectの@publishedなプロパティとBindingする"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでObservableObjectの@publishedなプロパティとBindingする方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-18.png" width="300px" alt="SwiftUIでObservableObjectの@publishedなプロパティとBindingする">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 31cfe87d66735dad78d117ae0b069130 >}}
