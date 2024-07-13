@@ -1,8 +1,20 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}LIST</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  <main class="wrapper news-contents">
+    <article class="home">
+      {{ range .Pages }}
+      <div class="home-article">
+        <a href="{{ .RelPermalink }}">
+          <h2>{{ .LinkTitle }}</h2>
+        </a>
+        <time class="home-date" datetime="2024-09-08">{{ .Date.Format "2006-01-02" }}</time>
+        <p>{{ .Summary }}</p>
+        <hr>
+      </div>
+      {{ end }} 
+    </article>
+
+    {{ partial "sidebar.html" . }}
+
+</main>
+
 {{ end }}

@@ -1,15 +1,4 @@
 {{ define "main" }}
-  <!-- <h1>{{ .Title }}</h1>
-
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-
-  {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
-
-
-
   <main class="wrapper news-contents">
     <article class="post">
         <header>
@@ -17,24 +6,10 @@
             <div class="post-info">
                 <ul class="post-cat">
                     {{ with .Params.tags }}
-                    {{ range . }}
-                    <li><a href="{{- "/tags/" | absURL -}}{{- . | urlize -}}" rel="tag">{{ . }}</a></li>
-                    <!-- <li><a href="#">AWS</a></li>
-                    <li><a href="#">Linux</a></li>
-                    <li><a href="#">iOS</a></li>
-                    <li><a href="#">SSH</a></li>
-                    <li><a href="#">セキュリティ</a></li>
-                    <li><a href="#">AWS</a></li>
-                    <li><a href="#">GCP</a></li>
-                    <li><a href="#">Swift</a></li>
-                    <li><a href="#">Golang</a></li>
-                    <li><a href="#">Terraform</a></li>
-                    <li><a href="#">Ruby</a></li>
-                    <li><a href="#">電子工作</a></li>
-                    <li><a href="#">就活</a></li> -->
+                        {{ range . }}
+                            <li><a href="{{- "/tags/" | absURL -}}{{- . | urlize -}}" rel="tag">{{ . }}</a></li>
+                        {{ end }} 
                     {{ end }} 
-                    {{ end }} 
-
                 </ul>
             </div>
             {{ $dateMachine := .Date | time.Format "2006-01-02" }}
@@ -43,44 +18,9 @@
         </header>
 
         {{ .Content }}
-
     </article>
 
-    <aside class="sidebar">
-        <!-- <h3 class="heading-medium">カテゴリ</h3>
-        <ul class="side-menu-category">
-            {{- range $name, $items := .Site.Taxonomies.categories -}}
-
-             <li><a href="{{- "categories/" | relLangURL -}}{{- $name | urlize | lower -}}">{{ .Page.Title }}</a></li>
-
-            {{- end }}
-        </ul> -->
-
-
-        <h3 class="heading-medium">タグ</h3>
-        <ul class="side-menu-category">
-            {{- range $name, $items := .Site.Taxonomies.tags -}}
-            <li><a href="{{- "tags/" | relLangURL -}}{{- $name | urlize | lower -}}">{{ .Page.Title }}</a></li>
-            {{- end }}
-        </ul>
-
-
-        <h3 class="heading-medium">カテゴリ</h3>
-        <ul class="side-menu-archive">
-
-            {{- range $name, $items := .Site.Taxonomies.categories -}}
-
-             <li><a href="{{- "categories/" | relLangURL -}}{{- $name | urlize | lower -}}">{{ .Page.Title }} ({{ $items.Count }})</a></li>
-
-            {{- end }}
-
-
-            <!-- <li><a href="#">2024/03 (3)</a></li>
-
-            <li><a href="#">2020/02 (3)</a></li>
-            <li><a href="#">2020/01 (3)</a></li> -->
-        </ul>
-    </aside>
+    {{ partial "sidebar.html" . }}
 </main>
 
 {{ end }}
