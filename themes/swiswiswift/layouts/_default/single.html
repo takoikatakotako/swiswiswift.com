@@ -13,7 +13,7 @@
   <main class="wrapper news-contents">
     <article class="post">
         <header>
-            <h2 class="post-title">セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする</h2>
+            <h2 class="post-title">{{ .Title }}</h2>
             <div class="post-info">
                 <ul class="post-cat">
                     <li><a href="#">AWS</a></li>
@@ -31,7 +31,7 @@
                     <li><a href="#">就活</a></li>
                 </ul>
             </div>
-            <time class="post-date" datetime="2024-09-08">2024年9月28日</time>
+            <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
         </header>
 
         {{ .Content }}
