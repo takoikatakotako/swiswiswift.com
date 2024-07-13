@@ -1,14 +1,4 @@
 <aside class="sidebar">
-    <!-- <h3 class="heading-medium">カテゴリ</h3>
-    <ul class="side-menu-category">
-        {{- range $name, $items := .Site.Taxonomies.categories -}}
-
-         <li><a href="{{- "categories/" | relLangURL -}}{{- $name | urlize | lower -}}">{{ .Page.Title }}</a></li>
-
-        {{- end }}
-    </ul> -->
-
-
     <h3 class="heading-medium">タグ</h3>
     <ul class="side-menu-category">
         {{- range $name, $items := .Site.Taxonomies.tags -}}
@@ -19,17 +9,8 @@
 
     <h3 class="heading-medium">カテゴリ</h3>
     <ul class="side-menu-archive">
-
         {{- range $name, $items := .Site.Taxonomies.categories -}}
-
-         <li><a href="{{- "categories/" | relLangURL -}}{{- $name | urlize | lower -}}">{{ .Page.Title }} ({{ $items.Count }})</a></li>
-
+        <li><a href="{{- "categories/" | relLangURL -}}{{- $name | urlize | lower -}}">{{ .Page.Title }} ({{ $items.Count }})</a></li>
         {{- end }}
-
-
-        <!-- <li><a href="#">2024/03 (3)</a></li>
-
-        <li><a href="#">2020/02 (3)</a></li>
-        <li><a href="#">2020/01 (3)</a></li> -->
     </ul>
 </aside>
