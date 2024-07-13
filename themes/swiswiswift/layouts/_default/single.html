@@ -1,0 +1,119 @@
+{{ define "main" }}
+  <!-- <h1>{{ .Title }}</h1>
+
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
+
+
+
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    <li><a href="#">AWS</a></li>
+                    <li><a href="#">Linux</a></li>
+                    <li><a href="#">iOS</a></li>
+                    <li><a href="#">SSH</a></li>
+                    <li><a href="#">セキュリティ</a></li>
+                    <li><a href="#">AWS</a></li>
+                    <li><a href="#">GCP</a></li>
+                    <li><a href="#">Swift</a></li>
+                    <li><a href="#">Golang</a></li>
+                    <li><a href="#">Terraform</a></li>
+                    <li><a href="#">Ruby</a></li>
+                    <li><a href="#">電子工作</a></li>
+                    <li><a href="#">就活</a></li>
+                </ul>
+            </div>
+            <time class="post-date" datetime="2024-09-08">2024年9月28日</time>
+        </header>
+
+        {{ .Content }}
+
+    </article>
+
+    <aside class="sidebar">
+        <h3 class="heading-medium">カテゴリ</h3>
+        <ul class="side-menu-category">
+            <li><a href="#">AWS</a></li>
+            <li><a href="#">Linux</a></li>
+            <li><a href="#">iOS</a></li>
+            <li><a href="#">SSH</a></li>
+            <li><a href="#">セキュリティ</a></li>
+            <li><a href="#">AWS</a></li>
+            <li><a href="#">GCP</a></li>
+            <li><a href="#">Swift</a></li>
+            <li><a href="#">Golang</a></li>
+            <li><a href="#">Terraform</a></li>
+            <li><a href="#">Ruby</a></li>
+            <li><a href="#">電子工作</a></li>
+            <li><a href="#">就活</a></li>
+            <li><a href="#">Firebase</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">Tex</a></li>
+        </ul>
+        <h3 class="heading-medium">アーカイブ</h3>
+        <ul class="side-menu-archive">
+            <li><a href="#">2024/04 (3)</a></li>
+            <li><a href="#">2024/03 (3)</a></li>
+            <li><a href="#">2024/02 (3)</a></li>
+            <li><a href="#">2024/01 (3)</a></li>
+            <li><a href="#">2023/12 (3)</a></li>
+            <li><a href="#">2023/11 (3)</a></li>
+            <li><a href="#">2023/10 (3)</a></li>
+            <li><a href="#">2023/09 (3)</a></li>
+            <li><a href="#">2023/08 (3)</a></li>
+            <li><a href="#">2023/07 (3)</a></li>
+            <li><a href="#">2023/06 (3)</a></li>
+            <li><a href="#">2023/05 (3)</a></li>
+            <li><a href="#">2023/04 (3)</a></li>
+            <li><a href="#">2023/03 (3)</a></li>
+            <li><a href="#">2023/02 (3)</a></li>
+            <li><a href="#">2023/01 (3)</a></li>
+            <li><a href="#">2022/12 (3)</a></li>
+            <li><a href="#">2022/11 (3)</a></li>
+            <li><a href="#">2022/10 (3)</a></li>
+            <li><a href="#">2022/09 (3)</a></li>
+            <li><a href="#">2022/08 (3)</a></li>
+            <li><a href="#">2022/07 (3)</a></li>
+            <li><a href="#">2022/06 (3)</a></li>
+            <li><a href="#">2022/05 (3)</a></li>
+            <li><a href="#">2022/04 (3)</a></li>
+            <li><a href="#">2022/03 (3)</a></li>
+            <li><a href="#">2022/02 (3)</a></li>
+            <li><a href="#">2022/01 (3)</a></li>
+            <li><a href="#">2021/12 (3)</a></li>
+            <li><a href="#">2021/11 (3)</a></li>
+            <li><a href="#">2021/10 (3)</a></li>
+            <li><a href="#">2021/09 (3)</a></li>
+            <li><a href="#">2021/08 (3)</a></li>
+            <li><a href="#">2021/07 (3)</a></li>
+            <li><a href="#">2021/06 (3)</a></li>
+            <li><a href="#">2021/05 (3)</a></li>
+            <li><a href="#">2021/04 (3)</a></li>
+            <li><a href="#">2021/03 (3)</a></li>
+            <li><a href="#">2021/02 (3)</a></li>
+            <li><a href="#">2021/01 (3)</a></li>
+            <li><a href="#">2021/12 (3)</a></li>
+            <li><a href="#">2021/11 (3)</a></li>
+            <li><a href="#">2020/10 (3)</a></li>
+            <li><a href="#">2020/09 (3)</a></li>
+            <li><a href="#">2020/08 (3)</a></li>
+            <li><a href="#">2020/07 (3)</a></li>
+            <li><a href="#">2020/06 (3)</a></li>
+            <li><a href="#">2020/05 (3)</a></li>
+            <li><a href="#">2020/04 (3)</a></li>
+            <li><a href="#">2020/03 (3)</a></li>
+            <li><a href="#">2020/02 (3)</a></li>
+            <li><a href="#">2020/01 (3)</a></li>
+        </ul>
+    </aside>
+</main>
+
+{{ end }}
