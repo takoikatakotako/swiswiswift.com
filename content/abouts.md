@@ -1,12 +1,13 @@
 +++
 title = "About"
 description = "About"
-date = "2017-04-01"
+date = "2014-07-01"
 aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 
-インフラとアプリをメインにやっているエンジニアです。
+カビゴンが好きなエンジニアです。
+業務では主に AWS と iOS を触っています。
 個人開発アプリを作って一発当てるのが夢です。
 
 
