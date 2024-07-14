@@ -12,6 +12,7 @@
                     {{ end }} 
                 </ul>
             </div>
+
             {{ $dateMachine := .Date | time.Format "2006-01-02" }}
             {{ $dateHuman := .Date | time.Format ":date_long" }}
             <time class="post-date" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>

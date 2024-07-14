@@ -6,8 +6,8 @@ aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 
-カビゴンが好きなエンジニアです。
-業務では主に AWS と iOS を触っています。
+カビゴンが好きなWebエンジニアです。
+業務では主にAWSとSwiftとGoを触っています。
 個人開発アプリを作って一発当てるのが夢です。
 
 
