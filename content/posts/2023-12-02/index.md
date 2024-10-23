@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでMapを表示し、自分の位置を中心にする"
+url = "2023-12-02"
+date = "2023-12-02"
+description = "SwiftUIでMapを表示し、自分の位置を中心にする"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでMapを表示し、自分の位置を中心にする方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-02.png" width="300px" alt="SwiftUIでMapを表示し、自分の位置を中心にする">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 628f4c2c184d72001847adf47e173f2e >}}

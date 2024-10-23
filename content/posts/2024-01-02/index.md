@@ -17,7 +17,7 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでシートを出し分ける方法です。
 
-<img src="2024-01-02.gif" width="300px" alt="SwiftUIでPreviewを横向きにする"/>
+<img src="2024-01-02.gif" width="300px" alt="SwiftUIでシートを出し分ける"/>
 
 
 {{< gist takoikatakotako 0b4001f1c3fa1a88179b3f1020caaeca >}}

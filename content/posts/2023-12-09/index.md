@@ -1,22 +1,22 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
-url = "2023-12-08"
-date = "2023-12-08"
-description = "SwiftUIでPreviewを横向きにする"
+title = "Swiftで10進数を2進数に変換する"
+url = "2023-12-09"
+date = "2023-12-09"
+description = "Swiftで10進数を2進数に変換する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+Swiftで10進数を2進数に変換する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-09.gif" width="300px" alt="Swiftで10進数を2進数に変換する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 15e0511142424107198707a3c25b8314 >}}

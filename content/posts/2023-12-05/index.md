@@ -1,22 +1,22 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "SwiftUIでImageの色を反転させる"
 url = "2023-12-05"
 date = "2023-12-05"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIでImageの色を反転させる"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでImageの色を反転させる方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-05.png" width="300px" alt="SwiftUIでImageの色を反転させる">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 5275180c8208b41c58fe1496abeec6da >}}

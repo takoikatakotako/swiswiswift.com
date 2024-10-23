@@ -1,15 +1,15 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでSearchBar(TextField)を使って検索する"
+url = "2023-11-29"
+date = "2023-11-29"
+description = "SwiftUIでSearchBar(TextField)を使って検索する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでPreviewを横向きにする方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-29.gif" width="300px" alt="SwiftUIでSearchBar(TextField)を使って検索する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 0c07ff318f6a36082f351769fc36b92e >}}

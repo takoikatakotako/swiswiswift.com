@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでSearchBar(TextField)にクリアボタンをつける"
+url = "2023-11-30"
+date = "2023-11-30"
+description = "SwiftUIでSearchBar(TextField)にクリアボタンをつける"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでSearchBar(TextField)にクリアボタンをつける方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-30.gif" width="300px" alt="SwiftUIでSearchBar(TextField)にクリアボタンをつける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako d3f6b95383b1149bf52c1dde8c3b82d8 >}}

@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでObservableObjectの@publishedなプロパティとBindingする方法です。
 
-<img src="2023-12-18.png" width="300px" alt="SwiftUIでObservableObjectの@publishedなプロパティとBindingする">
+<img src="2023-12-18.gif" width="300px" alt="SwiftUIでObservableObjectの@publishedなプロパティとBindingする">
 
 {{< gist takoikatakotako 31cfe87d66735dad78d117ae0b069130 >}}

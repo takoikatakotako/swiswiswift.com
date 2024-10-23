@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIのListの中にボタンを複数設置する"
+url = "2023-11-28"
+date = "2023-11-28"
+description = "SwiftUIのListの中にボタンを複数設置する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIのListの中にボタンを複数設置する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-28.png" width="300px" alt="SwiftUIのListの中にボタンを複数設置する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako d6341beed26e10e95b1fd0a41611da8a >}}

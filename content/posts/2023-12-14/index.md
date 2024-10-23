@@ -1,22 +1,22 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "SwiftUIでテーブルのようなデータを表示する"
 url = "2023-12-14"
 date = "2023-12-14"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIでテーブルのようなデータを表示する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでテーブルのようなデータを表示する法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-14.gif" width="300px" alt="SwiftUIでテーブルのようなデータを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako e821059ba7601cce3f324681a304fea3 >}}

@@ -1,22 +1,22 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "SwiftUIでインディケーターを表示する"
 url = "2023-12-21"
 date = "2023-12-21"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIでインディケーターを表示する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでインディケーターを表示する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-21.gif" width="300px" alt="SwiftUIでインディケーターを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 9716cf69daa49540060572859e6df4d4 >}}

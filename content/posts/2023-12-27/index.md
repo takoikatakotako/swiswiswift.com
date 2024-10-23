@@ -1,22 +1,22 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "SwiftUIでスライダーとスクロールを連動させる"
 url = "2023-12-27"
 date = "2023-12-27"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIでスライダーとスクロールを連動させる"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでスライダーとスクロールを連動させる方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-27.gif" width="300px" alt="SwiftUIでスライダーとスクロールを連動させる">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 7fc9aa9ca840589c8b14487d7f15eb06 >}}

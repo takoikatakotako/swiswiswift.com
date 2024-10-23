@@ -1,8 +1,8 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "SwiftUIでカメラを使う[WIP]"
 url = "2023-12-26"
 date = "2023-12-26"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIでカメラを使う[WIP]"
 tags = [
   "SwiftUI"
 ]
@@ -15,8 +15,5 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
-
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
-
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+SwiftUIでカメラを使う方法です。
+記事作成中です。

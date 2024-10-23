@@ -1,22 +1,22 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "SwiftUIで音楽を再生する"
 url = "2023-12-13"
 date = "2023-12-13"
-description = "SwiftUIでPreviewを横向きにする"
+description = "SwiftUIで音楽を再生する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIで音楽を再生する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-13.gif" width="300px" alt="SwiftUIで音楽を再生する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 0181e116a131a12364e2f83c494432fd >}}

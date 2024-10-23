@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでMapを表示する"
+url = "2023-12-01"
+date = "2023-12-01"
+description = "SwiftUIでMapを表示する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIを使ってMapを表示してください。秋葉原UDX（35.7005° N, 139.7726° E）を中心として、300mの範囲を表示しています。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-12-01.png" width="300px" alt="SwiftUIでMapを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 8ee2e32c38d3bbcd17902c48b2e58427 >}}

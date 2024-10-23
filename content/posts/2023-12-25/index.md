@@ -1,22 +1,19 @@
 +++
-title = "XXXSwiftUIでPreviewを横向きにする"
+title = "Identifiableに適合していないStructでListを使う[WIP]"
 url = "2023-12-25"
 date = "2023-12-25"
-description = "SwiftUIでPreviewを横向きにする"
+description = "Identifiableに適合していないStructでListを使う[WIP]"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/12"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+Identifiableに適合していないStructでListを使う方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
-
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
