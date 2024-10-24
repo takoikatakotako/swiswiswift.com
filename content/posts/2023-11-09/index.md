@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "マークダウンのリンクの色を赤色に変える"
+url = "2023-11-09"
+date = "2023-11-09"
+description = "マークダウンのリンクの色を赤色に変える"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+マークダウンのリンクの色を赤色に変える方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-09.png" width="300px" alt="マークダウンのリンクの色を赤色に変える">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 8c10d3436a37b1dd31b0ff3052513f2b >}}

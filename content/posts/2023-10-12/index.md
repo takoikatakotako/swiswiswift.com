@@ -18,6 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでNavigationViewの戻るボタンを非表示にする方法です。
 `navigationBarBackButtonHidden` を false にすることで非表示にすることができます。
 
-<img src="1.png" width="300px" alt="SwiftUIでNavigationViewの戻るボタンを非表示にする">
+<img src="1.gif" width="300px" alt="SwiftUIでNavigationViewの戻るボタンを非表示にする">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 41958918b251140de24276685314d95d >}}

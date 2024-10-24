@@ -20,4 +20,4 @@ SwiftUIでAlertを出し分ける方法です。
 
 <img src="1.gif" width="300px" alt="SwiftUIでAlertを出し分ける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 72f02f8874ba31b412212d5804b4024b >}}

@@ -20,4 +20,4 @@ SwiftUIでListのスタイルを変更する方法です。
 
 <img src="1.png" width="300px" alt="SwiftUIでListのスタイルを変更する(plain)">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 56b1d4d399d7965641d701722f4fa995 >}}

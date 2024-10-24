@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIでリストのセルをタップするとアラートが表示させる"
+title = "SwiftUIでリストのセルをタップしてアラートを表示させる"
 url = "2023-10-24"
 date = "2023-10-24"
-description = "SwiftUIでリストのセルをタップするとアラートが表示させる"
+description = "SwiftUIでリストのセルをタップしてアラートを表示させる"
 tags = [
   "SwiftUI"
 ]
@@ -18,6 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでリストのセルをタップするとアラートが表示させる方法です。
 リストのセルをタップするとアラートが表示させています。
 
-<img src="1.png" width="300px" alt="SwiftUIでリストのセルをタップするとアラートが表示させる">
+<img src="1.gif" width="300px" alt="SwiftUIでリストのセルをタップするとアラートが表示させる">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako ac6817e194c183f2dd66e2a1234420fb >}}

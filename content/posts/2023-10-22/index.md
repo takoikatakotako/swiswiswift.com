@@ -20,4 +20,4 @@ ViewModifierを使ってViewに影をつけています。
 
 <img src="1.png" width="300px" alt="SwiftUIでViewModifierを使ってViewに影をつける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 16643bf6719b95ee71971319f202c2ed >}}

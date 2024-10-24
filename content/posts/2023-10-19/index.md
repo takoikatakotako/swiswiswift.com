@@ -18,6 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。
 
 
-<img src="1.png" width="300px" alt="SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。">
+<img src="1.gif" width="300px" alt="SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 9672ec2e96d0ae3db24c338050155665 >}}

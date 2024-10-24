@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでSheetを表示する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでSheetを表示する">
+<img src="2023-10-28.gif" width="300px" alt="SwiftUIでSheetを表示する">
 
 {{< gist takoikatakotako cd108d941788af118601acab68557118 >}}

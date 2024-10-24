@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる"
+url = "2023-11-25"
+date = "2023-11-25"
+description = "SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-25.gif" width="300px" alt="wiftUIでシートを表示し、プッシュ遷移後にシートを閉じる">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 0720cf28d68ad661a25972f89bac813b >}}

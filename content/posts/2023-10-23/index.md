@@ -19,4 +19,4 @@ SwiftUIでリストを編集する方法です。
 
 <img src="1.gif" width="300px" alt="SwiftUIでリストを編集する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 5a1058551d2b1b4257ca5a8324fb909b >}}

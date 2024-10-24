@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "スワイプで遷移するチュートリアル画面を作る"
+url = "2023-11-03"
+date = "2023-11-03"
+description = "スワイプで遷移するチュートリアル画面を作る"
 tags = [
   "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+スワイプで遷移するチュートリアル画面を作る方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-03.gif" width="300px" alt="スワイプで遷移するチュートリアル画面を作る">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 63ed7c883466161f7b1240d917621446 >}}

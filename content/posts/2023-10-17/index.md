@@ -20,4 +20,4 @@ SwiftUIでアラートとシートを出し分ける方法です。
 
 <img src="1.gif" width="300px" alt="SwiftUIでアラートとシートを出し分ける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 1ae01c6fcc29c2fdca95fd2407647966 >}}

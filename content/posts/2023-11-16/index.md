@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでMapを使う。Mapに画像や図形を表示する"
+url = "2023-11-16"
+date = "2023-11-16"
+description = "SwiftUIでMapを使う。Mapに画像や図形を表示する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでMapを使う。Mapに画像や図形を表示する法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-16.gif" width="300px" alt="SwiftUIでMapを使う。Mapに画像や図形を表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 9e9a99e95e231e5d73960998d479bcf4 >}}

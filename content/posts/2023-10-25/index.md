@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIで画面遷移先のViewから遷移元のメソッドを呼び出す方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIで画面遷移先のViewから遷移元のメソッドを呼び出す">
+<img src="1.gif" width="300px" alt="SwiftUIで画面遷移先のViewから遷移元のメソッドを呼び出す">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 9783c4462e8d39fe1ed2015533aa4262 >}}

@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIのTextFieldで編集中と編集完了を検知する"
+url = "2023-11-13"
+date = "2023-11-13"
+description = "SwiftUIのTextFieldで編集中と編集完了を検知する"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIのTextFieldで編集中と編集完了を検知する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-13.gif" width="300px" alt="SwiftUIのTextFieldで編集中と編集完了を検知する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 72b2526b47aaf88ee8b4b226339de258 >}}

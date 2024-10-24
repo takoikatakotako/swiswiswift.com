@@ -20,4 +20,4 @@ FunctionBuilderを使ってViewに影をつけています。
 
 <img src="1.png" width="300px" alt="SwiftUIでFunctionBuilderを使ってViewに影をつける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 8e48fbe489b2ec074a325942ec51e244 >}}

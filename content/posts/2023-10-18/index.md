@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIでButtonからプッシュ遷移をする（NavigationLinkを無効にする）"
+title = "NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）"
 url = "2023-10-18"
 date = "2023-10-18"
-description = "SwiftUIでButtonからプッシュ遷移をする（NavigationLinkを無効にする）"
+description = "NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）"
 tags = [
   "SwiftUI"
 ]
@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでButtonからプッシュ遷移をする（NavigationLinkを無効にする）方法です。
-NavigationLink を擬似的に無効にすることができます。
+NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）方法です。
 
-<img src="1.gif" width="300px" alt="SwiftUIでButtonからプッシュ遷移をする（NavigationLinkを無効にする）">
+<img src="1.gif" width="300px" alt="NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 1fb32da9087ad60989903dffb4b79dd1 >}}

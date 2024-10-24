@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでListViewからそれぞれ別のViewに遷移する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでListViewからそれぞれ別のViewに遷移する">
+<img src="1.gif" width="300px" alt="SwiftUIでListViewからそれぞれ別のViewに遷移する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 6ef8ff69185ee8ecb83f2d158e3d3e10 >}}

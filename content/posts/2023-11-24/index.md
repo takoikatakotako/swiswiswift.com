@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIのTextFieldで表示するキーボードを指定する"
+url = "2023-11-24"
+date = "2023-11-24"
+description = "SwiftUIのTextFieldで表示するキーボードを指定する"
 tags = [
   "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIのTextFieldで表示するキーボードを指定する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-24.gif" width="300px" alt="SwiftUIのTextFieldで表示するキーボードを指定する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako b63c46d0f264c3986310356bee6420bc >}}

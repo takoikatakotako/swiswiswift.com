@@ -20,4 +20,4 @@ SwiftUIでButton内の画像やテキストの色を変えない方法です。
 
 <img src="1.gif" width="300px" alt="SwiftUIでButton内の画像やテキストの色を変えない">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako b3d337885f3245f306a4b1598d5dfc3f >}}

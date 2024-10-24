@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "GithubのAPIを叩き、リポジトリの情報をリストに表示する（async, await）"
+url = "2023-11-10"
+date = "2023-11-10"
+description = "GithubのAPIを叩き、リポジトリの情報をリストに表示する（async, await）"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+GithubのAPIを叩き、リポジトリの情報をリストに表示する（async, await）方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-10.gif" width="300px" alt="GithubのAPIを叩き、リポジトリの情報をリストに表示する（async, await）">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 9ab1c41e8f29d836fcf6c5a725b9e781 >}}

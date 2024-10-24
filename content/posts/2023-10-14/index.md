@@ -18,6 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでAlertを表示する方法です。
 `showingAlert` 変数を `true` にすることでアラートを表示することができます。
 
-<img src="1.png" width="300px" alt="SwiftUIでAlertを表示する">
+<img src="1.gif" width="300px" alt="SwiftUIでAlertを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 6f4118edd5067ee30b5bab5fc5286ec3 >}}

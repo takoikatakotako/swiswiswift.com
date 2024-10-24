@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIのListでSpacerの部分にもタップ判定をつける"
+url = "2023-11-27"
+date = "2023-11-27"
+description = "SwiftUIのListでSpacerの部分にもタップ判定をつける"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIのListでSpacerの部分にもタップ判定をつける方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-27.png" width="300px" alt="SwiftUIのListでSpacerの部分にもタップ判定をつける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako e9740068088e45750fd7480bd6ae0d38 >}}

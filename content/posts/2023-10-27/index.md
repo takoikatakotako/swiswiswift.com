@@ -18,6 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIで複数行のPickerを作成する方法です。
 
 
-<img src="1.png" width="300px" alt="SwiftUIで複数行のPickerを作成する">
+<img src="1.gif" width="300px" alt="SwiftUIで複数行のPickerを作成する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 4e0545cce82a4f5d28ffc919798971a5 >}}

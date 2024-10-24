@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIで全画面でSheetを表示する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIで全画面でSheetを表示する">
+<img src="2023-10-29.gif" width="300px" alt="SwiftUIで全画面でSheetを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako c75e8c7865eed69144c4e305d68d1d9e >}}

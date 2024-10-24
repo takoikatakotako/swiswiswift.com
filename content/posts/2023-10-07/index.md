@@ -20,4 +20,4 @@ Pickerを使いポケモンを表示しています。
 
 <img src="1.gif" width="300px" alt="SwiftUIでPickerを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 7e0d7dd8182a7178ba4cd22f0b67ca30 >}}

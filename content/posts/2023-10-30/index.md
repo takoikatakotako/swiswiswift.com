@@ -18,6 +18,6 @@ aliases = ["migrate-from-jekyl"]
 SwiftUIでNavigationBarを隠す方法です。
 
 
-<img src="1.png" width="300px" alt="SwiftUIでNavigationBarを隠す">
+<img src="2023-10-30.png" width="300px" alt="SwiftUIでNavigationBarを隠す">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako cf53d2745819ab25a7b5358b15bc1d32 >}}

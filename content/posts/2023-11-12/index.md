@@ -1,8 +1,8 @@
 +++
-title = "SwiftUIでシートを出し分ける"
+title = "GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得し、Indicatorも表示する"
 url = "2023-11-12"
 date = "2023-11-12"
-description = "SwiftUIでシートを出し分ける"
+description = "GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得し、Indicatorも表示する"
 tags = [
   "SwiftUI"
 ]
@@ -15,46 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得し、Indicatorも表示する方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
-
-
-TODO: 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+<img src="2023-11-12.gif" width="300px" alt="GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得し、Indicatorも表示する方法です。">
 
 
-```swift
-import SwiftUI
+{{< gist takoikatakotako 5442b67f137f00eba766122c405364c2 >}}
 
-struct ContentView: View {
-    @State var showingSnorlaxView = false
-    @State var showingSlowpokeView = false
-    
-    var body: some View {
-        VStack {
-            Button(action: {
-                showingSnorlaxView = true
-            }) {
-                Text("Show Snorlax")
-            }
-            
-            Button(action: {
-                showingSlowpokeView = true
-            }) {
-                Text("Show Slowpoke")
-            }
-        }
-        .sheet(isPresented: $showingSnorlaxView) {
-            SnorlaxView()
-        }
-        .sheet(isPresented: $showingSlowpokeView) {
-            SlowpokeView()
-        }
-    }
-}
-
-#Preview {
-    ContentView()
-}
-```

@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでアプリ起動時に画面を遷移させる"
+url = "2023-11-05"
+date = "2023-11-05"
+description = "SwiftUIでアプリ起動時に画面を遷移させる"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでアプリ起動時に画面を遷移させる方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-05.gif" width="300px" alt="SwiftUIでアプリ起動時に画面を遷移させる">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 2046a8412a29a25a42001cebe57b52e8 >}}

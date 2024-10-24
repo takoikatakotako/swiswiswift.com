@@ -17,6 +17,6 @@ aliases = ["migrate-from-jekyl"]
 
 SwiftUIでPreviewを横向きにする方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-10-31.png" width="500px" alt="SwiftUIでPreviewを横向きにする">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako d510393d5ec8f662235859a2045dd10c >}}

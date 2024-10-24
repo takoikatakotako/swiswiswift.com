@@ -1,22 +1,22 @@
 +++
-title = "SwiftUIでPreviewを横向きにする"
-url = "2023-10-31"
-date = "2023-10-31"
-description = "SwiftUIでPreviewを横向きにする"
+title = "SwiftUIでButtonを有効にしたり無効にしたりする"
+url = "2023-11-23"
+date = "2023-11-23"
+description = "SwiftUIでButtonを有効にしたり無効にしたりする"
 tags = [
   "SwiftUI"
 ]
 categories = [
   "SwiftUI"
 ]
-archives = "2023/10"
+archives = "2023/11"
 aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
 
-SwiftUIでPreviewを横向きにする方法です。
+SwiftUIでButtonを有効にしたり無効にしたりする方法です。
 
-<img src="1.png" width="300px" alt="SwiftUIでPreviewを横向きにする">
+<img src="2023-11-23.gif" width="300px" alt="SwiftUIでButtonを有効にしたり無効にしたりする">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako e5e398182be03e6b9e38143dc4aa8dd3 >}}
