@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">{{ .Title }}</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    {{ with .Params.tags }}
+                        {{ range . }}
+                        <li><a href="{{- "/tags/" | absURL -}}{{- . | urlize -}}" rel="tag">{{ . }}</a></li>
+                        {{ end }} 
+                    {{ end }} 
+                </ul>
+            </div>
+
+            {{ $dateMachine := .Date | time.Format "2006-01-02" }}
+            {{ $dateHuman := .Date | time.Format ":date_long" }}
+            <time class="post-date" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        </header>
+
+        {{ .Content }}
+    </article>
+
+    {{ partial "sidebar.html" . }}
+</main>
+
+{{ end }}
