@@ -19,4 +19,4 @@ SwiftUIでSheetを表示する方法です。
 
 <img src="2023-10-28.gif" width="300px" alt="SwiftUIでSheetを表示する">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+{{< gist takoikatakotako 03594e29c3a273489472756dc27a8d8b >}}
