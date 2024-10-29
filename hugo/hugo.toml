@@ -1,0 +1,9 @@
+baseURL = 'https://swiswiswift.com/'
+languageCode = 'ja'
+title = 'すいすいSwift'
+theme = 'swiswiswift'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

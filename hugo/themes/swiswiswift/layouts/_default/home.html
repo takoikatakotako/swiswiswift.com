@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <main class="wrapper news-contents">
+    <article class="home">
+      {{ range first 30 site.RegularPages }}
+      <div class="home-article">
+        <a href="{{ .RelPermalink }}">
+          <h2>{{ .LinkTitle }}</h2>
+        </a>
+
+        {{ $dateMachine := .Date | time.Format "2006-01-02" }}
+        {{ $dateHuman := .Date | time.Format ":date_long" }}
+        <time class="post-date" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        <p>{{ .Summary }}</p>
+        <hr>
+      </div>
+      {{ end }} 
+    </article>
+
+    {{ partial "sidebar.html" . }}
+
+</main>
+
+{{ end }}
