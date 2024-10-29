@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lsmod（LPIC） | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">lsmod（LPIC）</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    
+                        
+                        <li><a href="http://localhost:58986/tags/linux" rel="tag">Linux</a></li>
+                         
+                     
+                </ul>
+            </div>
+
+            
+            
+            <time class="post-date" datetime="2022-10-05">October 5, 2022</time>
+        </header>
+
+        <br>
+<h1 id="lsmod">lsmod</h1>
+<p>現在システムにロードされているモジュールの状態を表示するコマンドです。
+またモジュールの状態は <code>/proc/modules</code> に格納されています。</p>
+<pre tabindex="0"><code>$ lsmod
+</code></pre><pre tabindex="0"><code>Module                  Size  Used by
+xt_recent              24576  0
+xt_multiport           20480  1
+tls                   106496  0
+intel_rapl_msr         20480  0
+intel_rapl_common      36864  1 intel_rapl_msr
+joydev                 32768  0
+input_leds             16384  0
+serio_raw              20480  0
+mac_hid                16384  0
+xt_hl                  16384  22
+ip6_tables             32768  52
+ip6t_rt                20480  3
+ip6t_REJECT            16384  3
+nf_reject_ipv6         20480  1 ip6t_REJECT
+xt_LOG                 20480  10
+nf_log_syslog          20480  10
+xt_comment             16384  2
+nft_limit              16384  13
+xt_limit               16384  0
+xt_addrtype            16384  4
+xt_tcpudp              20480  20
+xt_conntrack           16384  16
+nf_conntrack          167936  1 xt_conntrack
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+ipt_REJECT             16384  110
+nf_reject_ipv4         16384  1 ipt_REJECT
+nft_compat             20480  251
+nft_counter            16384  283
+nf_tables             241664  611 nft_compat,nft_counter,nft_limit
+nfnetlink              20480  2 nft_compat,nf_tables
+ramoops                32768  0
+pstore_blk             16384  0
+reed_solomon           28672  1 ramoops
+pstore_zone            28672  1 pstore_blk
+mtd                    73728  0
+sch_fq_codel           20480  2
+dm_multipath           40960  0
+scsi_dh_rdac           20480  0
+scsi_dh_emc            16384  0
+ipmi_devintf           20480  0
+efi_pstore             16384  0
+scsi_dh_alua           20480  0
+ipmi_msghandler       122880  1 ipmi_devintf
+msr                    16384  0
+ip_tables              32768  8
+x_tables               53248  15 xt_conntrack,nft_compat,xt_LOG,xt_multiport,xt_tcpudp,xt_addrtype,xt_recent,ip6t_rt,xt_comment,ip6_tables,ipt_REJECT,ip_tables,xt_limit,xt_hl,ip6t_REJECT
+autofs4                49152  2
+btrfs                1527808  0
+blake2b_generic        20480  0
+zstd_compress         229376  1 btrfs
+raid10                 69632  0
+raid456               163840  0
+async_raid6_recov      24576  1 raid456
+async_memcpy           20480  2 raid456,async_raid6_recov
+async_pq               24576  2 raid456,async_raid6_recov
+async_xor              20480  3 async_pq,raid456,async_raid6_recov
+async_tx               20480  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
+xor                    24576  2 async_xor,btrfs
+raid6_pq              122880  4 async_pq,btrfs,raid456,async_raid6_recov
+libcrc32c              16384  4 nf_conntrack,btrfs,nf_tables,raid456
+raid1                  49152  0
+raid0                  24576  0
+multipath              20480  0
+linear                 20480  0
+hid_generic            16384  0
+bochs                  16384  0
+crct10dif_pclmul       16384  1
+crc32_pclmul           16384  0
+drm_vram_helper        24576  1 bochs
+ghash_clmulni_intel    16384  0
+drm_ttm_helper         16384  2 bochs,drm_vram_helper
+ttm                    86016  2 drm_vram_helper,drm_ttm_helper
+drm_kms_helper        307200  4 bochs,drm_vram_helper
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            20480  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+aesni_intel           376832  0
+crypto_simd            16384  1 aesni_intel
+fb_sys_fops            16384  1 drm_kms_helper
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+cec                    61440  1 drm_kms_helper
+usbhid                 65536  0
+rc_core                65536  1 cec
+virtio_net             61440  0
+net_failover           20480  1 virtio_net
+psmouse               176128  0
+virtio_blk             20480  1
+drm                   606208  6 drm_kms_helper,bochs,drm_vram_helper,drm_ttm_helper,ttm
+failover               16384  1 net_failover
+i2c_piix4              28672  0
+hid                   147456  2 usbhid,hid_generic
+pata_acpi              16384  0
+floppy                118784  0
+</code></pre><pre tabindex="0"><code>$ cat /proc/modules
+</code></pre><pre tabindex="0"><code>xt_recent 24576 0 - Live 0xffffffffc0869000
+xt_multiport 20480 1 - Live 0xffffffffc0853000
+tls 106496 0 - Live 0xffffffffc0917000
+intel_rapl_msr 20480 0 - Live 0xffffffffc0859000
+intel_rapl_common 36864 1 intel_rapl_msr, Live 0xffffffffc0839000
+joydev 32768 0 - Live 0xffffffffc07b8000
+input_leds 16384 0 - Live 0xffffffffc07b3000
+serio_raw 20480 0 - Live 0xffffffffc07ad000
+mac_hid 16384 0 - Live 0xffffffffc07a8000
+xt_hl 16384 22 - Live 0xffffffffc07a3000
+ip6_tables 32768 52 - Live 0xffffffffc079a000
+ip6t_rt 20480 3 - Live 0xffffffffc0794000
+ip6t_REJECT 16384 3 - Live 0xffffffffc078f000
+nf_reject_ipv6 20480 1 ip6t_REJECT, Live 0xffffffffc0789000
+xt_LOG 20480 10 - Live 0xffffffffc0783000
+nf_log_syslog 20480 10 - Live 0xffffffffc077d000
+xt_comment 16384 2 - Live 0xffffffffc0778000
+nft_limit 16384 13 - Live 0xffffffffc0773000
+xt_limit 16384 0 - Live 0xffffffffc076e000
+xt_addrtype 16384 4 - Live 0xffffffffc0769000
+xt_tcpudp 20480 20 - Live 0xffffffffc071b000
+xt_conntrack 16384 16 - Live 0xffffffffc0764000
+nf_conntrack 167936 1 xt_conntrack, Live 0xffffffffc073a000
+nf_defrag_ipv6 24576 1 nf_conntrack, Live 0xffffffffc0733000
+nf_defrag_ipv4 16384 1 nf_conntrack, Live 0xffffffffc072e000
+ipt_REJECT 16384 110 - Live 0xffffffffc0729000
+nf_reject_ipv4 16384 1 ipt_REJECT, Live 0xffffffffc0724000
+nft_compat 20480 251 - Live 0xffffffffc0715000
+nft_counter 16384 283 - Live 0xffffffffc0710000
+nf_tables 241664 611 nft_limit,nft_compat,nft_counter, Live 0xffffffffc06d4000
+nfnetlink 20480 2 nft_compat,nf_tables, Live 0xffffffffc06ce000
+ramoops 32768 0 - Live 0xffffffffc06b5000
+pstore_blk 16384 0 - Live 0xffffffffc06c9000
+reed_solomon 28672 1 ramoops, Live 0xffffffffc06bf000
+pstore_zone 28672 1 pstore_blk, Live 0xffffffffc06a1000
+mtd 73728 0 - Live 0xffffffffc066a000
+sch_fq_codel 20480 2 - Live 0xffffffffc0664000
+dm_multipath 40960 0 - Live 0xffffffffc0654000
+scsi_dh_rdac 20480 0 - Live 0xffffffffc064e000
+scsi_dh_emc 16384 0 - Live 0xffffffffc0649000
+ipmi_devintf 20480 0 - Live 0xffffffffc0640000
+efi_pstore 16384 0 - Live 0xffffffffc062f000
+scsi_dh_alua 20480 0 - Live 0xffffffffc0636000
+ipmi_msghandler 122880 1 ipmi_devintf, Live 0xffffffffc0610000
+msr 16384 0 - Live 0xffffffffc060b000
+ip_tables 32768 8 - Live 0xffffffffc05e6000
+x_tables 53248 15 xt_recent,xt_multiport,xt_hl,ip6_tables,ip6t_rt,ip6t_REJECT,xt_LOG,xt_comment,xt_limit,xt_addrtype,xt_tcpudp,xt_conntrack,ipt_REJECT,nft_compat,ip_tables, Live 0xffffffffc05d8000
+autofs4 49152 2 - Live 0xffffffffc05cb000
+btrfs 1527808 0 - Live 0xffffffffc0455000
+blake2b_generic 20480 0 - Live 0xffffffffc044f000
+zstd_compress 229376 1 btrfs, Live 0xffffffffc0416000
+raid10 69632 0 - Live 0xffffffffc0404000
+raid456 163840 0 - Live 0xffffffffc03db000
+async_raid6_recov 24576 1 raid456, Live 0xffffffffc03d4000
+async_memcpy 20480 2 raid456,async_raid6_recov, Live 0xffffffffc03ce000
+async_pq 24576 2 raid456,async_raid6_recov, Live 0xffffffffc03c7000
+async_xor 20480 3 raid456,async_raid6_recov,async_pq, Live 0xffffffffc03c1000
+async_tx 20480 5 raid456,async_raid6_recov,async_memcpy,async_pq,async_xor, Live 0xffffffffc03bb000
+xor 24576 2 btrfs,async_xor, Live 0xffffffffc03b4000
+raid6_pq 122880 4 btrfs,raid456,async_raid6_recov,async_pq, Live 0xffffffffc0395000
+libcrc32c 16384 4 nf_conntrack,nf_tables,btrfs,raid456, Live 0xffffffffc0279000
+raid1 49152 0 - Live 0xffffffffc0388000
+raid0 24576 0 - Live 0xffffffffc0381000
+multipath 20480 0 - Live 0xffffffffc037b000
+linear 20480 0 - Live 0xffffffffc0375000
+hid_generic 16384 0 - Live 0xffffffffc0370000
+bochs 16384 0 - Live 0xffffffffc036b000
+crct10dif_pclmul 16384 1 - Live 0xffffffffc0366000
+crc32_pclmul 16384 0 - Live 0xffffffffc0361000
+drm_vram_helper 24576 1 bochs, Live 0xffffffffc02f1000
+ghash_clmulni_intel 16384 0 - Live 0xffffffffc02ec000
+drm_ttm_helper 16384 2 bochs,drm_vram_helper, Live 0xffffffffc0109000
+ttm 86016 2 drm_vram_helper,drm_ttm_helper, Live 0xffffffffc034b000
+drm_kms_helper 307200 4 bochs,drm_vram_helper, Live 0xffffffffc02ff000
+syscopyarea 16384 1 drm_kms_helper, Live 0xffffffffc02fa000
+sysfillrect 20480 1 drm_kms_helper, Live 0xffffffffc025b000
+sysimgblt 16384 1 drm_kms_helper, Live 0xffffffffc013e000
+aesni_intel 376832 0 - Live 0xffffffffc028f000
+crypto_simd 16384 1 aesni_intel, Live 0xffffffffc0219000
+fb_sys_fops 16384 1 drm_kms_helper, Live 0xffffffffc0256000
+cryptd 24576 2 ghash_clmulni_intel,crypto_simd, Live 0xffffffffc0212000
+cec 61440 1 drm_kms_helper, Live 0xffffffffc027f000
+usbhid 65536 0 - Live 0xffffffffc0201000
+rc_core 65536 1 cec, Live 0xffffffffc01f0000
+virtio_net 61440 0 - Live 0xffffffffc0269000
+net_failover 20480 1 virtio_net, Live 0xffffffffc0263000
+psmouse 176128 0 - Live 0xffffffffc022a000
+virtio_blk 20480 1 - Live 0xffffffffc0220000
+drm 606208 6 bochs,drm_vram_helper,drm_ttm_helper,ttm,drm_kms_helper, Live 0xffffffffc015b000
+failover 16384 1 net_failover, Live 0xffffffffc0153000
+i2c_piix4 28672 0 - Live 0xffffffffc0147000
+hid 147456 2 hid_generic,usbhid, Live 0xffffffffc0119000
+pata_acpi 16384 0 - Live 0xffffffffc0111000
+floppy 118784 0 - Live 0xffffffffc00eb000
+</code></pre>
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

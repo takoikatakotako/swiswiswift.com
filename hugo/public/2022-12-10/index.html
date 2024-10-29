@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>syslog,rsyslog,syslog-ng,systemd journal,logger,etc（LPIC） | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">syslog,rsyslog,syslog-ng,systemd journal,logger,etc（LPIC）</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    
+                        
+                        <li><a href="http://localhost:58986/tags/linux" rel="tag">Linux</a></li>
+                         
+                     
+                </ul>
+            </div>
+
+            
+            
+            <time class="post-date" datetime="2022-12-10">December 10, 2022</time>
+        </header>
+
+        <br>
+<h1 id="syslogrsyslogsyslog-ngsystemd-journal">syslog,rsyslog,syslog-ng,systemd journal</h1>
+<p>システムログを収集するソフトウェアです。</p>
+<h1 id="syslog">syslog</h1>
+<h2 id="ファシリティ">ファシリティ</h2>
+<p>ファシリティはメッセージの生成元を表します。</p>
+<ul>
+<li>kern: カーネルによる出力</li>
+<li>user: ユーザアプリケーションによる出力</li>
+<li>mail: メールサービス関連による出力</li>
+<li>daemon: システムデーモンによる出力</li>
+</ul>
+<h2 id="プライオリティ">プライオリティ</h2>
+<p>プライオリティはメッセージの重要度を表します。</p>
+<ul>
+<li>emerg: パニック状態でシステムは使用不能</li>
+<li>alert: 緊急に対処が必要</li>
+<li>crit: 緊急に対処が必要。alertよりは緊急度は低い</li>
+<li>err: エラー発生</li>
+<li>debug: デバッグ情報</li>
+<li>none: ログメッセージを記録しない。</li>
+</ul>
+<p><code>etcsyslog.conf</code> ファイルで <code>kern.crit</code> と設定すると crit以上のすべてのメッセージが <code>/var/log/messages</code> に記録される。</p>
+<h2 id="etcsyslogconf">/etc/syslog.conf</h2>
+<p>syslogdの設定ファイルです。</p>
+<h2 id="すべてのカーネルメッセージをコンソールに表示する">すべてのカーネルメッセージをコンソールに表示する</h2>
+<pre tabindex="0"><code>kern.* /dev/console
+</code></pre><h1 id="rsyslog">rsyslog</h1>
+<p>Syslogプロトコルをベースとして作成されました。
+設定ファイル rsyslog.conf は syslog の設定ファイル syslog.conf と後方互換性があります。</p>
+<h1 id="syslog-ng">syslog-ng</h1>
+<p>設定ファイルである syslog-ng.conf は。syslog の設定ファイル syslog.conf とは書式が異なるため互換性がありません。</p>
+<h1 id="systemd-journal">systemd journal</h1>
+<p>systemdを採用するシステムでシステムを収集するプログラムです。
+rsyslogなどの他のsyslogソフトウェアと連携することができます。</p>
+<h3 id="varlogjournal">/var/log/journal</h3>
+<p>不揮発性ストレージを使う場合（デフォルト）は /var/log/journal に保存される。</p>
+<h3 id="runlogjournal">/run/log/journal</h3>
+<p>揮発性ストレージを使う場合は /run/log/journal に保存される。</p>
+<h2 id="サンプル">サンプル</h2>
+<h3 id="2022年8月28日以降のログを取得">2022年8月28日以降のログを取得</h3>
+<pre tabindex="0"><code>$ journalctl --since=&#34;2022-08-28 00:00:00&#34;
+</code></pre><h3 id="2022年8月28日以前のログを取得">2022年8月28日以前のログを取得</h3>
+<pre tabindex="0"><code>$ journalctl --until=&#34;2022-08-28 00:00:00&#34;
+</code></pre><h1 id="systemd-cat">systemd-cat</h1>
+<p>メッセージをログに記録するコマンドです。</p>
+<pre tabindex="0"><code>$ systemd-cat echo &#34;snorlax&#34;
+$ cat /var/log/syslog | grep snorlax
+</code></pre><pre tabindex="0"><code>Aug 26 15:23:32 160-251-101-197 echo[103620]: snorlax
+Aug 26 15:26:06 160-251-101-197 echo[103657]: snorlax
+</code></pre><h1 id="logger">logger</h1>
+<h2 id="-f">-f</h2>
+<p>指定したファイルの内容を送信する</p>
+<h2 id="-p">-p</h2>
+<p>ファシリティ、プライオリティを指定する。</p>
+<h3 id="kabigonとログに出力する">Kabigonとログに出力する</h3>
+<pre tabindex="0"><code>$ logger &#34;Kabigon&#34;
+$ cat /var/log/syslog | grep Kabigon
+</code></pre><pre tabindex="0"><code>Aug 26 15:31:26 160-251-101-197 root: Kabigon
+</code></pre><h1 id="logrotate">logrotate</h1>
+<p>ログローテーションを行うコマンドです。
+<code>/etc/logrotate.conf</code> が設定ファイルです。</p>
+<h3 id="etclogrotateconfを指定してlogrotateコマンドを実行する">/etc/logrotate.confを指定してlogrotateコマンドを実行する</h3>
+<pre tabindex="0"><code>$ logrotate /etc/logrotate.conf
+</code></pre>
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

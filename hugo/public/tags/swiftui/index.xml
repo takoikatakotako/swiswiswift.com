@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SwiftUI on すいすいSwift</title>
+    <link>http://localhost:58986/tags/swiftui/</link>
+    <description>Recent content in SwiftUI on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SwiftUIでPageControlを使用する</title>
+      <link>http://localhost:58986/2024-01-03/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2024-01-03/</guid>
+      <description>SwiftUIでPageControlを使用する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでシートを出し分ける</title>
+      <link>http://localhost:58986/2024-01-02/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2024-01-02/</guid>
+      <description>SwiftUIでシートを出し分ける方法です。</description>
+    </item>
+    <item>
+      <title>SwiftMarkdownを使いマークダウンを表示する</title>
+      <link>http://localhost:58986/2024-01-01/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2024-01-01/</guid>
+      <description>SwiftMarkdownを使いマークダウンを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（UIImageView &#43; UIScrollView）</title>
+      <link>http://localhost:58986/2023-12-31/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-31/</guid>
+      <description>SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（PDFView）</title>
+      <link>http://localhost:58986/2023-12-30/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-30/</guid>
+      <description>SwiftUIで画像をピンチで拡大する（PDFView）方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（MagnificationGesture）</title>
+      <link>http://localhost:58986/2023-12-29/</link>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-29/</guid>
+      <description>SwiftUIでPreviewを横向きにする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでPHPickerViewControllerを使って画像を選択する</title>
+      <link>http://localhost:58986/2023-12-28/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-28/</guid>
+      <description>SwiftUIでPHPickerViewControllerを使って画像を選択する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでスライダーとスクロールを連動させる</title>
+      <link>http://localhost:58986/2023-12-27/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-27/</guid>
+      <description>SwiftUIでスライダーとスクロールを連動させる方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでカメラを使う</title>
+      <link>http://localhost:58986/2023-12-26/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-26/</guid>
+      <description>SwiftUIでカメラを使う方法です。 カメラを利用できるViewを作成し、sheetで表示しています。 権限の追加も必要です。</description>
+    </item>
+    <item>
+      <title>Identifiableに適合していないStructでListを使う</title>
+      <link>http://localhost:58986/2023-12-25/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-25/</guid>
+      <description>Identifiableに適合していないStructでListを使う方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTabViewのタブをコードから動的に切り替える</title>
+      <link>http://localhost:58986/2023-12-24/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-24/</guid>
+      <description>SwiftUIのTabViewのタブをコードから動的に切り替える方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListにButtonを設定して異なる画面に遷移する</title>
+      <link>http://localhost:58986/2023-12-23/</link>
+      <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-23/</guid>
+      <description>SwiftUIでListにButtonを設定して異なる画面に遷移する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで少しカスタマイズしたインディケーターを表示する</title>
+      <link>http://localhost:58986/2023-12-22/</link>
+      <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-22/</guid>
+      <description>SwiftUIで少しカスタマイズしたインディケーターを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでインディケーターを表示する</title>
+      <link>http://localhost:58986/2023-12-21/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-21/</guid>
+      <description>SwiftUIでインディケーターを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでUIActivityViewControllerを表示する</title>
+      <link>http://localhost:58986/2023-12-20/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-20/</guid>
+      <description>SwiftUIでUIActivityViewControllerを表示する方法です。</description>
+    </item>
+    <item>
+      <title>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く</title>
+      <link>http://localhost:58986/2023-12-19/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-19/</guid>
+      <description>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでObservableObjectの@publishedなプロパティとBindingする</title>
+      <link>http://localhost:58986/2023-12-18/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-18/</guid>
+      <description>SwiftUIでObservableObjectの@publishedなプロパティとBindingする方法です。</description>
+    </item>
+    <item>
+      <title>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する</title>
+      <link>http://localhost:58986/2023-12-17/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-17/</guid>
+      <description>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでBadgeを表示する</title>
+      <link>http://localhost:58986/2023-12-16/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-16/</guid>
+      <description>SwiftUIでBadgeを表示する方法です。</description>
+    </item>
+    <item>
+      <title>NavigationStackのpathを使って画面遷移する</title>
+      <link>http://localhost:58986/2023-12-15/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-15/</guid>
+      <description>NavigationStackのpathを使って画面遷移する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでテーブルのようなデータを表示する</title>
+      <link>http://localhost:58986/2023-12-14/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-14/</guid>
+      <description>SwiftUIでテーブルのようなデータを表示する法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで音楽を再生する</title>
+      <link>http://localhost:58986/2023-12-13/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-13/</guid>
+      <description>SwiftUIで音楽を再生する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでdelegateを使用する</title>
+      <link>http://localhost:58986/2023-12-12/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-12/</guid>
+      <description>SwiftUIでdelegateを使用する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでグラフを表示する</title>
+      <link>http://localhost:58986/2023-12-11/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-11/</guid>
+      <description>SwiftUIでグラフを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでAppDelegateを使用する</title>
+      <link>http://localhost:58986/2023-12-10/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-10/</guid>
+      <description>SwiftUIでAppDelegateを使用する方法です。アプリ終了時にUserDefaultsに値を保存しています。</description>
+    </item>
+    <item>
+      <title>Swiftで10進数を2進数に変換する</title>
+      <link>http://localhost:58986/2023-12-09/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-09/</guid>
+      <description>Swiftで10進数を2進数に変換する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでローカル通知を送信する</title>
+      <link>http://localhost:58986/2023-12-08/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-08/</guid>
+      <description>SwiftUIでローカル通知を送信する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートのメッセージを出し分ける</title>
+      <link>http://localhost:58986/2023-12-07/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-07/</guid>
+      <description>SwiftUIでアラートのメッセージを出し分ける方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでカレンダーを作成する</title>
+      <link>http://localhost:58986/2023-12-06/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-06/</guid>
+      <description>SwiftUIでカレンダーを作成する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでImageの色を反転させる</title>
+      <link>http://localhost:58986/2023-12-05/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-05/</guid>
+      <description>SwiftUIでImageの色を反転させる方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを表示し、自分の位置を表示しつつコンパスを表示する</title>
+      <link>http://localhost:58986/2023-12-04/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-04/</guid>
+      <description>SwiftUIでMapを表示し、自分の位置を表示しつつコンパスを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを表示し、自分の位置を赤丸でマークする</title>
+      <link>http://localhost:58986/2023-12-03/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-03/</guid>
+      <description>SwiftUIでMapを表示し、自分の位置を赤丸でマークする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを表示し、自分の位置を中心にする</title>
+      <link>http://localhost:58986/2023-12-02/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-02/</guid>
+      <description>SwiftUIでMapを表示し、自分の位置を中心にする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを表示する</title>
+      <link>http://localhost:58986/2023-12-01/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-12-01/</guid>
+      <description>SwiftUIを使ってMapを表示してください。秋葉原UDX（35.7005° N, 139.7726° E）を中心として、300mの範囲を表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでSearchBar(TextField)にクリアボタンをつける</title>
+      <link>http://localhost:58986/2023-11-30/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-30/</guid>
+      <description>SwiftUIでSearchBar(TextField)にクリアボタンをつける方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでSearchBar(TextField)を使って検索する</title>
+      <link>http://localhost:58986/2023-11-29/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-29/</guid>
+      <description>SwiftUIでPreviewを横向きにする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIのListの中にボタンを複数設置する</title>
+      <link>http://localhost:58986/2023-11-28/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-28/</guid>
+      <description>SwiftUIのListの中にボタンを複数設置する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIのListでSpacerの部分にもタップ判定をつける</title>
+      <link>http://localhost:58986/2023-11-27/</link>
+      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-27/</guid>
+      <description>SwiftUIのListでSpacerの部分にもタップ判定をつける方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListをEditModeにして並び替える</title>
+      <link>http://localhost:58986/2023-11-26/</link>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-26/</guid>
+      <description>SwiftUIでListをEditModeにして並び替える方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる</title>
+      <link>http://localhost:58986/2023-11-25/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-25/</guid>
+      <description>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTextFieldで表示するキーボードを指定する</title>
+      <link>http://localhost:58986/2023-11-24/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-24/</guid>
+      <description>SwiftUIのTextFieldで表示するキーボードを指定する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButtonを有効にしたり無効にしたりする</title>
+      <link>http://localhost:58986/2023-11-23/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-23/</guid>
+      <description>SwiftUIでButtonを有効にしたり無効にしたりする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewを横スクロールで表示する</title>
+      <link>http://localhost:58986/2023-11-22/</link>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-22/</guid>
+      <description>SwiftUIでViewを横スクロールで表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでボタンを押すとポップアップを表示する</title>
+      <link>http://localhost:58986/2023-11-21/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-21/</guid>
+      <description>SwiftUIでボタンを押すとポップアップを表示する法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでBMIを計算し、結果を別のViewで表示する</title>
+      <link>http://localhost:58986/2023-11-20/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-20/</guid>
+      <description>SwiftUIでBMIを計算し、結果を別のViewで表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでモーダルを表示する時に値を渡す</title>
+      <link>http://localhost:58986/2023-11-19/</link>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-19/</guid>
+      <description>SwiftUIでモーダルを表示する時に値を渡す方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する</title>
+      <link>http://localhost:58986/2023-11-18/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-18/</guid>
+      <description>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIを使ったTODOアプリのサンプル</title>
+      <link>http://localhost:58986/2023-11-17/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-17/</guid>
+      <description>SwiftUIを使ったTODOアプリのサンプルです。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを使う。Mapに画像や図形を表示する</title>
+      <link>http://localhost:58986/2023-11-16/</link>
+      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-16/</guid>
+      <description>SwiftUIでMapを使う。Mapに画像や図形を表示する法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewの上にViewを重ねる</title>
+      <link>http://localhost:58986/2023-11-15/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-15/</guid>
+      <description>SwiftUIでViewの上にViewを重ねる方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでAppStorageを使ってUserDefaultの値を監視する</title>
+      <link>http://localhost:58986/2023-11-14/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-14/</guid>
+      <description>SwiftUIでAppStorageを使ってUserDefaultの値を監視する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTextFieldで編集中と編集完了を検知する</title>
+      <link>http://localhost:58986/2023-11-13/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-13/</guid>
+      <description>SwiftUIのTextFieldで編集中と編集完了を検知する方法です。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得し、Indicatorも表示する</title>
+      <link>http://localhost:58986/2023-11-12/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-12/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得し、Indicatorも表示する方法です。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得する</title>
+      <link>http://localhost:58986/2023-11-11/</link>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-11/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加で取得する方法です。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、リポジトリの情報をリストに表示する（async, await）</title>
+      <link>http://localhost:58986/2023-11-10/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-10/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する（async, await）方法です。</description>
+    </item>
+    <item>
+      <title>マークダウンのリンクの色を赤色に変える</title>
+      <link>http://localhost:58986/2023-11-09/</link>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-09/</guid>
+      <description>マークダウンのリンクの色を赤色に変える方法です。</description>
+    </item>
+    <item>
+      <title>変数に格納したマークダウンを表示する</title>
+      <link>http://localhost:58986/2023-11-08/</link>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-08/</guid>
+      <description>変数に格納したマークダウンを表示する方法です。</description>
+    </item>
+    <item>
+      <title>マークダウンを表示する</title>
+      <link>http://localhost:58986/2023-11-07/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-07/</guid>
+      <description>マークダウンを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでハーフモーダルを表示する</title>
+      <link>http://localhost:58986/2023-11-06/</link>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-06/</guid>
+      <description>SwiftUIでハーフモーダルを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアプリ起動時に画面を遷移させる</title>
+      <link>http://localhost:58986/2023-11-05/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-05/</guid>
+      <description>SwiftUIでアプリ起動時に画面を遷移させる方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで閉じることができないモーダルを表示する</title>
+      <link>http://localhost:58986/2023-11-04/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-04/</guid>
+      <description>SwiftUIで閉じることができないモーダルを表示する方法です。</description>
+    </item>
+    <item>
+      <title>スワイプで遷移するチュートリアル画面を作る</title>
+      <link>http://localhost:58986/2023-11-03/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-03/</guid>
+      <description>スワイプで遷移するチュートリアル画面を作る方法です。</description>
+    </item>
+    <item>
+      <title>UICollectionViewのようにViewを並べる</title>
+      <link>http://localhost:58986/2023-11-02/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-02/</guid>
+      <description>UICollectionViewのようにViewを並べる方法です。</description>
+    </item>
+    <item>
+      <title>端末のシェイクを検知する</title>
+      <link>http://localhost:58986/2023-11-01/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-11-01/</guid>
+      <description>端末のシェイクを検知する</description>
+    </item>
+    <item>
+      <title>SwiftUIでPreviewを横向きにする</title>
+      <link>http://localhost:58986/2023-10-31/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-31/</guid>
+      <description>SwiftUIでPreviewを横向きにする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでNavigationBarを隠す</title>
+      <link>http://localhost:58986/2023-10-30/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-30/</guid>
+      <description>SwiftUIでNavigationBarを隠す方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで全画面でSheetを表示する</title>
+      <link>http://localhost:58986/2023-10-29/</link>
+      <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-29/</guid>
+      <description>SwiftUIで全画面でSheetを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでSheetを表示する</title>
+      <link>http://localhost:58986/2023-10-28/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-28/</guid>
+      <description>SwiftUIでSheetを表示する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで複数行のPickerを作成する</title>
+      <link>http://localhost:58986/2023-10-27/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-27/</guid>
+      <description>SwiftUIで複数行のPickerを作成する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListViewからそれぞれ別のViewに遷移する</title>
+      <link>http://localhost:58986/2023-10-26/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-26/</guid>
+      <description>SwiftUIでListViewからそれぞれ別のViewに遷移する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画面遷移先のViewから遷移元のメソッドを呼び出す</title>
+      <link>http://localhost:58986/2023-10-25/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-25/</guid>
+      <description>SwiftUIで画面遷移先のViewから遷移元のメソッドを呼び出す方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでリストのセルをタップしてアラートを表示させる</title>
+      <link>http://localhost:58986/2023-10-24/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-24/</guid>
+      <description>SwiftUIでリストのセルをタップするとアラートが表示させる方法です。 リストのセルをタップするとアラートが表示させています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでリストを編集する</title>
+      <link>http://localhost:58986/2023-10-23/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-23/</guid>
+      <description>SwiftUIでリストを編集する方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewModifierを使ってViewに影をつける</title>
+      <link>http://localhost:58986/2023-10-22/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-22/</guid>
+      <description>SwiftUIでViewModifierを使ってViewに影をつける方法です。 ViewModifierを使ってViewに影をつけています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでFunctionBuilderを使ってViewに影をつける</title>
+      <link>http://localhost:58986/2023-10-21/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-21/</guid>
+      <description>SwiftUIでFunctionBuilderを使ってViewに影をつける方法です。 FunctionBuilderを使ってViewに影をつけています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでText中の文字の太さや色を変える</title>
+      <link>http://localhost:58986/2023-10-20/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-20/</guid>
+      <description>SwiftUIで画像を丸く切り取り枠を付ける方法です。 150×200サイズに画像をリサイズして表示させています。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで続きを読む。。。ボタンがあるViewを実装する</title>
+      <link>http://localhost:58986/2023-10-19/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-19/</guid>
+      <description>SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。</description>
+    </item>
+    <item>
+      <title>NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）</title>
+      <link>http://localhost:58986/2023-10-18/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-18/</guid>
+      <description>NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートとシートを出し分ける</title>
+      <link>http://localhost:58986/2023-10-17/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-17/</guid>
+      <description>SwiftUIでアラートとシートを出し分ける方法です。 数字が入力されたらシートを表示し、数字以外が入力されたらアラートを表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButton内の画像やテキストの色を変えない</title>
+      <link>http://localhost:58986/2023-10-16/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-16/</guid>
+      <description>SwiftUIでButton内の画像やテキストの色を変えない方法です。 .buttonStyle(PlainButtonStyle()) を設定することでボタンを押した時の色を変えずに済みます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでAlertを出し分ける</title>
+      <link>http://localhost:58986/2023-10-15/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-15/</guid>
+      <description>SwiftUIでAlertを出し分ける方法です。 ボタン1が押されたらアラート1を、ボタン2が押されたらアラート2を表示してください</description>
+    </item>
+    <item>
+      <title>SwiftUIでAlertを表示する</title>
+      <link>http://localhost:58986/2023-10-14/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-14/</guid>
+      <description>SwiftUIでAlertを表示する方法です。 showingAlert 変数を true にすることでアラートを表示することができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListのスタイルを変更する(plain)</title>
+      <link>http://localhost:58986/2023-10-13/</link>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-13/</guid>
+      <description>SwiftUIでListのスタイルを変更する方法です。 listStyle に plain を設定しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでNavigationViewの戻るボタンを非表示にする</title>
+      <link>http://localhost:58986/2023-10-12/</link>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-12/</guid>
+      <description>SwiftUIでNavigationViewの戻るボタンを非表示にする方法です。 navigationBarBackButtonHidden を false にすることで非表示にすることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画面遷移時に値を渡す</title>
+      <link>http://localhost:58986/2023-10-11/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-11/</guid>
+      <description>SwiftUIで画面遷移時に値を渡す方法です。 遷移先の画面に文字列を渡しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListを使ってセクションごとに表示する</title>
+      <link>http://localhost:58986/2023-10-10/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-10/</guid>
+      <description>SwiftUIでListを使ってセクションごとに表示する方法です。 Listの listStyle を指定して表示方法を変えています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButtonが押されたら文字を変える</title>
+      <link>http://localhost:58986/2023-10-09/</link>
+      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-09/</guid>
+      <description>SwiftUIでButtonが押されたら文字を変える方法です。 @State が付与された変数を変えることで View 変えることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでTabViewを使って画面を切り替える</title>
+      <link>http://localhost:58986/2023-10-08/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-08/</guid>
+      <description>SwiftUIでTabViewを使って画面を切り替える方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでPickerを表示する</title>
+      <link>http://localhost:58986/2023-10-07/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-07/</guid>
+      <description>SwiftUIでPickerを表示する方法です。 Pickerを使いポケモンを表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでNavigationViewを使いラージタイトルを表示する</title>
+      <link>http://localhost:58986/2023-10-06/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-06/</guid>
+      <description>SwiftUIでNavigationViewを使いラージタイトルを表示する方法です。 navigationTitle でタイトルを設定し、navigationBarTitleDisplayMode でサイズを指定しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像を等間隔で横に並べる</title>
+      <link>http://localhost:58986/2023-10-05/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-05/</guid>
+      <description>SwiftUIで画像を等間隔で横に並べる方法です。 Spacerを使うことで等間隔にViewを並べることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像を丸く切り取り枠を付ける</title>
+      <link>http://localhost:58986/2023-10-04/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-04/</guid>
+      <description>SwiftUIで画像を丸く切り取り枠を付ける方法です。 150×200サイズに画像をリサイズして表示させています。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をリサイズして表示する（clip）</title>
+      <link>http://localhost:58986/2023-10-03/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-03/</guid>
+      <description>SwiftUIで画像をリサイズして表示させる方法です。 150×200サイズに画像をリサイズして表示させています。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像を画像を丸く切り取る</title>
+      <link>http://localhost:58986/2023-10-02/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-02/</guid>
+      <description>SwiftUIで画像を画像を丸く切り取る方法です。 150✖︎150サイズに画像をリサイズし、丸く切り取って表示させています。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をリサイズして表示する（fit）</title>
+      <link>http://localhost:58986/2023-10-01/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-10-01/</guid>
+      <description>SwiftUIで画像をリサイズして表示させる方法です。 150×200サイズに画像をリサイズして表示させています。 アスペクト比が異なる場合は余白を赤色で表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでマークダウンを表示する</title>
+      <link>http://localhost:58986/2023-08-02/</link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-08-02/</guid>
+      <description>SwiftUIでマークダウンを表示する方法です。 マークダウンのパースには swift-markdown を使用しています。 また Header(#) と テキストのみに対応しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでPDFを表示する</title>
+      <link>http://localhost:58986/2023-08-01/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-08-01/</guid>
+      <description>SwiftUIでPDFを表示する方法です。 PDFView を利用して snorlax.pdf を表示させています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでImageの色を反転させる</title>
+      <link>http://localhost:58986/2023-03-02/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-03-02/</guid>
+      <description>SwiftUIでImageの色を反転させる方法です。 .colorInvert() を追加することで色を反転させることができます。 SDWebImage/SDWebImageSwiftUI</description>
+    </item>
+    <item>
+      <title>Swiftでモーダル表示時にviewWillDisappearが呼ばれない</title>
+      <link>http://localhost:58986/2023-02-23/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-02-23/</guid>
+      <description>Swiftでモーダル表示時にviewWillDisappearが呼ばれないということが起きました。 以下のようにボタンを押したタイミングでフルスクリーンのモーダルが表示されるとします。&#xA;modalPresentationStyle を .fullScreen にすると viewWillDisappear と viewDidAppear がモーダル表示のタイミングで呼ばれますが、.overFullScreen にすると viewDidAppear しか呼ばれませんでした。&#xA;参考: iOSにおけるモーダル表示まとめ</description>
+    </item>
+    <item>
+      <title>SwiftUIでTODOアプリを作成する</title>
+      <link>http://localhost:58986/2023-02-20/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-02-20/</guid>
+      <description>SwiftUIでTODOアプリのサンプルを作成してみました。 Add Scheduleボタンを押すと予定入力画面が表示されます。 日付を押すと予定一覧画面が表示され、予定の一覧を確認することができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでカレンダーを作成する</title>
+      <link>http://localhost:58986/2023-02-08/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-02-08/</guid>
+      <description>SwiftUIでカレンダーを作成する方法です。 VStack と HStack を組み合わせて作成しました。&#xA;2023年2月24日追記 iOS16からUICalendarViewという便利なものが用意されたのでそれを使った方が良いかもしれません。 こちら の記事です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートのメッセージを出し分ける</title>
+      <link>http://localhost:58986/2023-01-16/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-01-16/</guid>
+      <description>SwiftUIでアラートのメッセージを出し分ける方法です。 アラート表示前にアラートメッセージを変更しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでローカル通知を送信する</title>
+      <link>http://localhost:58986/2023-01-14/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-01-14/</guid>
+      <description>SwiftUIでローカル通知を送信する方法です。 ローカル通知であればサーバーを用意しなくてもプッシュ通知を送信することができます。&#xA;参考: 【SwiftUI】通知機能の実装方法！ローカル通知とリモート通知の違い</description>
+    </item>
+    <item>
+      <title>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する</title>
+      <link>http://localhost:58986/2022-06-16/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-16/</guid>
+      <description>Swiftのasync,awaitを使ってAPIと画像を取得し、全てが揃ってから表示する方法です。</description>
+    </item>
+    <item>
+      <title>Swiftのasync,awaitを使ってAPIをフェッチする</title>
+      <link>http://localhost:58986/2022-06-15/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-15/</guid>
+      <description>Swiftのasync,awaitを使ってAPIをフェッチする方法です。 従来のClosureを使った方法とasyncを使った方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでObservableObjectの@publishedなプロパティとBindingをする</title>
+      <link>http://localhost:58986/2022-06-06/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-06/</guid>
+      <description>SwiftUIでObservableObjectの@publishedなプロパティとBindingをする方法です。 ここでは AddItemViewState まで ContentView の items をバケツリレーしています。</description>
+    </item>
+    <item>
+      <title>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く</title>
+      <link>http://localhost:58986/2022-06-05/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-05/</guid>
+      <description>iOSのファイルアプリ（UIDocumentPickerViewController）を開いてドキュメントフォルダに保存したファイルを開く方法です。&#xA;info.plist にファイルアプリでドキュメントディレクトリを開けるように Supports opening documents in place と Application supports iTunes file sharing を追加し、どちらも YES に設定します。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（UIImageView &#43; UIScrollView）</title>
+      <link>http://localhost:58986/2022-04-07/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-07/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 UIImageViewとUIScrollViewを使って画像をピンチで拡大します。&#xA;他にはこのような方法があります。&#xA;SwiftUIで画像をピンチで拡大する（MagnificationGesture）&#xA;SwiftUIで画像をピンチで拡大する（PDFView）</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（PDFView）</title>
+      <link>http://localhost:58986/2022-04-06/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-06/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 画像をピンチで拡大します。&#xA;他にはこのような方法があります。&#xA;SwiftUIで画像をピンチで拡大する（MagnificationGesture）&#xA;SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）&#xA;参考: Isn&amp;rsquo;t there an easy way to pinch to zoom in an image in Swiftui?</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（MagnificationGesture）</title>
+      <link>http://localhost:58986/2022-04-05/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-05/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 MagnificationGestureを使った方法で画像をピンチで拡大します。 ただこの方法ではドラッグすることができないので、他の方法にする必要があります。&#xA;他にはこのような方法があります。&#xA;SwiftUIで画像をピンチで拡大する（PDFView）&#xA;SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapViewを使い複数の位置情報を選択する</title>
+      <link>http://localhost:58986/2022-03-07/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-07/</guid>
+      <description>SwiftUIでMapViewを使い複数の位置情報を選択する方法です。 addボタンを押した位置情報を記録します。listボタンを押すとその位置情報の一覧を表示します。</description>
+    </item>
+    <item>
+      <title>SwiftUIでさまざまなデバイスのプレビューを確認する</title>
+      <link>http://localhost:58986/2022-01-03/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-01-03/</guid>
+      <description>SwiftUIでさまざまなデバイスのプレビューを確認する方法です。&#xA;まず以下のコマンドでデバイスの一覧を確認します。 デバイス名は正確に入力する必要があります。&#xA;$ xcrun simctl list devicetypes == Device Types == iPhone 4s (com.apple.CoreSimulator.SimDeviceType.iPhone-4s) iPhone 5 (com.apple.CoreSimulator.SimDeviceType.iPhone-5) iPhone 5s (com.apple.CoreSimulator.SimDeviceType.iPhone-5s) iPhone 6 Plus (com.apple.CoreSimulator.SimDeviceType.iPhone-6-Plus) iPhone 6 (com.apple.CoreSimulator.SimDeviceType.iPhone-6) iPhone 6s (com.apple.CoreSimulator.SimDeviceType.iPhone-6s) iPhone 6s Plus (com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus) iPhone SE (1st generation) (com.apple.CoreSimulator.SimDeviceType.iPhone-SE) iPhone 7 (com.apple.CoreSimulator.SimDeviceType.iPhone-7) iPhone 7 Plus (com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus) iPhone 8 (com.apple.CoreSimulator.SimDeviceType.iPhone-8) iPhone 8 Plus (com.apple.CoreSimulator.SimDeviceType.iPhone-8-Plus) iPhone X (com.apple.CoreSimulator.SimDeviceType.iPhone-X) iPhone Xs (com.apple.CoreSimulator.SimDeviceType.iPhone-XS) iPhone Xs Max (com.apple.CoreSimulator.SimDeviceType.iPhone-XS-Max) iPhone Xʀ (com.apple.CoreSimulator.SimDeviceType.iPhone-XR) iPhone 11 (com.</description>
+    </item>
+    <item>
+      <title>iOS15でPickerを横に並べるとタップ領域が重なってしまう</title>
+      <link>http://localhost:58986/2022-01-02/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-01-02/</guid>
+      <description>iOS15でPickerを横に並べるとタップ領域が重なってしまう不具合に悩まされたのでその忘備録です。&#xA;以下の様なコードをiOS15の実機で実行し、左側の行を動かそうとすると右側の行が動いてしまいます。iOS14やシミュレーターでは問題なく動作します。&#xA;Pickerを複数並べると.clip()を使ってもタップ領域が広がってしまうって問題です！&#xA;View Hierarchyを見たところ、タップ領域がclipされていないことが原因かと思われます。&#xA;Apple Developer Technical Support に助けを求めたところ「現時点では回避策がない既知の問題です。」と言われたので UIViewRepresentable を使って自分で作るしかなさそうです。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
+      <link>http://localhost:58986/2021-12-05/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-12-05/</guid>
+      <description>SwiftUIでMapViewの中央に十字を用意し、その中央の座標を取得する方法です。 MapViewが動いたタイミングでラベルの文字列が更新されます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでPHPickerViewControllerを使って画像を選択する</title>
+      <link>http://localhost:58986/2021-11-09/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-09/</guid>
+      <description>SwiftUIでPHPickerViewControllerを使って画像を選択する方法です。 ImagePickerというクラスを使って実現しました。</description>
+    </item>
+    <item>
+      <title>SwiftUIでスライダーとスクロールを連動させる</title>
+      <link>http://localhost:58986/2021-11-02/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-02/</guid>
+      <description>SwiftUIでスライダーとスクロールを連動させる方法です。 スライダーの値を変えることでScrollViewのスクロールを動かしています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでカメラを使う</title>
+      <link>http://localhost:58986/2021-11-01/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-01/</guid>
+      <description>SwiftUIでカメラを使う方法です。 録画を可能にする CameraView を作成しそれを SwiftUI 側で呼び出すようにします。 SwiftUIでカメラを使ったり、写真を保存するには色々とプライバシーの許可を Info.plist に設定する必要があります。&#xA;[Swift] AVFoundation による動画撮影の設定: カメラ種類 / ズーム / 録画時間 / 画質](https://superhahnah.com/swift-avcapture-settings/)</description>
+    </item>
+    <item>
+      <title>iOSで実機ビルドだと動けどTestFlightから配信すると動かない</title>
+      <link>http://localhost:58986/2021-07-05/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-07-05/</guid>
+      <description>&#xA;iOSアプリ開発中に実機ビルドだと動けどTestFlightから配信すると動かない。ということがありました。 以下の記事を参考にリリーズビルド時も最適化を無効化したら動くようになりました。&#xA;App crashes in Release build but not in debug&#xA;Xcodegen を使っている場合は settings の base に以下を追加してあげます。&#xA;SWIFT_OPTIMIZATION_LEVEL: -Onone </description>
+    </item>
+    <item>
+      <title>複数の型を持つJSONをemumでDecodeする</title>
+      <link>http://localhost:58986/2021-07-04/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-07-04/</guid>
+      <description>複数の型を持つ JSON を enum を使って Decode する方法です。 とある API を叩くと JSON が返ってきますが、その中身がポケモンなのかトレーナーなのかジムリーダーなのかわかりません。 以下のコードのように enum の Character の中に Pokemon, GymLeader, Trainer を定義することで、どのような JSON が来ても Decode できるようになります。</description>
+    </item>
+    <item>
+      <title>自分で定義したStructをUserDefaultsに保存する</title>
+      <link>http://localhost:58986/2021-07-03/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-07-03/</guid>
+      <description>自分で定義したStructをUserDefaultsに保存する方法です。 そのままでは保存することができないので、一度 JSONEncoder で Data に保存してから保存します。</description>
+    </item>
+    <item>
+      <title>Identifiableに適合していないStructでListを使う</title>
+      <link>http://localhost:58986/2021-07-02/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-07-02/</guid>
+      <description>Identifiableに適合していないStructでListを使う方法です。 id でプロパティユニークとなるプロパティを指定することで List で使うことができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTabViewのタブをコードから動的に切り替える</title>
+      <link>http://localhost:58986/2021-06-01/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-06-01/</guid>
+      <description>SwiftUIのTabViewのタブをコードから動的に切り替える方法です。 コードで動的にタブを切り替える方法です&#xA;参考: Programmatically change to another tab in SwiftUI</description>
+    </item>
+    <item>
+      <title>iOSでバージョンとビルド番号を取得する</title>
+      <link>http://localhost:58986/2021-05-10/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-10/</guid>
+      <description>iOSでバージョンとビルド番号を取得する方法です。 バージョンとビルド番号を文字列で取得します。 オプショナルで取得することになるので、if let でアンラップしてます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListにButtonを設定してパラメーターの違う画面に遷移する</title>
+      <link>http://localhost:58986/2021-05-09/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-09/</guid>
+      <description>SwiftUIでListにButtonを設定してパラメーターの違う画面に遷移する方法です。 詳細ページに遷移するような使い方を想定しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで少しカスタマイズしたActivityIndicatorを表示する</title>
+      <link>http://localhost:58986/2021-05-08/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-08/</guid>
+      <description>SwiftUIで少しカスタマイズしたActivityIndicatorを表示する方法です。背景色をつけたActivityIndicatorを表示したり隠したりしています。</description>
+    </item>
+    <item>
+      <title>Swiftでデフォルト引数を使う</title>
+      <link>http://localhost:58986/2021-05-07/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-07/</guid>
+      <description>Swiftでデフォルト引数を使う方法です。 favorite 関数に引数を渡さず呼び出すと &amp;quot;I love Snorlax が返り、任意の名前を渡すとその値が使われます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでActivityIndicatorを表示する</title>
+      <link>http://localhost:58986/2021-05-06/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-06/</guid>
+      <description>SwiftUIでActivityIndicatorを表示する方法です。 ロード中などのくるくるするやつを表示したり隠したりしています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでUIActivityViewControllerを表示する</title>
+      <link>http://localhost:58986/2021-05-05/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-05/</guid>
+      <description>SwiftUIでUIActivityViewControllerを表示する方法です。 ボタンを押すと URL を共有するシートを表示します。&#xA;参考: Showing &amp;lsquo;UIActivityViewController&amp;rsquo; in SwiftUI</description>
+    </item>
+    <item>
+      <title>SwiftUIでSearchBar(TextField)にクリアボタンをつける</title>
+      <link>http://localhost:58986/2021-05-02/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-02/</guid>
+      <description>SwiftUIでSearchBar(TextField)にクリアボタンをつける方法です。 TextFiled に文字を入力するとポケモンを検索します。 そして右側のボタンを押すと TextField がクリアされます。&#xA;参考サイト SwiftUI: Add ClearButton to TextField</description>
+    </item>
+    <item>
+      <title>SwiftUIでSearchBar(TextField)を使って検索する</title>
+      <link>http://localhost:58986/2021-05-01/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-05-01/</guid>
+      <description>SwiftUIでSearchBar(TextField)を使って検索する方法です。 TextFiled に文字を入力するとポケモンを検索します。</description>
+    </item>
+    <item>
+      <title>SwiftUIのListの中にボタンを複数設置する</title>
+      <link>http://localhost:58986/2021-04-08/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-04-08/</guid>
+      <description>SwiftUIのListの中にボタンを複数設置する方法です。 buttonStyle(PlainButtonStyle()) を設定することできました。&#xA;参考サイト SwiftUI pick a value from a list with ontap gesture</description>
+    </item>
+    <item>
+      <title>SwiftUIのListでSpacerの部分にもタップ判定をつける</title>
+      <link>http://localhost:58986/2021-04-07/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-04-07/</guid>
+      <description>SwiftUIのListでSpacerの部分にもタップ判定をつける方法です。 .contentShape(Rectangle()) を設定することでタップ範囲を広げています。&#xA;参考サイト SwiftUI pick a value from a list with ontap gesture</description>
+    </item>
+    <item>
+      <title>SwiftUIでListをEditModeにして並び替える</title>
+      <link>http://localhost:58986/2021-04-02/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-04-02/</guid>
+      <description>SwiftUIでListをEditModeにして並び替える方法です。 UITableViewのEditModeのようにして並び替えることができます。 Listの中にforを定義する必要があります。最初ハマりました。</description>
+    </item>
+    <item>
+      <title>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる</title>
+      <link>http://localhost:58986/2021-03-10/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-10/</guid>
+      <description>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる方法です。 遷移後のシートでもisPresentedの情報を保持するのがポイントです。</description>
+    </item>
+    <item>
+      <title>SwiftUIで初めの画面に遷移する（popToRootViewController）</title>
+      <link>http://localhost:58986/2021-03-09/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-09/</guid>
+      <description>SwiftUIで初めの画面に遷移する（popToRootViewController）方法です。 isDetailLink がポイントです。</description>
+    </item>
+    <item>
+      <title>Swiftで10進数を2進数に変換する</title>
+      <link>http://localhost:58986/2021-03-08/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-08/</guid>
+      <description>Swiftで10進数を2進数に変換する方法です。 TextFieldに数字を入力し、変換ボタンを押すと2進数に変換されます。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTextFieldで表示するキーボードを指定する</title>
+      <link>http://localhost:58986/2021-03-07/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-07/</guid>
+      <description>SwiftUIのTextFieldで表示するキーボードを指定する方法です。 keyboardType を指定することで表示するキーボードの種類を設定することができます。</description>
+    </item>
+    <item>
+      <title>SwiftでMKMapViewに線を引く</title>
+      <link>http://localhost:58986/2021-03-05/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-05/</guid>
+      <description>SwiftでMKMapViewに線を引く方法です。 以下の例では大阪、松本、東京で線を引いています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButtonを有効にしたり無効にしたりする</title>
+      <link>http://localhost:58986/2021-03-04/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-04/</guid>
+      <description>SwiftUIでButtonを有効にしたり無効にしたりする方法です。 Toggleを押すとボタンが有効になったり、無効になったりします。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewを横スクロールで表示する</title>
+      <link>http://localhost:58986/2021-03-02/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-02/</guid>
+      <description>SwiftUIでViewを横スクロールで表示する方法です。 SwiftUIだと簡単に実装できて良いですね！！</description>
+    </item>
+    <item>
+      <title>QGridを使ってCollectionViewを実装する</title>
+      <link>http://localhost:58986/2021-03-01/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-01/</guid>
+      <description>QGridを使ってCollectionViewを実装する方法です。 iOS13のSwiftUIではCollectionViewに相当するものがありません。 QGridを使うことでCollectionViewに似たものを実装することができます。</description>
+    </item>
+    <item>
+      <title>Swiftでオンライン上のファイルを再生する</title>
+      <link>http://localhost:58986/2021-02-10/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-10/</guid>
+      <description>Swiftでオンライン上のファイルを再生する方法です。 簡単に実装できました。ただエラーハンドリングができないのが弱点です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートを入れ子にして使うことができない</title>
+      <link>http://localhost:58986/2021-02-09/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-09/</guid>
+      <description>SwiftUIでアラートを入れ子にして使うことができなかったのでそのメモです。 以下のコードの様に HStack の中に VStack を入れ、それぞれに .alert を使うと内側の .alert がうまく動かなかったです。 .alert は入れ子にしない方が良さそうです。</description>
+    </item>
+    <item>
+      <title>iOSでGoogle-Mobile-Ads-SDKの８系が入らない</title>
+      <link>http://localhost:58986/2021-02-08/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-08/</guid>
+      <description>iOSでGoogle-Mobile-Ads-SDKの８系が入らない時の対処法です。 Firebase/adMob を外したらうまくいきました。&#xA;参考: pods使うとadmob sdkのバージョンは7.69になるなぁ。最新の8.1入れたかったんだけどな。</description>
+    </item>
+    <item>
+      <title>SwiftUIでボタンを押すとポップアップを表示する</title>
+      <link>http://localhost:58986/2021-02-07/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-07/</guid>
+      <description>SwiftUIでボタンを押すとポップアップを表示する方法です。 以下の例ではボタンを押すとアラート（中身はView）を表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでBMIを計算し、結果を別のViewで表示する</title>
+      <link>http://localhost:58986/2021-02-06/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-06/</guid>
+      <description>SwiftUIでBMIを計算し、結果を別のViewで表示する方法です。 身長と体重を入力し、計算ボタンを押すことで計算したBMIを表示しています。&#xA;ただ上の例では bmi と showingSheet の二つのプロパティが必要です。 新しく ContentActionSheetを定義する必要がありますが、以下の方法だとプロパティの数を減らしたりenumの種類によってシートの出し分けをすることができます。</description>
+    </item>
+    <item>
+      <title>@Stateと@Bindingの使い分け</title>
+      <link>http://localhost:58986/2021-02-05/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-05/</guid>
+      <description>@Stateと@Bindingの使い分けについです。&#xA;@State のついた変数を変更することでViewにその変更が反映されます。 以下の例ではボタンを押すことで 変数textの値を変えています。 変数textの値を変えることでその変更が反映され、文字列が変わります。&#xA;@Binding は親のViewのプロパティを子のViewで変えたい時に使います。 ContentViewでは変数textの値を表示しています。 ChangeTextボタンを押してSecondViewに遷移し、そこで値を変えると親である ContentView のプロパティも変更され、画面にその変更が反映されています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで複数のモーダルをEnumで出し分ける</title>
+      <link>http://localhost:58986/2021-02-03/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-03/</guid>
+      <description>SwiftUIで複数のモーダルをEnumで出し分ける方法です。 enumを使うことでスッキリと書くことができました。 iOS13では使えないので気をつけてください。</description>
+    </item>
+    <item>
+      <title>SwiftUIでフルスクリーンモーダルを表示する（iOS14以上）</title>
+      <link>http://localhost:58986/2021-02-02/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-02/</guid>
+      <description>SwiftUIでフルスクリーンモーダルを表示する方法です。（iOS14以上） いままでSwiftUIでフルスクリーンのモーダルを表示するのは大変でしたが、iOS14からはこの方法で表示することができるようになります。お手軽ですね。&#xA;iOS13でフルスクリーンモーダルを表示させたい場合はこの記事をご参照ください。&#xA;SwiftUIでフルスクリーンモーダルを表示する&#xA;参考: How to present a full screen modal view using fullScreenCover()</description>
+    </item>
+    <item>
+      <title>SwiftUIでモーダルを表示する時に値を渡す</title>
+      <link>http://localhost:58986/2021-02-01/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-01/</guid>
+      <description>SwiftUIでモーダルを表示する時に値を渡す方法です。 TextFieldでname変数に文字列を入力します。その入力した文字列をPokemonView に渡して表示しています。</description>
+    </item>
+    <item>
+      <title>Swiftで文字列を圧縮して保存し、そのデータを読み取る</title>
+      <link>http://localhost:58986/2021-01-01/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-01-01/</guid>
+      <description>Swiftで文字列を圧縮して保存し、そのデータを読み取る方法です。 zlib というアルゴリズムで文字列を圧縮し、保存しています。 Java の Deflater, Inflater に相当する方法ですが、header、チェックサムの情報が抜けている生のデータが保存されるので気をつける必要があります。&#xA;static void saveCompressedData() { try { // Encode a String into bytes String text = &amp;#34;hello&amp;#34;; byte[] data = text.getBytes(StandardCharsets.UTF_8); // Compress the bytes ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream(); DeflaterOutputStream outputStream = new DeflaterOutputStream(byteArrayOutputStream); outputStream.write(data); outputStream.finish() String path = &amp;#34;/Users/kabigon/Desktop/data.data&amp;#34;; try (FileOutputStream fos = new FileOutputStream(path)) { fos.write(byteArrayOutputStream.toByteArray()); } System.out.println(&amp;#34;----------------------&amp;#34;); System.out.println(&amp;#34;Save Completed!!&amp;#34;); System.out.println(String.format(&amp;#34;Path: %s&amp;#34;, path)); System.out.println(&amp;#34;----------------------&amp;#34;); } catch (Exception e) { e.</description>
+    </item>
+    <item>
+      <title>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する</title>
+      <link>http://localhost:58986/2020-12-13/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-13/</guid>
+      <description>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する方法です。 AVAudioPlayer は Delegate で再生終了を検知しますが、AVAudioPlayerNodeは再生終了時に呼ばれるハンドラーが用意されているのでそちらを使います。&#xA;参考: AVAudioEngine &amp;amp; AVAudioPlayerNode didFinish method like AVAudioPlayer</description>
+    </item>
+    <item>
+      <title>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する</title>
+      <link>http://localhost:58986/2020-12-12/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-12/</guid>
+      <description>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する方法です。 SwiftUIは struct を使うので AVAudioPlayerDelegate に準拠することができません。 そのため、ViewModel を作成し、SwiftUI（View）から呼び出してあげるます。&#xA;参考: AVAudioPlayerDelegate SwiftUI</description>
+    </item>
+    <item>
+      <title>SwiftUIを使ったTODOアプリのサンプル</title>
+      <link>http://localhost:58986/2020-12-10/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-10/</guid>
+      <description>SwiftUIを使ったTODOアプリのサンプルコードです。 InputView で入力した TODOは ContentView に表示されます。</description>
+    </item>
+    <item>
+      <title>AVAudioPlayerNodeを使って音楽の再生、一時停止、再生速度変更、ピッチ変更、ボリューム変更を行う</title>
+      <link>http://localhost:58986/2020-12-09/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-09/</guid>
+      <description>AVAudioPlayerNodeを使って音楽の再生、一時停止、再生速度変更、ピッチ変更、ボリューム変更を行う方法です。 AVAudioPlayerNodeはAVAudioPlayerではできないようなことができます。 たとえばピッチの変更などAVAudioPlayerでは実現することはできないので、AVAudioPlayerNodeを使う必要があります。</description>
+    </item>
+    <item>
+      <title>AVAudioPlayerを使って音楽の再生、一時停止、停止、ボリューム変更、再生速度変更を行う</title>
+      <link>http://localhost:58986/2020-12-08/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-08/</guid>
+      <description>AVAudioPlayerを使って音楽の再生、一時停止、停止、ボリューム変更、再生速度変更を行う方法です。 AVAudioPlayerを使うと簡単に音楽の再生などに関することするができます。 ただ AVAudioPlayer にできることは限られており、より複雑な操作をするためには AVAudioPlayerNode を使う必要があります。</description>
+    </item>
+    <item>
+      <title>SwiftUIでImageを長押しするとContextMenuを表示する</title>
+      <link>http://localhost:58986/2020-12-07/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-07/</guid>
+      <description>SwiftUIでImageを長押しするとContextMenuを表示する方法です。 アイコンが表示されているImageを長押しするとContextMenuが表示されます。 少しのコードを書くだけでリッチなUIが実現できて便利です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを使う。Mapにピンを立てる</title>
+      <link>http://localhost:58986/2020-11-07/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-07/</guid>
+      <description>SwiftUIでMapを使う。Mapにピンを立てる方法です。 UIViewRepresentableを使って MKMapViewをSwiftUIで表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewの上にViewを重ねる</title>
+      <link>http://localhost:58986/2020-11-06/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-06/</guid>
+      <description>SwiftUIでViewの上にViewを重ねる方法です。 Imageの上に半透明に黒いTextを重ねています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで端末のシェイクを検知する</title>
+      <link>http://localhost:58986/2020-11-01/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-01/</guid>
+      <description>SwiftUIで端末のシェイクを検知する方法です。 端末をシェイクすると Text 内の文字が変わります。 ReactNativeは端末をシェイクするとデバッグメニューが出てくるのが面白いです。</description>
+    </item>
+    <item>
+      <title>SwiftUIでAppStorageを使ってUserDefaultの値を監視する</title>
+      <link>http://localhost:58986/2020-10-08/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-08/</guid>
+      <description>SwiftUIでAppStorageを使ってUserDefaultの値を監視する方法です。 UserDefaultが変更されると画面が再描画されます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListの中に複数のNavigationLinkを設置する</title>
+      <link>http://localhost:58986/2020-10-07/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-07/</guid>
+      <description>SwiftUIでListの中に複数のNavigationLinkを設置する方法です。 素直に実装すると画面遷移が暴発してしまいます。&#xA;それを修正するために List のタップジェスチャーを無効化したりする必要がありました。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewの周りに影をつける</title>
+      <link>http://localhost:58986/2020-10-01/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-01/</guid>
+      <description>SwiftでUIViewの周りに影をつける方法です。 ImageのViewの周りに影をつけています。 shadowOffset で影の位置を移動させることができ、サンプルコードでは影を右下に移動させています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButton内の画像やテキストの色を変えない</title>
+      <link>http://localhost:58986/2020-09-14/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-14/</guid>
+      <description>SwiftUIでButton内の画像やテキストの色を変えない方法です。 .buttonStyle(PlainButtonStyle()) ではフルーツの一覧を表示しています。 フルーツが表示されたセルを押すと SecondView を設定することで実現できました。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画面遷移時に値を渡す</title>
+      <link>http://localhost:58986/2020-09-13/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-13/</guid>
+      <description>SwiftUIで画面遷移時に値を渡す方法です。 ContentView ではフルーツの一覧を表示しています。 フルーツが表示されたセルを押すと SecondView に遷移し、選択されたセルのフルーツ名が表示されます。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</title>
+      <link>http://localhost:58986/2020-09-12/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-12/</guid>
+      <description>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
+      <link>http://localhost:58986/2020-09-11/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-11/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Combine）</title>
+      <link>http://localhost:58986/2020-09-10/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-10/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Closure）</title>
+      <link>http://localhost:58986/2020-09-09/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-09/</guid>
+      <description>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewを横に等間隔で横に並べる</title>
+      <link>http://localhost:58986/2020-09-08/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-08/</guid>
+      <description>SwiftUIでViewを横に等間隔で横に並べて表示するほうほうです。 アイコンを等間隔で表示したりするときにつかいました。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像を丸く切り取り、枠を付ける</title>
+      <link>http://localhost:58986/2020-09-07/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-07/</guid>
+      <description>SwiftUIで丸い枠に合わせて画像を丸く切り取り、枠を付ける方法です。 アイコンの表示する箇所などによく使います。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をリサイズして表示（clip）</title>
+      <link>http://localhost:58986/2020-09-06/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-06/</guid>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示します。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をリサイズして表示（fit）</title>
+      <link>http://localhost:58986/2020-09-05/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-05/</guid>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。</description>
+    </item>
+    <item>
+      <title>Buttonを押すとTextの文字が変わる</title>
+      <link>http://localhost:58986/2020-09-04/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-04/</guid>
+      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var text を更新します。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートとシートを出し分ける</title>
+      <link>http://localhost:58986/2020-09-03/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-03/</guid>
+      <description>SwiftUIでアラートとシートを出し分ける方法です。 TextField に入力された文字列が Double に変換できるかチェックします。 もし Double に変換できるのであればシートを表示し、もし Double に変換できないのであればアラートを表示します。</description>
+    </item>
+    <item>
+      <title>Xcodeで行を入れ替える</title>
+      <link>http://localhost:58986/2020-08-08/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-08/</guid>
+      <description>Xcodeで行を入れ替える方法です。 command + option + [ でカーソルのある行を上に持ってくることができます。 また command + option + ] でカーソルのある行を下に持ってくることができます。&#xA;![Format]](1.gif)</description>
+    </item>
+    <item>
+      <title>Xcodeでコードをフォーマットする</title>
+      <link>http://localhost:58986/2020-08-07/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-07/</guid>
+      <description>Xcodeでコードをフォーマットする方法です。 command + a でコードを全て選択し、control + i でコードをフォーマットすることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTextFieldで編集中と編集完了を検知する</title>
+      <link>http://localhost:58986/2020-08-06/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-06/</guid>
+      <description>SwiftUIのTextFieldで編集中と編集完了を検知する方法です。 UIKit よりも少ないコードで実現できている気がします。</description>
+    </item>
+    <item>
+      <title>SwiftUIのPreviewを横向きにする</title>
+      <link>http://localhost:58986/2020-08-04/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-04/</guid>
+      <description>SwiftUIのPreviewを横向きにする方法です。 Previewのサイズを変更することで実現しました。&#xA;Landscape Right, Landscape Left にチェックを入れアプリを横向きにします。&#xA;Previewのサイズを端末のサイズに変更します。</description>
+    </item>
+    <item>
+      <title>Buttonからプッシュ遷移をする（NavigationLinkを無効にする）</title>
+      <link>http://localhost:58986/2020-08-03/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-03/</guid>
+      <description>Buttonからプッシュ遷移をする方法です。 この方法であれば、NavigationLink を擬似的に無効にすることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでNavigationBarを隠す</title>
+      <link>http://localhost:58986/2020-08-02/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-02/</guid>
+      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true) を設定すると隠すことができます。 理由は不明ですが、空文字で仮のタイトルを設定する必要がありました。</description>
+    </item>
+    <item>
+      <title>よくあるチュートリアル画面をUIPageViewControllerとSwiftUIで作る</title>
+      <link>http://localhost:58986/2020-06-28/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-28/</guid>
+      <description>UIPageViewControllerとSwiftUIでよくあるチュートリアル画面を作ります。 画面をスワイプすると次の画面が表示されます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでUITestを動かす</title>
+      <link>http://localhost:58986/2020-06-24/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-24/</guid>
+      <description>SwiftUIでUITestを動かす方法です。 UIKit の時と違って sleep を入れないと良い感じに動かなかったです。 State が変わると際レンダリングが走るせいでしょうか？</description>
+    </item>
+    <item>
+      <title>SwiftUIでText中の文字の太さや色を変える</title>
+      <link>http://localhost:58986/2020-06-22/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-22/</guid>
+      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。</description>
+    </item>
+    <item>
+      <title>SwiftUIで続きを読む。。。ボタンがあるViewを実装する</title>
+      <link>http://localhost:58986/2020-06-20/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-20/</guid>
+      <description>SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。 背景を透明色にし、そのサイズを PreferenceKey で取得することで実現しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIで閉じることができないモーダルを表示する</title>
+      <link>http://localhost:58986/2020-06-01/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-01/</guid>
+      <description>SwiftUIで閉じることができないモーダルを表示する方法です。 以下の記事の応用です、UIKit を使わないでもできるようになって欲しいです。&#xA;SwiftUIでフルスクリーンモーダルを表示する</description>
+    </item>
+    <item>
+      <title>シミュレーターのスクリーンショットを影無しで撮影する（ツールバー無しで撮影する）</title>
+      <link>http://localhost:58986/2020-05-14/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-14/</guid>
+      <description>シミュレーターのスクリーンショットを影無しで撮影する（ツールバー無しで撮影する）方法です。 command + shift + 4 でスクリーンショットの撮影モードにしたあとに、スペースで撮影対象となる画面を選択し、クリックすることでスクリーンショットを撮ることができます。 そのときに option を押ながら撮影することで影無しでスクリーンショットを撮ることができます。 そして、ツールバーを画像編集ツールで取り除けば、ツールバー無しのスクリーンショット画像が手に入ります。&#xA;通常の方法で撮ったスクリーンショット&#xA;影無しで撮ったスクリーンショット</description>
+    </item>
+    <item>
+      <title>SwiftUIでモーダルからフルモーダルを表示する</title>
+      <link>http://localhost:58986/2020-05-13/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-13/</guid>
+      <description>SwiftUIでモーダルからフルモーダルを表示する方法です。 以下の記事の改良版？です。&#xA;SwiftUIでフルスクリーンモーダルを表示する</description>
+    </item>
+    <item>
+      <title>SwiftUIでアプリ起動時に画面を遷移させる</title>
+      <link>http://localhost:58986/2020-05-12/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-12/</guid>
+      <description>SwiftUIでアプリ起動時に画面を遷移させる方法です。 登録の導線で途中離脱したらその途中から再開させるようなUXを実現させようとしました。 NavigationLink の isActive を使って遷移していますが、遅延時間を設定しないとアプリの挙動がおかしくなってしまうので気をつけてください。</description>
+    </item>
+    <item>
+      <title>FunctionBuilderを使ってViewに影をつける</title>
+      <link>http://localhost:58986/2020-05-07/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-07/</guid>
+      <description>FunctionBuilderを使ってViewに影をつける方法です。 FunctionBuilderとViewModifier、どっちを使うか迷う時が良くあります。 関連してこちらもどうぞ。&#xA;ViewModifierを使ってViewに影をつける</description>
+    </item>
+    <item>
+      <title>ViewModifierを使ってViewに影をつける</title>
+      <link>http://localhost:58986/2020-05-06/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-06/</guid>
+      <description>ViewModifierを使ってViewに影をつける方法です。 FunctionBuilderとViewModifier、どっちを使うか迷う時が良くあります。 関連してこちらもどうぞ。&#xA;FunctionBuilderを使ってViewに影をつける</description>
+    </item>
+    <item>
+      <title>SwiftUIでフルスクリーンモーダルを表示する</title>
+      <link>http://localhost:58986/2020-05-05/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-05/</guid>
+      <description>SwiftUIでフルスクリーンモーダルを表示する方法です。 SwiftにもっとAPI増えて欲しいです。</description>
+    </item>
+    <item>
+      <title>SwiftUIでNavigationViewのタイトルやテーブルビューの背景を変える</title>
+      <link>http://localhost:58986/2020-05-04/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-04/</guid>
+      <description>SwiftUIでNavigationViewのタイトルやテーブルビューの背景を変える方法です。 TableView と UITextView の appearance を変更しました。</description>
+    </item>
+    <item>
+      <title>SwiftUI で文字列中にタップ可能なリンクを追加する</title>
+      <link>http://localhost:58986/2020-05-03/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-05-03/</guid>
+      <description>SwiftUI で文字列中にタップ可能なリンクを追加するを作成する方法です。 UIViewRepresentable と UITextView を使って実現しました。&#xA;Reference: UITextViewにタップ可能なリンクを挿入する</description>
+    </item>
+    <item>
+      <title>SwiftUIでUICollectionViewのようにViewを並べる</title>
+      <link>http://localhost:58986/2020-02-09/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-02-09/</guid>
+      <description>SwiftUI で UICollectionView のように表示する方法です。 Q-Mobile/QGrid というライブラリを使うと簡単です。 QGrid を参考にしながら書いてみました。&#xA;参考: Q-Mobile/QGrid</description>
+    </item>
+    <item>
+      <title>SwiftUIでFirestoreの画像を表示する</title>
+      <link>http://localhost:58986/2020-02-08/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-02-08/</guid>
+      <description>SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができません。 SDWebImage/SDWebImageSwiftUIを使って以下のように書いてみました。 もっと良い書き方がある気がします、これだとトークンも含めてキャッシュされちゃうような。。。&#xA;参考: iOS でファイルをダウンロードする SDWebImage/SDWebImageSwiftUI</description>
+    </item>
+    <item>
+      <title>SwiftUIのToggleの変更を検知する</title>
+      <link>http://localhost:58986/2020-02-05/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-02-05/</guid>
+      <description>SwiftUIのToggleの変更を検知し、print 文を実行します。&#xA;参考: How can I trigger an action when a swiftUI toggle() is toggled?</description>
+    </item>
+    <item>
+      <title>SwiftUIで複数行のPickerを作成する</title>
+      <link>http://localhost:58986/2020-01-14/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-01-14/</guid>
+      <description>UIPickerView のような複数行の Picker を作成する方法です。 UIPickerView と使い勝手がかなり異なり、戸惑いました。&#xA;参考: Multi-Component Picker (UIPickerView) in SwiftUI&#xA;追記 iOS15では compositingGroup を追記する必要があります。</description>
+    </item>
+    <item>
+      <title>SwiftUIのPickerでLabelを表示しない</title>
+      <link>http://localhost:58986/2020-01-13/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-01-13/</guid>
+      <description>SwiftUIのPickerでLabelを表示しない方法です。 labelsHidden を設定することで可能です。&#xA;参考: How to hide the label of a Picker, Stepper, Toggle, and more using labelsHidden()</description>
+    </item>
+    <item>
+      <title>SwiftUIでPicker を表示する</title>
+      <link>http://localhost:58986/2020-01-12/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-01-12/</guid>
+      <description>SwiftUI で Picker を表示するサンプルです。 複数行の場合はこちらです。 SwiftUIで複数行のPickerを作成する&#xA;参考: Is there a way to call a function when a SwiftUI Picker selection changes?</description>
+    </item>
+    <item>
+      <title>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す</title>
+      <link>http://localhost:58986/2020-01-11/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-01-11/</guid>
+      <description>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。 delegate を使ったのですが、Combine で書いた方がよいかもしれません。</description>
+    </item>
+    <item>
+      <title>SwiftUI でアラートを表示する</title>
+      <link>http://localhost:58986/2019-12-20/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-12-20/</guid>
+      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。</description>
+    </item>
+    <item>
+      <title>SwiftUIでリストのセルをタップするとアラートが表示される方法</title>
+      <link>http://localhost:58986/2019-12-18/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-12-18/</guid>
+      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。</description>
+    </item>
+    <item>
+      <title>SwiftUIでリストを編集する</title>
+      <link>http://localhost:58986/2019-12-17/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-12-17/</guid>
+      <description>SwiftUIでリストを編集する方法です。 UITableView よりも短いコードで書くことができました。&#xA;参考: How to enable editing on a list using EditButton</description>
+    </item>
+    <item>
+      <title>TabViewを使って画面を切り替える（SwiftUI）</title>
+      <link>http://localhost:58986/2019-11-21/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-21/</guid>
+      <description>TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。&#xA;TabView - SwiftUI | Apple Developer Documentation</description>
+    </item>
+    <item>
+      <title>ListViewからそれぞれ別のViewに遷移する（SwiftUI）</title>
+      <link>http://localhost:58986/2019-11-20/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-20/</guid>
+      <description>設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。&#xA;もっと良い方法がある気がします。。。</description>
+    </item>
+  </channel>
+</rss>

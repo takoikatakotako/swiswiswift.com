@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linuxのファイル（LPIC） | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">Linuxのファイル（LPIC）</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    
+                        
+                        <li><a href="http://localhost:58986/tags/linux" rel="tag">Linux</a></li>
+                         
+                     
+                </ul>
+            </div>
+
+            
+            
+            <time class="post-date" datetime="2022-09-22">September 22, 2022</time>
+        </header>
+
+        <br>
+<h1 id="linuxのファイル">Linuxのファイル</h1>
+<h2 id="etcaptsourceslist">/etc/apt/sources.list</h2>
+<p>Debian系のパッケージのダウンロード先（リポジトリ）が書かれたファイル</p>
+<h2 id="etcfstab">/etc/fstab</h2>
+<p>デバイスとマウントポイント、ファイルシステムについて記述されたファイル</p>
+<h2 id="etcpasswd">/etc/passwd</h2>
+<p>ユーザーのパスワードや属性情報を保存したファイル。現代ではパスワード情報は記載せずに /etc/shadow （シャドウファイル）に分離する運用が一般的となっている。</p>
+<h2 id="etcinittab">/etc/inittab</h2>
+<p>システム起動後のデフォルトのランレベルが定義されているファイルです。</p>
+<h3 id="etcrc0-6d-or-etcrcdrc0-6d">/etc/rc[0-6].d or /etc/rc.d/rc[0-6].d</h3>
+<p>SysV initで起動時に使用するスクリプトをランレベルごとに管理しており、例えばランレベル5であれば /etc/rc.d/rc5.d ディレクトリに格納しています。</p>
+<h2 id="etchosts">/etc/hosts</h2>
+<h2 id="etcnsswitchconf">/etc/nsswitch.conf</h2>
+<h2 id="etcresolvconf">/etc/resolv.conf</h2>
+<h2 id="etcshadow">/etc/shadow</h2>
+<p>ハッシュ化されたパスワードが保存されたファイルです。</p>
+<h2 id="etcservices">/etc/services</h2>
+<p>サービス名とポート番号の対応が記述されたファイルです。</p>
+<h2 id="etcpamd">/etc/pam.d</h2>
+<h2 id="etcupdatedbconf">/etc/updatedb.conf</h2>
+<p>updatedbコマンドの設定が記述されたファイル</p>
+<h2 id="etcyumconf">/etc/yum.conf</h2>
+<p>yumの基本設定ファイル</p>
+<h2 id="etcyumreposd">/etc/yum.repos.d/</h2>
+<p>リポジトリサーバーの設定情報が記述されたファイルを保存するディレクトリです。</p>
+<h2 id="etchostname">/etc/hostname</h2>
+<p>ホスト名が記述されたファイルです。</p>
+<h2 id="etcntpconf">/etc/ntp.conf</h2>
+<h2 id="etcnologin">/etc/nologin</h2>
+<p>このファイルが存在するとroot以外のユーザーは対話的ログインができなります。</p>
+<h2 id="lib64">/lib64</h2>
+<p>64bitのPCを使用している際の一般的な共有ライブラリの配置場所です。</p>
+<h2 id="proccpuinfo">/proc/cpuinfo</h2>
+<p>プロセッサの情報が格納されたファイルです。</p>
+<h2 id="proccmdline">/proc/cmdline</h2>
+<p>ブート時にカーネルに渡された引数を確認できるファイルです。</p>
+<h2 id="procinterrupts">/proc/interrupts</h2>
+<p>割り込み要求（IRQ: Interrupt ReQuest）の情報を確認できるファイルです。</p>
+<h2 id="procioports">/proc/ioports</h2>
+<h2 id="procsysnetipv4ip_forward">/proc/sys/net/ipv4/ip_forward</h2>
+<h2 id="procmounts">/proc/mounts</h2>
+<p>現在のマウント状態が格納されているファイル</p>
+<h2 id="procmodules">/proc.modules</h2>
+<p>ロードされたモジュールの情報が格納されたファイル</p>
+<h2 id="procselfmounts">/proc/self/mounts</h2>
+<p>現在のマウント状態が格納されているファイル</p>
+<h2 id="varlogdmesg">/var/log/dmesg</h2>
+<p>システム立ち上げ時にカーネルが出力するメッセージが格納されているファイル</p>
+
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

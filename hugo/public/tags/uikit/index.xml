@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UIKit on すいすいSwift</title>
+    <link>http://localhost:58986/tags/uikit/</link>
+    <description>Recent content in UIKit on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/tags/uikit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiftで最低幅を持ち横幅が可変なボタンを作成する</title>
+      <link>http://localhost:58986/2022-01-09/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-01-09/</guid>
+      <description>Swiftで最低幅を持ち横幅が可変なボタンを作成する方法です。 ボタンの横幅が最低53pxで、余白が12px以上あるボタンを作成しています。</description>
+    </item>
+    <item>
+      <title>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
+      <link>http://localhost:58986/2021-11-12/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-12/</guid>
+      <description>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する方法です。 スクロールしたりピンチしたタイミングで regionDidChangeAnimated が呼ばれるので、その時の中心の座標を取得しています。</description>
+    </item>
+    <item>
+      <title>PHPickerViewControllerを使って画像を選択する</title>
+      <link>http://localhost:58986/2021-11-05/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-05/</guid>
+      <description>PHPickerViewController を使って画像を選択する方法です。 UIImagePickerController が将来的に非推奨になり PHPickerViewController に置き換わっていくみたいです。&#xA;参考: Meet the new Photos picker</description>
+    </item>
+    <item>
+      <title>UIKitのScrollViewでページングを実装する</title>
+      <link>http://localhost:58986/2021-11-04/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-04/</guid>
+      <description>UIKitのScrollViewでページングを実装する方法です。 スクロールすると切り替わるタイミングでピタッと止まります。</description>
+    </item>
+    <item>
+      <title>ImageViewを長押しするとContextMenuを表示する</title>
+      <link>http://localhost:58986/2020-12-06/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-06/</guid>
+      <description>ImageViewを長押しするとUIMenuを表示する方法です。 アイコンが表示されているImageViewを長押しするとContextMenuが表示されます。 少しのコードを書くだけでリッチなUIが実現できて便利です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapを表示してアノテーションを表示する</title>
+      <link>http://localhost:58986/2020-12-05/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-05/</guid>
+      <description>SwiftUIでMapを表示してアノテーションを表示する方法です。 iOS14からSwiftUIでMapKitを使えるようになりました。地図を表示するとかだけならSiwftUIで完結します。</description>
+    </item>
+    <item>
+      <title>UIStepperを使って値を増減させる</title>
+      <link>http://localhost:58986/2020-12-04/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-04/</guid>
+      <description>UIStepperを使って値を増減させる方法です。 UIStepperを使うと値を増減させるUIを簡単に実装することができます。</description>
+    </item>
+    <item>
+      <title>TableViewでセルのロングタップを検出する</title>
+      <link>http://localhost:58986/2020-11-10/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-10/</guid>
+      <description>TableViewでセルのロングタップを検出する方法です。 通常のタップとロングタップをそれぞれのイベントとして取得することができます。</description>
+    </item>
+    <item>
+      <title>UIAlertControllerの中でTextFieldを使い、文字数を制限する</title>
+      <link>http://localhost:58986/2020-11-09/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-09/</guid>
+      <description>UIAlertControllerの中でTextFieldを使い、文字数を制限する方法です。 このサンプルでは6文字以上入力できないようにしています。</description>
+    </item>
+    <item>
+      <title>UIAlertControllerの中でTextFieldを使う</title>
+      <link>http://localhost:58986/2020-11-08/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-08/</guid>
+      <description>UIAlertControllerの中でTextFieldを使う方法です。 Alertの中でテキストを入力できます。</description>
+    </item>
+    <item>
+      <title>画面内にPageViewControllerがあるウォークスルー画面を実装する</title>
+      <link>http://localhost:58986/2020-11-02/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-02/</guid>
+      <description>画面内にPageViewControllerがあるウォークスルー画面を実装する方法です。 一番最後のページを開くとボタンの色が変わります。</description>
+    </item>
+  </channel>
+</rss>

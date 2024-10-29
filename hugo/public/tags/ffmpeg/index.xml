@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FFmpeg on すいすいSwift</title>
+    <link>http://localhost:58986/tags/ffmpeg/</link>
+    <description>Recent content in FFmpeg on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FFmpegを使って動画の情報を表示する</title>
+      <link>http://localhost:58986/2022-05-01/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-05-01/</guid>
+      <description>&#xA;FFmpegを使って動画の情報を表示する方法です。 以下のコマンドで表示することができました。&#xA;$ ffmpeg -i movie.mp4 </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terraform on すいすいSwift</title>
+    <link>http://localhost:58986/tags/terraform/</link>
+    <description>Recent content in Terraform on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 09 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lambdaトリガー（Lambda Permission）のStatement IDを確認する</title>
+      <link>http://localhost:58986/2022-04-09/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-09/</guid>
+      <description>Lambdaトリガー（Lambda Permission）のStatement IDを確認する方法です。 Terraform で API Gateway のLambdaトリガーをインポートするには関数名とLambdaトリガーのStatement IDが必要です。 以下のコマンドで確認することができました。&#xA;$ aws lambda get-policy --function-name {YOUR-FUNCTION-NAME} | jq Resource: aws_lambda_permission</description>
+    </item>
+  </channel>
+</rss>

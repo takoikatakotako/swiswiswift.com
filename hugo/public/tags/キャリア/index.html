@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>キャリア | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="home">
+      
+      <div class="home-article">
+        <a href="/2023-04-01/">
+          <h2>転職活動エントリ</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2023-04-01">April 1, 2023</time>
+        <p>はじめに 転職の際の忘備録として記憶が鮮明なうちに書き残します。 誰かの参考になれば幸いです。
+TL;DR エージェントはよく選ぼう。 転職活動を始める前から転職準備を始めよう。
+スペック 人材系メガベンチャー5年目です。うち1年ほど育休を取得していました。
+iOSやAWSが得意でスキルセットは iOS（UIKit, SwiftUI）、AWS（ECS, Glue, Athena, Lambda, etc）, Terraform, Docker, Spring Boot（Java）などです。 一芸に秀でている訳ではなく器用貧乏です。
+資格はAWS CLP, AWS SAA, LPIC-1 です。 個人開発が趣味でiOSアプリやWebサービスを開発しています。 化学系の大学院卒で情報科学のバックグラウンドはありません。 本業でのマネジメントの経験はありません。
+転職理由 育休明けのタイミングで部署異動となり、仕事内容がSREからiOSに変わりました。 iOSも好きですがSREを仕事にしたいと思っているため、良い機会だと思い転職活動を始めました。
+使用した転職サイトと選考結果 使用した転職サイトはリクルートダイレクトスカウト、転職ドラフトと友人経由のリファラルです。 リクルートダイレクトスカウトでは企業に応募はせず、4社の転職エージェントとやりとりを行いました。
+転職エージェントA（リクルートダイレクトスカウト） IT系の企業をベンチャーから大手まで広く紹介していただきました。 典型的な質より量のエージェントでした。
+面談前に送った書類と面談の内容から履歴書と職務経歴書を作成され、私の確認なしに企業に応募されてしまいました。（後に確認した履歴書や職務経歴書は誤字脱字がありました） すぐにこのエージェントを切るべきでしたが、応募された企業の中に志望度の高い会社があったため、仕方なくこのエージェント経由で選考を進めました。
+30社ほど応募し2社から内定を頂きました。（15社ほど書類落ち、10社ほど面接落ち、3社ほど辞退、2社内定）
+転職エージェントB（リクルートダイレクトスカウト） 話しやすくレスポンスも早い素敵なエージェントでした。 すでに転職エージェントA社で30社ほど応募していたため、Web系のベンチャー企業を1社だけ紹介させていただきました。
+1社応募し、0社から内定を頂きました。（1社面接落ち）
+転職エージェントC（リクルートダイレクトスカウト） IT系ではない大企業を2社紹介していただきました。
+2社応募し、0社から内定を頂きました。（1社書類落ち、1社面接落ち）
+転職エージェントD（リクルートダイレクトスカウト） IT系ではない大企業を3社紹介していただきました。 とても素敵なエージェントでした。
+面接の前に必ず面接対策をしてくださり、選考ルートや募集の背景などを教えてくれました。 メールのレスポンスも早く、ちゃんと寝ているのか心配になりました。
+3社応募し、2社から内定を頂きました。（1社面接落ち、2社内定）
+転職ドラフト 有難いこと多数のスカウトを頂きました。 最も興味のあった会社を1社応募しました。 1社応募し、0社からオファーを頂きました。（1社面接落ち）
+リファラル 友達経由のリファラルです。 興味のある会社を2社応募しました。 2社応募し、0社からオファーを頂きました。（1社テスト落ち、1社面接落ち）
+試験について 会社によっては面接以外にも試験がありました。
+SPIのような適性検査（国語、数学、性格診断など）やAtCoderのような競技プログラミングのテストが多かったです。 特に日経の大企業ではほぼ必ず適性検査があるため、ブランクがある場合は対策が必要です。
+「適性検査なんて対策しなくても大丈夫でしょ！」と思っておりましたが、いざ受けてみるとボロボロでした。 「面接は良かったけど適性検査の結果が悪かったから1週間勉強して再受験して欲しい（意訳）」と選考中の企業から言われてしまい、慌てて問題集を買って勉強しました。（2回目は通過しました）
+競技プログラミングのテストは対策が間に合わず、テスト結果が原因で落ちてしまうこともありました。 AtCoderのビギナーコンテストのD問題が高い確率で溶けるレベル（AtCoderの緑ぐらい?</p>
+        <hr>
+      </div>
+       
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

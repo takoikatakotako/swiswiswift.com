@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on すいすいSwift</title>
+    <link>http://localhost:58986/tags/aws/</link>
+    <description>Recent content in AWS on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWSクラウドプラクティショナーとソリューションアーキテクトアソシエイトの勉強方法</title>
+      <link>http://localhost:58986/2023-06-02/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2023-06-02/</guid>
+      <description>AWS未経験の方がAWSについて知るには資格勉強をするのが良いと思っています。 おすすめの勉強法についてまとめました。&#xA;クラウドプラクティショナー クラウドプラクティショナーはAWSの最も基礎的な資格です。 試験範囲は広いですが難易度もそこまで高くはありません。&#xA;1. クラウドプラクティショナーの本に目を通す クラウドプラクティショナーの対策本に目を通し、サービスの概要などをなんとなく理解します。 以下の本がおすすめです。 CloudTech の本は無料なので気軽に試してみてください。&#xA;AWS認定資格 クラウドプラクティショナーの教科書: 合格へ導く虎の巻 CloudTech制作委員会シリーズ&#xA;AWS認定資格試験テキスト AWS認定 クラウドプラクティショナー&#xA;2. 模擬問題を繰り返し解く UdemyやAmazonにある模擬問題集を購入し、正解率が95%を超えるまで何度も繰り返し解きます。 繰り返しているうちに答えを覚えてしまうため、なぜその選択肢がダメなのか理由を意識しながら繰り返すことがおすすめです。&#xA;【2023年版】この問題だけで合格可能！AWS 認定クラウドプラクティショナー 模擬試験問題集（6回分390問）&#xA;3. ハンズオン動画を視聴し実際に操作する ソリューションアーキテクトを受験するつもりはない or 業務でAWSを使わずクラウドプラクティショナーの試験合格のみが目的であればハンズオンは必要ありません。 1と2のみで十分合格できると思いますが、その先を目指すのであればハンズオン動画を視聴しながら実際に操作することをお勧めします。&#xA;【SAA-C03版】これだけでOK！ AWS 認定ソリューションアーキテクト – アソシエイト試験突破講座&#xA;ソリューションアーキテクトアソシエイト ソリューションアーキテクトアソシエイトはAWSのサービスを組み合わせて設計する仕事をする方向けの資格になります。 （デベロッパーはAWSのサービスを使用するプログラマー、アドミニストレーターはシステム管理者向けの資格だと理解しています） クラウドプラクティショナーより試験範囲は狭くなり勉強しやすくなりますがより深い知識が求められます。&#xA;1. ハンズオン動画を視聴し実際に操作する ソリューションアーキテクトはハンズオンなどをして実際にマネジメントコンソールを操作することが大事です。&#xA;【SAA-C03版】これだけでOK！ AWS 認定ソリューションアーキテクト – アソシエイト試験突破講座&#xA;2. 模擬問題を繰り返し解く 【SAA-C03版】AWS 認定ソリューションアーキテクト アソシエイト模擬試験問題集（6回分390問）</description>
+    </item>
+    <item>
+      <title>Terraformを使ってサーバーレスでサービスを作成したので振り返る</title>
+      <link>http://localhost:58986/2022-07-13/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-07-13/</guid>
+      <description>はじめに 個人開発でサービスを作るのが趣味です。 Terraform, Lambda, DynamoDBを使ってサーバーレスで簡単なービスを作成してみました。 未来の僕が現在の僕の思考を振り返られるように記事にしました。&#xA;今までの構成 今まではSpring Boot, MySQL, AWS, Conoha VPCなどを使ってサービスを作っていました。 このような構成です。&#xA;ALB + Fargate + RDSを使った構成 ConoHa VPC + RDSを使った構成 この構成では突発的な負荷に弱かったり、お金がかかりすぎてしまうことがありました。 ALB + Fargate + RDSを使った構成では5000円/月ほど、ConoHa VPC + RDSを使った構成では3000円/月ほどサービスの維持に必要です。さらに開発環境を用意しようとすると倍のお金がかかります。 この問題を解決するためにTatteform, Lambda, DynamoDBなどを使いうことで負荷に強く低コストで運営できるサーバーレスでサービス作成することにチャレンジしました。&#xA;今回の構成 今回作成したサービスはiOSアプリにレビューが付くとSlackに通知してくれるサービスです。(作成したと言っても全然未完成です、リポジトリは こちら) このような構成です。&#xA;アプリケーション（API）は Lambdaの関数URL機能とDynamoDBを使っています。 Lambdaの言語はPythonです。 フロントは生のHTML、JSで作成し、S3とCloudFrontでホスティングしています。 アプリのレビューチェックなどの定期実行にはAmazon EventBridgeとECS Fargateを使っています。 イメージのビルドやデプロイにはGithubAction を使っています。&#xA;本番環境と開発環境の管理にはAWS OrganizationとTerraformのはWorkspace機能を使っています。&#xA;良かったこと 負荷に強くなった LambdaとDynamoDBによるサーバーレス構成にしたことで負荷に強くなりました。 いつバズっても負荷を気にしなくても済みます。バズったことないですが。&#xA;サーバー代が安くなった お金のかかるRDS, Fargateなどを使うのをやめたので（ユーザーが少ない間は）サーバー代が安くなりました。500円/月程度です。 またにコード管理をすることで簡単に開発環境のリソースを消したり作り直したりすることができるようになり、開発環境でお金がかからなくなりました。&#xA;全てをコード管理できるようになった 全てをコード管理することで、インフラ部分のコードを使いまわせるようになりました。 簡単に開発環境のリソースを消したり作り直したりすることができるようになったのは嬉しいです。&#xA;悪かったこと テストが書きにくい、ローカルで実行できない 今までSpring Boot（JUnit）を使っていたのでテストを書くのが簡単でした。 この構成では単体テストがとにかく書きにくいです。というより書くための仕組みがありません。 ローカルで実行できないのでCIでテストを回すことができません。 何かしらローカルでテストを実行する仕組みを用意する必要を感じました。 後述のServerless Frameworkで良い感じに解決できるのかもしれません。</description>
+    </item>
+    <item>
+      <title>EC2インスタンスのバックアップを作成する（AMI）</title>
+      <link>http://localhost:58986/2022-07-12/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-07-12/</guid>
+      <description>EC2インスタンスのバックアップを作成する方法です。 EC2インスタンスをバックアップする方法はいくつかありますが、今回はAMI（Amazon Machine Images）を作成します。&#xA;まずはEC2インスタンスを起動させ、Nginxのインストールと自動設定を行います。詳しくはこちら&#xA;yum search nginx sudo amazon-linux-extras install nginx1 nginx -v sudo systemctl start nginx sudo systemctl status nginx sudo systemctl enable nginx EC2インスタンスのIPアドレスを入力し、Nginxのデモページが表示されることを確認します。 デモページを確認したらEC2インスタンスを停止し、「アクション」-&amp;gt;「イメージとテンプレート」-&amp;gt;「イメージの選択」を選択します。&#xA;EC2インスタンスの起動画面から作製したAMIを選択するすることで復元することができます。 （イメージ作成から少し待たないとEC2インスタンスを起動できませんでした）&#xA;AMIの削除するにはAMIのページから「アクション」-&amp;gt;「AMIの登録解除」から削除できます。 イメージ作製時にスナップショットも作成されるので、スナップショットも一緒に削除する必要があります。</description>
+    </item>
+    <item>
+      <title>curlでLambdaの関数URLにデータ付きでリクエストを送る</title>
+      <link>http://localhost:58986/2022-07-01/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-07-01/</guid>
+      <description>curlでLambdaの関数URLにリクエストを送る方法です。 Lambdaと関数URLの作成方法は こちら を参考にしてください。&#xA;Lmabdaにデータを送る Lambda に snorlax というデータを送ります。 受け取ったデータは event[&#39;body&#39;] で受け取ることができますが、base64でデコードする必要があります。&#xA;import json import base64 def lambda_handler(event, context): body = event[&amp;#39;body&amp;#39;] decoded_body = base64.b64decode(body).decode() response = { &amp;#39;pokemon&amp;#39;: decoded_body } return { &amp;#39;statusCode&amp;#39;: 200, &amp;#39;body&amp;#39;: json.dumps(response) } curl -X POST -d &amp;#39;snorlax&amp;#39; {ENDPOINT_URL} | jq { &amp;#34;pokemon&amp;#34;: &amp;#34;snorlax&amp;#34; } LmabdaにJSONデータを送る Lambda に {&amp;quot;pokemon&amp;quot;:&amp;quot;snorlax&amp;quot;} というデータを送ります。 受け取ったデータは event[&#39;body&#39;] で受け取ることができますが、base64でデコードし、mapに変換する必要があります。&#xA;import json import base64 def lambda_handler(event, context): print(&amp;#39;---&amp;#39;) print(event[&amp;#39;body&amp;#39;]) print(&amp;#39;---&amp;#39;) body = event[&amp;#39;body&amp;#39;] decoded_body = base64.</description>
+    </item>
+    <item>
+      <title>ECS-EC2でnginxを動かす</title>
+      <link>http://localhost:58986/2022-06-14/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-14/</guid>
+      <description>ECS-EC2でnginxを動かす方法です。&#xA;ロール作成 ECSで使用するロール、sample-ecs-nginx-role を作成します。 CloudWatchFullAccess と AmazonECS_FullAccess のポリシーをアタッチし、信頼関係を以下のようにアタッチします。&#xA;{ &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;: [ { &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Principal&amp;#34;: { &amp;#34;Service&amp;#34;: [ &amp;#34;ecs.amazonaws.com&amp;#34;, &amp;#34;ecs-tasks.amazonaws.com&amp;#34; ] }, &amp;#34;Action&amp;#34;: &amp;#34;sts:AssumeRole&amp;#34; } ] } ECS-EC2クラスター作成 sample-ecs-nginx-cluster を作成します。 インスタンスサイズ、インスタンス数、VPCなどを設定します。 パブリックIPインスタンス付きでEC2インスタンスを起動できるようにパブリックサブネットを指定します。&#xA;EC2インスタンスが作成されたことを確認します。&#xA;EC2インスタンスにSSH接続 作成されたEC2インスタンスにSSH接続します。 アタッチされているセキュリティグループのインバウンドルールを編集し、SSH接続します。&#xA;$ ssh -i {KEY_PAIR_PATH} ec2-user@{PUBLIC_IP} EC2インスタンスの中で docker ps コマンドを実行すると、EC2インスタンスのエージェントが動いていることがわかります。&#xA;$ docker ps CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES a7c91bb55799 amazon/amazon-ecs-agent:latest &amp;#34;/agent&amp;#34; 5 minutes ago Up 5 minutes (healthy) ecs-agent タスク定義作成 タスク定義、sample-ecs-nginx-task-definition を作成します。 コンテナに nginx:latest を指定します。</description>
+    </item>
+    <item>
+      <title>CodeBuildでC言語をビルドする</title>
+      <link>http://localhost:58986/2022-06-13/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-13/</guid>
+      <description>CodeBuildでC言語をビルドする方法です。&#xA;C言語を書き、main.c というファイル名で保存します。&#xA;#include &amp;lt;stdio.h&amp;gt; int main(void){ printf(&amp;#34;Hello World!!&amp;#34;); } 以下のコマンドでビルドすることができます。&#xA;$ gcc main.c -o main S3バケットを作成します。 コードをアップロードします。&#xA;コードビルドを作成します。 ソースはS3を設定します。 Buildspecは以下のように設定します。 CodeBuildのロールにはS3へのアクセス権を付与します。&#xA;version: 0.2 phases: build: commands: - gcc --version - ls - gcc main.c -o main - aws s3 cp main s3://swiswiswift-clang-bucket/output/main ビルドを実行するとS3に実行結果がアップロードされます。</description>
+    </item>
+    <item>
+      <title>AWSでEC2をプライベートサブネットに設置する</title>
+      <link>http://localhost:58986/2022-06-12/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-12/</guid>
+      <description>&#xA;AWSでEC2をプライベートサブネットに設置する方法です。&#xA;Private-Subnetを作成します。&#xA;Private-SubnetにEC2インスタンスを作成します。 パブリックIPが無いため、外部からSSHすることはできません。&#xA;Public-Subnetに踏み台インスタンスをインスタンスを作成します。&#xA;$ ssh -i key-pair.pem ec2-user@{PUBLIC_EC2_IP} scpでPublic-Instanceにキーペア（秘密鍵）を送信します。&#xA;$ scp -i key-pair.pem key-pair.pem ec2-user@{PUBLIC_EC2_IP}:/home/ec2-user/key-pair.pem 秘密鍵の権限を設定します。&#xA;$ chmod /home/ec2-user/key-pair.pem Private Instance にアクセスします。&#xA;$ ssh -i key-pair.pem ec2-user@{PRIVATE_INSTANCE_LOCAL_IP} Private Instance の中からではインターネットにアクセスできないことを確認します。&#xA;$ curl http://abehiroshi.la.coocan.jp/ # アクセスできない NATゲートウェイを作成します。&#xA;Routeテーブルの作成し、送信元の設定とサブネットの関連付けを行います。&#xA;これでPublic-Instanceからインターネットにアクセスすることができます。&#xA;$ curl http://abehiroshi.la.coocan.jp/ </description>
+    </item>
+    <item>
+      <title>Dockerイメージを作成してECSで動かす</title>
+      <link>http://localhost:58986/2022-06-11/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-11/</guid>
+      <description>Dockerイメージを作成してECSで動かします。&#xA;Dockerのおさらいとnginxイメージについて nginxのイメージに手を加えてカスタムイメージを作成します。&#xA;nginxのイメージをプルします。&#xA;$ docker pull nginx:1.23.1 nginxのコンテナを動かし、ブラウザからlocalhostにアクセスします。 nginxのデモページが表示されることを確認します。&#xA;$ docker run --rm -p 80:80 nginx -d オプションを付けるとバックグラウンドで動かすことができます。&#xA;$ docker run --rm -d -p 80:80 nginx docker logs コマンドでコンテナのログを確認することができます。&#xA;$ docker logs コンテナID 以下のコマンドでDockerイメージの中に入ることができます。&#xA;$ docker run --rm -it nginx /bin/sh カスタムイメージの作成 nginxのデモページは /usr/share/nginx/html にあります。 以下のような Dockerfile と index.html を同じディレクトリに作成します。&#xA;FROM nginx COPY index.html /usr/share/nginx/html/index.html &amp;lt;h1&amp;gt;Hello&amp;lt;/h1&amp;gt; イメージをビルドします。&#xA;$ docker build . -t custom-nginx 作成したイメージが動くか確認します。&#xA;$ docker run --rm -p 80:80 custom-nginx ECRへイメージをプッシュする。 ECRでリポジトリを作ります。</description>
+    </item>
+    <item>
+      <title>DynamoDBのItemを一度に削除する（batch-write-item）</title>
+      <link>http://localhost:58986/2022-06-09/</link>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-09/</guid>
+      <description>DynamoDBのItemを一度に削除する方法です。 batch-write-item を使うことで一度に削除することができます。 今回はLocalStackで試したので、--endpoint-url オプションを使用しています。 AWSの場合は最後の行を除いて実行してください。&#xA;テーブルを作成 pokemon-table という名前でテーブルを作成します。 プライマリーキーに pokemonID を指定します。&#xA;$ aws dynamodb create-table \ --table-name pokemon-table \ --attribute-definitions AttributeName=pokemonID,AttributeType=S \ --key-schema AttributeName=pokemonID,KeyType=HASH \ --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 \ --endpoint-url=http://localhost:4566 Itemの追加 Snorlax, Ditto, Pikachu, Eevee の4つのItemを追加します。&#xA;$ aws dynamodb put-item \ --table-name pokemon-table \ --item &amp;#39;{&amp;#34;pokemonID&amp;#34;: {&amp;#34;S&amp;#34;: &amp;#34;Snorlax&amp;#34;}}&amp;#39; \ --endpoint-url=http://localhost:4566 | jq $ aws dynamodb put-item \ --table-name pokemon-table \ --item &amp;#39;{&amp;#34;pokemonID&amp;#34;: {&amp;#34;S&amp;#34;: &amp;#34;Ditto&amp;#34;}}&amp;#39; \ --endpoint-url=http://localhost:4566 | jq $ aws dynamodb put-item \ --table-name pokemon-table \ --item &amp;#39;{&amp;#34;pokemonID&amp;#34;: {&amp;#34;S&amp;#34;: &amp;#34;Pikachu&amp;#34;}}&amp;#39; \ --endpoint-url=http://localhost:4566 | jq $ aws dynamodb put-item \ --table-name pokemon-table \ --item &amp;#39;{&amp;#34;pokemonID&amp;#34;: {&amp;#34;S&amp;#34;: &amp;#34;Eevee&amp;#34;}}&amp;#39; \ --endpoint-url=http://localhost:4566 | jq テーブルの中のItemをすべて表示 4つのItemがあることがわかります。</description>
+    </item>
+    <item>
+      <title>LambdaでBMIを計算するAPIを作成してJSで呼び出す</title>
+      <link>http://localhost:58986/2022-06-08/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-08/</guid>
+      <description>LambdaでBMIを計算するAPIを作成してJSで呼び出す方法です。&#xA;LambdaでAPIを作成する Lambdaと関数URLを使ってAPIを作成します。 マネジメントコンソールからLambda関数を作成します。&#xA;以下のcurlコマンドを実行し、bmiが計算されることを確認します。 {ENDPOINT_URL} は関数URLの値です。&#xA;curl -X POST -H &amp;#34;Content-Type: application/json&amp;#34; -d &amp;#39;{&amp;#34;hight&amp;#34;:170, &amp;#34;weight&amp;#34;:60}&amp;#39; {ENDPOINT_URL} { &amp;#34;bmi&amp;#34;: 20.761245674740486 } CORSの設定 オリジンが異なるJSからAPIを使うにはCORSの設定を行う必要があります。 許可ヘッダーに content-type を入力し、許可メソッドに POST を追加します。&#xA;HTMLとJSを作成 以下のコードを参考にしながら index.html と script.js を作成します。 計算ボタンを押すとBMIが計算されるとBMIがアラートで表示されます。 JS中の {ENDPOINT_URL} は関数URLの値を使用します。</description>
+    </item>
+    <item>
+      <title>LambdaでBMIを計算するAPIを作成する</title>
+      <link>http://localhost:58986/2022-06-07/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-06-07/</guid>
+      <description>&#xA;LambdaでBMIを計算するAPIを作成する方法です。 以下のコードをコードタブに貼り付けLambda関数を作成します。&#xA;次に関数URLを作成します。&#xA;curl から作成した関数URLに対してリクエストを送ります。&#xA;curl -X POST -H &amp;#34;Content-Type: application/json&amp;#34; -d &amp;#39;{&amp;#34;hight&amp;#34;:170, &amp;#34;weight&amp;#34;:60}&amp;#39; {ENDPOINT_URL} 以下のようなレスポンスが返れば成功です。&#xA;{ &amp;#34;bmi&amp;#34;: 20.761245674740486 } </description>
+    </item>
+    <item>
+      <title>EC2にMySQLをインストールする</title>
+      <link>http://localhost:58986/2022-05-02/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-05-02/</guid>
+      <description>EC2インスタンスにMySQLをインストールする方法です。&#xA;# ルートユーザーに切り替える。 sudo su - # インストール可能なパッケージの一覧を更新する。 yum update # mariadbと関連パッケージを削除 yum remove mariadb-* # MySQLのリポジトリをyumに追加する yum localinstall https://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm # mysql-community-server, mysql-community-devel をインストールする yum install --enablerepo=mysql80-community mysql-community-server yum install --enablerepo=mysql80-community mysql-community-devel # mysqlと関連パッケージがインストールされていることを確認 yum list installed | grep mysql # MySQLのバージョンを確認 mysql --version # /var/log/mysqld.log ファイルを作成 touch /var/log/mysqld.log # MySQLの起動と確認 systemctl start mysqld systemctl status mysqld.service # 初期パスワード探す。`W.F:XG0a(c=o` が初期パスワードです cat /var/log/mysqld.log | grep root 2022-04-20T07:18:39.168643Z 6 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: W.</description>
+    </item>
+    <item>
+      <title>Lambdaトリガー（Lambda Permission）のStatement IDを確認する</title>
+      <link>http://localhost:58986/2022-04-09/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-09/</guid>
+      <description>Lambdaトリガー（Lambda Permission）のStatement IDを確認する方法です。 Terraform で API Gateway のLambdaトリガーをインポートするには関数名とLambdaトリガーのStatement IDが必要です。 以下のコマンドで確認することができました。&#xA;$ aws lambda get-policy --function-name {YOUR-FUNCTION-NAME} | jq Resource: aws_lambda_permission</description>
+    </item>
+    <item>
+      <title>API GatewayのリソースIDを取得する</title>
+      <link>http://localhost:58986/2022-04-08/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-08/</guid>
+      <description>API GatewayのリソースIDを取得する方法です。 Terraform で API Gateway のリソースをインポートするには REST-API-ID と RESOURCE-ID が必要ですが、マネジメントコンソール上では確認することができません。 以下のコマンドで確認することができました。&#xA;$ aws apigateway get-resources --rest-api-id {REST-API-ID} | jq Resource: aws_api_gateway_resource</description>
+    </item>
+    <item>
+      <title>API Gatewayに独自ドメインを設定する</title>
+      <link>http://localhost:58986/2022-03-09/</link>
+      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-09/</guid>
+      <description>API Gatewayに独自ドメインを設定する方法です。&#xA;API Gateway用のLambda関数を作成します。&#xA;API GatewayでRestAPIを作ります。&#xA;メソッドを作成します。先ほど作成した Lambda関数を設定します。&#xA;アクションから「APIのデプロイ」を選択します。&#xA;ステージが既に作られていない場合はステージを作成します。&#xA;作成されたステージ + メソッド名をブラウザに入力し、&amp;quot;Hello from Lambda!&amp;quot; と表示されることを確認します。 今回の場合は https://yyd1qtujv0.execute-api.ap-northeast-1.amazonaws.com/production となります。&#xA;API Gateway でカスタムドメインを作成します。api-gateway.swiswiswift.com というドメインを作成します。事前ににACM証明書を用意する必要があります。&#xA;API Mappingの設定を行います。&#xA;Route53でレコードを設定します。 レコード名を先に入力しないとAPI Gateway のエイリアスに候補が出てこないので注意が必要です。&#xA;https://api-gateway.swiswiswift.com/ にアクセスしてレスポンスが帰ることを確認します。http -&amp;gt; https のリダイレクトは無いので注意が必要がです。</description>
+    </item>
+    <item>
+      <title>API GatewayとLambdaとDynamoDBを組み合わせてToDoアプリを作る</title>
+      <link>http://localhost:58986/2022-03-08/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-08/</guid>
+      <description>GatewayとLambdaとDynamoDBを組み合わせてToDoアプリを作る方法です。&#xA;Lambda 関数を作ります。 API GatewayでRestAPIを作ります。 アクションから「リソースの作成」を選択します。&#xA;アクションから「メソッドの作成」を選択します。&#xA;Getを選択し、先ほど作成したLambda関数と連携させます。&#xA;アクションから「APIのデプロイ」を選択します。&#xA;デプロイ先のステージを選択します。ステージがない場合は新しいステージを作成します。&#xA;作成されたステージ + メソッド名をブラウザに入力し、&amp;quot;Hello from Lambda!&amp;quot; と表示されることを確認します。 今回の場合は https://eio7s05pk1.execute-api.ap-northeast-1.amazonaws.com/production/todo-app となります。&#xA;次にDynamoDBを作ります。 todo-table というテーブルを作り、todoMessage をパーテーションキーに、todoDate をソートキーに設定します。&#xA;todo-table にデータを入れていきます。&#xA;aws dynamodb put-item \ --table-name todo-table \ --item &amp;#39;{ &amp;#34;todoMessage&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;Clean My Room&amp;#34; }, &amp;#34;todoDate&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;2022-03-20T00:00:00Z&amp;#34; } }&amp;#39; aws dynamodb put-item \ --table-name todo-table \ --item &amp;#39;{ &amp;#34;todoMessage&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;Shopping&amp;#34; }, &amp;#34;todoDate&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;2022-03-19T00:00:00Z&amp;#34; } }&amp;#39; aws dynamodb put-item \ --table-name todo-table \ --item &amp;#39;{ &amp;#34;todoMessage&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;Programing&amp;#34; }, &amp;#34;todoDate&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;2022-03-18T00:00:00Z&amp;#34; } }&amp;#39; 追加したデータを確認します。</description>
+    </item>
+    <item>
+      <title>AWS CLIでDynamoDBを操作する</title>
+      <link>http://localhost:58986/2022-03-06/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-06/</guid>
+      <description>AWS CLIでDynamoDBを操作する方法です。&#xA;AWS マネジメントコンソールから pokemon-table という名前でテーブルを作ります。 pokemonNumber というパーテーションキーを数字型設定しました。&#xA;list-tables テーブル一覧を表示します。&#xA;aws dynamodb list-tables | jq { &amp;#34;TableNames&amp;#34;: [ &amp;#34;pokemon-table&amp;#34; ] } describe-table テーブル詳細を表示します。&#xA;aws dynamodb describe-table \ --table-name pokemon-table | jq { &amp;#34;Table&amp;#34;: { &amp;#34;AttributeDefinitions&amp;#34;: [ { &amp;#34;AttributeName&amp;#34;: &amp;#34;pokemonNumber&amp;#34;, &amp;#34;AttributeType&amp;#34;: &amp;#34;N&amp;#34; } ], &amp;#34;TableName&amp;#34;: &amp;#34;pokemon-table&amp;#34;, &amp;#34;KeySchema&amp;#34;: [ { &amp;#34;AttributeName&amp;#34;: &amp;#34;pokemonNumber&amp;#34;, &amp;#34;KeyType&amp;#34;: &amp;#34;HASH&amp;#34; } ], &amp;#34;TableStatus&amp;#34;: &amp;#34;ACTIVE&amp;#34;, &amp;#34;CreationDateTime&amp;#34;: &amp;#34;2022-03-14T08:50:51.248000+09:00&amp;#34;, &amp;#34;ProvisionedThroughput&amp;#34;: { &amp;#34;NumberOfDecreasesToday&amp;#34;: 0, &amp;#34;ReadCapacityUnits&amp;#34;: 5, &amp;#34;WriteCapacityUnits&amp;#34;: 5 }, &amp;#34;TableSizeBytes&amp;#34;: 0, &amp;#34;ItemCount&amp;#34;: 0, &amp;#34;TableArn&amp;#34;: &amp;#34;arn:aws:dynamodb:ap-northeast-1:xxxxxxxxxxxx:table/pokemon-table&amp;#34;, &amp;#34;TableId&amp;#34;: &amp;#34;20804895-068c-4096-8b9d-0dada0bdeeb1&amp;#34; } } put-item テーブルにアイテムを追加します。</description>
+    </item>
+    <item>
+      <title>DynamoDBのスキャン時に「Attribute name is a reserved keyword; reserved keyword: type」が出る</title>
+      <link>http://localhost:58986/2022-03-05/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-05/</guid>
+      <description>DynamoDBのスキャン時に「Attribute name is a reserved keyword; reserved keyword: type」が出る時の対処法です。 カラム名にDynamoDBの予約語が使われていると出ました。&#xA;具体的にはテーブルに以下のようなアイテムを追加し、type でスキャンするとエラーが起きました。&#xA;aws dynamodb put-item \ --table-name pokemon-table \ --item &amp;#39;{ &amp;#34;number&amp;#34;: { &amp;#34;N&amp;#34;: &amp;#34;143&amp;#34; }, &amp;#34;name&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;Snorlax&amp;#34; }, &amp;#34;type&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;Normal&amp;#34; } }&amp;#39; aws dynamodb scan \ --table-name pokemon-table \ --filter-expression &amp;#39;type = :tp&amp;#39; \ --expression-attribute-values &amp;#39;{ &amp;#34;:tp&amp;#34;: { &amp;#34;S&amp;#34;: &amp;#34;Normal&amp;#34; } }&amp;#39; An error occurred (ValidationException) when calling the Scan operation: Invalid FilterExpression: Attribute name is a reserved keyword; reserved keyword: type expression-attribute-names を使い、type に別名を付けることで回避できました。</description>
+    </item>
+    <item>
+      <title>プロファイルを使って複数のAWSアカウントを使い分ける</title>
+      <link>http://localhost:58986/2022-03-04/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-04/</guid>
+      <description>&#xA;プロファイルを使って複数のAWSアカウントを使い分ける方法です。 一台のPCから複数のAWSアカウントの使い分けるためにプロファイルを使います。&#xA;サンドボックス用のプロファイルを作成し、アクセスキーとシークレットアクセスキーを入力します。&#xA;aws configure --profile sandbox --profile sandbox を付与するととでアカウントを使い分けることができます。&#xA;aws s3api list-buckets | jq aws s3api list-buckets --profile sandbox | jq </description>
+    </item>
+    <item>
+      <title>SwiftUIでのプッシュ通知の最小構成</title>
+      <link>http://localhost:58986/2022-03-03/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-03/</guid>
+      <description>SwiftUIでのプッシュ通知の最小構成です。 プッシュ通知のテストをしたい時に使用します。</description>
+    </item>
+    <item>
+      <title>LambdaのコードをCLIから更新する</title>
+      <link>http://localhost:58986/2022-03-02/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-02/</guid>
+      <description>&#xA;LambdaのコードをCLIから更新する方法です。 list-functions コマンドで更新したい関数名を確認します。&#xA;aws lambda list-functions | jq 次にアップロードしたいファイルを zip にします。&#xA;zip -r lambda.zip . update-function-code で zip ファイルをアップロードします。&#xA;aws lambda update-function-code --function-name ${FUNCTION_NAME} --zip-file fileb://lambda.zip </description>
+    </item>
+    <item>
+      <title>ALBに独自ドメインを設定してHTTPSにする</title>
+      <link>http://localhost:58986/2022-03-01/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-01/</guid>
+      <description>ALBに独自ドメインを設定してHTTPSにする方法です。 ALBの向き先をnginxをインストールしたEC2インスタンスに設定し、ACMを使ってHTTPSにします。&#xA;EC2インスタンスの設定 まずEC2インスタンスをパブリックサブネットに作成します。 Amazon Linux2, インスタンスタイプは t2.nano で作りました。 無料枠が残っている場合は t2.micro で作ると良いかもしれません。&#xA;次にSSH用のキーペアに権限を調整し、SSHログインします。 パブリックIPアドレスはEC2インスタンスのコンソールから確認します。&#xA;$ chmod 400 key-pair.pem $ ssh -i key-pair.pem ec2-user@{IP_Address} nginxをインストールします。&#xA;$ yum search nginx $ sudo amazon-linux-extras install nginx1 $ nginx -v nginxを起動します。起動したことを確認します。&#xA;$ sudo systemctl start nginx $ sudo systemctl status nginx 次にインターネットからEC2インスタンスにアクセスできるようにセキュリティグループで80番ポートを許可します。&#xA;ブラウザにEC2インスタンスのパブリックIPを入力してアクセスするとnginxのページが表示されることを確認します。&#xA;ALBとターゲットグループの設定 次にALBの設定を行います。 EC2 -&amp;gt; ロードバランサー と進み、Application Load Balancer を選択して作成します。&#xA;ALBの作成にはターゲットグループが必要なので、Listeners and routing の項目の Create target group からターゲットグループを作成します。&#xA;ターゲットタイプにインスタンスを設定しターゲットグループを作成します。&#xA;先ほど作成したEC2インスタンスを登録します。&#xA;ALBの作成画面に戻り、先ほど作成したターゲットグループを設定し、ALBを作成します。</description>
+    </item>
+    <item>
+      <title>EC2インスタンスにnginxをインストールしてブラウザからアクセスする</title>
+      <link>http://localhost:58986/2022-02-09/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-09/</guid>
+      <description>EC2インスタンスを立ててnginxをインストールしてブラウザからアクセスする方法です。&#xA;まずSSH用のキーペアに権限を付与します。&#xA;chmod 400 key-pair.pem キーペアを使ってSSHログインします。&#xA;ssh -i key-pair.pem ec2-user@{IP_Address} nginxをインストールします。&#xA;yum search nginx sudo amazon-linux-extras install nginx1 nginx -v nginxを起動します。起動したことを確認します。&#xA;sudo systemctl start nginx sudo systemctl status nginx 次にインターネットからEC2インスタンスにアクセスできるようにセキュリティグループで80番ポートを許可します。 ブラウザにEC2インスタンスのパブリックIPを入力してアクセスするとnginxのページが表示されることを確認します。&#xA;次にローカルの index.html ファイルを scp コマンドでEC2インスタンスに転送します。&#xA;chmod 777 index.html scp -i key-pair.pem index.html ec2-user@{IP_Address}:/home/ec2-user nginx のページの index.html ファイルは /usr/share/nginx/html/html/index.html にあるので、先ほどアップロードした index.html で上書きします。&#xA;mv /home/ec2-user/index.html /usr/share/nginx/html/index.html 再度ブラウザにEC2インスタンスのパブリックIPを入力してアクセスするとローカルの index.html と同じ内容のものが表示されます。</description>
+    </item>
+    <item>
+      <title>LambdaとEvent BridgeでDiscordの目覚ましBotを作る</title>
+      <link>http://localhost:58986/2022-02-07/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-07/</guid>
+      <description>LambdaとEvent BridgeでDiscordの目覚ましBotを作る方法です。 「おはよう」と毎朝つぶやくDiscordのBotを作ります。&#xA;まずDiscordでウェブフックを作成します。 curlコマンドを使い、メッセージが届くことを確認します。 https://discord.com/api/webhooks/xxx/xxx は差し替えてください。&#xA;export WEBHOOK_URL=&amp;#34;https://discord.com/api/webhooks/xxx/xxx&amp;#34; curl \ -H &amp;#34;Content-Type: application/json&amp;#34; \ -d &amp;#39;{&amp;#34;username&amp;#34;: &amp;#34;おはようBot&amp;#34;, &amp;#34;content&amp;#34;: &amp;#34;おはようございます。&amp;#34;}&amp;#39; \ $WEBHOOK_URL 届いたことを確認したら上記curl文をPythonで書き換えます。 書き換えたものが以下です。&#xA;import urllib.request import json def main(): url = &amp;#39;https://discord.com/api/webhooks/xxx/xxx&amp;#39; message = {&amp;#39;username&amp;#39;: &amp;#39;おはようBot&amp;#39;, &amp;#39;content&amp;#39; : &amp;#39;おはようございます！&amp;#39;} data = json.dumps(message).encode(&amp;#34;utf-8&amp;#34;) request = urllib.request.Request( url = url, data = data, headers = {&amp;#34;User-Agent&amp;#34;: &amp;#34;lambda/python&amp;#34;, &amp;#34;Content-Type&amp;#34; : &amp;#34;application/json&amp;#34;}, method = &amp;#39;POST&amp;#39; ) with urllib.request.urlopen(request) as response: response_body = response.</description>
+    </item>
+    <item>
+      <title>AWS CLI を使ってS3バケットを作成する</title>
+      <link>http://localhost:58986/2022-02-01/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-01/</guid>
+      <description>AWS Command Line Interface（CLI）を使ってS3バケットを作成する方法です。 AWS CLIはAWSが提供するAWSサービスを管理するためのコマンドラインツールです。&#xA;参考: AWS コマンドラインインターフェイス&#xA;上記URLなどを参考にしながらAWS CLIをインストールします。 AWS CLIは1.x系と2.x系がありますが、事情がなければ2.xをインストールします。 インストールがうまくいけば以下のコマンドを実行するとバージョンが表示されます。&#xA;$ aws --version # aws-cli/2.0.42 Python/3.7.4 Darwin/21.2.0 exe/x86_64 次にAWS CLIの初期設定を行います。aws configure コマンドを実行し、アクセスキーID、シークレットアクセスキー、リージョンを設定します。&#xA;S3バケットは以下のコマンドで作成することができます。 S3バケットを作成するIAM ユーザーには S3:CreateBucket の権限が必要です。 またバケット名はS3全体で一意である必要があります。 今回は kabigon-sandbox-bucket という名前でバケットを作成します。&#xA;$ aws s3api create-bucket --bucket kabigon-sandbox-bucket --create-bucket-configuration LocationConstraint=ap-northeast-1 以下のコマンドでバケットの一覧を取得することができます。&#xA;$ aws s3api list-buckets 以下のコマンドで kabigon-sandbox-bucket バケットを削除します。&#xA;$ aws s3api delete-bucket --bucket kabigon-sandbox-bucket aws s3api のドキュメントはこちらです。&#xA;aws s3api</description>
+    </item>
+    <item>
+      <title>S3に静的ファイルを置いてインターネットに公開する</title>
+      <link>http://localhost:58986/2022-01-07/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-01-07/</guid>
+      <description>S3に画像などの静的ファイルを置いて公開する方法です。 まずS3のコンソールにアクセスします。&#xA;「バケットを作成」ボタンから新しいバケットを作成します。 今回は kabigon-sandbox-bucket という名前で作成します。 バケット名はグローバルで一意でなければなりません。&#xA;ブロックパブリックアクセスの設定は後で変更しますが有効にします。&#xA;以下の設定でバケットを作成します。&#xA;バケットが作成されたことを一覧から確認できます。&#xA;バケットに静的ファイルを入れてみましょう。 今回は icon.png という画像をアップロードします。&#xA;今回はバケットの中のファイルを公開するので、ブロックパブリックアクセスの設定をオフにする必要があります。 バケット名を選択し、「アクセス許可」のタブを選択します。&#xA;ブロックパブリックアクセスの設定をオフにします。&#xA;バケットポリシーを編集します。 バケットポリシーを設定することでリソースへのアクセスを管理することができます。 以下の設定は kabigon-sandbox-bucket のオブジェクトを無制限に取得できることを意味しています。&#xA;{ &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;: [ { &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Principal&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;Action&amp;#34;: &amp;#34;s3:getobject&amp;#34;, &amp;#34;Resource&amp;#34;: &amp;#34;arn:aws:s3:::kabigon-sandbox-bucket/*&amp;#34; } ] } これで AWS 側の設定は完了です。 以下の URL にアクセスすると画像が表示されることを確認できます。&#xA;https://kabigon-sandbox-bucket.s3-ap-northeast-1.amazonaws.com/icon.png</description>
+    </item>
+    <item>
+      <title>インフラエンジニアなりたてで知らなかった単語をまとめ</title>
+      <link>http://localhost:58986/2019-11-08/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-08/</guid>
+      <description>インフラの勉強をし始めて分からなくて調べた単語をまとめました。&#xA;コンソリデーティッドビリング（Consolidated Billing） 一括請求機能。AWS Organizations で利用することができ、組織の連結アカウントのすべての料金を支払者アカウントに一括請求することができる。連結アカウントのコストを追跡することが可能となる。&#xA;ルートアカウント AWSアカウントを作成するときに使用した Eメールアドレスとパスワードで AWSマネジメントコンソールにサインインするとルートアカウントとしてログインすることができる。 ルートアカウントはAWSアカウントのすべてのリソースへの完全かつ無制限なアクセスが可能になり、そのアクセス権限を制限することはできない。&#xA;普段はルートアカウントでサインインしない AWS アカウント（ルート）のアクセスキーを使用しない AWS 多要素認証（MFA）を有効にする IAM: Identity and Access Management AWS リソースへのアクセスを安全にコンソールするためのウェブサービス。IAM を使用して、リソースを使用するために認証 (サインイン) され、許可された (アクセス許可を持つ) ユーザーを制御する。&#xA;IAMユーザー IAM ユーザーは、AWS を操作するために IAM ユーザーを使用する人物またはサービス。 IAM ユーザーは主に、ユーザーが対話型タスクを実行するために AWS マネジメントコンソールにサインインする場合や、API または CLI を使用して AWS サービスに対しプログラムによるリクエストを行う場合に使用する。 GUI用とCLI用の二種類が存在する。&#xA;IAMグループ IAM グループとは、IAM ユーザーの集合。 グループを使用して、ユーザーの集合に対してアクセス権限を指定でき、ユーザーのアクセス権限を容易に管理することができる。&#xA;ポリシー ポリシーは、ユーザーが実行できるアクションと、アクションが影響を与えることができるリソースを登録したドキュメント。 IAM ユーザーを IAM グループにまとめ、そのグループにポリシーをアタッチできる。そのグループのすべてのユーザーは、グループにアタッチされているポリシーの内容通りのアクセス許可を持っている。&#xA;リージョン 物理的なサーバーが置いてある地理的に離れた領域。ap-northeast-1 が日本。us-west-2 がオレゴン。&#xA;アベイラビリティゾーン データセンターの場所。ap-northeast-1a が品川、ap-northeast-1c が埼玉にあるという噂を聞いた。&#xA;ローリングデプロイ（Rolling Deployment） 複数の稼働中サーバーに対して一定数づつ新しいアプリケーションをデプロイ、リリースしていく方法。 In-Place Deployment と Immutable Deployment がある。</description>
+    </item>
+  </channel>
+</rss>

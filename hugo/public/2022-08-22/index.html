@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fdisk（LPIC） | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">fdisk（LPIC）</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    
+                        
+                        <li><a href="http://localhost:58986/tags/linux" rel="tag">Linux</a></li>
+                         
+                     
+                </ul>
+            </div>
+
+            
+            
+            <time class="post-date" datetime="2022-08-22">August 22, 2022</time>
+        </header>
+
+        <br>
+<h1 id="fdisk">fdisk</h1>
+<p>パーティションを作成、削除するコマンドです。</p>
+<h2 id="オプション">オプション</h2>
+<h3 id="-d">-d</h3>
+<p>領域を削除</p>
+<h3 id="-l">-l</h3>
+<p>パーテションのタイプを表示</p>
+<h3 id="-m">-m</h3>
+<p>利用可能なメニューの表示</p>
+<h2 id="サンプル">サンプル</h2>
+<h3 id="作成済みのパーティションテーブルを表示する">作成済みのパーティションテーブルを表示する</h3>
+<pre tabindex="0"><code>$ fdisk -l
+</code></pre><pre tabindex="0"><code>Disk /dev/loop0: 79.95 MiB, 83832832 bytes, 163736 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop1: 44.68 MiB, 46845952 bytes, 91496 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop2: 61.89 MiB, 64901120 bytes, 126760 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop3: 46.96 MiB, 49242112 bytes, 96176 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop4: 61.96 MiB, 64970752 bytes, 126896 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/vda: 30 GiB, 32212254720 bytes, 62914560 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 64B20E78-04A0-4D37-AD8D-B205396AABE0
+
+Device     Start      End  Sectors Size Type
+/dev/vda1   2048     4095     2048   1M BIOS boot
+/dev/vda2   4096 62914526 62910431  30G Linux filesystem
+</code></pre><h3 id="ファイルパテーションタイプの一覧を確認する">ファイルパテーションタイプの一覧を確認する</h3>
+<pre tabindex="0"><code>Command (m for help): l
+
+00 Empty            24 NEC DOS          81 Minix / old Lin  bf Solaris        
+01 FAT12            27 Hidden NTFS Win  82 Linux swap / So  c1 DRDOS/sec (FAT-
+02 XENIX root       39 Plan 9           83 Linux            c4 DRDOS/sec (FAT-
+03 XENIX usr        3c PartitionMagic   84 OS/2 hidden or   c6 DRDOS/sec (FAT-
+04 FAT16 &lt;32M       40 Venix 80286      85 Linux extended   c7 Syrinx         
+05 Extended         41 PPC PReP Boot    86 NTFS volume set  da Non-FS data    
+06 FAT16            42 SFS              87 NTFS volume set  db CP/M / CTOS / .
+07 HPFS/NTFS/exFAT  4d QNX4.x           88 Linux plaintext  de Dell Utility   
+08 AIX              4e QNX4.x 2nd part  8e Linux LVM        df BootIt         
+09 AIX bootable     4f QNX4.x 3rd part  93 Amoeba           e1 DOS access     
+0a OS/2 Boot Manag  50 OnTrack DM       94 Amoeba BBT       e3 DOS R/O        
+0b W95 FAT32        51 OnTrack DM6 Aux  9f BSD/OS           e4 SpeedStor      
+0c W95 FAT32 (LBA)  52 CP/M             a0 IBM Thinkpad hi  ea Linux extended 
+0e W95 FAT16 (LBA)  53 OnTrack DM6 Aux  a5 FreeBSD          eb BeOS fs        
+0f W95 Ext&#39;d (LBA)  54 OnTrackDM6       a6 OpenBSD          ee GPT            
+10 OPUS             55 EZ-Drive         a7 NeXTSTEP         ef EFI (FAT-12/16/
+11 Hidden FAT12     56 Golden Bow       a8 Darwin UFS       f0 Linux/PA-RISC b
+12 Compaq diagnost  5c Priam Edisk      a9 NetBSD           f1 SpeedStor      
+14 Hidden FAT16 &lt;3  61 SpeedStor        ab Darwin boot      f4 SpeedStor      
+16 Hidden FAT16     63 GNU HURD or Sys  af HFS / HFS+       f2 DOS secondary  
+17 Hidden HPFS/NTF  64 Novell Netware   b7 BSDI fs          fb VMware VMFS    
+18 AST SmartSleep   65 Novell Netware   b8 BSDI swap        fc VMware VMKCORE 
+1b Hidden W95 FAT3  70 DiskSecure Mult  bb Boot Wizard hid  fd Linux raid auto
+1c Hidden W95 FAT3  75 PC/IX            bc Acronis FAT32 L  fe LANstep        
+1e Hidden W95 FAT1  80 Old Minix        be Solaris boot     ff BBT            
+
+Aliases:
+   linux          - 83
+   swap           - 82
+   extended       - 05
+   uefi           - EF
+   raid           - FD
+   lvm            - 8E
+   linuxex        - 85
+</code></pre>
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

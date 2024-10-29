@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>インフラエンジニアなりたてで知らなかった単語をまとめ | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="post">
+        <header>
+            <h2 class="post-title">インフラエンジニアなりたてで知らなかった単語をまとめ</h2>
+            <div class="post-info">
+                <ul class="post-cat">
+                    
+                        
+                        <li><a href="http://localhost:58986/tags/aws" rel="tag">AWS</a></li>
+                         
+                     
+                </ul>
+            </div>
+
+            
+            
+            <time class="post-date" datetime="2019-11-08">November 8, 2019</time>
+        </header>
+
+        <br>
+<p>インフラの勉強をし始めて分からなくて調べた単語をまとめました。</p>
+<h3 id="コンソリデーティッドビリングconsolidated-billing">コンソリデーティッドビリング（Consolidated Billing）</h3>
+<p>一括請求機能。AWS Organizations で利用することができ、組織の連結アカウントのすべての料金を支払者アカウントに一括請求することができる。連結アカウントのコストを追跡することが可能となる。</p>
+<h3 id="ルートアカウント">ルートアカウント</h3>
+<p>AWSアカウントを作成するときに使用した Eメールアドレスとパスワードで AWSマネジメントコンソールにサインインするとルートアカウントとしてログインすることができる。
+ルートアカウントはAWSアカウントのすべてのリソースへの完全かつ無制限なアクセスが可能になり、そのアクセス権限を制限することはできない。</p>
+<ul>
+<li>普段はルートアカウントでサインインしない</li>
+<li>AWS アカウント（ルート）のアクセスキーを使用しない</li>
+<li>AWS 多要素認証（MFA）を有効にする</li>
+</ul>
+<h3 id="iam-identity-and-access-management">IAM: Identity and Access Management</h3>
+<p>AWS リソースへのアクセスを安全にコンソールするためのウェブサービス。IAM を使用して、リソースを使用するために認証 (サインイン) され、許可された (アクセス許可を持つ) ユーザーを制御する。</p>
+<h3 id="iamユーザー">IAMユーザー</h3>
+<p>IAM ユーザーは、AWS を操作するために IAM ユーザーを使用する人物またはサービス。
+IAM ユーザーは主に、ユーザーが対話型タスクを実行するために AWS マネジメントコンソールにサインインする場合や、API または CLI を使用して AWS サービスに対しプログラムによるリクエストを行う場合に使用する。
+GUI用とCLI用の二種類が存在する。</p>
+<h3 id="iamグループ">IAMグループ</h3>
+<p>IAM グループとは、IAM ユーザーの集合。
+グループを使用して、ユーザーの集合に対してアクセス権限を指定でき、ユーザーのアクセス権限を容易に管理することができる。</p>
+<h3 id="ポリシー">ポリシー</h3>
+<p>ポリシーは、ユーザーが実行できるアクションと、アクションが影響を与えることができるリソースを登録したドキュメント。
+IAM ユーザーを IAM グループにまとめ、そのグループにポリシーをアタッチできる。そのグループのすべてのユーザーは、グループにアタッチされているポリシーの内容通りのアクセス許可を持っている。</p>
+<h3 id="リージョン">リージョン</h3>
+<p>物理的なサーバーが置いてある地理的に離れた領域。ap-northeast-1 が日本。us-west-2 がオレゴン。</p>
+<h3 id="アベイラビリティゾーン">アベイラビリティゾーン</h3>
+<p>データセンターの場所。ap-northeast-1a が品川、ap-northeast-1c が埼玉にあるという噂を聞いた。</p>
+<h3 id="ローリングデプロイrolling-deployment">ローリングデプロイ（Rolling Deployment）</h3>
+<p>複数の稼働中サーバーに対して一定数づつ新しいアプリケーションをデプロイ、リリースしていく方法。 In-Place Deployment と Immutable Deployment がある。</p>
+<h3 id="インプレースデプロイin-place-deployment">インプレースデプロイ（In-Place Deployment）</h3>
+<p>稼働中サーバーに対して直接新しいアプリケーションを配置、再起動する方法。</p>
+<h3 id="イミュータブルデプロイimmutable-deployment">イミュータブルデプロイ（Immutable Deployment）</h3>
+<p>稼働中サーバーとは別の新しい環境に新しいアプリケーションをデプロイしてテストし、問題なければ新環境に切り替えを行い、旧環境は削除する。 ロールバックする場合も新環境に古いアプリケーションをリリースして切り替える。</p>
+<h3 id="ブルーグリーンデプロイbluegreen-deployment">ブルーグリーンデプロイ（Blue/Green Deployment）</h3>
+<p>稼働中サーバー（ブルー）とは別のサーバー（グリーン）に対して新しいアプリケーションを展開し、動作確認を行う。</p>
+<h3 id="カナリアデプロイcanary-deployment">カナリアデプロイ（Canary Deployment）</h3>
+<p>稼働中サーバーの一部だけに新しアプリケーションをデプロイ、リリースする方法。 特定のユーザーだけに新しいアプリケーションを利用してもらうことで新サービスの検証が可能。 デプロイする方法は問わず、デプロイ先の数だけに注目したデプロイ方法。</p>
+<!-- Google Ads -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5587141252700968"
+     data-ad-slot="1697863134"
+     data-ad-format="auto"
+     data-adtest="on"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<!-- Amazon Ads -->
+
+
+
+
+<h2 id="参考">参考</h2>
+<p><a href="https://docs.aws.amazon.com/">AWS ドキュメント</a><br>
+<a href="https://qiita.com/tonishy/items/9eb772b4a5a338ac6ee6#24-iam%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97">AWSを安全に利用するために - ルートアカウント利用禁止、IAMを使う</a><br>
+<a href="https://qiita.com/raki/items/4347366f78b8580d9f54">クラウドインフラエンジニア採用のための面談時質問シート</a><br>
+<a href="https://clonos.jp/knowledge/detail14/">近年のデプロイ手法について</a></p>
+
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58986&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Docker | すいすいSwift</title>
+<meta name="description" content="セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする - すいすいSwift">
+
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<link rel="icon" type="image/png" href="/image/favicon.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  
+    
+
+<div class="sub-cover cover-news">
+    <header class="page-header wrapper">
+        <h1 class="align-center">
+            <a href="/"><img class="logo" src="/image/logo.png" alt="すいすいSwift"></a>
+        </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="/posts/">Posts</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/abouts/">Abouts</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+  
+  
+    
+  <main class="wrapper news-contents">
+    <article class="home">
+      
+      <div class="home-article">
+        <a href="/2022-06-11/">
+          <h2>Dockerイメージを作成してECSで動かす</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2022-06-11">June 11, 2022</time>
+        <p>Dockerイメージを作成してECSで動かします。
+Dockerのおさらいとnginxイメージについて nginxのイメージに手を加えてカスタムイメージを作成します。
+nginxのイメージをプルします。
+$ docker pull nginx:1.23.1 nginxのコンテナを動かし、ブラウザからlocalhostにアクセスします。 nginxのデモページが表示されることを確認します。
+$ docker run --rm -p 80:80 nginx -d オプションを付けるとバックグラウンドで動かすことができます。
+$ docker run --rm -d -p 80:80 nginx docker logs コマンドでコンテナのログを確認することができます。
+$ docker logs コンテナID 以下のコマンドでDockerイメージの中に入ることができます。
+$ docker run --rm -it nginx /bin/sh カスタムイメージの作成 nginxのデモページは /usr/share/nginx/html にあります。 以下のような Dockerfile と index.html を同じディレクトリに作成します。
+FROM nginx COPY index.html /usr/share/nginx/html/index.html &lt;h1&gt;Hello&lt;/h1&gt; イメージをビルドします。
+$ docker build . -t custom-nginx 作成したイメージが動くか確認します。
+$ docker run --rm -p 80:80 custom-nginx ECRへイメージをプッシュする。 ECRでリポジトリを作ります。</p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2022-04-02/">
+          <h2>Dockerビルドに秘密情報を使う</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2022-04-02">April 2, 2022</time>
+        <p>
+Dockerビルドに秘密情報を使う方法です。 Dockerビルド時にアクセスキーなどの秘密情報が必要な場合は --mount=type=secret を使用します。 --mount=type=secret を使用することで秘密情報をイメージの中に残さずにビルドすることができます。
+FROM ubuntu RUN echo hello RUN --mount=type=secret,id=my-secret cat /run/secrets/my-secret &gt; secret.txt CMD cat secret.txt docker build --secret id=my-secret,src=secret.txt -t swiswiswift:latest . docker run swiswiswift:latest </p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2021-10-05/">
+          <h2>Springを使ってお問い合わせフォームを作るその２</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2021-10-05">October 5, 2021</time>
+        <p>Springを使ってお問い合わせフォームを作るその２です。 今回はDBまわりを作っていきます。
+まずDockerを使ってMySQLサーバーを立ち上げます。 以下のような docker-compose.yml を作成します。
+version: &#34;3.8&#34; services: mysql: image: mysql:8.0.20 container_name: swiswiswift-mysql environment: MYSQL_ROOT_PASSWORD: password MYSQL_DATABASE: swiswiswift-db command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci ports: - 3306:3306 ターミナルなどで docker-compose.yml が存在するディレクトリに移動し、以下のコマンドで MySQL のコンテナを起動します。
+docker-compose up -d mysql:8.0.20 という名前のイメージを使って swiswiswift-mysql という名前のコンテナ port 3306 で起動させます。 また docker-compose.yml に記載があるように、Root のパスワードは password です。
+起動が完了したら以下のコマンドで MySQL にログインします。
+mysql -u root -h 127.0.0.1 --port 3306 -p # password swiswiswift-db を選択します。
+use swiswiswift-db お問い合わせフォームで入力する値は名前、Email、お問い合わせ内容なのでそれらを保存する contact テーブルを作成します。
+create table contact( name varchar(255) not null, email varchar(255) not null, message varchar(1023) not null ); テーブルを作成したらお問い合わせ内容が入ることを確認します。</p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2021-10-03/">
+          <h2>Dockerを使ってMySQLを練習する</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2021-10-03">October 3, 2021</time>
+        <p>Dockerを使ってMySQLを練習する方法です。 まず以下のような docker-compose.yml を作成します。
+version: &#34;3.7&#34; services: mysql: image: mysql:8.0.20 container_name: swiswiswift-mysql environment: MYSQL_ROOT_PASSWORD: password MYSQL_DATABASE: swiswiswift-db command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci ports: - 3306:3306 ターミナルなどで docker-compose.yml が存在するディレクトリに移動し、以下のコマンドで MySQL のコンテナを起動します。
+docker-compose up -d mysql:8.0.20 という名前のイメージを使って swiswiswift-mysql という名前のコンテナ port 3306 で起動させます。 また docker-compose.yml に記載があるように、Root のパスワードは password です。
+起動が完了したら以下のコマンドで MySQL にログインします。
+docker exec -it swiswiswift-mysql mysql -u root -p # password ローカルに MySQL クライアントがインストールされている場合は以下のコマンドでも MySQL にログインできます。
+mysql -u root -h 127.0.0.1 --port 3306 -p # password 以下のコマンドで起動したコンテナを削除することができます。</p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2021-05-04/">
+          <h2>DockerのMySQLでdocker-entrypoint-initdb.dの完了を待つ</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2021-05-04">May 4, 2021</time>
+        <p>DockerのMySQLでdocker-entrypoint-initdb.dの完了を待つ方法です。 docker-compose up -d のタイミングで実行する sql, sh などが長いと立ち上がりに時間がかかり実行が遅くなります。 CIの時とかはそれだと困るので待つ方法のメモです。</p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2019-12-21/">
+          <h2>Dockerで Alpineベースのコンテナに入る</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2019-12-21">December 21, 2019</time>
+        <p>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。
+$ docker run --rm -t -i centos:centos7 /bin/bash s
+$ docker run --rm -t -i alpine:latest /bin/ash 参考
+Dockerコンテナのシェルの中に入る dockerでalpine linux ベースのcontainerに入って、shellを使いたいとき。</p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2019-11-22/">
+          <h2>Dockerを使ってPostgreSQLを立て、テーブルを作成する。</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2019-11-22">November 22, 2019</time>
+        <p>Docker を使って PostgreSQL を立てる方法です。 開発環境を Docker をで立てて整備すると自分のローカル環境を汚さずに済むのでとても良いですよね。 postgres-Docker Hub
+以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーでログインすることができます。（パスワードはpassword）
+また pokemon というデータベースも同時に作られます。
+$ docker run -d -p 5432:5432 -e POSTGRES_USER=kabigon -e POSTGRES_PASSWORD=password -e POSTGRES_DB=pokemon postgres:11 $ psql -h localhost -p 5432 -U kabigon -d pokemon ``` ログインができたら `\l` コマンドでデータベースの一覧を表示し、pokemon データベースが表示されていることを確認します。 また `docker-entrypoint-initdb.d` に `.sql` を置くと初期化時に実行してくれます。 初期テーブルなどを作りたい時に便利です。 `initdb` ディレクトリ の中に `setup.sql` を作成し、ディレクトリをマウントすることで、コンテナ初期化時に `.sql` が実行されます。 ```setup.sql create table pokemon ( id int8, name varchar ); create table pokemon_gym ( id int8, area varchar ); $ docker run -v $PWD/initdb:/docker-entrypoint-initdb.</p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2018-12-25/">
+          <h2>SSH で入ることのできるDockerイメージ(CentOS7)</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2018-12-25">December 25, 2018</time>
+        <p>
+Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。
+docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost </p>
+        <hr>
+      </div>
+      
+      <div class="home-article">
+        <a href="/2018-11-19/">
+          <h2>SSH で入ることのできるDockerイメージ(CentOS6)</h2>
+        </a>
+
+        
+        
+        <time class="home-date" datetime="2018-11-19">November 19, 2018</time>
+        <p>
+Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。
+$ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost </p>
+        <hr>
+      </div>
+       
+    </article>
+
+    <aside class="sidebar">
+    <h3 class="heading-medium">タグ</h3>
+    <ul class="side-menu-category"><li><a href="/tags/android">Android</a></li><li><a href="/tags/arduino">Arduino</a></li><li><a href="/tags/atcoder">AtCoder</a></li><li><a href="/tags/aws">AWS</a></li><li><a href="/tags/bash">Bash</a></li><li><a href="/tags/c">C</a></li><li><a href="/tags/c&#43;&#43;">C&#43;&#43;</a></li><li><a href="/tags/centos">CentOS</a></li><li><a href="/tags/docker">Docker</a></li><li><a href="/tags/elm">Elm</a></li><li><a href="/tags/esp32">ESP32</a></li><li><a href="/tags/ffmpeg">FFmpeg</a></li><li><a href="/tags/find">Find</a></li><li><a href="/tags/firebase">Firebase</a></li><li><a href="/tags/gcp">GCP</a></li><li><a href="/tags/golang">Golang</a></li><li><a href="/tags/html5">HTML5</a></li><li><a href="/tags/hugo">Hugo</a></li><li><a href="/tags/igor">Igor</a></li><li><a href="/tags/iij">IIJ</a></li><li><a href="/tags/index">Index</a></li><li><a href="/tags/intellij">IntelliJ</a></li><li><a href="/tags/ios">IOS</a></li><li><a href="/tags/iosdc">IOSDC</a></li><li><a href="/tags/java">Java</a></li><li><a href="/tags/javascript">JavaScript</a></li><li><a href="/tags/jetpack-compose">Jetpack Compose</a></li><li><a href="/tags/linux">Linux</a></li><li><a href="/tags/lpic">LPIC</a></li><li><a href="/tags/mac">Mac</a></li><li><a href="/tags/mysql">MySQL</a></li><li><a href="/tags/other">Other</a></li><li><a href="/tags/pcbe">PCBE</a></li><li><a href="/tags/php">PHP</a></li><li><a href="/tags/python">Python</a></li><li><a href="/tags/reactnative">ReactNative</a></li><li><a href="/tags/ruby">Ruby</a></li><li><a href="/tags/rust">Rust</a></li><li><a href="/tags/shell">Shell</a></li><li><a href="/tags/spring">Spring</a></li><li><a href="/tags/swift">Swift</a></li><li><a href="/tags/swift5">Swift5</a></li><li><a href="/tags/swiftui">SwiftUI</a></li><li><a href="/tags/terminal">Terminal</a></li><li><a href="/tags/terraform">Terraform</a></li><li><a href="/tags/tex">Tex</a></li><li><a href="/tags/uikit">UIKit</a></li><li><a href="/tags/xcode">Xcode</a></li><li><a href="/tags/%e3%81%9d%e3%81%ae%e4%bb%96">その他</a></li><li><a href="/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">カンファレンス</a></li><li><a href="/tags/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア</a></li><li><a href="/tags/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標</a></li><li><a href="/tags/%e5%b0%b1%e6%b4%bb">就活</a></li><li><a href="/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作</a></li>
+    </ul>
+
+
+    <h3 class="heading-medium">カテゴリ</h3>
+    <ul class="side-menu-archive"><li><a href="/categories/android">Android (8)</a></li><li><a href="/categories/arduino">Arduino (1)</a></li><li><a href="/categories/atcoder">AtCoder (1)</a></li><li><a href="/categories/aws">AWS (27)</a></li><li><a href="/categories/bash">Bash (2)</a></li><li><a href="/categories/c">C (1)</a></li><li><a href="/categories/centos">CentOS (1)</a></li><li><a href="/categories/docker">Docker (9)</a></li><li><a href="/categories/elm">Elm (4)</a></li><li><a href="/categories/esp32">ESP32 (2)</a></li><li><a href="/categories/ffmpeg">FFmpeg (1)</a></li><li><a href="/categories/find">Find (1)</a></li><li><a href="/categories/firebase">Firebase (1)</a></li><li><a href="/categories/gcp">GCP (1)</a></li><li><a href="/categories/golang">Golang (8)</a></li><li><a href="/categories/html5">HTML5 (1)</a></li><li><a href="/categories/hugo">Hugo (1)</a></li><li><a href="/categories/igor">Igor (1)</a></li><li><a href="/categories/iij">IIJ (1)</a></li><li><a href="/categories/intellij">IntelliJ (1)</a></li><li><a href="/categories/ios">IOS (175)</a></li><li><a href="/categories/iosdc">IOSDC (1)</a></li><li><a href="/categories/java">Java (13)</a></li><li><a href="/categories/javascript">JavaScript (9)</a></li><li><a href="/categories/jetpack-compose">Jetpack Compose (1)</a></li><li><a href="/categories/linux">Linux (193)</a></li><li><a href="/categories/lpic">LPIC (11)</a></li><li><a href="/categories/mac">Mac (1)</a></li><li><a href="/categories/mysql">MySQL (2)</a></li><li><a href="/categories/other">Other (3)</a></li><li><a href="/categories/pcbe">PCBE (1)</a></li><li><a href="/categories/php">PHP (1)</a></li><li><a href="/categories/python">Python (5)</a></li><li><a href="/categories/rails">Rails (1)</a></li><li><a href="/categories/reactnative">ReactNative (9)</a></li><li><a href="/categories/ruby">Ruby (4)</a></li><li><a href="/categories/rust">Rust (9)</a></li><li><a href="/categories/shell">Shell (2)</a></li><li><a href="/categories/spring">Spring (12)</a></li><li><a href="/categories/swift">Swift (128)</a></li><li><a href="/categories/swiftui">SwiftUI (206)</a></li><li><a href="/categories/terminal">Terminal (2)</a></li><li><a href="/categories/terraform">Terraform (1)</a></li><li><a href="/categories/tex">Tex (1)</a></li><li><a href="/categories/uikit">UIKit (11)</a></li><li><a href="/categories/xcode">Xcode (4)</a></li><li><a href="/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a></li><li><a href="/categories/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2">キャリア (1)</a></li><li><a href="/categories/%e4%bb%8a%e5%b9%b4%e3%81%ae%e7%9b%ae%e6%a8%99">今年の目標 (1)</a></li><li><a href="/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a></li><li><a href="/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a></li>
+    </ul>
+</aside>
+
+
+</main>
+
+
+  
+    <div class="copyright">
+    <small>&copy; swiswiswift.com</small>
+</div>
+
+  
+</body>
+</html>

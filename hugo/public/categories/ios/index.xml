@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IOS on すいすいSwift</title>
+    <link>http://localhost:58986/categories/ios/</link>
+    <description>Recent content in IOS on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UICollectionViewでContextMenuを使う</title>
+      <link>http://localhost:58986/2022-07-14/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-07-14/</guid>
+      <description>UICollectionViewでContextMenuを使う方法です。 セルを長押しするとContextMenuを表示します。&#xA;参考: iOS13から追加されるContext Menusについて</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（UIImageView &#43; UIScrollView）</title>
+      <link>http://localhost:58986/2022-04-07/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-07/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 UIImageViewとUIScrollViewを使って画像をピンチで拡大します。&#xA;他にはこのような方法があります。&#xA;SwiftUIで画像をピンチで拡大する（MagnificationGesture）&#xA;SwiftUIで画像をピンチで拡大する（PDFView）</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（PDFView）</title>
+      <link>http://localhost:58986/2022-04-06/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-06/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 画像をピンチで拡大します。&#xA;他にはこのような方法があります。&#xA;SwiftUIで画像をピンチで拡大する（MagnificationGesture）&#xA;SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）&#xA;参考: Isn&amp;rsquo;t there an easy way to pinch to zoom in an image in Swiftui?</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をピンチで拡大する（MagnificationGesture）</title>
+      <link>http://localhost:58986/2022-04-05/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-05/</guid>
+      <description>SwiftUIで画像をピンチで拡大する方法です。 MagnificationGestureを使った方法で画像をピンチで拡大します。 ただこの方法ではドラッグすることができないので、他の方法にする必要があります。&#xA;他にはこのような方法があります。&#xA;SwiftUIで画像をピンチで拡大する（PDFView）&#xA;SwiftUIで画像をピンチで拡大する（UIImageView + UIScrollView）</description>
+    </item>
+    <item>
+      <title>SwiftUIでMapViewを使い複数の位置情報を選択する</title>
+      <link>http://localhost:58986/2022-03-07/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-03-07/</guid>
+      <description>SwiftUIでMapViewを使い複数の位置情報を選択する方法です。 addボタンを押した位置情報を記録します。listボタンを押すとその位置情報の一覧を表示します。</description>
+    </item>
+    <item>
+      <title>MKMapViewで経路を表示する</title>
+      <link>http://localhost:58986/2022-02-06/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-06/</guid>
+      <description>MKMapViewで経路を表示する方法です。 新宿駅から秋葉原駅への経路を表示しています。&#xA;参考: 【Swift】MapKitで経由地点を含めたルートディレクションの表示方法</description>
+    </item>
+    <item>
+      <title>MKMapViewの表示範囲を設定する</title>
+      <link>http://localhost:58986/2022-02-05/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-05/</guid>
+      <description>MKMapViewの表示範囲を設定する方法です。 秋葉原駅（35.6984, 139.7731）を中心として緯度経度が±0.1となるように表示されます。&#xA;参考: 【Swift】MapKitで経由地点を含めたルートディレクションの表示方法</description>
+    </item>
+    <item>
+      <title>CollectionViewに区切り線を追加する</title>
+      <link>http://localhost:58986/2022-02-04/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-04/</guid>
+      <description>CollectionViewに区切り線を追加する方法です。&#xA;参考:&#xA;UICollectionView の Layout で悩んだら&#xA;Decoration Viewを用いてCollection Viewに区切り線と背景を追加する</description>
+    </item>
+    <item>
+      <title>CollectionViewの背景にスクロールする画像を設定する</title>
+      <link>http://localhost:58986/2022-02-03/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-03/</guid>
+      <description>CollectionViewの背景にスクロールする画像を設定する方法です。 よくわかっていないのですが、backgroundColor に画像を設定すると背景にスクロールする画像を設定できます。</description>
+    </item>
+    <item>
+      <title>UICollectionViewのサンプル</title>
+      <link>http://localhost:58986/2022-02-02/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-02-02/</guid>
+      <description>UICollectionViewのサンプルです。 makeColor() 関数でランダムに生成した色をセルに入れています。 スクロールするたびに色が変わります。</description>
+    </item>
+    <item>
+      <title>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する</title>
+      <link>http://localhost:58986/2021-11-12/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-12/</guid>
+      <description>SwiftでMapViewの中央に十字を用意し、その中央の座標を取得する方法です。 スクロールしたりピンチしたタイミングで regionDidChangeAnimated が呼ばれるので、その時の中心の座標を取得しています。</description>
+    </item>
+    <item>
+      <title>PHPickerViewControllerを使って画像を選択する</title>
+      <link>http://localhost:58986/2021-11-05/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-05/</guid>
+      <description>PHPickerViewController を使って画像を選択する方法です。 UIImagePickerController が将来的に非推奨になり PHPickerViewController に置き換わっていくみたいです。&#xA;参考: Meet the new Photos picker</description>
+    </item>
+    <item>
+      <title>UIKitのScrollViewでページングを実装する</title>
+      <link>http://localhost:58986/2021-11-04/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-04/</guid>
+      <description>UIKitのScrollViewでページングを実装する方法です。 スクロールすると切り替わるタイミングでピタッと止まります。</description>
+    </item>
+    <item>
+      <title>SwiftUIでスライダーとスクロールを連動させる</title>
+      <link>http://localhost:58986/2021-11-02/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-02/</guid>
+      <description>SwiftUIでスライダーとスクロールを連動させる方法です。 スライダーの値を変えることでScrollViewのスクロールを動かしています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでカメラを使う</title>
+      <link>http://localhost:58986/2021-11-01/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-01/</guid>
+      <description>SwiftUIでカメラを使う方法です。 録画を可能にする CameraView を作成しそれを SwiftUI 側で呼び出すようにします。 SwiftUIでカメラを使ったり、写真を保存するには色々とプライバシーの許可を Info.plist に設定する必要があります。&#xA;[Swift] AVFoundation による動画撮影の設定: カメラ種類 / ズーム / 録画時間 / 画質](https://superhahnah.com/swift-avcapture-settings/)</description>
+    </item>
+    <item>
+      <title>MapViewのタップした箇所に黒丸を描画する</title>
+      <link>http://localhost:58986/2021-10-01/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-10-01/</guid>
+      <description>MapViewのタップした箇所に黒丸を描画する方法です。 タップした箇所に黒丸を描画しています。黒丸のサイズは地図に対して相対的ではなく絶対的（地図を拡大すると黒丸も大きくなる）になります。 相対的なものにしたいときはMKPointAnnotationを使うと良いかもしれません。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListをEditModeにして並び替える</title>
+      <link>http://localhost:58986/2021-04-02/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-04-02/</guid>
+      <description>SwiftUIでListをEditModeにして並び替える方法です。 UITableViewのEditModeのようにして並び替えることができます。 Listの中にforを定義する必要があります。最初ハマりました。</description>
+    </item>
+    <item>
+      <title>Swiftでプロジェクトの中に含まれるJSONファイルを読み込む</title>
+      <link>http://localhost:58986/2021-04-01/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-04-01/</guid>
+      <description>Swiftでプロジェクトの中に含まれるJSONファイルを読み込む方法です。 まずプロジェクトに読み込みたい JSON ファイルを追加します。 画像のように追加します。&#xA;追加した JSON ファイルの中身は以下です。&#xA;{ &amp;#34;number&amp;#34;: 143, &amp;#34;name&amp;#34;: &amp;#34;Snorlax&amp;#34; } 次に追加した JSON ファイルをデコードするためのstructをJSON の中身に合わせて作成します。 ボタンを押すとプロジェクト中の pokemon.json を読み込み、Pokemon構造体にデコードし、State を更新させて文字列を表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる</title>
+      <link>http://localhost:58986/2021-03-10/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-10/</guid>
+      <description>SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる方法です。 遷移後のシートでもisPresentedの情報を保持するのがポイントです。</description>
+    </item>
+    <item>
+      <title>SwiftUIで初めの画面に遷移する（popToRootViewController）</title>
+      <link>http://localhost:58986/2021-03-09/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-09/</guid>
+      <description>SwiftUIで初めの画面に遷移する（popToRootViewController）方法です。 isDetailLink がポイントです。</description>
+    </item>
+    <item>
+      <title>Swiftで10進数を2進数に変換する</title>
+      <link>http://localhost:58986/2021-03-08/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-08/</guid>
+      <description>Swiftで10進数を2進数に変換する方法です。 TextFieldに数字を入力し、変換ボタンを押すと2進数に変換されます。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTextFieldで表示するキーボードを指定する</title>
+      <link>http://localhost:58986/2021-03-07/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-07/</guid>
+      <description>SwiftUIのTextFieldで表示するキーボードを指定する方法です。 keyboardType を指定することで表示するキーボードの種類を設定することができます。</description>
+    </item>
+    <item>
+      <title>SwiftでMKMapViewに図を追加する</title>
+      <link>http://localhost:58986/2021-03-06/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-06/</guid>
+      <description>SwiftでMKMapViewに図を追加する方法です。 以下の例では大阪、松本、東京を結ぶ三角形を追加しています。</description>
+    </item>
+    <item>
+      <title>SwiftでMKMapViewに線を引く</title>
+      <link>http://localhost:58986/2021-03-05/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-05/</guid>
+      <description>SwiftでMKMapViewに線を引く方法です。 以下の例では大阪、松本、東京で線を引いています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButtonを有効にしたり無効にしたりする</title>
+      <link>http://localhost:58986/2021-03-04/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-04/</guid>
+      <description>SwiftUIでButtonを有効にしたり無効にしたりする方法です。 Toggleを押すとボタンが有効になったり、無効になったりします。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewを横スクロールで表示する</title>
+      <link>http://localhost:58986/2021-03-02/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-02/</guid>
+      <description>SwiftUIでViewを横スクロールで表示する方法です。 SwiftUIだと簡単に実装できて良いですね！！</description>
+    </item>
+    <item>
+      <title>QGridを使ってCollectionViewを実装する</title>
+      <link>http://localhost:58986/2021-03-01/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-03-01/</guid>
+      <description>QGridを使ってCollectionViewを実装する方法です。 iOS13のSwiftUIではCollectionViewに相当するものがありません。 QGridを使うことでCollectionViewに似たものを実装することができます。</description>
+    </item>
+    <item>
+      <title>Swiftでオンライン上のファイルを再生する</title>
+      <link>http://localhost:58986/2021-02-10/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-10/</guid>
+      <description>Swiftでオンライン上のファイルを再生する方法です。 簡単に実装できました。ただエラーハンドリングができないのが弱点です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートを入れ子にして使うことができない</title>
+      <link>http://localhost:58986/2021-02-09/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-09/</guid>
+      <description>SwiftUIでアラートを入れ子にして使うことができなかったのでそのメモです。 以下のコードの様に HStack の中に VStack を入れ、それぞれに .alert を使うと内側の .alert がうまく動かなかったです。 .alert は入れ子にしない方が良さそうです。</description>
+    </item>
+    <item>
+      <title>iOSでGoogle-Mobile-Ads-SDKの８系が入らない</title>
+      <link>http://localhost:58986/2021-02-08/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-08/</guid>
+      <description>iOSでGoogle-Mobile-Ads-SDKの８系が入らない時の対処法です。 Firebase/adMob を外したらうまくいきました。&#xA;参考: pods使うとadmob sdkのバージョンは7.69になるなぁ。最新の8.1入れたかったんだけどな。</description>
+    </item>
+    <item>
+      <title>SwiftUIでボタンを押すとポップアップを表示する</title>
+      <link>http://localhost:58986/2021-02-07/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-07/</guid>
+      <description>SwiftUIでボタンを押すとポップアップを表示する方法です。 以下の例ではボタンを押すとアラート（中身はView）を表示しています。</description>
+    </item>
+    <item>
+      <title>SwiftUIでBMIを計算し、結果を別のViewで表示する</title>
+      <link>http://localhost:58986/2021-02-06/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-06/</guid>
+      <description>SwiftUIでBMIを計算し、結果を別のViewで表示する方法です。 身長と体重を入力し、計算ボタンを押すことで計算したBMIを表示しています。&#xA;ただ上の例では bmi と showingSheet の二つのプロパティが必要です。 新しく ContentActionSheetを定義する必要がありますが、以下の方法だとプロパティの数を減らしたりenumの種類によってシートの出し分けをすることができます。</description>
+    </item>
+    <item>
+      <title>@Stateと@Bindingの使い分け</title>
+      <link>http://localhost:58986/2021-02-05/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-05/</guid>
+      <description>@Stateと@Bindingの使い分けについです。&#xA;@State のついた変数を変更することでViewにその変更が反映されます。 以下の例ではボタンを押すことで 変数textの値を変えています。 変数textの値を変えることでその変更が反映され、文字列が変わります。&#xA;@Binding は親のViewのプロパティを子のViewで変えたい時に使います。 ContentViewでは変数textの値を表示しています。 ChangeTextボタンを押してSecondViewに遷移し、そこで値を変えると親である ContentView のプロパティも変更され、画面にその変更が反映されています。</description>
+    </item>
+    <item>
+      <title>TableViewのセルを長押しでContextMenuを表示する</title>
+      <link>http://localhost:58986/2021-02-04/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-04/</guid>
+      <description>TableViewのセルを長押しでContextMenuを表示する方法です。 手軽にメニューが表示することができ、とても使い勝手が良いので積極的に使っていきたいです。</description>
+    </item>
+    <item>
+      <title>SwiftUIで複数のモーダルをEnumで出し分ける</title>
+      <link>http://localhost:58986/2021-02-03/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-03/</guid>
+      <description>SwiftUIで複数のモーダルをEnumで出し分ける方法です。 enumを使うことでスッキリと書くことができました。 iOS13では使えないので気をつけてください。</description>
+    </item>
+    <item>
+      <title>SwiftUIでフルスクリーンモーダルを表示する（iOS14以上）</title>
+      <link>http://localhost:58986/2021-02-02/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-02/</guid>
+      <description>SwiftUIでフルスクリーンモーダルを表示する方法です。（iOS14以上） いままでSwiftUIでフルスクリーンのモーダルを表示するのは大変でしたが、iOS14からはこの方法で表示することができるようになります。お手軽ですね。&#xA;iOS13でフルスクリーンモーダルを表示させたい場合はこの記事をご参照ください。&#xA;SwiftUIでフルスクリーンモーダルを表示する&#xA;参考: How to present a full screen modal view using fullScreenCover()</description>
+    </item>
+    <item>
+      <title>SwiftUIでモーダルを表示する時に値を渡す</title>
+      <link>http://localhost:58986/2021-02-01/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-02-01/</guid>
+      <description>SwiftUIでモーダルを表示する時に値を渡す方法です。 TextFieldでname変数に文字列を入力します。その入力した文字列をPokemonView に渡して表示しています。</description>
+    </item>
+    <item>
+      <title>Swiftで文字列を圧縮して保存し、そのデータを読み取る</title>
+      <link>http://localhost:58986/2021-01-01/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-01-01/</guid>
+      <description>Swiftで文字列を圧縮して保存し、そのデータを読み取る方法です。 zlib というアルゴリズムで文字列を圧縮し、保存しています。 Java の Deflater, Inflater に相当する方法ですが、header、チェックサムの情報が抜けている生のデータが保存されるので気をつける必要があります。&#xA;static void saveCompressedData() { try { // Encode a String into bytes String text = &amp;#34;hello&amp;#34;; byte[] data = text.getBytes(StandardCharsets.UTF_8); // Compress the bytes ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream(); DeflaterOutputStream outputStream = new DeflaterOutputStream(byteArrayOutputStream); outputStream.write(data); outputStream.finish() String path = &amp;#34;/Users/kabigon/Desktop/data.data&amp;#34;; try (FileOutputStream fos = new FileOutputStream(path)) { fos.write(byteArrayOutputStream.toByteArray()); } System.out.println(&amp;#34;----------------------&amp;#34;); System.out.println(&amp;#34;Save Completed!!&amp;#34;); System.out.println(String.format(&amp;#34;Path: %s&amp;#34;, path)); System.out.println(&amp;#34;----------------------&amp;#34;); } catch (Exception e) { e.</description>
+    </item>
+    <item>
+      <title>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する</title>
+      <link>http://localhost:58986/2020-12-13/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-13/</guid>
+      <description>SwiftUIでAVAudioPlayerNodeで音楽を再生し、再生終了を検知する方法です。 AVAudioPlayer は Delegate で再生終了を検知しますが、AVAudioPlayerNodeは再生終了時に呼ばれるハンドラーが用意されているのでそちらを使います。&#xA;参考: AVAudioEngine &amp;amp; AVAudioPlayerNode didFinish method like AVAudioPlayer</description>
+    </item>
+    <item>
+      <title>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する</title>
+      <link>http://localhost:58986/2020-12-12/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-12/</guid>
+      <description>SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する方法です。 SwiftUIは struct を使うので AVAudioPlayerDelegate に準拠することができません。 そのため、ViewModel を作成し、SwiftUI（View）から呼び出してあげるます。&#xA;参考: AVAudioPlayerDelegate SwiftUI</description>
+    </item>
+    <item>
+      <title>UIViewに影をつける</title>
+      <link>http://localhost:58986/2020-11-04/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-04/</guid>
+      <description>UIViewに影をつける方法です。 オレンジ色のUIView の周りに影をつけています。 影があると浮き上がって見えるの不思議ですね。</description>
+    </item>
+    <item>
+      <title>SwiftUIで端末のシェイクを検知する</title>
+      <link>http://localhost:58986/2020-11-01/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-11-01/</guid>
+      <description>SwiftUIで端末のシェイクを検知する方法です。 端末をシェイクすると Text 内の文字が変わります。 ReactNativeは端末をシェイクするとデバッグメニューが出てくるのが面白いです。</description>
+    </item>
+    <item>
+      <title>SwiftUIでAppStorageを使ってUserDefaultの値を監視する</title>
+      <link>http://localhost:58986/2020-10-08/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-08/</guid>
+      <description>SwiftUIでAppStorageを使ってUserDefaultの値を監視する方法です。 UserDefaultが変更されると画面が再描画されます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでListの中に複数のNavigationLinkを設置する</title>
+      <link>http://localhost:58986/2020-10-07/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-07/</guid>
+      <description>SwiftUIでListの中に複数のNavigationLinkを設置する方法です。 素直に実装すると画面遷移が暴発してしまいます。&#xA;それを修正するために List のタップジェスチャーを無効化したりする必要がありました。</description>
+    </item>
+    <item>
+      <title>ディレクトリにあるwavファイルをcafに変換する</title>
+      <link>http://localhost:58986/2020-10-06/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-06/</guid>
+      <description>ディレクトリにあるwavファイルをcafに変換する方法です。ディレクトリに存在する全ての.wavファイルをcafファイルに変換したいときによく使います。</description>
+    </item>
+    <item>
+      <title>ディレクトリにあるtxtファイルでループする</title>
+      <link>http://localhost:58986/2020-10-05/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-05/</guid>
+      <description>ディレクトリにあるtxtファイルでループする方法です。ディレクトリに存在する全ての.txtファイルに処理をしたいときによく使います。</description>
+    </item>
+    <item>
+      <title>ディレクトリにあるファイル名でループする</title>
+      <link>http://localhost:58986/2020-10-04/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-04/</guid>
+      <description>ディレクトリにあるファイル名でループする方法です。ディレクトリに存在する全てのファイルに処理をしたいときによく使います。</description>
+    </item>
+    <item>
+      <title>SwiftUIでVStackの周りに影をつける</title>
+      <link>http://localhost:58986/2020-10-03/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-03/</guid>
+      <description>SwiftでUIViewの周りに影をつける方法です。 ImageのViewの周りに影をつけています。 shadowOffset で影の位置を移動させることができ、サンプルコードでは影を右下に移動させています。</description>
+    </item>
+    <item>
+      <title>UIPageViewControllerでウォークスルー画面を実装する</title>
+      <link>http://localhost:58986/2020-10-02/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-02/</guid>
+      <description>UIPageViewControllerでウォークスルー画面を実装する方法です。 ウォークスルー画面はチュートリアルなどでよくありますね。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewの周りに影をつける</title>
+      <link>http://localhost:58986/2020-10-01/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-10-01/</guid>
+      <description>SwiftでUIViewの周りに影をつける方法です。 ImageのViewの周りに影をつけています。 shadowOffset で影の位置を移動させることができ、サンプルコードでは影を右下に移動させています。</description>
+    </item>
+    <item>
+      <title>Swiftで文章を読み上げる（音声合成）</title>
+      <link>http://localhost:58986/2020-09-15/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-15/</guid>
+      <description>Swiftで文章を読み上げる（音声合成）方法です。 AVFoundation を import し、以下のコードを書くことで iPhone に文字列を読み上げてもらうことができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでButton内の画像やテキストの色を変えない</title>
+      <link>http://localhost:58986/2020-09-14/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-14/</guid>
+      <description>SwiftUIでButton内の画像やテキストの色を変えない方法です。 .buttonStyle(PlainButtonStyle()) ではフルーツの一覧を表示しています。 フルーツが表示されたセルを押すと SecondView を設定することで実現できました。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画面遷移時に値を渡す</title>
+      <link>http://localhost:58986/2020-09-13/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-13/</guid>
+      <description>SwiftUIで画面遷移時に値を渡す方法です。 ContentView ではフルーツの一覧を表示しています。 フルーツが表示されたセルを押すと SecondView に遷移し、選択されたセルのフルーツ名が表示されます。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する</title>
+      <link>http://localhost:58986/2020-09-12/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-12/</guid>
+      <description>GithubのAPIを叩き、リポジトリを取得する。一番最後までいくと追加で取得しIndicator を表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する。一番下までスクロールされたら追加する</title>
+      <link>http://localhost:58986/2020-09-11/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-11/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する。一番下までスクロールされたら追加する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Combine）</title>
+      <link>http://localhost:58986/2020-09-10/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-10/</guid>
+      <description>GithubのAPIを叩き、リポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する（Closure）</title>
+      <link>http://localhost:58986/2020-09-09/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-09/</guid>
+      <description>GithubのAPIを叩き、SwiftUIでリポジトリの情報をリストに表示する方法です。 Infinite List Scroll with SwiftUI and Combine を参考にさせていただきました。</description>
+    </item>
+    <item>
+      <title>SwiftUIでViewを横に等間隔で横に並べる</title>
+      <link>http://localhost:58986/2020-09-08/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-08/</guid>
+      <description>SwiftUIでViewを横に等間隔で横に並べて表示するほうほうです。 アイコンを等間隔で表示したりするときにつかいました。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像を丸く切り取り、枠を付ける</title>
+      <link>http://localhost:58986/2020-09-07/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-07/</guid>
+      <description>SwiftUIで丸い枠に合わせて画像を丸く切り取り、枠を付ける方法です。 アイコンの表示する箇所などによく使います。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をリサイズして表示（clip）</title>
+      <link>http://localhost:58986/2020-09-06/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-06/</guid>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合ははみ出た箇所を切り取って表示します。</description>
+    </item>
+    <item>
+      <title>SwiftUIで画像をリサイズして表示（fit）</title>
+      <link>http://localhost:58986/2020-09-05/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-05/</guid>
+      <description>SwiftUIで画像をリサイズして表示します。 アスペクト比が異なる場合は余白が赤色で表示されます。</description>
+    </item>
+    <item>
+      <title>Buttonを押すとTextの文字が変わる</title>
+      <link>http://localhost:58986/2020-09-04/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-04/</guid>
+      <description>SwiftUIでButtonが押されたら文字の色を変える方法です。 ボタンが押されたタイミングで @State var text を更新します。</description>
+    </item>
+    <item>
+      <title>SwiftUIでアラートとシートを出し分ける</title>
+      <link>http://localhost:58986/2020-09-03/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-03/</guid>
+      <description>SwiftUIでアラートとシートを出し分ける方法です。 TextField に入力された文字列が Double に変換できるかチェックします。 もし Double に変換できるのであればシートを表示し、もし Double に変換できないのであればアラートを表示します。</description>
+    </item>
+    <item>
+      <title>curl で iOSにVoIPプッシュを送る</title>
+      <link>http://localhost:58986/2020-09-02/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-02/</guid>
+      <description>&#xA;curl で iOSにVoIPプッシュを送る方法です。 まず VoIPプッシュ通知用の .p12 ファイルを .pem に変換します。&#xA;openssl pkcs12 -in file-name.p12 -out file-name.pem -nodes -clcerts&#xA;.pem ファイルを使ってプッシュ通知を送ります。apple の URL は配布方法によって異なるので気をつけてください。 たとえば Xcode から実機に送ると以下の URL で良いですが、TestFlightやストアから配布する場合は URL 中の develop は不要です。&#xA;curl --http2 \ -E file-name.pem \ --header &amp;#34;apns-topic: {YOUR_BUNDLE_ID}.voip&amp;#34; \ -d &amp;#34;{\&amp;#34;message\&amp;#34;:\&amp;#34;Hello\&amp;#34;}&amp;#34; \ https://api.development.push.apple.com/3/device/{YOUR_TOKEN} </description>
+    </item>
+    <item>
+      <title>SwiftUIでプログラムで前の画面に戻る</title>
+      <link>http://localhost:58986/2020-09-01/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-09-01/</guid>
+      <description>SwiftUI でプログラムで前の画面に戻る方法です。 NavigationView と NavigationLink を使うと画面遷移することができます。 戻るボタンは自動で付与されますが、戻るボタン意外の方法で前の画面に戻りたいときは、PresentationMode を使うことで実現できます。</description>
+    </item>
+    <item>
+      <title>Swiftで仮引数を持つイニシャライザをスマートに書く</title>
+      <link>http://localhost:58986/2020-08-09/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-09/</guid>
+      <description>Swiftで仮引数を持つイニシャライザをスマートに書く方法です。 仮引数がついたイニシャライザをもち、イニシャライズ時の値を定数として保持する Struct を作る時、private(set) var name = &amp;ldquo;snorlax&amp;rdquo; を使うと短くスマートに書くことができます。 プロパティが増えてもイニシャライザを編集する必要が無くなります。</description>
+    </item>
+    <item>
+      <title>Xcodeで行を入れ替える</title>
+      <link>http://localhost:58986/2020-08-08/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-08/</guid>
+      <description>Xcodeで行を入れ替える方法です。 command + option + [ でカーソルのある行を上に持ってくることができます。 また command + option + ] でカーソルのある行を下に持ってくることができます。&#xA;![Format]](1.gif)</description>
+    </item>
+    <item>
+      <title>Xcodeでコードをフォーマットする</title>
+      <link>http://localhost:58986/2020-08-07/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-07/</guid>
+      <description>Xcodeでコードをフォーマットする方法です。 command + a でコードを全て選択し、control + i でコードをフォーマットすることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIのTextFieldで編集中と編集完了を検知する</title>
+      <link>http://localhost:58986/2020-08-06/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-06/</guid>
+      <description>SwiftUIのTextFieldで編集中と編集完了を検知する方法です。 UIKit よりも少ないコードで実現できている気がします。</description>
+    </item>
+    <item>
+      <title>UIAlertControllerでアラートを表示する</title>
+      <link>http://localhost:58986/2020-08-05/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-05/</guid>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert を UIAlertControllerStyle.actionSheet にするとニュッと下から出るタイプのアラートになります。</description>
+    </item>
+    <item>
+      <title>SwiftUIのPreviewを横向きにする</title>
+      <link>http://localhost:58986/2020-08-04/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-04/</guid>
+      <description>SwiftUIのPreviewを横向きにする方法です。 Previewのサイズを変更することで実現しました。&#xA;Landscape Right, Landscape Left にチェックを入れアプリを横向きにします。&#xA;Previewのサイズを端末のサイズに変更します。</description>
+    </item>
+    <item>
+      <title>Buttonからプッシュ遷移をする（NavigationLinkを無効にする）</title>
+      <link>http://localhost:58986/2020-08-03/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-03/</guid>
+      <description>Buttonからプッシュ遷移をする方法です。 この方法であれば、NavigationLink を擬似的に無効にすることができます。</description>
+    </item>
+    <item>
+      <title>SwiftUIでNavigationBarを隠す</title>
+      <link>http://localhost:58986/2020-08-02/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-02/</guid>
+      <description>SwiftUI で NavigationBar を隠す方法です。 .navigationBarHidden(true) を設定すると隠すことができます。 理由は不明ですが、空文字で仮のタイトルを設定する必要がありました。</description>
+    </item>
+    <item>
+      <title>UIGestureRecognizer でジェスチャーイベントを取得する</title>
+      <link>http://localhost:58986/2020-08-01/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-08-01/</guid>
+      <description>UIGestureRecognizer でジェスチャーイベントを取得する方法です。 UITapGestureRecognizer, UIPinchGestureRecognizer, UILongPressGestureRecognizer, UISwipeGestureRecognizer などを使ってスワイプ、ピンチなどのイベントを取得することができます。</description>
+    </item>
+    <item>
+      <title>UIPickerViewを使って値を選択する</title>
+      <link>http://localhost:58986/2020-07-05/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-07-05/</guid>
+      <description>UIPickerViewを使って値を取得するサンプルコードです。 PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。 今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。</description>
+    </item>
+    <item>
+      <title>iPadでモーダルのサイズを取得する</title>
+      <link>http://localhost:58986/2020-07-02/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-07-02/</guid>
+      <description>iPadでモーダルのサイズを取得する方法です。 viewWillLayoutSubviews でモーダルのサイズを取得することができます。</description>
+    </item>
+    <item>
+      <title>削除、セルの移動が可能なUITableViewを作る</title>
+      <link>http://localhost:58986/2020-07-01/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-07-01/</guid>
+      <description>削除、セルの移動が可能なUITableViewを作る方法です。 TableViewを使うと簡単に編集可能なTableViewを作ることができます。</description>
+    </item>
+    <item>
+      <title>よくあるチュートリアル画面をUIPageViewControllerとSwiftUIで作る</title>
+      <link>http://localhost:58986/2020-06-28/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-28/</guid>
+      <description>UIPageViewControllerとSwiftUIでよくあるチュートリアル画面を作ります。 画面をスワイプすると次の画面が表示されます。</description>
+    </item>
+    <item>
+      <title>UserDefaults に配列を保存してTableViewに表示する</title>
+      <link>http://localhost:58986/2020-06-27/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-27/</guid>
+      <description>UserDefaults に配列を保存してTableViewに表示する方法です。 FirstViewController のボタンを押すと UserDefaults に現在の時刻が文字列として保存されます。 SecondViewController を表示すると UserDefaults のデータが読み込まれ、テーブルに表示されます。</description>
+    </item>
+    <item>
+      <title>UINavigationBar, UITabBar の色を変える</title>
+      <link>http://localhost:58986/2020-06-26/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-26/</guid>
+      <description>iOSでUINavigationBar, UITabBar の色を変える方法です。 エヴァンゲリオンをイメージしたカラーリングです。今度のエヴァの映画が楽しみです。</description>
+    </item>
+    <item>
+      <title>UITabBarControllerにUINavigationControllerを入れ子で実装する</title>
+      <link>http://localhost:58986/2020-06-25/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-25/</guid>
+      <description>UITabBarControllerにUINavigationControllerを入れ子で実装する方法です。 ついでに色もカラフルにしてみました。</description>
+    </item>
+    <item>
+      <title>SwiftUIでUITestを動かす</title>
+      <link>http://localhost:58986/2020-06-24/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-24/</guid>
+      <description>SwiftUIでUITestを動かす方法です。 UIKit の時と違って sleep を入れないと良い感じに動かなかったです。 State が変わると際レンダリングが走るせいでしょうか？</description>
+    </item>
+    <item>
+      <title>SwiftUIでText中の文字の太さや色を変える</title>
+      <link>http://localhost:58986/2020-06-22/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-22/</guid>
+      <description>SwiftUIでText中の文字の太さや色を変える方法です。 SwiftUI で Text を結合できるのが面白いです。</description>
+    </item>
+    <item>
+      <title>SwiftUIで続きを読む。。。ボタンがあるViewを実装する</title>
+      <link>http://localhost:58986/2020-06-20/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-20/</guid>
+      <description>SwiftUIで続きを読む。。。ボタンがあるViewを実装する方法です。 背景を透明色にし、そのサイズを PreferenceKey で取得することで実現しています。</description>
+    </item>
+    <item>
+      <title>Swiftで録画開始とスクリーンショットが取られたことを検知する</title>
+      <link>http://localhost:58986/2020-06-15/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-06-15/</guid>
+      <description>Swiftで録画開始とスクリーンショットが取られたことを検知する方法です。 画面録画開始前に captureStatusDidChange を実行させることができるのですが、スクリーンショット撮影前に captureStatusDidChange を実行させることはできませんでした。 もしスクリーンショットを取られてしまっては不味いものがある場合、動画であれば DRM を使用したり、サードパーティーの ScreenShieldKit を使用する必要があります。</description>
+    </item>
+    <item>
+      <title>StoryboardsをiOS13以上のプロジェクトから削除する</title>
+      <link>http://localhost:58986/2019-12-29/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-12-29/</guid>
+      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。&#xA;Main storyboard file base name の項を削除する。&#xA;Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削除する。&#xA;SceneDelegate.swift で表示する ViewController を設定します。&#xA;func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) { guard let windowScene = (scene as? UIWindowScene) else { return } window = UIWindow(frame: UIScreen.main.bounds) let viewController = ViewController() window?.rootViewController = viewController window?.makeKeyAndVisible() window?.windowScene = windowScene } 参考&#xA;Creating Apps Without Storyboards in iOS 13</description>
+    </item>
+    <item>
+      <title>TabViewを使って画面を切り替える（SwiftUI）</title>
+      <link>http://localhost:58986/2019-11-21/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-21/</guid>
+      <description>TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。&#xA;TabView - SwiftUI | Apple Developer Documentation</description>
+    </item>
+    <item>
+      <title>ListViewからそれぞれ別のViewに遷移する（SwiftUI）</title>
+      <link>http://localhost:58986/2019-11-20/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-20/</guid>
+      <description>設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。&#xA;もっと良い方法がある気がします。。。</description>
+    </item>
+    <item>
+      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
+      <link>http://localhost:58986/2019-11-19/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-19/</guid>
+      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパースする方法です。</description>
+    </item>
+    <item>
+      <title>SwiftUIでStructが使いまわされる</title>
+      <link>http://localhost:58986/2019-11-14/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-14/</guid>
+      <description>画面遷移をするたびに異なる ID を表示させたかったのですが、それができませんでした。（毎回同じ ID が表示される） onDisappear で id を再生成することで回避しました。&#xA;@State に変化が無い場合はキャッシュを使い回したりするということでしょうか？&#xA;勉強していきます！！</description>
+    </item>
+    <item>
+      <title>SwiftUIでListを表示する</title>
+      <link>http://localhost:58986/2019-11-13/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-13/</guid>
+      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。</description>
+    </item>
+    <item>
+      <title>cURL（curl）でアプリにプッシュ通知を送信する</title>
+      <link>http://localhost:58986/2019-11-06/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-06/</guid>
+      <description>&#xA;curl コマンドで iOS端末にプッシュ通知を送信する方法です。&#xA;証明書と秘密鍵の両方を含めたpemファイルを作成します。&#xA;$ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem curl コマンドでプッシュ通知を送信します。&#xA;プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。&#xA;また、本番環境（テストフライトなど）と開発環境ではドメイン (https://api.push.apple.com/3/device/ or https://api.development.push.apple.com) が違うことに気をつけてください。&#xA;# for 本番環境 $ curl -v -d &amp;#39;{&amp;#34;aps&amp;#34;:{&amp;#34;alert&amp;#34;:&amp;#34;hello&amp;#34;}}&amp;#39; -H &amp;#34;apns-topic: com.swiswiswift.myapp&amp;#34; --http2 --cert certificate-and-privatekey.pem https://api.push.apple.com/3/device/{your_device_token} # for 開発環境 $ curl -v -d &amp;#39;{&amp;#34;aps&amp;#34;:{&amp;#34;alert&amp;#34;:&amp;#34;hello&amp;#34;}}&amp;#39; -H &amp;#34;apns-topic: com.swiswiswift.myapp&amp;#34; --http2 --cert certificate-and-privatekey.pem https://api.development.push.apple.com/3/device/{your_device_token} </description>
+    </item>
+    <item>
+      <title>p12ファイルから証明書と秘密鍵を取り出す</title>
+      <link>http://localhost:58986/2019-11-05/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-11-05/</guid>
+      <description>.p12 ファイルから証明書と秘密鍵を取り出す方法です。&#xA;AWS SNS を Terraform で書くときに必要でした。&#xA;$ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.pem ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。&#xA;NoArgument が入っても悪さはしないのですが、気になったので消そうとしました。 以下のコマンドを実行すると秘密鍵は NoArgument 無しで変換できました。&#xA;証明書はそのテキストを消す方法が見つから無かったのでいったん諦めました。&#xA;もし分かりましたら追記します。&#xA;$ openssl pkcs12 -in xxxx.p12 -nodes -nocerts | openssl rsa -out privatekey.pem 参考: Push通知の証明書、p12 -&amp;gt; pem変換について</description>
+    </item>
+    <item>
+      <title>gem でインストールした cocoapods をアップデートする</title>
+      <link>http://localhost:58986/2019-09-12/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-09-12/</guid>
+      <description>&#xA;gem でインストールした cocoapods のバージョンをアップデートする方法です。 cocoapods のライバル？の carthage が気になっています。&#xA;gem update cocoapods pod --version </description>
+    </item>
+    <item>
+      <title>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました</title>
+      <link>http://localhost:58986/2019-09-11/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-09-11/</guid>
+      <description>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました。 聞いたセッションについてはまた別ブログで。 まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！&#xA;ルーキーズLT 私はルーキーズLT枠で発表させていただきました。 「iOSDCでのトークが初めての方のみ応募が可能な枠」で、基本的なルールは通常のLTと同じです。 この枠で採択されたスピーカーは iOSDC の2-3週間前に開かれる「iOSDCルーキーズLT練習会」に参加することができます。 ルーキーズLT練習会では、運営スタッフの方に発表予定のスライドを添削して頂くことができます。 僕のスライドもたくさん添削していただき、かなり良い感じにして頂きました。 添削の他にも、友達（少なくとも僕からは一方的に思ってます）ができたのもとても嬉しいです。 同期?のような感覚で、iOSDC が終わった後も Twitter で絡んで貰え、とても嬉しいです。&#xA;発表 発表はとても緊張しました。発表中の記憶がありません。 プログラミング初心者の僕にいろいろ教えてくださった亀仙的な師匠な人（少なくとも僕からは一方的に(ry）の @tdakakさんや、ルーキーズLTで知り合った人が聞きにきてくれたのがとても嬉しかったです。 また、Twitterをエゴサしたらコメントが何件かありました。 発表のためにWindowsのPCを組んだり、ガジェットを作ったり大変でしたが、発表してよかったです。&#xA;発表スライド iOSエンジニアでもできるIoTガジェット作成 基板発注もう何も怖くない&#xA;まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ 事前に添削してもらえますし、友達もできるのでルーキーズLTで申し込んでも良いと思います。&#xA;追記 最後のネットワークスタッフの方のLTがとても面白く、カッコよかったです。 僕の本業はインフラエンジニアなので、ネットワーク周りを一年かけてもっと勉強して強くなり、スタッフとして貢献できたら良いなと思いました。時期が来たら応募してみたいです。 ネットワークスタッフの方には「来年に備えて八の字巻き練習しといて！！」と言われました、練習します。</description>
+    </item>
+    <item>
+      <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
+      <link>http://localhost:58986/2019-07-30/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-07-30/</guid>
+      <description>TableView のセルの高さを変更する方法です。&#xA;一括で帰るときは .rowHeight を使い、個別に変えたいときは　heightForRowAt　を使うと実現できました。&#xA;サンプルコードはこちら。&#xA;https://github.com/takoikatakotako/swiswiswift-ios</description>
+    </item>
+    <item>
+      <title>UIButton、ボタンを表示する(Swift5.0)</title>
+      <link>http://localhost:58986/2019-06-03/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-06-03/</guid>
+      <description>UIButton を使ってボタンを表示するサンプルコードです。 角丸ボタンはよく使います。</description>
+    </item>
+    <item>
+      <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
+      <link>http://localhost:58986/2019-06-02/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-06-02/</guid>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。</description>
+    </item>
+    <item>
+      <title>UISlider で値を取得する(Swift5.0)</title>
+      <link>http://localhost:58986/2019-06-01/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-06-01/</guid>
+      <description>UISlider で値を取得するサンプルコードです。 最小値と最大値を設定することで、その間の任意の値を取ることができます。</description>
+    </item>
+    <item>
+      <title>CallKit を使って着信画面を表示する</title>
+      <link>http://localhost:58986/2019-05-12/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-05-12/</guid>
+      <description>CallKit を使うことで着信時のUIを使うことができます。 電話がかかってくるアプリを作る時に使いました。</description>
+    </item>
+    <item>
+      <title>iOSでUITest（E2Eテスト）を行う(Swift5.0)</title>
+      <link>http://localhost:58986/2019-04-11/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-04-11/</guid>
+      <description>Swift でUITest を行うサンプルコードです。 左右のテキストフィールドに数字を入れ、ボタンを押すとその積を計算するアプリを作りました。 そしてそのアプリのUITest を実装しました。&#xA;参考: 【Swift】初めてのUITest導入</description>
+    </item>
+    <item>
+      <title>RootViewController をアニメーション付きで切り替える(Swift4.2)</title>
+      <link>http://localhost:58986/2019-02-01/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-02-01/</guid>
+      <description>RootViewController をアニメーション付きで切り替えるサンプルコードです。&#xA;チュートリアルの後とかでの使用を想定しています。</description>
+    </item>
+    <item>
+      <title>ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)</title>
+      <link>http://localhost:58986/2019-01-27/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-27/</guid>
+      <description>ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。&#xA;SwiftyJsonなどを使うともっと良い感じにかけますが、今回は使わないで書いてみました。</description>
+    </item>
+    <item>
+      <title>SwiftでUITestを導入(Swift4.2)</title>
+      <link>http://localhost:58986/2019-01-26/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-26/</guid>
+      <description>プロジェクトにUITestを追加します。&#xA;プロジェクト作成時に作らなかった場合は以下の画像の手順で追加することができます。&#xA;@testable import Swiswiswift（Swiswiswiftはプロジェクト名）　と書くことで、テストクラスの中から参照できるようになります。&#xA;関数名の頭にtestと付けることで、テストとして実行できるようになります。</description>
+    </item>
+    <item>
+      <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
+      <link>http://localhost:58986/2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-22/</guid>
+      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。 UITableViewのクラス階層&#xA;NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView&#xA;AppleDeveloperリファレンスUITableView</description>
+    </item>
+    <item>
+      <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
+      <link>http://localhost:58986/2019-01-21/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-21/</guid>
+      <description>#Swift4.2 NavigationContorollerのサンプルコードです。&#xA;NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+    </item>
+    <item>
+      <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
+      <link>http://localhost:58986/2019-01-20/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-20/</guid>
+      <description>&#xA;`# Swift4.2` `setViewControllers`でNavigationControllerのRootを切り替えています。 </description>
+    </item>
+    <item>
+      <title>ImagePickerControllerで画像を選択する(Swift4.2)</title>
+      <link>http://localhost:58986/2019-01-11/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-11/</guid>
+      <description># Swift 4.2&#xA;Swift3の記事はこちら&#xA;UIImagePickerControllerで画像の選択&#xA;iPhoneのフォトライブラリから画像を取得するサンプルプログラムです。&#xA;フォトライブラリから画像を選択するために、プロジェクトの info.plistにフォトライブラリを使用する旨を記述します。&#xA;これを書いておかないとUIImagePickerControllerは使えません。&#xA;キーの値は以下の値を使います。&#xA;NSPhotoLibraryUsageDescription TypeはStringでValueの中に使用理由を書きます。&#xA;使用理由を書かないと審査の時に落とされるらしいです。</description>
+    </item>
+    <item>
+      <title>Function(Swift4.2)</title>
+      <link>http://localhost:58986/2019-01-02/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-02/</guid>
+      <description>Swiftで関数を作る方法です。 最近はネット記事を見ないでも見なくても書けるようになってきました。</description>
+    </item>
+    <item>
+      <title>Array(Swift4.2)</title>
+      <link>http://localhost:58986/2019-01-01/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2019-01-01/</guid>
+      <description>#Swift4.2&#xA;Swiftの配列です。配列の作成と呼び出しについて記載します。&#xA;#Swift3の記事はこちら&#xA;Array</description>
+    </item>
+    <item>
+      <title>Print(Swift4.2)</title>
+      <link>http://localhost:58986/2018-12-31/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-31/</guid>
+      <description>#Swift4.2&#xA;print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。</description>
+    </item>
+    <item>
+      <title>UITableViewの中身をUISearchBarで検索する(Swift4)</title>
+      <link>http://localhost:58986/2018-12-30/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-30/</guid>
+      <description>#Swift4.2&#xA;UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。&#xA;Swift3　での記事はこちら</description>
+    </item>
+    <item>
+      <title>アプリ使用中に位置情報を取得する</title>
+      <link>http://localhost:58986/2018-12-29/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-29/</guid>
+      <description>#Swift 4.2&#xA;アプリ使用中に緯度と経度を取得するサンプルコードです。&#xA;端末の緯度と経度が変わるとラベル文字列が更新されます。&#xA;参考&#xA;[iOS] 位置情報の取得 (Swift3編)&#xA;【CoreLocation】位置情報を取得する&#xA;LocationManagerを使用する場合は、「位置情報を利用する目的」をInfo.plistに記載する必要があります。&#xA;起動中のみ位置情報を取得する場合&#xA;NSLocationWhenInUseUsageDescription&#xA;このアプリは、マップで道案内するため、位置情報を取得します&#xA;常に位置情報を取得する場合&#xA;NSLocationAlwaysUsageDescription&#xA;åこのアプリは、移動距離取得のため、常に位置情報を取得します&#xA;位置情報が変更されるとラベルに文字が表示されます。</description>
+    </item>
+    <item>
+      <title>Lifesumアプリのインタラクションが素敵だったので再現してみた</title>
+      <link>http://localhost:58986/2018-12-28/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-28/</guid>
+      <description>#Swift4.2&#xA;Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。&#xA;インタラクションの凄さと登録導線離脱率の相関が気になりますね。</description>
+    </item>
+    <item>
+      <title>押すとクニュっとするボタンを実装する</title>
+      <link>http://localhost:58986/2018-12-27/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-27/</guid>
+      <description>#Swift 4.2&#xA;押すとクニュっとするボタンのサンプルコードです。&#xA;iOSでよくあるマイクロインタラクションです。&#xA;僕はマイクロインタラクション大好きなんですが、エンジニアやデザイナーの自己満なんでしょうかね？&#xA;わからんとです。</description>
+    </item>
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(Ubuntu14.04)</title>
+      <link>http://localhost:58986/2018-12-26/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-26/</guid>
+      <description>&#xA;Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。&#xA;CentOS7はこちら CentOS6はこちら&#xA;参考 Docker 初心者 — ssh で接続できるサーバーを立てる&#xA;$ docker build -t ssh_ubuntu14:latest . --no-cache $ docker run -d -p 2222:22 ssh_ubuntu14:latest $ ssh-keygen -R [localhost]:2222 $ ssh -p 2222 kabigon@localhost </description>
+    </item>
+    <item>
+      <title>Alamofireを使ってAPIからJSONを取得する(Swift4.2)</title>
+      <link>http://localhost:58986/2018-12-01/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-12-01/</guid>
+      <description>古い記事(Swift3)は こちら Alamofireを使ってAPIからJSONを取得する&#xA;#Xcode 10.1&#xA;#Swift 4.2&#xA;swiftの有名な通信ライブラリであるAlamofireとこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、　お天気APIから情報を取得するサンプルです。&#xA;今回のサンプルでは非同期でJSONを取得し、アラートを表示します。&#xA;ATS の設定も必要なのでお忘れなく。</description>
+    </item>
+    <item>
+      <title>Xcode10でプロジェクト名を変更する</title>
+      <link>http://localhost:58986/2018-11-12/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-11-12/</guid>
+      <description>こちらの記事を参考にさせていただきました。&#xA;ありがとうございます！&#xA;参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを&#xA;Xcodeでプロジェクト名を変更する方法 (Xcode8.0)&#xA;今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。&#xA;1.Xcodeからプロジェクト名を変更する 右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。&#xA;確認とアラートが出るので、　rename　ボタンを押してリネームする。&#xA;2.Schemeの変更 画面上部のメニューから「Product」-&amp;gt; 「Scheme」-&amp;gt;「Manage Schemes」 を選択します。&#xA;アラートが表示されたら左下の 「+」 ボタンを選択し、新しいターゲット(リネーム後のターゲーット)を追加します。&#xA;新しいターゲットを追加したら、古いターゲットを削除し、 close　します。&#xA;3.Podfileの修正&#xA;CocoaPodsを使っている場合は、podファイルも修正が必要です。&#xA;targetの箇所に新しいプロジェクト名を入力してください。&#xA;podfileの修正が完了したら、Podディレクトリを削除し、　もう一度 pod install　を行います。&#xA;前のプロジェクト名の.workplaceファイルは不要なので削除します。&#xA;pod installが終わったら、General の　Linked Frameworks and Libraries を開き、半透明になっている古いプロジェクト名のLinkを削除します。&#xA;この状態でビルドし、エラーが出ないことを確認してください。&#xA;5.ディレクトリ名の修正&#xA;最後に手作業でディレクトリ名を新しい名前に修正します。&#xA;ディレクトリ名を修正するとXcodeが認識しなくなってしまうので、 Identity and Type で新しいディレクトリを登録します。&#xA;info.plist の読込先も間違っているので修正します。&#xA;これで完了です！&#xA;2019/06/20 追記&#xA;リネームを行うとUnitTest, UITest が実行できなくなってしまいました。&#xA;Target を一度削除して、作り直すとうまく動作しました。</description>
+    </item>
+    <item>
+      <title>グループスタイルのTableViewを作成する</title>
+      <link>http://localhost:58986/2018-09-20/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-09-20/</guid>
+      <description>グループスタイルのテーブルビューを表示するサンプルコードです 設定画面などはこんな感じですね。</description>
+    </item>
+    <item>
+      <title>SafeAreaを取得する</title>
+      <link>http://localhost:58986/2018-09-19/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-09-19/</guid>
+      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。&#xA;SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。</description>
+    </item>
+    <item>
+      <title>iOSでバーコードを読み取る</title>
+      <link>http://localhost:58986/2018-09-17/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-09-17/</guid>
+      <description>Swiftでバーコードを読み取るサンプルコードです。 Swift 4.1&#xA;// 参考にさせて頂いたサイトです&#xA;Swift 4でQRコードを読み取る&#xA;AVFoundation(AVCaptureMetadataOutput)でバーコードリーダーを作ってみた&#xA;まず、info.plistに Privacy - Camera Usage Description のキーを追加し、使用理由を記述します。 「バーコードリーダー読み込みます」などなど。 この文言は使用許可を求める時に表示されます。</description>
+    </item>
+    <item>
+      <title>CollectionViewにSearchBarをつけて検索する</title>
+      <link>http://localhost:58986/2018-07-18/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-07-18/</guid>
+      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。</description>
+    </item>
+    <item>
+      <title>流れるように動く背景を実装する</title>
+      <link>http://localhost:58986/2018-06-28/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-06-28/</guid>
+      <description>私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きました。&#xA;アプリのアイコン画像がViewの背景を流れます。&#xA;またviewDidLoadにアニメーション関係のメソッドを書くと、NavigationBarの遷移によりアニメーションが止まってしまうことがあります。&#xA;その場合はアニメーション関係のメソッドをviewWillAppearに書き出すことで解決します。</description>
+    </item>
+    <item>
+      <title>PageViewControllerとPageControl</title>
+      <link>http://localhost:58986/2018-06-21/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-06-21/</guid>
+      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプルです。</description>
+    </item>
+    <item>
+      <title>CustomViewをコードで実装する</title>
+      <link>http://localhost:58986/2018-06-19/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-06-19/</guid>
+      <description>コードでカスタムビューを作り表示するサンプルです。&#xA;私はxibやstoryboradを使わずに実装するのが好きですが、何がベストなのでしょうか。</description>
+    </item>
+    <item>
+      <title>UITabBarControllerにUINavigationControllerを入れ子で実装する</title>
+      <link>http://localhost:58986/2018-06-03/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-06-03/</guid>
+      <description>UITabBarControllerにUINavigationControllerを入れるコードです。 UITabBarControllerにUINavigationBarControllerを入れて実装しています。&#xA;新しい記事があります。&#xA;UITabBarControllerにUINavigationControllerを入れ子で実装する</description>
+    </item>
+    <item>
+      <title>UITabBarControllerを実装する</title>
+      <link>http://localhost:58986/2018-06-02/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-06-02/</guid>
+      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。&#xA;UITabBarControllerのアイコンは30×30の透過pngです。</description>
+    </item>
+    <item>
+      <title>Asset CatalogでColor Setを使って色を管理する</title>
+      <link>http://localhost:58986/2018-05-24/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-05-24/</guid>
+      <description>Xcode9(iOS 11)から、色をAssetで管理することができるようになりました。&#xA;UIColorのExtensionを作って色を登録して関数作ったりしてごにょごにょしなくて良くなりました。&#xA;色の管理がしやすくなりましたし、デザイナーさんとの連携もちょっとしやすくなったのかな？って思いました。&#xA;とても良い機能なんですが、iOS１１以上でしか動かないので注意が必要です。&#xA;Deployment Targetを11.0以上にしないと警告が出ます。&#xA;Assetを開いて右クリック -&amp;gt; 「New Color Set」を選択&#xA;ここでは「original」という名前で濃い緑色を登録</description>
+    </item>
+    <item>
+      <title>Appleのエンジニアさんにコードレベルの質問を送ってみた</title>
+      <link>http://localhost:58986/2018-05-21/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-05-21/</guid>
+      <description>「AppleDeveloperの登録料が高すぎる」と友達からよく言われるんですが、高いだけあって良いところもたくさんあります。&#xA;その中の一つがTechnical Support Incident（TSI）で、修正できないバグや問題をコードのレベルでAppleのエンジニアさんが質問に答えてくれたり、相談に乗ってくれます。&#xA;AppleDeveloperProgramを登録or更新すると2回テクニカルサポートの権利がもらえます。&#xA;以前、目覚まし時計のアプリを作っており、その途中で解決できないバグがありました。&#xA;具体的には「iPhoneのロック中に通知の音が鳴らない」というもので、シミュレーターでは動くのに、実機ではそのバグが現れます。&#xA;自分では解決できなかったため、DTIを使うことにしました。&#xA;まず、バグの部分を切り出したXcodeのプロジェクトを作り、githubに上げました。&#xA;次に「タイトル」、「バグの説明」、「再現手順」、「(リリース済みアプリの場合は)App NameとApp ID」を英語で書き、アカウントページの Code-Level Support のフォーム(https://developer.apple.com/account/?view=support)から送りました。&#xA;すぐに自動返信メールがくるので、そのメールにバグの部分を切り出したXcodeのプロジェクト(github に上げたものと同じもの)を添付して返信しました。&#xA;２日後にAppleのエンジニアさんから返事が届きました。&#xA;「Xcodeプロジェクトと再現手順ありがとう！君の手順どうりにやったんだけど、僕の環境ではバグは出なかったよ。他の端末でチェックしてみて」といった内容で、妻と友達の端末を借りて動かしたらちゃんと動きました。&#xA;僕のiPhoneが壊れていたみたいです。。。orz&#xA;つまらないオチですが、Appleのエンジニアさんが実際にコードを動かして試してくれるのはとてもありがたく、本当に詰まった時はありがたいなと思いました。&#xA;それでは良いSwiftライフをーー！&#xA;AppleDeveloper -テクニカルサポートのリクエスト-&#xA;https://developer.apple.com/jp/support/technical/</description>
+    </item>
+    <item>
+      <title>UIViewの背景をグラデーションさせる</title>
+      <link>http://localhost:58986/2018-05-06/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-05-06/</guid>
+      <description>&#xA;UIViewの背景をグラデーションさせるサンプルコードです。&#xA;参考にさせていただいたページ&#xA;【Swift x iOSアプリ開発】Viewの背景色にグラデーションを設定する方法 Swift UIViewの背景をグラデーションさせる方法　-iPhoneアプリ開発- </description>
+    </item>
+    <item>
+      <title>カスタムボタンクラスを実装する</title>
+      <link>http://localhost:58986/2018-05-02/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-05-02/</guid>
+      <description>UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。&#xA;見た目を別ファイルに切り分けることでViewControllerがすっきりします。</description>
+    </item>
+    <item>
+      <title>TableViewを編集してCellを削除する</title>
+      <link>http://localhost:58986/2018-04-24/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-04-24/</guid>
+      <description>TableViewを編集してCellを削除するサンプルコードです。&#xA;NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。&#xA;NavigationControllerについてはこの記事を参考にしてください。&#xA;NavigationControllerを実装する</description>
+    </item>
+    <item>
+      <title>TableViewを編集してCellを削除する(横スライド)</title>
+      <link>http://localhost:58986/2018-04-23/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-04-23/</guid>
+      <description>&#xA;TableViewを編集してCellを削除するサンプルコードです。&#xA;以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。&#xA;func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) </description>
+    </item>
+    <item>
+      <title>数字を三桁ごとにカンマ区切りにする(日本円の表示)</title>
+      <link>http://localhost:58986/2018-04-23/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-04-23/</guid>
+      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。&#xA;123,456,789円 みたいな感じです。&#xA;参考に指せて頂いた記事&#xA;[Swift]数字を三桁ごとにカンマ区切りにする</description>
+    </item>
+    <item>
+      <title>現在の日付と曜日、現在時間を取得する</title>
+      <link>http://localhost:58986/2018-04-20/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-04-20/</guid>
+      <description>Swift4.1で現在の日付と曜日、現在時間を取得するサンプルコードです。&#xA;以下の形式の文字列で取得してくれます。&#xA;2018/04/03 (木)&#xA;19:03:34&#xA;上のような形式で取得するサンプルコードです。&#xA;Calendar.currentで取得すると、設定によっては和暦(平成〇〇年)で取得してしまう可能性があるので(2018/04/03が欲しいのに30/04/03が帰ってくる)、グレゴリオ暦で取得する方が無難です。&#xA;逆に和暦が欲しいときは和暦で取得する方法もあります。&#xA;このサイトが詳しいです。&#xA;Swift 3 の日時操作チートシート&#xA;その他参考にさせていただいたサイト&#xA;Swift3での日時に関する処理&#xA;【Swift3】現在時刻の取得とDataFormatterでの文字列化</description>
+    </item>
+    <item>
+      <title>CustomTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ</title>
+      <link>http://localhost:58986/2018-04-05/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-04-05/</guid>
+      <description>CustomTableViewCellを作ると好きなレイアウトのCellをTableViewで使うことができます。&#xA;そしてTableViewCellのアクセサリービューにはUISwitchやチェックマークなどのアクセサリをつけることができます。&#xA;今回はその両方を使ったサンプルコードです。&#xA;参考にさせて頂いたウェブサイト&#xA;[Swift]UITableViewCellのaccessoryViewでaccessoryButtonTappedForRowWithIndexPathが来ない件の対応</description>
+    </item>
+    <item>
+      <title>UIAlertControllerにTextFieldを追加する</title>
+      <link>http://localhost:58986/2018-03-17/</link>
+      <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-17/</guid>
+      <description>UIAlertControllerにTextFieldを追加したサンプルです。</description>
+    </item>
+    <item>
+      <title>NavigationControllerを実装する</title>
+      <link>http://localhost:58986/2018-03-15/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-15/</guid>
+      <description>NavigationContorollerのサンプルコードです。&#xA;NavigationContorollerは横にニュッと動いて画面遷移をします。</description>
+    </item>
+    <item>
+      <title>文字列やURLからQRコードを生成する</title>
+      <link>http://localhost:58986/2018-03-07/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-07/</guid>
+      <description>文字列やURLからQRコードを生成するサンプルコードです。&#xA;This is a sample code that generates a QR code from a character string or URL.&#xA;これらの記事を参考にさせていただきました。&#xA;CIImageをData型に変換したときにハマった時の対処法(Swift3.0)&#xA;SwiftでQRコードを生成してみた&#xA;生成したQRコードはこちらです。</description>
+    </item>
+    <item>
+      <title>UIAlertControllerでアラートを表示する</title>
+      <link>http://localhost:58986/2018-03-06/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-06/</guid>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。&#xA;UIAlertControllerStyle.alert をUIAlertControllerStyle.actionSheet にするとニュッと下から出るタイプのアラートになります。</description>
+    </item>
+    <item>
+      <title>UIAlertControllerで下からニュッと出す(UIActionSheet)</title>
+      <link>http://localhost:58986/2018-03-05/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-05/</guid>
+      <description>下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。&#xA;遥か昔、下からニュッと出てくるアラートはUIActionSheetなんて呼ばれている時期もありましたが、UIAlertControllerに統合されました。</description>
+    </item>
+    <item>
+      <title>列挙型 enum</title>
+      <link>http://localhost:58986/2018-03-04/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-04/</guid>
+      <description>列挙型、enumの書き方のサンプルコードです。&#xA;ここではpersonというクラスを作り、カビゴンさんの名前と出身地をenumを用いて登録しています。</description>
+    </item>
+    <item>
+      <title>iPhoneアプリのプログラミングの勉強法</title>
+      <link>http://localhost:58986/2018-03-03/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-03-03/</guid>
+      <description>「iPhoneアプリを作るには何から勉強したらいい？」と友達にちょくちょく聞かれるのでオススメの勉強法をまとめてみました。&#xA;iPhoneアプリの勉強方に王道が無いと思いますが、良かったら参考にしてください。&#xA;1.書籍で勉強する&#xA;まずはじめに書籍で勉強することをオススメします。&#xA;Webページは見返すことが難しかったり、情報が古かったりすることが多いので、やはり初めに書籍を写経することを勧めます。&#xA;最近の本はどれも良い本なので、どれを買っても良いと思いますが、以下の本が特にオススメです。&#xA;また、書籍は環境に合わせたもの(可能であれば新しいもの)を買ってください。&#xA;Swift4でだいぶ落ち着いてきたのですが、Swiftの書き方とXcodeのUIはバージョンでだいぶ異なります。&#xA;初めてXcodeに気をつけてください。&#xA;2.アプリをリリースしてみる&#xA;「いきなりかよ！」と思うかもしれませんが、書籍で勉強したらアプリをリリースしてみることをオススメします。&#xA;初めてのアプリなので、本当に簡単なもの、書籍のアプリを少し手を加えたものを作り、リリースします。(実際にリリースしなくても審査には出す)&#xA;あまりに簡単なアプリは審査でリジェクトされてしまうので、一捻りを加えたアプリを出しましょう。&#xA;開発者の登録や、審査など苦しむことも多いですが、とても勉強になります。&#xA;「こういう機能はどうやって実現したら良いの？」みたいな質問は大歓迎です。&#xA;気軽にコメント欄にご記入ください。（ブログのネタ不足で困っています。。。）&#xA;3.Cocoa Podsを覚える、ライブラリを使う&#xA;iOSアプリ開発用にPodsと呼ばれるライブラリ管理ツールがデファクトスタンダードです。&#xA;gemやnpmやHomeBrewに近いのかもしれません。&#xA;ライブラリを入れるとカッコいいUIが簡単に作れたり、通信周りの処理が楽になったりします。&#xA;何か参考になりましたら幸いです。</description>
+    </item>
+    <item>
+      <title>UserDefaultsを使ってパラメーターを保存する</title>
+      <link>http://localhost:58986/2018-01-17/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-01-17/</guid>
+      <description>UserDefaultsはアプリを落としても保持しておきたいデータを保存するときに使います。&#xA;使い方はいたってシンプルです。&#xA;サンプルコードでは、まず最初に userDefaults.register(defaults: [&amp;quot;KEY_LabelText&amp;quot;: &amp;quot;Hello&amp;quot;]) で初期値を設定しています。&#xA;.register（） はとても便利で、指定したキーに対応するデータが存在しない場合に、初期値を入れてくれます。&#xA;次にラベルにUserDefaultで保存した値を読み取り、ラベルのテキストに反映。&#xA;そしてボタンを押されたらuserdefaultsとラベルの値を更新しています。</description>
+    </item>
+    <item>
+      <title>UIPickerViewを使って値を選択する</title>
+      <link>http://localhost:58986/2018-01-14/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2018-01-14/</guid>
+      <description>はいどーも！&#xA;UIPickerViewを使って値を取得するサンプルコードです。&#xA;PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。&#xA;今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。&#xA;新しい記事は こちら&#xA;AppleDeveloperDocuments&#xA;UIPickerView</description>
+    </item>
+    <item>
+      <title>一定時間で繰り返しを行う</title>
+      <link>http://localhost:58986/2017-12-13/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-12-13/</guid>
+      <description>Timeを使って3秒ごとに繰り返しを行います。&#xA;時計のような機能を持つアプリを作る時に使いました。</description>
+    </item>
+    <item>
+      <title>カスタムレイアウトを持つコレクションビューをつくる</title>
+      <link>http://localhost:58986/2017-11-27/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-11-27/</guid>
+      <description>今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べました。&#xA;主なコードは以下のサイトを参考にさせていただきました。&#xA;本当にありがとうございました。&#xA;Swift2-&amp;gt;4の変換は大変でした。。。&#xA;iOS UICollecionViewFlowLayout でカスタムレイアウトを作ろう ～ Swift版</description>
+    </item>
+    <item>
+      <title>SwiftでUDP通信を行い、文字列を送る</title>
+      <link>http://localhost:58986/2017-11-26/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-11-26/</guid>
+      <description>SwiftでUDP通信するメモです。&#xA;SwiftSocket をcocoapodsで入れて、こんな感じで書きました。&#xA;woom-02と通信するのに使いました。</description>
+    </item>
+    <item>
+      <title>Swift3からSwift4への移行時に出る@objc inference warningsを消す</title>
+      <link>http://localhost:58986/2017-11-25/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-11-25/</guid>
+      <description>Xcode8からXcode9へ乗り換えてSwift4へ変換すると以下のエラーが出ます。それの消し方です。&#xA;The use of Swift 3 @objc inference in Swift 4 mode is deprecated. Please address deprecated @objc inference warnings, test your code with “Use of deprecated Swift 3 @objc inference” logging enabled, and then disable inference by changing the &amp;#34;Swift 3 @objc Inference&amp;#34; build setting to &amp;#34;Default&amp;#34; for the &amp;#34;TargetName&amp;#34; target. 各ターゲットを選択 -&amp;gt; Build Settings -&amp;gt; 検索窓で inference と検索 -&amp;gt; Swift @objc inference を Default　に設定する　他にもターゲット(UITest,UnitTest)がある場合はそれも Default　に設定する。</description>
+    </item>
+    <item>
+      <title>UIScrollViewで画像をピンチで拡大したり縮小する</title>
+      <link>http://localhost:58986/2017-11-13/</link>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-11-13/</guid>
+      <description>UIScrollViewの中にある画像を拡大したり縮小するサンプルです。&#xA;ピンチで画像を大きくしたり、小さくします。</description>
+    </item>
+    <item>
+      <title>UINavigationControllerの戻るボタンの戻るを消す</title>
+      <link>http://localhost:58986/2017-10-14/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-10-14/</guid>
+      <description>&#xA;UINavigationControllerの戻るボタンの文字を消します。&#xA;「＜戻る」を「＜」にします。&#xA;let backButton = UIBarButtonItem(title: &amp;#34;&amp;#34;, style: .plain, target: nil, action: nil) self.navigationItem.backBarButtonItem = backButton self.navigationController?.pushViewController(picDetailView, animated: true) </description>
+    </item>
+    <item>
+      <title>○秒後に実行させる、毎秒実行する</title>
+      <link>http://localhost:58986/2017-10-13/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-10-13/</guid>
+      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。&#xA;一秒ごとにコンソールに出力されます。</description>
+    </item>
+    <item>
+      <title>UITableViewにヘッダーを設定する</title>
+      <link>http://localhost:58986/2017-10-08/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-10-08/</guid>
+      <description>UITableViewにヘッダーを設定するサンプルです。&#xA;フッターも同様に設定することができます。</description>
+    </item>
+    <item>
+      <title>UICollectionViewにCustomセルを追加する</title>
+      <link>http://localhost:58986/2017-10-03/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-10-03/</guid>
+      <description>UICollectionViewにCustumCollectionセルを追加してみました。&#xA;クラス名を文字列に変換する NSStringFromClass(CustumCollectionViewCell.self) は、UITableViewやUICollectionView を使うときにとても便利です。</description>
+    </item>
+    <item>
+      <title>UICollectionView</title>
+      <link>http://localhost:58986/2017-10-02/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-10-02/</guid>
+      <description>新しい記事 があります。&#xA;UICollectionViewのサンプルです。&#xA;UICollectionViewを使う を参考にさせていただきました。&#xA;このサイトは見やすくて、swiftをやる人にとてもオススメです。&#xA;makeColor() 関数でランダムに生成した色をセルに入れています。&#xA;スクロールするたびに色が変わります。</description>
+    </item>
+    <item>
+      <title>輸出コンプライアンスのウィザードをスキップする</title>
+      <link>http://localhost:58986/2017-08-12/</link>
+      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-08-12/</guid>
+      <description>アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。&#xA;毎回聞かれるとスキップしたくなります。&#xA;Info.plist の ITSAppUsesNonExemptEncryption を NO にするとスキップすることができます。</description>
+    </item>
+    <item>
+      <title>Alamofireを使ってAPIからJSONを取得する</title>
+      <link>http://localhost:58986/2017-07-09/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-07-09/</guid>
+      <description>新しい記事(Swift4)はこちらAlamofireを使ってAPIからJSONを取得する(Swift4.2)&#xA;swiftの有名な通信ライブラリである Alamofire とこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、お天気API から情報を取得するサンプルです。&#xA;今回のサンプルでは非同期でJSONを取得し、アラートを表示します。</description>
+    </item>
+    <item>
+      <title>delegateで別のViewからメソッドを呼び出す</title>
+      <link>http://localhost:58986/2017-07-08/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-07-08/</guid>
+      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。&#xA;今回はモーダル表示したViewから、元々いたViewの背景色をデリゲートを使って変えています。</description>
+    </item>
+    <item>
+      <title>Swiftでクラス名と関数名と行番号を取得、表示する</title>
+      <link>http://localhost:58986/2017-06-15/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-06-15/</guid>
+      <description>&#xA;「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。&#xA;クラス名と行番号、取得表示することができます。&#xA;print(&amp;#34;Class name : \(NSStringFromClass(type(of: self))) &amp;#34;) print(#function, #line) </description>
+    </item>
+    <item>
+      <title>UIImagePickerControllerで画像の選択</title>
+      <link>http://localhost:58986/2017-06-14/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-06-14/</guid>
+      <description>iPhoneのフォトライブラリから画像を取得するサンプルプログラムです。&#xA;フォトライブラリから画像を選択するために、プロジェクトの info.plist にフォトライブラリを使用する旨を記述します。&#xA;これを書いておかないとUIImagePickerControllerは使えません。&#xA;キーの値は以下の値を使います。&#xA;NSPhotoLibraryUsageDescription&#xA;Typeは String でValueの中に使用理由を書きます。&#xA;使用理由を書かないと審査の時に落とされるらしいです。&#xA;下の画像のような感じです。&#xA;コードは以下のようになります。</description>
+    </item>
+    <item>
+      <title>Swiftで音楽を再生する</title>
+      <link>http://localhost:58986/2017-06-05/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-06-05/</guid>
+      <description>Swiftで音楽を簡単に再生するサンプルコードです。 リピート再生も簡単にできました。 サンプルコードにはないですが、ちゃんとエラーハンドリングしましょう。</description>
+    </item>
+    <item>
+      <title>UIStatusBarを白くする</title>
+      <link>http://localhost:58986/2017-05-16/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-16/</guid>
+      <description>UIStatusBarを白くする方法についてです。 UIStatusBarを白くする方法その1&#xA;UIStatusBarを白くする方法その1です。特定のViewControllerを白くする方法です。白くしたいUIViewControllerに書きます。&#xA;NavigationController以下にあるStatusBarはこの方法では白くはなりませんので注意してください。&#xA;UIStatusBarを白くする方法その2&#xA;全てのStatusBarを白くする方法です。&#xA;プロジェクトのターゲットのinfoに[Status bar style]と[UIStatusBarStyleLightContent]、[View controller-based status bar appearance]と[NO]を追加します。NavigationController以下にあるStatusBarも白くなります。&#xA;わかりやすいようにViewの背景色をオレンジにしています。</description>
+    </item>
+    <item>
+      <title>UITableViewとUISearchBar</title>
+      <link>http://localhost:58986/2017-05-15/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-15/</guid>
+      <description>UITableViewとUISearchBarを組み合わせたサンプルです。&#xA;ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。&#xA;UITableView&#xA;基本的なテーブルビューの例文を以下に示します。</description>
+    </item>
+    <item>
+      <title>UserNotification(LocalNotification)</title>
+      <link>http://localhost:58986/2017-05-14/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-14/</guid>
+      <description>UserNotificationはユーザーに対して通知を発行する時に使用します。&#xA;UserNotificationは大きく分けて二種類あり、外部から通知を発行できるRemoteNotification(LineやTwitterのような通知)とLocalNotification(時計アプリなどの内部的に発行する通知)があります。&#xA;ここではLocalNotificationを取り扱います。&#xA;UserNotificationサンプル&#xA;初めにオリジナル通知音の発行に使用する音データ(.cafファイル)をプロジェクトに登録します。&#xA;.caf ファイルをプロジェクトに追加し、BundleResoucesに登録されていることを確認します。&#xA;また使用したcafファイルはこちらです。&#xA;UserNotificationの仕様として、使用するオリジナル通知音に不具合がある場合、デフォルトの通知音が再生されます。</description>
+    </item>
+    <item>
+      <title>音声認識(SFSpeechRecognizer)</title>
+      <link>http://localhost:58986/2017-05-13/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-13/</guid>
+      <description>iOS10からSpeech Frameworkが登場しました。&#xA;ここではSFSpeechRecognizerを使って音声認識をしてみようと思います。&#xA;そしてシミュレーターでは動かないから気をつけてください。&#xA;参考: AppleDeveloper:SpeakToMe: Using Speech Recognition with AVAudioEngine&#xA;参考: あたも開発ブログ&#xA;参考: 【iOS 10】Speechフレームワークで音声認識 – 対応言語リスト付き&#xA;プライバシー設定をinfo.plistに記入&#xA;iOS10になってから、プライバシーに関する機能(通知、カメラ、フォトライブラリへのアクセス)を使う際に、Info.plistにあらかじめ使うことを書いておかないとアプリが落ちてしまうようになりました。&#xA;音声認識機能を使う場合は以下のプライバシー設定を行う必要があります。&#xA;参考: アプリ開発ブログ（仮）&#xA;info.plistを開き、Privacy – Speech Recognition Usage DescriptionをStringで追加し、右側に使用目的を記入します。&#xA;Privacy – Microphone Usage Description to practice programingもまたStringで追加し、右側に使用目的を記入します。&#xA;使用目的が書かれていないと審査で落とされるらしいです。&#xA;サンプルコード&#xA;音声認識の結果をAlertで表示するプログラムです。</description>
+    </item>
+    <item>
+      <title>UITextField</title>
+      <link>http://localhost:58986/2017-05-12/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-12/</guid>
+      <description>UITextFieldは文字の入力に使われます。&#xA;UITextFieldのクラス階層&#xA;NSObject&#xA;↑&#xA;UIResponder&#xA;↑&#xA;UIView&#xA;↑&#xA;UIControl&#xA;↑&#xA;UITextField&#xA;AppleDeveloperリファレンスUITextField&#xA;UITextField例文&#xA;UITextField、生成し、ボタンが押されるとUITextFieldから文字列を取り出してラベルにコピーします。</description>
+    </item>
+    <item>
+      <title>cafファイルの作成</title>
+      <link>http://localhost:58986/2017-05-11/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-11/</guid>
+      <description>&#xA;.cafファイルはiOSに用いられる音声ファイル形式です。以下はwavファイルを同名で出力するコマンドです。&#xA;afconvert -f caff -d ima4 ファイル名.wav </description>
+    </item>
+    <item>
+      <title>UINavigationBar</title>
+      <link>http://localhost:58986/2017-05-10/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-10/</guid>
+      <description>iOSアプリの画面上部によく使われているUINavigationBarについてです。&#xA;UINavigationBarのクラス階層&#xA;NSObject&#xA;↑&#xA;UIResponder&#xA;↑&#xA;UIView&#xA;↑&#xA;UINavigationBar&#xA;AppleDeveloperリファレンスUINavigationBar&#xA;UINavigationBar例文&#xA;UINavigationBarを生成し、タイトルとボタンを付けます。</description>
+    </item>
+    <item>
+      <title>UILabel</title>
+      <link>http://localhost:58986/2017-05-09/</link>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-09/</guid>
+      <description>UILabelクラスは文字表示を管理するクラスです。画面に文字を表示させたい時に使用します。&#xA;UILabelのクラス階層&#xA;NSObject&#xA;↑&#xA;UIResponder&#xA;↑&#xA;UIView&#xA;↑&#xA;UILabel&#xA;AppleDeveloperリファレンス UILabel&#xA;UILabelサンプル&#xA;サンプルコード&#xA;UILabelのカスタマイズ&#xA;UILabelにタッチイベントを実装 参考: [Swift2.0] UILabelとUIImageViewのタップイベント処理を実装する</description>
+    </item>
+    <item>
+      <title>現在時刻の取得</title>
+      <link>http://localhost:58986/2017-05-08/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-08/</guid>
+      <description>現在時間を取得します。&#xA;AppleDeveloperリファレンスNSCalender&#xA;サンプルプログラム&#xA;以下に示します</description>
+    </item>
+    <item>
+      <title>UITableView</title>
+      <link>http://localhost:58986/2017-05-07/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-07/</guid>
+      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。&#xA;UITableViewのクラス階層&#xA;NSObject&#xA;↑&#xA;UIResponder&#xA;↑&#xA;UIView&#xA;↑&#xA;UIScrollView&#xA;↑&#xA;UITableView&#xA;AppleDeveloperリファレンスUITableView&#xA;UITableView&#xA;二つのグループの場合です。</description>
+    </item>
+    <item>
+      <title>UIButton</title>
+      <link>http://localhost:58986/2017-05-05/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-05/</guid>
+      <description>UIButtonクラスはボタンを設置するためのクラスです。&#xA;ボタンタップでアクションを起こすことができます。&#xA;UIButtonのクラス階層&#xA;NSObject&#xA;↑&#xA;UIResponder&#xA;↑&#xA;UIView&#xA;↑&#xA;UIControl&#xA;↑&#xA;UIButton&#xA;AppleDeveloperリファレンスUIButton&#xA;UIButton例文&#xA;様々なUIButtonのサンプルです</description>
+    </item>
+    <item>
+      <title>UIBarButtonItem</title>
+      <link>http://localhost:58986/2017-05-04/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-04/</guid>
+      <description>&#xA;UINavigationBarの要素追加、カスタマイズに用いられるUIBarButtonItemについてです。&#xA;UIBarButtonItemのクラス階層&#xA;NSObject&#xA;↑&#xA;UIBarItem&#xA;↑&#xA;UIBarButtonItem&#xA;AppleDeveloperリファレンスUIBarButtonItem&#xA;UIBarButtonItem例文&#xA;UINavigationBarを生成し、タイトルとボタンを付けます。&#xA;UIBarButtonItemの色の変更&#xA;UIBarButtonItemはデフォルトでは青色ですが、以下の方法で色を指定することができます。&#xA;Change color of Back button in navigation bar&#xA;//ナビゲーションボタンの色を変更する UINavigationBar.appearance().tintColor = UIColor.black UIBarButtonSystemItem UIBarButtonSystemItemを用いることで、デフォルトに入っているボタンを使用することができます。&#xA;https://developer.apple.com/reference/uikit/uibarbuttonsystemitem&#xA;//barButtonSystemItem:に [.add]を設定することで[+]ボタンを設定する,上のコード参照 let leftNavBtn = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(leftBarBtnClicked(sender:))) Add Done Cancel Edit Save Compose Reply Action Organize Bookmarks Search Refresh Stop Camera Trash Play Pause Rewind Undo Redo PageCurl </description>
+    </item>
+    <item>
+      <title>Dictionary</title>
+      <link>http://localhost:58986/2017-05-02/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-02/</guid>
+      <description>Swiftの辞書配列です。 辞書配列の作成と呼び出しについて記載します。&#xA;人によって辞書配列だったり、ハッシュだったり、マップだったりと、言い方が違うのが好きです。</description>
+    </item>
+    <item>
+      <title>Array</title>
+      <link>http://localhost:58986/2017-05-01/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2017-05-01/</guid>
+      <description>配列の書き方&#xA;Swiftの配列です。配列の作成と呼び出しについて記載します。&#xA;配列の追加、挿入、削除&#xA;配列の追加、挿入、削除をしてみます。</description>
+    </item>
+  </channel>
+</rss>

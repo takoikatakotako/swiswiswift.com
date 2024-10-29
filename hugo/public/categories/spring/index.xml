@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on すいすいSwift</title>
+    <link>http://localhost:58986/categories/spring/</link>
+    <description>Recent content in Spring on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/categories/spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Bootの起動時に文字列の配列を渡す</title>
+      <link>http://localhost:58986/2022-04-01/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-01/</guid>
+      <description>&#xA;Spring Bootの起動時に文字列の配列を渡す方法です。 以下のようなオプションを付与することで pokemons に文字列の配列を渡すことができます。&#xA;java \ -jar -Dexec.mainClass=com.swiswiswift.spring.Application build/libs/spring-0.0.1-SNAPSHOT.jar \ --pokemons=&amp;#39;&amp;#34;snorlax&amp;#34;,&amp;#34;pikachu&amp;#34;,&amp;#34;ditto&amp;#34;&amp;#39; </description>
+    </item>
+    <item>
+      <title>SpringBootでログをファイルに出力する</title>
+      <link>http://localhost:58986/2021-11-13/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-13/</guid>
+      <description>SpringBootでログをファイルに出力する方法です。 application.properties に logging.file.name=spring.log を追加するとログがファイルとしても出力されます。&#xA;ローカルではコンソールにログを出す、サーバーではコンソールとファイルにログを出したい場合は実行時にプロパティを渡すことで実現できます。&#xA;java spring.jar --server.port=80 --logging.file.name=spring.log 参考</description>
+    </item>
+    <item>
+      <title>SpringBootでマークダウンをHTMLに変換してThymeleafで表示する</title>
+      <link>http://localhost:58986/2021-11-03/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-11-03/</guid>
+      <description>SpringBootでマークダウンをHTMLに変換してThymeleafで表示する方法です。 マークダウンをHTMLに変換するライブラリとして flexmark-javaを使用しました。&#xA;build.gradle の dependencies に flexmark-java を追加します。&#xA;implementation &amp;#39;com.vladsch.flexmark:flexmark-all:0.62.2&amp;#39; markdown.html を作成し、Templateフォルダに追加します。&#xA;&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Markdown&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; [(${html})] &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; /markdown エンドポイントを追加します。 markdown 変数を変換し、 html 変数に入れています。&#xA;@GetMapping(&amp;#34;/markdown&amp;#34;) public String getMarkdown(Model model) { // create parser and renderer instance Parser parser = Parser.builder().build(); HtmlRenderer renderer = HtmlRenderer.builder().build() String markdown = &amp;#34;# hello\n## world\n![Fried Shrimp Triangle](http://imgur.com/Jjwsc.jpg \&amp;#34;Sample\&amp;#34;)&amp;#34; // convert to markdown to html Node document = parser.</description>
+    </item>
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその６</title>
+      <link>http://localhost:58986/2021-10-09/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-10-09/</guid>
+      <description>Springを使ってお問い合わせフォームを作るその６です。 今回は作ったアプリケーションをサーバーにデプロイしていきます。&#xA;conoha にログインし、サーバーを立てます。 OS は Ubuntu の20系で、一番小さい（安い）インスタンスを作成します。&#xA;サーバーが起動したらIPアドレスが表示されるのでそのIPアドレスをコピーします。 ここでは 160.251.74.232 がサーバーのIPアドレスです。 このIPアドレスはサーバーを起動する度に変わるので 160.251.74.232 ではなく表示された値を使用してください。&#xA;サーバーにログインします。&#xA;ssh root@160.251.101.154 初回接続時は以下の警告が出るので yes と入力します。&#xA;Are you sure you want to continue connecting (yes/no/[fingerprint])? パッケージの一覧、パッケージ本体の更新を行います。 何か聞かれたらとりあえず Y を入力します。&#xA;apt -y update apt -y upgrade Java11をインストールします。&#xA;apt -y install openjdk-11-jdk 11系が入ったことを確認します。&#xA;java --version openjdk 11.0.11 2021-04-20 OpenJDK Runtime Environment (build 11.0.11+9-Ubuntu-0ubuntu2.20.04) OpenJDK 64-Bit Server VM (build 11.0.11+9-Ubuntu-0ubuntu2.20.04, mixed mode, sharing) MySQLをインストールします。&#xA;apt -y install mysql-server MySQLが入ったことを確認します。</description>
+    </item>
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその５</title>
+      <link>http://localhost:58986/2021-10-08/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-10-08/</guid>
+      <description>&#xA;Springを使ってお問い合わせフォームを作るその５です。 前回自体でアプリケーションは大体できたので、今回からはサーバーへのアップロードの準備していきます。&#xA;作成したアプリケーションを .jar ファイルにします。 .jar ファイルにするとアプリケーションを１つのファイルにまとめることにできます。&#xA;./gradlew build .jar は build/libs に　spring-0.0.1-SNAPSHOT.jar という名前で書き出されるので確認します。&#xA;.jar ファイルがある場所で以下のコマンドが実行するとアプリケーションが起動します。 たとえば以下のコマンドを実行すると localhost:8080 で起動します。&#xA;java -jar spring-0.0.1-SNAPSHOT.jar プロパティを追加して実行することも可能です。 以下の例では localhost:80 でアプリケーションを起動します。&#xA;java -jar spring-0.0.1-SNAPSHOT.jar --server.port=80 </description>
+    </item>
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその４</title>
+      <link>http://localhost:58986/2021-10-07/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-10-07/</guid>
+      <description>Springを使ってお問い合わせフォームを作るその４です。 今回はフォームから DB に追加できるようにします。&#xA;getFormResult にインサートするメソッドを追加します。&#xA;@PostMapping(&amp;#34;/form/result&amp;#34;) public String getFormResult(@ModelAttribute ContactForm form, Model model) { model.addAttribute(&amp;#34;form&amp;#34;, form); jdbcTemplate.update(&amp;#34;INSERT INTO contact(name,email,message) Values(?,?,?)&amp;#34;, form.getName(), form.getEmail(), form.getMessage()); return &amp;#34;result&amp;#34;; } フォームから送られた情報が DB に保存されます。&#xA;最後に index.html を作成して完成です。&#xA;&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Index&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;a href=&amp;#34;/form&amp;#34;&amp;gt;&amp;lt;li&amp;gt;Form&amp;lt;/li&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;/form/list&amp;#34;&amp;gt;&amp;lt;li&amp;gt;List&amp;lt;/li&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; @GetMapping(&amp;#34;/&amp;#34;) public String getIndex() { return &amp;#34;index&amp;#34;; } 最終的なファイルはこちらです。</description>
+    </item>
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその３</title>
+      <link>http://localhost:58986/2021-10-06/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-10-06/</guid>
+      <description>Springを使ってお問い合わせフォームを作るその３です。 今回は Spring と DB を接続して前回作成した contact テーブルの一覧を表示します。&#xA;build.gradle を開き dependencied に org.springframework.boot:spring-boot-starter-data-jpa と mysql:mysql-connector-java:8.0.20 を追加します。&#xA;implementation &amp;#39;org.springframework.boot:spring-boot-starter-data-jpa&amp;#39; implementation &amp;#39;mysql:mysql-connector-java:8.0.20&amp;#39; src/main/resources/application.properties を開き、DBへの接続先情報を追加します。&#xA;spring.datasource.url=jdbc:mysql://127.0.0.1:3306/swiswiswift-db spring.datasource.username=root spring.datasource.password=password spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver list.html を作成します。&#xA;&amp;lt;!DOCTYPE HTML&amp;gt; &amp;lt;html xmlns:th=&amp;#34;https://www.thymeleaf.org&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Form List&amp;lt;/title&amp;gt; &amp;lt;meta http-equiv=&amp;#34;Content-Type&amp;#34; content=&amp;#34;text/html; charset=UTF-8&amp;#34;/&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;List&amp;lt;/h1&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div th:each=&amp;#34;contact : ${contacts}&amp;#34;&amp;gt; &amp;lt;p th:text=&amp;#34;&amp;#39;Name: &amp;#39; + ${contact[&amp;#39;name&amp;#39;]}&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p th:text=&amp;#34;&amp;#39;Email: &amp;#39; + ${contact[&amp;#39;email&amp;#39;]}&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p th:text=&amp;#34;&amp;#39;Message: &amp;#39; + ${contact[&amp;#39;message&amp;#39;]}&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; MyController にエンドポイントを追加します。localhost:8080/form/list にアクセスすると contact テーブルの一覧を取得して表示させます。</description>
+    </item>
+    <item>
+      <title>Springを使ってお問い合わせフォームを作るその１</title>
+      <link>http://localhost:58986/2021-10-04/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-10-04/</guid>
+      <description>Springを使ってお問い合わせフォームを作ります。 ユーザーがフォームにお問い合わせ内容を書いて投稿することができ、それを一覧で確認できるシステムを作ります。localhost:8080/form にアクセスするとフォームが表示され、入力後に投稿ボタンを押すとお礼メッセージと投稿内容が表示されます。&#xA;Spring Initilizer を使ってプロジェクトを作成します。 Spring Web, Spring Boot Actuator, Thymeleaf を追加し、プロジェクトを作成します。 作成したプロジェクトを IntelliJ で開き問題なく起動することを確認します。&#xA;ContactForm.java というファイルを作成します。 このファイルは Data Transfer Object（DTO）と呼ばれる種類のファイルで、ひとまとまりのデータを受け渡す時に便利なファイルです。&#xA;package com.swiswiswift.spring; public class ContactForm { private String name; private String email; private String message; public String getName() { return name; } public void setName(String name) { this.name = name; } // ...略 } form.html を作成します。localhost:8080/form へアクセスがあった場合表示されるフォームです。&#xA;&amp;lt;!DOCTYPE HTML&amp;gt; &amp;lt;html xmlns:th=&amp;#34;https://www.thymeleaf.org&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Form&amp;lt;/title&amp;gt; &amp;lt;meta http-equiv=&amp;#34;Content-Type&amp;#34; content=&amp;#34;text/html; charset=UTF-8&amp;#34;/&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;Contact Form&amp;lt;/h1&amp;gt; &amp;lt;form action=&amp;#34;#&amp;#34; th:action=&amp;#34;@{/form/result}&amp;#34; th:object=&amp;#34;${form}&amp;#34; method=&amp;#34;post&amp;#34;&amp;gt; &amp;lt;p&amp;gt;Name: &amp;lt;input type=&amp;#34;text&amp;#34; th:field=&amp;#34;*{name}&amp;#34;/&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Email: &amp;lt;input type=&amp;#34;text&amp;#34; th:field=&amp;#34;*{email}&amp;#34;/&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Message: &amp;lt;input type=&amp;#34;text&amp;#34; th:field=&amp;#34;*{message}&amp;#34;/&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;input type=&amp;#34;submit&amp;#34; value=&amp;#34;Submit&amp;#34;/&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; MyController を作成します。localhost:8080/form へアクセスしたら form.</description>
+    </item>
+    <item>
+      <title>SwiftでSpringBootで作られたAPIに文字列を渡す</title>
+      <link>http://localhost:58986/2020-12-02/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-02/</guid>
+      <description>SwiftでSpringBootで作られたAPIに文字列を渡した時にちょっと詰まったのでそれの忘備録です。&#xA;@RequestMapping(value = &amp;#34;&amp;#34;, method = RequestMethod.POST, produces = &amp;#34;application/json;charset=UTF-8&amp;#34;) public SampleBean request(@RequestBody String text) { SampleBean sampleBean = new SampleBean(); sampleBean.setText(text); return sampleBean; } @Data public class SampleBean implements Serializable { private String text; } このような Bean を返すエンドポイントを作りました。curl コマンドでエンドポイントを叩くと以下のようなレスポンスが返ってきます。想定通りの挙動です。&#xA;curl &amp;#34;http://localhost:8080/sample&amp;#34; \ -X POST \ -H &amp;#39;Content-Type: application/json&amp;#39; \ -d &amp;#39;Kabigon&amp;#39; \ | jq { &amp;#34;text&amp;#34;: &amp;#34;Kabigon&amp;#34; } 次にこのエンドポイントを Swift から叩きます。&#xA;レスポンスを SampleBean にデコードしてその中の text プロパティを表示すると ダブルクオート付きの文字列が表示されてしまいます。 それはSwift がダブルクオートを含めて Spring 側にデータを送信しているからです。 Swiftが行っているリクエストを curl コマンドに翻訳すると以下になります。</description>
+    </item>
+    <item>
+      <title>SpringBootでBeanを返すとプロパティ名のisが省略される</title>
+      <link>http://localhost:58986/2020-12-01/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-12-01/</guid>
+      <description>SpringBoot で boolean型 で isXXX という名前のプロパティを持つ Bean を返すとisが省略されたので、それ周りの挙動の確認のメモです。&#xA;@RequestMapping(value = &amp;#34;&amp;#34;, method = RequestMethod.GET, produces = &amp;#34;application/json;charset=UTF-8&amp;#34;) public SampleBean request() { SampleBean sampleBean = new SampleBean(); sampleBean.setName(&amp;#34;Kabigon&amp;#34;); sampleBean.setStudent(false); sampleBean.setIsHuman(true); return sampleBean; } @Data public class SampleBean implements Serializable { private String name; private boolean isStudent; private Boolean isHuman; } このような Bean を返すエンドポイントを作り、curl コマンドでそのエンドポイントを叩きます。&#xA;curl &amp;#34;http://localhost:8080/&amp;#34; \ -X GET \ -H &amp;#39;Content-Type: application/json&amp;#39; \ | jq { &amp;#34;name&amp;#34;: &amp;#34;Kabigon&amp;#34;, &amp;#34;isHuman&amp;#34;: true, &amp;#34;student&amp;#34;: false } このような JSON が返ってきます。boolean型の isStudent は is が省略されています。</description>
+    </item>
+    <item>
+      <title>IntelliJでJavaのGradleのプロジェクトを作成する</title>
+      <link>http://localhost:58986/2020-07-04/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-07-04/</guid>
+      <description>&#xA;IntelliJでJavaのGradleのプロジェクトを作成する方法です。 IntelliJを使うと簡単にプロジェクトを作ることができます。&#xA;build.gradle にメインクラスを指定する。&#xA;jar { manifest { attributes &amp;#39;Main-Class&amp;#39;: &amp;#39;com.charalarm.batch.Main&amp;#39; } } $ ./gradlew build # ビルド $ ./gradlew test -i # テスト $ java -jar ./build/libs/batch-1.0-SNAPSHOT.jar com.charalarm.batch # 実行 </description>
+    </item>
+    <item>
+      <title>Spring InitializrでアプリをSpringアプリを作成する</title>
+      <link>http://localhost:58986/2020-07-03/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2020-07-03/</guid>
+      <description>Spring Initializr でアプリをSpringアプリを作成する方法です。 Spring Initializr を使うとアプリの雛形を作ることができます。&#xA;Spring Initializr&#xA;Project は Gradle、Language は Java にしました。 今回のプロジェクトは API サーバーなので、Spring Web と Spring Boot Actuator を追加しました。 html をサーバーサイドでレンダリングする場合は Thymeleaf も追加する必要があります。&#xA;Reference: Spring Initializrでアプリケーションのひな型を作成する</description>
+    </item>
+  </channel>
+</rss>

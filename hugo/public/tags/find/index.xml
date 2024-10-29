@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Find on すいすいSwift</title>
+    <link>http://localhost:58986/tags/find/</link>
+    <description>Recent content in Find on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/tags/find/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>findコマンドでディレクトリを探す</title>
+      <link>http://localhost:58986/2022-04-04/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2022-04-04/</guid>
+      <description>&#xA;findコマンドでディレクトリを探す方法です。 findコマンドで2階層以内のsnorlaxディレクトリを検索します。&#xA;. ├── slowpoke │ └── snorlax └── snorlax └── snorlax └── snorlax └── snorlax └── snorlax find . -type d -maxdepth 2 -name &amp;#34;snorlax&amp;#34; ./snorlax ./snorlax/snorlax ./slowpoke/snorlax </description>
+    </item>
+  </channel>
+</rss>

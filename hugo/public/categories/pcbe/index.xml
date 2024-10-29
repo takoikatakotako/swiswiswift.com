@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PCBE on すいすいSwift</title>
+    <link>http://localhost:58986/categories/pcbe/</link>
+    <description>Recent content in PCBE on すいすいSwift</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 05 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58986/categories/pcbe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PCBEで作った基板をPCBGOGOで注文する</title>
+      <link>http://localhost:58986/2021-09-05/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58986/2021-09-05/</guid>
+      <description>PCBEで作った基板をPCBGOGOで注文する方法です。 ファイル -&amp;gt; 基盤見積もり作成 -&amp;gt; 画像のように「データ作成（ドリル=NC）」を選択 -&amp;gt; データ作成　を選択。 作成された zip ファイルを PCBGOGO に送れば大丈夫でした。&#xA;参考: PCBEからガーバーファイルを出力する方法&#xA;このような中身の zip ファイルが作成されます。</description>
+    </item>
+  </channel>
+</rss>
