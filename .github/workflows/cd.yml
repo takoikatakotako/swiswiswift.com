@@ -23,9 +23,9 @@ jobs:
           role-to-assume: arn:aws:iam::071766756112:role/swiswiswift-github-actions
           aws-region: ap-northeast-1
       - name: Install Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: latest
+        run: |
+          wget -q https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_extended_0.128.2_linux-amd64.deb
+          sudo dpkg -i hugo_extended_0.128.2_linux-amd64.deb
       - name: Build Files
         run: make build
       - name: Upload to S3
