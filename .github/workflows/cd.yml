@@ -16,9 +16,9 @@ jobs:
       S3_BUCKET_URL: s3://swiswiswift.com
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: arn:aws:iam::071766756112:role/swiswiswift-github-actions
           aws-region: ap-northeast-1
