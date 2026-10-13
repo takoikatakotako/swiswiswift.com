@@ -4,7 +4,7 @@ DEPLOY_PROFILE ?= rikako-shared-sso
 
 .PHONY: build
 build:
-	hugo -s hugo
+	hugo -s hugo --cleanDestinationDir
 
 .PHONY: run
 run:
