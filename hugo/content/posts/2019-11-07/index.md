@@ -3,14 +3,9 @@ title =  "PHP で本当に簡単なモックサーバーを作る"
 url = "2019-11-07"
 date = "2019-11-07"
 description = "PHP で本当に簡単なモックサーバーを作る"
-tags = [
-    "PHP",
-]
-categories = [
-    "PHP",
-]
+tags = ["PHP"]
+categories = ["PHP"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -44,4 +39,93 @@ $ curl http://localhost:8000/list.php
 $ curl http://localhost:8000/deleate.php
 {{< /highlight >}}
 
-{{< gist takoikatakotako 75bce07d6d7600a0b09b947bd45332ed >}}
+<!--more-->
+
+**db.json**
+
+```json
+[]
+```
+
+
+**deleate.php**
+
+```php
+<?php
+  // curl http://localhost:8000/deleate.php
+  header("Access-Control-Allow-Origin: *");
+
+  // parse request
+  file_put_contents("db.json" , json_encode(array()));
+  $response = array(
+    "is_success" => true
+  );
+  echo json_encode($response);
+```
+
+
+**list.php**
+
+```php
+<?php
+// curl http://localhost:8000/list.php
+  header("Access-Control-Allow-Origin: *");
+
+  // connect to db()
+  $db_url = "db.json";
+  $all_users = file_get_contents($db_url);
+  $all_users = (array)json_decode($all_users, true);
+  echo json_encode($all_users);
+```
+
+
+**signup.php**
+
+```php
+<?php
+  // curl http://localhost:8000/signup.php -X POST -H "Content-Type: application/json" -d '{"name":"onojun", "age":24}'
+  header("Access-Control-Allow-Origin: *");
+
+  // parse request
+  $json_string = file_get_contents('php://input');
+  $obj = json_decode($json_string);
+  $name = $obj->name;
+  $age = $obj->age;
+
+  if ($name == null) {
+    $response = array(
+      "is_success" => false,
+      "reason" => "name is null"
+    );
+    echo json_encode($response);
+    return;
+  } elseif ($age == null) {
+    $response = array(
+      "is_success" => false,
+      "reason" => "age is null"
+    );
+    echo json_encode($response);
+    return;
+  }
+
+  // connect to db()
+  $db_url = "db.json";
+  $all_users = file_get_contents($db_url);
+  $all_users = (array)json_decode($all_users, true);
+
+  // add user
+  $id = count($all_users);
+  $user = array(
+    "id" => $id,
+    "name" => $name,
+    "age" => $age
+  );
+  array_push($all_users, $user);
+  file_put_contents("db.json" , json_encode($all_users));
+
+  $response = array(
+    "is_success" => true
+  );
+  echo json_encode($response);
+```
+

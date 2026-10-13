@@ -3,14 +3,9 @@ title = "Android Studio でアイコンを設定する"
 url = "2018-11-29"
 date = "2018-11-29"
 description = "Android Studio でアイコンを設定する"
-tags = [
-  "Android",
-]
-categories = [
-    "Android",
-]
+tags = ["Android"]
+categories = ["Android"]
 archives = "2018/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

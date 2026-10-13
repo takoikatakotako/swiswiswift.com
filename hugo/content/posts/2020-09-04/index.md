@@ -3,16 +3,9 @@ title =  "Buttonを押すとTextの文字が変わる"
 url = "2020-09-04"
 date = "2020-09-04"
 description = "Buttonを押すとTextの文字が変わる"
-tags = [
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +21,32 @@ SwiftUIでButtonが押されたら文字の色を変える方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 6ba079776d46311144b50b9d646f90e6 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var text = "Snorlax"
+    
+    var body: some View {
+        VStack {
+            Text(text)
+            Button(action: {
+                self.text = "Forever"
+            }) {
+                Text("Tap Me!!")
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

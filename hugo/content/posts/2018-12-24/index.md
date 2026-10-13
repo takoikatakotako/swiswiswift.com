@@ -3,14 +3,9 @@ title = "食洗機の分岐水栓取り付け工事を自分で行う。"
 url = "2018-12-24"
 date = "2018-12-24"
 description = "食洗機の分岐水栓取り付け工事を自分で行う。"
-tags = [
-  "その他",
-]
-categories = [
-    "その他",
-]
+tags = ["その他"]
+categories = ["その他"]
 archives = "2018/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

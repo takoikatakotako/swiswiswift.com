@@ -3,14 +3,9 @@ title =  "iOSでバージョンとビルド番号を取得する"
 url = "2021-05-10"
 date = "2021-05-10"
 description = "iOSでバージョンとビルド番号を取得する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2021/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,5 +20,15 @@ iOSでバージョンとビルド番号を取得する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako c16ebad18b2904470ba40eff3a74d0a0 >}}
+<!--more-->
+
+**Main.swift**
+
+```swift
+if let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String,
+   let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String {
+    print("version: \(version), build \(build)")
+}
+```
+
 

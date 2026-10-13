@@ -3,14 +3,9 @@ title = "AWSクラウドプラクティショナーとソリューションア�
 url = "2023-06-02"
 date = "2023-06-02"
 description = "AWSクラウドプラクティショナーとソリューションアーキテクトアソシエイトの勉強方法"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2023/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

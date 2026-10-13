@@ -3,14 +3,9 @@ title =  "SwiftUIでUIActivityViewControllerを表示する"
 url = "2021-05-05"
 date = "2021-05-05"
 description = "SwiftUIでUIActivityViewControllerを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2021/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,5 +24,50 @@ SwiftUIでUIActivityViewControllerを表示する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 94e33475e32e2072a1a6734ac757dbdf >}}
+<!--more-->
+
+**ActivityViewController.swift**
+
+```swift
+import SwiftUI
+
+struct ActivityViewController: UIViewControllerRepresentable {
+    var activityItems: [Any]
+    var applicationActivities: [UIActivity]? = nil
+    
+    func makeUIViewController(context: UIViewControllerRepresentableContext<ActivityViewController>) -> UIActivityViewController {
+        let controller = UIActivityViewController(activityItems: activityItems, applicationActivities: applicationActivities)
+        return controller
+    }
+    
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: UIViewControllerRepresentableContext<ActivityViewController>) {}
+}
+```
+
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State private var showingActivityIndicator: Bool = false
+
+    var body: some View {
+        Button("Share swiswiswift.com") {
+            showingActivityIndicator = true
+        }
+        .sheet(isPresented: $showingActivityIndicator, content: {
+            ActivityViewController(activityItems: [URL(string: "https://swiswiswift.com")!])
+        })
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

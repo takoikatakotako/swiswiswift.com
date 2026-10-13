@@ -3,16 +3,9 @@ title =  "Dockerを使ってMySQLを練習する"
 url = "2021-10-03"
 date = "2021-10-03"
 description = "Dockerを使ってMySQLを練習する"
-tags = [
-  "Docker",
-  "MySQL"
-]
-categories = [
-  "Docker",
-  "MySQL"
-]
+tags = ["Docker", "MySQL"]
+categories = ["Docker", "MySQL"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

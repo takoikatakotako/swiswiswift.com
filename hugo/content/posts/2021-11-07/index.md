@@ -3,14 +3,9 @@ title =  "Swiftの細かい文法のメモ"
 url = "2021-11-07"
 date = "2021-11-07"
 description = "Swiftの細かい文法のメモ"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2021/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

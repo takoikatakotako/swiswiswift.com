@@ -3,7 +3,6 @@ title = "プライバシーポリシー"
 url = "privacy"
 description = "プライバシーポリシー"
 date = "2017-04-01"
-aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 

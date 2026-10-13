@@ -3,14 +3,9 @@ title = "Xcode10でプロジェクト名を変更する"
 url = "2018-11-12"
 date = "2018-11-12"
 description = "Xcode10でプロジェクト名を変更する"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2018/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

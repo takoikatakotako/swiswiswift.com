@@ -3,14 +3,9 @@ title = "GolangでWebAPIを作るハンズオン（その１）"
 url = "2023-05-01"
 date = "2023-05-01"
 description = "GolangでWebAPIを作るハンズオン（その１）"
-tags = [
-  "Golang"
-]
-categories = [
-  "Golang"
-]
+tags = ["Go"]
+categories = ["Go"]
 archives = "2023/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -49,7 +44,20 @@ touch main.go
 
 作成したファイルをエディタで開き、以下のコードを入力します。
 
-{{< gist takoikatakotako de1d47444847957187ced0ca3413a315 >}}
+<!--more-->
+
+**main.go**
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello World")
+}
+```
+
 
 入力が完了したら以下のコマンドを実行し、`Hello World` と出力されることを確認します。
 
@@ -63,7 +71,26 @@ go run main.go    # Hello World
 正常に Hello World と表示されましたか?
 次に以下のコードを入力し、`main.go` を実行します。
 
-{{< gist takoikatakotako 22a41840691464c74c0278b1a50968c6 >}}
+**main.go**
+
+```go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello, World")
+}
+
+func main() {
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(":8080", nil)
+}
+```
+
 
 ブラウザを表示し、[http://localhost:8080/](http://localhost:8080/) にアクセスすると `Hello World` と表示されれば成功です。
 

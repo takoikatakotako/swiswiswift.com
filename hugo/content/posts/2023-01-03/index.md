@@ -3,14 +3,9 @@ title = "/etc/hosts（LPIC）"
 url = "2023-01-03"
 date = "2023-01-03"
 description = "/etc/hosts（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

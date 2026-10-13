@@ -3,14 +3,9 @@ title =  "SwiftUIのListの中にボタンを複数設置する"
 url = "2021-04-08"
 date = "2021-04-08"
 description = "SwiftUIのListの中にボタンを複数設置する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2021/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,5 +24,53 @@ SwiftUIのListの中にボタンを複数設置する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako b8812883e35611c26b452b2dcfae3182 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    let pokemons: [String] = ["Snorlax", "Pikachu", "Slowpoke"]
+    var body: some View {
+        List(pokemons, id: \.self) {pokemon in
+            HStack(alignment: .center) {
+                Text(pokemon)
+                
+                Spacer()
+                
+                Button {
+                    print("\(pokemon) Left")
+                } label: {
+                    Text("Left")
+                        .padding()
+                        .border(Color.green)
+                }
+                .buttonStyle(PlainButtonStyle())
+
+                Button {
+                    print("\(pokemon) Right")
+                } label: {
+                    Text("Right")
+                        .padding()
+                        .border(Color.green)
+                }
+                .buttonStyle(PlainButtonStyle())
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                print("\(pokemon) Cell")
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

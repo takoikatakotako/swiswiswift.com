@@ -3,14 +3,9 @@ title = "/etc/resolv.conf（LPIC）"
 url = "2023-01-04"
 date = "2023-01-04"
 description = "/etc/resolv.conf（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "Swiftで桁数を指定する"
 url = "2022-05-08"
 date = "2022-05-08"
 description = "Swiftで桁数を指定する"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

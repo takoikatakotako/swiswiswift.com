@@ -3,18 +3,9 @@ title =  "IntelliJでJavaのGradleのプロジェクトを作成する"
 url = "2020-07-04"
 date = "2020-07-04"
 description = "IntelliJでJavaのGradleのプロジェクトを作成する"
-tags = [
-    "IntelliJ",
-    "Java",
-    "Spring"
-]
-categories = [
-    "IntelliJ",
-    "Java",
-    "Spring"
-]
+tags = ["Gradle", "IntelliJ", "Java"]
+categories = ["Gradle", "IntelliJ", "Java"]
 archives = "2020/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

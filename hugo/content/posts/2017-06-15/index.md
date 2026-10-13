@@ -3,14 +3,9 @@ title = "Swiftでクラス名と関数名と行番号を取得、表示する"
 url = "2017-06-15"
 date = "2017-06-15"
 description = "Swiftでクラス名と関数名と行番号を取得、表示する"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2017/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

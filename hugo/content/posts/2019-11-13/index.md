@@ -3,14 +3,9 @@ title =  "SwiftUIでListを表示する"
 url = "2019-11-13"
 date = "2019-11-13"
 description = "SwiftUIでListを表示する"
-tags = [
-    "iOS", "Swift"
-]
-categories = [
-    "iOS", "Swift"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -26,4 +21,42 @@ SwiftUI でList を表示する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako c6974ac57164966da13dc9aa579ea94a >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct Fruit: Identifiable {
+    var id: Int
+    let name: String
+}
+
+struct ContentView: View {
+    let fruits: [Fruit] = [
+        Fruit(id: 0, name: "Apple"),
+        Fruit(id: 1, name: "Banana"),
+        Fruit(id: 2, name: "Orange"),
+        Fruit(id: 3, name: "Grape"),
+        Fruit(id: 4, name: "WaterMelon"),
+    ]
+
+    var body: some View {
+        VStack {
+            Divider()
+            List (fruits) { fruit in
+                Text(fruit.name)
+            }
+                .edgesIgnoringSafeArea([.bottom])
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

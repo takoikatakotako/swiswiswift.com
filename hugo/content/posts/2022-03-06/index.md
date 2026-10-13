@@ -3,14 +3,9 @@ title =  "AWS CLIでDynamoDBを操作する"
 url = "2022-03-06"
 date = "2022-03-06"
 description = "AWS CLIでDynamoDBを操作する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

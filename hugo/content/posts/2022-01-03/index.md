@@ -3,16 +3,9 @@ title =  "SwiftUIでさまざまなデバイスのプレビューを確認する
 url = "2022-01-03"
 date = "2022-01-03"
 description = "SwiftUIでさまざまなデバイスのプレビューを確認する"
-tags = [
-  "SwiftUI",
-  "Swift"
-]
-categories = [
-  "SwiftUI",
-  "Swift"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift", "SwiftUI"]
 archives = "2022/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -69,4 +62,36 @@ iPhone 13 (com.apple.CoreSimulator.SimDeviceType.iPhone-13)
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako 5d57338eb96896d8edf9408a1d2a9793 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("swiswiswift.com")
+            .font(Font.system(size: 40).bold())
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            ContentView()
+                .previewDevice("iPhone 8")
+                .previewDisplayName("iPhone 8")
+            
+            ContentView()
+                .previewDevice(PreviewDevice(rawValue: "iPhone 12 mini"))
+                .previewDisplayName("iPhone 12 mini")
+
+            ContentView()
+                .previewDevice(PreviewDevice(rawValue: "iPhone 13"))
+                .previewDisplayName("iPhone 13")
+        }
+    }
+}
+```
+

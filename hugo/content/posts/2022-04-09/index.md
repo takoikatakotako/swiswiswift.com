@@ -3,16 +3,9 @@ title =  "Lambdaトリガー（Lambda Permission）のStatement IDを確認す�
 url = "2022-04-09"
 date = "2022-04-09"
 description = "Lambdaトリガー（Lambda Permission）のStatement IDを確認する"
-tags = [
-  "AWS",
-  "Terraform"
-]
-categories = [
-  "AWS",
-  "Terraform"
-]
+tags = ["AWS", "Terraform"]
+categories = ["AWS", "Terraform"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

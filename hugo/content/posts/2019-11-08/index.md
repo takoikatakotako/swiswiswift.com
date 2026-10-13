@@ -3,14 +3,9 @@ title =  "インフラエンジニアなりたてで知らなかった単語を�
 url = "2019-11-08"
 date = "2019-11-08"
 description = "インフラエンジニアなりたてで知らなかった単語をまとめ"
-tags = [
-    "AWS",
-]
-categories = [
-    "AWS",
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

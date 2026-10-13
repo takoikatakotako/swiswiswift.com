@@ -3,16 +3,9 @@ title =  "SwiftUIでアラートを入れ子にして使うことができない
 url = "2021-02-09"
 date = "2021-02-09"
 description = "SwiftUIでアラートを入れ子にして使うことができない"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -30,5 +23,47 @@ SwiftUIでアラートを入れ子にして使うことができなかったの�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 5230de2ee5c1ca033c886889b6db5f26 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var showingVStackAlert = false
+    @State var showingHStackAlert = false
+    var body: some View {
+        HStack {
+            VStack {
+                Button {
+                    showingVStackAlert = true
+                } label: {
+                    Text("Show VStack Alert")
+                }.padding()
+                
+                Button {
+                    showingHStackAlert = true
+
+                } label: {
+                    Text("Show HStack Alert")
+                }.padding()
+            }
+            .alert(isPresented: $showingVStackAlert) { () -> Alert in
+                Alert(title: Text("VStack"), message: Text("This is VStack Alert"), dismissButton: .cancel())
+            }
+        }
+        .alert(isPresented: $showingHStackAlert) { () -> Alert in
+            Alert(title: Text("HStack"), message: Text("This is HStack Alert"), dismissButton: .cancel())
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

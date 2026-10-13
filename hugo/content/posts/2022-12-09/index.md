@@ -3,14 +3,9 @@ title = "chronyc,chronyd（LPIC）"
 url = "2022-12-09"
 date = "2022-12-09"
 description = "chronyc,chronyd（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

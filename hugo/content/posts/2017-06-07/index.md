@@ -3,14 +3,9 @@ title = "texworksのURL"
 url = "2017-06-07"
 date = "2017-06-07"
 description = "texworksのURL"
-tags = [
-    "Tex",
-]
-categories = [
-    "Tex",
-]
+tags = ["TeX"]
+categories = ["TeX"]
 archives = "2017/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

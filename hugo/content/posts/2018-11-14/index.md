@@ -3,14 +3,9 @@ title = "パスワードの入力欄の中身を確認したい"
 url = "2018-11-14"
 date = "2018-11-14"
 description = "パスワードの入力欄の中身を確認したい"
-tags = [
-    "Other",
-]
-categories = [
-    "Other",
-]
+tags = ["その他"]
+categories = ["その他"]
 archives = "2018/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

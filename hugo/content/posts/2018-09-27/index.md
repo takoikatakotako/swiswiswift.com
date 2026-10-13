@@ -3,14 +3,9 @@ title = "Build input file cannot be found: Libraries/WebSocket/libfishhook.a’"
 url = "2018-09-27"
 date = "2018-09-27"
 description = "Build input file cannot be found: Libraries/WebSocket/libfishhook.a’"
-tags = [
-    "ReactNative",
-]
-categories = [
-    "ReactNative",
-]
+tags = ["React Native"]
+categories = ["React Native"]
 archives = "2018/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

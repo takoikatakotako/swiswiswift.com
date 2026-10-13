@@ -3,14 +3,9 @@ title =  "SwiftUIでStructが使いまわされる"
 url = "2019-11-14"
 date = "2019-11-14"
 description = "SwiftUIでStructが使いまわされる"
-tags = [
-    "iOS", "Swift"
-]
-categories = [
-    "iOS", "Swift"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -30,4 +25,80 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 8fa1b637dcc404f99c78f4c2af84c2a4 >}}
+<!--more-->
+
+**ContentView_20191114.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView_20191114: View {
+    @State var id = UUID().uuidString
+    var body: some View {
+        VStack {
+            NavigationLink(destination: DetailView_20191114(hoge: Hoge(id: id))) {
+                Text("Tap Me!")
+                    .font(.title)
+            }
+        }.onDisappear {
+            self.id = UUID().uuidString
+        }
+    }
+}
+
+struct DetailView_20191114: View {
+    var hoge: Hoge
+    var body: some View {
+        Text("id: \(hoge.id)")
+    }
+}
+
+struct Hoge {
+    var id: String
+}
+
+struct ContentView_20191114_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView_20191114()
+    }
+}
+```
+
+
+**ContentView_20191114_old.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView_20191114: View {
+    var body: some View {
+        VStack {
+            NavigationLink(destination: DetailView_20191114(hoge: Hoge())) {
+                Text("Tap Me!")
+                    .font(.title)
+            }
+        }
+    }
+}
+
+struct DetailView_20191114: View {
+    var hoge: Hoge
+    var body: some View {
+        VStack {
+            Text("id: \(hoge.id)")
+        }
+    }
+}
+
+struct Hoge {
+    var id: String = UUID().uuidString
+}
+
+
+struct ContentView_20191114_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView_20191114()
+    }
+}
+```
+

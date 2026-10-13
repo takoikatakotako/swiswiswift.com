@@ -3,14 +3,9 @@ title =  "StoryboardsをiOS13以上のプロジェクトから削除する"
 url = "2019-12-29"
 date = "2019-12-29"
 description = "StoryboardsをiOS13以上のプロジェクトから削除する"
-tags = [
-    "Swift", "iOS"
-]
-categories = [
-    "Swift", "iOS"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2019/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

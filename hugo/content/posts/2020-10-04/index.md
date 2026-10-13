@@ -3,16 +3,9 @@ title =  "ディレクトリにあるファイル名でループする"
 url = "2020-10-04"
 date = "2020-10-04"
 description = "ディレクトリにあるファイル名でループする"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2020/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +18,13 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako b2b8701914225b5a85fca9e4091e2558 >}}
+<!--more-->
+
+**command.sh**
+
+```bash
+for fileName in $( ls . ); do
+  echo "${fileName}"
+done
+```
+

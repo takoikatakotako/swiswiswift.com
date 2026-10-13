@@ -3,14 +3,9 @@ title = "UIStatusBarを白くする"
 url = "2017-05-16"
 date = "2017-05-16"
 description = "UIStatusBarを白くする"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2017/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -36,4 +31,13 @@ UIStatusBarを白くする方法その2
  <!-- Amazon Ads -->
  {{< amazon-ads >}}
 
-{{< gist takoikatakotako 3f485ae74f1144ec0147dd81c3d677cf >}}
+<!--more-->
+
+**lightStatusBar.swift**
+
+```swift
+override var preferredStatusBarStyle: UIStatusBarStyle {
+    return .lightContent
+}
+```
+

@@ -3,14 +3,9 @@ title = "Linuxのファイル（LPIC）"
 url = "2022-09-22"
 date = "2022-09-22"
 description = "Linuxのファイル（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

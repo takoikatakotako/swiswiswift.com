@@ -3,14 +3,9 @@ title = "NavigationLinkを使用せずにプッシュ遷移する（.navigationD
 url = "2023-10-18"
 date = "2023-10-18"
 description = "NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,34 @@ NavigationLinkを使用せずにプッシュ遷移する（.navigationDestinatio
 
 <img src="1.gif" width="300px" alt="NavigationLinkを使用せずにプッシュ遷移する（.navigationDestination）">
 
-{{< gist takoikatakotako 1fb32da9087ad60989903dffb4b79dd1 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var isActive: Bool = false
+
+    var body: some View {
+        NavigationStack {
+            VStack {
+                Button(action: {
+                    isActive = true
+                }) {
+                    Text("Tap Me!!")
+                }
+            }
+            .navigationDestination(isPresented: $isActive) {
+                Text("SecondView")
+            }
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

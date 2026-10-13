@@ -3,14 +3,9 @@ title = "列挙型 enum"
 url = "2018-03-04"
 date = "2018-03-04"
 description = "列挙型 enum"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2018/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -24,4 +19,47 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 1db6c66be1c7b30aca74d72f6acb9c4d >}}
+<!--more-->
+
+**enum.swift**
+
+```swift
+import UIKit
+
+enum Country {
+    case japan
+    case america
+    case kanada
+    case china
+}
+
+class person: NSObject {
+    var name:String!
+    var from:Country!
+}
+
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let kabigon = person()
+        kabigon.name = "カビゴン"
+        kabigon.from = Country.america
+        
+        switch kabigon.from {
+        case .japan:
+            print(kabigon.name + "は日本から来ました。")
+        case .america:
+            print(kabigon.name + "はアメリカから来ました。")
+        case .kanada:
+            print(kabigon.name + "はカナダから来ました。")
+        case .china:
+            print(kabigon.name + "は中国から来ました。")
+        default:
+            print("error")
+        }
+    }
+}
+```
+

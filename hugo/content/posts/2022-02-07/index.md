@@ -3,14 +3,9 @@ title =  "LambdaとEvent BridgeでDiscordの目覚ましBotを作る"
 url = "2022-02-07"
 date = "2022-02-07"
 description = "LambdaとEvent BridgeでDiscordの目覚ましBotを作る"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

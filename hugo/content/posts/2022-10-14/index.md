@@ -3,14 +3,9 @@ title = "Conohaでディスクを追加する"
 url = "2022-10-14"
 date = "2022-10-14"
 description = "Conohaでディスクを追加する"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

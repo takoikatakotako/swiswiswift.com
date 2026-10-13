@@ -3,14 +3,9 @@ title = "/etc/group（LPIC）"
 url = "2022-12-04"
 date = "2022-12-04"
 description = "/etc/group（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

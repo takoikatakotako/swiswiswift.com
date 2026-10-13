@@ -3,16 +3,9 @@ title =  "Spring InitializrでアプリをSpringアプリを作成する"
 url = "2020-07-03"
 date = "2020-07-03"
 description = "Spring InitializrでアプリをSpringアプリを作成する"
-tags = [
-    "Java",
-    "Spring"
-]
-categories = [
-    "Java",
-    "Spring"
-]
+tags = ["Java", "Spring"]
+categories = ["Java", "Spring"]
 archives = "2020/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

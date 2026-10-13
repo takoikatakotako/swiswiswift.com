@@ -3,14 +3,9 @@ title = "SSH で入ることのできるDockerイメージ(Ubuntu14.04)"
 url = "2018-12-26"
 date = "2018-12-26"
 description = "SSH で入ることのできるDockerイメージ(Ubuntu14.04)"
-tags = [
-  "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["Docker"]
+categories = ["Docker"]
 archives = "2018/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -37,4 +32,29 @@ $ ssh -p 2222 kabigon@localhost
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 51affec5d67897a810e29872f9e28654 >}}
+<!--more-->
+
+**Dockerfile**
+
+```dockerfile
+FROM ubuntu:14.04
+
+RUN apt-get update && apt-get install -y openssh-server
+RUN mkdir /var/run/sshd
+
+RUN echo 'root:password' | chpasswd
+
+# ユーザー作成
+RUN useradd kabigon
+RUN echo 'kabigon:password' |chpasswd
+RUN echo "kabigon ALL=(ALL) ALL" >> /etc/sudoers
+RUN mkdir /home/kabigon
+
+
+ENV NOTVISIBLE "in users profile"
+RUN echo "export VISIBLE=now" >> /etc/profile
+
+EXPOSE 22
+CMD ["/usr/sbin/sshd", "-D"]
+```
+

@@ -3,14 +3,9 @@ title =  "Pythonで別ファイルの関数を実行する"
 url = "2022-05-04"
 date = "2022-05-04"
 description = "Pythonで別ファイルの関数を実行する"
-tags = [
-  "Python"
-]
-categories = [
-  "Python"
-]
+tags = ["Python"]
+categories = ["Python"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +23,26 @@ $ python main.py
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako 671dfda93c686a65365b7ef89ab33d0c >}}
+<!--more-->
+
+**functions.py**
+
+```python
+def hello():
+    print('hello')
+```
+
+
+**main.py**
+
+```python
+import functions
+
+def main():
+    functions.hello()
+
+
+if __name__ == '__main__':
+    main()
+```
+

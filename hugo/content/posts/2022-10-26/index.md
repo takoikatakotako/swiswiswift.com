@@ -3,14 +3,9 @@ title = "特殊文字のエスケープ（LPIC）"
 url = "2022-10-26"
 date = "2022-10-26"
 description = "特殊文字のエスケープ（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,16 +3,9 @@ title =  "SwiftUIでVStackの周りに影をつける"
 url = "2020-10-03"
 date = "2020-10-03"
 description = "SwiftUIでVStackの周りに影をつける"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift"]
 archives = "2020/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +22,27 @@ ImageのViewの周りに影をつけています。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 171921a210ba51d02e1840e0e18f964c >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image("icon")
+                .resizable()
+                .frame(width: 150, height: 150)
+            Text("Snorlax")
+        }
+        .padding()
+        .background(Color.white)
+        .border(Color.black, width: 2)
+        .clipped()
+        .shadow(color: Color.gray.opacity(0.6), radius: 4, x: 10, y: 10)
+    }
+}
+```
+

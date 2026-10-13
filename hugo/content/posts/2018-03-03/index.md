@@ -3,14 +3,9 @@ title = "iPhoneアプリのプログラミングの勉強法"
 url = "2018-03-03"
 date = "2018-03-03"
 description = "iPhoneアプリのプログラミングの勉強法"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2018/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

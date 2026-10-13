@@ -3,14 +3,9 @@ title = "fgrep（LPIC）"
 url = "2022-08-07"
 date = "2022-08-07"
 description = "fgrep（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

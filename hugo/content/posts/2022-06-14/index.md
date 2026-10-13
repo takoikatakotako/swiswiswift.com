@@ -3,14 +3,9 @@ title =  "ECS-EC2でnginxを動かす"
 url = "2022-06-14"
 date = "2022-06-14"
 description = "ECS-EC2でnginxを動かす"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

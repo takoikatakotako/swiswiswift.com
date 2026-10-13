@@ -3,14 +3,9 @@ title =  "SpringBootでBeanを返すとプロパティ名のisが省略される
 url = "2020-12-01"
 date = "2020-12-01"
 description = "SpringBootでbooleanを返すとプロパティ名のisが省略される"
-tags = [
-  "Spring", "Java"
-]
-categories = [
-  "Spring", "Java"
-]
+tags = ["Java", "Spring"]
+categories = ["Java", "Spring"]
 archives = "2020/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

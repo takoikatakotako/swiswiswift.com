@@ -3,14 +3,9 @@ title =  "SwiftUIでリストを編集する"
 url = "2019-12-17"
 date = "2019-12-17"
 description = "SwiftUIでリストを編集する"
-tags = [
-    "SwiftUI"
-]
-categories = [
-    "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2019/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +23,36 @@ UITableView よりも短いコードで書くことができました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 48a64f8cedca3045b1132d4364a027ee >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State private var users = ["Paul", "Taylor", "Adele"]
+    
+    var body: some View {
+        NavigationView {
+            List {
+                ForEach(users, id: \.self) { user in
+                    Text(user)
+                }
+                .onDelete(perform: delete)
+            }
+            .navigationBarItems(trailing: EditButton())
+        }
+    }
+    
+    func delete(at offsets: IndexSet) {
+        users.remove(atOffsets: offsets)
+    }
+}
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

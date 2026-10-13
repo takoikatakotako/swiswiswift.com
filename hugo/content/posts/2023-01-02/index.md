@@ -3,14 +3,9 @@ title = "systemdのタイマー（LPIC）"
 url = "2023-01-02"
 date = "2023-01-02"
 description = "systemdのタイマー（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Bash", "Linux", "LPIC", "Shell"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "Swiftでデフォルト引数を使う"
 url = "2021-05-07"
 date = "2021-05-07"
 description = "Swiftでデフォルト引数を使う"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2021/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -24,5 +19,31 @@ Swiftでデフォルト引数を使う方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako d9c82e1368554f90517fa5223fb557f1 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text(favorite())
+            Text(favorite(name: "Slowpole"))
+        }
+    }
+    
+    func favorite(name: String = "Snorlax") -> String {
+        return "I love \(name)"
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

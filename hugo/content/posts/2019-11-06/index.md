@@ -3,14 +3,9 @@ title =  "cURL（curl）でアプリにプッシュ通知を送信する"
 url = "2019-11-06"
 date = "2019-11-06"
 description = "cURL（curl）でアプリにプッシュ通知を送信する"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "AppStoreConnectで「銀行振り込みが完了しませんでした�
 url = "2021-09-04"
 date = "2021-09-04"
 description = "AppStoreConnectで「銀行振り込みが完了しませんでした」というメッセージが現れて消えない"
-tags = [
-  "Golang"
-]
-categories = [
-  "Golang"
-]
+tags = ["App Store Connect"]
+categories = ["App Store Connect"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 

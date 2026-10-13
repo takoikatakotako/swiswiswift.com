@@ -3,14 +3,9 @@ title = "more（LPIC）"
 url = "2022-07-21"
 date = "2022-07-21"
 description = "scroll（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "Error Finding App Store Credentials というエラーが出てしま�
 url = "2023-03-03"
 date = "2023-03-03"
 description = "Error Finding App Store Credentials というエラーが出てしまう"
-tags = [
-  "Xcode"
-]
-categories = [
-  "Xcode"
-]
+tags = ["Xcode"]
+categories = ["Xcode"]
 archives = "2023/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

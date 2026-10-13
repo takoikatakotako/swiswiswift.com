@@ -3,14 +3,9 @@ title = "FizzBuzz(Ruby)"
 url = "2017-05-19"
 date = "2017-05-19"
 description = "FizzBuzz(Ruby)"
-tags = [
-    "Ruby",
-]
-categories = [
-    "Ruby",
-]
+tags = ["Ruby"]
+categories = ["Ruby"]
 archives = "2017/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +20,22 @@ FizzBuzzをRubyで解いてみました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 08ecaa1c16ccb1c67603755e2d973dc9 >}}
+<!--more-->
+
+**fizzbuzz.rb**
+
+```ruby
+for num in 1..20 do
+
+  if num%3 == 0 && num%5 == 0 then
+    puts('Fizz Buzz')
+  elsif num%3 == 0 then
+    puts('Fizz')
+  elsif num%5 == 0
+    puts('Buzz')
+  else
+    puts(num)
+  end
+end
+```
+

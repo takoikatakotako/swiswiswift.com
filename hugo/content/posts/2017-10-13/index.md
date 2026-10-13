@@ -3,14 +3,9 @@ title = "○秒後に実行させる、毎秒実行する"
 url = "2017-10-13"
 date = "2017-10-13"
 description = "○秒後に実行させる、毎秒実行する"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2017/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -24,4 +19,15 @@ Swiftで数秒後に実行する、毎秒実行させるサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako ac7d5dce0d8135037f9f8b6657ac676b >}}
+<!--more-->
+
+**EverySecond.swift**
+
+```swift
+for i in 0..<100 {
+  DispatchQueue.main.asyncAfter(deadline: .now() + 1.5*Double(i)) {
+    print(i)
+  }
+}
+```
+

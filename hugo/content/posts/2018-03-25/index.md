@@ -3,14 +3,9 @@ title = "Arduinoでボタンを使う(プルアップ抵抗無し)"
 url = "2018-03-25"
 date = "2018-03-25"
 description = "Arduinoでボタンを使う(プルアップ抵抗無し)"
-tags = [
-    "Arduino",
-]
-categories = [
-    "Arduino",
-]
+tags = ["Arduino"]
+categories = ["Arduino"]
 archives = "2018/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +20,27 @@ Arduinoでボタンを使うときのサンプルコードです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako e1c9239f729164445dcd8c54169cc0b2 >}}
+<!--more-->
+
+**ButtonTest.ino**
+
+```cpp
+const int buttonPin = 2;
+ 
+void setup() {
+  Serial.begin(9600);
+  pinMode(buttonPin, INPUT_PULLUP);     
+}
+ 
+void loop(){
+  //ボタンが押されているとbuttonPinがGNDに落ちるのでLOWになる
+  if (digitalRead(buttonPin) == LOW) {
+      Serial.println("PushPush");
+  } else {
+      Serial.println("Not Push");
+  }
+
+  delay(1000);
+}
+```
+

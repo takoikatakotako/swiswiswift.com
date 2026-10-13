@@ -3,16 +3,9 @@ title =  "SwiftUIでViewの周りに影をつける"
 url = "2020-10-01"
 date = "2020-10-01"
 description = "SwiftUIでViewの周りに影をつける"
-tags = [
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +22,22 @@ ImageのViewの周りに影をつけています。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 13654ae9fbdaba371c1a451c8934e349 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image("icon")
+                .resizable()
+                .frame(width: 150, height: 150)
+                .shadow(color: Color.gray.opacity(0.6), radius: 4, x: 10, y: 10)
+        }
+    }
+}
+```
+

@@ -3,14 +3,9 @@ title =  "Swiftで関数の引数にジェネリクスを使う"
 url = "2022-05-07"
 date = "2022-05-07"
 description = "Swiftで関数の引数にジェネリクスを使う"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

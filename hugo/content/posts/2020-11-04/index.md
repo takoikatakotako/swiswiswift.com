@@ -3,16 +3,9 @@ title =  "UIViewに影をつける"
 url = "2020-11-04"
 date = "2020-11-04"
 description = "UIViewに影をつける"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift", "UIKit"]
+categories = ["iOS", "Swift"]
 archives = "2020/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +22,28 @@ UIViewに影をつける方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 208e166490dffb73b795cde587172549 >}}
+<!--more-->
+
+**ViewController.swift**
+
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .white
+    
+        let shadowView = UIView()
+        shadowView.frame.size = CGSize(width: 100, height: 100)
+        shadowView.center = view.center
+        shadowView.backgroundColor = .orange
+        shadowView.layer.shadowOpacity = 0.3
+        shadowView.layer.shadowOffset = CGSize(width: 10, height: 10)
+        view.addSubview(shadowView)
+    }
+}
+```
+

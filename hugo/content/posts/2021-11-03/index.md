@@ -3,16 +3,9 @@ title =  "SpringBootでマークダウンをHTMLに変換してThymeleafで表�
 url = "2021-11-03"
 date = "2021-11-03"
 description = "SpringBootでマークダウンをHTMLに変換してThymeleafで表示する"
-tags = [
-  "Java",
-  "Spring"
-]
-categories = [
-  "Java",
-  "Spring"
-]
+tags = ["Java", "Spring"]
+categories = ["Java", "Spring"]
 archives = "2021/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

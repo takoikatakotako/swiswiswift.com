@@ -3,14 +3,9 @@ title = "ReactNativeでたまにしか使わないコマンドのメモ"
 url = "2018-08-17"
 date = "2018-08-17"
 description = "ReactNativeでたまにしか使わないコマンドのメモ"
-tags = [
-    "ReactNative",
-]
-categories = [
-    "ReactNative",
-]
+tags = ["React Native"]
+categories = ["React Native"]
 archives = "2018/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

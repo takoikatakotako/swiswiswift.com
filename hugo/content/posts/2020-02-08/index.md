@@ -3,14 +3,9 @@ title =  "SwiftUIでFirestoreの画像を表示する"
 url = "2020-02-08"
 date = "2020-02-08"
 description = "SwiftUIでFirestoreの画像を表示する"
-tags = [
-    "Swift", "SwiftUI", "Firebase"
-]
-categories = [
-    "Swift", "SwiftUI", "Firebase"
-]
+tags = ["Firebase", "Swift", "SwiftUI"]
+categories = ["Firebase", "Swift", "SwiftUI"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -31,4 +26,60 @@ UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI で�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 255a693ee8426fa4fe1c24830be40935 >}}
+<!--more-->
+
+**ProfileCell.swift**
+
+```swift
+import SwiftUI
+import UIKit
+import SDWebImageSwiftUI
+import FirebaseStorage
+
+struct ProfileCell: View {
+    let profile: Profile
+    @State var urlString: String = ""
+    var body: some View {
+        ZStack {
+            WebImage(url: URL(string: self.urlString))
+                .resizable()
+                .placeholder {
+                    Image("profile")
+                        .resizable()
+            }
+            .animation(.easeInOut(duration: 0.5))
+            .transition(.fade)
+            .scaledToFill()
+
+            VStack {
+                Spacer()
+                Text(profile.name)
+                    .font(Font.system(size: 20.0).bold())
+                    .frame(maxWidth: .infinity, maxHeight: 32)
+                    .background(Color.gray)
+                    .foregroundColor(Color.white)
+                    .opacity(0.8)
+            }
+        }.onAppear {
+            self.featchImageUrl()
+        }
+    }
+
+    func featchImageUrl() {
+        let storage = Storage.storage()
+        let pathReference = storage.reference(withPath: "character/\(profile.id)/profile.png")
+        pathReference.downloadURL { url, error in
+            if let error = error {
+                // Handle any errors
+                print(error)
+            } else {
+                guard let urlString = url?.absoluteString else {
+                    return
+                }
+                self.urlString = urlString
+            }
+        }
+    }
+}
+```
+

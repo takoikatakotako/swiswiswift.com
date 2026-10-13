@@ -3,16 +3,9 @@ title =  "SpringBootでログをファイルに出力する"
 url = "2021-11-13"
 date = "2021-11-13"
 description = "SpringBootでログをファイルに出力する"
-tags = [
-  "Java",
-  "Spring"
-]
-categories = [
-  "Java",
-  "Spring"
-]
+tags = ["Java", "Spring"]
+categories = ["Java", "Spring"]
 archives = "2021/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "API GatewayのリソースIDを取得する"
 url = "2022-04-08"
 date = "2022-04-08"
 description = "API GatewayのリソースIDを取得する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

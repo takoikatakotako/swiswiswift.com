@@ -3,14 +3,9 @@ title =  "DynamoDBのスキャン時に「Attribute name is a reserved keyword; 
 url = "2022-03-05"
 date = "2022-03-05"
 description = "DynamoDBのスキャン時に「Attribute name is a reserved keyword; reserved keyword: type」が出る"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

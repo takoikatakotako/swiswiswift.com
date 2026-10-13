@@ -3,14 +3,9 @@ title = "SwiftUIで全画面でSheetを表示する"
 url = "2023-10-29"
 date = "2023-10-29"
 description = "SwiftUIで全画面でSheetを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,60 @@ SwiftUIで全画面でSheetを表示する方法です。
 
 <img src="2023-10-29.gif" width="300px" alt="SwiftUIで全画面でSheetを表示する">
 
-{{< gist takoikatakotako c75e8c7865eed69144c4e305d68d1d9e >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var showingCover = false
+    var body: some View {
+        VStack {
+            Button(action: {
+                showingCover = true
+            }) {
+                Text("Tap me!")
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.gray)
+        .fullScreenCover(isPresented: $showingCover) {
+            SecondView()
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+
+
+**SecondView.swift**
+
+```swift
+import SwiftUI
+
+struct SecondView: View {
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        VStack {
+            Button(action: {
+                dismiss()
+            }) {
+                Text("Dismiss")
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.white)
+    }
+}
+
+#Preview {
+    SecondView()
+}
+```
+

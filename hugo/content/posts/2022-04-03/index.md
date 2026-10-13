@@ -3,14 +3,9 @@ title =  "cut コマンドで文字をカットする"
 url = "2022-04-03"
 date = "2022-04-03"
 description = "cut コマンドで文字をカットする"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux"]
+categories = ["Linux"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

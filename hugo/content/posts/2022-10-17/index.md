@@ -3,14 +3,9 @@ title = "umount（LPIC）"
 url = "2022-10-17"
 date = "2022-10-17"
 description = "umount（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,16 +3,9 @@ title =  "Swiftで文字列を圧縮して保存し、そのデータを読み�
 url = "2021-01-01"
 date = "2021-01-01"
 description = "Swiftで文字列を圧縮して保存し、そのデータを読み取る"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -68,4 +61,91 @@ Swift: [-53, 72, -51, -55, -55, 7, 0]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 73c8e85854c56b470ebc81b890c1536a >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Button(action: {
+                saveCompressedData()
+            }, label: {
+                Text("Save")
+                    .padding()
+                    .border(Color.black, width: 1)
+            })
+            
+            Button(action: {
+                loadCompressedData()
+            }, label: {
+                Text("Load")
+                    .padding()
+                    .border(Color.black, width: 1)
+            })
+        }
+    }
+    
+    func saveCompressedData() {
+        let text = "hello"
+        guard let data: Data = text.data(using: .utf8) else {
+            fatalError("Fail to Decode Text")
+        }
+        
+        let nsData: NSData = NSData(data: data)
+        guard let compressedData: Data = try? nsData.compressed(using: .zlib) as Data else {
+            fatalError("Fail to Compress Data")
+        }
+        
+        guard let documentUrl = FileManager.default.urls( for: .documentDirectory, in: .userDomainMask ).first else {
+            fatalError("Fail to Get Document Url")
+        }
+        let path = documentUrl.appendingPathComponent( "data.dat" )
+        do {
+            try compressedData.write(to: path)
+        } catch {
+            fatalError("Fail to Save File, error: \(error.localizedDescription)")
+        }
+        
+        print("----------------------")
+        print("Save Completed!!")
+        print("Path: \(path)")
+        print("----------------------")
+    }
+
+    func loadCompressedData() {
+        guard let documentUrl = FileManager.default.urls( for: .documentDirectory, in: .userDomainMask ).first else {
+            fatalError("Fail to Get Document Url")
+        }
+        let path = documentUrl.appendingPathComponent( "data.dat" )
+        
+        guard let compressedData = try? Data(contentsOf: path) else {
+            fatalError("Fail to Load File")
+        }
+        
+        let compressedNSData = NSData(data: compressedData)
+        guard let data: Data = try? compressedNSData.decompressed(using: .zlib) as Data else {
+            fatalError("Fail to Decompress Data")
+        }
+        
+        guard let text = String(data: data, encoding: .utf8) else {
+            fatalError("Fail to Encoading Data")
+        }
+        print("----------------------")
+        print("Load Completed!!")
+        print("Path: \(path)")
+        print("Text: \(text)")
+        print("----------------------")
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

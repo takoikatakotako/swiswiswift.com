@@ -3,14 +3,9 @@ title =  "DynamoDBのItemを一度に削除する（batch-write-item）"
 url = "2022-06-09"
 date = "2022-06-09"
 description = "DynamoDBのItemを一度に削除する（batch-write-item）"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

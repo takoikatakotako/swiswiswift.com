@@ -3,16 +3,9 @@ title =  "FFmpegを使って動画の情報を表示する"
 url = "2022-05-01"
 date = "2022-05-01"
 description = "FFmpegを使って動画の情報を表示する"
-tags = [
-  "Terminal",
-  "FFmpeg"
-]
-categories = [
-  "Terminal",
-  "FFmpeg"
-]
+tags = ["FFmpeg", "Terminal"]
+categories = ["FFmpeg", "Terminal"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "ElmでIntをStringに変換する"
 url = "2021-04-03"
 date = "2021-04-03"
 description = "ElmでIntをStringに変換する"
-tags = [
-  "Elm"
-]
-categories = [
-  "Elm"
-]
+tags = ["Elm"]
+categories = ["Elm"]
 archives = "2021/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,5 +20,20 @@ Elmは慣れるまで難しいですが書いていると少しずつ楽しく�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 7b4e7850204f038d96bcf49bb95c65d6 >}}
+<!--more-->
+
+**Main.elm**
+
+```elm
+module Main exposing (main)
+
+import Html exposing (text)
+
+number: Int
+number = 42
+
+main =
+    text (String.fromInt(number))
+```
+
 

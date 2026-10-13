@@ -3,14 +3,9 @@ title = "curlでpostでJson送るときにレスポンスヘッダーも確認�
 url = "2017-07-26"
 date = "2017-07-26"
 description = "curlでpostでJson送るときにレスポンスヘッダーも確認したい"
-tags = [
-    "Linux",
-]
-categories = [
-    "Linux",
-]
+tags = ["Linux"]
+categories = ["Linux"]
 archives = "2017/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

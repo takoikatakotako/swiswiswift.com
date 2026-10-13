@@ -3,14 +3,9 @@ title =  "SwiftでJSONエンコードするときに数字の桁数を指定す�
 url = "2021-11-08"
 date = "2021-11-08"
 description = "SwiftでJSONエンコードするときに数字の桁数を指定する"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2021/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

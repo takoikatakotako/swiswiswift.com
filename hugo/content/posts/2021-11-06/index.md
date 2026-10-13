@@ -3,14 +3,9 @@ title =  "Swiftで引数を参照渡しをする"
 url = "2021-11-06"
 date = "2021-11-06"
 description = "Swiftで引数を参照渡しをする"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2021/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

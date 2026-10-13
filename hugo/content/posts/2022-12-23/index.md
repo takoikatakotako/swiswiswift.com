@@ -3,14 +3,9 @@ title = "nmcli（LPIC）"
 url = "2022-12-23"
 date = "2022-12-23"
 description = "nmcli（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

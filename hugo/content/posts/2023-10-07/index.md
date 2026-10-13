@@ -3,14 +3,9 @@ title = "SwiftUIでPickerを表示する"
 url = "2023-10-07"
 date = "2023-10-07"
 description = "SwiftUIでPickerを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -20,4 +15,33 @@ Pickerを使いポケモンを表示しています。
 
 <img src="1.gif" width="300px" alt="SwiftUIでPickerを表示する">
 
-{{< gist takoikatakotako 7e0d7dd8182a7178ba4cd22f0b67ca30 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    let pokemons = ["Snorlax", "Pikachu", "Slowpoke", "Meowth"]
+    @State var selectedPokemon = 0
+
+    var body: some View {
+        Picker("Pokemon", selection: $selectedPokemon) {
+            ForEach(pokemons, id: \.self) { pokemon in
+                Text(pokemon)
+            }
+        }
+        .pickerStyle(WheelPickerStyle())
+        .onReceive([selectedPokemon].publisher.first()) { value in
+            print("SelectedPokemon: \(value)")
+            print(pokemons[value])
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

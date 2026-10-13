@@ -3,16 +3,9 @@ title =  "Swiftで仮引数を持つイニシャライザをスマートに書�
 url = "2020-08-09"
 date = "2020-08-09"
 description = "Swiftで仮引数を持つイニシャライザをスマートに書く"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2020/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -27,4 +20,28 @@ Swiftで仮引数を持つイニシャライザをスマートに書く方法で
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 20027c0b03521ba40788f34269f612d9 >}}
+<!--more-->
+
+**Playground.swift**
+
+```swift
+import Foundation
+
+struct Pokemon {
+    let name: String
+
+    init(name: String = "snorlax") {
+        self.name = name
+    }
+}
+
+struct Pokemon {
+    private(set) var name = "snorlax"
+}
+
+let pokemon = Pokemon(name: "slowpoke")
+// Cannot assign to property: 'name' setter is inaccessible
+// pokemon.name = "snorlax"
+print(pokemon.name)
+```
+

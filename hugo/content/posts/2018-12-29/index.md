@@ -3,14 +3,9 @@ title = "アプリ使用中に位置情報を取得する"
 url = "2018-12-29"
 date = "2018-12-29"
 description = "アプリ使用中に位置情報を取得する"
-tags = [
-  "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2019/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -46,4 +41,60 @@ LocationManagerを使用する場合は、「位置情報を利用する目的�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako b3779eda289d518889b73e7dabefaca4 >}}
+<!--more-->
+
+**LocationViewController.swift**
+
+```swift
+import UIKit
+import CoreLocation
+
+class LocationViewController: UIViewController, CLLocationManagerDelegate {
+
+    var locationManager: CLLocationManager!
+    var label: UILabel!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+
+        // 緯度、経度表示用のラベル
+        label = UILabel()
+        label.frame.size = CGSize(width: 200, height: 120)
+        label.center = view.center
+        label.numberOfLines = 0
+        view.addSubview(label)
+
+        locationManager = CLLocationManager()
+        locationManager.requestWhenInUseAuthorization()
+        let status = CLLocationManager.authorizationStatus()
+        switch status {
+        case .restricted, .denied:
+            print("拒否されている")
+            break
+        case .notDetermined:
+            locationManager.delegate = self
+            locationManager.distanceFilter = 10
+            locationManager.startUpdatingLocation()
+        case .authorizedWhenInUse, .authorizedAlways:
+            locationManager.delegate = self
+            locationManager.distanceFilter = 10
+            locationManager?.startUpdatingLocation()
+        default:
+            break
+        }
+    }
+
+    // 緯度経度に変更があったら呼ばれる
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let location = locations.first
+        let latitude = location?.coordinate.latitude
+        let longitude = location?.coordinate.longitude
+
+        print("latitude: \(latitude!)\nlongitude: \(longitude!)")
+        label.text = "latitude: \(latitude!)\nlongitude: \(longitude!)"
+    }
+}
+
+```
+

@@ -3,16 +3,9 @@ title =  "SwiftUIでプログラムで前の画面に戻る"
 url = "2020-09-01"
 date = "2020-09-01"
 description = "SwiftUIでプログラムで前の画面に戻る"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift"]
 archives = "2020/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +22,38 @@ NavigationView と NavigationLink を使うと画面遷移することができ�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako d0cdd71e899148c63b75393304abf359 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        NavigationView {
+            NavigationLink(destination: SecondView()) {
+                Text("Go to Second View")
+            }
+        }
+    }
+}
+
+struct SecondView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    var body: some View {
+        Button(action: {
+            self.presentationMode.wrappedValue.dismiss()
+        }) {
+            Text("Back to FirstView")
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

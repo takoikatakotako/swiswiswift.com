@@ -3,14 +3,9 @@ title = "SwiftUIでAppDelegateを使用する"
 url = "2023-12-10"
 date = "2023-12-10"
 description = "SwiftUIでAppDelegateを使用する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,50 @@ SwiftUIでAppDelegateを使用する方法です。アプリ終了時にUserDefa
 
 <img src="2023-12-10.gif" width="300px" alt="SwiftUIでAppDelegateを使用する">
 
-{{< gist takoikatakotako 495c4a2d05ef7db5c1f2fa09c850828b >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var pokemon = ""
+    var body: some View {
+        VStack {
+            Text("Pokemon Name is \(pokemon)")
+            
+            Button {
+                UserDefaults().setValue("Pikachu", forKey: "POKEMON")
+                getPokemon()
+            } label: {
+                Text("Set Pikachu")
+            }
+            
+            Button {
+                UserDefaults().setValue("Ditto", forKey: "POKEMON")
+                getPokemon()
+            } label: {
+                Text("Set Ditto")
+            }
+            
+            Button {
+                UserDefaults().setValue("Slowpoke", forKey: "POKEMON")
+                getPokemon()
+            } label: {
+                Text("Set Slowpoke")
+            }
+        }
+        .onAppear {
+            getPokemon()
+        }
+    }
+    
+    func getPokemon() {
+        if let pokemon = UserDefaults().value(forKey: "POKEMON") as? String {
+            self.pokemon = pokemon
+        }
+    }
+}
+```
+

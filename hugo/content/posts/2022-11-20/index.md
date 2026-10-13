@@ -3,14 +3,9 @@ title = "journalctl（LPIC）"
 url = "2022-11-20"
 date = "2022-11-20"
 description = "journalctl（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

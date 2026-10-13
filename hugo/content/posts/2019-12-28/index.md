@@ -3,14 +3,9 @@ title =  "HugoでGistが表示されない"
 url = "2019-12-28"
 date = "2019-12-28"
 description = "HugoでGistが表示されない"
-tags = [
-    "Hugo"
-]
-categories = [
-    "Hugo"
-]
+tags = ["Hugo"]
+categories = ["Hugo"]
 archives = "2019/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

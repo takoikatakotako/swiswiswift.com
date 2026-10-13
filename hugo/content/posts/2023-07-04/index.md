@@ -3,14 +3,9 @@ title = "セッションマネージャーを使ってEC2インスタンス(Amaz
 url = "2023-07-04"
 date = "2023-07-04"
 description = "セッションマネージャーを使ってEC2インスタンス(AmazonLinux2023)にログインする"
-tags = [
-  "JavaScript"
-]
-categories = [
-  "JavaScript"
-]
+tags = ["AWS", "Linux"]
+categories = ["AWS", "Linux"]
 archives = "2023/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

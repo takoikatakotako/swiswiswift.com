@@ -3,14 +3,9 @@ title = "変数の展開（LPIC）"
 url = "2022-10-22"
 date = "2022-10-22"
 description = "変数の展開（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

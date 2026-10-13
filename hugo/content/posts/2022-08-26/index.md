@@ -3,14 +3,9 @@ title = "パーミッション（LPIC）"
 url = "2022-08-26"
 date = "2022-08-26"
 description = "パーミッション（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

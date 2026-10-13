@@ -3,14 +3,9 @@ title = "プロキシ環境下でAWSCLIを使う"
 url = "2023-07-03"
 date = "2023-07-03"
 description = "プロキシ環境下でAWSCLIを使う"
-tags = [
-  "JavaScript"
-]
-categories = [
-  "JavaScript"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2023/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

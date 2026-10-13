@@ -3,14 +3,9 @@ title = "現在の日付と曜日、現在時間を取得する"
 url = "2018-04-20"
 date = "2018-04-20"
 description = "現在の日付と曜日、現在時間を取得する"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2018/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -39,4 +34,62 @@ Calendar.currentで取得すると、設定によっては和暦(平成〇〇年
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 9f029788e0b3ea4985719a87d657614b >}}
+<!--more-->
+
+**ViewController.swift**
+
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .white
+        print(getDateString())  //2018/05/10 (木)
+        print(getDateString2()) //2018年5月10日
+        print(getTimeString())  //09:27:08
+    }
+
+    func getDateString() -> String {
+        let date = NSDate()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy/MM/dd"
+        let dateStr = formatter.string(from: date as Date)
+
+        //あまり良く無い例
+        /*
+        let cal = NSCalendar(calendarIdentifier: .gregorian)
+        let weeks = ["日","月","火","水","木","金","土"]
+        let comp = cal?.components(NSCalendar.Unit.weekday, from: date as Date)
+        let weekIdx = comp?.weekday
+        var weekStr = weeks[weekIdx! - 1]
+        */
+
+        //ローカライズなどを考えてこっちを使おう！
+        formatter.locale = NSLocale(localeIdentifier: "ja_JP") as Locale?
+        formatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "EEEEE", options: 0, locale:  Locale.current)
+        let weekStr = formatter.string(from:  date as Date)
+        return  dateStr + " (" + weekStr + ")"
+    }
+
+    func getDateString2() -> String {
+        let date = NSDate()
+        let formatter = DateFormatter()
+
+        //あまり良く無い例
+        //formatter.dateFormat = "yyyy年MM月dd日"
+        //ローカライズなどを考えてこっちを使おう！
+        formatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "ydMMM", options: 0, locale: Locale(identifier: "ja_JP"))
+        return formatter.string(from: date as Date)
+    }
+
+    func getTimeString() -> String {
+        let date = NSDate()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "HH:mm:ss"
+        return formatter.string(from: date as Date)
+    }
+}
+```
+

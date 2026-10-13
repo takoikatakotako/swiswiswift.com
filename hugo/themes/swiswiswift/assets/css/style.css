@@ -19,15 +19,23 @@ img {
     max-width: 100%;
 }
 
+.highlight pre,
+pre {
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
 pre code {
     display: block;
     padding: 1em;
     background-color: #282c34; /* ダークな背景色 */
-    color: #abb2bf; /* 明るい文字色 */
     border-radius: 10px; /* 角を丸く */
     overflow-x: auto; /* 横スクロールを可能に */
-    white-space: pre-wrap; /* 長い行を折り返し */
+    white-space: pre;
     font-size: 0.9em; /* 全体的に小さめの文字サイズ */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    line-height: 1.6;
 }
 
 /* レイアウト */
@@ -194,6 +202,7 @@ iframe {
 /* 記事部分 */
 .post {
     margin-bottom: 1rem;
+    min-width: 0;
 }
 .post-title {
     font-weight: normal;

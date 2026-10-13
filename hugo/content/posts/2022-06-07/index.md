@@ -3,16 +3,9 @@ title =  "LambdaでBMIを計算するAPIを作成する"
 url = "2022-06-07"
 date = "2022-06-07"
 description = "LambdaでBMIを計算するAPIを作成する"
-tags = [
-  "AWS",
-  "Python"
-]
-categories = [
-  "AWS",
-  "Python"
-]
+tags = ["AWS", "Python"]
+categories = ["AWS", "Python"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,7 +21,29 @@ LambdaでBMIを計算するAPIを作成する方法です。
 
 ![Preview](1.png)
 
-{{< gist takoikatakotako 47068dc30c1774d2364f4821fc8adf6b >}}
+<!--more-->
+
+**lambda_function.py**
+
+```python
+import json
+
+def lambda_handler(event, context):
+    body = json.loads(event['body'])
+    hight = body['hight']
+    weight = body['weight']
+    
+    bmi = float(weight) / ((float(hight) / 100) ** 2)
+    response = {
+        'bmi': bmi
+    }
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps(response)
+    }
+```
+
 
 次に関数URLを作成します。
 

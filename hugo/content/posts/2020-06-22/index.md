@@ -3,16 +3,9 @@ title =  "SwiftUIでText中の文字の太さや色を変える"
 url = "2020-06-22"
 date = "2020-06-22"
 description = "SwiftUIでText中の文字の太さや色を変える"
-tags = [
-    "SwiftUI",
-    "iOS"
-]
-categories = [
-    "SwiftUI",
-    "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +21,33 @@ SwiftUI で Text を結合できるのが面白いです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 5dc94f517af174926ee513e2cca4b354 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        (Text("I ")
+            + Text("love ")
+                .foregroundColor(Color.red)
+            + Text("Snorlax")
+                .foregroundColor(Color.black)
+                .font(Font.system(size: 20).bold())
+            
+            + Text("!\n")
+            + Text("Snorlax is most cute & cool& powerful Pokemon.")
+            ).lineSpacing(4)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .previewLayout(.sizeThatFits)
+    }
+}
+```
+

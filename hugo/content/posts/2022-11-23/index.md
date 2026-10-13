@@ -3,14 +3,9 @@ title = "SysVinit（LPIC）"
 url = "2022-11-23"
 date = "2022-11-23"
 description = "SysVinit（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

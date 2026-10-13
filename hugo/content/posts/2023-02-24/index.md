@@ -3,14 +3,9 @@ title = "UserDefaultsで複数の値をセットで保存する"
 url = "2023-02-24"
 date = "2023-02-24"
 description = "UserDefaultsで複数の値をセットで保存する"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift"]
 archives = "2023/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -31,8 +26,98 @@ Set ボタンを押すと UserDefaults にカビゴンの情報が保存され�
 
 ### 辞書型配列を使う方法
 
-{{< gist takoikatakotako e2aa587a07910eceee2e0a3fc920a554 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Button {
+                var snorlax: Dictionary<String, Any> = [:]
+                snorlax["id"] = 143
+                snorlax["name"] = "snorlax"
+                snorlax["type"] = "normal"
+                UserDefaults.standard.set(snorlax, forKey: "snorlax")
+            } label: {
+                Text("Set")
+                    .font(.system(size: 28).bold())
+                    .padding()
+                    .border(.black)
+                    .padding()
+            }
+
+            Button {
+                if let snorlax = UserDefaults.standard.object(forKey: "snorlax") as? Dictionary<String, Any> {
+                    print(snorlax["id"] as! Int)
+                    print(snorlax["name"] as! String)
+                    print(snorlax["type"] as! String)
+                }
+            } label: {
+                Text("Get")
+                    .font(.system(size: 28).bold())
+                    .padding()
+                    .border(.black)
+                    .padding()
+            }
+        }
+    }
+}
+```
+
 
 ### 保存用のstructを作成する方法
 
-{{< gist takoikatakotako 9ade656a70885035a89dd64e0da12fbc >}}
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Button {
+                let snorlax: Pokemon = Pokemon(id: 143, name: "snorlax", type: "normal")
+                let encoded: Data = try! JSONEncoder().encode(snorlax)
+                UserDefaults.standard.set(encoded, forKey: "snorlax")
+            } label: {
+                Text("Set")
+                    .font(.system(size: 28).bold())
+                    .padding()
+                    .border(.black)
+                    .padding()
+            }
+
+            Button {
+                if let encoded = UserDefaults.standard.object(forKey: "snorlax") as? Data,
+                   let snorlax = try? JSONDecoder().decode(Pokemon.self, from: encoded) {
+                   print(snorlax)
+                }
+            } label: {
+                Text("Get")
+                    .font(.system(size: 28).bold())
+                    .padding()
+                    .border(.black)
+                    .padding()
+            }
+        }
+    }
+}
+```
+
+
+**Pokemon.swift**
+
+```swift
+import Foundation
+
+struct Pokemon: Codable {
+    let id: Int
+    let name: String
+    let type: String
+}
+```
+

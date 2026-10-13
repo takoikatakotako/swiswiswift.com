@@ -3,14 +3,9 @@ title = "tr（LPIC）"
 url = "2022-07-31"
 date = "2022-07-31"
 description = "tr（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

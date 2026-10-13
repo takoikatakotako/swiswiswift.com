@@ -3,14 +3,9 @@ title =  "SwiftUIでViewの上にViewを重ねる"
 url = "2020-11-06"
 date = "2020-11-06"
 description = "SwiftUIでViewの上にViewを重ねる"
-tags = [
-  "Swift", "SwiftUI"
-]
-categories = [
-  "Swift", "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift", "SwiftUI"]
 archives = "2020/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -26,4 +21,34 @@ Imageの上に半透明に黒いTextを重ねています。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako fbe130df43dbe7d899b2c180da79ea03 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Image("icon")
+            .resizable()
+            .frame(width: 200, height: 200)
+            .overlay(
+                Text("Snorlax")
+                    .foregroundColor(Color.white)
+                    .font(Font.system(size: 20).bold())
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                    .background(Color.black)
+                    .opacity(0.5)
+            )
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+```
+

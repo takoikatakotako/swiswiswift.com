@@ -3,16 +3,9 @@ title =  "SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知�
 url = "2020-12-12"
 date = "2020-12-12"
 description = "SwiftUIでAVAudioPlayerで音楽を再生し、再生終了を検知する"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +22,51 @@ SwiftUIは struct を使うので AVAudioPlayerDelegate に準拠することが
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 914be8370652bedcac998c49cbb47099 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @ObservedObject var viewModel = ContentViewModel()
+    var body: some View {
+        VStack {
+            Button("Play") {
+                viewModel.playAudio()
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
+
+**ContentViewModel.swift**
+
+```swift
+import Foundation
+import AVFoundation
+
+class ContentViewModel: NSObject, ObservableObject, AVAudioPlayerDelegate {
+    var audioPlayer: AVAudioPlayer?
+
+    func playAudio() {
+        guard let url = Bundle.main.url(forResource: "melody", withExtension: "mp3") else { return }
+        audioPlayer = try! AVAudioPlayer(contentsOf: url)
+        audioPlayer?.delegate = self
+        audioPlayer?.play()
+    }
+
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        print("Did finish Playing")
+    }
+}
+```
+

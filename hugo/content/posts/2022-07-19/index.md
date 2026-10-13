@@ -3,14 +3,9 @@ title = "bzip2,bunzip2（LPIC）"
 url = "2022-07-19"
 date = "2022-07-19"
 description = "bzip2,bunzip2（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

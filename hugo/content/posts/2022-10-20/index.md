@@ -3,14 +3,9 @@ title = "シェル変数と環境変数の違い（LPIC）"
 url = "2022-10-20"
 date = "2022-10-20"
 description = "シェル変数と環境変数の違い（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

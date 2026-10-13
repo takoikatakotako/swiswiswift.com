@@ -3,14 +3,9 @@ title =  "ALBに独自ドメインを設定してHTTPSにする"
 url = "2022-03-01"
 date = "2022-03-01"
 description = "ALBに独自ドメインを設定してHTTPSにする"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

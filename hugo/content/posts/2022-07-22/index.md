@@ -3,14 +3,9 @@ title = "less（LPIC）"
 url = "2022-07-22"
 date = "2022-07-22"
 description = "less（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

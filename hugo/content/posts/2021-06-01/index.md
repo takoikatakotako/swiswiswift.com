@@ -3,14 +3,9 @@ title =  "SwiftUIのTabViewのタブをコードから動的に切り替える"
 url = "2021-06-01"
 date = "2021-06-01"
 description = "SwiftUIのTabViewのタブをコードから動的に切り替える"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +23,67 @@ SwiftUIのTabViewのタブをコードから動的に切り替える方法です
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako e722691c33de78fbe75755ecb979ea55 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var tabSelection: Int = 0
+    var body: some View {
+        TabView(selection: $tabSelection) {
+            FirstView(tabSelection: $tabSelection)
+                .tabItem {
+                    Image(systemName: "house")
+                        .renderingMode(.template)
+                    Text("FirstView")
+                }
+                .tag(0)
+            SecondView(tabSelection: $tabSelection)
+                .tabItem {
+                    Image(systemName: "books.vertical")
+                        .renderingMode(.template)
+                    Text("SecondView")
+                }
+                .tag(1)
+        }
+    }
+}
+
+struct FirstView: View {
+    @Binding var tabSelection: Int
+    var body: some View {
+        VStack {
+            Text("FirstView")
+            Button {
+                tabSelection = 1
+            } label: {
+                Text("Go to SecondView")
+            }
+        }
+    }
+}
+
+struct SecondView: View {
+    @Binding var tabSelection: Int
+    var body: some View {
+        VStack {
+            Text("SecondView")
+            Button {
+                tabSelection = 0
+            } label: {
+                Text("Go to FirstView")
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

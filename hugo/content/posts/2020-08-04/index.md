@@ -3,18 +3,9 @@ title =  "SwiftUIのPreviewを横向きにする"
 url = "2020-08-04"
 date = "2020-08-04"
 description = "SwiftUIのPreviewを横向きにする"
-tags = [
-  "Swift",
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift", "SwiftUI"]
 archives = "2020/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -40,4 +31,23 @@ Previewのサイズを端末のサイズに変更します。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 5b3bf43d6c2a606b3d5c2bf4575ff7ae >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("Welcome to swiswiswift.com")
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView().previewLayout(.fixed(width: 1344, height: 621))
+    }
+}
+```
+

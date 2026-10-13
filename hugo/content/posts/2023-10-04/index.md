@@ -3,14 +3,9 @@ title = "SwiftUIで画像を丸く切り取り枠を付ける"
 url = "2023-10-04"
 date = "2023-10-04"
 description = "SwiftUIで画像を丸く切り取り枠を付ける"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -21,4 +16,26 @@ SwiftUIで画像を丸く切り取り枠を付ける方法です。
 
 <img src="1.png" width="300px" alt="SwiftUIで画像を丸く切り取り枠を付ける">
 
-{{< gist takoikatakotako cd108d941788af118601acab68557118 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Image(.icon)
+            .resizable()
+            .scaledToFill()
+            .frame(width: 150, height: 200)
+            .clipped()
+            .background(Color.red)
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

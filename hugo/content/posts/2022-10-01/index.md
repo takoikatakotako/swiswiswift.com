@@ -3,14 +3,9 @@ title = "apt-get（LPIC）"
 url = "2022-10-01"
 date = "2022-10-01"
 description = "apt-get（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
