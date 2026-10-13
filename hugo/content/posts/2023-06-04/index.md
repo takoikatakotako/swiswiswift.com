@@ -3,14 +3,9 @@ title = "iOSDC2023のプロポーザルは残念ながら不採択となって�
 url = "2023-06-04"
 date = "2023-06-04"
 description = "iOSDC2023のプロポーザルは残念ながら不採択となってしまいました"
-tags = [
-  "iOSDC"
-]
-categories = [
-  "iOSDC"
-]
+tags = ["iOSDC", "カンファレンス"]
+categories = ["iOSDC"]
 archives = "2023/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

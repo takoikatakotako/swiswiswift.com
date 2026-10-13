@@ -3,14 +3,9 @@ title = "Google Cloud FunctionでHelloWorld"
 url = "2018-03-24"
 date = "2018-03-24"
 description = "Google Cloud FunctionでHelloWorld"
-tags = [
-    "GCP",
-]
-categories = [
-    "GCP",
-]
+tags = ["GCP"]
+categories = ["GCP"]
 archives = "2018/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -24,4 +19,31 @@ HelloWorldとJsonでの出力とgetの受け取りです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako fb0806d6a15c4dd50a21b8348684bfe7 >}}
+<!--more-->
+
+**index.js**
+
+```javascript
+const functions = require('firebase-functions');
+
+ exports.helloWorld = functions.https.onRequest((request, response) => {
+  response.send("Hello from Firebase!");
+ });
+
+ exports.json = functions.https.onRequest((request, response) => {
+
+   const json = {
+       id: "Hello",
+       contributions: "contributions",
+   };
+   response.send(JSON.stringify(json));
+ });
+
+ exports.goodEvening = functions.https.onRequest((request, response) => {
+   var str_out = ""
+   const user = request.query.user
+   str_out += "user = " + user
+   response.send(str_out)
+ });
+```
+

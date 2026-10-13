@@ -3,14 +3,9 @@ title = "端末のシェイクを検知する"
 url = "2023-11-01"
 date = "2023-11-01"
 description = "端末のシェイクを検知する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,51 @@ aliases = ["migrate-from-jekyl"]
 
 <img src="2023-11-01.gif" width="300px" alt="端末のシェイクを検知する">
 
-{{< gist takoikatakotako a6d5d63f0a9371982028eea049853c1f >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var message = "Shake Me"
+
+    var body: some View {
+        Text(message)
+            .onReceive(NotificationCenter.default.publisher(for: .deviceDidShakeNotification)) { _ in
+                message = "Device Did Shake"
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+
+
+**NSNotification+Extension.swift**
+
+```swift
+import Foundation
+
+extension NSNotification.Name {
+    public static let deviceDidShakeNotification = NSNotification.Name("DeviceDidShakeNotification")
+}
+```
+
+
+**UIWindow+Extension.swift**
+
+```swift
+import Foundation
+
+extension UIWindow {
+    open override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        super.motionEnded(motion, with: event)
+        NotificationCenter.default.post(name: .deviceDidShakeNotification, object: event)
+    }
+}
+```
+

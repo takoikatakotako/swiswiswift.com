@@ -3,14 +3,9 @@ title =  "プロファイルを使って複数のAWSアカウントを使い分�
 url = "2022-03-04"
 date = "2022-03-04"
 description = "プロファイルを使って複数のAWSアカウントを使い分ける"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

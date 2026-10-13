@@ -3,16 +3,9 @@ title =  "SwiftUIでViewを横に等間隔で横に並べる"
 url = "2020-09-08"
 date = "2020-09-08"
 description = "SwiftUIでViewを横に等間隔で横に並べる"
-tags = [
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +21,44 @@ SwiftUIでViewを横に等間隔で横に並べて表示するほうほうです
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 2ca600c13fac1d7124ee6272e6351af3 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        HStack {
+            Image("icon")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("icon")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("icon")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("icon")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("icon")
+                .resizable()
+                .frame(width: 42, height: 42)
+        }
+        .padding(16)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

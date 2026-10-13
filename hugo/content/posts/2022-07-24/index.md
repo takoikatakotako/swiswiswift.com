@@ -3,14 +3,9 @@ title = "リダイレクト（LPIC）"
 url = "2022-07-24"
 date = "2022-07-24"
 description = "リダイレクト（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

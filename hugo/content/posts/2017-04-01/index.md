@@ -3,14 +3,9 @@ title = "サイトリニューアルしました"
 url = "2017-04-01"
 date = "2017-04-01"
 description = "サイトリニューアルしました"
-tags = [
-    "Other",
-]
-categories = [
-    "Other",
-]
+tags = ["その他"]
+categories = ["その他"]
 archives = "2017/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

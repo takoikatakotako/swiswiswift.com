@@ -3,14 +3,9 @@ title = "輸出コンプライアンスのウィザードをスキップする"
 url = "2017-08-12"
 date = "2017-08-12"
 description = "輸出コンプライアンスのウィザードをスキップする"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2017/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

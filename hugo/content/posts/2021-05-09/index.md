@@ -3,14 +3,9 @@ title =  "SwiftUIでListにButtonを設定してパラメーターの違う画�
 url = "2021-05-09"
 date = "2021-05-09"
 description = "SwiftUIでListにButtonを設定してパラメーターの違う画面に遷移する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2021/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -26,5 +21,56 @@ SwiftUIでListにButtonを設定してパラメーターの違う画面に遷移
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 6ee7fc4789c8b8fe0e29d6c04931a4f2 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var isActive : Bool = false
+    @State var pokemonName: String = ""
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                List {
+                    Button {
+                        pokemonName = "Snorlax"
+                        isActive = true
+                    } label: {
+                        Text("Snorlax")
+                    }
+                    Button {
+                        pokemonName = "Slowpoke"
+                        isActive = true
+                    } label: {
+                        Text("Slowpoke")
+                    }
+                    Button {
+                        pokemonName = "Eevee"
+                        isActive = true
+                    } label: {
+                        Text("Eevee")
+                    }
+                }
+                NavigationLink(
+                    destination: Text(pokemonName),
+                    isActive: $isActive
+                ) {
+                    EmptyView()
+                }
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

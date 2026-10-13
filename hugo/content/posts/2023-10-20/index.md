@@ -3,14 +3,9 @@ title = "SwiftUIでText中の文字の太さや色を変える"
 url = "2023-10-20"
 date = "2023-10-20"
 description = "SwiftUIでText中の文字の太さや色を変える"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -21,4 +16,38 @@ SwiftUIで画像を丸く切り取り枠を付ける方法です。
 
 <img src="1.png" width="300px" alt="SwiftUIでText中の文字の太さや色を変える">
 
-{{< gist takoikatakotako d1f7a2f02c2387a08431b61d333ceee6 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("I")
+                .font(.system(size: 20).bold())
+            + Text(" ❤️ ")
+                .foregroundStyle(Color.red)
+            + Text("Snorlax")
+                .foregroundStyle(Color.black)
+                .font(.system(size: 20).bold())
+            + Text("!\n")
+            + Text("Snorlax ")
+                .foregroundStyle(Color.red)
+                .font(.system(size: 20).bold())
+            + Text("is most ")
+                .foregroundStyle(Color.blue)
+                .font(.system(size: 20).bold())
+            + Text("cute & cool& powerful .")
+                .foregroundStyle(Color.green)
+                .font(.system(size: 20).bold())
+            + Text("Pokemon.")
+                .foregroundStyle(Color.yellow)
+                .font(.system(size: 20).bold())
+        }
+    }
+}
+```
+

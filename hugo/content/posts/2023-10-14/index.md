@@ -3,14 +3,9 @@ title = "SwiftUIでAlertを表示する"
 url = "2023-10-14"
 date = "2023-10-14"
 description = "SwiftUIでAlertを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -20,4 +15,39 @@ SwiftUIでAlertを表示する方法です。
 
 <img src="1.gif" width="300px" alt="SwiftUIでAlertを表示する">
 
-{{< gist takoikatakotako 6f4118edd5067ee30b5bab5fc5286ec3 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var showingAlert = false
+
+    var body: some View {
+        VStack {
+            Button {
+                showingAlert = true
+            } label: {
+                Text("Show Alert")
+            }
+        }
+        .alert("Alert Title", isPresented: $showingAlert) {
+            Button("Done", role: .none) {
+                print("Done")
+            }
+            Button("Cancel", role: .cancel) {
+                print("Cancel")
+            }
+        } message: {
+            Text("Message")
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

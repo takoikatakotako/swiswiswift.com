@@ -3,14 +3,9 @@ title =  "p12ファイルから証明書と秘密鍵を取り出す"
 url = "2019-11-05"
 date = "2019-11-05"
 description = "p12ファイルから証明書と秘密鍵を取り出す"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

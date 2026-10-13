@@ -3,14 +3,9 @@ title =  "RustでHelloWorldをする"
 url = "2021-11-10"
 date = "2021-11-10"
 description = "RustでHelloWorldをする"
-tags = [
-  "Rust"
-]
-categories = [
-  "Rust"
-]
+tags = ["Rust"]
+categories = ["Rust"]
 archives = "2021/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

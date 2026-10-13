@@ -3,16 +3,9 @@ title =  "ディレクトリにあるwavファイルをcafに変換する"
 url = "2020-10-06"
 date = "2020-10-06"
 description = "ディレクトリにあるwavファイルをcafに変換する"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2020/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +18,13 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 6c6ea0ca24501b53b858ca3797c2fda0 >}}
+<!--more-->
+
+**command.sh**
+
+```bash
+for fileName in $( ls . | grep .wav$ ); do
+  afconvert -f caff -d ima4 ${fileName}
+done
+```
+

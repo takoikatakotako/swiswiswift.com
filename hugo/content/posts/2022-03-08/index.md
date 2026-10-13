@@ -3,14 +3,9 @@ title =  "API GatewayとLambdaとDynamoDBを組み合わせてToDoアプリを�
 url = "2022-03-08"
 date = "2022-03-08"
 description = "API GatewayとLambdaとDynamoDBを組み合わせてToDoアプリを作る"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

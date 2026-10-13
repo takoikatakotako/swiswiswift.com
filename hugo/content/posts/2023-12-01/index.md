@@ -3,14 +3,9 @@ title = "SwiftUIでMapを表示する"
 url = "2023-12-01"
 date = "2023-12-01"
 description = "SwiftUIでMapを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,31 @@ SwiftUIを使ってMapを表示してください。秋葉原UDX（35.7005° N, 
 
 <img src="2023-12-01.png" width="300px" alt="SwiftUIでMapを表示する">
 
-{{< gist takoikatakotako 8ee2e32c38d3bbcd17902c48b2e58427 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+import MapKit
+
+struct ContentView: View {
+    var body: some View {
+        Map(
+            initialPosition:
+                MapCameraPosition.region(
+                    MKCoordinateRegion(
+                        center: CLLocationCoordinate2D(latitude: 35.7005, longitude: 139.7726),
+                        latitudinalMeters: 300,
+                        longitudinalMeters: 300
+                    )
+                )
+        )
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

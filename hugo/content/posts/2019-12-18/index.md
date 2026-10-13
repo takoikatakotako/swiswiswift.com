@@ -3,14 +3,9 @@ title =  "SwiftUIでリストのセルをタップするとアラートが表示
 url = "2019-12-18"
 date = "2019-12-18"
 description = "SwiftUIでリストのセルをタップするとアラートが表示される方法"
-tags = [
-    "SwiftUI"
-]
-categories = [
-    "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2019/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -26,4 +21,43 @@ SwiftUI でリストのセルをタップするとアラートが表示される
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako eff40f3f1c4192b2cb569ad262bd716b >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+fileprivate struct Pokemon: Identifiable {
+    let id = UUID()
+    let name: String
+}
+
+struct ContentView: View {
+    @State private var pokemons: [Pokemon] = [
+        Pokemon(name: "カビゴン"),
+        Pokemon(name: "ピカチュー"),
+        Pokemon(name: "コダック"),
+        Pokemon(name: "カメックス"),
+        Pokemon(name: "ヤドン")]
+    @State private var showingAlert = false
+    
+    var body: some View {
+        List(pokemons) { pokemon in
+            Button(action: {
+                self.showingAlert = true
+            }, label: {
+                Text(pokemon.name)
+            }).alert(isPresented: self.$showingAlert) {
+                Alert(title: Text("ポケモン名"), message: Text(pokemon.name), dismissButton: .default(Text("閉じる")))
+            }
+        }
+    }
+}
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

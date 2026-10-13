@@ -3,16 +3,9 @@ title =  "ディレクトリにあるtxtファイルでループする"
 url = "2020-10-05"
 date = "2020-10-05"
 description = "ディレクトリにあるtxtファイルでループする"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2020/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +18,13 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 844eade902d0373bfdeb3e636308e97b >}}
+<!--more-->
+
+**command.sh**
+
+```bash
+for fileName in $( ls . | grep .txt$ ); do
+  echo "${fileName}"
+done
+```
+

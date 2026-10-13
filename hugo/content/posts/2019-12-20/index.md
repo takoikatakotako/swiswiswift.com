@@ -3,14 +3,9 @@ title =  "SwiftUI でアラートを表示する"
 url = "2019-12-20"
 date = "2019-12-20"
 description = "SwiftUI でアラートを表示する"
-tags = [
-    "SwiftUI"
-]
-categories = [
-    "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2019/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +23,36 @@ UIAlertController とはかなり書き方が異なります。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako d503ff879dda8f8faabdeb2804b1b7f7 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var showingAlert = false
+    var body: some View {
+        Button(action: {
+            self.showingAlert = true
+        }, label: {
+            Text("Push Me!")
+        }).alert(isPresented: self.$showingAlert) {
+            Alert(
+                title: Text("タイトル"),
+                message: Text("メッセージ"),
+                primaryButton: .default(Text("ボタンその１")) {
+                    print("ボタンその１")
+                }, secondaryButton: .destructive(Text("ボタンその２")) {
+                    print("ボタンその２")
+                })
+        }
+    }
+}
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

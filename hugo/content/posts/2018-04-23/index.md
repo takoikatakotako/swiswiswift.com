@@ -3,14 +3,9 @@ title = "数字を三桁ごとにカンマ区切りにする(日本円の表示)
 url = "2018-04-23"
 date = "2018-04-23"
 description = "数字を三桁ごとにカンマ区切りにする(日本円の表示)"
-tags = [
-  "iOS",
-]
-categories = [
-  "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2018/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -27,4 +22,31 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako a261ef58268086e280af08e62966a943 >}}
+<!--more-->
+
+**UIViewController.swift**
+
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        print(addComma(num: 123456789) + "円") //->123,456,789円
+    }
+
+    func addComma(num:NSInteger) -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = NumberFormatter.Style.decimal
+        formatter.groupingSeparator = ","
+        formatter.groupingSize = 3
+        
+        let numnum = NSNumber(value: num)
+        let str = formatter.string(from: numnum)!
+        return str
+    }
+}
+```
+

@@ -3,14 +3,9 @@ title = "chsh（LPIC）"
 url = "2022-07-16"
 date = "2022-07-16"
 description = "chsh（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "curlでpostでJson送る"
 url = "2017-07-25"
 date = "2017-07-25"
 description = "curlでpostでJson送る"
-tags = [
-    "Linux",
-]
-categories = [
-    "Linux",
-]
+tags = ["Linux"]
+categories = ["Linux"]
 archives = "2017/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "id_rsa’ are too open."
 url = "2019-01-28"
 date = "2019-01-28"
 description = "id_rsa’ are too open."
-tags = [
-    "Linux",
-]
-categories = [
-    "Linux",
-]
+tags = ["Linux"]
+categories = ["Linux"]
 archives = "2019/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

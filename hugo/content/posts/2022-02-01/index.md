@@ -3,14 +3,9 @@ title =  "AWS CLI を使ってS3バケットを作成する"
 url = "2022-02-01"
 date = "2022-02-01"
 description = "AWS CLI を使ってS3バケットを作成する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

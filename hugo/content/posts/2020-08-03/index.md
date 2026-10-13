@@ -3,18 +3,9 @@ title =  "Buttonからプッシュ遷移をする（NavigationLinkを無効に�
 url = "2020-08-03"
 date = "2020-08-03"
 description = "Buttonからプッシュ遷移をする（NavigationLinkを無効にする）"
-tags = [
-  "Swift",
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift", "SwiftUI"]
 archives = "2020/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -31,4 +22,31 @@ Buttonからプッシュ遷移をする方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako a69a20b0c101fd1d9ec76025b903f202 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var isActive = false
+
+    var body: some View {
+        NavigationView {
+            VStack {
+                Button(action: {
+                    self.isActive = true
+                }) {
+                    Text("Tap Me!!")
+                }
+
+                NavigationLink(destination: Text("SecondView"), isActive: $isActive) {
+                    EmptyView()
+                }
+            }
+        }
+    }
+}
+```
+

@@ -3,16 +3,9 @@ title =  "SwiftUIで初めの画面に遷移する（popToRootViewController）"
 url = "2021-03-09"
 date = "2021-03-09"
 description = "SwiftUIで初めの画面に遷移する（popToRootViewController）"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,5 +21,56 @@ SwiftUIで初めの画面に遷移する（popToRootViewController）方法で�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako d5a2781b0fc46a0a60feebcfc5235e23 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var isActive : Bool = false
+    var body: some View {
+        NavigationView {
+            NavigationLink(
+                destination: SecondView(rootIsActive: $isActive),
+                isActive: $isActive
+            ) {
+                Text("Go SecondView")
+            }
+            .isDetailLink(false)
+            .navigationBarTitle("Root")
+        }
+    }
+}
+
+struct SecondView: View {
+    @Binding var rootIsActive : Bool
+    var body: some View {
+        NavigationLink(destination: ThirdView(shouldPopToRootView: self.$rootIsActive)) {
+            Text("Go ThirdView")
+        }
+        .isDetailLink(false)
+        .navigationBarTitle("SecondView")
+    }
+}
+
+struct ThirdView: View {
+    @Binding var shouldPopToRootView : Bool
+    var body: some View {
+        VStack {
+            Button (action: { shouldPopToRootView = false } ){
+                Text("Pop to RootView")
+            }
+        }.navigationBarTitle("ThirdView")
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

@@ -3,14 +3,9 @@ title =  "CodeBuildでC言語をビルドする"
 url = "2022-06-13"
 date = "2022-06-13"
 description = "CodeBuildでC言語をビルドする"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

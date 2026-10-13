@@ -3,14 +3,9 @@ title =  "SwiftUIのPickerでLabelを表示しない"
 url = "2020-01-13"
 date = "2020-01-13"
 description = "SwiftUIのPickerでLabelを表示しない"
-tags = [
-    "Swift", "SwiftUI"
-]
-categories = [
-    "Swift", "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift", "SwiftUI"]
 archives = "2020/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +23,34 @@ SwiftUIのPickerでLabelを表示しない方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 236f85c2f4c92db7cb51a6f4faed6a6f >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var pokemons = ["Snorlax", "Pikachu", "Slowpoke", "Meowth"]
+    @State private var selectedPokemon = 0
+    
+    var body: some View {
+        Picker("Pokemon", selection: $selectedPokemon) {
+            ForEach(0 ..< pokemons.count) {
+                Text(self.pokemons[$0])
+            }
+        }.pickerStyle(WheelPickerStyle())
+            .onReceive([self.selectedPokemon].publisher.first()) { (value) in
+                print("selectedPokemon: \(value)")
+                print(self.pokemons[value])
+        }.labelsHidden()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

@@ -3,14 +3,9 @@ title = "マークダウンを表示する"
 url = "2023-11-07"
 date = "2023-11-07"
 description = "マークダウンを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,21 @@ aliases = ["migrate-from-jekyl"]
 
 <img src="2023-11-07.png" width="300px" alt="マークダウンを表示する">
 
-{{< gist takoikatakotako ab0aa872a116f37d400f83b0fd51d3a7 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("**Snorlax** is the **most** cute pokemon!\n[About Snorlax](https://en.wikipedia.org/wiki/Snorlax)")
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

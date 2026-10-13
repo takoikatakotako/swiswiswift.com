@@ -3,16 +3,9 @@ title =  "curl で iOSにVoIPプッシュを送る"
 url = "2020-09-02"
 date = "2020-09-02"
 description = "curl で iOSにVoIPプッシュを送る"
-tags = [
-  "Swift",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS", "Swift"]
 archives = "2020/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

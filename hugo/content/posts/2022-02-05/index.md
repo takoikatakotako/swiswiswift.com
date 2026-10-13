@@ -3,16 +3,9 @@ title =  "MKMapViewの表示範囲を設定する"
 url = "2022-02-05"
 date = "2022-02-05"
 description = "MKMapViewの表示範囲を設定する"
-tags = [
-  "iOS",
-  "Swift"
-]
-categories = [
-  "iOS",
-  "Swift"
-]
+tags = ["iOS", "Swift", "UIKit"]
+categories = ["iOS", "Swift"]
 archives = "2022/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -31,5 +24,30 @@ MKMapViewの表示範囲を設定する方法です。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako a463227e5ade350bb9e5511c6113703f >}}
+<!--more-->
+
+**ViewController.swift**
+
+```swift
+import UIKit
+import MapKit
+
+class ViewController: UIViewController {
+
+    let mapView: MKMapView = MKMapView()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Akihabara Station
+        let coordinate = CLLocationCoordinate2DMake(35.6984, 139.7731)
+        let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+        let region = MKCoordinateRegion(center: coordinate, span: span)
+        mapView.setRegion(region, animated: true)
+        mapView.frame = view.bounds
+        view.addSubview(mapView)
+    }
+}
+```
+
 

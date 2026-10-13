@@ -3,14 +3,9 @@ title = "rootのログインを禁止にする"
 url = "2017-06-08"
 date = "2017-06-08"
 description = "rootのログインを禁止にする"
-tags = [
-    "Linux",
-]
-categories = [
-    "Linux",
-]
+tags = ["Linux"]
+categories = ["Linux"]
 archives = "2017/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

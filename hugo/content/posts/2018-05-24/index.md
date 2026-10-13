@@ -3,14 +3,9 @@ title = "Asset CatalogでColor Setを使って色を管理する"
 url = "2018-05-24"
 date = "2018-05-24"
 description = "Asset CatalogでColor Setを使って色を管理する"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2018/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -37,4 +32,24 @@ Assetを開いて右クリック -> 「New Color Set」を選択
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 8390cd6f3f76bfbe43ebb87c1f9148ab >}}
+<!--more-->
+
+**ViewController.swift**
+
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if #available(iOS 11.0, *) {
+            self.view.backgroundColor = UIColor.init(named: "original")
+        } else {
+            self.view.backgroundColor = .red
+        }
+    }
+}
+```
+

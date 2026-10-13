@@ -3,14 +3,9 @@ title =  "Dockerビルドに秘密情報を使う"
 url = "2022-04-02"
 date = "2022-04-02"
 description = "Dockerビルドに秘密情報を使う"
-tags = [
-  "Docker"
-]
-categories = [
-  "Docker"
-]
+tags = ["Docker"]
+categories = ["Docker"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

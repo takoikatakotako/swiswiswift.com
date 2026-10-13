@@ -3,14 +3,9 @@ title = "chown（LPIC）"
 url = "2022-08-29"
 date = "2022-08-29"
 description = "chown（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

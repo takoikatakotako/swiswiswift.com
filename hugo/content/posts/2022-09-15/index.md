@@ -3,14 +3,9 @@ title = "シェル変数（LPIC）"
 url = "2022-09-15"
 date = "2022-09-15"
 description = "bash（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

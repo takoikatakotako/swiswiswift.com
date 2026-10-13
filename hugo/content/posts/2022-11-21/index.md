@@ -3,14 +3,9 @@ title = "shutdown（LPIC）"
 url = "2022-11-21"
 date = "2022-11-21"
 description = "shutdown（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

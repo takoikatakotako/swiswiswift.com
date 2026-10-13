@@ -3,14 +3,9 @@ title = "renice（LPIC）"
 url = "2022-08-11"
 date = "2022-08-11"
 description = "renice（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

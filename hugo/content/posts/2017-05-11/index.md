@@ -3,14 +3,9 @@ title = "cafファイルの作成"
 url = "2017-05-11"
 date = "2017-05-11"
 description = "cafファイルの作成"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2017/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "UINavigationControllerの戻るボタンの戻るを消す"
 url = "2017-10-14"
 date = "2017-10-14"
 description = "UINavigationControllerの戻るボタンの戻るを消す"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2017/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

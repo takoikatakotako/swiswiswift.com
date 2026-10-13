@@ -3,14 +3,9 @@ title = "dpkg,etc（LPIC）"
 url = "2022-09-28"
 date = "2022-09-28"
 description = "dpkg,etc（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

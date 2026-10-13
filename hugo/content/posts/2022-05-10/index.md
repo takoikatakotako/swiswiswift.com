@@ -3,14 +3,9 @@ title =  "Swiftで配列からランダムに要素を取り出す"
 url = "2022-05-10"
 date = "2022-05-10"
 description = "Swiftで配列からランダムに要素を取り出す"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

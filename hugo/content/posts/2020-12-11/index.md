@@ -3,14 +3,9 @@ title =  "ビック光（IIJmioひかり）の接続パスワードを忘れた�
 url = "2020-12-11"
 date = "2020-12-11"
 description = "ビック光（IIJmioひかり）の接続パスワードを忘れた時のメモ"
-tags = [
-  "IIJ"
-]
-categories = [
-  "IIJ"
-]
+tags = ["IIJ"]
+categories = ["IIJ"]
 archives = "2020/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

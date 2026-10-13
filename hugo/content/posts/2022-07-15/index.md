@@ -3,14 +3,9 @@ title = "JavaScriptで数値か文字列か判定する"
 url = "2022-07-15"
 date = "2022-07-15"
 description = "JavaScriptで数値か文字列か判定する"
-tags = [
-  "JavaScript"
-]
-categories = [
-  "JavaScript"
-]
+tags = ["JavaScript"]
+categories = ["JavaScript"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -27,4 +22,37 @@ JavaScriptで数値か文字列か判定する方法です。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako 02b02f0756e7d22b10d764eaa583a6f7 >}}
+<!--more-->
+
+**index.html**
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Number</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <p>Number Confirm</p>
+  <input id="number" type="text">
+  <input type="button" value="Number Confirm" onclick="confirm();"/>
+</body>
+</html>
+```
+
+
+**script.js**
+
+```javascript
+function confirm() {
+    const number = document.getElementById("number").value;
+    if (isNaN(number)) {
+        alert(`「${number}」is not Number`);
+    } else {
+        alert(`「${number}」is Number`);
+    }
+}
+```
+

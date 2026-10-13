@@ -3,14 +3,9 @@ title = "LPIC101直前まとめ（LPIC）"
 url = "2022-12-01"
 date = "2022-12-01"
 description = "LPIC101直前まとめ（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

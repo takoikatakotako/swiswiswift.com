@@ -3,14 +3,9 @@ title = "スワイプで遷移するチュートリアル画面を作る"
 url = "2023-11-03"
 date = "2023-11-03"
 description = "スワイプで遷移するチュートリアル画面を作る"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,46 @@ aliases = ["migrate-from-jekyl"]
 
 <img src="2023-11-03.gif" width="300px" alt="スワイプで遷移するチュートリアル画面を作る">
 
-{{< gist takoikatakotako 63ed7c883466161f7b1240d917621446 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        TabView {
+            ContentViewCell(image: Image(.snorlax))
+            ContentViewCell(image: Image(.magnemite))
+            ContentViewCell(image: Image(.psyduck))
+            ContentViewCell(image: Image(.quagsire))
+            ContentViewCell(image: Image(.slowpoke))
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.gray)
+        .tabViewStyle(.page)
+        .menuIndicator(.visible)
+    }
+}
+```
+
+
+**ContentViewCell.swift**
+
+```swift
+import SwiftUI
+
+struct ContentViewCell: View {
+    let image: Image
+    
+    var body: some View {
+        image
+            .resizable()
+            .scaledToFit()
+            .frame(width: 240, height: 240)
+            .background(Color.white)
+    }
+}
+```
+

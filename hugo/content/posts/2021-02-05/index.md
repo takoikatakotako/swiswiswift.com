@@ -3,16 +3,9 @@ title =  "@Stateと@Bindingの使い分け"
 url = "2021-02-05"
 date = "2021-02-05"
 description = "@Stateと@Bindingの使い分け"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,7 +21,46 @@ aliases = ["migrate-from-jekyl"]
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako e5076a3bb8ff9601278c214c76fadcae >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var text: String = "I Like Slowple!"
+    
+    var body: some View {
+        VStack {
+            Text(text)
+                .padding()
+            
+            Button(action: {
+                text = "I Like Snorlax!"
+            }, label: {
+                Text("I Like Snorlax!")
+            })
+            .padding()
+            
+            Button(action: {
+                text = "I Like Slowple!"
+            }, label: {
+                Text("I Like Slowple!")
+            })
+            .padding()
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+```
+
 
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
@@ -39,6 +71,57 @@ ChangeTextボタンを押してSecondViewに遷移し、そこで値を変える
 
 ![@Binding](2.gif)
 
-{{< gist takoikatakotako bfe8de09b32ffe958836096d9b1b8f11 >}}
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var text: String = "I Like Slowpoke!"
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                Text(text)
+                    .padding()
+                
+                NavigationLink(destination: SecondView(text: $text)) {
+                    Text("Change Text")
+                }
+            }
+        }
+    }
+}
+
+struct SecondView: View {
+    @Binding var text: String
+    
+    var body: some View {
+        VStack {
+            Button(action: {
+                text = "I Like Snorlax!"
+            }, label: {
+                Text("I Like Snorlax!")
+            })
+            .padding()
+            
+            Button(action: {
+                text = "I Like Slowpoke!"
+            }, label: {
+                Text("I Like Slowpoke!")
+            })
+            .padding()
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+```
+
 
 

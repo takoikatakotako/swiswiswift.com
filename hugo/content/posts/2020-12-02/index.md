@@ -3,18 +3,9 @@ title =  "SwiftでSpringBootで作られたAPIに文字列を渡す"
 url = "2020-12-02"
 date = "2020-12-02"
 description = "SwiftでSpringBootで作られたAPIに文字列を渡す"
-tags = [
-  "Spring", 
-  "Java",
-  "Swift"
-]
-categories = [
-  "Spring", 
-  "Java",
-  "Swift"
-]
+tags = ["Java", "Spring", "Swift"]
+categories = ["Java", "Spring", "Swift"]
 archives = "2020/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -61,7 +52,48 @@ curl "http://localhost:8080/sample" \
 
 次にこのエンドポイントを Swift から叩きます。
 
-{{< gist takoikatakotako 015ea27acbfe10f1e90f7020489de6b7 >}}
+<!--more-->
+
+**Playground.swift**
+
+```swift
+import PlaygroundSupport
+import XCPlayground
+
+enum HttpMethod: String {
+    case get = "GET"
+    case post = "POST"
+}
+
+struct APIRequest {
+    static func createUrlRequest<RequestBody: Encodable>(baseUrl: String = "https://swiswiswift.com/", path: String, httpMethod: HttpMethod = .get, requestHeader: [String: String] = ["Content-Type": "application/json"], requestBody: RequestBody) -> URLRequest {
+        let url = URL(string: baseUrl + path)!
+        var request = URLRequest(url: url)
+        request.httpMethod = httpMethod.rawValue
+        request.allHTTPHeaderFields = requestHeader
+        if let httpBody = try? JSONEncoder().encode(requestBody) {
+            request.httpBody = httpBody
+        }
+        return request
+    }
+}
+
+struct SampleBean: Codable {
+    let text: String
+}
+
+let request = APIRequest.createUrlRequest(baseUrl: "http://localhost:8080/" ,path: "sample", httpMethod: .post, requestBody: "Kabigon")
+let task = URLSession.shared.dataTask(with: request) { data, response, error in
+    guard let data = data, let response = response as? HTTPURLResponse else {
+        return
+    }
+    
+    let sampleBean = try! JSONDecoder().decode(SampleBean.self, from: data)
+    print(sampleBean.text)  // -> "Kabigon"
+}
+task.resume()
+```
+
 
 レスポンスを SampleBean にデコードしてその中の text プロパティを表示すると ダブルクオート付きの文字列が表示されてしまいます。
 それはSwift がダブルクオートを含めて Spring 側にデータを送信しているからです。
@@ -76,7 +108,21 @@ curl "http://localhost:8080/sample" \
 
 将来的に送りたいプロパティが増えるので、Swiftから String 型ではなく、任意の struct を送信するようにしました。
 
-{{< gist takoikatakotako c9ced18b58e919e194895e6d433ac9c5 >}}
+**Playground.swift**
+
+```swift
+let request = APIRequest.createUrlRequest(baseUrl: "http://localhost:8080/" ,path: "sample", httpMethod: .post, requestBody: SampleBean(text: "Kabigon"))
+let task = URLSession.shared.dataTask(with: request) { data, response, error in
+    guard let data = data, let response = response as? HTTPURLResponse else {
+        return
+    }
+    
+    let sampleBean = try! JSONDecoder().decode(SampleBean.self, from: data)
+    print(sampleBean.text)  // Kabigon
+}
+task.resume()
+```
+
 
 
 ```

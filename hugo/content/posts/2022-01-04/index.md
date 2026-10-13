@@ -3,16 +3,9 @@ title =  "Xcodeで左側のファイル一覧のナビゲーションが隠れ�
 url = "2022-01-04"
 date = "2022-01-04"
 description = "Xcodeで左側のファイル一覧のナビゲーションが隠れてしまって出てこない"
-tags = [
-  "Xcode",
-  "Swift"
-]
-categories = [
-  "Xcode",
-  "Swift"
-]
+tags = ["Swift", "Xcode"]
+categories = ["Swift", "Xcode"]
 archives = "2022/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

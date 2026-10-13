@@ -3,16 +3,9 @@ title =  "iOSでGoogle-Mobile-Ads-SDKの８系が入らない"
 url = "2021-02-08"
 date = "2021-02-08"
 description = "iOSでGoogle-Mobile-Ads-SDKの８系が入らない"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["Firebase", "iOS"]
+categories = ["Firebase", "iOS"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

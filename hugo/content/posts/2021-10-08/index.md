@@ -3,16 +3,9 @@ title =  "Springを使ってお問い合わせフォームを作るその５"
 url = "2021-10-08"
 date = "2021-10-08"
 description = "Springを使ってお問い合わせフォームを作るその５"
-tags = [
-  "Java",
-  "Spring"
-]
-categories = [
-  "Java",
-  "Spring"
-]
+tags = ["Java", "Spring"]
+categories = ["Java", "Spring"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

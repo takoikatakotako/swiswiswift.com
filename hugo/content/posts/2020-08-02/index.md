@@ -3,18 +3,9 @@ title =  "SwiftUIでNavigationBarを隠す"
 url = "2020-08-02"
 date = "2020-08-02"
 description = "SwiftUIでNavigationBarを隠す"
-tags = [
-  "Swift",
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "Swift",
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift", "SwiftUI"]
 archives = "2020/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -31,4 +22,21 @@ SwiftUI で NavigationBar を隠す方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 65288fea25b1913b05527339025174a1 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {    
+    var body: some View {
+        NavigationView {
+            Text("No Title")
+                .navigationBarTitle("")
+                .navigationBarHidden(true)
+        }
+    }
+}
+```
+

@@ -3,14 +3,9 @@ title =  "MacOSでフォルダをzipに圧縮する"
 url = "2021-09-03"
 date = "2021-09-03"
 description = "MacOSでフォルダをzipに圧縮する"
-tags = [
-  "Golang"
-]
-categories = [
-  "Golang"
-]
+tags = ["macOS"]
+categories = ["macOS"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 

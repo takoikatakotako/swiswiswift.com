@@ -3,14 +3,9 @@ title =  "EC2にMySQLをインストールする"
 url = "2022-05-02"
 date = "2022-05-02"
 description = "EC2にMySQLをインストールする"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

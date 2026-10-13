@@ -3,14 +3,9 @@ title =  "SwiftUIでPicker を表示する"
 url = "2020-01-12"
 date = "2020-01-12"
 description = "SwiftUIでPicker を表示する"
-tags = [
-    "Swift", "SwiftUI"
-]
-categories = [
-    "Swift", "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift", "SwiftUI"]
 archives = "2020/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +24,34 @@ SwiftUI で Picker を表示するサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 4c1ff8d1731a52359fae0a29a73f0f1d >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var pokemons = ["Snorlax", "Pikachu", "Slowpoke", "Meowth"]
+    @State private var selectedPokemon = 0
+    
+    var body: some View {
+        Picker("Pokemon", selection: $selectedPokemon) {
+            ForEach(0 ..< pokemons.count) {
+                Text(self.pokemons[$0])
+            }
+        }.pickerStyle(WheelPickerStyle())
+            .onReceive([self.selectedPokemon].publisher.first()) { (value) in
+                print("selectedPokemon: \(value)")
+                print(self.pokemons[value])
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

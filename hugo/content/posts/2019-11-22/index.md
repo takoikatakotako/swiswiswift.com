@@ -3,14 +3,9 @@ title =  "Dockerを使ってPostgreSQLを立て、テーブルを作成する。
 url = "2019-11-22"
 date = "2019-11-22"
 description = "Dockerを使ってPostgreSQLを立て、テーブルを作成する。"
-tags = [
-    "Docker"
-]
-categories = [
-    "Docker"
-]
+tags = ["Docker"]
+categories = ["Docker"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

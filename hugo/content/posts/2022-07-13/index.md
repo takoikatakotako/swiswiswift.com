@@ -3,14 +3,9 @@ title = "Terraformを使ってサーバーレスでサービスを作成した�
 url = "2022-07-13"
 date = "2022-07-13"
 description = "Terraformを使ってサーバーレスでサービスを作成したので振り返る"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

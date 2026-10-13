@@ -3,16 +3,9 @@ title =  "findコマンドでディレクトリを探す"
 url = "2022-04-04"
 date = "2022-04-04"
 description = "findコマンドでディレクトリを探す"
-tags = [
-  "Linux",
-  "find"
-]
-categories = [
-  "Linux",
-  "find"
-]
+tags = ["find", "Linux"]
+categories = ["find", "Linux"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

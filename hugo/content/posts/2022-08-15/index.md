@@ -3,14 +3,9 @@ title = "nohup（LPIC）"
 url = "2022-08-15"
 date = "2022-08-15"
 description = "nohup（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

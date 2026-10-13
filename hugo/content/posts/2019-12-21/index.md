@@ -3,14 +3,9 @@ title =  "Dockerで Alpineベースのコンテナに入る"
 url = "2019-12-21"
 date = "2019-12-21"
 description = "Dockerで Alpineベースのコンテナに入る"
-tags = [
-    "Docker"
-]
-categories = [
-    "Docker"
-]
+tags = ["Docker"]
+categories = ["Docker"]
 archives = "2019/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

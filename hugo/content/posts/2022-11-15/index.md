@@ -3,14 +3,9 @@ title = "userdel（LPIC）"
 url = "2022-11-15"
 date = "2022-11-15"
 description = "zypper（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

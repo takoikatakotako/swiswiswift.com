@@ -3,16 +3,9 @@ title =  "SwiftUIで画像をリサイズして表示（clip）"
 url = "2020-09-06"
 date = "2020-09-06"
 description = "SwiftUIで画像をリサイズして表示（clip）"
-tags = [
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "SwiftUI",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,4 +21,28 @@ SwiftUIで画像をリサイズして表示します。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 72403537881b77830ba24dcd87a5cd87 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Image("icon")
+            .resizable()
+            .scaledToFill()
+            .frame(width: 150, height: 200)
+            .clipped()
+            .background(Color.red)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

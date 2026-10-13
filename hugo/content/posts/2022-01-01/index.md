@@ -3,14 +3,9 @@ title =  "2022年の目標"
 url = "2022-01-01"
 date = "2022-01-01"
 description = "2022年の目標"
-tags = [
-  "今年の目標"
-]
-categories = [
-  "今年の目標"
-]
+tags = ["今年の目標"]
+categories = ["今年の目標"]
 archives = "2022/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,16 +3,9 @@ title =  "Spring Bootの起動時に文字列の配列を渡す"
 url = "2022-04-01"
 date = "2022-04-01"
 description = "Spring Bootの起動時に文字列の配列を渡す"
-tags = [
-  "Spring",
-  "Java"
-]
-categories = [
-  "Spring",
-  "Java"
-]
+tags = ["Java", "Spring"]
+categories = ["Java", "Spring"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "LambdaのコードをCLIから更新する"
 url = "2022-03-02"
 date = "2022-03-02"
 description = "LambdaのコードをCLIから更新する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

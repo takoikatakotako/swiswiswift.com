@@ -3,16 +3,9 @@ title =  "XcodeでAtCoderをC++でやってみる"
 url = "2020-06-02"
 date = "2020-06-02"
 description = "XcodeでAtCoderをC++でやってみる"
-tags = [
-    "AtCoder",
-    "C++"
-]
-categories = [
-    "AtCoder",
-    "AtCoder"
-]
+tags = ["AtCoder", "C++"]
+categories = ["AtCoder"]
 archives = "2020/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

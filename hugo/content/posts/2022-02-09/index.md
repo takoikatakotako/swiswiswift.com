@@ -3,14 +3,9 @@ title =  "EC2インスタンスにnginxをインストールしてブラウザ�
 url = "2022-02-09"
 date = "2022-02-09"
 description = "EC2インスタンスにnginxをインストールしてブラウザからアクセスする"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

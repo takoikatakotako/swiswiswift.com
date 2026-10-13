@@ -3,14 +3,9 @@ title =  "PCBEで作った基板をPCBGOGOで注文する"
 url = "2021-09-05"
 date = "2021-09-05"
 description = "PCBEで作った基板をPCBGOGOで注文する"
-tags = [
-  "PCBE"
-]
-categories = [
-  "PCBE"
-]
+tags = ["PCBE"]
+categories = ["PCBE"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 

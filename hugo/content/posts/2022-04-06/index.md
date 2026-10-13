@@ -3,16 +3,9 @@ title =  "SwiftUIで画像をピンチで拡大する（PDFView）"
 url = "2022-04-06"
 date = "2022-04-06"
 description = "SwiftUIで画像をピンチで拡大する（PDFView）"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -38,5 +31,41 @@ SwiftUIで画像をピンチで拡大する方法です。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako 464046663c637168a8c4bf81fa912f5f >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        PhotoDetailView(image: UIImage(named: "icon")!)
+    }
+}
+```
+
+
+**PhotoDetailView.swift**
+
+```swift
+import SwiftUI
+import PDFKit
+
+struct PhotoDetailView: UIViewRepresentable {
+    let image: UIImage
+
+    func makeUIView(context: Context) -> PDFView {
+        let view = PDFView()
+        view.document = PDFDocument()
+        guard let page = PDFPage(image: image) else { return view }
+        view.document?.insert(page, at: 0)
+        view.autoScales = true
+        return view
+    }
+
+    func updateUIView(_ uiView: PDFView, context: Context) {}
+}
+```
+
 

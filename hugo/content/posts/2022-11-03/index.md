@@ -3,14 +3,9 @@ title = "ACPI（LPIC）"
 url = "2022-11-03"
 date = "2022-11-03"
 description = "ACPI（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

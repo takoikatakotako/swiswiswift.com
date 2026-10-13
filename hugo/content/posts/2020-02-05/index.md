@@ -3,14 +3,9 @@ title =  "SwiftUIのToggleの変更を検知する"
 url = "2020-02-05"
 date = "2020-02-05"
 description = "SwiftUIのToggleの変更を検知する"
-tags = [
-    "Swift", "SwiftUI"
-]
-categories = [
-    "Swift", "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift", "SwiftUI"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -27,4 +22,36 @@ SwiftUIのToggleの変更を検知し、print 文を実行します。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 0b857faf27f5a005cbf36cd3e625ceb0 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+class ContentViewViewModel: ObservableObject {
+    @Published var toggleValue: Bool = true {
+        didSet {
+            print("value did change")
+        }
+    }
+}
+
+struct ContentView: View {
+    @ObservedObject(initialValue: ContentViewViewModel()) var viewModel: ContentViewViewModel
+    var body: some View {
+        Toggle(isOn: $viewModel.toggleValue) {
+            HStack {
+                Text("value = " + String(viewModel.toggleValue))
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

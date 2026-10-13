@@ -3,14 +3,9 @@ title = "pkill（LPIC）"
 url = "2022-11-30"
 date = "2022-11-30"
 description = "pkill（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

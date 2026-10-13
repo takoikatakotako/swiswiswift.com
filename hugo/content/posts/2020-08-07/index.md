@@ -3,16 +3,9 @@ title =  "Xcodeでコードをフォーマットする"
 url = "2020-08-07"
 date = "2020-08-07"
 description = "Xcodeでコードをフォーマットする"
-tags = [
-  "SwiftUI",
-  "iOS"
-]
-categories = [
-  "SwiftUI",
-  "iOS"
-]
+tags = ["Xcode"]
+categories = ["Xcode"]
 archives = "2020/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

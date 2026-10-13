@@ -3,14 +3,9 @@ title = "SwiftUIでUICalendarViewを使ってカレンダーを表示する"
 url = "2023-02-21"
 date = "2023-02-21"
 description = "SwiftUIでUICalendarViewを使ってカレンダーを表示する"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift"]
 archives = "2023/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -30,5 +25,77 @@ iOS16からUICalendarViewというすごく便利なものが使えるように�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 5fe9f3d385b88cd8f7a3a864274b7ab6 >}}
+<!--more-->
+
+**CalendarView.swift**
+
+```swift
+import SwiftUI
+
+struct CalendarView: UIViewRepresentable {
+    let didSelectDate: (_ dateComponents: DateComponents) -> Void
+    
+    final public class Coordinator: NSObject, UICalendarSelectionSingleDateDelegate {
+        let didSelectDate: (_ dateComponents: DateComponents) -> Void
+        
+        init(
+            didSelectDate: @escaping (_ dateComponents: DateComponents) -> Void
+        ) {
+            self.didSelectDate = didSelectDate
+        }
+        
+        public func dateSelection(_ selection: UICalendarSelectionSingleDate, didSelectDate dateComponents: DateComponents?) {
+            guard let dateComponents = dateComponents else {
+                return
+            }
+            didSelectDate(dateComponents)
+        }
+    }
+    
+    
+    public func makeCoordinator() -> Coordinator {
+        Coordinator(didSelectDate: didSelectDate)
+    }
+    
+    
+    func makeUIView(context: Context) -> some UIView {
+        let selection = UICalendarSelectionSingleDate(delegate: context.coordinator)
+        
+        let calendarView = UICalendarView()
+        calendarView.selectionBehavior = selection
+        return calendarView
+    }
+    
+    func updateUIView(_ uiView: UIViewType, context: Context) {}
+}
+
+struct CalendarView_Previews: PreviewProvider {
+    static var previews: some View {
+        CalendarView { dateComponents in
+            
+        }
+    }
+}
+```
+
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        CalendarView { dateComponents in
+            guard let year = dateComponents.year,
+                  let month = dateComponents.month,
+                  let day = dateComponents.day else {
+                return
+            }
+            print("yate: \(year), month: \(month), day: \(day)")
+        }
+    }
+}
+```
+
 

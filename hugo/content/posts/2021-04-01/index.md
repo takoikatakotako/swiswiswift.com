@@ -3,16 +3,9 @@ title =  "Swiftでプロジェクトの中に含まれるJSONファイルを読�
 url = "2021-04-01"
 date = "2021-04-01"
 description = "Swiftでプロジェクトの中に含まれるJSONファイルを読み込む"
-tags = [
-  "iOS",
-  "Swift"
-]
-categories = [
-  "iOS",
-  "Swift"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift"]
 archives = "2021/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -43,5 +36,44 @@ Swiftでプロジェクトの中に含まれるJSONファイルを読み込む�
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 7bc6f878d6cf12d930f52813420e351d >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct Pokemon: Decodable {
+    let number: Int
+    let name: String
+}
+
+struct ContentView: View {
+    @State var number: String = ""
+    @State var name: String = ""
+    
+    var body: some View {
+        VStack {
+            Button("Read Data") {
+                let bundlePath = Bundle.main.path(forResource: "pokemon", ofType: "json")!
+                let jsonData = try! String(contentsOfFile: bundlePath).data(using: .utf8)!
+                let pokemon = try! JSONDecoder().decode(Pokemon.self, from: jsonData)
+                
+                number = String(pokemon.number)
+                name = pokemon.name
+            }
+            
+            Text("Number: \(number)")
+            Text("Name: \(name)")
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

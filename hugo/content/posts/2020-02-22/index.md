@@ -3,14 +3,9 @@ title =  "Swiftで動画の終了を検知する"
 url = "2020-02-22"
 date = "2020-02-22"
 description = "Swiftで動画の終了を検知する"
-tags = [
-    "Swift"
-]
-categories = [
-    "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -33,4 +28,70 @@ Swiftで動画の終了を検知するサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako a03255a77b6a2baf7edfd58fa0c0ada3 >}}
+<!--more-->
+
+**ViewController.swift**
+
+```swift
+import UIKit
+import AVFoundation
+
+class ViewController: UIViewController {
+    var videoPlayer: AVPlayer!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Create AVPlayerItem
+        guard let path = Bundle.main.path(forResource: "movie", ofType: "mp4") else {
+            fatalError("Movie file can not find.")
+        }
+        let fileURL = URL(fileURLWithPath: path)
+        let avAsset = AVURLAsset(url: fileURL)
+        let playerItem: AVPlayerItem = AVPlayerItem(asset: avAsset)
+        
+        // Create AVPlayer
+        videoPlayer = AVPlayer(playerItem: playerItem)
+        
+        // Add AVPlayer
+        let layer = AVPlayerLayer()
+        layer.videoGravity = AVLayerVideoGravity.resizeAspect
+        layer.player = videoPlayer
+        layer.frame = view.bounds
+        view.layer.addSublayer(layer)
+        
+        // Observe
+        NotificationCenter.default.addObserver(self, selector: #selector(playerDidFinishPlaying), name: .AVPlayerItemDidPlayToEndTime, object: playerItem)
+        
+        // Create Movie Start Button
+        let startButton = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        startButton.layer.position = CGPoint(x: self.view.bounds.midX, y: self.view.bounds.maxY - 50)
+        startButton.layer.masksToBounds = true
+        startButton.layer.cornerRadius = 20.0
+        startButton.backgroundColor = UIColor.orange
+        startButton.setTitle("Start", for: UIControl.State.normal)
+        startButton.addTarget(self, action: #selector(onStartButtonTapped), for: UIControl.Event.touchUpInside)
+        view.addSubview(startButton)
+    }
+    
+    // Start Button Tapped
+    @objc func onStartButtonTapped(){
+        videoPlayer.seek(to: CMTimeMakeWithSeconds(0, preferredTimescale: Int32(NSEC_PER_SEC)))
+        videoPlayer.play()
+    }
+    
+    // Movie Did Finish
+    @objc func playerDidFinishPlaying() {
+        print("MovieFinish!!")
+        let actionAlert = UIAlertController(title: "MovieFinish!!", message: "MovieFinish", preferredStyle: UIAlertController.Style.alert)
+        let alertAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
+        actionAlert.addAction(alertAction)
+        present(actionAlert, animated: true, completion: nil)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+}
+```
+

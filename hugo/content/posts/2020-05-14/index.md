@@ -3,16 +3,9 @@ title =  "シミュレーターのスクリーンショットを影無しで撮�
 url = "2020-05-14"
 date = "2020-05-14"
 description = "SwiftUIでアプリ起動時に画面を遷移させる"
-tags = [
-    "Swift",
-    "SwiftUI"
-]
-categories = [
-    "Swift",
-    "SwiftUI"
-]
+tags = ["iOS", "Xcode"]
+categories = ["iOS", "Xcode"]
 archives = "2020/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

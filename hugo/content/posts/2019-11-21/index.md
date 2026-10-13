@@ -3,14 +3,9 @@ title =  "TabViewを使って画面を切り替える（SwiftUI）"
 url = "2019-11-21"
 date = "2019-11-21"
 description = "TabViewを使って画面を切り替える（SwiftUI）"
-tags = [
-    "iOS", "Swift", "SwiftUI"
-]
-categories = [
-    "iOS", "Swift", "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift", "SwiftUI"]
 archives = "2019/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +24,40 @@ TabViewを使って画面を切り替えるサンプルです。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako ef054d99aeca5cdbc6ab0714ba227fc3 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        TabView {
+            Text("The First Tab")
+                .tabItem {
+                    Image(systemName: "1.square.fill")
+                    Text("First")
+            }
+            Text("Another Tab")
+                .tabItem {
+                    Image(systemName: "2.square.fill")
+                    Text("Second")
+            }
+            Text("The Last Tab")
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                    Text("Third")
+            }
+        }
+        .font(.headline)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

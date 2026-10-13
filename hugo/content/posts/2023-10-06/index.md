@@ -3,14 +3,9 @@ title = "SwiftUIでNavigationViewを使いラージタイトルを表示する"
 url = "2023-10-06"
 date = "2023-10-06"
 description = "SwiftUIでNavigationViewを使いラージタイトルを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -20,4 +15,31 @@ SwiftUIでNavigationViewを使いラージタイトルを表示する方法で�
 
 <img src="1.png" width="300px" alt="SwiftUIでNavigationViewを使いラージタイトルを表示する">
 
-{{< gist takoikatakotako 77246d6e46c8319e2208ca39f2f22d84 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        NavigationStack {
+            VStack {
+                Image(.icon)
+                    .resizable()
+                    .frame(width: 150, height: 150)
+
+                Text("Snorlax is the most plpular Pokemon")
+            }
+            .navigationBarTitleDisplayMode(.large)
+            .navigationTitle("Snorlax")
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

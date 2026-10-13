@@ -3,14 +3,9 @@ title = "EC2インスタンスのバックアップを作成する（AMI）"
 url = "2022-07-12"
 date = "2022-07-12"
 description = "EC2インスタンスのバックアップを作成する（AMI）"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title =  "S3に静的ファイルを置いてインターネットに公開す�
 url = "2022-01-07"
 date = "2022-01-07"
 description = "S3に静的ファイルを置いてインターネットに公開する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,16 +3,9 @@ title =  "Dockerイメージを作成してECSで動かす"
 url = "2022-06-11"
 date = "2022-06-11"
 description = "Dockerイメージを作成してECSで動かす"
-tags = [
-  "Docker",
-  "AWS"
-]
-categories = [
-  "Docker",
-  "AWS"
-]
+tags = ["AWS", "Docker"]
+categories = ["AWS", "Docker"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

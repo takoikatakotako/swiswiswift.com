@@ -3,14 +3,9 @@ title =  "SwiftUIでButton内の画像の色を変えない"
 url = "2020-02-24"
 date = "2020-02-24"
 description = "SwiftUIでButton内の画像の色を変えない"
-tags = [
-    "Swift"
-]
-categories = [
-    "Swift"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["Swift"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -30,4 +25,34 @@ SwiftUIでButton内の画像の色を変えない方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 5f965173af83b27d15e60f65ef0031a5 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    
+    var body: some View {
+        Button(action: {
+            print("Tapped")
+        }) {
+            Image("icon")
+                .resizable()
+                .renderingMode(.original)
+                .frame(width: 32, height: 32)
+            
+            Text("Tap Me!!")
+                .foregroundColor(Color.black)
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

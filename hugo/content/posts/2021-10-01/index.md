@@ -3,14 +3,9 @@ title =  "MapViewのタップした箇所に黒丸を描画する"
 url = "2021-10-01"
 date = "2021-10-01"
 description = "MapViewのタップした箇所に黒丸を描画する"
-tags = [
-  "iOS"
-]
-categories = [
-  "iOS"
-]
+tags = ["iOS", "Swift", "UIKit"]
+categories = ["iOS"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 
@@ -28,5 +23,50 @@ MapViewのタップした箇所に黒丸を描画する方法です。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako 99e36641ed40aab5a01af63acc4cb239 >}}
+<!--more-->
+
+**ViewController.swift**
+
+```swift
+import UIKit
+import MapKit
+
+class ViewController: UIViewController {
+    let mapView = MKMapView()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+  
+        let tapGestureRecognizer = UITapGestureRecognizer()
+        tapGestureRecognizer.addTarget(self, action: #selector(onTap(sender:)))
+        
+        mapView.addGestureRecognizer(tapGestureRecognizer)
+        mapView.frame = view.bounds
+        mapView.delegate = self
+        view.addSubview(mapView)
+    }
+
+    @objc func onTap(sender: UITapGestureRecognizer) {
+        let tapPoint = sender.location(in: mapView)
+        let location = mapView.convert(tapPoint, toCoordinateFrom: mapView)
+        
+        let circle = MKCircle(center: location, radius: 10000)
+        mapView.addOverlay(circle)
+    }
+}
+
+extension ViewController: MKMapViewDelegate {
+    public func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        if let circle = overlay as? MKCircle {
+            let circleRenderer = MKCircleRenderer(circle: circle)
+            circleRenderer.strokeColor = .black
+            circleRenderer.fillColor = .black
+            circleRenderer.lineWidth = 2.0
+            return circleRenderer
+        }
+        return MKOverlayRenderer()
+    }
+}
+```
+
 

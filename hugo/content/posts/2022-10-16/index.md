@@ -3,14 +3,9 @@ title = "lsblk（LPIC）"
 url = "2022-10-16"
 date = "2022-10-16"
 description = "lsblk（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

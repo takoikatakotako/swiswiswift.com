@@ -3,18 +3,9 @@ title =  "curlでLambdaの関数URLにデータ付きでリクエストを送る
 url = "2022-07-01"
 date = "2022-07-01"
 description = "curlでLambdaの関数URLにデータ付きでリクエストを送る"
-tags = [
-  "AWS",
-  "Python",
-  "JavaScript"
-]
-categories = [
-  "AWS",
-  "Python",
-  "JavaScript"
-]
+tags = ["AWS", "Python"]
+categories = ["AWS", "Python"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

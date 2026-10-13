@@ -3,14 +3,9 @@ title =  "API Gatewayに独自ドメインを設定する"
 url = "2022-03-09"
 date = "2022-03-09"
 description = "API Gatewayに独自ドメインを設定する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2022/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

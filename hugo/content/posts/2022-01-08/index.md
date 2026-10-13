@@ -3,14 +3,9 @@ title =  "全画面にするとChormeのタブが表示されない"
 url = "2022-01-08"
 date = "2022-01-08"
 description = "全画面にするとChormeのタブが表示されない"
-tags = [
-  "Mac"
-]
-categories = [
-  "Mac"
-]
+tags = ["macOS"]
+categories = ["macOS"]
 archives = "2022/01"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "SwiftUIで画像をリサイズして表示する（fit）"
 url = "2023-10-01"
 date = "2023-10-01"
 description = "SwiftUIで画像をリサイズして表示する（fit）"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -21,4 +16,25 @@ SwiftUIで画像をリサイズして表示させる方法です。
 
 <img src="1.png" width="300px" alt="画像をリサイズして表示（fit）">
 
-{{< gist takoikatakotako 6caae5158db6105f2c20aaa4f67ae721 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Image(.icon)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 150, height: 200)
+            .background(Color.red)
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

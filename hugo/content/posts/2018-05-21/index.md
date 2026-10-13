@@ -3,14 +3,9 @@ title = "Appleのエンジニアさんにコードレベルの質問を送って
 url = "2018-05-21"
 date = "2018-05-21"
 description = "Appleのエンジニアさんにコードレベルの質問を送ってみた"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS"]
+categories = ["iOS"]
 archives = "2018/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "Postfix,Exim,Sendmail,MTA,newaliases,etc（LPIC）"
 url = "2022-12-27"
 date = "2022-12-27"
 description = "Postfix,Exim,Sendmail,MTA,newaliases,etc（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

@@ -3,14 +3,9 @@ title = "SwiftUIでシートを表示し、プッシュ遷移後にシートを�
 url = "2023-11-25"
 date = "2023-11-25"
 description = "SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,30 @@ SwiftUIでシートを表示し、プッシュ遷移後にシートを閉じる�
 
 <img src="2023-11-25.gif" width="300px" alt="wiftUIでシートを表示し、プッシュ遷移後にシートを閉じる">
 
-{{< gist takoikatakotako 0720cf28d68ad661a25972f89bac813b >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var showingSheet: Bool = false
+
+    var body: some View {
+        Button(action: {
+            showingSheet = true
+        }, label: {
+            Text("ShowSheet")
+        })
+        .sheet(isPresented: $showingSheet) {
+            FirstSheet(showingSheet: $showingSheet)
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+

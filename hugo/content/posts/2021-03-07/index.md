@@ -3,16 +3,9 @@ title =  "SwiftUIのTextFieldで表示するキーボードを指定する"
 url = "2021-03-07"
 date = "2021-03-07"
 description = "SwiftUIのTextFieldで表示するキーボードを指定する"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -28,5 +21,28 @@ SwiftUIのTextFieldで表示するキーボードを指定する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 227dc0227cab09378ab979d55a70c28c >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var numberString = ""
+    var body: some View {
+        TextField("Input Number", text: $numberString)
+            .keyboardType(.decimalPad)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

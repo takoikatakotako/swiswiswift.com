@@ -3,14 +3,9 @@ title =  "Elmで配列を繰り返して表示する"
 url = "2021-04-06"
 date = "2021-04-06"
 description = "Elmで配列を繰り返して表示する"
-tags = [
-  "Elm"
-]
-categories = [
-  "Elm"
-]
+tags = ["Elm"]
+categories = ["Elm"]
 archives = "2021/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -27,5 +22,41 @@ Stringの配列の内容を繰り返して表示しています。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 9e626a0160584779587609f7741f3bbe >}}
+<!--more-->
+
+**Main.elm**
+
+```elm
+module Main exposing (main)
+
+import Html exposing (..)
+import Html.Attributes exposing (..)
+
+
+type alias Model =
+    List String
+
+
+initialModel : Model
+initialModel =
+    [ "Snorlax", "Slowpoke", "Psyduck", "Gengar" ]
+
+
+liComponent : String -> Html msg
+liComponent title =
+    li [] [ text title ]
+
+
+view : Model -> Html msg
+view model =
+    div []
+        [ ul [] (List.map liComponent model)
+        ]
+
+
+main : Html msg
+main =
+    view initialModel
+```
+
 

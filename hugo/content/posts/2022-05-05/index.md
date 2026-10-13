@@ -1,16 +1,11 @@
 +++
 title =  "SwiftでSetから要素を削除する"
-url = "2022-05-06"
-date = "2022-05-06"
+url = "2022-05-05"
+date = "2022-05-05"
 description = "SwiftでSetから要素を削除する"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

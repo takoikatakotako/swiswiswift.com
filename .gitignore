@@ -1,0 +1,5 @@
+.DS_Store
+/hugo/public/
+/hugo/resources/
+/hugo/.hugo_build.lock
+/.hugo_cache/

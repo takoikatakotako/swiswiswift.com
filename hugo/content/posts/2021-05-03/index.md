@@ -3,14 +3,9 @@ title =  "waitコマンドで複数の処理の完了を待つ"
 url = "2021-05-03"
 date = "2021-05-03"
 description = "waitコマンドで複数の処理の完了を待つ"
-tags = [
-  "Shell"
-]
-categories = [
-  "Shell"
-]
+tags = ["Bash", "Shell"]
+categories = ["Shell"]
 archives = "2021/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -24,5 +19,30 @@ waitコマンドで複数の処理の完了を待つ方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 93fccccfc0a90a2d6f5a51c440e752fc >}}
+<!--more-->
+
+**script.sh**
+
+```bash
+#!/bin/bash
+
+echo "Echo Command" &
+sh sleep.sh
+wait
+
+echo "Finish!!"
+```
+
+
+**sleep.sh**
+
+```bash
+#!/bin/bash
+
+echo "Sleep Start"
+sleep 10
+echo "Sleep Finish"
+
+```
+
 

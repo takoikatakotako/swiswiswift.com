@@ -3,14 +3,9 @@ title =  "iOSで実機ビルドだと動けどTestFlightから配信すると動
 url = "2021-07-05"
 date = "2021-07-05"
 description = "iOSで実機ビルドだと動けどTestFlightから配信すると動かない"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["iOS", "Xcode"]
+categories = ["iOS", "Xcode"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

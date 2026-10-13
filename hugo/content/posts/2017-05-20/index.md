@@ -3,14 +3,9 @@ title = "FizzBuzz(C)"
 url = "2017-05-20"
 date = "2017-05-20"
 description = "FizzBuzz(C)"
-tags = [
-    "C",
-]
-categories = [
-    "C",
-]
+tags = ["C"]
+categories = ["C"]
 archives = "2017/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +20,27 @@ FizzBuzzをCで解きました。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 82786f56c79ee0935b29c24c14b797a9 >}}
+<!--more-->
+
+**fizzbuzz.c**
+
+```c
+#include <stdio.h>
+int main(void){
+
+    int i;
+    for(i=0;i<20;i++){
+        if (i % 3 == 0 && i % 5 == 0) {
+            printf("FizzBuzz\n");
+        } else if (i % 3 == 0) {
+            printf("Fizz\n");
+        } else if (i % 5 == 0) {
+            printf("Buzz\n");
+        } else {
+            printf("%d\n", i);
+        }
+    }
+    return 0;
+}
+```
+

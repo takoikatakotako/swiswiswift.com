@@ -3,14 +3,9 @@ title = "xz,unxz（LPIC）"
 url = "2022-07-20"
 date = "2022-07-20"
 description = "xz,unxz（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/07"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

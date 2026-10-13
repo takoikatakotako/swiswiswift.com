@@ -3,14 +3,9 @@ title = "Filesystem Hierarcchy Standard（LPIC）"
 url = "2022-08-20"
 date = "2022-08-20"
 description = "Filesystem Hierarcchy Standard（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

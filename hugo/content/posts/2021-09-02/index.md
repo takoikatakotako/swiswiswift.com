@@ -3,14 +3,9 @@ title =  "Golangで構造体をJSONファイルとして出力する"
 url = "2021-09-02"
 date = "2021-09-02"
 description = "Golangで構造体をJSONファイルとして出力する"
-tags = [
-  "Golang"
-]
-categories = [
-  "Golang"
-]
+tags = ["Go"]
+categories = ["Go"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 
@@ -25,4 +20,27 @@ Golangで構造体をJSONファイルとして出力する。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako f1de29ee8dab098dc6f1e94683ca8aeb >}}
+<!--more-->
+
+**main.go**
+
+```go
+package main
+
+import (
+	"encoding/json"
+	"io/ioutil"
+)
+
+type Pokemon struct {
+	Id   int    `json:"id"`
+	Name string `json:"name"`
+}
+
+func main() {
+	pokemon := Pokemon{143, "Snorlax"}
+	file, _ := json.MarshalIndent(pokemon, "", " ")
+	_ = ioutil.WriteFile("pokemon.json", file, 0644)
+}
+```
+

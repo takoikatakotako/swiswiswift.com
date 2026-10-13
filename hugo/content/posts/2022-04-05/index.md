@@ -3,16 +3,9 @@ title =  "SwiftUIで画像をピンチで拡大する（MagnificationGesture）"
 url = "2022-04-05"
 date = "2022-04-05"
 description = "SwiftUIで画像をピンチで拡大する（MagnificationGesture）"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2022/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -36,5 +29,28 @@ MagnificationGestureを使った方法で画像をピンチで拡大します。
 <!-- Google Ads -->
 {{< google-ads >}}
 
-{{< gist takoikatakotako 2c80da179839a3767cd87f7646784885 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var scale: CGFloat = 1.0
+    
+    var body: some View {
+        Image("icon")
+            .resizable()
+            .scaleEffect(scale)
+            .frame(width: 200, height: 200)
+            .gesture(MagnificationGesture()
+                .onChanged { value in
+                    scale = value.magnitude
+                }
+            )
+    }
+}
+```
+
 

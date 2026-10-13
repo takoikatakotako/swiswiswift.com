@@ -3,14 +3,9 @@ title = "mkfs（LPIC）"
 url = "2022-09-20"
 date = "2022-09-20"
 description = "mkfs（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2021/09"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

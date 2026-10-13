@@ -3,16 +3,9 @@ title =  "SwiftUIでフルスクリーンモーダルを表示する（iOS14以�
 url = "2021-02-02"
 date = "2021-02-02"
 description = "SwiftUIでフルスクリーンモーダルを表示する（iOS14以上）"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/02"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -34,4 +27,44 @@ iOS13でフルスクリーンモーダルを表示させたい場合はこの記
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako a3ac6937cd6da708b90ed6cdb2f8a30f >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State private var showingModal = false
+    
+    var body: some View {
+        Button("Show Modal") {
+            showingModal = true
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+        .background(Color(UIColor.lightGray))
+        .edgesIgnoringSafeArea(.all)
+        .fullScreenCover(isPresented: $showingModal, content: FullScreenModalView.init)
+    }
+}
+
+struct FullScreenModalView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
+    var body: some View {
+        Button("Dismiss Modal") {
+            presentationMode.wrappedValue.dismiss()
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+        .background(Color.white)
+        .edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

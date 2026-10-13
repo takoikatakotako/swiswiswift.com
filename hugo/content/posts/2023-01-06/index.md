@@ -3,14 +3,9 @@ title = "タイムゾーン,etc（LPIC）"
 url = "2023-01-06"
 date = "2023-01-06"
 description = "タイムゾーン,etc（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

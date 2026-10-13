@@ -3,14 +3,9 @@ title = "ReactNativeでボタンを表示する"
 url = "2018-08-12"
 date = "2018-08-12"
 description = "ReactNativeでボタンを表示する"
-tags = [
-    "ReactNative",
-]
-categories = [
-    "ReactNative",
-]
+tags = ["React Native"]
+categories = ["React Native"]
 archives = "2018/08"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,4 +24,42 @@ react-native: 0.56.0
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako f98874921a48e6f070ccc3c3d90367d0 >}}
+<!--more-->
+
+**index.js**
+
+```javascript
+import React, {Component} from 'react';
+import {AppRegistry} from 'react-native';
+import {
+    StyleSheet,
+    Button,
+    View,
+    Alert
+} from 'react-native';
+import {name as appName} from './app.json';
+
+export class App extends Component {
+
+    render() {
+        return (
+            <View style={styles.container}>
+                <Button
+                    color="red"
+                    title={'Press Me'}
+                    onPress={()=>Alert.alert('Hello')}
+                />
+            </View>
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+});
+
+AppRegistry.registerComponent(appName, () => App);
+```
+

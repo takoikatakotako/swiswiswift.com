@@ -3,14 +3,9 @@ title =  "Swiftで16進数を使う"
 url = "2022-05-09"
 date = "2022-05-09"
 description = "Swiftで16進数を使う"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2022/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

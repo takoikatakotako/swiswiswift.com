@@ -3,16 +3,9 @@ title =  "シェル変数と環境変数"
 url = "2022-06-10"
 date = "2022-06-10"
 description = "シェル変数と環境変数"
-tags = [
-  "LPIC",
-  "Linux"
-]
-categories = [
-  "LPIC",
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux", "LPIC"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

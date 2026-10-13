@@ -3,14 +3,9 @@ title =  "シェルスクリプトでディレクトリにあるファイル名�
 url = "2020-11-03"
 date = "2020-11-03"
 description = "シェルスクリプトでディレクトリにあるファイル名の一覧でループする"
-tags = [
-  "bash"
-]
-categories = [
-  "bash"
-]
+tags = ["Bash", "Shell"]
+categories = ["Bash"]
 archives = "2020/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +20,13 @@ aliases = ["migrate-from-jekyl"]
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako b2b8701914225b5a85fca9e4091e2558 >}}
+<!--more-->
+
+**command.sh**
+
+```bash
+for fileName in $( ls . ); do
+  echo "${fileName}"
+done
+```
+

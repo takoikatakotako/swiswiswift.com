@@ -3,16 +3,9 @@ title =  "Springを使ってお問い合わせフォームを作るその２"
 url = "2021-10-05"
 date = "2021-10-05"
 description = "Springを使ってお問い合わせフォームを作るその２"
-tags = [
-  "Docker",
-  "MySQL"
-]
-categories = [
-  "Docker",
-  "MySQL"
-]
+tags = ["Docker", "Java", "MySQL", "Spring"]
+categories = ["Docker", "MySQL"]
 archives = "2021/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

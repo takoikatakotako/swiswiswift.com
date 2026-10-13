@@ -3,14 +3,9 @@ title =  "SwiftUIのListでSpacerの部分にもタップ判定をつける"
 url = "2021-04-07"
 date = "2021-04-07"
 description = "SwiftUIのListでSpacerの部分にもタップ判定をつける"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2021/04"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,5 +24,34 @@ SwiftUIのListでSpacerの部分にもタップ判定をつける方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako b038f5ea70c958644f5ff4e4ae1f3a0a >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    let pokemons: [String] = ["Snorlax", "Pikachu", "Slowpoke"]
+    var body: some View {
+        List(pokemons, id: \.self) {pokemon in
+            HStack {
+                Text(pokemon)
+                Spacer()
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                print(pokemon)
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
 

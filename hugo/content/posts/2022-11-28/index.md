@@ -3,14 +3,9 @@ title = "gdisk（LPIC）"
 url = "2022-11-28"
 date = "2022-11-28"
 description = "gdisk（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

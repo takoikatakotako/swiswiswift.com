@@ -3,14 +3,9 @@ title = "Swift3からSwift4への移行時に出る@objc inference warningsを�
 url = "2017-11-25"
 date = "2017-11-25"
 description = "Swift3からSwift4への移行時に出る@objc inference warningsを消す"
-tags = [
-    "iOS",
-]
-categories = [
-    "iOS",
-]
+tags = ["iOS", "Swift"]
+categories = ["iOS"]
 archives = "2017/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

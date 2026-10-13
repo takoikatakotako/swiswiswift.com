@@ -3,14 +3,9 @@ title =  "Xcodeでプロジェクトを作成してGithubにプッシュする"
 url = "2020-12-03"
 date = "2020-12-03"
 description = "Xcodeでプロジェクトを作成してGithubにプッシュする"
-tags = [
-  "Swift"
-]
-categories = [
-  "Swift"
-]
+tags = ["Swift"]
+categories = ["Swift"]
 archives = "2020/12"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

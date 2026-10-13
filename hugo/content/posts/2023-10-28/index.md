@@ -3,14 +3,9 @@ title = "SwiftUIでSheetを表示する"
 url = "2023-10-28"
 date = "2023-10-28"
 description = "SwiftUIでSheetを表示する"
-tags = [
-  "SwiftUI"
-]
-categories = [
-  "SwiftUI"
-]
+tags = ["Swift", "SwiftUI"]
+categories = ["SwiftUI"]
 archives = "2023/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -19,4 +14,58 @@ SwiftUIでSheetを表示する方法です。
 
 <img src="2023-10-28.gif" width="300px" alt="SwiftUIでSheetを表示する">
 
-{{< gist takoikatakotako 03594e29c3a273489472756dc27a8d8b >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State var showingSheet = false
+    var body: some View {
+        VStack {
+            Button(action: {
+                showingSheet = true
+            }) {
+                Text("Tap me!")
+            }
+        }
+        .sheet(isPresented: $showingSheet) {
+            Text("Sheet!!")
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
+
+
+**SecondView.swift**
+
+```swift
+import SwiftUI
+
+struct SecondView: View {
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        VStack {
+            Button(action: {
+                dismiss()
+            }) {
+                Text("Dismiss")
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.white)
+    }
+}
+
+#Preview {
+    SecondView()
+}
+```
+

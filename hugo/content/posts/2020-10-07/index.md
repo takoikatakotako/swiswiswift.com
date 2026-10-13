@@ -3,18 +3,9 @@ title =  "SwiftUIでListの中に複数のNavigationLinkを設置する"
 url = "2020-10-07"
 date = "2020-10-07"
 description = "SwiftUIでListの中に複数のNavigationLinkを設置する"
-tags = [
-  "SwiftUI",
-  "Swift",
-  "iOS"
-]
-categories = [
-  "SwiftUI",
-  "Swift",
-  "iOS"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "Swift", "SwiftUI"]
 archives = "2020/10"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -34,4 +25,65 @@ SwiftUIでListの中に複数のNavigationLinkを設置する方法です。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 0394bc60b3723561d7fd9c50cc00fbb0 >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        NavigationView {
+            List {
+                HStack {
+                    ProgrammaticNavigationView {
+                        Text("View1")
+                    } label: {
+                        Text("Go to View1")
+                    }
+
+                    ProgrammaticNavigationView {
+                        Text("View2")
+                    } label: {
+                        Text("Go to View2")
+                    }
+
+                    ProgrammaticNavigationView {
+                        Text("View3")
+                    } label: {
+                        Text("Go to View3")
+                    }
+                }
+            }
+            .onTapGesture {
+                return
+            }
+        }
+    }
+}
+
+struct ProgrammaticNavigationView<Content>: View where Content: View {
+    let destination: () -> Content
+    let label: () -> Content
+    @State var isActive = false
+    var body: some View {
+        ZStack {
+            Button(action: { isActive = true }) {
+                label()
+            }
+            .buttonStyle(PlainButtonStyle())
+            NavigationLink(destination: destination(), isActive: $isActive) {
+                EmptyView()
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+

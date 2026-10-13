@@ -3,14 +3,9 @@ title =  "AWSでEC2をプライベートサブネットに設置する"
 url = "2022-06-12"
 date = "2022-06-12"
 description = "AWSでEC2をプライベートサブネットに設置する"
-tags = [
-  "AWS"
-]
-categories = [
-  "AWS"
-]
+tags = ["AWS"]
+categories = ["AWS"]
 archives = "2021/06"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

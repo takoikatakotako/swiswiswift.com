@@ -3,14 +3,9 @@ title = "BIOSとUEFI（LPIC）"
 url = "2022-11-12"
 date = "2022-11-12"
 description = "BIOSとUEFI（LPIC）"
-tags = [
-  "Linux"
-]
-categories = [
-  "Linux"
-]
+tags = ["Linux", "LPIC"]
+categories = ["Linux"]
 archives = "2022/11"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>

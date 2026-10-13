@@ -3,16 +3,9 @@ title =  "QGridを使ってCollectionViewを実装する"
 url = "2021-03-01"
 date = "2021-03-01"
 description = "QGridを使ってCollectionViewを実装する"
-tags = [
-  "iOS",
-  "SwiftUI"
-]
-categories = [
-  "iOS",
-  "SwiftUI"
-]
+tags = ["iOS", "Swift", "SwiftUI"]
+categories = ["iOS", "SwiftUI"]
 archives = "2020/03"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -29,5 +22,58 @@ iOS13のSwiftUIではCollectionViewに相当するものがありません。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 6667e85f0e9d00254ed5fc1dad7ee7ea >}}
+<!--more-->
+
+**ContentView.swift**
+
+```swift
+import SwiftUI
+import QGrid
+
+struct ContentView: View {
+    @State var people: [Pokemon] = [
+        Pokemon(name: "Pikachu", imageName: "pikachu"),
+        Pokemon(name: "Slowpoke", imageName: "slowpoke"),
+        Pokemon(name: "Bellsprout", imageName: "bellsprout"),
+        Pokemon(name: "Ditto", imageName: "ditto"),
+        Pokemon(name: "Snorlax", imageName: "snorlax"),
+        Pokemon(name: "Eevee", imageName: "eevee"),
+        Pokemon(name: "Magikarp", imageName: "magikarp"),
+    ]
+    var body: some View {
+        QGrid(people, columns: 2) { GridCell(person: $0) }
+            .ignoresSafeArea()
+    }
+}
+
+struct Pokemon: Identifiable {
+    var id: String {
+        return imageName
+    }
+    let name: String
+    let imageName: String
+}
+
+struct GridCell: View {
+    var person: Pokemon
+    var body: some View {
+        VStack() {
+            Image(person.imageName)
+                .resizable()
+                .scaledToFit()
+                .shadow(color: .primary, radius: 6)
+                .padding([.horizontal, .top], 6)
+            Text(person.name).lineLimit(1)
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+```
+
 

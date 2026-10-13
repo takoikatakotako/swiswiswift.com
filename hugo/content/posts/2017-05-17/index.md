@@ -3,14 +3,9 @@ title = "Array(Ruby)"
 url = "2017-05-17"
 date = "2017-05-17"
 description = "Array(Ruby)"
-tags = [
-    "iOS",
-]
-categories = [
-    "Ruby",
-]
+tags = ["Ruby"]
+categories = ["Ruby"]
 archives = "2017/05"
-aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
@@ -25,4 +20,33 @@ C++ への移行タイミングをいつにしようか悩んでいます。
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-{{< gist takoikatakotako 23043db0f0a451e49f2f752c2b6ec854 >}}
+<!--more-->
+
+**ruby_array.rb**
+
+```ruby
+
+#要素の作成
+arr = ['apple', 'orange', 'rice','water']
+
+#二つ目の要素にアクセス -> orange
+puts arr[1]
+
+#要素の置換 -> pineapple
+arr[2] = "pineapple"
+puts arr[2]
+
+#長さの取得 -> 4
+puts arr.length
+
+#空かどうかの確認 -> false
+puts arr.empty?
+
+#ソート  -> apple orange pineapple water
+puts arr.sort
+
+#要素の追加　-> apple orange pineapple water grape
+arr = arr.push("grape")
+puts arr
+```
+
