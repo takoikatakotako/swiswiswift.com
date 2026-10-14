@@ -19,6 +19,61 @@ img {
     max-width: 100%;
 }
 
+/* Androidの画面録画に、画像を加工せず端末の枠を表示する。 */
+.phone-demo {
+    position: relative;
+    width: 300px;
+    max-width: calc(100% - 6px);
+    margin: 1.5rem 0;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #525256;
+    border-radius: 36px;
+    background: #171719;
+    box-shadow: inset 0 0 0 2px #303034;
+}
+.phone-demo::before,
+.phone-demo::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 3px;
+    border-radius: 0 2px 2px 0;
+    background: #303034;
+}
+.phone-demo::before {
+    top: 20%;
+    height: 42px;
+}
+.phone-demo::after {
+    top: 32%;
+    height: 65px;
+}
+.phone-demo__screen {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 26px;
+}
+.phone-demo__screen::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    width: 11px;
+    height: 11px;
+    transform: translateX(-50%);
+    border: 2px solid #28282c;
+    border-radius: 50%;
+    background: #08080a;
+    pointer-events: none;
+}
+.phone-demo__screen img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .highlight pre,
 pre {
     max-width: 100%;

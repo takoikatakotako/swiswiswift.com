@@ -1,0 +1,11 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- with .Page.Resources.Get $src -}}
+<figure class="phone-demo">
+  <a class="phone-demo__screen" href="{{ .RelPermalink }}" aria-label="{{ $alt }}（GIFを開く）">
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  </a>
+</figure>
+{{- else -}}
+  {{- errorf "phone-demo: image %q not found in %s" $src .Page.File.Path -}}
+{{- end -}}
