@@ -1,0 +1,10 @@
+{{- if and hugo.IsProduction (not hugo.IsServer) site.Params.adsense.enabled -}}
+  {{- $publisherID := site.Params.adsense.publisherID -}}
+  {{- if not (findRE `^ca-pub-[0-9]{16}$` $publisherID) -}}
+    {{- errorf "AdSense publisherID must be a ca-pub- ID with 16 digits" -}}
+  {{- end -}}
+<meta name="google-adsense-account" content="{{ $publisherID }}">
+  {{- if and .IsPage (eq .Section "posts") (ne .Params.ads false) }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $publisherID }}" crossorigin="anonymous"></script>
+  {{- end -}}
+{{- end -}}
