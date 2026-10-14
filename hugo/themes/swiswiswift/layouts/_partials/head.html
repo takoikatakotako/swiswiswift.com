@@ -17,3 +17,7 @@
 
 <!-- css/style.css -->
 {{ partialCached "head/css.html" . }}
+
+{{ if and hugo.IsProduction (not hugo.IsServer) }}
+  {{ partial "google_analytics.html" . }}
+{{ end }}
