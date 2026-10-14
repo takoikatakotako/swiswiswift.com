@@ -37,6 +37,15 @@ brew install ffmpeg
 
 枠の画像は画面部分を透明にしておきます。別の機種や録画サイズを使う場合は、画面部分の大きさと位置が録画に合う枠・マスクを用意してください。
 
+今回使った枠はこちらです。市松模様で見える画面部分は透明で、合成すると録画した画面が入ります。市松模様は表示用の背景です。
+
+<figure id="frame-preview" style="margin:1.5em 0">
+  <a href="frame.png" download style="display:inline-block;padding:12px;max-width:100%;box-sizing:border-box;background-color:#fff;background-image:conic-gradient(#ddd 25%,#fff 0 50%,#ddd 0 75%,#fff 0);background-size:16px 16px;background-repeat:repeat">
+    <img src="frame.png" width="220" alt="画面部分が透明なiPhoneの端末フレーム" loading="lazy" style="display:block;max-width:100%;height:auto">
+  </a>
+  <figcaption>端末の枠（1326 × 2676）。画像をクリックすると合成用のPNGをダウンロードできます。</figcaption>
+</figure>
+
 今回の枠には高解像度版を使用しています。[小さい枠のPNG（220 × 444）](frame-small.png)もありますが、大きい動画への合成には高解像度版を使うと輪郭がぼやけにくくなります。
 
 ## シミュレーターの画面を録画する
