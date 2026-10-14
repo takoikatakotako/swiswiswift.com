@@ -385,6 +385,14 @@ iframe {
     margin-top: 6rem;
     color: #fff;
 }
+.copyright a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: .2em;
+}
+.copyright p {
+    margin-bottom: .75rem;
+}
 
 
 /* --------------------------------------------------------------

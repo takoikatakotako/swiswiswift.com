@@ -9,6 +9,10 @@ theme = 'swiswiswift'
 [privacy.googleAnalytics]
   respectDoNotTrack = true
 
+[params.adsense]
+  enabled = true
+  publisherID = 'ca-pub-5587141252700968'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

@@ -21,3 +21,5 @@
 {{ if and hugo.IsProduction (not hugo.IsServer) }}
   {{ partial "google_analytics.html" . }}
 {{ end }}
+
+{{ partial "adsense.html" . }}
