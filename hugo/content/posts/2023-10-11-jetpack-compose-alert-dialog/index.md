@@ -11,12 +11,12 @@ archives = "2023/10"
 
 ボタンでダイアログを開き、OKボタンで閉じる例です。
 
+<!--more-->
+
 <video controls loop muted playsinline preload="metadata" width="300" style="max-width:100%;height:auto" poster="poster.png">
   <source src="movie.mp4" type="video/mp4">
   <a href="movie.mp4">実行動画をダウンロード</a>
 </video>
-
-<!--more-->
 
 ## 実装のポイント
 

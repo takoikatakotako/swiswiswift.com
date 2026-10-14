@@ -11,9 +11,9 @@ archives = "2023/10"
 
 画像の縦横比を保ちながら、指定した領域に全体が収まるように表示します。
 
-<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像全体が収まるように表示する（ContentScale.Fit）の実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
-
 <!--more-->
+
+<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像全体が収まるように表示する（ContentScale.Fit）の実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
 
 ## 実装のポイント
 

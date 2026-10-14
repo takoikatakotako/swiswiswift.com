@@ -11,9 +11,9 @@ archives = "2023/10"
 
 円形に切り取った画像に、同じCircleShapeの枠線を重ねます。
 
-<a href="screenshot.png"><img src="screenshot.png" width="300" alt="丸い画像に枠を付けるの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
-
 <!--more-->
+
+<a href="screenshot.png"><img src="screenshot.png" width="300" alt="丸い画像に枠を付けるの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
 
 ## 実装のポイント
 

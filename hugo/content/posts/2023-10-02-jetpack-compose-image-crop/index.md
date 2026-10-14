@@ -11,9 +11,9 @@ archives = "2023/10"
 
 画像の縦横比を保ちながら、指定した領域を埋めるように拡大・縮小します。
 
-<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像を領域いっぱいに表示する（ContentScale.Crop）の実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
-
 <!--more-->
+
+<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像を領域いっぱいに表示する（ContentScale.Crop）の実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
 
 ## 実装のポイント
 

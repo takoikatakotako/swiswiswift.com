@@ -11,9 +11,9 @@ archives = "2023/10"
 
 ScaffoldのtopBarにTopAppBarを置き、画面の上部にタイトルを表示します。
 
-<a href="screenshot.png"><img src="screenshot.png" width="300" alt="TopAppBarにタイトルを表示するの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
-
 <!--more-->
+
+<a href="screenshot.png"><img src="screenshot.png" width="300" alt="TopAppBarにタイトルを表示するの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
 
 ## 実装のポイント
 

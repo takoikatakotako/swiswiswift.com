@@ -11,9 +11,9 @@ archives = "2023/10"
 
 画像を正方形の領域に配置し、CircleShapeで円形に切り取ります。
 
-<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像を丸く切り取るの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
-
 <!--more-->
+
+<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像を丸く切り取るの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
 
 ## 実装のポイント
 

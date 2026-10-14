@@ -11,9 +11,9 @@ archives = "2023/10"
 
 Rowの中でSpacerに同じweightを指定し、画像の間と両端の余白を均等にします。
 
-<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像を等間隔で横に並べるの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
-
 <!--more-->
+
+<a href="screenshot.png"><img src="screenshot.png" width="300" alt="画像を等間隔で横に並べるの実行画面" loading="lazy" style="max-width:100%;height:auto"></a>
 
 ## 実装のポイント
 
