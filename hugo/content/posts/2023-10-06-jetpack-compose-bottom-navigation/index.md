@@ -13,10 +13,7 @@ Material 3のNavigationBarとNavigation Composeを組み合わせ、3つの画�
 
 <!--more-->
 
-<video controls loop muted playsinline preload="metadata" width="300" style="max-width:100%;height:auto" poster="poster.png">
-  <source src="movie.mp4" type="video/mp4">
-  <a href="movie.mp4">実行動画をダウンロード</a>
-</video>
+{{< phone-demo src="demo.gif" alt="Jetpack ComposeのNavigationBarで画面を切り替えるの実行例" >}}
 
 ## 実装のポイント
 

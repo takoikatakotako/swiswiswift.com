@@ -18,14 +18,27 @@
 | 2023-10-12 | [Jetpack ComposeでボタンごとにAlertDialogを出し分ける](../hugo/content/posts/2023-10-12-jetpack-compose-multiple-dialogs/index.md) |  |
 | 2026-01-01 | [Jetpack Composeでリストの項目を開いて自動スクロールする](../hugo/content/posts/2026-01-01-jetpack-compose-expandable-list/index.md) | 元プロジェクトのPokemonCardを参照し、1項目ずつ開く簡略版に整理。説明文をサンプル用に短縮。 |
 
-画像・動画は元ファイルをそのままコピーし、記事内の横幅のみ300pxに指定。動画のposterは元動画の0.5秒地点から抽出した。Desktopの素材は削除・変更していない。
+静止画は元ファイルをそのままコピーし、記事内の横幅のみ300pxに指定。元の静止画6枚にはすでにAndroidの枠が入っている。動画7本は横幅288px・8fps・最大64色のGIFへ変換し、`phone-demo`ショートコードでHTML/CSSのAndroid風の枠を付けて表示する。枠は表示用で、GIFに焼き込んでいない。Desktopの素材は削除・変更していない。
+
+## メディアの軽量化
+
+動画7本の合計は13,638,953バイトから2,565,286バイトへ、約81%削減。記事バンドルから不要なMP4とposterのPNGを除去し、デプロイするメディアをGIFに置き換えた。元動画はDesktopに保持している。
+
+```sh
+ffmpeg -i input.mp4 \
+  -filter_complex \
+  "fps=8,scale=288:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=64:reserve_transparent=0[p];[b][p]paletteuse=dither=none:diff_mode=rectangle" \
+  -an -loop 0 demo.gif
+```
+
+画面内の文字が読めることを確認し、ディザなしで色数を抑えた。`phone-demo`は元の縦横比を維持し、画像サイズを指定して表示時のレイアウトのずれを抑えている。
 
 ## 検証
 
 - Hugo 0.167.0でproductionビルドを実行し、13本のURL・サイトマップ・記事内リンクを確認。
-- 全アセットについて元ファイル・記事バンドル・生成先のSHA-256が一致することを確認。
+- 静止画について元ファイル・記事バンドル・生成先のSHA-256が一致することを確認。生成GIFについては記事バンドルと生成先のSHA-256の一致、フレーム数・長さ・最後までのデコードを確認。
 - 記事のKotlinコードブロックとダウンロード用の.ktが一致することを確認。
 - 元のSwiSwiKotlinプロジェクトを一時ディレクトリにコピーし、13本のソースをクラス・関数名の衝突を避けて配置。`./gradlew --no-daemon :app:compileDebugKotlin`が成功。AGP 8.5.0、Kotlin 1.9.0、Compose BOM 2024.04.01、Navigation Compose 2.7.7を使用し、インストール済みSDKに合わせてcompileSdkは35とした。
-- 元動画7本を最後までデコードし、Chromeでもリスト動画の再生を確認。画像記事とタグ一覧をローカルで確認。
+- 元動画7本を最後までデコードし、Chromeでもリスト動画の再生を確認。その後GIFへ差し替え、枠付きGIF・画像記事・タグ一覧をローカルで確認。
 
 Kotlinの確認はコンパイルまで。新しいコードを端末やエミュレーターで実行した検証ではない。記事の画像・動画は保存されていた元サンプルのもの。

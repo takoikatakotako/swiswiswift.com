@@ -13,10 +13,7 @@ rememberとmutableStateOfで文字列を保持し、ボタンから値を変更�
 
 <!--more-->
 
-<video controls loop muted playsinline preload="metadata" width="300" style="max-width:100%;height:auto" poster="poster.png">
-  <source src="movie.mp4" type="video/mp4">
-  <a href="movie.mp4">実行動画をダウンロード</a>
-</video>
+{{< phone-demo src="demo.gif" alt="Jetpack Composeでボタンを押したら文字を変えるの実行例" >}}
 
 ## 実装のポイント
 
