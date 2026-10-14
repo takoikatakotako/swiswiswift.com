@@ -31,6 +31,7 @@ make build
 - `docs/migration.md`: 移行範囲と既存データの修正点。
 - `docs/tagging.md`: タグの表記・分類ルール。
 - `docs/search-console.md`: Search Consoleの管理アカウント確認・サイトマップ送信手順。
+- `docs/analytics.md`: GA4の測定ID・本番限定の計測・動作確認手順。
 
 コードは記事内のMarkdownコードブロックで管理します。Gistから取得したコードはファイル名ごとに表示し、コード表示にGitHubへのアクセスは必要ありません。元のGistは残しています。
 

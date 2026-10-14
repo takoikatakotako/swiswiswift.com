@@ -3,6 +3,12 @@ locale = 'ja'
 title = 'すいすいSwift'
 theme = 'swiswiswift'
 
+[services.googleAnalytics]
+  id = 'G-BHT15MJHCR'
+
+[privacy.googleAnalytics]
+  respectDoNotTrack = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
