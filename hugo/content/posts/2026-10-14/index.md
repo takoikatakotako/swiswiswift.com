@@ -78,6 +78,15 @@ ffmpeg -i recording.mp4 \
 
 角丸の外側が透明な `screen-mask.png` から、`alphaextract` で透明度を取り出し、録画した動画の透明度として使用します。
 
+今回使ったマスクはこちらです。黒く見える不透明な部分に録画した画面を残し、角の透明な部分は隠します。透明部分が分かるよう、表示の背景に市松模様を敷いています。
+
+<figure style="margin:1.5em 0">
+  <a href="screen-mask.png" download style="display:inline-block;padding:12px;max-width:100%;box-sizing:border-box;background-color:#fff;background-image:conic-gradient(#ddd 25%,#fff 0 50%,#ddd 0 75%,#fff 0);background-size:16px 16px;background-repeat:repeat">
+    <img src="screen-mask.png" width="220" alt="画面を残す部分が黒く、四隅が透明な角丸マスク" loading="lazy" style="display:block;max-width:100%;height:auto">
+  </a>
+  <figcaption>角丸マスク（1179 × 2556）。画像をクリックすると合成用のPNGをダウンロードできます。</figcaption>
+</figure>
+
 このマスクは黒い画像ですが、形状はRGBの色ではなくアルファチャンネルに入っています。黒い部分をそのまま `alphamerge` に渡すと画面まで透明になるため、先に透明度を取り出します。マスクの幅は録画より1px大きいので、録画と同じ1178 × 2556へ揃えます。
 
 角丸・余白・枠の合成をまとめて行うコマンドです。
