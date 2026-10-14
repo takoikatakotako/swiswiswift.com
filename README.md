@@ -30,6 +30,7 @@ make build
 - `docs/gist-migration.json`: Gistの取得リビジョン、コードのSHA-256、移行先記事の対応表。
 - `docs/migration.md`: 移行範囲と既存データの修正点。
 - `docs/tagging.md`: タグの表記・分類ルール。
+- `docs/search-console.md`: Search Consoleの管理アカウント確認・サイトマップ送信手順。
 
 コードは記事内のMarkdownコードブロックで管理します。Gistから取得したコードはファイル名ごとに表示し、コード表示にGitHubへのアクセスは必要ありません。元のGistは残しています。
 
